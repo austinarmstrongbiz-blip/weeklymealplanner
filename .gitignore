@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+.venv/
+venv/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Archive folder — keep locally, don't push
+archive/
+
+# Large generated PDFs — keep locally, don't push to GitHub
+weekly/**/*.pdf
+
+# AnyList text exports — keep locally
+weekly/**/*_AnyList.txt

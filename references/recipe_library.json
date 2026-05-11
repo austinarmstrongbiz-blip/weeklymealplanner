@@ -1,0 +1,5286 @@
+{
+  "description": "Above Kitch \u2014 Permanent Recipe Library. Add new recipes each week. Never delete \u2014 use 'retired: true' to remove from rotation.",
+  "recipes": [
+    {
+      "id": "strawberry-lemon-yogurt-bowl",
+      "name": "Strawberry Lemon Protein Yogurt Bowl",
+      "cuisine": "American / Spring",
+      "meal_type": "breakfast",
+      "prep": "5 min (batch 4 containers Sunday)",
+      "cook": "0 min",
+      "total": "5 min",
+      "spice_level": "None",
+      "serving_note": "4 servings \u2014 batch days",
+      "tags": [
+        "batch-friendly",
+        "grab-and-go",
+        "spring",
+        "no-cook",
+        "highly-rated"
+      ],
+      "equipment": "4 meal prep containers, small zip bags",
+      "macro_strings": {
+        "austin": "525 cal | 44g P | 12g F | 54g C",
+        "cameron": "415 cal | 32g P | 9g F | 44g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 525,
+          "p": 44,
+          "f": 12,
+          "c": 54
+        },
+        "cameron": {
+          "cal": 415,
+          "p": 32,
+          "f": 9,
+          "c": 44
+        }
+      },
+      "ingredients": [
+        {
+          "name": "AUSTIN (per serving)",
+          "qty": null
+        },
+        {
+          "name": "Plain nonfat Greek yogurt",
+          "qty": "1 cup (240g)"
+        },
+        {
+          "name": "Vanilla protein powder",
+          "qty": "1 scoop (30g)"
+        },
+        {
+          "name": "Granola (pantry)",
+          "qty": "1/3 cup"
+        },
+        {
+          "name": "Fresh strawberries, sliced",
+          "qty": "3/4 cup (~100g)"
+        },
+        {
+          "name": "Almond butter",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Raw honey (pantry)",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Fresh lemon zest",
+          "qty": "1/4 tsp"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "CAMERON (per serving)",
+          "qty": null
+        },
+        {
+          "name": "Plain nonfat Greek yogurt",
+          "qty": "3/4 cup (180g)"
+        },
+        {
+          "name": "Vanilla protein powder",
+          "qty": "1 scoop (30g)"
+        },
+        {
+          "name": "Granola (pantry)",
+          "qty": "1/4 cup"
+        },
+        {
+          "name": "Fresh strawberries, sliced",
+          "qty": "3/4 cup"
+        },
+        {
+          "name": "Raw honey",
+          "qty": "1 tsp"
+        }
+      ],
+      "instructions": [
+        "Add Greek yogurt to meal prep container. Add protein powder.",
+        "Whisk together until completely smooth \u2014 no dry powder clumps.",
+        "Seal container. Store strawberries in a small zip bag on top.",
+        "Morning-of: dump berries into yogurt, stir gently. Add granola on top.",
+        "Austin: drizzle almond butter + honey. Add lemon zest if using.",
+        "Optional: mash a few strawberries into the yogurt base for a jam swirl."
+      ],
+      "batch_note": "Whisk yogurt + protein Sunday. Bag strawberries separately \u2014 add granola + berries morning-of so nothing goes soggy. Lasts 5 days refrigerated.",
+      "cameron_note": "Cameron: use 3/4 cup yogurt, skip almond butter. Add 1/4 avocado on the side if she wants healthy fat.",
+      "seasonal_note": "Pittsburgh strawberries start arriving late April from the Strip District \u2014 sweeter and more fragrant than grocery store.",
+      "history": {
+        "first_used": "2026-04-27",
+        "last_used": "2026-04-27",
+        "times_made": 1,
+        "ratings": [
+          {
+            "week": "2026-04-27",
+            "rated_at": "2026-05-05",
+            "austin": 4,
+            "cameron": 4,
+            "notes": "Solid breakfast. Rhubarb version coming this week should be even better."
+          }
+        ],
+        "avg_rating": {
+          "austin": 4.0,
+          "cameron": 4.0,
+          "combined": 4.0
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "turkey-spring-onion-egg-muffins",
+      "name": "Turkey Sausage & Spring Onion Egg Muffins",
+      "cuisine": "American / Spring",
+      "meal_type": "breakfast",
+      "prep": "10 min",
+      "cook": "20 min",
+      "total": "30 min (batch of 12 Sunday)",
+      "spice_level": "Low",
+      "serving_note": "12 muffins \u2014 Austin: 4/serving | Cameron: 3/serving",
+      "tags": [
+        "batch-friendly",
+        "high-protein",
+        "spring",
+        "egg"
+      ],
+      "equipment": "12-cup muffin tin, large mixing bowl, whisk",
+      "macro_strings": {
+        "austin": "530 cal | 44g P | 24g F | 12g C  (4 muffins)",
+        "cameron": "415 cal | 33g P | 18g F | 10g C  (3 muffins)"
+      },
+      "macros": {
+        "austin": {
+          "cal": 530,
+          "p": 44,
+          "f": 24,
+          "c": 12
+        },
+        "cameron": {
+          "cal": 415,
+          "p": 33,
+          "f": 18,
+          "c": 10
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Large eggs",
+          "qty": "8 whole"
+        },
+        {
+          "name": "Egg whites",
+          "qty": "4 (carton or cracked)"
+        },
+        {
+          "name": "Turkey breakfast sausage crumbles",
+          "qty": "8 oz, cooked"
+        },
+        {
+          "name": "Baby spinach, roughly chopped",
+          "qty": "2 cups"
+        },
+        {
+          "name": "Spring onions, thinly sliced",
+          "qty": "4 stalks"
+        },
+        {
+          "name": "Crumbled feta cheese",
+          "qty": "2 oz"
+        },
+        {
+          "name": "Garlic powder (pantry)",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "Red pepper flakes (pantry)",
+          "qty": "1/4 tsp"
+        },
+        {
+          "name": "Salt & black pepper",
+          "qty": "to taste"
+        },
+        {
+          "name": "Olive oil or cooking spray",
+          "qty": "for tin"
+        }
+      ],
+      "instructions": [
+        "Preheat oven to 375\u00b0F. Grease a 12-cup muffin tin well.",
+        "In a large bowl, whisk eggs and egg whites until fully combined.",
+        "Fold in turkey sausage, spinach, spring onions, feta, garlic powder, pepper flakes, salt and pepper.",
+        "Pour evenly into muffin cups \u2014 fill each about 3/4 full.",
+        "Bake 18-20 min until puffed and set in the center.",
+        "Cool in tin 5 min, then transfer to wire rack. Cool fully before storing.",
+        "Store airtight in fridge. Reheat before eating."
+      ],
+      "batch_note": "Bake all 12 Sunday. Cool completely before storing airtight. Reheat in Breville at 325\u00b0F for 8 min or microwave 60 sec. Last 5 days refrigerated.",
+      "cameron_note": "Cameron gets 3 muffins. Add 1/4 sliced avocado on the side morning-of.",
+      "seasonal_note": "Spring onions just coming into season in PA \u2014 their mild grassy bite lifts egg muffins out of generic territory. Use the whole stalk.",
+      "history": {
+        "first_used": "2026-04-27",
+        "last_used": "2026-04-27",
+        "times_made": 1,
+        "ratings": [
+          {
+            "week": "2026-04-27",
+            "rated_at": "2026-05-05",
+            "austin": 3,
+            "cameron": 4,
+            "notes": "Good but asparagus bites this week should be an upgrade."
+          }
+        ],
+        "avg_rating": {
+          "austin": 3.0,
+          "cameron": 4.0,
+          "combined": 3.5
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "lemon-herb-chicken-med-bowl",
+      "name": "Lemon Herb Chicken Mediterranean Bowl",
+      "cuisine": "Mediterranean",
+      "meal_type": "lunch",
+      "prep": "10 min (assembly \u2014 chicken from batch)",
+      "cook": "0 min",
+      "total": "10 min",
+      "spice_level": "None",
+      "serving_note": "2 per person \u2014 batch lunch",
+      "tags": [
+        "batch-friendly",
+        "no-cook",
+        "mediterranean",
+        "spring",
+        "highly-rated"
+      ],
+      "equipment": "2 meal prep containers per person, small dressing jar",
+      "macro_strings": {
+        "austin": "630 cal | 51g P | 19g F | 55g C",
+        "cameron": "505 cal | 35g P | 15g F | 47g C  (+60 cal, 3g F for 1/4 avocado)"
+      },
+      "macros": {
+        "austin": {
+          "cal": 630,
+          "p": 51,
+          "f": 19,
+          "c": 55
+        },
+        "cameron": {
+          "cal": 505,
+          "p": 35,
+          "f": 15,
+          "c": 47
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Lemon herb batch chicken thighs, sliced",
+          "qty": "5-6 oz Austin / 4 oz Cameron"
+        },
+        {
+          "name": "Cooked quinoa",
+          "qty": "1/2 cup Austin / 1/3 cup Cameron"
+        },
+        {
+          "name": "Baby arugula",
+          "qty": "1 large handful"
+        },
+        {
+          "name": "Cherry tomatoes, halved",
+          "qty": "1/2 cup"
+        },
+        {
+          "name": "Persian cucumber, sliced",
+          "qty": "1/2 medium"
+        },
+        {
+          "name": "Crumbled feta",
+          "qty": "1 oz Austin / 0.5 oz Cameron"
+        },
+        {
+          "name": "Kalamata olives, pitted",
+          "qty": "5-6"
+        },
+        {
+          "name": "Red onion, thinly sliced",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "LEMON HERB DRESSING (4 servings)",
+          "qty": null
+        },
+        {
+          "name": "Olive oil",
+          "qty": "3 tbsp"
+        },
+        {
+          "name": "Fresh lemon juice",
+          "qty": "3 tbsp (~1.5 lemons)"
+        },
+        {
+          "name": "Dijon mustard (pantry)",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Garlic, minced",
+          "qty": "1 clove"
+        },
+        {
+          "name": "Dried oregano (pantry)",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "Salt & pepper",
+          "qty": "to taste"
+        }
+      ],
+      "instructions": [
+        "Whisk together all dressing ingredients. Taste and adjust lemon/salt. Store in a small jar.",
+        "Build bowl: arugula base, then quinoa, chicken, tomatoes, cucumber, red onion.",
+        "Top with feta and olives.",
+        "Seal dressing separately. Drizzle over bowl day-of and toss before eating.",
+        "Cameron: add 1/4 avocado, sliced, on top day-of."
+      ],
+      "batch_note": "Assemble 2 containers per person Sunday. Dressing stays separate in a small jar \u2014 drizzle day-of. Lasts 3 days refrigerated.",
+      "cameron_note": "Cameron: add 1/4 avocado fresh daily. An extra drizzle of lemon never hurts.",
+      "seasonal_note": "Arugula is at peak spring peppery brightness right now. This bowl is the whole point of April in Pittsburgh.",
+      "history": {
+        "first_used": "2026-04-27",
+        "last_used": "2026-04-27",
+        "times_made": 1,
+        "ratings": [
+          {
+            "week": "2026-04-27",
+            "rated_at": "2026-05-05",
+            "austin": 4,
+            "cameron": 4,
+            "notes": "Reliable lunch. Good batch recipe."
+          }
+        ],
+        "avg_rating": {
+          "austin": 4.0,
+          "cameron": 4.0,
+          "combined": 4.0
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "sesame-ginger-chicken-edamame-bowl",
+      "name": "Sesame Ginger Chicken & Edamame Bowl",
+      "cuisine": "Japanese / Asian",
+      "meal_type": "lunch",
+      "prep": "10 min (assembly + edamame thaw)",
+      "cook": "0 min",
+      "total": "15 min",
+      "spice_level": "Low-Medium Austin | Low Cameron",
+      "serving_note": "2 per person \u2014 batch lunch",
+      "tags": [
+        "batch-friendly",
+        "no-cook",
+        "japanese",
+        "asian"
+      ],
+      "equipment": "2 meal prep containers per person, small dressing jar",
+      "macro_strings": {
+        "austin": "635 cal | 52g P | 17g F | 60g C",
+        "cameron": "515 cal | 36g P | 13g F | 52g C  (+60 cal for 1/4 avocado)"
+      },
+      "macros": {
+        "austin": {
+          "cal": 635,
+          "p": 52,
+          "f": 17,
+          "c": 60
+        },
+        "cameron": {
+          "cal": 515,
+          "p": 36,
+          "f": 13,
+          "c": 52
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Batch chicken thighs, sliced or shredded",
+          "qty": "5-6 oz Austin / 4 oz Cameron"
+        },
+        {
+          "name": "Cooked jasmine rice",
+          "qty": "3/4 cup Austin / 1/2 cup Cameron"
+        },
+        {
+          "name": "Shelled edamame, thawed from frozen",
+          "qty": "1/2 cup per bowl"
+        },
+        {
+          "name": "Baby spinach or arugula",
+          "qty": "1 handful"
+        },
+        {
+          "name": "Spring onions, sliced",
+          "qty": "2 stalks"
+        },
+        {
+          "name": "Sesame seeds (pantry)",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Shredded radish (optional garnish)",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "SESAME GINGER DRESSING (4 servings)",
+          "qty": null
+        },
+        {
+          "name": "Soy sauce (pantry)",
+          "qty": "3 tbsp"
+        },
+        {
+          "name": "Sesame oil (pantry)",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Rice vinegar (pantry)",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Fresh ginger, grated",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Garlic, minced",
+          "qty": "1 clove"
+        },
+        {
+          "name": "Honey (pantry)",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Sriracha (pantry)",
+          "qty": "1/2 tsp Austin / 1/4 tsp Cameron"
+        }
+      ],
+      "instructions": [
+        "Whisk all dressing ingredients. Adjust soy for salt, rice vinegar for brightness.",
+        "Thaw edamame under warm water or microwave 2 min.",
+        "Build bowl: rice base, chicken, edamame, spinach, spring onions.",
+        "Top with sesame seeds and shredded radish if using.",
+        "Seal dressing separately. Pour over day-of, toss well.",
+        "Cameron: add 1/4 avocado, drizzle extra sesame oil."
+      ],
+      "batch_note": "Assemble 2 containers per person Sunday. Keep sesame dressing separate \u2014 it holds 5 days.",
+      "cameron_note": "Cameron: add 1/4 avocado and extra drizzle of sesame oil. Bold sauce, lighter on the Sriracha.",
+      "seasonal_note": "Spring onions make the difference here \u2014 don't substitute with regular scallions from months ago.",
+      "history": {
+        "first_used": "2026-04-27",
+        "last_used": "2026-04-27",
+        "times_made": 1,
+        "ratings": [
+          {
+            "week": "2026-04-27",
+            "rated_at": "2026-05-05",
+            "austin": 4,
+            "cameron": 3,
+            "notes": "Austin liked it, Cameron found it a bit monotonous by Thursday."
+          }
+        ],
+        "avg_rating": {
+          "austin": 4.0,
+          "cameron": 3.0,
+          "combined": 3.5
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "pesto-chicken-spring-pea-quinoa",
+      "name": "Pesto Chicken & Spring Pea Quinoa Salad",
+      "cuisine": "Italian / Spring",
+      "meal_type": "lunch",
+      "prep": "10 min",
+      "cook": "0 min",
+      "total": "10 min",
+      "spice_level": "None",
+      "serving_note": "2 per person \u2014 batch lunch",
+      "tags": [
+        "batch-friendly",
+        "no-cook",
+        "italian",
+        "spring",
+        "highly-rated"
+      ],
+      "equipment": "2 meal prep containers per person",
+      "macro_strings": {
+        "austin": "625 cal | 50g P | 22g F | 44g C",
+        "cameron": "510 cal | 35g P | 18g F | 38g C  (+60 cal for 1/4 avocado)"
+      },
+      "macros": {
+        "austin": {
+          "cal": 625,
+          "p": 50,
+          "f": 22,
+          "c": 44
+        },
+        "cameron": {
+          "cal": 510,
+          "p": 35,
+          "f": 18,
+          "c": 38
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Batch chicken thighs, sliced",
+          "qty": "5-6 oz Austin / 4 oz Cameron"
+        },
+        {
+          "name": "Cooked quinoa, cooled",
+          "qty": "1/2 cup Austin / 1/3 cup Cameron"
+        },
+        {
+          "name": "Pesto, jar (pantry)",
+          "qty": "2 tbsp Austin / 1.5 tbsp Cameron"
+        },
+        {
+          "name": "Fresh spring peas (or thawed frozen)",
+          "qty": "1/3 cup per bowl"
+        },
+        {
+          "name": "Baby arugula",
+          "qty": "2 handfuls"
+        },
+        {
+          "name": "Cherry tomatoes, halved",
+          "qty": "1/2 cup"
+        },
+        {
+          "name": "Parmesan, shaved",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Fresh lemon juice",
+          "qty": "squeeze over top"
+        },
+        {
+          "name": "Salt & black pepper",
+          "qty": "to taste"
+        }
+      ],
+      "instructions": [
+        "Toss cooled quinoa with pesto until fully coated \u2014 this is the dressing.",
+        "Combine arugula, cherry tomatoes, peas, and pesto quinoa in a bowl.",
+        "Add sliced chicken on top.",
+        "Finish with parmesan, a squeeze of lemon, and cracked black pepper.",
+        "Pack into containers \u2014 arugula is sturdy enough to hold dressed.",
+        "Cameron: add 1/4 avocado, sliced, day-of. Squeeze extra lemon over avocado."
+      ],
+      "batch_note": "Assemble Fri morning or Thu evening. Toss quinoa with pesto first \u2014 it IS the dressing. No extra oil needed. Keeps 2 days.",
+      "cameron_note": "Cameron: add 1/4 avocado. Thin pesto with 1 tbsp lemon juice if she wants it creamier.",
+      "seasonal_note": "Fresh spring peas raw here \u2014 their snap and sweetness beats cooked.",
+      "history": {
+        "first_used": "2026-04-27",
+        "last_used": "2026-04-27",
+        "times_made": 1,
+        "ratings": [
+          {
+            "week": "2026-04-27",
+            "rated_at": "2026-05-05",
+            "austin": 4,
+            "cameron": 4,
+            "notes": "Great Fri/Sat lunch. The spring peas made it."
+          }
+        ],
+        "avg_rating": {
+          "austin": 4.0,
+          "cameron": 4.0,
+          "combined": 4.0
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "greek-chicken-arugula-salad",
+      "name": "Greek Chicken Arugula Salad with Feta & Lemon Vinaigrette",
+      "cuisine": "Greek",
+      "meal_type": "lunch",
+      "prep": "10 min",
+      "cook": "0 min",
+      "total": "10 min (assemble Sat evening for Sun)",
+      "spice_level": "None",
+      "serving_note": "1 per person \u2014 Sunday lunch",
+      "tags": [
+        "no-cook",
+        "greek",
+        "spring",
+        "salad",
+        "highly-rated"
+      ],
+      "equipment": "Salad bowl or meal prep container, small jar",
+      "macro_strings": {
+        "austin": "620 cal | 50g P | 20g F | 40g C",
+        "cameron": "505 cal | 35g P | 16g F | 35g C  (+60 cal for 1/4 avocado)"
+      },
+      "macros": {
+        "austin": {
+          "cal": 620,
+          "p": 50,
+          "f": 20,
+          "c": 40
+        },
+        "cameron": {
+          "cal": 505,
+          "p": 35,
+          "f": 16,
+          "c": 35
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Batch chicken thighs, sliced",
+          "qty": "5-6 oz Austin / 4 oz Cameron"
+        },
+        {
+          "name": "Baby arugula",
+          "qty": "3 cups"
+        },
+        {
+          "name": "Cooked quinoa",
+          "qty": "1/3 cup"
+        },
+        {
+          "name": "Cherry tomatoes, halved",
+          "qty": "1/2 cup"
+        },
+        {
+          "name": "Persian cucumber, chopped",
+          "qty": "1/2"
+        },
+        {
+          "name": "Crumbled feta",
+          "qty": "1.5 oz Austin / 1 oz Cameron"
+        },
+        {
+          "name": "Kalamata olives",
+          "qty": "5-6"
+        },
+        {
+          "name": "Red onion, thinly sliced",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Fresh dill, chopped",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "LEMON VINAIGRETTE",
+          "qty": null
+        },
+        {
+          "name": "Olive oil",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Lemon juice",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Dried oregano (pantry)",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "Salt & pepper",
+          "qty": "to taste"
+        }
+      ],
+      "instructions": [
+        "Whisk together lemon vinaigrette.",
+        "Build salad: arugula, quinoa, tomatoes, cucumber, red onion, olives.",
+        "Lay chicken on top. Add feta and fresh dill.",
+        "Store vinaigrette separately. Dress right before eating.",
+        "Cameron: add 1/4 avocado, extra feta, extra dill."
+      ],
+      "batch_note": "Assemble Saturday evening. This uses the last of the batch chicken. Light, fast Sunday lunch.",
+      "cameron_note": "Cameron: add 1/4 avocado and extra feta.",
+      "seasonal_note": "Dill is the secret \u2014 its brightness ties lemon and feta together.",
+      "history": {
+        "first_used": "2026-04-27",
+        "last_used": "2026-04-27",
+        "times_made": 1,
+        "ratings": [
+          {
+            "week": "2026-04-27",
+            "rated_at": "2026-05-05",
+            "austin": 4,
+            "cameron": 4,
+            "notes": "Good Sunday lunch. Clean and light."
+          }
+        ],
+        "avg_rating": {
+          "austin": 4.0,
+          "cameron": 4.0,
+          "combined": 4.0
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "spring-pasta-primavera",
+      "name": "Spring Pasta Primavera with Prosciutto, Peas & Arugula",
+      "cuisine": "Italian / Mediterranean",
+      "meal_type": "dinner",
+      "prep": "10 min",
+      "cook": "20 min",
+      "total": "30 min",
+      "spice_level": "Low (Austin: add red pepper flakes freely)",
+      "serving_note": "2 (Monday dinner)",
+      "tags": [
+        "fresh",
+        "italian",
+        "spring",
+        "pasta",
+        "quick",
+        "highly-rated"
+      ],
+      "equipment": "Large pot, large skillet",
+      "macro_strings": {
+        "austin": "650 cal | 57g P | 17g F | 73g C",
+        "cameron": "580 cal | 35g P | 15g F | 78g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 650,
+          "p": 57,
+          "f": 17,
+          "c": 73
+        },
+        "cameron": {
+          "cal": 580,
+          "p": 35,
+          "f": 15,
+          "c": 78
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Dry linguine or spaghetti",
+          "qty": "6 oz Austin / 5 oz Cameron"
+        },
+        {
+          "name": "Prosciutto, torn into pieces",
+          "qty": "3 oz"
+        },
+        {
+          "name": "Fresh or frozen spring peas",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Baby arugula",
+          "qty": "3 cups (wilts into pasta)"
+        },
+        {
+          "name": "Cherry tomatoes, halved",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Shallots, minced",
+          "qty": "2"
+        },
+        {
+          "name": "Garlic, minced",
+          "qty": "3 cloves"
+        },
+        {
+          "name": "Olive oil",
+          "qty": "3 tbsp"
+        },
+        {
+          "name": "Parmesan, grated",
+          "qty": "2 oz"
+        },
+        {
+          "name": "Fresh lemon juice",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Lemon zest",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Red pepper flakes (pantry)",
+          "qty": "1/2 tsp Austin / pinch Cameron"
+        },
+        {
+          "name": "Salt & black pepper",
+          "qty": "to taste"
+        },
+        {
+          "name": "Reserved pasta water",
+          "qty": "1/2 cup"
+        }
+      ],
+      "instructions": [
+        "Boil well-salted water. Cook pasta al dente. Reserve 1/2 cup pasta water before draining.",
+        "Heat olive oil in large skillet over medium. Add shallots; cook 3 min.",
+        "Add garlic; cook 1 min. Add cherry tomatoes; cook 4 min until bursting.",
+        "Add peas; cook 2 min. Tear in prosciutto; warm through 1 min.",
+        "Add drained pasta. Toss with pasta water to loosen. Add arugula; toss until just wilted.",
+        "Off heat: add parmesan, lemon juice, lemon zest, pepper flakes. Toss vigorously.",
+        "Taste, season, and plate immediately."
+      ],
+      "batch_note": "Make fresh Monday evening. Arugula wilts fast \u2014 don't batch this one.",
+      "cameron_note": "Cameron: use 1/4 less pasta, extra cherry tomatoes, extra arugula.",
+      "seasonal_note": "This dish IS spring in a bowl. Don't fully cook the arugula \u2014 you want it wilted but still bright green and peppery.",
+      "history": {
+        "first_used": "2026-04-27",
+        "last_used": "2026-04-27",
+        "times_made": 1,
+        "ratings": [
+          {
+            "week": "2026-04-27",
+            "rated_at": "2026-05-05",
+            "austin": 4,
+            "cameron": 4,
+            "notes": "Solid Monday dinner. Spring peas were the right call."
+          }
+        ],
+        "avg_rating": {
+          "austin": 4.0,
+          "cameron": 4.0,
+          "combined": 4.0
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "thai-basil-chicken-stirfry",
+      "name": "Thai Basil Chicken Stir-Fry with Jasmine Rice & Fried Egg",
+      "cuisine": "Thai",
+      "meal_type": "dinner",
+      "prep": "10 min",
+      "cook": "15 min",
+      "total": "25 min",
+      "spice_level": "High Austin | Medium Cameron",
+      "serving_note": "2 (Tuesday dinner)",
+      "tags": [
+        "fresh",
+        "thai",
+        "high-protein",
+        "quick",
+        "spicy",
+        "fan-favorite"
+      ],
+      "equipment": "Wok or large skillet, separate small pan for eggs",
+      "macro_strings": {
+        "austin": "660 cal | 62g P | 18g F | 65g C",
+        "cameron": "585 cal | 36g P | 15g F | 68g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 660,
+          "p": 62,
+          "f": 18,
+          "c": 65
+        },
+        "cameron": {
+          "cal": 585,
+          "p": 36,
+          "f": 15,
+          "c": 68
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Boneless chicken thighs, diced small",
+          "qty": "10 oz Austin / 7 oz Cameron"
+        },
+        {
+          "name": "Cooked jasmine rice (from batch)",
+          "qty": "1 cup Austin / 3/4 cup Cameron"
+        },
+        {
+          "name": "Thai bird's eye chiles, sliced (Austin)",
+          "qty": "3-4"
+        },
+        {
+          "name": "Jalape\u00f1o, sliced (Cameron substitute)",
+          "qty": "1"
+        },
+        {
+          "name": "Garlic, minced",
+          "qty": "4 cloves"
+        },
+        {
+          "name": "Fresh ginger, grated",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Spring onions, whites and greens separated",
+          "qty": "3 stalks"
+        },
+        {
+          "name": "Fresh Thai or Italian basil",
+          "qty": "1 large handful"
+        },
+        {
+          "name": "Large eggs",
+          "qty": "2 \u2014 one per serving, fried"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "SAUCE",
+          "qty": null
+        },
+        {
+          "name": "Soy sauce (pantry)",
+          "qty": "3 tbsp"
+        },
+        {
+          "name": "Oyster sauce (pantry)",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Fish sauce (pantry)",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Brown sugar (pantry)",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Sesame oil (pantry)",
+          "qty": "1 tsp"
+        }
+      ],
+      "instructions": [
+        "Whisk together all sauce ingredients. Set aside.",
+        "Heat wok or large skillet over HIGH heat until smoking. Add 1 tbsp oil.",
+        "Add chicken \u2014 cook 4-5 min, stirring, until cooked through with charred edges.",
+        "Add garlic, ginger, and white spring onion parts. Cook 60 seconds.",
+        "Add chiles (Austin) or jalapeno (Cameron). Toss.",
+        "Pour sauce over chicken. Toss to coat. Cook 1-2 min until reduced slightly.",
+        "Off heat: fold in basil \u2014 it wilts immediately. Add green spring onion tops.",
+        "In separate pan: fry 1 egg per person in a little oil \u2014 runny yolk.",
+        "Serve chicken over rice. Top with fried egg. Austin: extra chiles on side."
+      ],
+      "batch_note": "Make fresh Tuesday. Fast weeknight cook. The fried egg on top is mandatory \u2014 runny yolk breaks into the rice and creates the sauce.",
+      "cameron_note": "Cameron: use 1 jalape\u00f1o instead of bird's eye chiles. Keep the sauce bold. Extra oyster sauce for richness.",
+      "seasonal_note": "Thai basil has an anise-clove note Italian basil doesn't. Find it at any Asian grocery or Whole Foods.",
+      "history": {
+        "first_used": "2026-04-27",
+        "last_used": "2026-04-27",
+        "times_made": 1,
+        "ratings": [
+          {
+            "week": "2026-04-27",
+            "rated_at": "2026-05-05",
+            "austin": 5,
+            "cameron": 4,
+            "notes": "Thai basil was a hit. Would repeat."
+          }
+        ],
+        "avg_rating": {
+          "austin": 5.0,
+          "cameron": 4.0,
+          "combined": 4.5
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "loaded-chicken-fajita-bowls",
+      "name": "Loaded Chicken Fajita Bowls with Spring Onion Crema",
+      "cuisine": "Mexican / Tex-Mex",
+      "meal_type": "dinner",
+      "prep": "15 min",
+      "cook": "20 min",
+      "total": "35 min",
+      "spice_level": "Medium Austin | Mild-Medium Cameron",
+      "serving_note": "2 (Wednesday dinner)",
+      "tags": [
+        "fresh",
+        "mexican",
+        "high-protein",
+        "spring"
+      ],
+      "equipment": "Cast iron or tabletop griddle, blender for crema",
+      "macro_strings": {
+        "austin": "655 cal | 60g P | 16g F | 62g C",
+        "cameron": "580 cal | 35g P | 14g F | 65g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 655,
+          "p": 60,
+          "f": 16,
+          "c": 62
+        },
+        "cameron": {
+          "cal": 580,
+          "p": 35,
+          "f": 14,
+          "c": 65
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Boneless chicken thighs, sliced into strips",
+          "qty": "10 oz Austin / 7 oz Cameron"
+        },
+        {
+          "name": "Bell peppers, sliced (red, yellow, green)",
+          "qty": "3 peppers total"
+        },
+        {
+          "name": "Red onion, sliced",
+          "qty": "1/2 large"
+        },
+        {
+          "name": "Jalape\u00f1o, sliced (Austin only)",
+          "qty": "1"
+        },
+        {
+          "name": "Cooked jasmine rice",
+          "qty": "1 cup Austin / 3/4 cup Cameron"
+        },
+        {
+          "name": "Black beans, rinsed (canned pantry)",
+          "qty": "1/2 cup per bowl"
+        },
+        {
+          "name": "Lime juice + wedges for serving",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Cumin (pantry)",
+          "qty": "1.5 tsp"
+        },
+        {
+          "name": "Chili powder (pantry)",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Smoked paprika (pantry)",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "Garlic powder (pantry)",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "Olive oil",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "SPRING ONION CREMA",
+          "qty": null
+        },
+        {
+          "name": "Plain nonfat Greek yogurt",
+          "qty": "1/2 cup"
+        },
+        {
+          "name": "Spring onions, roughly chopped",
+          "qty": "3 stalks"
+        },
+        {
+          "name": "Lime juice",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Garlic",
+          "qty": "1 small clove"
+        },
+        {
+          "name": "Salt",
+          "qty": "pinch"
+        }
+      ],
+      "instructions": [
+        "Blend crema: yogurt, spring onions, lime juice, garlic, salt \u2014 blitz until smooth and bright green. Refrigerate.",
+        "Toss chicken strips with cumin, chili powder, paprika, garlic powder, salt, 1 tbsp oil.",
+        "Heat cast iron over HIGH. Cook chicken 4-5 min per side until charred and cooked through. Remove.",
+        "Same pan: cook peppers and red onion 6-8 min with some char. Add jalapeno (Austin) last 2 min.",
+        "Squeeze lime over peppers. Toss.",
+        "Build bowls: rice + black beans, then fajita chicken and peppers on top.",
+        "Drizzle spring onion crema generously. Cameron: add sliced avocado. Lime over everything."
+      ],
+      "batch_note": "Make fresh Wednesday. Spring onion crema takes 3 min in a blender and is the star of the dish.",
+      "cameron_note": "Cameron: serve as bowl over rice. Skip jalapeno from her portion. Add sliced avocado on top.",
+      "seasonal_note": "Spring onions give the crema a fresh mild brightness that beats any store-bought version.",
+      "history": {
+        "first_used": "2026-04-27",
+        "last_used": "2026-04-27",
+        "times_made": 1,
+        "ratings": [
+          {
+            "week": "2026-04-27",
+            "rated_at": "2026-05-05",
+            "austin": 3,
+            "cameron": 3,
+            "notes": "Felt a bit plain \u2014 needs more char and heat next time."
+          }
+        ],
+        "avg_rating": {
+          "austin": 3.0,
+          "cameron": 3.0,
+          "combined": 3.0
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "miso-glazed-salmon",
+      "name": "Miso Glazed Salmon with Roasted Asparagus & Sesame Rice",
+      "cuisine": "Japanese",
+      "meal_type": "dinner",
+      "prep": "10 min (+ 30 min marinade)",
+      "cook": "15 min",
+      "total": "25 min active",
+      "spice_level": "None (umami-forward)",
+      "serving_note": "2 (Thursday dinner)",
+      "tags": [
+        "fresh",
+        "japanese",
+        "seafood",
+        "spring",
+        "sheet-pan",
+        "fan-favorite"
+      ],
+      "equipment": "Sheet pan, oven, foil",
+      "macro_strings": {
+        "austin": "655 cal | 58g P | 19g F | 56g C",
+        "cameron": "580 cal | 35g P | 17g F | 52g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 655,
+          "p": 58,
+          "f": 19,
+          "c": 56
+        },
+        "cameron": {
+          "cal": 580,
+          "p": 35,
+          "f": 17,
+          "c": 52
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Salmon fillets, 6-7 oz each, skin-on",
+          "qty": "2 fillets"
+        },
+        {
+          "name": "Fresh asparagus, ends trimmed",
+          "qty": "1 lb"
+        },
+        {
+          "name": "Cooked jasmine rice",
+          "qty": "3/4 cup Austin / 1/2 cup Cameron"
+        },
+        {
+          "name": "Sesame oil (pantry)",
+          "qty": "2 tsp \u2014 for rice"
+        },
+        {
+          "name": "Soy sauce (pantry)",
+          "qty": "1 tsp \u2014 for rice"
+        },
+        {
+          "name": "Spring onions, sliced",
+          "qty": "2 stalks \u2014 garnish"
+        },
+        {
+          "name": "Sesame seeds (pantry)",
+          "qty": "1 tsp \u2014 garnish"
+        },
+        {
+          "name": "Lemon wedges",
+          "qty": "for serving"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "MISO GLAZE",
+          "qty": null
+        },
+        {
+          "name": "White miso paste",
+          "qty": "3 tbsp"
+        },
+        {
+          "name": "Mirin or 1 tbsp honey + 1 tbsp rice vinegar",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Soy sauce (pantry)",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Fresh ginger, grated",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Garlic, minced",
+          "qty": "1 clove"
+        },
+        {
+          "name": "Sesame oil (pantry)",
+          "qty": "1 tsp"
+        }
+      ],
+      "instructions": [
+        "Whisk glaze. Coat salmon fillets fully. Marinate 30 min to 8 hrs in fridge.",
+        "Preheat oven to 425\u00b0F. Line a sheet pan with foil.",
+        "Toss asparagus with olive oil, salt, pepper. Spread on one half of pan.",
+        "Place salmon skin-side-down on other half. Roast 10-12 min.",
+        "Switch to BROIL. Broil 2-3 min until glaze caramelizes. Watch closely \u2014 miso burns fast.",
+        "Warm rice and toss with sesame oil and soy sauce.",
+        "Plate: sesame rice, asparagus alongside, salmon on top. Garnish with spring onions, sesame seeds, lemon wedge."
+      ],
+      "batch_note": "Marinate salmon Thursday morning or night before. Sheet pan dinner \u2014 asparagus roasts while salmon glazes.",
+      "cameron_note": "Cameron: same glaze, reduce broil by 1 min. She prefers slightly less char.",
+      "seasonal_note": "Asparagus and miso salmon is a classic spring pairing. Pittsburgh asparagus is peak right now.",
+      "history": {
+        "first_used": "2026-04-27",
+        "last_used": "2026-04-27",
+        "times_made": 1,
+        "ratings": [
+          {
+            "week": "2026-04-27",
+            "rated_at": "2026-05-05",
+            "austin": 5,
+            "cameron": 4,
+            "notes": "Really good \u2014 requested repeat for upcoming weeks."
+          }
+        ],
+        "avg_rating": {
+          "austin": 5.0,
+          "cameron": 4.0,
+          "combined": 4.5
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "turkey-meatballs-spaghetti",
+      "name": "Turkey Meatballs & Spaghetti Pomodoro",
+      "cuisine": "Italian",
+      "meal_type": "dinner",
+      "prep": "15 min",
+      "cook": "25 min",
+      "total": "40 min",
+      "spice_level": "Low (Austin: red pepper flakes freely)",
+      "serving_note": "2 (Friday dinner)",
+      "tags": [
+        "fresh",
+        "italian",
+        "pasta",
+        "high-protein",
+        "highly-rated"
+      ],
+      "equipment": "Large oven-safe skillet, large pot for pasta",
+      "macro_strings": {
+        "austin": "650 cal | 58g P | 15g F | 72g C",
+        "cameron": "575 cal | 35g P | 13g F | 75g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 650,
+          "p": 58,
+          "f": 15,
+          "c": 72
+        },
+        "cameron": {
+          "cal": 575,
+          "p": 35,
+          "f": 13,
+          "c": 75
+        }
+      },
+      "ingredients": [
+        {
+          "name": "93% lean ground turkey",
+          "qty": "1 lb"
+        },
+        {
+          "name": "Dry spaghetti",
+          "qty": "5 oz Austin / 4 oz Cameron"
+        },
+        {
+          "name": "Jarred pomodoro/pasta sauce (pantry)",
+          "qty": "1.5 cups"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "MEATBALL MIX",
+          "qty": null
+        },
+        {
+          "name": "Panko breadcrumbs (pantry)",
+          "qty": "1/4 cup"
+        },
+        {
+          "name": "Parmesan, grated",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Garlic, minced",
+          "qty": "2 cloves"
+        },
+        {
+          "name": "Fresh basil, chopped",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Egg",
+          "qty": "1"
+        },
+        {
+          "name": "Italian seasoning (pantry)",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Salt & pepper",
+          "qty": "to taste"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "TO SERVE",
+          "qty": null
+        },
+        {
+          "name": "Parmesan, extra grated",
+          "qty": "for topping"
+        },
+        {
+          "name": "Fresh basil leaves",
+          "qty": "garnish"
+        },
+        {
+          "name": "Red pepper flakes (pantry)",
+          "qty": "Austin: generous pinch"
+        }
+      ],
+      "instructions": [
+        "Mix turkey, breadcrumbs, parmesan, garlic, basil, egg, Italian seasoning, salt, pepper. Don't overmix.",
+        "Roll into golf-ball sized meatballs (~14-16 total).",
+        "Heat large oven-safe skillet over medium-high with 1 tbsp olive oil. Brown meatballs all sides, 2-3 min per side.",
+        "Pour pomodoro sauce over meatballs. Simmer covered 10-12 min until 165\u00b0F internal.",
+        "Cook spaghetti in well-salted water until al dente. Reserve 1/4 cup pasta water. Drain.",
+        "Toss spaghetti with a ladle of the meatball sauce to coat.",
+        "Plate spaghetti, top with meatballs and sauce. Finish with parmesan, fresh basil, and pepper flakes for Austin."
+      ],
+      "batch_note": "Make meatballs fresh Friday. Doubles well \u2014 make 20, freeze 10 for next week.",
+      "cameron_note": "Cameron: 4 oz spaghetti instead of 5 oz. Extra sauce and extra parmesan on top.",
+      "seasonal_note": "Fresh basil in the meatball mix is the spring upgrade. It lifts this from a cold-weather dish into early May territory.",
+      "history": {
+        "first_used": "2026-04-27",
+        "last_used": "2026-04-27",
+        "times_made": 1,
+        "ratings": [
+          {
+            "week": "2026-04-27",
+            "rated_at": "2026-05-05",
+            "austin": 4,
+            "cameron": 4,
+            "notes": "Good comfort Friday. Classic."
+          }
+        ],
+        "avg_rating": {
+          "austin": 4.0,
+          "cameron": 4.0,
+          "combined": 4.0
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "greek-lamb-keftedes",
+      "name": "Greek Lamb Keftedes with Arugula Salad & Herbed Tzatziki",
+      "cuisine": "Greek",
+      "meal_type": "dinner",
+      "prep": "20 min",
+      "cook": "15 min",
+      "total": "35 min (tzatziki made ahead)",
+      "spice_level": "Medium Austin | Low-Medium Cameron",
+      "serving_note": "2 (Saturday dinner)",
+      "tags": [
+        "fresh",
+        "greek",
+        "spring",
+        "high-protein",
+        "lamb",
+        "fan-favorite"
+      ],
+      "equipment": "Cast iron skillet, mixing bowl",
+      "macro_strings": {
+        "austin": "660 cal | 61g P | 24g F | 30g C",
+        "cameron": "590 cal | 36g P | 22g F | 28g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 660,
+          "p": 61,
+          "f": 24,
+          "c": 30
+        },
+        "cameron": {
+          "cal": 590,
+          "p": 36,
+          "f": 22,
+          "c": 28
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Ground lamb",
+          "qty": "1 lb"
+        },
+        {
+          "name": "Baby arugula",
+          "qty": "4 cups"
+        },
+        {
+          "name": "Cherry tomatoes, halved",
+          "qty": "1/2 cup"
+        },
+        {
+          "name": "Red onion, thinly sliced",
+          "qty": "3 tbsp"
+        },
+        {
+          "name": "Crumbled feta",
+          "qty": "1.5 oz"
+        },
+        {
+          "name": "Lemon wedges",
+          "qty": "for serving"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "KEFTEDES MIX",
+          "qty": null
+        },
+        {
+          "name": "Garlic, minced",
+          "qty": "3 cloves"
+        },
+        {
+          "name": "Fresh mint, chopped",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Fresh dill, chopped",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Cumin (pantry)",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Dried oregano (pantry)",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Red pepper flakes (pantry)",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "Salt & pepper",
+          "qty": "to taste"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "HERBED TZATZIKI (makes extra)",
+          "qty": null
+        },
+        {
+          "name": "Plain nonfat Greek yogurt",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Persian cucumber, grated + squeezed dry",
+          "qty": "1/2 cup"
+        },
+        {
+          "name": "Garlic, minced",
+          "qty": "1 clove"
+        },
+        {
+          "name": "Fresh dill, chopped",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Fresh mint, chopped",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Lemon juice",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Salt",
+          "qty": "to taste"
+        }
+      ],
+      "instructions": [
+        "Make tzatziki: mix all ingredients, season well. Refrigerate at least 30 min \u2014 overnight is better.",
+        "Combine ground lamb with garlic, mint, dill, cumin, oregano, pepper flakes, salt, pepper. Mix gently.",
+        "Form into small oval patties about 2 inches long (8-10 total).",
+        "Heat cast iron over medium-high with 1 tbsp olive oil. Cook keftedes 3-4 min per side until browned at 160\u00b0F.",
+        "While keftedes cook, toss arugula, tomatoes, red onion with olive oil, lemon, salt, pepper.",
+        "Plate: arugula base, keftedes alongside, tzatziki spooned over. Crumble feta over salad.",
+        "Cameron: add sliced avocado to salad, extra feta. Offer warm pita if desired."
+      ],
+      "batch_note": "Make tzatziki Friday evening \u2014 it gets better overnight. Keftedes cook fast Saturday fresh.",
+      "cameron_note": "Cameron: add 1/4 sliced avocado and extra feta on the arugula. Consider a warm pita on the side.",
+      "seasonal_note": "Fresh mint in keftedes is non-negotiable for spring. It brightens the lamb completely.",
+      "history": {
+        "first_used": "2026-04-27",
+        "last_used": "2026-04-27",
+        "times_made": 1,
+        "ratings": [
+          {
+            "week": "2026-04-27",
+            "rated_at": "2026-05-05",
+            "austin": 5,
+            "cameron": 4,
+            "notes": "Requested repeat. Lamb + feta combo landed perfectly."
+          }
+        ],
+        "avg_rating": {
+          "austin": 5.0,
+          "cameron": 4.0,
+          "combined": 4.5
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "smoker-baby-back-ribs",
+      "name": "Smoker Baby Back Ribs with New Potatoes & Arugula Slaw",
+      "cuisine": "American BBQ",
+      "meal_type": "dinner",
+      "prep": "20 min (+ overnight dry rub Sat eve)",
+      "cook": "5.5-6 hrs at 225\u00b0F",
+      "total": "6.5 hrs (mostly hands-off)",
+      "spice_level": "High Austin (bold rub) | Medium Cameron (half cayenne)",
+      "serving_note": "2 (Sunday dinner \u2014 the main event)",
+      "tags": [
+        "smoker",
+        "bbq",
+        "weekend-project",
+        "spring",
+        "fan-favorite"
+      ],
+      "equipment": "Smoker + apple/cherry wood, sheet pan (potatoes), large bowl (slaw)",
+      "macro_strings": {
+        "austin": "680 cal | 63g P | 26g F | 38g C",
+        "cameron": "595 cal | 37g P | 23g F | 35g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 680,
+          "p": 63,
+          "f": 26,
+          "c": 38
+        },
+        "cameron": {
+          "cal": 595,
+          "p": 37,
+          "f": 23,
+          "c": 35
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Baby back ribs, 2 full racks ~5-6 lbs",
+          "qty": "2 racks"
+        },
+        {
+          "name": "New/baby potatoes, halved",
+          "qty": "1 lb"
+        },
+        {
+          "name": "Baby arugula",
+          "qty": "4 cups"
+        },
+        {
+          "name": "Radishes, thinly sliced",
+          "qty": "1 bunch"
+        },
+        {
+          "name": "Spring onions, sliced",
+          "qty": "3 stalks"
+        },
+        {
+          "name": "BBQ sauce",
+          "qty": "1/2 cup (last 30 min)"
+        },
+        {
+          "name": "Olive oil + fresh thyme",
+          "qty": "potatoes"
+        },
+        {
+          "name": "Apple or cherry wood",
+          "qty": "for smoker"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "DRY RUB (apply night before)",
+          "qty": null
+        },
+        {
+          "name": "Brown sugar (pantry)",
+          "qty": "3 tbsp"
+        },
+        {
+          "name": "Smoked paprika (pantry)",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Garlic powder (pantry)",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Cayenne (pantry)",
+          "qty": "1 tsp Austin / 1/2 tsp Cameron rack"
+        },
+        {
+          "name": "Black pepper",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "ARUGULA SLAW DRESSING",
+          "qty": null
+        },
+        {
+          "name": "Olive oil",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Lemon juice",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Dijon mustard (pantry)",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Honey (pantry)",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "Salt & pepper",
+          "qty": "to taste"
+        }
+      ],
+      "instructions": [
+        "SAT NIGHT: Remove membrane from back of ribs. Apply dry rub all over \u2014 press it in. Wrap in plastic. Refrigerate overnight.",
+        "SUN MORNING: Pull ribs 30 min before smoking. Fire smoker to 225\u00b0F. Add apple or cherry wood.",
+        "PHASE 1 (3 hrs): Ribs meat-side up on grate, unwrapped. Building bark and smoke ring.",
+        "PHASE 2 (2 hrs): Wrap each rack in foil with 1 tbsp butter + 1 tbsp brown sugar inside. Return to smoker.",
+        "PHASE 3 (1 hr): Unwrap ribs. Brush generously with BBQ sauce. Smoke uncovered. Target: 195-203\u00b0F internal.",
+        "REST: Tent loosely with foil 15 min before slicing between bones.",
+        "POTATOES (35 min before ribs done): Toss with olive oil, thyme, salt, pepper. Roast at 425\u00b0F for 25 min.",
+        "SLAW: Toss arugula, sliced radishes, spring onions with lemon-Dijon dressing just before serving.",
+        "Plate: ribs, potatoes, slaw. Cold beer optional but strongly encouraged."
+      ],
+      "batch_note": "Apply dry rub SATURDAY NIGHT. Start smoker Sunday morning early. This is the project dinner.",
+      "cameron_note": "Cameron: 3-4 ribs, larger potato serving. Arugula slaw is no-cabbage \u2014 toss lightly so it stays fresh.",
+      "seasonal_note": "Baby back ribs smoked over apple wood in late April is one of the great Pittsburgh spring rituals.",
+      "history": {
+        "first_used": "2026-04-27",
+        "last_used": "2026-04-27",
+        "times_made": 1,
+        "ratings": [
+          {
+            "week": "2026-04-27",
+            "rated_at": "2026-05-05",
+            "austin": 5,
+            "cameron": 5,
+            "notes": "Excellent on the smoker. Best thing we made that week."
+          }
+        ],
+        "avg_rating": {
+          "austin": 5.0,
+          "cameron": 5.0,
+          "combined": 5.0
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "strawberry-rhubarb-yogurt-bowl",
+      "name": "Strawberry Rhubarb Protein Yogurt Bowl",
+      "cuisine": "American / Peak Spring",
+      "meal_type": "breakfast",
+      "prep": "5 min (+ 5 min rhubarb compote Sunday)",
+      "cook": "5 min (compote only)",
+      "total": "10 min Sunday setup; grab-and-go daily",
+      "spice_level": "None",
+      "serving_note": "4 servings \u2014 Mon / Wed / Fri / Sun",
+      "tags": [
+        "batch-friendly",
+        "grab-and-go",
+        "spring",
+        "seasonal"
+      ],
+      "equipment": "4 meal prep containers, small saucepan",
+      "macro_strings": {
+        "austin": "525 cal | 44g P | 12g F | 54g C",
+        "cameron": "415 cal | 32g P | 9g F | 44g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 525,
+          "p": 44,
+          "f": 12,
+          "c": 54
+        },
+        "cameron": {
+          "cal": 415,
+          "p": 32,
+          "f": 9,
+          "c": 44
+        }
+      },
+      "ingredients": [
+        {
+          "name": "RHUBARB COMPOTE (Sunday, 1 batch covers the week)",
+          "qty": null
+        },
+        {
+          "name": "Fresh rhubarb stalks, 1/2-inch pieces",
+          "qty": "2 stalks (~1 cup)"
+        },
+        {
+          "name": "Raw honey (pantry)",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Water",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "AUSTIN (per serving)",
+          "qty": null
+        },
+        {
+          "name": "Plain nonfat Greek yogurt",
+          "qty": "1 cup (240g)"
+        },
+        {
+          "name": "Vanilla protein powder",
+          "qty": "1 scoop (30g)"
+        },
+        {
+          "name": "Granola (pantry)",
+          "qty": "1/3 cup"
+        },
+        {
+          "name": "Fresh strawberries, sliced",
+          "qty": "3/4 cup (~100g)"
+        },
+        {
+          "name": "Rhubarb compote",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Almond butter",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Raw honey (pantry)",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "CAMERON (per serving)",
+          "qty": null
+        },
+        {
+          "name": "Plain nonfat Greek yogurt",
+          "qty": "3/4 cup (180g)"
+        },
+        {
+          "name": "Vanilla protein powder",
+          "qty": "1 scoop (30g)"
+        },
+        {
+          "name": "Granola (pantry)",
+          "qty": "1/4 cup"
+        },
+        {
+          "name": "Fresh strawberries, sliced",
+          "qty": "3/4 cup"
+        },
+        {
+          "name": "Rhubarb compote",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Raw honey",
+          "qty": "1 tsp"
+        }
+      ],
+      "instructions": [
+        "COMPOTE (Sunday): Combine rhubarb, honey, and water in small saucepan over medium heat.",
+        "Cook 5-6 min, stirring occasionally, until rhubarb breaks down into a jammy consistency.",
+        "Cool completely. Store in a jar \u2014 it keeps 7 days refrigerated.",
+        "BOWLS (Sunday batch): Whisk yogurt + protein powder in each container until completely smooth. Seal.",
+        "Store compote jar and bag of strawberries in fridge alongside containers.",
+        "Morning-of: stir compote into yogurt, top with sliced strawberries and granola.",
+        "Austin: drizzle almond butter + honey on top."
+      ],
+      "batch_note": "Make rhubarb compote Sunday \u2014 it takes 6 min and changes the whole bowl. Portion yogurt + protein into 4 containers. Add compote, berries, granola morning-of.",
+      "cameron_note": "Cameron: 3/4 cup yogurt, skip almond butter. Add side of avocado if she wants healthy fat.",
+      "seasonal_note": "Rhubarb is peak in Pittsburgh right now \u2014 tart, bright, and completely spring. Worth the extra 6 minutes.",
+      "history": {
+        "first_used": "2026-05-04",
+        "last_used": "2026-05-04",
+        "times_made": 1,
+        "ratings": {
+          "austin": null,
+          "cameron": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "spring-asparagus-turkey-egg-bites",
+      "name": "Spring Asparagus & Turkey Egg Bites",
+      "cuisine": "American / Spring",
+      "meal_type": "breakfast",
+      "prep": "12 min",
+      "cook": "20 min",
+      "total": "32 min (batch of 12 Sunday)",
+      "spice_level": "Low",
+      "serving_note": "12 bites \u2014 Austin: 4/serving | Cameron: 3/serving (Tue / Thu / Sat)",
+      "tags": [
+        "batch-friendly",
+        "high-protein",
+        "spring",
+        "egg",
+        "seasonal"
+      ],
+      "equipment": "12-cup muffin tin, large mixing bowl, whisk",
+      "macro_strings": {
+        "austin": "530 cal | 44g P | 24g F | 10g C  (4 bites)",
+        "cameron": "415 cal | 33g P | 18g F | 8g C  (3 bites)"
+      },
+      "macros": {
+        "austin": {
+          "cal": 530,
+          "p": 44,
+          "f": 24,
+          "c": 10
+        },
+        "cameron": {
+          "cal": 415,
+          "p": 33,
+          "f": 18,
+          "c": 8
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Large eggs",
+          "qty": "8 whole"
+        },
+        {
+          "name": "Egg whites",
+          "qty": "4 (carton or cracked)"
+        },
+        {
+          "name": "Turkey breakfast sausage crumbles",
+          "qty": "8 oz, cooked"
+        },
+        {
+          "name": "Fresh asparagus tips, chopped small",
+          "qty": "1 cup (~8 spears)"
+        },
+        {
+          "name": "Spring onions, thinly sliced",
+          "qty": "4 stalks"
+        },
+        {
+          "name": "Crumbled feta cheese",
+          "qty": "2 oz"
+        },
+        {
+          "name": "Garlic powder (pantry)",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "Red pepper flakes (pantry)",
+          "qty": "1/4 tsp"
+        },
+        {
+          "name": "Salt & black pepper",
+          "qty": "to taste"
+        },
+        {
+          "name": "Olive oil or cooking spray",
+          "qty": "for tin"
+        }
+      ],
+      "instructions": [
+        "Preheat oven to 375\u00b0F. Grease a 12-cup muffin tin thoroughly.",
+        "In a large bowl, whisk eggs and egg whites until fully combined and slightly frothy.",
+        "Fold in turkey sausage, asparagus tips, spring onions, feta, garlic powder, pepper flakes, salt, pepper.",
+        "Pour evenly into muffin cups \u2014 fill each about 3/4 full.",
+        "Bake 18-20 min until puffed and set in the center.",
+        "Cool in tin 5 min, then transfer to wire rack. Cool FULLY before storing.",
+        "Store airtight in fridge. Reheat before eating."
+      ],
+      "batch_note": "Bake all 12 Sunday. Reheat Breville 325\u00b0F 8 min or microwave 60 sec. Last 5 days.",
+      "cameron_note": "Cameron: 3 bites. Add 1/4 sliced avocado on the side morning-of.",
+      "seasonal_note": "The asparagus tips caramelize at the top of each bite \u2014 that's the tell that you used fresh seasonal asparagus.",
+      "history": {
+        "first_used": "2026-05-04",
+        "last_used": "2026-05-04",
+        "times_made": 1,
+        "ratings": {
+          "austin": null,
+          "cameron": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "korean-bbq-chicken-bowl",
+      "name": "Korean BBQ Chicken Bowl with Gochujang & Pickled Radish",
+      "cuisine": "Korean / Asian",
+      "meal_type": "lunch",
+      "prep": "15 min (assembly \u2014 chicken + pickled radish from batch)",
+      "cook": "0 min",
+      "total": "15 min",
+      "spice_level": "Medium Austin | Low-Medium Cameron",
+      "serving_note": "2 per person \u2014 Mon / Tue lunches",
+      "tags": [
+        "batch-friendly",
+        "no-cook",
+        "korean",
+        "asian",
+        "quick-pickle"
+      ],
+      "equipment": "2 meal prep containers per person, small jar for sauce",
+      "macro_strings": {
+        "austin": "640 cal | 52g P | 16g F | 65g C",
+        "cameron": "510 cal | 36g P | 12g F | 55g C  (+60 cal, 3g F for 1/4 avocado)"
+      },
+      "macros": {
+        "austin": {
+          "cal": 640,
+          "p": 52,
+          "f": 16,
+          "c": 65
+        },
+        "cameron": {
+          "cal": 510,
+          "p": 36,
+          "f": 12,
+          "c": 55
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Batch chicken thighs, sliced",
+          "qty": "5-6 oz Austin / 4 oz Cameron"
+        },
+        {
+          "name": "Cooked jasmine rice",
+          "qty": "3/4 cup Austin / 1/2 cup Cameron"
+        },
+        {
+          "name": "Shelled edamame, thawed",
+          "qty": "1/3 cup per bowl"
+        },
+        {
+          "name": "Pickled radish (see batch notes)",
+          "qty": "3-4 tbsp"
+        },
+        {
+          "name": "Spring onions, sliced",
+          "qty": "2 stalks"
+        },
+        {
+          "name": "Sesame seeds (pantry)",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Baby spinach or arugula",
+          "qty": "1 handful"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "KOREAN BBQ SAUCE (batch \u2014 4 servings)",
+          "qty": null
+        },
+        {
+          "name": "Gochujang (pantry)",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Soy sauce (pantry)",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Sesame oil (pantry)",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Honey (pantry)",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Rice vinegar (pantry)",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Garlic, minced",
+          "qty": "1 clove"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "QUICK PICKLED RADISH",
+          "qty": null
+        },
+        {
+          "name": "Radishes, thinly sliced",
+          "qty": "1 bunch"
+        },
+        {
+          "name": "Rice vinegar (pantry)",
+          "qty": "3 tbsp"
+        },
+        {
+          "name": "Sugar",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Salt",
+          "qty": "1/2 tsp"
+        }
+      ],
+      "instructions": [
+        "PICKLED RADISH: toss sliced radishes with rice vinegar, sugar, salt. Rest 30 min minimum. Gets better overnight.",
+        "KOREAN BBQ SAUCE: whisk all sauce ingredients until smooth. Store in small jar.",
+        "Build bowl: rice base, chicken, edamame, spinach, spring onions.",
+        "Top with pickled radish and sesame seeds.",
+        "Keep sauce separate. Drizzle and toss day-of.",
+        "Cameron: add 1/4 avocado, half the sauce amount."
+      ],
+      "batch_note": "Assemble 2 containers per person Sunday. Pickled radish and sauce both made Sunday \u2014 they improve overnight.",
+      "cameron_note": "Cameron: add 1/4 avocado fresh daily. Lighter on the sauce.",
+      "seasonal_note": "Pickled radishes are a spring staple \u2014 crisp, pink, and aggressively bright against the rich gochujang.",
+      "history": {
+        "first_used": "2026-05-04",
+        "last_used": "2026-05-04",
+        "times_made": 1,
+        "ratings": {
+          "austin": null,
+          "cameron": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "thai-peanut-soba-bowl",
+      "name": "Thai Peanut Chicken Soba Noodle Bowl",
+      "cuisine": "Thai / Asian",
+      "meal_type": "lunch",
+      "prep": "15 min (+ soba cook time)",
+      "cook": "8 min",
+      "total": "25 min",
+      "spice_level": "Medium Austin | Low Cameron",
+      "serving_note": "2 per person \u2014 Wed / Thu lunches",
+      "tags": [
+        "batch-friendly",
+        "thai",
+        "asian",
+        "noodles"
+      ],
+      "equipment": "Large pot, 2 meal prep containers per person, sauce jar",
+      "macro_strings": {
+        "austin": "635 cal | 51g P | 19g F | 60g C",
+        "cameron": "515 cal | 36g P | 15g F | 52g C  (+60 cal for 1/4 avocado)"
+      },
+      "macros": {
+        "austin": {
+          "cal": 635,
+          "p": 51,
+          "f": 19,
+          "c": 60
+        },
+        "cameron": {
+          "cal": 515,
+          "p": 36,
+          "f": 15,
+          "c": 52
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Batch chicken thighs, sliced or shredded",
+          "qty": "5-6 oz Austin / 4 oz Cameron"
+        },
+        {
+          "name": "Dry soba noodles, cooked + cooled",
+          "qty": "3 oz Austin / 2 oz Cameron"
+        },
+        {
+          "name": "Shelled edamame, thawed",
+          "qty": "1/3 cup per bowl"
+        },
+        {
+          "name": "Spring onions, sliced",
+          "qty": "2 stalks per bowl"
+        },
+        {
+          "name": "Baby spinach",
+          "qty": "1 large handful per bowl"
+        },
+        {
+          "name": "Sesame seeds (pantry)",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Lime wedge",
+          "qty": "for serving"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "THAI PEANUT SAUCE (batch \u2014 4 servings)",
+          "qty": null
+        },
+        {
+          "name": "Natural peanut butter",
+          "qty": "3 tbsp"
+        },
+        {
+          "name": "Soy sauce (pantry)",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Sesame oil (pantry)",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Fresh lime juice",
+          "qty": "1.5 tbsp"
+        },
+        {
+          "name": "Honey (pantry)",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Fresh ginger, grated",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Garlic, minced",
+          "qty": "1 clove"
+        },
+        {
+          "name": "Sriracha (pantry)",
+          "qty": "1/2 tsp Austin / 1/4 tsp Cameron"
+        },
+        {
+          "name": "Warm water",
+          "qty": "2 tbsp \u2014 to thin"
+        }
+      ],
+      "instructions": [
+        "Cook soba noodles per package (typically 4-5 min boiling water). Drain, rinse under cold water.",
+        "Toss noodles with 1 tsp sesame oil to prevent clumping. Set aside.",
+        "SAUCE: whisk all sauce ingredients. Add warm water 1 tbsp at a time until pourable.",
+        "Assemble containers: noodles, chicken, edamame, spinach, spring onions.",
+        "Top with sesame seeds. Keep sauce in a small jar.",
+        "Day-of: pour sauce over bowl, toss well. Squeeze lime over top.",
+        "Cameron: half sauce, add 1/4 avocado, extra lime."
+      ],
+      "batch_note": "Cook soba noodles Sunday, rinse cold, toss with sesame oil so they don't clump. Lasts 4 days.",
+      "cameron_note": "Cameron: lighter on the Sriracha. Add 1/4 avocado day-of. Extra lime squeeze.",
+      "seasonal_note": "Soba noodles + peanut + spring onions + lime is a texture and flavor shift from rice bowls \u2014 same macro efficiency, completely different eating experience.",
+      "history": {
+        "first_used": "2026-05-04",
+        "last_used": "2026-05-04",
+        "times_made": 1,
+        "ratings": {
+          "austin": null,
+          "cameron": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "spring-arugula-prosciutto-salad",
+      "name": "Spring Arugula & Prosciutto Salad with Soft Boiled Egg",
+      "cuisine": "Italian / Spring",
+      "meal_type": "lunch",
+      "prep": "10 min",
+      "cook": "8 min (eggs)",
+      "total": "18 min (assemble day-of or night before)",
+      "spice_level": "None",
+      "serving_note": "1 per person \u2014 Fri / Sat lunches",
+      "tags": [
+        "spring",
+        "italian",
+        "salad",
+        "egg",
+        "no-cook"
+      ],
+      "equipment": "Small pot for eggs, ice bowl, salad bowl",
+      "macro_strings": {
+        "austin": "625 cal | 50g P | 22g F | 40g C",
+        "cameron": "510 cal | 35g P | 18g F | 36g C  (+60 cal for 1/4 avocado)"
+      },
+      "macros": {
+        "austin": {
+          "cal": 625,
+          "p": 50,
+          "f": 22,
+          "c": 40
+        },
+        "cameron": {
+          "cal": 510,
+          "p": 35,
+          "f": 18,
+          "c": 36
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Baby arugula",
+          "qty": "3 cups"
+        },
+        {
+          "name": "Large eggs, soft-boiled",
+          "qty": "2 per person"
+        },
+        {
+          "name": "Prosciutto, torn",
+          "qty": "1.5 oz Austin / 1 oz Cameron"
+        },
+        {
+          "name": "White beans (canned), rinsed",
+          "qty": "1/3 cup per serving"
+        },
+        {
+          "name": "Cherry tomatoes, halved",
+          "qty": "1/2 cup"
+        },
+        {
+          "name": "Crumbled feta",
+          "qty": "1 oz Austin / 0.75 oz Cameron"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "LEMON VINAIGRETTE (2 servings)",
+          "qty": null
+        },
+        {
+          "name": "Olive oil",
+          "qty": "2.5 tbsp"
+        },
+        {
+          "name": "Fresh lemon juice",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Dijon mustard (pantry)",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "Garlic, minced",
+          "qty": "1/2 clove"
+        },
+        {
+          "name": "Salt & black pepper",
+          "qty": "to taste"
+        }
+      ],
+      "instructions": [
+        "SOFT BOILED EGGS: Bring water to full boil. Lower eggs in gently. Cook 7 min for jammy yolk. Transfer immediately to ice bath 5 min. Store unpeeled in fridge.",
+        "LEMON VINAIGRETTE: whisk all ingredients. Adjust lemon and salt. Store in small jar.",
+        "Assemble base: arugula, cherry tomatoes, white beans, feta.",
+        "Peel eggs just before eating \u2014 halve and place on top. Tear prosciutto over the salad.",
+        "Drizzle vinaigrette and toss gently. Eat immediately.",
+        "Cameron: add 1/4 avocado sliced, extra feta, extra lemon squeeze."
+      ],
+      "batch_note": "Hard-boil or soft-boil eggs in advance (store unpeeled, 5 days). Pack prosciutto separately so it doesn't wilt the arugula.",
+      "cameron_note": "Cameron: add 1/4 avocado, extra feta, extra lemon. Prosciutto goes salty-creamy with the avocado.",
+      "seasonal_note": "This is a proper spring lunch \u2014 peppery arugula, jammy eggs, salty prosciutto, creamy white beans.",
+      "history": {
+        "first_used": "2026-05-04",
+        "last_used": "2026-05-04",
+        "times_made": 1,
+        "ratings": {
+          "austin": null,
+          "cameron": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "smoked-chicken-lettuce-wraps",
+      "name": "Smoked Chicken & Butter Lettuce Wraps with Pickled Ginger",
+      "cuisine": "Asian BBQ",
+      "meal_type": "lunch",
+      "prep": "10 min (uses Sunday smoker chicken)",
+      "cook": "0 min",
+      "total": "10 min",
+      "spice_level": "Low-Medium Austin | Low Cameron",
+      "serving_note": "1 per person \u2014 Sunday lunch (from beer can chicken leftovers)",
+      "tags": [
+        "no-cook",
+        "bbq",
+        "asian",
+        "smoker",
+        "spring"
+      ],
+      "equipment": "None \u2014 just assembly",
+      "macro_strings": {
+        "austin": "620 cal | 51g P | 18g F | 55g C",
+        "cameron": "505 cal | 36g P | 14g F | 48g C  (+60 cal for 1/4 avocado)"
+      },
+      "macros": {
+        "austin": {
+          "cal": 620,
+          "p": 51,
+          "f": 18,
+          "c": 55
+        },
+        "cameron": {
+          "cal": 505,
+          "p": 36,
+          "f": 14,
+          "c": 48
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Smoked whole chicken, shredded",
+          "qty": "5-6 oz Austin / 4-5 oz Cameron"
+        },
+        {
+          "name": "Butter lettuce leaves (cups)",
+          "qty": "4-5 large leaves per person"
+        },
+        {
+          "name": "Cooked jasmine rice",
+          "qty": "3/4 cup Austin / 1/2 cup Cameron"
+        },
+        {
+          "name": "Spring onions, sliced thin",
+          "qty": "3 stalks"
+        },
+        {
+          "name": "Sesame seeds (pantry)",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "SESAME-GINGER DIPPING SAUCE",
+          "qty": null
+        },
+        {
+          "name": "Soy sauce (pantry)",
+          "qty": "3 tbsp"
+        },
+        {
+          "name": "Sesame oil (pantry)",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Rice vinegar (pantry)",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Fresh ginger, grated",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Honey (pantry)",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "Garlic, minced",
+          "qty": "1 small clove"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "QUICK PICKLED GINGER (optional, make Sat)",
+          "qty": null
+        },
+        {
+          "name": "Fresh ginger, thinly sliced",
+          "qty": "2-inch knob"
+        },
+        {
+          "name": "Rice vinegar (pantry)",
+          "qty": "3 tbsp"
+        },
+        {
+          "name": "Sugar",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Salt",
+          "qty": "pinch"
+        }
+      ],
+      "instructions": [
+        "PICKLED GINGER (optional, Sat): thinly slice fresh ginger. Toss with rice vinegar, sugar, salt. Rest 30 min. Fridge 5 days.",
+        "SAUCE: whisk soy, sesame oil, rice vinegar, ginger, honey, garlic. Taste and adjust.",
+        "Shred smoked chicken from the bird \u2014 mix light and dark meat for best flavor.",
+        "Lay butter lettuce leaves flat. Add a spoonful of rice to each.",
+        "Top with shredded chicken, spring onions, sesame seeds, and pickled ginger.",
+        "Spoon sauce over wraps or serve alongside for dipping.",
+        "Cameron: add 1/4 avocado into the wraps."
+      ],
+      "batch_note": "Carve smoked chicken while still warm \u2014 pull 1/4 bird per person for lunch. Assemble immediately after carving.",
+      "cameron_note": "Cameron: add 1/4 avocado sliced into the wraps.",
+      "seasonal_note": "The contrast between cold crisp butter lettuce and warm smoky chicken is the payoff here.",
+      "history": {
+        "first_used": "2026-05-04",
+        "last_used": "2026-05-04",
+        "times_made": 1,
+        "ratings": {
+          "austin": null,
+          "cameron": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "lemon-chicken-piccata",
+      "name": "Lemon Chicken Piccata with Asparagus & Orzo",
+      "cuisine": "Italian",
+      "meal_type": "dinner",
+      "prep": "10 min",
+      "cook": "25 min",
+      "total": "35 min",
+      "spice_level": "None (pure brightness and umami)",
+      "serving_note": "2 (Monday dinner)",
+      "tags": [
+        "fresh",
+        "italian",
+        "spring",
+        "quick"
+      ],
+      "equipment": "Large skillet, pot for orzo, baking sheet for asparagus",
+      "macro_strings": {
+        "austin": "660 cal | 58g P | 18g F | 66g C",
+        "cameron": "580 cal | 36g P | 15g F | 62g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 660,
+          "p": 58,
+          "f": 18,
+          "c": 66
+        },
+        "cameron": {
+          "cal": 580,
+          "p": 36,
+          "f": 15,
+          "c": 62
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Boneless chicken thighs (pounded thin)",
+          "qty": "6 oz Austin / 5 oz Cameron"
+        },
+        {
+          "name": "Dry orzo (pantry)",
+          "qty": "1 cup Austin / 3/4 cup Cameron"
+        },
+        {
+          "name": "Fresh asparagus, ends trimmed",
+          "qty": "6-8 spears per person"
+        },
+        {
+          "name": "Shallots, minced",
+          "qty": "2"
+        },
+        {
+          "name": "Garlic, minced",
+          "qty": "2 cloves"
+        },
+        {
+          "name": "Capers, drained",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Fresh lemon juice",
+          "qty": "3 tbsp (~1.5 lemons)"
+        },
+        {
+          "name": "Lemon zest",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Lemon slices",
+          "qty": "4-5 thin rounds \u2014 for pan"
+        },
+        {
+          "name": "Dry white wine or chicken broth (pantry)",
+          "qty": "1/3 cup"
+        },
+        {
+          "name": "Butter",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Olive oil",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Fresh parsley or basil, chopped",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Parmesan, grated",
+          "qty": "1 oz per person"
+        },
+        {
+          "name": "Salt & black pepper",
+          "qty": "to taste"
+        },
+        {
+          "name": "Flour (pantry)",
+          "qty": "for dredging chicken"
+        }
+      ],
+      "instructions": [
+        "Cook orzo in well-salted boiling water per package. Drain. Toss with 1 tsp olive oil. Set aside.",
+        "Pound chicken thighs to even 1/2-inch thickness. Season with salt and pepper. Dust both sides lightly with flour.",
+        "Heat 1.5 tbsp olive oil in large skillet over medium-high. Cook chicken 3-4 min per side until golden. Remove to plate.",
+        "Same pan, medium heat: saut\u00e9 shallots 2 min. Add garlic 1 min.",
+        "Add wine or broth to deglaze \u2014 scrape up all the brown bits. Add lemon juice, lemon slices, capers. Simmer 2-3 min.",
+        "Off heat: swirl in butter. It should make a glossy sauce. Return chicken to pan, spoon sauce over. Finish with lemon zest.",
+        "ASPARAGUS: toss with olive oil, salt, pepper. Roast at 425\u00b0F or grill in a pan 6-8 min.",
+        "Plate: orzo, asparagus alongside, chicken with sauce poured over. Parmesan + parsley on top."
+      ],
+      "batch_note": "Make fresh Monday evening. The caper-lemon pan sauce comes together in 5 min once the chicken is done.",
+      "cameron_note": "Cameron: same dish, slightly smaller chicken portion. More orzo if she wants it.",
+      "seasonal_note": "Peak asparagus + capers + lemon is peak May cooking. The orzo soaks up the piccata sauce like pasta should.",
+      "history": {
+        "first_used": "2026-05-04",
+        "last_used": "2026-05-04",
+        "times_made": 1,
+        "ratings": {
+          "austin": null,
+          "cameron": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "zaatar-shrimp-couscous",
+      "name": "Za'atar Shrimp with Spring Pea Couscous & Arugula",
+      "cuisine": "Mediterranean",
+      "meal_type": "dinner",
+      "prep": "10 min",
+      "cook": "15 min",
+      "total": "25 min",
+      "spice_level": "Low-Medium (za'atar is herby, not hot)",
+      "serving_note": "2 (Tuesday dinner)",
+      "tags": [
+        "fresh",
+        "mediterranean",
+        "seafood",
+        "spring",
+        "quick"
+      ],
+      "equipment": "Large skillet, large bowl for couscous",
+      "macro_strings": {
+        "austin": "650 cal | 58g P | 16g F | 62g C",
+        "cameron": "580 cal | 36g P | 13g F | 65g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 650,
+          "p": 58,
+          "f": 16,
+          "c": 62
+        },
+        "cameron": {
+          "cal": 580,
+          "p": 36,
+          "f": 13,
+          "c": 65
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Large/jumbo shrimp, peeled, deveined",
+          "qty": "8 oz Austin / 6 oz Cameron"
+        },
+        {
+          "name": "Za'atar spice blend",
+          "qty": "2 tbsp total"
+        },
+        {
+          "name": "Dry couscous (pantry)",
+          "qty": "3/4 cup Austin / 1/2 cup Cameron"
+        },
+        {
+          "name": "Frozen spring peas, thawed",
+          "qty": "1/2 cup per serving"
+        },
+        {
+          "name": "Baby arugula",
+          "qty": "2 cups per person"
+        },
+        {
+          "name": "Fresh lemon juice + zest",
+          "qty": "2 tbsp juice + 1 tsp zest"
+        },
+        {
+          "name": "Olive oil",
+          "qty": "2.5 tbsp"
+        },
+        {
+          "name": "Garlic, minced",
+          "qty": "2 cloves"
+        },
+        {
+          "name": "Fresh mint, chopped",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Crumbled feta",
+          "qty": "1 oz per person"
+        },
+        {
+          "name": "Salt & black pepper",
+          "qty": "to taste"
+        },
+        {
+          "name": "Boiling water or broth",
+          "qty": "for couscous"
+        }
+      ],
+      "instructions": [
+        "COUSCOUS: combine dry couscous in bowl with 1 tbsp olive oil, pinch salt. Pour boiling water/broth over (1:1 ratio). Cover tightly 5 min. Fluff with fork.",
+        "Fold in thawed peas, mint, lemon juice, lemon zest. Season with salt and pepper. Set aside.",
+        "ZA'ATAR SHRIMP: toss shrimp with za'atar, salt, pepper, and 1/2 tbsp olive oil.",
+        "Heat remaining olive oil in large skillet over medium-high. Add garlic 30 sec.",
+        "Add shrimp in single layer. Cook 2 min per side until pink and curled.",
+        "ARUGULA: toss with a drizzle of olive oil, lemon juice, salt.",
+        "Plate: pea couscous base, arugula alongside, shrimp on top. Crumble feta over everything.",
+        "Cameron: add 1/4 avocado sliced on the arugula. Extra feta."
+      ],
+      "batch_note": "Make fresh Tuesday. Shrimp cook in under 4 min \u2014 don't overcook.",
+      "cameron_note": "Cameron: add 1/4 avocado on top of the arugula.",
+      "seasonal_note": "Za'atar on shrimp is the upgrade move \u2014 nutty, herby, slightly tangy from sumac in the blend.",
+      "history": {
+        "first_used": "2026-05-04",
+        "last_used": "2026-05-04",
+        "times_made": 1,
+        "ratings": {
+          "austin": null,
+          "cameron": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "coconut-green-curry-chicken",
+      "name": "Coconut Green Curry Chicken with Jasmine Rice",
+      "cuisine": "Thai",
+      "meal_type": "dinner",
+      "prep": "10 min",
+      "cook": "25 min",
+      "total": "35 min",
+      "spice_level": "High Austin (extra jalape\u00f1o) | Medium Cameron (1 tbsp paste, no jalape\u00f1o)",
+      "serving_note": "2 (Wednesday dinner)",
+      "tags": [
+        "fresh",
+        "thai",
+        "sauce-forward",
+        "high-protein",
+        "cameron-favorite"
+      ],
+      "equipment": "Large skillet or wok",
+      "macro_strings": {
+        "austin": "670 cal | 62g P | 20g F | 68g C",
+        "cameron": "590 cal | 37g P | 18g F | 70g C  (extra sauce for Cameron)"
+      },
+      "macros": {
+        "austin": {
+          "cal": 670,
+          "p": 62,
+          "f": 20,
+          "c": 68
+        },
+        "cameron": {
+          "cal": 590,
+          "p": 37,
+          "f": 18,
+          "c": 70
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Boneless chicken thighs, diced 1-inch",
+          "qty": "8 oz Austin / 6 oz Cameron"
+        },
+        {
+          "name": "Cooked jasmine rice (from batch)",
+          "qty": "1 cup Austin / 3/4 cup Cameron"
+        },
+        {
+          "name": "Light coconut milk",
+          "qty": "3/4 can (10 oz)"
+        },
+        {
+          "name": "Green curry paste",
+          "qty": "2 tbsp Austin / 1 tbsp Cameron"
+        },
+        {
+          "name": "Bell peppers, sliced (red + yellow)",
+          "qty": "2 peppers"
+        },
+        {
+          "name": "Spring onions, white + green parts",
+          "qty": "3 stalks"
+        },
+        {
+          "name": "Baby spinach or Thai basil",
+          "qty": "2 handfuls"
+        },
+        {
+          "name": "Fresh lime juice",
+          "qty": "1.5 tbsp"
+        },
+        {
+          "name": "Fish sauce (pantry)",
+          "qty": "1.5 tbsp"
+        },
+        {
+          "name": "Honey (pantry)",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Fresh ginger, grated",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Garlic, minced",
+          "qty": "2 cloves"
+        },
+        {
+          "name": "Olive or coconut oil",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Fresh cilantro",
+          "qty": "for garnish"
+        },
+        {
+          "name": "Jalape\u00f1o, sliced (Austin)",
+          "qty": "1 \u2014 Cameron skips"
+        },
+        {
+          "name": "Lime wedges",
+          "qty": "for serving"
+        }
+      ],
+      "instructions": [
+        "Heat oil in large skillet or wok over medium-high. Add ginger, garlic, spring onion whites \u2014 cook 1 min.",
+        "Add curry paste (Austin: 2 tbsp | Cameron: 1 tbsp). Stir-fry 1 min until fragrant.",
+        "Add chicken. Cook 5-6 min until no longer pink, stirring to coat in curry paste.",
+        "Pour in coconut milk. Stir to combine. Add fish sauce, honey, and jalape\u00f1o (Austin).",
+        "Add sliced bell peppers. Simmer 8-10 min until peppers are tender and sauce thickens slightly.",
+        "Add lime juice. Taste and adjust \u2014 more fish sauce for salt, more lime for brightness.",
+        "Off heat: fold in spinach or Thai basil \u2014 it wilts immediately.",
+        "Serve over jasmine rice. Top with cilantro and spring onion greens."
+      ],
+      "batch_note": "Make fresh Wednesday. The curry paste + coconut milk + fish sauce base comes together in under 10 min.",
+      "cameron_note": "Cameron: 1 tbsp curry paste, no jalape\u00f1o. More coconut milk for a creamier, milder sauce. She will want extra rice for the sauce.",
+      "seasonal_note": "Green curry screams spring \u2014 it's lighter and brighter than red.",
+      "history": {
+        "first_used": "2026-05-04",
+        "last_used": "2026-05-04",
+        "times_made": 1,
+        "ratings": {
+          "austin": null,
+          "cameron": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "teriyaki-salmon-bowl",
+      "name": "Teriyaki Salmon Bowls with Pickled Cucumber & Sesame Rice",
+      "cuisine": "Japanese",
+      "meal_type": "dinner",
+      "prep": "10 min (+ 20 min marinade)",
+      "cook": "15 min",
+      "total": "25 min active",
+      "spice_level": "None (umami + sweet)",
+      "serving_note": "2 (Thursday dinner)",
+      "tags": [
+        "fresh",
+        "japanese",
+        "seafood",
+        "quick-pickle",
+        "spring"
+      ],
+      "equipment": "Sheet pan, oven/broiler, foil",
+      "macro_strings": {
+        "austin": "655 cal | 58g P | 19g F | 60g C",
+        "cameron": "580 cal | 36g P | 17g F | 55g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 655,
+          "p": 58,
+          "f": 19,
+          "c": 60
+        },
+        "cameron": {
+          "cal": 580,
+          "p": 36,
+          "f": 17,
+          "c": 55
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Salmon fillets, 6-7 oz each, skin-on",
+          "qty": "2 fillets"
+        },
+        {
+          "name": "Cooked jasmine rice (from batch)",
+          "qty": "3/4 cup Austin / 1/2 cup Cameron"
+        },
+        {
+          "name": "Sesame oil (pantry)",
+          "qty": "2 tsp \u2014 for rice"
+        },
+        {
+          "name": "Soy sauce (pantry)",
+          "qty": "1 tsp \u2014 for rice"
+        },
+        {
+          "name": "Pickled cucumber (from batch)",
+          "qty": "1/3 cup per bowl"
+        },
+        {
+          "name": "Shelled edamame, thawed",
+          "qty": "1/3 cup per bowl"
+        },
+        {
+          "name": "Spring onions, sliced",
+          "qty": "2 stalks \u2014 garnish"
+        },
+        {
+          "name": "Sesame seeds (pantry)",
+          "qty": "1 tsp \u2014 garnish"
+        },
+        {
+          "name": "Lemon or lime wedge",
+          "qty": "for serving"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "TERIYAKI GLAZE",
+          "qty": null
+        },
+        {
+          "name": "Soy sauce (pantry)",
+          "qty": "3 tbsp"
+        },
+        {
+          "name": "Honey (pantry)",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Rice vinegar (pantry)",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Fresh ginger, grated",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Garlic, minced",
+          "qty": "1 clove"
+        },
+        {
+          "name": "Sesame oil (pantry)",
+          "qty": "1 tsp"
+        }
+      ],
+      "instructions": [
+        "GLAZE: Whisk soy, honey, rice vinegar, ginger, garlic, sesame oil in a small bowl.",
+        "Pour half the glaze over salmon. Marinate 20 min to overnight. Reserve remaining glaze.",
+        "Preheat oven to 400\u00b0F. Line a sheet pan with foil.",
+        "Place salmon skin-side-down. Roast 10-12 min until mostly opaque.",
+        "Switch to BROIL. Brush with remaining glaze. Broil 2-3 min until caramelized. Watch closely \u2014 honey burns fast.",
+        "SESAME RICE: warm batch rice in a pan with sesame oil and soy sauce \u2014 toss to coat.",
+        "EDAMAME: thaw in warm water or microwave 2 min.",
+        "Plate: sesame rice, edamame, pickled cucumber, salmon on top."
+      ],
+      "batch_note": "Marinate salmon Thursday morning or night before. Pickled cucumber made Sunday.",
+      "cameron_note": "Cameron: same dish. The teriyaki glaze is sweet-savory and not spicy \u2014 zero adjustments needed.",
+      "seasonal_note": "Teriyaki is a different direction from miso \u2014 sweeter, less funky, brighter.",
+      "history": {
+        "first_used": "2026-05-04",
+        "last_used": "2026-05-04",
+        "times_made": 1,
+        "ratings": {
+          "austin": null,
+          "cameron": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "ground-turkey-street-tacos",
+      "name": "Spicy Ground Turkey Street Tacos with Spring Onion Pico",
+      "cuisine": "Mexican / Tex-Mex",
+      "meal_type": "dinner",
+      "prep": "15 min",
+      "cook": "15 min",
+      "total": "30 min",
+      "spice_level": "High Austin | Medium Cameron (reduce cayenne + skip jalape\u00f1o)",
+      "serving_note": "2 (Friday dinner)",
+      "tags": [
+        "fresh",
+        "mexican",
+        "high-protein",
+        "spring",
+        "quick"
+      ],
+      "equipment": "Large skillet, gas burner or cast iron for tortillas",
+      "macro_strings": {
+        "austin": "660 cal | 61g P | 17g F | 64g C",
+        "cameron": "590 cal | 37g P | 15g F | 66g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 660,
+          "p": 61,
+          "f": 17,
+          "c": 64
+        },
+        "cameron": {
+          "cal": 590,
+          "p": 37,
+          "f": 15,
+          "c": 66
+        }
+      },
+      "ingredients": [
+        {
+          "name": "93% lean ground turkey",
+          "qty": "8 oz Austin / 6 oz Cameron"
+        },
+        {
+          "name": "Corn tortillas (small, 6-inch)",
+          "qty": "3 Austin / 2 Cameron"
+        },
+        {
+          "name": "Black beans, rinsed (pantry)",
+          "qty": "1/3 cup per serving"
+        },
+        {
+          "name": "Olive oil",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "TACO SEASONING (pantry)",
+          "qty": null
+        },
+        {
+          "name": "Cumin (pantry)",
+          "qty": "1.5 tsp"
+        },
+        {
+          "name": "Chili powder (pantry)",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Smoked paprika (pantry)",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "Cayenne (pantry)",
+          "qty": "1/2 tsp Austin / 1/4 tsp Cameron"
+        },
+        {
+          "name": "Garlic powder (pantry)",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "Salt",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "SPRING ONION PICO DE GALLO",
+          "qty": null
+        },
+        {
+          "name": "Spring onions, thinly sliced",
+          "qty": "4 stalks"
+        },
+        {
+          "name": "Cherry tomatoes, quartered",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Jalape\u00f1o, minced",
+          "qty": "1 \u2014 Cameron: 1/4"
+        },
+        {
+          "name": "Fresh cilantro, chopped",
+          "qty": "3 tbsp"
+        },
+        {
+          "name": "Lime juice",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Salt",
+          "qty": "to taste"
+        }
+      ],
+      "instructions": [
+        "PICO: combine spring onions, tomatoes, jalape\u00f1o, cilantro, lime juice, salt. Toss and let sit 10 min.",
+        "Heat olive oil in large skillet over medium-high. Add ground turkey \u2014 break apart with spoon. Cook 6-8 min until cooked through with some caramelization.",
+        "Add all taco seasonings. Toss to coat. Add 2 tbsp water and stir. Cook 1-2 min.",
+        "TORTILLAS: char corn tortillas directly over a gas flame 30-45 sec per side until blistered. Or dry cast iron, 1 min per side.",
+        "Warm black beans in a small pot or microwave.",
+        "BUILD TACOS: tortilla, spoonful of black beans, turkey, generous pico on top.",
+        "Austin: extra jalape\u00f1o, hot sauce, lime. Cameron: sliced avocado, lighter on seasoning."
+      ],
+      "batch_note": "Make fresh Friday. Spring onion pico is the difference-maker \u2014 don't sub regular white onion.",
+      "cameron_note": "Cameron: cut cayenne in half, skip extra jalape\u00f1o. Add sliced avocado.",
+      "seasonal_note": "Spring onions in the pico instead of white onion is the spring upgrade \u2014 less aggressive, greener, and far more interesting.",
+      "history": {
+        "first_used": "2026-05-04",
+        "last_used": "2026-05-04",
+        "times_made": 1,
+        "ratings": {
+          "austin": null,
+          "cameron": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "chicken-souvlaki-skewers",
+      "name": "Chicken Souvlaki Skewers with Herbed Tzatziki & Spring Salad",
+      "cuisine": "Greek",
+      "meal_type": "dinner",
+      "prep": "20 min (+ 30 min\u20132 hr marinate)",
+      "cook": "15 min",
+      "total": "35 min active",
+      "spice_level": "Medium Austin | Low Cameron (small pinch pepper flakes)",
+      "serving_note": "2 (Saturday dinner)",
+      "tags": [
+        "fresh",
+        "greek",
+        "spring",
+        "high-protein",
+        "grilled"
+      ],
+      "equipment": "Skewers (metal or soaked wood), cast iron or grill, small mixing bowl for tzatziki",
+      "macro_strings": {
+        "austin": "655 cal | 61g P | 18g F | 52g C",
+        "cameron": "585 cal | 37g P | 16g F | 48g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 655,
+          "p": 61,
+          "f": 18,
+          "c": 52
+        },
+        "cameron": {
+          "cal": 585,
+          "p": 37,
+          "f": 16,
+          "c": 48
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Boneless chicken thighs, 1-inch cubes",
+          "qty": "7 oz Austin / 6 oz Cameron"
+        },
+        {
+          "name": "Pita bread, warm",
+          "qty": "1 per person"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "SOUVLAKI MARINADE",
+          "qty": null
+        },
+        {
+          "name": "Olive oil",
+          "qty": "3 tbsp"
+        },
+        {
+          "name": "Fresh lemon juice",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Garlic, minced",
+          "qty": "3 cloves"
+        },
+        {
+          "name": "Dried oregano (pantry)",
+          "qty": "1.5 tsp"
+        },
+        {
+          "name": "Fresh thyme leaves",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Red pepper flakes (pantry)",
+          "qty": "1/2 tsp Austin / pinch Cameron"
+        },
+        {
+          "name": "Salt & black pepper",
+          "qty": "to taste"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "HERBED TZATZIKI (make Friday night)",
+          "qty": null
+        },
+        {
+          "name": "Plain nonfat Greek yogurt",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Persian cucumber, grated + squeezed dry",
+          "qty": "1/2 cup"
+        },
+        {
+          "name": "Garlic, minced",
+          "qty": "1 clove"
+        },
+        {
+          "name": "Fresh dill, chopped",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Fresh mint, chopped",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Lemon juice",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Salt",
+          "qty": "to taste"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "SPRING SALAD",
+          "qty": null
+        },
+        {
+          "name": "Baby arugula",
+          "qty": "3 cups"
+        },
+        {
+          "name": "Cherry tomatoes, halved",
+          "qty": "1/2 cup"
+        },
+        {
+          "name": "Red onion, thinly sliced",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Crumbled feta",
+          "qty": "1 oz"
+        },
+        {
+          "name": "Lemon vinaigrette (olive oil + lemon + salt)",
+          "qty": "2 tbsp"
+        }
+      ],
+      "instructions": [
+        "TZATZIKI (Friday): Mix yogurt, grated squeezed cucumber, garlic, dill, mint, lemon, salt. Refrigerate overnight.",
+        "MARINADE: Whisk olive oil, lemon, garlic, oregano, thyme, pepper flakes. Add chicken cubes. Marinate 30 min to 2 hrs.",
+        "Thread chicken onto skewers (2-3 skewers per person, 3-4 pieces each).",
+        "GRILL OR CAST IRON: high heat, oiled surface. Cook skewers 3-4 min per side, turning twice, until charred at 165\u00b0F internal.",
+        "SALAD: toss arugula, tomatoes, red onion with lemon vinaigrette. Top with feta.",
+        "WARM PITA: wrap in foil, Breville 5 min at 350\u00b0F or dry skillet 1 min per side.",
+        "Plate: skewers alongside salad, generous tzatziki on the side.",
+        "Cameron: add 1/4 avocado to salad."
+      ],
+      "batch_note": "Marinate chicken Saturday morning. Make tzatziki Friday night \u2014 overnight is better.",
+      "cameron_note": "Cameron: add 1/4 avocado to salad and an extra warm pita if she wants more substance.",
+      "seasonal_note": "Fresh dill and mint in the tzatziki is non-negotiable right now \u2014 they're both peak spring herbs.",
+      "history": {
+        "first_used": "2026-05-04",
+        "last_used": "2026-05-04",
+        "times_made": 1,
+        "ratings": {
+          "austin": null,
+          "cameron": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "beer-can-smoked-chicken",
+      "name": "Beer Can Smoked Whole Chicken with New Potatoes & Grilled Asparagus",
+      "cuisine": "American BBQ",
+      "meal_type": "dinner",
+      "prep": "20 min (+ overnight dry rub Sat eve)",
+      "cook": "3.5\u20134 hrs at 275\u00b0F",
+      "total": "4.5 hrs (mostly hands-off)",
+      "spice_level": "Medium-High Austin (bold rub) | Medium Cameron (lighter cayenne)",
+      "serving_note": "2\u20134 (Sunday dinner + leftover meat for Sunday lunch wraps)",
+      "tags": [
+        "smoker",
+        "bbq",
+        "weekend-project",
+        "spring",
+        "spring"
+      ],
+      "equipment": "Smoker + apple/cherry wood, sheet pan (potatoes + asparagus), kitchen thermometer",
+      "macro_strings": {
+        "austin": "680 cal | 63g P | 24g F | 42g C  (dinner serving)",
+        "cameron": "595 cal | 38g P | 21g F | 38g C  (dinner serving)"
+      },
+      "macros": {
+        "austin": {
+          "cal": 680,
+          "p": 63,
+          "f": 24,
+          "c": 42
+        },
+        "cameron": {
+          "cal": 595,
+          "p": 38,
+          "f": 21,
+          "c": 38
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Whole chicken, 4\u20135 lbs",
+          "qty": "1"
+        },
+        {
+          "name": "1 can lager beer",
+          "qty": "12 oz \u2014 half for drinking, half for the cavity"
+        },
+        {
+          "name": "New/baby potatoes, halved",
+          "qty": "1 lb"
+        },
+        {
+          "name": "Fresh asparagus, ends trimmed",
+          "qty": "1 lb"
+        },
+        {
+          "name": "Fresh thyme sprigs",
+          "qty": "4-5"
+        },
+        {
+          "name": "Olive oil",
+          "qty": "3 tbsp"
+        },
+        {
+          "name": "Apple or cherry wood chips",
+          "qty": "for smoker"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "DRY RUB (apply Sat night)",
+          "qty": null
+        },
+        {
+          "name": "Smoked paprika (pantry)",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Brown sugar (pantry)",
+          "qty": "1.5 tbsp"
+        },
+        {
+          "name": "Garlic powder (pantry)",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Cayenne (pantry)",
+          "qty": "1 tsp Austin side / 1/2 tsp Cameron side"
+        },
+        {
+          "name": "Black pepper",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "1.5 tsp"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "ASPARAGUS",
+          "qty": null
+        },
+        {
+          "name": "Olive oil",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Lemon juice",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Salt & pepper",
+          "qty": "to taste"
+        }
+      ],
+      "instructions": [
+        "SAT NIGHT: Pat chicken dry inside and out. Remove giblets. Loosen skin over breast with fingers.",
+        "Apply dry rub all over \u2014 under skin on breast, inside cavity, all over exterior. Press it in.",
+        "Wrap loosely in plastic wrap. Refrigerate overnight. Chill a beer can.",
+        "SUN MORNING: Pull chicken 30 min before smoking. Open beer can, pour out half.",
+        "Lower chicken cavity onto beer can \u2014 it stands upright. Place upright on smoker grate.",
+        "Smoke at 275\u00b0F with apple or cherry wood. 3.5\u20134 hrs total until 165\u00b0F in the breast.",
+        "REST: Remove from smoker. Let rest 15 min before carving.",
+        "CARVE: Remove breast carefully. Legs and thighs separate. Reserve 1/4 bird for Sunday lunch wraps.",
+        "POTATOES: toss with olive oil, thyme, salt, pepper. Roast at 425\u00b0F for 25-30 min.",
+        "ASPARAGUS: toss with olive oil, lemon, salt. Broil or grill 6-8 min until charred tips.",
+        "Plate: carved chicken, roasted potatoes, grilled asparagus."
+      ],
+      "batch_note": "Apply dry rub Saturday night. Start smoker by 8-9am Sunday. Reserve 1/4 of the bird carved warm for Sunday lunch lettuce wraps.",
+      "cameron_note": "Cameron: half cayenne in the dry rub on her half of the bird. She gets white meat (breast) at dinner.",
+      "seasonal_note": "Beer can smoked chicken in May with asparagus and new potatoes is spring BBQ done right \u2014 the beer steams the cavity from inside while smoke works the outside.",
+      "history": {
+        "first_used": "2026-05-04",
+        "last_used": "2026-05-04",
+        "times_made": 1,
+        "ratings": {
+          "austin": null,
+          "cameron": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "strawberry-mango-smoothie-bowl",
+      "name": "Strawberry Mango Protein Smoothie Bowl",
+      "cuisine": "American / Spring",
+      "meal_type": "breakfast",
+      "prep": "5 min (batch 4 bases Saturday night, freeze)",
+      "cook": "0 min",
+      "total": "5 min active + overnight freeze",
+      "spice_level": "None",
+      "serving_note": "4 servings \u2014 batch days (Mon/Wed/Fri/Sun)",
+      "tags": [
+        "batch-friendly",
+        "grab-and-go",
+        "spring",
+        "no-cook",
+        "smoothie"
+      ],
+      "equipment": "High-powered blender, 4 freezer-safe meal prep containers",
+      "macro_strings": {
+        "austin": "520 cal | 42g P | 11g F | 56g C",
+        "cameron": "415 cal | 31g P | 8g F | 47g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 520,
+          "p": 42,
+          "f": 11,
+          "c": 56
+        },
+        "cameron": {
+          "cal": 415,
+          "p": 31,
+          "f": 8,
+          "c": 47
+        }
+      },
+      "ingredients": [
+        {
+          "name": "AUSTIN (per serving)",
+          "qty": null
+        },
+        {
+          "name": "Frozen mango chunks",
+          "qty": "1 cup (150g)"
+        },
+        {
+          "name": "Frozen strawberries",
+          "qty": "1/2 cup (75g)"
+        },
+        {
+          "name": "Plain nonfat Greek yogurt",
+          "qty": "1/2 cup (120g)"
+        },
+        {
+          "name": "Vanilla protein powder",
+          "qty": "1 scoop (30g)"
+        },
+        {
+          "name": "Unsweetened almond milk",
+          "qty": "1/4 cup"
+        },
+        {
+          "name": "Granola (pantry)",
+          "qty": "1/3 cup \u2014 add morning-of"
+        },
+        {
+          "name": "Fresh strawberry slices",
+          "qty": "1/3 cup \u2014 add morning-of"
+        },
+        {
+          "name": "Almond butter",
+          "qty": "1 tbsp \u2014 add morning-of"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "CAMERON (per serving)",
+          "qty": null
+        },
+        {
+          "name": "Frozen mango chunks",
+          "qty": "3/4 cup (110g)"
+        },
+        {
+          "name": "Frozen strawberries",
+          "qty": "1/3 cup (50g)"
+        },
+        {
+          "name": "Plain nonfat Greek yogurt",
+          "qty": "1/3 cup (80g)"
+        },
+        {
+          "name": "Vanilla protein powder",
+          "qty": "3/4 scoop (22g)"
+        },
+        {
+          "name": "Unsweetened almond milk",
+          "qty": "3 tbsp"
+        },
+        {
+          "name": "Granola (pantry)",
+          "qty": "1/4 cup \u2014 add morning-of"
+        },
+        {
+          "name": "Fresh strawberry slices",
+          "qty": "1/4 cup \u2014 add morning-of"
+        },
+        {
+          "name": "Unsweetened coconut flakes",
+          "qty": "1 tbsp \u2014 add morning-of"
+        }
+      ],
+      "instructions": [
+        "SATURDAY BATCH: Blend each serving base separately (or in 2 batches of 2). Combine frozen mango + frozen strawberries + Greek yogurt + protein powder + almond milk. Blend on high until completely smooth and very thick \u2014 much thicker than a drinkable smoothie. It should hold a spoon upright.",
+        "Pour into individual meal prep containers. Cover tightly and freeze overnight.",
+        "MORNING-OF: Pull container from freezer 15\u201320 minutes before eating. It should be the consistency of soft-serve or thick sorbet.",
+        "Top Austin's bowl with granola + fresh strawberry slices + 1 tbsp almond butter.",
+        "Top Cameron's bowl with granola + fresh strawberry slices + coconut flakes.",
+        "Eat immediately \u2014 do not refreeze once thawed."
+      ],
+      "batch_note": "Blend 4 bases Saturday night, freeze in containers. Pull each one out 15-20 min before eating. Add toppings fresh morning-of.",
+      "cameron_note": "Cameron skips almond butter \u2014 uses coconut flakes instead. Lighter on the mango if preferred.",
+      "seasonal_note": "Strawberries are at peak in late May Pittsburgh. Use fresh for toppings, frozen for the base blend.",
+      "history": {
+        "first_used": "2026-05-11",
+        "last_used": "2026-05-11",
+        "times_made": 1,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "egg-white-veggie-frittata-cups",
+      "name": "Egg White & Veggie Frittata Cups with Turkey & Snap Peas",
+      "cuisine": "American / Spring",
+      "meal_type": "breakfast",
+      "prep": "12 min (batch Sunday)",
+      "cook": "22 min",
+      "total": "34 min",
+      "spice_level": "Mild",
+      "serving_note": "12 cups total \u2014 Austin 4/morning, Cameron 3/morning (Tue/Thu/Sat)",
+      "tags": [
+        "batch-friendly",
+        "high-protein",
+        "grab-and-go",
+        "spring",
+        "oven"
+      ],
+      "equipment": "12-cup muffin tin, large mixing bowl, non-stick spray",
+      "macro_strings": {
+        "austin": "530 cal | 44g P | 22g F | 10g C",
+        "cameron": "415 cal | 33g P | 17g F | 8g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 530,
+          "p": 44,
+          "f": 22,
+          "c": 10
+        },
+        "cameron": {
+          "cal": 415,
+          "p": 33,
+          "f": 17,
+          "c": 8
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Liquid egg whites",
+          "qty": "10 oz (from carton)"
+        },
+        {
+          "name": "Whole large eggs",
+          "qty": "4"
+        },
+        {
+          "name": "Turkey breakfast sausage crumbles, cooked",
+          "qty": "6 oz"
+        },
+        {
+          "name": "Fresh snap peas, roughly chopped",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Spring onions, thinly sliced (whites + light green)",
+          "qty": "4"
+        },
+        {
+          "name": "Crumbled feta cheese",
+          "qty": "2 oz"
+        },
+        {
+          "name": "Garlic powder (pantry)",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "Red pepper flakes (pantry)",
+          "qty": "1/4 tsp"
+        },
+        {
+          "name": "Kosher salt + black pepper",
+          "qty": "to taste"
+        },
+        {
+          "name": "Non-stick cooking spray",
+          "qty": "as needed"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "AUSTIN: 4 cups per serving + optional hot sauce",
+          "qty": null
+        },
+        {
+          "name": "CAMERON: 3 cups per serving + optional avocado side (1/4 avocado)",
+          "qty": null
+        }
+      ],
+      "instructions": [
+        "Preheat oven to 375\u00b0F. Spray a 12-cup muffin tin generously with non-stick spray \u2014 get the sides well coated.",
+        "In a large bowl, whisk together egg whites and whole eggs until smooth and slightly foamy.",
+        "Add cooked turkey sausage crumbles, chopped snap peas, sliced spring onions, feta, garlic powder, red pepper flakes, salt, and pepper. Stir to combine.",
+        "Ladle mixture evenly into prepared muffin cups, filling each about 3/4 full. The mixture will puff up during baking.",
+        "Bake 20\u201322 minutes until tops are puffed, golden, and a toothpick inserted in the center comes out clean. They should spring back when gently pressed.",
+        "Cool in tin for 5 minutes, then run a butter knife around each cup and pop out. Cool completely on a rack before storing.",
+        "Store airtight in fridge up to 5 days. Reheat in microwave 45\u201360 seconds or in air fryer at 350\u00b0F for 3\u20134 min.",
+        "Austin: 4 cups per serving. Cameron: 3 cups per serving, with optional fresh avocado slices on the side."
+      ],
+      "batch_note": "Bake all 12 cups Sunday. Cool fully before storing airtight. Reheat 45 sec in microwave or 3 min in air fryer.",
+      "cameron_note": "Cameron: 3 cups per serving. Add 1/4 avocado on the side fresh each morning.",
+      "seasonal_note": "Snap peas instead of asparagus this week \u2014 late spring transition. Still bright and green.",
+      "history": {
+        "first_used": "2026-05-11",
+        "last_used": "2026-05-11",
+        "times_made": 1,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "caprese-chicken-orzo-bowl",
+      "name": "Caprese Chicken Orzo Bowl with Fresh Mozzarella, Cherry Tomatoes & Basil",
+      "cuisine": "Italian",
+      "meal_type": "lunch",
+      "prep": "10 min (cook orzo Sunday, assemble containers)",
+      "cook": "15 min (orzo) \u2014 chicken from batch",
+      "total": "25 min active Sunday",
+      "spice_level": "None",
+      "serving_note": "2 servings per person \u2014 Mon/Tue lunches",
+      "tags": [
+        "batch-friendly",
+        "Italian",
+        "spring",
+        "meal-prep"
+      ],
+      "equipment": "Large pot for orzo, meal prep containers",
+      "macro_strings": {
+        "austin": "630 cal | 51g P | 16g F | 64g C",
+        "cameron": "510 cal | 36g P | 12g F | 55g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 630,
+          "p": 51,
+          "f": 16,
+          "c": 64
+        },
+        "cameron": {
+          "cal": 510,
+          "p": 36,
+          "f": 12,
+          "c": 55
+        }
+      },
+      "ingredients": [
+        {
+          "name": "AUSTIN (per serving)",
+          "qty": null
+        },
+        {
+          "name": "Dry orzo pasta, cooked al dente",
+          "qty": "1 cup dry \u2192 ~1.5 cups cooked"
+        },
+        {
+          "name": "Batch-roasted Italian chicken thighs, sliced",
+          "qty": "5 oz"
+        },
+        {
+          "name": "Fresh mozzarella ciliegine balls",
+          "qty": "2 oz"
+        },
+        {
+          "name": "Cherry tomatoes, halved",
+          "qty": "3/4 cup"
+        },
+        {
+          "name": "Sun-dried tomatoes in oil, drained",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Fresh basil leaves, torn",
+          "qty": "8\u201310 leaves \u2014 add day-of"
+        },
+        {
+          "name": "Caprese drizzle (olive oil + balsamic glaze + garlic)",
+          "qty": "1.5 tbsp"
+        },
+        {
+          "name": "Kosher salt + black pepper",
+          "qty": "to taste"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "CAMERON (per serving)",
+          "qty": null
+        },
+        {
+          "name": "Dry orzo pasta, cooked al dente",
+          "qty": "3/4 cup dry \u2192 ~1.1 cups cooked"
+        },
+        {
+          "name": "Batch-roasted Italian chicken thighs, sliced",
+          "qty": "4 oz"
+        },
+        {
+          "name": "Fresh mozzarella ciliegine balls",
+          "qty": "1.5 oz"
+        },
+        {
+          "name": "Cherry tomatoes, halved",
+          "qty": "1/2 cup"
+        },
+        {
+          "name": "Sun-dried tomatoes in oil, drained",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Fresh basil leaves, torn",
+          "qty": "8\u201310 leaves \u2014 add day-of"
+        },
+        {
+          "name": "Caprese drizzle",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "+ 1/4 avocado, sliced (CAMERON ONLY)",
+          "qty": "day-of add"
+        }
+      ],
+      "instructions": [
+        "SUNDAY ORZO BATCH: Bring a large pot of salted water to boil. Cook orzo until al dente per package (about 8 min). Drain and immediately rinse with cold water. Toss with a tiny drizzle of olive oil to prevent sticking.",
+        "MAKE CAPRESE DRIZZLE: Whisk 3 tbsp olive oil + 1.5 tbsp balsamic glaze + 1/2 tsp garlic powder + salt + pepper. Store in a small jar.",
+        "ASSEMBLE CONTAINERS: Divide cold orzo into containers. Top with sliced batch chicken, mozzarella, cherry tomatoes, and sun-dried tomatoes.",
+        "Drizzle caprese dressing over everything. Season with salt and pepper.",
+        "Store basil separately in a small bag \u2014 add torn leaves day-of so they don't wilt. Cameron adds 1/4 avocado sliced on day-of as well.",
+        "Eat cold or at room temp. Will keep refrigerated 3\u20134 days."
+      ],
+      "batch_note": "Cook orzo Sunday. Assemble containers fully except basil and Cameron's avocado. Both added day-of.",
+      "cameron_note": "Cameron: add 1/4 sliced avocado and extra basil day-of. Caprese drizzle holds everything together.",
+      "seasonal_note": "Cherry tomatoes and fresh mozzarella are the spring-to-summer bridge here.",
+      "history": {
+        "first_used": "2026-05-11",
+        "last_used": "2026-05-11",
+        "times_made": 1,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "spicy-thai-chicken-cucumber-noodle-salad",
+      "name": "Spicy Thai Chicken Cucumber Noodle Salad with Soba & Sesame Lime Dressing",
+      "cuisine": "Thai",
+      "meal_type": "lunch",
+      "prep": "10 min (Sunday \u2014 soba batch, slice cucumbers)",
+      "cook": "0 min (chicken from batch, soba from batch)",
+      "total": "10 min active Sunday",
+      "spice_level": "Medium-hot (Austin) / Mild-medium (Cameron)",
+      "serving_note": "2 servings per person \u2014 Wed/Thu lunches",
+      "tags": [
+        "batch-friendly",
+        "Thai",
+        "spring",
+        "light",
+        "salad-forward",
+        "no-cook-day-of"
+      ],
+      "equipment": "Meal prep containers, small jar for dressing",
+      "macro_strings": {
+        "austin": "625 cal | 52g P | 18g F | 58g C",
+        "cameron": "505 cal | 36g P | 14g F | 50g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 625,
+          "p": 52,
+          "f": 18,
+          "c": 58
+        },
+        "cameron": {
+          "cal": 505,
+          "p": 36,
+          "f": 14,
+          "c": 50
+        }
+      },
+      "ingredients": [
+        {
+          "name": "AUSTIN (per serving)",
+          "qty": null
+        },
+        {
+          "name": "Cooked soba noodles (batch)",
+          "qty": "1 serving (~3.5 oz dry)"
+        },
+        {
+          "name": "Batch-roasted sesame-ginger chicken thighs, sliced thin",
+          "qty": "5 oz"
+        },
+        {
+          "name": "Persian cucumbers, sliced into thin rounds",
+          "qty": "2 cucumbers"
+        },
+        {
+          "name": "Spring onions, sliced thin",
+          "qty": "2"
+        },
+        {
+          "name": "Shredded carrots",
+          "qty": "1/4 cup"
+        },
+        {
+          "name": "Fresh snap peas, halved diagonally",
+          "qty": "1/3 cup"
+        },
+        {
+          "name": "Sesame-lime dressing (see below)",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Sriracha or chili oil",
+          "qty": "1 tsp \u2014 Austin high heat"
+        },
+        {
+          "name": "Fresh cilantro leaves",
+          "qty": "handful \u2014 add day-of"
+        },
+        {
+          "name": "Sesame seeds (pantry)",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "CAMERON (per serving)",
+          "qty": null
+        },
+        {
+          "name": "Cooked soba noodles (batch)",
+          "qty": "1 serving (~2.5 oz dry)"
+        },
+        {
+          "name": "Batch-roasted sesame-ginger chicken thighs, sliced thin",
+          "qty": "4 oz"
+        },
+        {
+          "name": "Persian cucumbers, sliced thin",
+          "qty": "2 cucumbers"
+        },
+        {
+          "name": "Spring onions",
+          "qty": "1"
+        },
+        {
+          "name": "Shredded carrots",
+          "qty": "3 tbsp"
+        },
+        {
+          "name": "Fresh snap peas, halved",
+          "qty": "1/4 cup"
+        },
+        {
+          "name": "Sesame-lime dressing",
+          "qty": "1.5 tbsp"
+        },
+        {
+          "name": "Mild chili oil or light Sriracha",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "Fresh cilantro",
+          "qty": "handful \u2014 add day-of"
+        },
+        {
+          "name": "Sesame seeds",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "+ 1/4 avocado (CAMERON ONLY)",
+          "qty": "sliced day-of"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "SESAME-LIME DRESSING (batch \u2014 makes 8 tbsp)",
+          "qty": null
+        },
+        {
+          "name": "Sesame oil (pantry)",
+          "qty": "3 tbsp"
+        },
+        {
+          "name": "Soy sauce (pantry)",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Fresh lime juice",
+          "qty": "2 tbsp (about 1.5 limes)"
+        },
+        {
+          "name": "Rice vinegar (pantry)",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Honey (pantry)",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Grated fresh ginger",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "Garlic, minced",
+          "qty": "1 clove"
+        }
+      ],
+      "instructions": [
+        "SUNDAY DRESSING BATCH: Whisk all dressing ingredients together. Taste \u2014 adjust lime and soy to balance. Store in a small jar in fridge up to 1 week.",
+        "ASSEMBLE CONTAINERS (Sunday): Divide cold soba noodles into containers. Top with sliced sesame-ginger batch chicken.",
+        "Add cucumber rounds, spring onions, shredded carrots, and snap peas. Drizzle with sesame-lime dressing.",
+        "Store cilantro separately in a small bag \u2014 add day-of. Cameron's avocado is always sliced fresh and added day-of.",
+        "Sprinkle sesame seeds over top. Austin adds Sriracha or chili oil when eating. Cameron uses a lighter hand on heat.",
+        "Eat cold \u2014 this salad is best chilled. Will keep 3\u20134 days refrigerated (noodles may absorb dressing; re-toss before eating)."
+      ],
+      "batch_note": "Make sesame-lime dressing Sunday. Assemble noodle bowls with all components except cilantro and Cameron's avocado. Both added fresh day-of.",
+      "cameron_note": "Cameron: lighter chili, add 1/4 avocado fresh. The avocado cools the heat perfectly.",
+      "seasonal_note": "Persian cucumbers and snap peas are late spring heroes. Crunchy, fresh, bright \u2014 exactly what this salad needs.",
+      "history": {
+        "first_used": "2026-05-11",
+        "last_used": "2026-05-11",
+        "times_made": 1,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "watermelon-arugula-grilled-chicken-salad",
+      "name": "Watermelon Arugula Grilled Chicken Salad with Feta, Mint & Red Wine Vinaigrette",
+      "cuisine": "American / Spring",
+      "meal_type": "lunch",
+      "prep": "10 min (slice chicken + watermelon Sunday; dress day-of)",
+      "cook": "0 min (chicken from batch)",
+      "total": "10 min active Sunday",
+      "spice_level": "None",
+      "serving_note": "2 servings per person \u2014 Fri/Sat lunches",
+      "tags": [
+        "batch-friendly",
+        "light",
+        "salad-forward",
+        "spring",
+        "no-cook-day-of"
+      ],
+      "equipment": "Meal prep containers, jar for dressing",
+      "macro_strings": {
+        "austin": "620 cal | 51g P | 17g F | 42g C",
+        "cameron": "505 cal | 35g P | 14g F | 38g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 620,
+          "p": 51,
+          "f": 17,
+          "c": 42
+        },
+        "cameron": {
+          "cal": 505,
+          "p": 35,
+          "f": 14,
+          "c": 38
+        }
+      },
+      "ingredients": [
+        {
+          "name": "AUSTIN (per serving)",
+          "qty": null
+        },
+        {
+          "name": "Batch-roasted Italian chicken thighs, sliced",
+          "qty": "5 oz"
+        },
+        {
+          "name": "Baby arugula",
+          "qty": "2 cups (40g)"
+        },
+        {
+          "name": "Seedless watermelon, cubed",
+          "qty": "1.5 cups (225g)"
+        },
+        {
+          "name": "Crumbled feta",
+          "qty": "1.5 oz"
+        },
+        {
+          "name": "Red onion, very thinly sliced",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Fresh mint leaves, torn",
+          "qty": "8\u201310 leaves \u2014 add day-of"
+        },
+        {
+          "name": "Red wine vinaigrette (see below)",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Kosher salt + cracked black pepper",
+          "qty": "to taste"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "CAMERON (per serving)",
+          "qty": null
+        },
+        {
+          "name": "Batch-roasted Italian chicken thighs, sliced",
+          "qty": "4 oz"
+        },
+        {
+          "name": "Baby arugula",
+          "qty": "1.5 cups (30g)"
+        },
+        {
+          "name": "Watermelon, cubed",
+          "qty": "1 cup (150g)"
+        },
+        {
+          "name": "Crumbled feta",
+          "qty": "1.5 oz"
+        },
+        {
+          "name": "Red onion, thinly sliced",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Fresh mint leaves",
+          "qty": "8\u201310 leaves \u2014 add day-of"
+        },
+        {
+          "name": "Red wine vinaigrette",
+          "qty": "1.5 tbsp"
+        },
+        {
+          "name": "+ 1/4 avocado (CAMERON ONLY)",
+          "qty": "sliced day-of"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "RED WINE VINAIGRETTE (batch)",
+          "qty": null
+        },
+        {
+          "name": "Olive oil (pantry)",
+          "qty": "4 tbsp"
+        },
+        {
+          "name": "Red wine vinegar (pantry)",
+          "qty": "2.5 tbsp"
+        },
+        {
+          "name": "Dijon mustard (pantry)",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Honey (pantry)",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Kosher salt + pepper",
+          "qty": "to taste"
+        }
+      ],
+      "instructions": [
+        "SUNDAY PREP: Make vinaigrette by shaking all dressing ingredients in a small jar. Taste and adjust acidity.",
+        "Cube watermelon. Store in a separate container \u2014 do NOT store with arugula or it will wilt everything.",
+        "Slice batch chicken thighs and store in containers.",
+        "Store arugula, watermelon, and chicken all SEPARATELY until day-of. Assemble just before eating for best texture.",
+        "DAY-OF ASSEMBLY: Toss arugula with a drizzle of vinaigrette. Top with chicken, watermelon cubes, feta, red onion, and torn mint. Drizzle remaining dressing over top.",
+        "Cameron adds 1/4 sliced avocado on top. Finish with cracked pepper.",
+        "IMPORTANT: Do not dress this salad in advance \u2014 watermelon releases liquid and arugula wilts fast. Assemble and eat within 5 minutes of dressing."
+      ],
+      "batch_note": "Prep and store all components separately Sunday. DO NOT dress in advance \u2014 assemble day-of only. Watermelon releases liquid fast.",
+      "cameron_note": "Cameron: add 1/4 avocado on top, extra feta. The avocado + watermelon + feta combo is outstanding.",
+      "seasonal_note": "Watermelon is just hitting peak in late May. This is a seasonal window meal \u2014 grab a good one.",
+      "history": {
+        "first_used": "2026-05-11",
+        "last_used": "2026-05-11",
+        "times_made": 1,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "lemon-ricotta-pasta-snap-peas",
+      "name": "Lemon Ricotta Spring Pasta with Snap Peas, Prosciutto & Parmesan",
+      "cuisine": "Italian",
+      "meal_type": "dinner",
+      "prep": "10 min",
+      "cook": "20 min",
+      "total": "30 min",
+      "spice_level": "Mild (red pepper flakes optional)",
+      "serving_note": "Serves 2 \u2014 Austin + Cameron with different portions",
+      "tags": [
+        "Italian",
+        "spring",
+        "light",
+        "salad-forward"
+      ],
+      "equipment": "Large pot, large skillet or Le Creuset",
+      "macro_strings": {
+        "austin": "660 cal | 58g P | 18g F | 66g C",
+        "cameron": "580 cal | 36g P | 15g F | 62g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 660,
+          "p": 58,
+          "f": 18,
+          "c": 66
+        },
+        "cameron": {
+          "cal": 580,
+          "p": 36,
+          "f": 15,
+          "c": 62
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Dry linguine or spaghetti",
+          "qty": "8 oz total"
+        },
+        {
+          "name": "Fresh snap peas, trimmed",
+          "qty": "2 cups"
+        },
+        {
+          "name": "Prosciutto, thinly sliced",
+          "qty": "3 oz (tear into pieces)"
+        },
+        {
+          "name": "Whole milk ricotta cheese",
+          "qty": "1/2 cup"
+        },
+        {
+          "name": "Parmesan, freshly grated",
+          "qty": "1.5 oz"
+        },
+        {
+          "name": "Shallots, finely minced",
+          "qty": "2"
+        },
+        {
+          "name": "Garlic cloves, minced",
+          "qty": "3"
+        },
+        {
+          "name": "Lemon zest",
+          "qty": "zest of 2 lemons"
+        },
+        {
+          "name": "Fresh lemon juice",
+          "qty": "3 tbsp"
+        },
+        {
+          "name": "Olive oil (pantry)",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Pasta water, reserved",
+          "qty": "1/2 cup"
+        },
+        {
+          "name": "Baby arugula",
+          "qty": "1 cup (stir in at end)"
+        },
+        {
+          "name": "Red pepper flakes (pantry)",
+          "qty": "1/2 tsp (Austin) / pinch (Cameron)"
+        },
+        {
+          "name": "Kosher salt + black pepper",
+          "qty": "to taste"
+        },
+        {
+          "name": "Fresh basil leaves",
+          "qty": "10\u201312 leaves"
+        }
+      ],
+      "instructions": [
+        "Bring a large pot of heavily salted water to a rolling boil. Cook pasta until al dente per package. IMPORTANT: reserve 1/2 cup pasta water before draining.",
+        "While pasta cooks, heat olive oil in a large skillet over medium-high. Add shallots and cook 2 min until softened. Add garlic and cook 1 min more.",
+        "Add prosciutto pieces and let them crisp up slightly, 2\u20133 min, stirring occasionally. Remove pan from heat.",
+        "Add snap peas to pasta water for the last 90 seconds of cooking \u2014 they should still have snap. Drain pasta and peas together.",
+        "Return skillet to medium-low heat. Add drained pasta + snap peas. Add ricotta, lemon zest, lemon juice, and a splash of pasta water. Toss everything together, adding more pasta water as needed to create a creamy, silky sauce \u2014 not watery.",
+        "Remove from heat. Stir in arugula until just wilted, about 30 seconds. Season aggressively with salt and pepper.",
+        "Plate Austin's portion first with more red pepper flakes. Plate Cameron's with a pinch of flakes and lighter lemon.",
+        "Finish both plates with freshly grated parmesan and torn basil. Eat immediately."
+      ],
+      "batch_note": "Not a batch meal \u2014 cook to order Monday night. 30 min start to finish.",
+      "cameron_note": "Cameron: lighter on red pepper flakes, extra lemon zest. The ricotta sauce is naturally creamy and satisfying.",
+      "seasonal_note": "Snap peas and prosciutto make this feel like late-spring Italy. The arugula wilted in at the end adds a peppery kick.",
+      "history": {
+        "first_used": "2026-05-11",
+        "last_used": "2026-05-11",
+        "times_made": 1,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "greek-chicken-gyro-plates",
+      "name": "Greek Chicken Gyro Plates with Tzatziki, Warm Pita & Watercress Salad",
+      "cuisine": "Greek",
+      "meal_type": "dinner",
+      "prep": "15 min",
+      "cook": "0 min (chicken from batch, tzatziki from batch)",
+      "total": "15 min assembly + warm pita",
+      "spice_level": "Mild",
+      "serving_note": "Serves 2",
+      "tags": [
+        "Greek",
+        "spring",
+        "light",
+        "batch-assembly"
+      ],
+      "equipment": "Skillet or air fryer for pita warming",
+      "macro_strings": {
+        "austin": "655 cal | 60g P | 18g F | 52g C",
+        "cameron": "585 cal | 37g P | 16g F | 48g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 655,
+          "p": 60,
+          "f": 18,
+          "c": 52
+        },
+        "cameron": {
+          "cal": 585,
+          "p": 37,
+          "f": 16,
+          "c": 48
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Batch-roasted Italian chicken thighs, sliced gyro-style",
+          "qty": "6 oz Austin / 4.5 oz Cameron"
+        },
+        {
+          "name": "Pita breads",
+          "qty": "1 each"
+        },
+        {
+          "name": "Tzatziki (batch \u2014 see Sunday sauces)",
+          "qty": "3 tbsp Austin / 2 tbsp Cameron"
+        },
+        {
+          "name": "Cherry tomatoes, halved",
+          "qty": "1/2 cup"
+        },
+        {
+          "name": "Red onion, very thinly sliced",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Watercress or arugula",
+          "qty": "1 cup per plate"
+        },
+        {
+          "name": "Spring onions, sliced thin",
+          "qty": "2"
+        },
+        {
+          "name": "Fresh dill",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Lemon wedges",
+          "qty": "2"
+        },
+        {
+          "name": "Crumbled feta",
+          "qty": "1 oz per plate"
+        },
+        {
+          "name": "Olive oil + lemon drizzle",
+          "qty": "1 tsp each"
+        },
+        {
+          "name": "Dried oregano (pantry)",
+          "qty": "1/4 tsp"
+        },
+        {
+          "name": "+ 1/4 avocado sliced (CAMERON ONLY)",
+          "qty": null
+        }
+      ],
+      "instructions": [
+        "Warm pitas in a dry skillet over medium-high for 30\u201345 seconds per side until puffed and slightly charred, or in air fryer at 400\u00b0F for 2 min. Keep warm wrapped in a clean towel.",
+        "Slice batch-roasted Italian chicken thighs thin on the diagonal \u2014 gyro style. If desired, quickly reheat in a hot skillet with a drizzle of olive oil for 2\u20133 min to get some char on the edges.",
+        "Toss watercress with olive oil, lemon juice, fresh dill, and a pinch of salt.",
+        "BUILD THE PLATES: Lay warm pita at the base. Pile on sliced chicken. Spoon tzatziki generously over chicken. Add cherry tomatoes, sliced red onion, spring onions, and feta.",
+        "Place the watercress salad alongside on the plate. Finish with a squeeze of lemon and a pinch of dried oregano.",
+        "Cameron gets 1/4 avocado sliced on her watercress salad. Serve immediately with extra lemon on the side."
+      ],
+      "batch_note": "Tzatziki made Sunday. Chicken from batch. Assembly is 15 min Tuesday night \u2014 warm pita, slice chicken, build plates.",
+      "cameron_note": "Cameron: add 1/4 avocado fanned on the watercress salad. Extra tzatziki on the side.",
+      "seasonal_note": "Watercress is at its peppery best right now. It's the upgrade over plain lettuce in this gyro plate.",
+      "history": {
+        "first_used": "2026-05-11",
+        "last_used": "2026-05-11",
+        "times_made": 1,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "drunken-noodles-ground-turkey",
+      "name": "Thai Drunken Noodles with Ground Turkey, Thai Basil & Spring Onions",
+      "cuisine": "Thai",
+      "meal_type": "dinner",
+      "prep": "10 min",
+      "cook": "15 min",
+      "total": "25 min",
+      "spice_level": "Hot (Austin) / Mild-medium (Cameron)",
+      "serving_note": "Serves 2",
+      "tags": [
+        "Thai",
+        "bold",
+        "high-protein",
+        "stir-fry"
+      ],
+      "equipment": "Large wok or skillet, rice noodle soak bowl",
+      "macro_strings": {
+        "austin": "665 cal | 58g P | 19g F | 68g C",
+        "cameron": "585 cal | 36g P | 16g F | 70g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 665,
+          "p": 58,
+          "f": 19,
+          "c": 68
+        },
+        "cameron": {
+          "cal": 585,
+          "p": 36,
+          "f": 16,
+          "c": 70
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Wide rice noodles (pad thai width)",
+          "qty": "8 oz dry"
+        },
+        {
+          "name": "93% lean ground turkey",
+          "qty": "1 lb"
+        },
+        {
+          "name": "Fresh Thai basil leaves (NOT Italian basil)",
+          "qty": "1 large handful"
+        },
+        {
+          "name": "Spring onions, cut into 1-inch pieces",
+          "qty": "4"
+        },
+        {
+          "name": "Bell peppers, sliced thin (red + yellow)",
+          "qty": "2"
+        },
+        {
+          "name": "Garlic cloves, minced",
+          "qty": "4"
+        },
+        {
+          "name": "Fresh ginger, grated",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Bird's eye chilies OR red pepper flakes",
+          "qty": "2\u20133 chilies Austin / 1/2 tsp flakes Cameron"
+        },
+        {
+          "name": "Oyster sauce (pantry)",
+          "qty": "3 tbsp"
+        },
+        {
+          "name": "Soy sauce (pantry)",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Fish sauce (pantry)",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Dark soy sauce or extra soy",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Sugar or honey (pantry)",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Sesame oil (pantry)",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Neutral oil",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Large eggs",
+          "qty": "2"
+        },
+        {
+          "name": "Lime wedges",
+          "qty": "2"
+        }
+      ],
+      "instructions": [
+        "SOAK NOODLES: Place dry wide rice noodles in a large bowl. Pour hot (not boiling) water over them. Soak 20\u201325 min until pliable but not fully soft \u2014 they'll finish in the wok. Drain and toss with a drop of oil.",
+        "MIX SAUCE: In a small bowl, combine oyster sauce + soy sauce + fish sauce + dark soy + sugar. Stir and set aside.",
+        "Heat wok or large skillet over HIGH heat until smoking. Add neutral oil. Add garlic, ginger, and chilies (Austin full amount; Cameron half) \u2014 stir-fry 30 seconds until fragrant.",
+        "Add ground turkey. Break up and cook 4\u20135 min until no pink remains and edges start to caramelize.",
+        "Add bell peppers and spring onions \u2014 stir-fry 2 min. Push everything to the side. Crack eggs into the wok and scramble them in the empty space for 60 seconds, then fold into the turkey.",
+        "Add soaked noodles and pour sauce over everything. Toss vigorously with tongs for 2\u20133 min until noodles are fully cooked, coated in sauce, and getting some color.",
+        "Remove from heat. Add Thai basil leaves and toss \u2014 they'll wilt from residual heat. Drizzle sesame oil over top.",
+        "Plate Austin's portion with extra chili. Plate Cameron's with extra Thai basil and a lighter hand on heat. Serve with lime wedges to squeeze over top."
+      ],
+      "batch_note": "Cook to order Wednesday night. Soak noodles 20 min before starting. 25 min total.",
+      "cameron_note": "Cameron: half the bird's eye chili, extra Thai basil. Serve with lime wedges and extra sauce on the side.",
+      "seasonal_note": "Thai basil is key \u2014 do not sub Italian basil. The anise note makes the dish.",
+      "history": {
+        "first_used": "2026-05-11",
+        "last_used": "2026-05-11",
+        "times_made": 1,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "miso-butter-chicken-soba-snap-peas",
+      "name": "Miso Butter Chicken Thighs with Sesame Soba Noodles & Snap Peas",
+      "cuisine": "Japanese",
+      "meal_type": "dinner",
+      "prep": "10 min",
+      "cook": "20 min",
+      "total": "30 min",
+      "spice_level": "Mild",
+      "serving_note": "Serves 2",
+      "tags": [
+        "Japanese",
+        "umami",
+        "spring",
+        "high-protein"
+      ],
+      "equipment": "Large skillet, small saucepan for sauce",
+      "macro_strings": {
+        "austin": "660 cal | 60g P | 20g F | 62g C",
+        "cameron": "580 cal | 37g P | 17g F | 58g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 660,
+          "p": 60,
+          "f": 20,
+          "c": 62
+        },
+        "cameron": {
+          "cal": 580,
+          "p": 37,
+          "f": 17,
+          "c": 58
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Batch-roasted sesame-ginger chicken thighs",
+          "qty": "6 oz Austin / 5 oz Cameron \u2014 reheat in skillet"
+        },
+        {
+          "name": "Cooked soba noodles (batch)",
+          "qty": "1 portion each"
+        },
+        {
+          "name": "Fresh snap peas, trimmed",
+          "qty": "1 cup total \u2014 blanch or air fry"
+        },
+        {
+          "name": "Spring onions, sliced thin",
+          "qty": "3 \u2014 raw garnish"
+        },
+        {
+          "name": "Sesame seeds (pantry)",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Fresh dill or cilantro",
+          "qty": "small handful"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "MISO BUTTER SAUCE (batch \u2014 see Sunday sauces)",
+          "qty": null
+        },
+        {
+          "name": "White miso paste",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Butter",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Soy sauce (pantry)",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Mirin",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Sesame oil (pantry)",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Fresh ginger, grated",
+          "qty": "1/2 tsp"
+        }
+      ],
+      "instructions": [
+        "MISO BUTTER SAUCE (if not made Sunday): In a small saucepan over low heat, melt butter. Whisk in miso, soy, mirin, sesame oil, and ginger until smooth. Do not boil \u2014 keep low heat. Remove and set aside.",
+        "BLANCH SNAP PEAS: Boil 1 cup snap peas for 60\u201390 seconds in salted water. Drain and immediately shock in cold water. They should be bright green and still crunchy. OR air fry at 400\u00b0F for 4 min with a drizzle of sesame oil and pinch of salt.",
+        "REHEAT SOBA: Toss cold soba noodles in a skillet with 1 tbsp soy sauce + 1 tsp sesame oil over medium heat, 2\u20133 min until warmed through. Or microwave 60 seconds.",
+        "REHEAT CHICKEN: Heat batch-roasted sesame-ginger chicken in a skillet over medium-high with a tiny drizzle of sesame oil. 2\u20133 min per side to warm through and re-crisp the edges.",
+        "PLATE: Divide soba into bowls. Drizzle warm miso butter sauce over noodles and toss to coat. Top with sliced chicken thighs.",
+        "Arrange snap peas alongside. Garnish with spring onions, sesame seeds, and dill/cilantro.",
+        "Serve immediately. Austin can add a drizzle of chili oil or Sriracha for heat."
+      ],
+      "batch_note": "Miso butter sauce made Sunday. Soba from batch. Assembly is 20 min Thursday \u2014 reheat components and plate.",
+      "cameron_note": "Cameron: same dish, slightly smaller chicken portion. Add a drizzle of sesame oil and extra dill garnish.",
+      "seasonal_note": "Snap peas charred in the air fryer are the seasonal star \u2014 bright green, crisp, slightly sweet.",
+      "history": {
+        "first_used": "2026-05-11",
+        "last_used": "2026-05-11",
+        "times_made": 1,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "chipotle-chicken-burrito-bowls",
+      "name": "Chipotle Chicken Burrito Bowls with Cilantro Lime Rice & Spring Pico",
+      "cuisine": "Mexican / Tex-Mex",
+      "meal_type": "dinner",
+      "prep": "15 min",
+      "cook": "10 min (assembly + rice reheat)",
+      "total": "25 min",
+      "spice_level": "Hot (Austin) / Mild-medium (Cameron)",
+      "serving_note": "Serves 2",
+      "tags": [
+        "Mexican",
+        "bold",
+        "high-protein",
+        "spring"
+      ],
+      "equipment": "Skillet, rice cooker or pot for cilantro lime rice",
+      "macro_strings": {
+        "austin": "660 cal | 60g P | 17g F | 66g C",
+        "cameron": "585 cal | 37g P | 15g F | 68g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 660,
+          "p": 60,
+          "f": 17,
+          "c": 66
+        },
+        "cameron": {
+          "cal": 585,
+          "p": 37,
+          "f": 15,
+          "c": 68
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Batch-roasted Italian chicken thighs, shredded + tossed in chipotle sauce",
+          "qty": "6 oz Austin / 5 oz Cameron"
+        },
+        {
+          "name": "Cooked jasmine rice (batch)",
+          "qty": "1 cup cooked Austin / 3/4 cup Cameron"
+        },
+        {
+          "name": "Chipotle peppers in adobo, minced",
+          "qty": "1.5 tbsp Austin / 1 tsp Cameron \u2014 BIG difference"
+        },
+        {
+          "name": "Black beans, canned, drained (pantry)",
+          "qty": "1/3 cup each"
+        },
+        {
+          "name": "Cherry tomatoes, quartered",
+          "qty": "1/2 cup each"
+        },
+        {
+          "name": "Spring onion, sliced",
+          "qty": "2"
+        },
+        {
+          "name": "Fresh cilantro, chopped",
+          "qty": "2 tbsp + more for rice"
+        },
+        {
+          "name": "Fresh lime juice",
+          "qty": "1.5 limes"
+        },
+        {
+          "name": "Lime zest",
+          "qty": "1 lime for rice"
+        },
+        {
+          "name": "Jalape\u00f1o, minced (optional extra heat)",
+          "qty": "1 \u2014 Austin full / Cameron skip"
+        },
+        {
+          "name": "Feta or cotija cheese",
+          "qty": "1 oz each"
+        },
+        {
+          "name": "Greek yogurt or sour cream",
+          "qty": "2 tbsp each"
+        },
+        {
+          "name": "Olive oil (pantry)",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "+ 1/4 avocado (CAMERON ONLY)",
+          "qty": "sliced day-of"
+        },
+        {
+          "name": "Frozen edamame (optional protein boost)",
+          "qty": "1/4 cup each, thawed"
+        }
+      ],
+      "instructions": [
+        "MAKE CILANTRO LIME RICE: Reheat batch jasmine rice in a skillet or microwave. Toss warm rice with 1 tbsp lime juice + lime zest + 2 tbsp chopped cilantro + pinch of salt. Taste and adjust.",
+        "CHIPOTLE CHICKEN: In a skillet over medium-high, heat olive oil. Add shredded batch chicken and minced chipotle in adobo. Austin gets the full 1.5 tbsp \u2014 it should be punchy and smoky. Cameron gets just 1 tsp \u2014 taste hers separately. Toss to coat and cook 3\u20134 min until edges caramelize.",
+        "SPRING PICO: Mix quartered cherry tomatoes + minced spring onions + cilantro + lime juice + minced jalape\u00f1o (Austin only) + salt. Taste.",
+        "BUILD BOWLS: Rice base \u2192 chipotle chicken \u2192 black beans \u2192 spring pico \u2192 edamame if using.",
+        "Top with feta/cotija, a dollop of Greek yogurt, and a squeeze of lime.",
+        "Cameron gets 1/4 avocado sliced on top. Austin gets extra jalape\u00f1o and hot sauce.",
+        "Serve immediately. These bowls reheat well if needed \u2014 store components separately and assemble day-of."
+      ],
+      "batch_note": "Chicken from batch \u2014 just toss in chipotle adobo and heat Friday night. Rice from batch. Spring pico made fresh.",
+      "cameron_note": "Cameron: 1 tsp chipotle ONLY (not 1.5 tbsp \u2014 huge difference). Add 1/4 avocado on top. Extra lime squeeze.",
+      "seasonal_note": "Spring onions in the pico instead of regular white onion \u2014 lighter, more aromatic, right for the season.",
+      "history": {
+        "first_used": "2026-05-11",
+        "last_used": "2026-05-11",
+        "times_made": 1,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "smoked-spatchcock-chicken-chimichurri",
+      "name": "Smoked Spatchcock Chicken with Charred Snap Peas & Herb Chimichurri",
+      "cuisine": "American BBQ",
+      "meal_type": "dinner",
+      "prep": "10 min night-before + 10 min day-of",
+      "cook": "2.5\u20133 hrs on smoker",
+      "total": "~3.5 hrs (hands-off)",
+      "spice_level": "Medium (rub) \u2014 chimichurri adds brightness",
+      "serving_note": "1 whole chicken serves 2 for dinner + leftover for Sunday lunch",
+      "tags": [
+        "smoker",
+        "American BBQ",
+        "spring",
+        "batch",
+        "high-protein"
+      ],
+      "equipment": "Smoker (apple wood), kitchen shears, wire rack + sheet pan, thermometer",
+      "macro_strings": {
+        "austin": "680 cal | 62g P | 24g F | 42g C",
+        "cameron": "595 cal | 38g P | 21g F | 38g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 680,
+          "p": 62,
+          "f": 24,
+          "c": 42
+        },
+        "cameron": {
+          "cal": 595,
+          "p": 38,
+          "f": 21,
+          "c": 38
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Whole chicken, 4\u20135 lbs",
+          "qty": "1 bird"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "DRY BRINE RUB (apply Friday night)",
+          "qty": null
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "1.5 tbsp"
+        },
+        {
+          "name": "Smoked paprika (pantry)",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Garlic powder (pantry)",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Black pepper",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Cayenne (pantry)",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "Dried oregano (pantry)",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "HERB CHIMICHURRI (double batch \u2014 baste + sauce + Sunday dressing)",
+          "qty": null
+        },
+        {
+          "name": "Fresh flat-leaf parsley, packed",
+          "qty": "1.5 cups"
+        },
+        {
+          "name": "Fresh oregano leaves",
+          "qty": "1/3 cup"
+        },
+        {
+          "name": "Garlic cloves",
+          "qty": "4 large"
+        },
+        {
+          "name": "Olive oil (pantry)",
+          "qty": "1/3 cup"
+        },
+        {
+          "name": "Red wine vinegar (pantry)",
+          "qty": "3 tbsp"
+        },
+        {
+          "name": "Red pepper flakes (pantry)",
+          "qty": "3/4 tsp"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "3/4 tsp"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "SIDES",
+          "qty": null
+        },
+        {
+          "name": "Fresh snap peas, whole pods",
+          "qty": "2 cups"
+        },
+        {
+          "name": "Fresh asparagus spears",
+          "qty": "1 bunch"
+        },
+        {
+          "name": "Olive oil, salt, pepper",
+          "qty": "to season sides"
+        },
+        {
+          "name": "New potatoes (optional \u2014 from pantry check)",
+          "qty": "1/2 lb"
+        }
+      ],
+      "instructions": [
+        "FRIDAY NIGHT \u2014 SPATCHCOCK + DRY BRINE (10 min): Place chicken breast-side down on a cutting board. Using sharp kitchen shears, cut firmly along both sides of the backbone and remove it (save for stock). Flip breast-side up. Place both hands on the breastbone and press firmly until you hear it crack \u2014 bird should now lay flat. Mix dry brine rub and apply ALL OVER: under the breast skin, inside cavity, over the outside. Place on wire rack over sheet pan. Refrigerate uncovered overnight \u2014 this is key for crispy skin.",
+        "SATURDAY MORNING \u2014 MAKE CHIMICHURRI (10 min): Blend parsley + oregano + garlic + olive oil + red wine vinegar + red pepper flakes + salt. Pulse \u2014 keep it textured, not smooth. Taste and adjust. Jar it. Use half for basting, reserve half for serving + Sunday salad dressing.",
+        "SATURDAY \u2014 FIRE SMOKER (9\u201310am): Load smoker with apple wood chips. Heat to 275\u00b0F. Pull chicken from fridge 30 min before smoking. Place spatchcocked chicken skin-side UP directly on the grate. Insert thermometer probe into the thickest part of the breast.",
+        "SMOKE 2.5\u20133 hrs: Baste with chimichurri every 45\u201360 minutes. Target internal breast temp = 160\u00b0F (it will rise to 165\u00b0F during rest). Spatchcocked chicken cooks significantly faster than whole \u2014 start checking at 2 hrs.",
+        "REST + CARVE: Pull at 165\u00b0F. Tent loosely with foil and rest 10\u201315 min. Carve: legs/thighs for dinner, one breast for dinner, one breast + some thigh meat set aside for Sunday lunch salad.",
+        "CHARRED SIDES: While chicken rests, toss snap peas and asparagus with olive oil, salt, pepper. Char directly on grill grates or in a hot cast iron skillet 4\u20135 min \u2014 you want real color, not just warm.",
+        "PLATE: Carved smoked chicken with chimichurri spooned over top. Charred snap peas and asparagus alongside. Serve with extra chimichurri on the side for dipping."
+      ],
+      "batch_note": "Dry brine Friday night. Fire smoker Saturday 9\u201310am for ~2.5 hr cook. Chimichurri made Saturday morning while smoker heats. Carve 1/3 bird for Sunday lunch leftovers.",
+      "cameron_note": "Cameron: same plate, slightly smaller portion. The chimichurri is herb-forward not spicy \u2014 works perfectly for her.",
+      "seasonal_note": "Spatchcocking cuts cook time vs. whole bird, keeps the smoke penetrating evenly. Spring snap peas and asparagus charred alongside round this out perfectly.",
+      "history": {
+        "first_used": "2026-05-11",
+        "last_used": "2026-05-11",
+        "times_made": 1,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "smoked-chicken-watercress-snap-pea-salad",
+      "name": "Smoked Chicken & Watercress Salad with Snap Peas, Radish & Chimichurri Vinaigrette",
+      "cuisine": "American / Mediterranean",
+      "meal_type": "lunch",
+      "prep": "10 min (using Saturday smoker leftovers)",
+      "cook": "0 min",
+      "total": "10 min",
+      "spice_level": "None",
+      "serving_note": "1 serving each \u2014 Sunday lunch",
+      "tags": [
+        "light",
+        "salad-forward",
+        "spring",
+        "smoker-leftovers",
+        "no-cook"
+      ],
+      "equipment": "Large mixing bowl",
+      "macro_strings": {
+        "austin": "620 cal | 52g P | 18g F | 40g C",
+        "cameron": "505 cal | 36g P | 14g F | 36g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 620,
+          "p": 52,
+          "f": 18,
+          "c": 40
+        },
+        "cameron": {
+          "cal": 505,
+          "p": 36,
+          "f": 14,
+          "c": 36
+        }
+      },
+      "ingredients": [
+        {
+          "name": "AUSTIN (per serving)",
+          "qty": null
+        },
+        {
+          "name": "Saturday smoked spatchcock chicken, carved \u2014 breast + thigh",
+          "qty": "5.5 oz"
+        },
+        {
+          "name": "Fresh watercress",
+          "qty": "1.5 cups (about 2 oz)"
+        },
+        {
+          "name": "Baby arugula (if watercress short)",
+          "qty": "1/2 cup to supplement"
+        },
+        {
+          "name": "Fresh snap peas, halved diagonally",
+          "qty": "1/2 cup"
+        },
+        {
+          "name": "Radishes, thinly sliced",
+          "qty": "4\u20135"
+        },
+        {
+          "name": "Cherry tomatoes, halved",
+          "qty": "1/3 cup"
+        },
+        {
+          "name": "Leftover chimichurri (from Saturday)",
+          "qty": "2 tbsp \u2014 use as dressing"
+        },
+        {
+          "name": "Extra lemon juice",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Flaky sea salt + cracked pepper",
+          "qty": "to finish"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "CAMERON (per serving)",
+          "qty": null
+        },
+        {
+          "name": "Saturday smoked chicken, carved",
+          "qty": "4 oz"
+        },
+        {
+          "name": "Fresh watercress",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Baby arugula",
+          "qty": "1/2 cup"
+        },
+        {
+          "name": "Fresh snap peas, halved",
+          "qty": "1/3 cup"
+        },
+        {
+          "name": "Radishes, thinly sliced",
+          "qty": "3\u20134"
+        },
+        {
+          "name": "Cherry tomatoes, halved",
+          "qty": "1/4 cup"
+        },
+        {
+          "name": "Leftover chimichurri",
+          "qty": "1.5 tbsp"
+        },
+        {
+          "name": "Extra lemon juice",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "+ 1/4 avocado (CAMERON ONLY)",
+          "qty": "sliced on top"
+        }
+      ],
+      "instructions": [
+        "This is Sunday's no-cook lunch \u2014 it all comes from Saturday's smoker leftovers and batch chimichurri.",
+        "Carve reserved smoked chicken into bite-size pieces or slices. Serve at room temp or cold straight from the fridge \u2014 smoked chicken is excellent cold.",
+        "Toss watercress and arugula with leftover chimichurri (thin with a little extra lemon juice if the chimichurri has thickened overnight).",
+        "Add snap peas, radishes, and cherry tomatoes. Toss gently.",
+        "Pile dressed greens onto plates or into bowls. Top with smoked chicken.",
+        "Cameron adds 1/4 avocado sliced on top. Finish with flaky sea salt and cracked pepper.",
+        "The smokiness of the chicken is the star \u2014 keep the dressing light and let it shine."
+      ],
+      "batch_note": "All from Saturday smoker leftovers and batch chimichurri. Sunday lunch is essentially free \u2014 10 min assembly.",
+      "cameron_note": "Cameron: add 1/4 avocado sliced on top. Extra lemon on the side. The chimichurri doubles as dressing.",
+      "seasonal_note": "Watercress has a peppery bite that complements the smokiness of the chicken perfectly. Don't substitute arugula if watercress is available.",
+      "history": {
+        "first_used": "2026-05-11",
+        "last_used": "2026-05-11",
+        "times_made": 1,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "shakshuka-merguez-warm-pita",
+      "name": "Spiced Shakshuka with Merguez Sausage, Feta & Warm Pita",
+      "cuisine": "Mediterranean",
+      "meal_type": "dinner",
+      "prep": "10 min",
+      "cook": "25 min",
+      "total": "35 min",
+      "spice_level": "Medium (Austin) / Mild-medium (Cameron)",
+      "serving_note": "Serves 2 \u2014 one skillet",
+      "tags": [
+        "Mediterranean",
+        "one-pan",
+        "spring",
+        "bold"
+      ],
+      "equipment": "Large oven-safe skillet or Le Creuset casserole dish, oven",
+      "macro_strings": {
+        "austin": "655 cal | 58g P | 20g F | 60g C",
+        "cameron": "580 cal | 36g P | 18g F | 64g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 655,
+          "p": 58,
+          "f": 20,
+          "c": 60
+        },
+        "cameron": {
+          "cal": 580,
+          "p": 36,
+          "f": 18,
+          "c": 64
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Merguez sausage, removed from casing",
+          "qty": "12 oz total"
+        },
+        {
+          "name": "Canned crushed tomatoes (28 oz)",
+          "qty": "1 can"
+        },
+        {
+          "name": "Roma or vine tomatoes, diced",
+          "qty": "2"
+        },
+        {
+          "name": "Bell peppers, diced (red + yellow)",
+          "qty": "2 total"
+        },
+        {
+          "name": "Spring onions, sliced",
+          "qty": "3"
+        },
+        {
+          "name": "Garlic cloves, minced",
+          "qty": "4"
+        },
+        {
+          "name": "Cumin (pantry)",
+          "qty": "1.5 tsp"
+        },
+        {
+          "name": "Smoked paprika (pantry)",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Red pepper flakes (pantry)",
+          "qty": "1/2 tsp Austin / pinch Cameron"
+        },
+        {
+          "name": "Cayenne (pantry)",
+          "qty": "1/4 tsp Austin \u2014 skip Cameron"
+        },
+        {
+          "name": "Cinnamon (pantry)",
+          "qty": "1/4 tsp"
+        },
+        {
+          "name": "Large eggs",
+          "qty": "4 total (2 each)"
+        },
+        {
+          "name": "Crumbled feta cheese",
+          "qty": "2 oz"
+        },
+        {
+          "name": "Fresh cilantro, chopped",
+          "qty": "3 tbsp"
+        },
+        {
+          "name": "Olive oil (pantry)",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Pita breads",
+          "qty": "1 each \u2014 warmed"
+        },
+        {
+          "name": "Greek yogurt (optional on top)",
+          "qty": "2 tbsp Cameron"
+        },
+        {
+          "name": "+ 1/4 avocado sliced (CAMERON ONLY)",
+          "qty": null
+        }
+      ],
+      "instructions": [
+        "Preheat oven to 375\u00b0F.",
+        "Heat olive oil in a large oven-safe skillet or Le Creuset over medium-high. Add merguez sausage (removed from casing). Break apart and cook 5\u20136 min until browned and caramelized. Do not drain \u2014 the fat is flavor.",
+        "Add diced bell peppers and spring onions. Cook 3 min, stirring occasionally.",
+        "Add garlic and all spices (cumin, smoked paprika, cinnamon, red pepper flakes). Austin's pan gets cayenne + extra red pepper flakes. Stir 60 seconds until fragrant.",
+        "Pour in crushed tomatoes + diced fresh tomatoes. Stir to combine. Bring to a simmer and cook 8\u201310 min until sauce thickens and deepens in color. Taste and season with salt and pepper.",
+        "Make 4 wells in the sauce using the back of a spoon \u2014 2 for Austin, 2 for Cameron. Crack one egg into each well. Season egg tops with salt.",
+        "Transfer skillet to oven. Bake 8\u201312 min \u2014 check at 8 min. You want whites set but yolks still runny. Pull slightly early as they'll continue cooking in the hot pan.",
+        "Remove from oven. Immediately scatter feta and fresh cilantro over top.",
+        "Warm pita in a dry skillet 30 seconds per side.",
+        "Serve directly from the skillet. Cameron gets Greek yogurt dolloped on her portion and 1/4 avocado fanned on top. Austin gets extra hot sauce. Pita goes alongside for scooping."
+      ],
+      "batch_note": "Cook to order Sunday night. One-pan meal in Le Creuset \u2014 35 min start to finish. Easy batch-day dinner.",
+      "cameron_note": "Cameron: pinch of red pepper flakes only, no cayenne. Add Greek yogurt dollop and 1/4 avocado on her portion. Mild-medium heat.",
+      "seasonal_note": "Merguez sausage adds lamb + spice depth you don't get from regular sausage. Worth seeking out at a Middle Eastern market or Whole Foods.",
+      "history": {
+        "first_used": "2026-05-11",
+        "last_used": "2026-05-11",
+        "times_made": 1,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    }
+  ]
+}

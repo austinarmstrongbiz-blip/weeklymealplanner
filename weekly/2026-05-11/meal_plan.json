@@ -1,0 +1,130 @@
+{
+  "week_date": "2026-05-11",
+  "week_start": "May 11",
+  "week_end": "May 17, 2026",
+  "season": "Late Spring — Pittsburgh",
+  "city": "Pittsburgh, PA",
+  "seasonal_heroes": ["Strawberries (peak)", "Snap Peas", "Watercress", "Spring Onions", "Radishes", "Asparagus (final weeks)"],
+  "cuisine_rotation": ["Italian", "Greek", "Thai", "Japanese", "Mexican", "American BBQ", "Mediterranean"],
+  "days": [
+    {
+      "day": "Monday",
+      "cuisine": "Italian",
+      "breakfast": { "recipe_id": "strawberry-mango-smoothie-bowl", "austin": {"cal": 520, "p": 42, "f": 11, "c": 56}, "cameron": {"cal": 415, "p": 31, "f": 8, "c": 47} },
+      "lunch":    { "recipe_id": "caprese-chicken-orzo-bowl",        "austin": {"cal": 630, "p": 51, "f": 16, "c": 64}, "cameron": {"cal": 510, "p": 36, "f": 12, "c": 55}, "cameron_note": "+ 1/4 avocado, extra basil" },
+      "dinner":   { "recipe_id": "lemon-ricotta-pasta-snap-peas",    "austin": {"cal": 660, "p": 58, "f": 18, "c": 66}, "cameron": {"cal": 580, "p": 36, "f": 15, "c": 62} },
+      "austin_total": {"cal": 1810, "p": 151}, "cameron_total": {"cal": 1505, "p": 103}
+    },
+    {
+      "day": "Tuesday",
+      "cuisine": "Greek",
+      "breakfast": { "recipe_id": "egg-white-veggie-frittata-cups",  "austin": {"cal": 530, "p": 44, "f": 22, "c": 10}, "cameron": {"cal": 415, "p": 33, "f": 17, "c": 8} },
+      "lunch":    { "recipe_id": "caprese-chicken-orzo-bowl",         "austin": {"cal": 630, "p": 51, "f": 16, "c": 64}, "cameron": {"cal": 510, "p": 36, "f": 12, "c": 55}, "cameron_note": "+ 1/4 avocado" },
+      "dinner":   { "recipe_id": "greek-chicken-gyro-plates",         "austin": {"cal": 655, "p": 60, "f": 18, "c": 52}, "cameron": {"cal": 585, "p": 37, "f": 16, "c": 48}, "cameron_note": "+ sliced avocado on salad" },
+      "austin_total": {"cal": 1815, "p": 155}, "cameron_total": {"cal": 1510, "p": 106}
+    },
+    {
+      "day": "Wednesday",
+      "cuisine": "Thai",
+      "breakfast": { "recipe_id": "strawberry-mango-smoothie-bowl",        "austin": {"cal": 520, "p": 42, "f": 11, "c": 56}, "cameron": {"cal": 415, "p": 31, "f": 8, "c": 47} },
+      "lunch":    { "recipe_id": "spicy-thai-chicken-cucumber-noodle-salad", "austin": {"cal": 625, "p": 52, "f": 18, "c": 58}, "cameron": {"cal": 505, "p": 36, "f": 14, "c": 50}, "cameron_note": "+ 1/4 avocado, lighter chili" },
+      "dinner":   { "recipe_id": "drunken-noodles-ground-turkey",            "austin": {"cal": 665, "p": 58, "f": 19, "c": 68}, "cameron": {"cal": 585, "p": 36, "f": 16, "c": 70}, "cameron_note": "lighter on bird's eye chili, extra Thai basil" },
+      "austin_total": {"cal": 1810, "p": 152}, "cameron_total": {"cal": 1505, "p": 103}
+    },
+    {
+      "day": "Thursday",
+      "cuisine": "Japanese",
+      "breakfast": { "recipe_id": "egg-white-veggie-frittata-cups",           "austin": {"cal": 530, "p": 44, "f": 22, "c": 10}, "cameron": {"cal": 415, "p": 33, "f": 17, "c": 8} },
+      "lunch":    { "recipe_id": "spicy-thai-chicken-cucumber-noodle-salad",   "austin": {"cal": 625, "p": 52, "f": 18, "c": 58}, "cameron": {"cal": 505, "p": 36, "f": 14, "c": 50}, "cameron_note": "+ 1/4 avocado, lighter chili" },
+      "dinner":   { "recipe_id": "miso-butter-chicken-soba-snap-peas",         "austin": {"cal": 660, "p": 60, "f": 20, "c": 62}, "cameron": {"cal": 580, "p": 37, "f": 17, "c": 58} },
+      "austin_total": {"cal": 1815, "p": 156}, "cameron_total": {"cal": 1500, "p": 106}
+    },
+    {
+      "day": "Friday",
+      "cuisine": "Mexican / Tex-Mex",
+      "breakfast": { "recipe_id": "strawberry-mango-smoothie-bowl",       "austin": {"cal": 520, "p": 42, "f": 11, "c": 56}, "cameron": {"cal": 415, "p": 31, "f": 8, "c": 47} },
+      "lunch":    { "recipe_id": "watermelon-arugula-grilled-chicken-salad", "austin": {"cal": 620, "p": 51, "f": 17, "c": 42}, "cameron": {"cal": 505, "p": 35, "f": 14, "c": 38}, "cameron_note": "+ 1/4 avocado, extra feta" },
+      "dinner":   { "recipe_id": "chipotle-chicken-burrito-bowls",           "austin": {"cal": 660, "p": 60, "f": 17, "c": 66}, "cameron": {"cal": 585, "p": 37, "f": 15, "c": 68}, "cameron_note": "+ sliced avocado, less chipotle" },
+      "austin_total": {"cal": 1800, "p": 153}, "cameron_total": {"cal": 1505, "p": 103}
+    },
+    {
+      "day": "Saturday",
+      "cuisine": "American BBQ",
+      "breakfast": { "recipe_id": "egg-white-veggie-frittata-cups",             "austin": {"cal": 530, "p": 44, "f": 22, "c": 10}, "cameron": {"cal": 415, "p": 33, "f": 17, "c": 8} },
+      "lunch":    { "recipe_id": "watermelon-arugula-grilled-chicken-salad",    "austin": {"cal": 620, "p": 51, "f": 17, "c": 42}, "cameron": {"cal": 505, "p": 35, "f": 14, "c": 38}, "cameron_note": "+ 1/4 avocado, extra feta" },
+      "dinner":   { "recipe_id": "smoked-spatchcock-chicken-chimichurri",       "austin": {"cal": 680, "p": 62, "f": 24, "c": 42}, "cameron": {"cal": 595, "p": 38, "f": 21, "c": 38} },
+      "austin_total": {"cal": 1830, "p": 157}, "cameron_total": {"cal": 1515, "p": 106}
+    },
+    {
+      "day": "Sunday",
+      "cuisine": "Mediterranean",
+      "breakfast": { "recipe_id": "strawberry-mango-smoothie-bowl",        "austin": {"cal": 520, "p": 42, "f": 11, "c": 56}, "cameron": {"cal": 415, "p": 31, "f": 8, "c": 47} },
+      "lunch":    { "recipe_id": "smoked-chicken-watercress-snap-pea-salad", "austin": {"cal": 620, "p": 52, "f": 18, "c": 40}, "cameron": {"cal": 505, "p": 36, "f": 14, "c": 36}, "cameron_note": "+ 1/4 avocado, extra lemon" },
+      "dinner":   { "recipe_id": "shakshuka-merguez-warm-pita",              "austin": {"cal": 655, "p": 58, "f": 20, "c": 60}, "cameron": {"cal": 580, "p": 36, "f": 18, "c": 64}, "cameron_note": "+ feta crumble + avocado slices on top" },
+      "austin_total": {"cal": 1795, "p": 152}, "cameron_total": {"cal": 1500, "p": 103}
+    }
+  ],
+  "batch_prep": [
+    {
+      "station": "SAT NIGHT — SPATCHCOCK & DRY BRINE (10 min)",
+      "tasks": [
+        "1 whole chicken (4–5 lbs) — using kitchen shears, cut along both sides of the backbone and remove it; flip chicken breast-side up; press firmly on breastbone to flatten (spatchcock); dry brine: mix 1.5 tbsp kosher salt + 1 tbsp smoked paprika + 1 tsp garlic powder + 1 tsp black pepper + 1/2 tsp cayenne; rub all over and under skin; place on a wire rack set over a sheet pan; refrigerate uncovered overnight — this dries the skin for a perfect crisp on the smoker"
+      ]
+    },
+    {
+      "station": "SUNDAY — FIRE SMOKER (start 9am for ~2pm dinner)",
+      "tasks": [
+        "Heat smoker to 275°F using apple wood chips; place spatchcocked chicken skin-side up directly on grate; smoke 2.5–3 hrs until breast hits 160°F (flat bird cooks faster than whole); baste with herb chimichurri every 45 min; pull at 165°F; rest 10 min tented; carve 1/3 of bird for Sunday lunch salad (Smoked Chicken & Watercress); remaining 2/3 is Sunday dinner with chimichurri",
+        "MAKE CHIMICHURRI (10 min, while smoker runs): blend 1 cup flat-leaf parsley + 1/4 cup fresh oregano + 4 garlic cloves + 1/4 cup olive oil + 2 tbsp red wine vinegar + 1/2 tsp red pepper flakes + salt + pepper; blend coarse; taste + adjust; jar in fridge — use as baste AND serving sauce"
+      ]
+    },
+    {
+      "station": "BREVILLE OVEN — BATCH CHICKEN THIGHS (prep 15 min | roast 35 min)",
+      "tasks": [
+        "5 lbs boneless skinless chicken thighs — pat dry; season half (2.5 lbs) with olive oil + lemon zest + garlic + Italian seasoning for caprese bowls + gyro plates; season other half (2.5 lbs) with olive oil + soy + ginger + sesame oil for soba bowls + watermelon salad; roast all at 400°F for 32–35 min; cool 10 min; slice or shred as needed; label clearly",
+        "Reserve ~10 oz UNCOOKED thighs for: Wed drunken noodles ground turkey (use ground turkey for that — so all thighs are batch-roasted)"
+      ]
+    },
+    {
+      "station": "OVEN — EGG WHITE FRITTATA CUPS (prep 12 min | bake 22 min)",
+      "tasks": [
+        "12-cup muffin tin; whisk 10 egg whites + 4 whole eggs + 6 oz turkey sausage crumbles + 1 cup chopped snap peas + 4 sliced spring onions + 2 oz crumbled feta + 1/2 tsp garlic powder + 1/4 tsp red pepper flakes + salt + pepper; fill cups 3/4 full; bake at 375°F for 20–22 min until puffed and set; cool fully; store airtight up to 5 days",
+        "Austin: 4 cups per morning | Cameron: 3 cups per morning + optional avocado side"
+      ]
+    },
+    {
+      "station": "RICE COOKER (hands-off)",
+      "tasks": [
+        "3 cups dry jasmine rice — makes ~7.5 cups cooked; used for burrito bowls (Fri) and drunken noodles rice base (Wed); divide and refrigerate",
+        "Cook 8 oz dry soba noodles in a large pot per package directions; drain, rinse cold, toss with 1 tsp sesame oil to prevent sticking; portion into 2 containers (Thu dinner + Wed lunch)"
+      ]
+    },
+    {
+      "station": "SMOOTHIE BOWL BASES (10 min | freeze overnight Sat)",
+      "tasks": [
+        "Blend 4 smoothie bowl bases in batches: 1 cup frozen mango chunks + 1/2 cup frozen strawberries + 1 scoop vanilla protein powder + 1/2 cup Greek yogurt + splash of almond milk per serving; blend thick (less liquid than a smoothie — it should be spoonable); pour into 4 meal prep containers + freeze; morning-of: pull out 20 min before eating and top with granola + fresh strawberry slices + 1 tbsp almond butter (Austin) or coconut flakes (Cameron)"
+      ]
+    },
+    {
+      "station": "SAUCES BATCH (15 min)",
+      "tasks": [
+        "CHIMICHURRI — see smoker station above; double the batch to use for Sunday lunch salad dressing too",
+        "CAPRESE MARINADE / DRIZZLE: 3 tbsp olive oil + 1 tbsp balsamic glaze + 1/2 tsp garlic powder + salt + pepper; whisk; store in small jar",
+        "TZATZIKI (Tue gyro): 1 cup Greek yogurt + 1/2 grated cucumber (squeeze dry) + 1 clove garlic minced + 1 tbsp fresh dill + 1 tbsp lemon juice + salt; stir; fridge up to 4 days",
+        "MISO BUTTER SAUCE (Thu dinner): 2 tbsp white miso + 2 tbsp butter + 1 tbsp soy + 1 tbsp mirin + 1 tsp sesame oil + 1/2 tsp grated ginger; whisk together; refrigerate; warm gently before tossing with soba",
+        "WATERMELON SALAD DRESSING (Fri/Sat): 2 tbsp olive oil + 1.5 tbsp red wine vinegar + 1 tsp honey + 1/4 tsp Dijon + salt + pepper; shake in jar"
+      ]
+    },
+    {
+      "station": "LABEL & PORTION",
+      "tasks": [
+        "2x Caprese Chicken Orzo Bowl per person — Mon/Tue (label A or C; Cameron gets avocado separately)",
+        "2x Spicy Thai Cucumber Noodle Salad per person — Wed/Thu (label; Cameron less chili + avocado fresh)",
+        "2x Watermelon Arugula Grilled Chicken Salad — Fri/Sat (dress day-of; keep watermelon + arugula separate, slice day-of)",
+        "1x Smoked Chicken Watercress Salad — Sun (assemble from Sunday smoker bird)",
+        "NEVER put avocado in any container labeled A — Austin allergy",
+        "Cameron avocados: 4 whole avocados — store at room temp until ripe, then fridge; slice fresh each day; clearly labeled in fridge"
+      ]
+    }
+  ]
+}

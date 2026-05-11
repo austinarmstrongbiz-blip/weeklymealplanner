@@ -1,0 +1,103 @@
+{
+  "week_date": "2026-04-27",
+  "week_start": "April 27",
+  "week_end": "May 3, 2026",
+  "season": "Peak Early Spring",
+  "city": "Pittsburgh, PA",
+  "seasonal_heroes": ["Asparagus", "Spring Peas", "Fresh Strawberries", "Spring Onions", "New Potatoes"],
+  "cuisine_rotation": ["Mediterranean", "Thai", "Mexican", "Japanese", "Italian", "Greek", "American BBQ"],
+  "days": [
+    {
+      "day": "Monday",
+      "cuisine": "Mediterranean",
+      "breakfast": { "recipe_id": "strawberry-lemon-yogurt-bowl", "austin": {"cal": 525, "p": 44, "f": 12, "c": 54}, "cameron": {"cal": 415, "p": 32, "f": 9, "c": 44} },
+      "lunch":    { "recipe_id": "lemon-herb-chicken-med-bowl",   "austin": {"cal": 630, "p": 51, "f": 19, "c": 55}, "cameron": {"cal": 505, "p": 35, "f": 15, "c": 47}, "cameron_note": "+ 1/4 avocado" },
+      "dinner":   { "recipe_id": "spring-pasta-primavera",         "austin": {"cal": 650, "p": 57, "f": 17, "c": 73}, "cameron": {"cal": 580, "p": 35, "f": 15, "c": 78} },
+      "austin_total": {"cal": 1805, "p": 152}, "cameron_total": {"cal": 1500, "p": 102}
+    },
+    {
+      "day": "Tuesday",
+      "cuisine": "Thai",
+      "breakfast": { "recipe_id": "turkey-spring-onion-egg-muffins", "austin": {"cal": 530, "p": 44, "f": 24, "c": 12}, "cameron": {"cal": 415, "p": 33, "f": 18, "c": 10} },
+      "lunch":    { "recipe_id": "lemon-herb-chicken-med-bowl",       "austin": {"cal": 630, "p": 51, "f": 19, "c": 55}, "cameron": {"cal": 505, "p": 35, "f": 15, "c": 47}, "cameron_note": "+ 1/4 avocado" },
+      "dinner":   { "recipe_id": "thai-basil-chicken-stirfry",        "austin": {"cal": 660, "p": 62, "f": 18, "c": 65}, "cameron": {"cal": 585, "p": 36, "f": 15, "c": 68} },
+      "austin_total": {"cal": 1820, "p": 157}, "cameron_total": {"cal": 1505, "p": 104}
+    },
+    {
+      "day": "Wednesday",
+      "cuisine": "Mexican / Tex-Mex",
+      "breakfast": { "recipe_id": "strawberry-lemon-yogurt-bowl",         "austin": {"cal": 525, "p": 44, "f": 12, "c": 54}, "cameron": {"cal": 415, "p": 32, "f": 9, "c": 44} },
+      "lunch":    { "recipe_id": "sesame-ginger-chicken-edamame-bowl",    "austin": {"cal": 635, "p": 52, "f": 17, "c": 60}, "cameron": {"cal": 515, "p": 36, "f": 13, "c": 52}, "cameron_note": "+ 1/4 avocado" },
+      "dinner":   { "recipe_id": "loaded-chicken-fajita-bowls",           "austin": {"cal": 655, "p": 60, "f": 16, "c": 62}, "cameron": {"cal": 580, "p": 35, "f": 14, "c": 65}, "cameron_note": "+ sliced avocado" },
+      "austin_total": {"cal": 1815, "p": 156}, "cameron_total": {"cal": 1510, "p": 103}
+    },
+    {
+      "day": "Thursday",
+      "cuisine": "Japanese",
+      "breakfast": { "recipe_id": "turkey-spring-onion-egg-muffins",      "austin": {"cal": 530, "p": 44, "f": 24, "c": 12}, "cameron": {"cal": 415, "p": 33, "f": 18, "c": 10} },
+      "lunch":    { "recipe_id": "sesame-ginger-chicken-edamame-bowl",    "austin": {"cal": 635, "p": 52, "f": 17, "c": 60}, "cameron": {"cal": 515, "p": 36, "f": 13, "c": 52}, "cameron_note": "+ 1/4 avocado" },
+      "dinner":   { "recipe_id": "miso-glazed-salmon",                    "austin": {"cal": 655, "p": 58, "f": 19, "c": 56}, "cameron": {"cal": 580, "p": 35, "f": 17, "c": 52} },
+      "austin_total": {"cal": 1820, "p": 154}, "cameron_total": {"cal": 1510, "p": 104}
+    },
+    {
+      "day": "Friday",
+      "cuisine": "Italian",
+      "breakfast": { "recipe_id": "strawberry-lemon-yogurt-bowl",   "austin": {"cal": 525, "p": 44, "f": 12, "c": 54}, "cameron": {"cal": 415, "p": 32, "f": 9, "c": 44} },
+      "lunch":    { "recipe_id": "pesto-chicken-spring-pea-quinoa", "austin": {"cal": 625, "p": 50, "f": 22, "c": 44}, "cameron": {"cal": 510, "p": 35, "f": 18, "c": 38}, "cameron_note": "+ 1/4 avocado" },
+      "dinner":   { "recipe_id": "turkey-meatballs-spaghetti",      "austin": {"cal": 650, "p": 58, "f": 15, "c": 72}, "cameron": {"cal": 575, "p": 35, "f": 13, "c": 75} },
+      "austin_total": {"cal": 1800, "p": 152}, "cameron_total": {"cal": 1500, "p": 102}
+    },
+    {
+      "day": "Saturday",
+      "cuisine": "Greek",
+      "breakfast": { "recipe_id": "turkey-spring-onion-egg-muffins", "austin": {"cal": 530, "p": 44, "f": 24, "c": 12}, "cameron": {"cal": 415, "p": 33, "f": 18, "c": 10} },
+      "lunch":    { "recipe_id": "pesto-chicken-spring-pea-quinoa",  "austin": {"cal": 625, "p": 50, "f": 22, "c": 44}, "cameron": {"cal": 510, "p": 35, "f": 18, "c": 38}, "cameron_note": "+ 1/4 avocado" },
+      "dinner":   { "recipe_id": "greek-lamb-keftedes",              "austin": {"cal": 660, "p": 61, "f": 24, "c": 30}, "cameron": {"cal": 590, "p": 36, "f": 22, "c": 28}, "cameron_note": "+ sliced avocado + extra feta" },
+      "austin_total": {"cal": 1815, "p": 155}, "cameron_total": {"cal": 1515, "p": 104}
+    },
+    {
+      "day": "Sunday",
+      "cuisine": "American BBQ",
+      "breakfast": { "recipe_id": "strawberry-lemon-yogurt-bowl",    "austin": {"cal": 525, "p": 44, "f": 12, "c": 54}, "cameron": {"cal": 415, "p": 32, "f": 9, "c": 44} },
+      "lunch":    { "recipe_id": "greek-chicken-arugula-salad",      "austin": {"cal": 620, "p": 50, "f": 20, "c": 40}, "cameron": {"cal": 505, "p": 35, "f": 16, "c": 35}, "cameron_note": "+ 1/4 avocado" },
+      "dinner":   { "recipe_id": "smoker-baby-back-ribs",            "austin": {"cal": 680, "p": 63, "f": 26, "c": 38}, "cameron": {"cal": 595, "p": 37, "f": 23, "c": 35} },
+      "austin_total": {"cal": 1825, "p": 157}, "cameron_total": {"cal": 1515, "p": 104}
+    }
+  ],
+  "batch_prep": [
+    {
+      "station": "BREVILLE OVEN — BATCH CHICKEN THIGHS (prep 15 min | roast 35 min)",
+      "tasks": ["5 lbs boneless skinless chicken thighs — pat dry; season with lemon zest, olive oil, garlic powder, oregano, salt & pepper; roast at 400°F for 30–35 min until 165°F internal; cool 10 min; slice or shred; divide into lunch containers (Mon–Sun); NOTE: keep ~1 lb thighs UNCOOKED for Tue Thai Basil dinner; keep ~1 lb thighs UNCOOKED for Wed Fajita dinner"]
+    },
+    {
+      "station": "OVEN — EGG MUFFINS (prep 10 min | bake 20 min)",
+      "tasks": ["12-cup muffin tin: whisk 8 eggs + 4 egg whites + 8 oz turkey sausage crumbles + 4 sliced spring onions + 2 oz feta + 2 cups baby spinach; fill cups 3/4 full; bake at 375°F for 18–20 min; cool completely; store airtight in fridge up to 5 days; Austin: 4 muffins per morning | Cameron: 3 muffins per morning"]
+    },
+    {
+      "station": "RICE COOKER (hands-off)",
+      "tasks": [
+        "3 cups dry jasmine rice — makes ~7.5 cups cooked; portion for Mon/Tue/Wed/Thu/Sun dinners; reserve 1.5 cups for Thu sesame rice (season day-of: sesame oil + soy)",
+        "1 cup dry quinoa — cook per package; cool and store; used in Fri/Sat pesto quinoa lunch + Sun arugula salad"
+      ]
+    },
+    {
+      "station": "YOGURT BOWLS — BATCH (5 min)",
+      "tasks": ["Portion Greek yogurt + protein powder into 4 meal prep containers; whisk together until smooth; seal; bag strawberries separately — add granola + berries morning-of; Austin adds: 1 tbsp almond butter + 1 tsp honey | Cameron: skips almond butter"]
+    },
+    {
+      "station": "SMOKER — SUNDAY MAY 3 (apply rub SATURDAY NIGHT)",
+      "tasks": ["2 racks baby back ribs — apply dry rub (brown sugar, smoked paprika, garlic powder, cayenne, black pepper, salt) Saturday evening; wrap in plastic wrap; refrigerate overnight; Sunday: smoke at 225°F for 5.5–6 hrs (3-2-1 method); apple or cherry wood chips; brush BBQ sauce in final 30 min; target internal temp: 195–203°F"]
+    },
+    {
+      "station": "LABEL & PORTION",
+      "tasks": [
+        "2x Lemon Herb Chicken Med Bowl per person — Mon/Tue (label A or C)",
+        "2x Sesame Ginger Chicken & Edamame Bowl per person — Wed/Thu",
+        "2x Pesto Chicken Spring Pea Quinoa Salad per person — Fri/Sat",
+        "1x Greek Chicken Arugula Salad per person — Sun (assemble Sat evening)",
+        "Cameron's avocados: store whole in fridge; slice fresh each day",
+        "NEVER put avocado in any container labeled A — Austin allergy"
+      ]
+    }
+  ]
+}

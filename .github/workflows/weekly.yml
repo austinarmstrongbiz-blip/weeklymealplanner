@@ -1,0 +1,42 @@
+name: Weekly Automation
+
+# Runs every Saturday at 8am ET (12:00 UTC)
+# Also triggerable manually from the Actions tab
+on:
+  schedule:
+    - cron: '0 12 * * 6'
+  workflow_dispatch:
+
+permissions:
+  contents: write   # needed to commit feed.json + weeks-index.json back
+
+jobs:
+  refresh:
+    name: Fetch Substacks + Rebuild Index
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Fetch Substack feeds
+        run: python3 scripts/fetch_substacks.py
+        continue-on-error: true   # don't fail the job if no Substacks are configured yet
+
+      - name: Rebuild weeks index
+        run: python3 scripts/generate_weeks_index.py
+
+      - name: Commit updated files
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: weekly refresh — Substack feeds + weeks index [automated]'
+          file_pattern: |
+            references/substacks/feed.json
+            weeks-index.json
+          commit_user_name: 'Above Kitch Bot'
+          commit_user_email: 'bot@abovekitch.local'

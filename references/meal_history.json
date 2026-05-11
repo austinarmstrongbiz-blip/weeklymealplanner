@@ -1,0 +1,274 @@
+{
+  "description": "Above Kitch \u2014 Meal History. One entry per week, tracking what was planned and eaten.",
+  "weeks": [
+    {
+      "week_start": "2026-04-14",
+      "week_end": "2026-04-20",
+      "status": "pre-library",
+      "notes": "First full week. Recipes not yet captured in recipe_library.json.",
+      "days": [],
+      "ratings": {}
+    },
+    {
+      "week_start": "2026-04-20",
+      "week_end": "2026-04-26",
+      "status": "pre-library",
+      "notes": "Second week. Recipes not yet captured in recipe_library.json.",
+      "days": [],
+      "ratings": {}
+    },
+    {
+      "week_start": "2026-04-27",
+      "week_end": "2026-05-03",
+      "status": "complete",
+      "notes": "Peak Early Spring. Smoker ribs on Sunday. First week fully in recipe library.",
+      "ratings": {
+        "smoker-baby-back-ribs": {
+          "rated_at": "2026-05-05",
+          "austin": 5,
+          "cameron": 5,
+          "notes": "Excellent on the smoker. Best thing we made that week."
+        },
+        "thai-basil-chicken-stirfry": {
+          "rated_at": "2026-05-05",
+          "austin": 5,
+          "cameron": 4,
+          "notes": "Thai basil was a hit. Would repeat."
+        },
+        "miso-glazed-salmon": {
+          "rated_at": "2026-05-05",
+          "austin": 5,
+          "cameron": 4,
+          "notes": "Really good \u2014 requested repeat for upcoming weeks."
+        },
+        "greek-lamb-keftedes": {
+          "rated_at": "2026-05-05",
+          "austin": 5,
+          "cameron": 4,
+          "notes": "Requested repeat. Lamb + feta combo landed perfectly."
+        },
+        "spring-pasta-primavera": {
+          "rated_at": "2026-05-05",
+          "austin": 4,
+          "cameron": 4,
+          "notes": "Solid Monday dinner. Spring peas were the right call."
+        },
+        "turkey-meatballs-spaghetti": {
+          "rated_at": "2026-05-05",
+          "austin": 4,
+          "cameron": 4,
+          "notes": "Good comfort Friday. Classic."
+        },
+        "loaded-chicken-fajita-bowls": {
+          "rated_at": "2026-05-05",
+          "austin": 3,
+          "cameron": 3,
+          "notes": "Felt a bit plain \u2014 needs more char and heat next time."
+        },
+        "lemon-herb-chicken-med-bowl": {
+          "rated_at": "2026-05-05",
+          "austin": 4,
+          "cameron": 4,
+          "notes": "Reliable lunch. Good batch recipe."
+        },
+        "sesame-ginger-chicken-edamame-bowl": {
+          "rated_at": "2026-05-05",
+          "austin": 4,
+          "cameron": 3,
+          "notes": "Austin liked it, Cameron found it a bit monotonous by Thursday."
+        },
+        "pesto-chicken-spring-pea-quinoa": {
+          "rated_at": "2026-05-05",
+          "austin": 4,
+          "cameron": 4,
+          "notes": "Great Fri/Sat lunch. The spring peas made it."
+        },
+        "strawberry-lemon-yogurt-bowl": {
+          "rated_at": "2026-05-05",
+          "austin": 4,
+          "cameron": 4,
+          "notes": "Solid breakfast. Rhubarb version coming this week should be even better."
+        },
+        "turkey-spring-onion-egg-muffins": {
+          "rated_at": "2026-05-05",
+          "austin": 3,
+          "cameron": 4,
+          "notes": "Good but asparagus bites this week should be an upgrade."
+        },
+        "greek-chicken-arugula-salad": {
+          "rated_at": "2026-05-05",
+          "austin": 4,
+          "cameron": 4,
+          "notes": "Good Sunday lunch. Clean and light."
+        }
+      },
+      "days": [
+        {
+          "day": "Monday",
+          "cuisine": "Mediterranean",
+          "breakfast_id": "strawberry-lemon-yogurt-bowl",
+          "lunch_id": "lemon-herb-chicken-med-bowl",
+          "dinner_id": "spring-pasta-primavera"
+        },
+        {
+          "day": "Tuesday",
+          "cuisine": "Thai",
+          "breakfast_id": "turkey-spring-onion-egg-muffins",
+          "lunch_id": "lemon-herb-chicken-med-bowl",
+          "dinner_id": "thai-basil-chicken-stirfry"
+        },
+        {
+          "day": "Wednesday",
+          "cuisine": "Mexican",
+          "breakfast_id": "strawberry-lemon-yogurt-bowl",
+          "lunch_id": "sesame-ginger-chicken-edamame-bowl",
+          "dinner_id": "loaded-chicken-fajita-bowls"
+        },
+        {
+          "day": "Thursday",
+          "cuisine": "Japanese",
+          "breakfast_id": "turkey-spring-onion-egg-muffins",
+          "lunch_id": "sesame-ginger-chicken-edamame-bowl",
+          "dinner_id": "miso-glazed-salmon"
+        },
+        {
+          "day": "Friday",
+          "cuisine": "Italian",
+          "breakfast_id": "strawberry-lemon-yogurt-bowl",
+          "lunch_id": "pesto-chicken-spring-pea-quinoa",
+          "dinner_id": "turkey-meatballs-spaghetti"
+        },
+        {
+          "day": "Saturday",
+          "cuisine": "Greek",
+          "breakfast_id": "turkey-spring-onion-egg-muffins",
+          "lunch_id": "pesto-chicken-spring-pea-quinoa",
+          "dinner_id": "greek-lamb-keftedes"
+        },
+        {
+          "day": "Sunday",
+          "cuisine": "American BBQ",
+          "breakfast_id": "strawberry-lemon-yogurt-bowl",
+          "lunch_id": "greek-chicken-arugula-salad",
+          "dinner_id": "smoker-baby-back-ribs"
+        }
+      ]
+    },
+    {
+      "week_start": "2026-05-04",
+      "week_end": "2026-05-10",
+      "status": "planned",
+      "notes": "Peak Spring. Beer can smoked chicken on Sunday. New: rhubarb compote, Korean BBQ bowls, soba noodle bowls, za'atar shrimp, piccata, green curry, souvlaki.",
+      "ratings": {},
+      "days": [
+        {
+          "day": "Monday",
+          "cuisine": "Italian",
+          "breakfast_id": "strawberry-rhubarb-yogurt-bowl",
+          "lunch_id": "korean-bbq-chicken-bowl",
+          "dinner_id": "lemon-chicken-piccata"
+        },
+        {
+          "day": "Tuesday",
+          "cuisine": "Mediterranean",
+          "breakfast_id": "spring-asparagus-turkey-egg-bites",
+          "lunch_id": "korean-bbq-chicken-bowl",
+          "dinner_id": "zaatar-shrimp-couscous"
+        },
+        {
+          "day": "Wednesday",
+          "cuisine": "Thai",
+          "breakfast_id": "strawberry-rhubarb-yogurt-bowl",
+          "lunch_id": "thai-peanut-soba-bowl",
+          "dinner_id": "coconut-green-curry-chicken"
+        },
+        {
+          "day": "Thursday",
+          "cuisine": "Japanese",
+          "breakfast_id": "spring-asparagus-turkey-egg-bites",
+          "lunch_id": "thai-peanut-soba-bowl",
+          "dinner_id": "teriyaki-salmon-bowl"
+        },
+        {
+          "day": "Friday",
+          "cuisine": "Mexican",
+          "breakfast_id": "strawberry-rhubarb-yogurt-bowl",
+          "lunch_id": "spring-arugula-prosciutto-salad",
+          "dinner_id": "ground-turkey-street-tacos"
+        },
+        {
+          "day": "Saturday",
+          "cuisine": "Greek",
+          "breakfast_id": "spring-asparagus-turkey-egg-bites",
+          "lunch_id": "spring-arugula-prosciutto-salad",
+          "dinner_id": "chicken-souvlaki-skewers"
+        },
+        {
+          "day": "Sunday",
+          "cuisine": "American BBQ",
+          "breakfast_id": "strawberry-rhubarb-yogurt-bowl",
+          "lunch_id": "smoked-chicken-lettuce-wraps",
+          "dinner_id": "beer-can-smoked-chicken"
+        }
+      ]
+    },
+    {
+      "week_start": "2026-05-11",
+      "week_end": "2026-05-17",
+      "status": "planned",
+      "notes": "Late Spring. Smoker: spatchcock chicken Saturday. New: smoothie bowls, frittata cups, caprese orzo, watermelon arugula salad, drunken noodles, miso butter soba, chipotle bowls, shakshuka. Watermelon season begins.",
+      "days": [
+        {
+          "day": "Monday",
+          "cuisine": "Italian",
+          "breakfast_id": "strawberry-mango-smoothie-bowl",
+          "lunch_id": "caprese-chicken-orzo-bowl",
+          "dinner_id": "lemon-ricotta-pasta-snap-peas"
+        },
+        {
+          "day": "Tuesday",
+          "cuisine": "Greek",
+          "breakfast_id": "egg-white-veggie-frittata-cups",
+          "lunch_id": "caprese-chicken-orzo-bowl",
+          "dinner_id": "greek-chicken-gyro-plates"
+        },
+        {
+          "day": "Wednesday",
+          "cuisine": "Thai",
+          "breakfast_id": "strawberry-mango-smoothie-bowl",
+          "lunch_id": "spicy-thai-chicken-cucumber-noodle-salad",
+          "dinner_id": "drunken-noodles-ground-turkey"
+        },
+        {
+          "day": "Thursday",
+          "cuisine": "Japanese",
+          "breakfast_id": "egg-white-veggie-frittata-cups",
+          "lunch_id": "spicy-thai-chicken-cucumber-noodle-salad",
+          "dinner_id": "miso-butter-chicken-soba-snap-peas"
+        },
+        {
+          "day": "Friday",
+          "cuisine": "Mexican",
+          "breakfast_id": "strawberry-mango-smoothie-bowl",
+          "lunch_id": "watermelon-arugula-grilled-chicken-salad",
+          "dinner_id": "chipotle-chicken-burrito-bowls"
+        },
+        {
+          "day": "Saturday",
+          "cuisine": "American BBQ",
+          "breakfast_id": "egg-white-veggie-frittata-cups",
+          "lunch_id": "watermelon-arugula-grilled-chicken-salad",
+          "dinner_id": "smoked-spatchcock-chicken-chimichurri"
+        },
+        {
+          "day": "Sunday",
+          "cuisine": "Mediterranean",
+          "breakfast_id": "strawberry-mango-smoothie-bowl",
+          "lunch_id": "smoked-chicken-watercress-snap-pea-salad",
+          "dinner_id": "shakshuka-merguez-warm-pita"
+        }
+      ],
+      "ratings": {}
+    }
+  ]
+}

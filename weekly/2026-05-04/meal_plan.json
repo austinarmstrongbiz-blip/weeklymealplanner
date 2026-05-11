@@ -1,0 +1,124 @@
+{
+  "week_date": "2026-05-04",
+  "week_start": "May 4",
+  "week_end": "May 10, 2026",
+  "season": "Peak Spring — Pittsburgh",
+  "city": "Pittsburgh, PA",
+  "seasonal_heroes": ["Asparagus", "Fresh Rhubarb", "Spring Peas", "Spring Onions", "Strawberries"],
+  "cuisine_rotation": ["Italian", "Mediterranean", "Thai", "Japanese", "Mexican", "Greek", "American BBQ"],
+  "days": [
+    {
+      "day": "Monday",
+      "cuisine": "Italian",
+      "breakfast": { "recipe_id": "strawberry-rhubarb-yogurt-bowl", "austin": {"cal": 525, "p": 44, "f": 12, "c": 54}, "cameron": {"cal": 415, "p": 32, "f": 9, "c": 44} },
+      "lunch":    { "recipe_id": "korean-bbq-chicken-bowl",          "austin": {"cal": 640, "p": 52, "f": 16, "c": 65}, "cameron": {"cal": 510, "p": 36, "f": 12, "c": 55}, "cameron_note": "+ 1/4 avocado" },
+      "dinner":   { "recipe_id": "lemon-chicken-piccata",            "austin": {"cal": 660, "p": 58, "f": 18, "c": 66}, "cameron": {"cal": 580, "p": 36, "f": 15, "c": 62} },
+      "austin_total": {"cal": 1825, "p": 154}, "cameron_total": {"cal": 1505, "p": 104}
+    },
+    {
+      "day": "Tuesday",
+      "cuisine": "Mediterranean",
+      "breakfast": { "recipe_id": "spring-asparagus-turkey-egg-bites", "austin": {"cal": 530, "p": 44, "f": 24, "c": 10}, "cameron": {"cal": 415, "p": 33, "f": 18, "c": 8} },
+      "lunch":    { "recipe_id": "korean-bbq-chicken-bowl",            "austin": {"cal": 640, "p": 52, "f": 16, "c": 65}, "cameron": {"cal": 510, "p": 36, "f": 12, "c": 55}, "cameron_note": "+ 1/4 avocado" },
+      "dinner":   { "recipe_id": "zaatar-shrimp-couscous",             "austin": {"cal": 650, "p": 58, "f": 16, "c": 62}, "cameron": {"cal": 580, "p": 36, "f": 13, "c": 65}, "cameron_note": "+ 1/4 avocado on arugula" },
+      "austin_total": {"cal": 1820, "p": 154}, "cameron_total": {"cal": 1505, "p": 105}
+    },
+    {
+      "day": "Wednesday",
+      "cuisine": "Thai",
+      "breakfast": { "recipe_id": "strawberry-rhubarb-yogurt-bowl", "austin": {"cal": 525, "p": 44, "f": 12, "c": 54}, "cameron": {"cal": 415, "p": 32, "f": 9, "c": 44} },
+      "lunch":    { "recipe_id": "thai-peanut-soba-bowl",            "austin": {"cal": 635, "p": 51, "f": 19, "c": 60}, "cameron": {"cal": 515, "p": 36, "f": 15, "c": 52}, "cameron_note": "+ 1/4 avocado, lighter chili" },
+      "dinner":   { "recipe_id": "coconut-green-curry-chicken",      "austin": {"cal": 670, "p": 62, "f": 20, "c": 68}, "cameron": {"cal": 590, "p": 37, "f": 18, "c": 70}, "cameron_note": "extra coconut sauce, mild-medium" },
+      "austin_total": {"cal": 1830, "p": 157}, "cameron_total": {"cal": 1520, "p": 105}
+    },
+    {
+      "day": "Thursday",
+      "cuisine": "Japanese",
+      "breakfast": { "recipe_id": "spring-asparagus-turkey-egg-bites", "austin": {"cal": 530, "p": 44, "f": 24, "c": 10}, "cameron": {"cal": 415, "p": 33, "f": 18, "c": 8} },
+      "lunch":    { "recipe_id": "thai-peanut-soba-bowl",              "austin": {"cal": 635, "p": 51, "f": 19, "c": 60}, "cameron": {"cal": 515, "p": 36, "f": 15, "c": 52}, "cameron_note": "+ 1/4 avocado, lighter chili" },
+      "dinner":   { "recipe_id": "teriyaki-salmon-bowl",               "austin": {"cal": 655, "p": 58, "f": 19, "c": 60}, "cameron": {"cal": 580, "p": 36, "f": 17, "c": 55} },
+      "austin_total": {"cal": 1820, "p": 153}, "cameron_total": {"cal": 1510, "p": 105}
+    },
+    {
+      "day": "Friday",
+      "cuisine": "Mexican / Tex-Mex",
+      "breakfast": { "recipe_id": "strawberry-rhubarb-yogurt-bowl",     "austin": {"cal": 525, "p": 44, "f": 12, "c": 54}, "cameron": {"cal": 415, "p": 32, "f": 9, "c": 44} },
+      "lunch":    { "recipe_id": "spring-arugula-prosciutto-salad",     "austin": {"cal": 625, "p": 50, "f": 22, "c": 40}, "cameron": {"cal": 510, "p": 35, "f": 18, "c": 36}, "cameron_note": "+ 1/4 avocado + extra lemon" },
+      "dinner":   { "recipe_id": "ground-turkey-street-tacos",          "austin": {"cal": 660, "p": 61, "f": 17, "c": 64}, "cameron": {"cal": 590, "p": 37, "f": 15, "c": 66}, "cameron_note": "+ sliced avocado, lighter seasoning" },
+      "austin_total": {"cal": 1810, "p": 155}, "cameron_total": {"cal": 1515, "p": 104}
+    },
+    {
+      "day": "Saturday",
+      "cuisine": "Greek",
+      "breakfast": { "recipe_id": "spring-asparagus-turkey-egg-bites",  "austin": {"cal": 530, "p": 44, "f": 24, "c": 10}, "cameron": {"cal": 415, "p": 33, "f": 18, "c": 8} },
+      "lunch":    { "recipe_id": "spring-arugula-prosciutto-salad",     "austin": {"cal": 625, "p": 50, "f": 22, "c": 40}, "cameron": {"cal": 510, "p": 35, "f": 18, "c": 36}, "cameron_note": "+ 1/4 avocado + extra feta" },
+      "dinner":   { "recipe_id": "chicken-souvlaki-skewers",            "austin": {"cal": 655, "p": 61, "f": 18, "c": 52}, "cameron": {"cal": 585, "p": 37, "f": 16, "c": 48}, "cameron_note": "+ 1/4 avocado on salad" },
+      "austin_total": {"cal": 1810, "p": 155}, "cameron_total": {"cal": 1510, "p": 105}
+    },
+    {
+      "day": "Sunday",
+      "cuisine": "American BBQ",
+      "breakfast": { "recipe_id": "strawberry-rhubarb-yogurt-bowl",  "austin": {"cal": 525, "p": 44, "f": 12, "c": 54}, "cameron": {"cal": 415, "p": 32, "f": 9, "c": 44} },
+      "lunch":    { "recipe_id": "smoked-chicken-lettuce-wraps",     "austin": {"cal": 620, "p": 51, "f": 18, "c": 55}, "cameron": {"cal": 505, "p": 36, "f": 14, "c": 48}, "cameron_note": "+ 1/4 avocado" },
+      "dinner":   { "recipe_id": "beer-can-smoked-chicken",          "austin": {"cal": 680, "p": 63, "f": 24, "c": 42}, "cameron": {"cal": 595, "p": 38, "f": 21, "c": 38} },
+      "austin_total": {"cal": 1825, "p": 158}, "cameron_total": {"cal": 1515, "p": 106}
+    }
+  ],
+  "batch_prep": [
+    {
+      "station": "SAT NIGHT — DRY RUB WHOLE CHICKEN (5 min)",
+      "tasks": ["1 whole chicken (4–5 lbs) — pat dry inside and out; apply dry rub all over skin AND under breast skin: 2 tbsp smoked paprika + 1 tbsp garlic powder + 1 tbsp brown sugar + 1 tsp cayenne + 1 tsp black pepper + 1 tsp kosher salt; wrap loosely in plastic wrap; refrigerate overnight; chill a beer can — it goes into the bird tomorrow"]
+    },
+    {
+      "station": "SUNDAY EARLY — FIRE SMOKER (start 8-9am for 2pm dinner)",
+      "tasks": ["Heat smoker to 275°F — apple or cherry wood chips; open beer can, pour out/drink half; lower chicken cavity onto can; stand upright on smoker grate; smoke 3.5–4 hrs until 165°F breast; baste with BBQ sauce last 30 min; rest 15 min tented before carving; NOTE: carve 1/4 of the bird for Sunday lunch lettuce wraps"]
+    },
+    {
+      "station": "BREVILLE OVEN — BATCH CHICKEN THIGHS (prep 15 min | roast 35 min)",
+      "tasks": ["5 lbs boneless skinless chicken thighs — pat dry; season with olive oil, lemon zest, garlic powder, oregano, salt, pepper; roast at 400°F for 30–35 min until 165°F internal; cool 10 min; slice or shred; divide into lunch containers (Mon–Sat); reserve ~10 oz UNCOOKED for Wed green curry dinner; reserve ~12 oz UNCOOKED for Sat souvlaki (skewer + marinate Sat morning)"]
+    },
+    {
+      "station": "OVEN — EGG BITES (prep 12 min | bake 20 min)",
+      "tasks": ["12-cup muffin tin: whisk 8 eggs + 4 egg whites + 8 oz turkey sausage crumbles + 1 cup chopped asparagus tips + 4 sliced spring onions + 2 oz feta; add 1/2 tsp garlic powder + 1/4 tsp red pepper flakes + salt + pepper; fill cups 3/4 full; bake at 375°F for 18–20 min until puffed + set; cool fully; store airtight up to 5 days; Austin: 4 bites per morning | Cameron: 3 bites + optional avocado side"]
+    },
+    {
+      "station": "RICE COOKER (hands-off)",
+      "tasks": [
+        "3 cups dry jasmine rice — makes ~7.5 cups cooked; used Mon–Thu dinners + Sun lunch wraps; Thu sesame rice: toss with 2 tsp sesame oil + 1 tsp soy sauce day-of",
+        "1 cup dry quinoa — cook + cool; store in container; NOT used this week — skip unless wanted for extra base option"
+      ]
+    },
+    {
+      "station": "QUICK PICKLES (10 min | rest 30+ min)",
+      "tasks": [
+        "PICKLED RADISH (Korean bowls Mon/Tue): 1 bunch radishes thinly sliced; toss with 3 tbsp rice vinegar + 1 tsp sugar + 1/2 tsp salt; rest 30 min; fridge up to 5 days",
+        "PICKLED CUCUMBER (teriyaki bowls Thu): 2 cucumbers, thin rounds; toss with 2 tbsp rice vinegar + 1 tsp sesame oil + 1/2 tsp salt + pinch sugar; fridge up to 3 days"
+      ]
+    },
+    {
+      "station": "SAUCES BATCH (10 min)",
+      "tasks": [
+        "KOREAN BBQ SAUCE (Mon/Tue lunch): 2 tbsp gochujang + 2 tbsp soy + 1 tbsp sesame oil + 1 tbsp honey + 1 tbsp rice vinegar + 1 clove garlic minced; whisk; jar it; fridge 1 week",
+        "THAI PEANUT SAUCE (Wed/Thu lunch): 3 tbsp peanut butter + 2 tbsp soy + 1 tbsp sesame oil + 1.5 tbsp lime juice + 1 tsp honey + 1 tsp grated ginger + Sriracha to taste; thin with 2 tbsp warm water; jar; fridge 1 week"
+      ]
+    },
+    {
+      "station": "YOGURT BOWLS + RHUBARB COMPOTE (10 min)",
+      "tasks": [
+        "RHUBARB COMPOTE (Sun): chop 2 rhubarb stalks into 1/2-inch pieces; cook with 1 tbsp honey + 1 tbsp water over medium 5-6 min until jammy; cool completely; store in jar; dollop into yogurt bowls morning-of",
+        "Portion Greek yogurt + protein powder into 4 meal prep containers; whisk smooth; refrigerate; add compote + strawberries + granola morning-of; Austin: + 1 tbsp almond butter + 1 tsp honey | Cameron: skip almond butter"
+      ]
+    },
+    {
+      "station": "LABEL & PORTION",
+      "tasks": [
+        "2x Korean BBQ Chicken Bowl per person — Mon/Tue (label A or C)",
+        "2x Thai Peanut Soba Bowl per person — Wed/Thu",
+        "2x Arugula & Prosciutto Salad — Fri/Sat (assemble day-of; keep eggs + prosciutto separate)",
+        "1x Smoked Chicken Lettuce Wraps — Sun (assemble from Sunday smoker bird)",
+        "NEVER put avocado in any container labeled A — Austin allergy",
+        "Cameron avocados: store whole in fridge; slice fresh each day"
+      ]
+    }
+  ]
+}

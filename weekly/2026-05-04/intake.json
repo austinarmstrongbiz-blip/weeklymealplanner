@@ -1,0 +1,26 @@
+{
+  "week_date": "2026-05-04",
+  "completed_at": "2026-05-04T19:14:40",
+  "generated_by": "questionnaire",
+  "eat_out_nights": [],
+  "last_week_feedback": {
+    "repeat": [
+      "miso-glazed-salmon",
+      "greek-lamb-keftedes"
+    ],
+    "avoid": [],
+    "notes": "Ribs were excellent on the smoker. Thai basil chicken was a hit. Fajita bowls felt a bit plain \u2014 could use more char next time."
+  },
+  "cravings": "Spring vibes, lighter protein rotation. Excited for the rhubarb compote.",
+  "protein_rotation": {
+    "increase": [
+      "shrimp",
+      "salmon"
+    ],
+    "reduce": []
+  },
+  "prep_availability": "full",
+  "cameron_notes": "Cameron wants more sauce-forward dinners this week.",
+  "calendar_eat_out_nights": [],
+  "calendar_conflicts": []
+}

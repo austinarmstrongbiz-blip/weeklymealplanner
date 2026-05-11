@@ -1,0 +1,30 @@
+{
+  "week_date": "2026-05-11",
+  "completed_at": "2026-05-05T16:00:36",
+  "generated_by": "questionnaire+calendar",
+  "eat_out_nights": [],
+  "last_week_feedback": {
+    "repeat": [],
+    "avoid": [],
+    "notes": ""
+  },
+  "cravings": "",
+  "protein_rotation": {
+    "increase": [],
+    "reduce": []
+  },
+  "prep_availability": "full",
+  "cameron_notes": "",
+  "calendar_eat_out_nights": [],
+  "calendar_conflicts": [
+    {
+      "reason": "evening_conflict",
+      "keyword": "soccer (runs late)",
+      "confidence": "medium",
+      "summary": "Pickup Soccer",
+      "time": "8:45pm\u201310:15pm",
+      "day": "Wednesday",
+      "date": "2026-05-13"
+    }
+  ]
+}
