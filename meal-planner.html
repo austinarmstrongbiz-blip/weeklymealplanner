@@ -890,6 +890,107 @@ select.form-control { cursor: pointer; }
 }
 .prep-empty { text-align: center; padding: 48px 24px; color: var(--muted); }
 
+/* ── Recipe card visual hero ───────────────────────────────── */
+.recipe-card-hero {
+  height: 48px; display: flex; align-items: center;
+  justify-content: center; font-size: 22px;
+  border-radius: var(--r) var(--r) 0 0;
+  flex-shrink: 0;
+}
+.rc-hero-emoji { filter: drop-shadow(0 1px 2px rgba(0,0,0,.15)); }
+
+/* ── Tonight hero ──────────────────────────────────────────── */
+.tonight-hero {
+  border-radius: var(--r); overflow: hidden;
+  border: 1px solid var(--border); box-shadow: var(--shadow);
+  margin-bottom: 20px;
+}
+.tonight-hero-band {
+  padding: 8px 16px; display: flex; align-items: center; gap: 8px;
+  font-size: 11px; font-weight: 700; letter-spacing: .7px;
+  text-transform: uppercase; color: white;
+}
+.tonight-emoji { font-size: 16px; }
+.tonight-hero-body {
+  background: var(--card); padding: 14px 18px;
+  display: flex; align-items: center; gap: 14px;
+}
+.tonight-name { font-size: 17px; font-weight: 700; flex: 1; line-height: 1.3; }
+.tonight-macros { font-size: 12px; color: var(--muted); margin-top: 4px; }
+.tonight-macros strong { color: var(--text); }
+
+/* ── Mobile responsive ─────────────────────────────────────── */
+@media (max-width: 640px) {
+  /* Header */
+  .header-inner { height: 48px; padding: 0 14px; }
+  .logo { font-size: 16px; }
+  .week-label { font-size: 11px; }
+
+  /* Tabs — horizontal scroll, no wrap */
+  .tabs-inner { padding: 0 8px; gap: 0; overflow-x: auto; scrollbar-width: none; }
+  .tabs-inner::-webkit-scrollbar { display: none; }
+  .tab-btn { padding: 9px 12px; font-size: 12px; white-space: nowrap; flex-shrink: 0; }
+
+  /* Page padding */
+  .page { padding: 14px 12px; }
+
+  /* Day picker */
+  .day-btn { padding: 7px 12px; font-size: 12px; }
+
+  /* Day totals — stack */
+  .day-totals { gap: 12px; padding: 10px 14px; flex-direction: column; }
+  .totals-person { flex-wrap: wrap; gap: 6px; }
+
+  /* Meal cards */
+  .meal-card-header { padding: 10px 14px 10px; flex-wrap: wrap; gap: 8px; }
+  .meal-card-macros { padding: 10px 14px; grid-template-columns: 1fr; gap: 8px; }
+  .meal-card-ratings { padding: 8px 14px 12px; gap: 14px; }
+
+  /* Tonight hero */
+  .tonight-hero-body { flex-direction: column; align-items: flex-start; gap: 10px; }
+
+  /* Recipe grid — single column */
+  .recipes-grid { grid-template-columns: 1fr; }
+
+  /* Search row */
+  .search-row { flex-direction: column; }
+  .search-input, .filter-select { width: 100%; min-width: unset; }
+
+  /* Modals — full screen */
+  .modal-overlay { padding: 0; align-items: flex-end; }
+  .modal {
+    border-radius: 14px 14px 0 0;
+    max-height: 90dvh; overflow-y: auto;
+  }
+  .picker-overlay { padding: 0; align-items: flex-end; }
+  .picker-modal {
+    border-radius: 14px 14px 0 0;
+    max-width: 100%; max-height: 85dvh;
+  }
+
+  /* Chat */
+  .chat-layout { height: calc(100dvh - 140px); }
+  .chat-input-row { padding: 8px 0; }
+  .chat-bubble { font-size: 13px; padding: 10px 12px; }
+
+  /* Prep cards */
+  .prep-card-header { flex-wrap: wrap; gap: 6px; }
+  .prep-badges { width: 100%; }
+
+  /* Forms */
+  .form-grid { grid-template-columns: 1fr; }
+  .form-group.full { grid-column: 1; }
+  .macro-inputs { grid-template-columns: 1fr 1fr; }
+
+  /* Plan edit bar */
+  .plan-edit-bar { flex-wrap: wrap; gap: 8px; }
+  .plan-edit-bar span { width: 100%; }
+
+  /* Week nav */
+  .week-nav { flex-wrap: wrap; }
+  .week-nav-title { font-size: 14px; }
+}
+
 /* ── Print grocery ─────────────────────────────────────────── */
 @media print {
   .header, .tabs, .grocery-actions, .offline-banner { display: none !important; }
@@ -950,6 +1051,7 @@ select.form-control { cursor: pointer; }
       <button class="btn-secondary" style="font-size:12px;padding:7px 14px" id="cancelPlanEdit">Cancel</button>
     </div>
 
+    <div id="tonightHero"></div>
     <div class="day-picker" id="dayPicker"></div>
 
     <div class="day-totals" id="dayTotals">
@@ -1017,6 +1119,13 @@ select.form-control { cursor: pointer; }
       <button class="chip" data-type="breakfast">Breakfast</button>
       <button class="chip" data-type="lunch">Lunch</button>
       <button class="chip" data-type="dinner">Dinner</button>
+    </div>
+    <div class="filter-chips" id="seasonChips">
+      <button class="chip" data-season="">All seasons</button>
+      <button class="chip" data-season="spring">🌸 Spring</button>
+      <button class="chip" data-season="summer">☀️ Summer</button>
+      <button class="chip" data-season="fall">🍂 Fall</button>
+      <button class="chip" data-season="winter">❄️ Winter</button>
     </div>
     <div class="recipes-count" id="recipesCount"></div>
     <div class="recipes-grid" id="recipesGrid"></div>
@@ -1369,6 +1478,9 @@ async function init() {
 
   // 10. Load saved PDFs list
   loadPDFList();
+
+  // 11. Init season chips (auto-selects current season)
+  initSeasonChips();
 }
 
 // ═══════════════════════════════════════════════════════════
@@ -2902,6 +3014,199 @@ document.getElementById('chatSend').addEventListener('click', handleChatSend);
 document.getElementById('chatInput').addEventListener('keydown', e => {
   if (e.key === 'Enter') handleChatSend();
 });
+
+// ═══════════════════════════════════════════════════════════
+//  CUISINE VISUAL MAP
+// ═══════════════════════════════════════════════════════════
+const CUISINE_VISUAL = {
+  italian:        { color: '#C4622D', emoji: '🍝' },
+  greek:          { color: '#1D4ED8', emoji: '🫒' },
+  thai:           { color: '#059669', emoji: '🌶️' },
+  japanese:       { color: '#BE185D', emoji: '🍜' },
+  mexican:        { color: '#D97706', emoji: '🌮' },
+  'tex-mex':      { color: '#D97706', emoji: '🌮' },
+  american:       { color: '#2563EB', emoji: '🍔' },
+  bbq:            { color: '#9A3412', emoji: '🔥' },
+  mediterranean:  { color: '#0891B2', emoji: '🫙' },
+  indian:         { color: '#EA580C', emoji: '🍛' },
+  chinese:        { color: '#DC2626', emoji: '🥢' },
+  korean:         { color: '#7C3AED', emoji: '🥬' },
+  vietnamese:     { color: '#16A34A', emoji: '🍲' },
+  french:         { color: '#6D28D9', emoji: '🥐' },
+  spanish:        { color: '#DC2626', emoji: '🥘' },
+  middle_eastern: { color: '#B45309', emoji: '🧆' },
+  breakfast:      { color: '#CA8A04', emoji: '🍳' },
+  spring:         { color: '#16A34A', emoji: '🌱' },
+  summer:         { color: '#EA580C', emoji: '🌞' },
+};
+
+function getCuisineVisual(recipe) {
+  if (!recipe) return { color: '#6B7280', emoji: '🍽' };
+  const key = (recipe.cuisine || recipe.meal_type || '')
+    .toLowerCase()
+    .replace(/[^a-z\s]/g, '')
+    .split(/[\s\/\-]+/)[0]  // take first word
+    .trim();
+  return CUISINE_VISUAL[key] || { color: '#6B7280', emoji: '🍽' };
+}
+
+// ═══════════════════════════════════════════════════════════
+//  TONIGHT HERO
+// ═══════════════════════════════════════════════════════════
+function renderTonightHero() {
+  const el = document.getElementById('tonightHero');
+  if (!S.currentPlan || S.weekIndex !== 0) { el.innerHTML = ''; return; }
+
+  const todayIdx = DAYS.indexOf(todayDay);
+  if (todayIdx < 0) { el.innerHTML = ''; return; }
+
+  const day = S.currentPlan.days[todayIdx];
+  if (!day) { el.innerHTML = ''; return; }
+
+  // Prefer dinner; fall back to lunch, then breakfast
+  const mealType = ['dinner','lunch','breakfast'].find(t => day[t]?.recipe_id);
+  if (!mealType) { el.innerHTML = ''; return; }
+
+  const meal   = day[mealType];
+  const recipe = S.recipeLib.recipes.find(r => r.id === meal.recipe_id);
+  const name   = recipe?.name || meal.recipe_id;
+  const vis    = getCuisineVisual(recipe);
+  const aus    = meal.austin  || {};
+  const cam    = meal.cameron || {};
+
+  const label = mealType === 'dinner' ? 'Tonight' : mealType === 'lunch' ? 'Today\'s Lunch' : 'This Morning';
+  const now = new Date();
+  const hour = now.getHours();
+  const timeContext = hour < 12 ? 'Tonight' : hour < 17 ? 'Dinner Later' : 'Tonight';
+  const displayLabel = mealType === 'dinner' ? timeContext : label;
+
+  el.innerHTML = `
+    <div class="tonight-hero">
+      <div class="tonight-hero-band" style="background:${vis.color}">
+        <span class="tonight-emoji">${vis.emoji}</span>
+        <span>${displayLabel} · ${day.cuisine || day.day}</span>
+        ${recipe?.id ? `<button onclick="openRecipeModal('${recipe.id}')" style="margin-left:auto;font-size:11px;color:rgba(255,255,255,.85);border:1px solid rgba(255,255,255,.35);border-radius:4px;padding:2px 8px;cursor:pointer;background:none">View Recipe →</button>` : ''}
+      </div>
+      <div class="tonight-hero-body">
+        <div style="flex:1">
+          <div class="tonight-name">${name}</div>
+          <div class="tonight-macros">
+            <strong style="color:#1E3A5F">Austin</strong>
+            ${aus.cal||'—'} cal · ${aus.p||'—'}g P
+            &nbsp;&nbsp;
+            <strong style="color:#6B2D5E">Cameron</strong>
+            ${cam.cal||'—'} cal · ${cam.p||'—'}g P
+          </div>
+        </div>
+      </div>
+    </div>`;
+}
+
+// Call after renderWeek
+const _origRenderWeek = renderWeek;
+renderWeek = function() {
+  _origRenderWeek();
+  renderTonightHero();
+};
+
+// Recipe card visuals are built directly in the seasonal renderRecipes below.
+
+// ═══════════════════════════════════════════════════════════
+//  SEASONAL FILTER
+// ═══════════════════════════════════════════════════════════
+function getCurrentSeason() {
+  const m = new Date().getMonth() + 1; // 1-12
+  if (m >= 3 && m <= 5) return 'spring';
+  if (m >= 6 && m <= 8) return 'summer';
+  if (m >= 9 && m <= 11) return 'fall';
+  return 'winter';
+}
+
+// Add season to S state and filter
+S.recipeSeason = '';
+
+// Auto-select current season chip on load
+function initSeasonChips() {
+  const season = getCurrentSeason();
+  const chips = document.querySelectorAll('#seasonChips .chip');
+  chips.forEach(c => {
+    const isActive = c.dataset.season === season;
+    c.classList.toggle('active', isActive);
+    if (isActive) S.recipeSeason = season;
+  });
+}
+
+document.getElementById('seasonChips').addEventListener('click', e => {
+  const chip = e.target.closest('.chip');
+  if (!chip) return;
+  document.querySelectorAll('#seasonChips .chip').forEach(c => c.classList.remove('active'));
+  chip.classList.add('active');
+  S.recipeSeason = chip.dataset.season;
+  renderRecipes();
+});
+
+// Patch renderRecipes filter to include season
+// Season-aware renderRecipes replaces original
+renderRecipes = function() {
+  // Temporarily patch S filter logic inline — season filter applied here
+  const origFilter = S.recipeFilter;
+  const q   = S.recipeSearch.toLowerCase();
+  const sea = S.recipeSeason;
+
+  const filtered = S.recipeLib.recipes.filter(r => {
+    if (origFilter !== 'all' && r.meal_type !== origFilter) return false;
+    if (S.recipeCuisine && r.cuisine !== S.recipeCuisine) return false;
+    if (q && !r.name.toLowerCase().includes(q) &&
+              !r.cuisine?.toLowerCase().includes(q) &&
+              !(r.tags || []).some(t => t.toLowerCase().includes(q))) return false;
+    if (sea) {
+      const haystack = [
+        r.cuisine || '', ...(r.tags || [])
+      ].join(' ').toLowerCase();
+      if (!haystack.includes(sea)) return false;
+    }
+    return !r.retired;
+  });
+
+  document.getElementById('recipesCount').textContent =
+    `${filtered.length} recipe${filtered.length !== 1 ? 's' : ''}`;
+
+  const ratings = {};
+  S.mealHistory.weeks.forEach(w => {
+    Object.entries(w.ratings || {}).forEach(([id, r]) => {
+      if (!ratings[id] || (r.austin && !ratings[id].austin)) ratings[id] = r;
+    });
+  });
+
+  const grid = document.getElementById('recipesGrid');
+  if (filtered.length === 0) {
+    grid.innerHTML = '<p class="text-muted">No recipes match your filters.</p>';
+    return;
+  }
+  grid.innerHTML = filtered.map(r => {
+    const rating = ratings[r.id];
+    const stars  = rating?.austin ? '★'.repeat(Math.round(rating.austin)) : '';
+    const vis    = getCuisineVisual(r);
+    return `<div class="recipe-card" onclick="openRecipeModal('${r.id}')">
+      <div class="recipe-card-hero" style="background:${vis.color}22;border-bottom:2px solid ${vis.color}44">
+        <span class="rc-hero-emoji">${vis.emoji}</span>
+      </div>
+      <div class="recipe-card-body">
+        <div class="rc-top">
+          <span class="rc-name">${r.name}</span>
+          <span class="rc-type">${r.meal_type}</span>
+        </div>
+        <div class="rc-cuisine">${r.cuisine || ''} · ${r.total || r.prep || ''}</div>
+        <div class="rc-tags">${(r.tags||[]).slice(0,4).map(t => `<span class="tag">${t}</span>`).join('')}</div>
+        <div class="rc-macros">
+          <div class="rc-macro-row"><span>${r.macros?.austin?.cal||'?'}</span> cal &nbsp; <span>${r.macros?.austin?.p||'?'}g</span> P</div>
+          <div class="rc-macro-row" style="color:var(--cameron)"><span>${r.macros?.cameron?.cal||'?'}</span> cal &nbsp; <span>${r.macros?.cameron?.p||'?'}g</span> P</div>
+          ${stars ? `<div class="rc-stars">${stars}</div>` : ''}
+        </div>
+      </div>
+    </div>`;
+  }).join('');
+};
 
 // ═══════════════════════════════════════════════════════════
 //  GO
