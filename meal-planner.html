@@ -632,6 +632,38 @@ select.form-control { cursor: pointer; }
   30% { transform: translateY(-6px); }
 }
 
+/* ── Store badges ──────────────────────────────────────────── */
+.store-badge {
+  display: inline-flex; align-items: center; justify-content: center;
+  font-size: 9px; font-weight: 800; letter-spacing: .3px;
+  border-radius: 4px; padding: 2px 5px; flex-shrink: 0;
+  margin-top: 1px; text-transform: uppercase;
+}
+.store-badge.sams { background: #0033A0; color: white; }
+.store-badge.wf   { background: #00674B; color: white; }
+.store-badge.either { background: var(--border); color: var(--muted); }
+
+.store-filter-row {
+  display: flex; gap: 8px; margin-bottom: 14px;
+}
+.store-filter-btn {
+  padding: 7px 14px; border-radius: 8px;
+  font-size: 13px; font-weight: 600;
+  border: 1.5px solid var(--border);
+  background: var(--card); color: var(--muted);
+  cursor: pointer; transition: all .15s;
+  display: flex; align-items: center; gap: 6px;
+}
+.store-filter-btn:hover { border-color: var(--green); color: var(--green); }
+.store-filter-btn.active-sams { background: #0033A0; color: white; border-color: #0033A0; }
+.store-filter-btn.active-wf   { background: #00674B; color: white; border-color: #00674B; }
+.store-filter-btn.active-all  { background: var(--green); color: white; border-color: var(--green); }
+.store-count {
+  font-size: 10px; font-weight: 700;
+  background: rgba(255,255,255,.25); border-radius: 999px;
+  padding: 1px 6px; margin-left: 2px;
+}
+
 /* ── Grocery list ──────────────────────────────────────────── */
 .grocery-header {
   display: flex; align-items: center; gap: 12px; margin-bottom: 20px;
@@ -1097,6 +1129,11 @@ select.form-control { cursor: pointer; }
         <button class="btn-primary"   style="font-size:12px;padding:7px 14px" onclick="window.print()">🖨 Print</button>
       </div>
     </div>
+    <div class="store-filter-row" id="storeFilterRow">
+      <button class="store-filter-btn active-all" data-store="" id="sfAll">All <span class="store-count" id="sfAllCount"></span></button>
+      <button class="store-filter-btn" data-store="sams" id="sfSams">🔵 Sam's Club <span class="store-count" id="sfSamsCount"></span></button>
+      <button class="store-filter-btn" data-store="wf" id="sfWf">🟢 Whole Foods <span class="store-count" id="sfWfCount"></span></button>
+    </div>
     <div class="grocery-progress-label" id="groceryProgressLabel"></div>
     <div class="grocery-progress"><div class="grocery-progress-bar" id="groceryProgressBar" style="width:0%"></div></div>
     <div id="groceryBody">
@@ -1390,6 +1427,7 @@ const S = {
   recipeSearch: '',
   planEditMode: false,
   grocery:      null,             // current week's grocery_list.json
+  groceryStore: '',               // '' | 'sams' | 'wf'
   pickerTarget: null,             // { dayIndex, mealType }
   editingRecipeId: null,          // recipe being edited in the Add form
 };
@@ -2158,15 +2196,78 @@ function saveGroceryCheck(cat, idx, checked) {
   localStorage.setItem(groceryChecksKey(), JSON.stringify(checks));
 }
 
+// ── Classify each grocery item as sams / wf / either ──────
+const SAMS_KEYWORDS = [
+  // Bulk proteins
+  'boneless skinless','chicken thigh','ground turkey','turkey breakfast sausage',
+  'dozen','egg whites','liquid egg',
+  // Bulk dairy basics
+  'large tub','almond milk','coconut flakes','butter',
+  // Bulk frozen / produce
+  'frozen mango','frozen shelled','edamame','watermelon','arugula',
+  // Dry goods / pantry
+  'jasmine rice','dry orzo','dry linguine','dry spaghetti','dry soba',
+  'rice noodle','wide rice noodle','apple wood',
+  // Supplements
+  'protein powder','almond butter',
+  // Bulk snacks / extras
+  'granola',
+];
+
+const WF_KEYWORDS = [
+  // Specialty meats
+  'merguez','whole chicken',
+  // Specialty cheese / dairy
+  'fresh mozzarella','ciliegine','miso paste','white miso',
+  // Specialty condiments
+  'balsamic glaze','sun-dried tomato','chipotle pepper','chipotle in adobo','mirin',
+  // Bakery
+  'pita',
+  // Specialty produce
+  'watercress',
+  // Explicit store callouts
+  'whole foods','middle eastern',
+];
+
+// Greek yogurt is Sam's (large tub) — but small specialty containers → WF
+const SAMS_STRONG = ['greek yogurt'];
+
+function classifyItem(text) {
+  const t = text.toLowerCase();
+
+  // Explicit WF first (highest priority)
+  for (const kw of WF_KEYWORDS) {
+    if (t.includes(kw)) return 'wf';
+  }
+
+  // Sam's strong matches
+  for (const kw of SAMS_STRONG) {
+    if (t.includes(kw)) return 'sams';
+  }
+
+  // Sam's keyword matches
+  for (const kw of SAMS_KEYWORDS) {
+    if (t.includes(kw)) return 'sams';
+  }
+
+  // Bulk quantity heuristic: ≥ 1.5 lbs of something → Sam's
+  const lbsMatch = t.match(/(\d+(?:\.\d+)?)\s*lbs?/);
+  if (lbsMatch && parseFloat(lbsMatch[1]) >= 1.5) return 'sams';
+
+  // Large egg counts → Sam's
+  if (t.match(/\b\d+\s*(?:dozen|eggs?)\b/)) return 'sams';
+
+  return 'either';
+}
+
 function renderGroceryList() {
-  const body = document.getElementById('groceryBody');
+  const body     = document.getElementById('groceryBody');
   const weekLabel = document.getElementById('groceryWeekLabel');
   const budgetEl  = document.getElementById('groceryBudget');
 
   if (!S.grocery) {
     body.innerHTML = '<p class="text-muted">No grocery list found for this week.</p>';
-    weekLabel.textContent = '';
-    budgetEl.textContent = '';
+    weekLabel.textContent = ''; budgetEl.textContent = '';
     return;
   }
 
@@ -2174,33 +2275,64 @@ function renderGroceryList() {
   weekLabel.textContent = `Week of ${weekKey}`;
   budgetEl.textContent  = S.grocery.budget ? `Est. ${S.grocery.budget}` : '';
 
-  const checks   = loadGroceryChecks();
-  const cats     = S.grocery.categories || {};
-  let totalItems = 0, checkedItems = 0;
+  const checks = loadGroceryChecks();
+  const cats   = S.grocery.categories || {};
+  const store  = S.groceryStore; // '' | 'sams' | 'wf'
 
-  body.innerHTML = Object.entries(cats).map(([cat, items]) => {
+  // Count items per store for badge totals
+  let samsCt = 0, wfCt = 0, totalCt = 0;
+  Object.values(cats).flat().forEach(item => {
+    const cls = classifyItem(item);
+    if (cls === 'sams' || cls === 'either') samsCt++;
+    if (cls === 'wf'   || cls === 'either') wfCt++;
+    totalCt++;
+  });
+  document.getElementById('sfAllCount').textContent  = totalCt;
+  document.getElementById('sfSamsCount').textContent = samsCt;
+  document.getElementById('sfWfCount').textContent   = wfCt;
+
+  let totalVisible = 0, checkedVisible = 0;
+
+  const html = Object.entries(cats).map(([cat, items]) => {
     if (!items?.length) return '';
-    totalItems += items.length;
+
     const rows = items.map((item, idx) => {
+      const cls = classifyItem(item);
+      // Hide if store-filtered and item doesn't belong
+      if (store === 'sams' && cls === 'wf') return '';
+      if (store === 'wf'   && cls === 'sams') return '';
+
+      totalVisible++;
       const isChecked = checks[cat]?.[idx] || false;
-      if (isChecked) checkedItems++;
+      if (isChecked) checkedVisible++;
+
+      const badgeLabel = cls === 'sams' ? "SAM'S" : cls === 'wf' ? 'WF' : '';
+      const badge = badgeLabel
+        ? `<span class="store-badge ${cls}">${badgeLabel}</span>`
+        : '';
+
       return `<div class="grocery-item${isChecked ? ' checked' : ''}"
           onclick="toggleGroceryItem('${cat}',${idx},this)">
         <div class="grocery-check">${isChecked ? '✓' : ''}</div>
         <div class="grocery-text">${item}</div>
+        ${badge}
       </div>`;
     }).join('');
+
+    if (!rows.trim()) return ''; // all items filtered out
     return `<div class="grocery-category">
       <div class="grocery-category-title">${cat}</div>
       ${rows}
     </div>`;
   }).join('');
 
-  // Update progress
-  const pct = totalItems ? Math.round(checkedItems / totalItems * 100) : 0;
+  body.innerHTML = html || '<p class="text-muted">No items for this filter.</p>';
+
+  // Progress bar reflects filtered view
+  const pct = totalVisible ? Math.round(checkedVisible / totalVisible * 100) : 0;
   document.getElementById('groceryProgressBar').style.width = pct + '%';
   document.getElementById('groceryProgressLabel').textContent =
-    `${checkedItems} of ${totalItems} items checked off`;
+    `${checkedVisible} of ${totalVisible} items checked off`;
 }
 
 function toggleGroceryItem(cat, idx, el) {
@@ -2221,6 +2353,23 @@ function toggleGroceryItem(cat, idx, el) {
 
 document.getElementById('uncheckAllBtn').addEventListener('click', () => {
   localStorage.removeItem(groceryChecksKey());
+  renderGroceryList();
+});
+
+document.getElementById('storeFilterRow').addEventListener('click', e => {
+  const btn = e.target.closest('.store-filter-btn');
+  if (!btn) return;
+  const store = btn.dataset.store;
+  S.groceryStore = store;
+
+  // Update button states
+  document.querySelectorAll('.store-filter-btn').forEach(b => {
+    b.classList.remove('active-all','active-sams','active-wf');
+  });
+  if (store === '')     btn.classList.add('active-all');
+  if (store === 'sams') btn.classList.add('active-sams');
+  if (store === 'wf')   btn.classList.add('active-wf');
+
   renderGroceryList();
 });
 
