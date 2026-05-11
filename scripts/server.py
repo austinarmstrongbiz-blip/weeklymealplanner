@@ -6,6 +6,7 @@ Run:  python3 scripts/server.py
 Open: http://localhost:8080/meal-planner.html
 """
 
+import cgi
 import json
 import os
 import re
@@ -87,6 +88,13 @@ class MealPlannerHandler(SimpleHTTPRequestHandler):
             path = ROOT / 'references' / 'meal_history.json'
             return self._file_json(path)
 
+        # GET /api/pdfs — list uploaded PDFs
+        if parsed.path == '/api/pdfs':
+            pdf_dir = ROOT / 'references' / 'pdfs'
+            pdf_dir.mkdir(exist_ok=True)
+            files = sorted(f.name for f in pdf_dir.iterdir() if f.suffix.lower() == '.pdf')
+            return self._json({'files': files})
+
         self.send_error(404)
 
     # ── POST /api/... ──────────────────────────────────────────────────
@@ -133,6 +141,29 @@ class MealPlannerHandler(SimpleHTTPRequestHandler):
             with open(hist_path, 'w', encoding='utf-8') as f:
                 json.dump(history, f, indent=2, ensure_ascii=False)
             return self._json({'success': True})
+
+        # POST /api/upload/pdf — save a PDF file to references/pdfs/
+        if parsed.path == '/api/upload/pdf':
+            content_type = self.headers.get('Content-Type', '')
+            if 'multipart/form-data' not in content_type:
+                return self._json({'error': 'Expected multipart/form-data'}, 400)
+            # Parse multipart
+            env = {'REQUEST_METHOD': 'POST', 'CONTENT_TYPE': content_type,
+                   'CONTENT_LENGTH': self.headers.get('Content-Length', '0')}
+            form = cgi.FieldStorage(fp=self.rfile, headers=self.headers,
+                                    environ={**os.environ, **env})
+            file_item = form['file'] if 'file' in form else None
+            if not file_item or not file_item.filename:
+                return self._json({'error': 'No file received'}, 400)
+            # Sanitize filename
+            safe_name = re.sub(r'[^\w\-. ]', '', file_item.filename).strip()
+            if not safe_name.lower().endswith('.pdf'):
+                return self._json({'error': 'Only PDF files allowed'}, 400)
+            pdf_dir = ROOT / 'references' / 'pdfs'
+            pdf_dir.mkdir(exist_ok=True)
+            dest = pdf_dir / safe_name
+            dest.write_bytes(file_item.file.read())
+            return self._json({'success': True, 'filename': safe_name})
 
         # POST /api/substacks/save — persist Substack list to user_profile.md
         if parsed.path == '/api/substacks/save':
