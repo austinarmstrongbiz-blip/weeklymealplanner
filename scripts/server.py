@@ -142,6 +142,40 @@ class MealPlannerHandler(SimpleHTTPRequestHandler):
                 json.dump(history, f, indent=2, ensure_ascii=False)
             return self._json({'success': True})
 
+        # POST /api/plan/save — write meal_plan.json for a given week
+        if parsed.path == '/api/plan/save':
+            week_date = data.get('week_date')
+            plan      = data.get('plan')
+            if not week_date or not plan:
+                return self._json({'error': 'week_date and plan required'}, 400)
+            # Sanitize: week_date must match YYYY-MM-DD
+            if not re.match(r'^\d{4}-\d{2}-\d{2}$', str(week_date)):
+                return self._json({'error': 'Invalid week_date format'}, 400)
+            week_dir = ROOT / 'weekly' / week_date
+            week_dir.mkdir(parents=True, exist_ok=True)
+            plan_path = week_dir / 'meal_plan.json'
+            with open(plan_path, 'w', encoding='utf-8') as f:
+                json.dump(plan, f, indent=2, ensure_ascii=False)
+            return self._json({'success': True})
+
+        # POST /api/recipes/update — update existing recipe by id
+        if parsed.path == '/api/recipes/update':
+            recipe_id = data.get('id')
+            updated   = data.get('recipe')
+            if not recipe_id or not updated:
+                return self._json({'error': 'id and recipe required'}, 400)
+            lib_path = ROOT / 'references' / 'recipe_library.json'
+            with open(lib_path, encoding='utf-8') as f:
+                library = json.load(f)
+            idx = next((i for i, r in enumerate(library['recipes']) if r['id'] == recipe_id), None)
+            if idx is None:
+                return self._json({'error': 'Recipe not found'}, 404)
+            # Merge — preserve fields not in the update (e.g. history, batch_note)
+            library['recipes'][idx] = {**library['recipes'][idx], **updated}
+            with open(lib_path, 'w', encoding='utf-8') as f:
+                json.dump(library, f, indent=2, ensure_ascii=False)
+            return self._json({'success': True})
+
         # POST /api/upload/pdf — save a PDF file to references/pdfs/
         if parsed.path == '/api/upload/pdf':
             content_type = self.headers.get('Content-Type', '')

@@ -631,6 +631,159 @@ select.form-control { cursor: pointer; }
   0%, 60%, 100% { transform: translateY(0); }
   30% { transform: translateY(-6px); }
 }
+
+/* ── Grocery list ──────────────────────────────────────────── */
+.grocery-header {
+  display: flex; align-items: center; gap: 12px; margin-bottom: 20px;
+}
+.grocery-budget {
+  background: var(--green); color: white;
+  border-radius: 999px; padding: 4px 14px;
+  font-size: 13px; font-weight: 600;
+}
+.grocery-actions { display: flex; gap: 8px; margin-left: auto; }
+.grocery-category { margin-bottom: 24px; }
+.grocery-category-title {
+  font-size: 11px; font-weight: 700; letter-spacing: .8px;
+  text-transform: uppercase; color: var(--muted);
+  margin-bottom: 10px; padding-bottom: 6px;
+  border-bottom: 2px solid var(--border);
+}
+.grocery-item {
+  display: flex; align-items: flex-start; gap: 10px;
+  padding: 8px 0; border-bottom: 1px solid var(--border);
+  cursor: pointer; transition: opacity .15s;
+}
+.grocery-item:last-child { border-bottom: none; }
+.grocery-item.checked { opacity: .45; }
+.grocery-item.checked .grocery-text { text-decoration: line-through; }
+.grocery-check {
+  width: 18px; height: 18px; border-radius: 4px;
+  border: 2px solid var(--border); flex-shrink: 0;
+  margin-top: 1px; display: flex; align-items: center;
+  justify-content: center; transition: all .15s;
+}
+.grocery-item.checked .grocery-check {
+  background: var(--green); border-color: var(--green); color: white;
+}
+.grocery-text { font-size: 14px; line-height: 1.45; flex: 1; }
+.grocery-progress {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: 999px; height: 6px; margin-bottom: 20px;
+  overflow: hidden;
+}
+.grocery-progress-bar {
+  height: 100%; background: var(--green);
+  border-radius: 999px; transition: width .3s;
+}
+.grocery-progress-label {
+  font-size: 12px; color: var(--muted); margin-bottom: 8px;
+}
+
+/* ── Star ratings ──────────────────────────────────────────── */
+.meal-card-ratings {
+  padding: 10px 20px 14px;
+  border-top: 1px solid var(--border);
+  display: flex; gap: 24px; flex-wrap: wrap;
+}
+.rating-row { display: flex; align-items: center; gap: 8px; }
+.rating-label {
+  font-size: 10px; font-weight: 700; letter-spacing: .5px;
+  text-transform: uppercase; width: 52px;
+}
+.rating-label.austin  { color: var(--austin); }
+.rating-label.cameron { color: var(--cameron); }
+.stars { display: flex; gap: 2px; }
+.star {
+  font-size: 18px; cursor: pointer; color: var(--border);
+  transition: color .1s; line-height: 1; user-select: none;
+}
+.star.filled { color: var(--orange); }
+.star:hover, .star.hover { color: var(--orange-l); }
+.rating-saved {
+  font-size: 11px; color: var(--muted);
+  animation: fadeout 2s forwards;
+}
+@keyframes fadeout { 0%,70% { opacity: 1; } 100% { opacity: 0; } }
+
+/* ── Plan edit mode ────────────────────────────────────────── */
+.plan-edit-bar {
+  background: var(--austin); color: white;
+  border-radius: var(--r); padding: 12px 16px;
+  margin-bottom: 16px; display: none;
+  align-items: center; gap: 12px;
+}
+.plan-edit-bar.active { display: flex; }
+.plan-edit-bar span { font-size: 13px; font-weight: 500; flex: 1; }
+.btn-change-recipe {
+  font-size: 11px; font-weight: 600; color: var(--austin);
+  background: rgba(30,58,95,.08); border-radius: 6px;
+  padding: 4px 10px; flex-shrink: 0; transition: background .15s;
+}
+.plan-edit-mode .btn-change-recipe { display: inline-flex; }
+.btn-change-recipe:hover { background: rgba(30,58,95,.16); }
+.edit-plan-btn {
+  font-size: 12px; color: rgba(255,255,255,.75);
+  background: none; padding: 6px 12px;
+  border: 1.5px solid rgba(255,255,255,.3);
+  border-radius: 6px; cursor: pointer; transition: all .15s;
+}
+.edit-plan-btn:hover { color: white; border-color: white; }
+
+/* ── Recipe picker modal ───────────────────────────────────── */
+.picker-overlay {
+  position: fixed; inset: 0;
+  background: rgba(0,0,0,.55);
+  z-index: 300; display: none;
+  align-items: flex-start; justify-content: center;
+  padding: 40px 16px; overflow-y: auto;
+}
+.picker-overlay.open { display: flex; }
+.picker-modal {
+  background: var(--card); border-radius: 14px;
+  width: 100%; max-width: 560px;
+  box-shadow: 0 20px 60px rgba(0,0,0,.3);
+  animation: slideUp .2s ease; overflow: hidden;
+}
+.picker-header {
+  padding: 18px 20px 14px;
+  border-bottom: 1px solid var(--border);
+  display: flex; align-items: center; gap: 10px;
+}
+.picker-title { font-size: 16px; font-weight: 700; flex: 1; }
+.picker-search {
+  margin: 12px 16px; padding: 9px 14px;
+  border-radius: 8px; border: 1.5px solid var(--border);
+  font-size: 14px; outline: none; width: calc(100% - 32px);
+  transition: border-color .15s;
+}
+.picker-search:focus { border-color: var(--green); }
+.picker-list {
+  max-height: 380px; overflow-y: auto;
+  padding: 4px 0;
+}
+.picker-item {
+  padding: 11px 20px; cursor: pointer;
+  display: flex; align-items: center; gap: 10px;
+  transition: background .1s; border-bottom: 1px solid var(--border);
+}
+.picker-item:last-child { border-bottom: none; }
+.picker-item:hover { background: var(--bg); }
+.picker-item-name { font-size: 14px; font-weight: 500; flex: 1; }
+.picker-item-meta { font-size: 12px; color: var(--muted); }
+.picker-item-type {
+  font-size: 10px; font-weight: 700; letter-spacing: .4px;
+  text-transform: uppercase; color: white;
+  background: var(--green); border-radius: 4px; padding: 2px 6px;
+}
+
+/* ── Print grocery ─────────────────────────────────────────── */
+@media print {
+  .header, .tabs, .grocery-actions, .offline-banner { display: none !important; }
+  body { background: white; }
+  .tab-panel { display: block !important; }
+  .tab-panel:not(#panel-groceries) { display: none !important; }
+}
 </style>
 </head>
 <body>
@@ -648,6 +801,7 @@ select.form-control { cursor: pointer; }
 <div class="tabs">
   <div class="tabs-inner">
     <button class="tab-btn active" data-tab="week">This Week</button>
+    <button class="tab-btn" data-tab="groceries">Groceries</button>
     <button class="tab-btn" data-tab="recipes">Recipes</button>
     <button class="tab-btn" data-tab="substack">Substacks</button>
     <button class="tab-btn" data-tab="add">+ Add Recipe</button>
@@ -674,6 +828,12 @@ select.form-control { cursor: pointer; }
       <button class="btn-icon" id="prevWeek" title="Previous week">‹</button>
       <div class="week-nav-title" id="weekNavTitle">…</div>
       <button class="btn-icon" id="nextWeek" title="Next week">›</button>
+      <button class="btn-secondary" id="editPlanBtn" style="font-size:12px;padding:6px 14px">Edit Plan</button>
+    </div>
+    <div class="plan-edit-bar" id="planEditBar">
+      <span>✏️ Edit mode — click <strong>Change</strong> on any meal to swap a recipe</span>
+      <button class="btn-primary" style="font-size:12px;padding:7px 14px" id="savePlanBtn">Save Plan</button>
+      <button class="btn-secondary" style="font-size:12px;padding:7px 14px" id="cancelPlanEdit">Cancel</button>
     </div>
 
     <div class="day-picker" id="dayPicker"></div>
@@ -694,6 +854,25 @@ select.form-control { cursor: pointer; }
     <div id="cuisineBadgeContainer"></div>
     <div class="meals-grid" id="mealsGrid">
       <!-- rendered by JS -->
+    </div>
+  </div>
+
+  <!-- ╔══════════════════════════════╗ -->
+  <!-- ║   TAB: GROCERIES             ║ -->
+  <!-- ╚══════════════════════════════╝ -->
+  <div class="tab-panel" id="panel-groceries">
+    <div class="grocery-header">
+      <div id="groceryWeekLabel" style="font-size:15px;font-weight:600"></div>
+      <span class="grocery-budget" id="groceryBudget"></span>
+      <div class="grocery-actions">
+        <button class="btn-secondary" style="font-size:12px;padding:7px 14px" id="uncheckAllBtn">Uncheck All</button>
+        <button class="btn-primary"   style="font-size:12px;padding:7px 14px" onclick="window.print()">🖨 Print</button>
+      </div>
+    </div>
+    <div class="grocery-progress-label" id="groceryProgressLabel"></div>
+    <div class="grocery-progress"><div class="grocery-progress-bar" id="groceryProgressBar" style="width:0%"></div></div>
+    <div id="groceryBody">
+      <p class="text-muted">Loading grocery list…</p>
     </div>
   </div>
 
@@ -917,6 +1096,18 @@ select.form-control { cursor: pointer; }
 
 </div><!-- end .page -->
 
+<!-- ── Recipe picker modal (plan builder) ───────────────────── -->
+<div class="picker-overlay" id="pickerOverlay">
+  <div class="picker-modal">
+    <div class="picker-header">
+      <div class="picker-title" id="pickerTitle">Choose a Recipe</div>
+      <button class="btn-close" id="closePicker">✕</button>
+    </div>
+    <input class="picker-search" id="pickerSearch" type="search" placeholder="Search recipes…" autocomplete="off">
+    <div class="picker-list" id="pickerList"></div>
+  </div>
+</div>
+
 <!-- ── Recipe detail modal ───────────────────────────────────── -->
 <div class="modal-overlay" id="recipeModal">
   <div class="modal">
@@ -954,6 +1145,7 @@ const S = {
   weeks:        [],               // ["2026-05-11", "2026-04-27", ...]
   weekIndex:    0,                // index into weeks[] (0 = most recent)
   currentPlan:  null,
+  planSnapshot: null,             // deep copy before edit mode, for cancel
   selectedDay:  0,                // index into plan.days[]
   serverOnline: false,
   substacks:    JSON.parse(localStorage.getItem('ak-substacks') || '[]'),
@@ -961,6 +1153,10 @@ const S = {
   recipeFilter: 'all',
   recipeCuisine:'',
   recipeSearch: '',
+  planEditMode: false,
+  grocery:      null,             // current week's grocery_list.json
+  pickerTarget: null,             // { dayIndex, mealType }
+  editingRecipeId: null,          // recipe being edited in the Add form
 };
 
 const DAYS = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];
@@ -1065,6 +1261,7 @@ async function loadWeek(index) {
   const isCurrent = (S.weekIndex === 0);
   const dayIdx = isCurrent ? Math.max(0, DAYS.indexOf(todayDay)) : 0;
   S.selectedDay = dayIdx < 0 ? 0 : dayIdx;
+  S.grocery = null; // clear cached grocery data for the new week
   renderWeek();
 }
 
@@ -1144,11 +1341,30 @@ function renderDay() {
     const aus = m.austin || {};
     const cam = m.cameron || {};
     const note = m.cameron_note || '';
-    return `<div class="meal-card">
+    // Build star rating HTML
+    const existingRating = (() => {
+      for (const w of S.mealHistory.weeks) {
+        const rt = w.ratings?.[recipe.id];
+        if (rt) return rt;
+      }
+      return null;
+    })();
+    const buildStars = (person, saved) => {
+      const val = saved?.[person] || 0;
+      return [1,2,3,4,5].map(n =>
+        `<span class="star${n <= val ? ' filled' : ''}" data-val="${n}"
+          onmouseenter="hoverStars(this)" onmouseleave="unhoverStars(this)"
+          onclick="rateRecipe('${recipe.id}','${S.weeks[S.weekIndex]}','${person}',${n},this)">★</span>`
+      ).join('');
+    };
+
+    return `<div class="meal-card" data-day="${S.selectedDay}" data-type="${type}" data-recipe="${recipe.id || ''}">
       <div class="meal-card-header">
         <span class="meal-type-badge">${type}</span>
         <span class="meal-card-title">${name}</span>
-        ${recipe.id ? `<button class="btn-view-recipe" onclick="openRecipeModal('${recipe.id}')">View Recipe →</button>` : ''}
+        ${S.planEditMode
+          ? `<button class="btn-change-recipe" onclick="openRecipePicker(${S.selectedDay},'${type}')">Change ↕</button>`
+          : (recipe.id ? `<button class="btn-view-recipe" onclick="openRecipeModal('${recipe.id}')">View Recipe →</button>` : '')}
       </div>
       <div class="meal-card-macros">
         <div>
@@ -1171,6 +1387,17 @@ function renderDay() {
         </div>
         ${note ? `<div class="cameron-note">+ Cameron: ${note}</div>` : ''}
       </div>
+      ${recipe.id ? `
+      <div class="meal-card-ratings">
+        <div class="rating-row">
+          <span class="rating-label austin">Austin</span>
+          <div class="stars" id="stars-austin-${recipe.id}">${buildStars('austin', existingRating)}</div>
+        </div>
+        <div class="rating-row">
+          <span class="rating-label cameron">Cameron</span>
+          <div class="stars" id="stars-cameron-${recipe.id}">${buildStars('cameron', existingRating)}</div>
+        </div>
+      </div>` : ''}
     </div>`;
   }).join('');
 }
@@ -1240,9 +1467,12 @@ function openRecipeModal(id) {
   const r = S.recipeLib.recipes.find(x => x.id === id);
   if (!r) return;
   document.getElementById('modalTitle').textContent = r.name;
-  document.getElementById('modalMeta').textContent =
+  document.getElementById('modalMeta').innerHTML =
     [r.cuisine, r.total ? `⏱ ${r.total}` : '', r.spice_level && r.spice_level !== 'None' ? `🌶 ${r.spice_level}` : '', r.equipment]
-    .filter(Boolean).join(' · ');
+    .filter(Boolean).join(' · ') +
+    (S.serverOnline
+      ? ` &nbsp;<button onclick="editRecipe('${r.id}')" style="color:var(--orange);font-size:12px;font-weight:600;border-bottom:1px solid transparent" onmouseover="this.style.borderBottomColor='var(--orange)'" onmouseout="this.style.borderBottomColor='transparent'">Edit ✏️</button>`
+      : '');
 
   const rating = (() => {
     for (const w of S.mealHistory.weeks) {
@@ -1578,6 +1808,7 @@ function wireTabs() {
 function switchTab(name) {
   document.querySelectorAll('.tab-btn').forEach(b => b.classList.toggle('active', b.dataset.tab === name));
   document.querySelectorAll('.tab-panel').forEach(p => p.classList.toggle('active', p.id === `panel-${name}`));
+  if (name === 'groceries') loadGroceryList();
 }
 
 // ═══════════════════════════════════════════════════════════
@@ -1657,6 +1888,405 @@ function showToast(msg, duration = 3500) {
   t.textContent = msg;
   t.classList.add('show');
   setTimeout(() => t.classList.remove('show'), duration);
+}
+
+// ═══════════════════════════════════════════════════════════
+//  GROCERY LIST
+// ═══════════════════════════════════════════════════════════
+async function loadGroceryList() {
+  const weekKey = S.weeks[S.weekIndex];
+  if (!weekKey) return;
+  try {
+    const r = await fetch(`weekly/${weekKey}/grocery_list.json`);
+    if (r.ok) S.grocery = await r.json();
+    else S.grocery = null;
+  } catch { S.grocery = null; }
+  renderGroceryList();
+}
+
+function groceryChecksKey() {
+  return `ak-grocery-${S.weeks[S.weekIndex]}`;
+}
+
+function loadGroceryChecks() {
+  return JSON.parse(localStorage.getItem(groceryChecksKey()) || '{}');
+}
+
+function saveGroceryCheck(cat, idx, checked) {
+  const checks = loadGroceryChecks();
+  if (!checks[cat]) checks[cat] = {};
+  checks[cat][idx] = checked;
+  localStorage.setItem(groceryChecksKey(), JSON.stringify(checks));
+}
+
+function renderGroceryList() {
+  const body = document.getElementById('groceryBody');
+  const weekLabel = document.getElementById('groceryWeekLabel');
+  const budgetEl  = document.getElementById('groceryBudget');
+
+  if (!S.grocery) {
+    body.innerHTML = '<p class="text-muted">No grocery list found for this week.</p>';
+    weekLabel.textContent = '';
+    budgetEl.textContent = '';
+    return;
+  }
+
+  const weekKey = S.weeks[S.weekIndex];
+  weekLabel.textContent = `Week of ${weekKey}`;
+  budgetEl.textContent  = S.grocery.budget ? `Est. ${S.grocery.budget}` : '';
+
+  const checks   = loadGroceryChecks();
+  const cats     = S.grocery.categories || {};
+  let totalItems = 0, checkedItems = 0;
+
+  body.innerHTML = Object.entries(cats).map(([cat, items]) => {
+    if (!items?.length) return '';
+    totalItems += items.length;
+    const rows = items.map((item, idx) => {
+      const isChecked = checks[cat]?.[idx] || false;
+      if (isChecked) checkedItems++;
+      return `<div class="grocery-item${isChecked ? ' checked' : ''}"
+          onclick="toggleGroceryItem('${cat}',${idx},this)">
+        <div class="grocery-check">${isChecked ? '✓' : ''}</div>
+        <div class="grocery-text">${item}</div>
+      </div>`;
+    }).join('');
+    return `<div class="grocery-category">
+      <div class="grocery-category-title">${cat}</div>
+      ${rows}
+    </div>`;
+  }).join('');
+
+  // Update progress
+  const pct = totalItems ? Math.round(checkedItems / totalItems * 100) : 0;
+  document.getElementById('groceryProgressBar').style.width = pct + '%';
+  document.getElementById('groceryProgressLabel').textContent =
+    `${checkedItems} of ${totalItems} items checked off`;
+}
+
+function toggleGroceryItem(cat, idx, el) {
+  const isChecked = !el.classList.contains('checked');
+  el.classList.toggle('checked', isChecked);
+  el.querySelector('.grocery-check').textContent = isChecked ? '✓' : '';
+  saveGroceryCheck(cat, idx, isChecked);
+
+  // Update progress bar
+  const body = document.getElementById('groceryBody');
+  const total   = body.querySelectorAll('.grocery-item').length;
+  const checked = body.querySelectorAll('.grocery-item.checked').length;
+  const pct = total ? Math.round(checked / total * 100) : 0;
+  document.getElementById('groceryProgressBar').style.width = pct + '%';
+  document.getElementById('groceryProgressLabel').textContent =
+    `${checked} of ${total} items checked off`;
+}
+
+document.getElementById('uncheckAllBtn').addEventListener('click', () => {
+  localStorage.removeItem(groceryChecksKey());
+  renderGroceryList();
+});
+
+// ═══════════════════════════════════════════════════════════
+//  STAR RATINGS
+// ═══════════════════════════════════════════════════════════
+function hoverStars(star) {
+  const val = +star.dataset.val;
+  const container = star.parentElement;
+  container.querySelectorAll('.star').forEach(s => {
+    s.classList.toggle('hover', +s.dataset.val <= val);
+  });
+}
+
+function unhoverStars(star) {
+  star.parentElement.querySelectorAll('.star').forEach(s => s.classList.remove('hover'));
+}
+
+async function rateRecipe(recipeId, weekKey, person, val, starEl) {
+  if (!S.serverOnline) { showToast('Start local server to save ratings.'); return; }
+
+  // Update visual immediately
+  const container = starEl.parentElement;
+  container.querySelectorAll('.star').forEach(s => {
+    s.classList.toggle('filled', +s.dataset.val <= val);
+  });
+
+  // Look up other person's existing rating
+  let existingRating = null;
+  for (const w of S.mealHistory.weeks) {
+    if (w.ratings?.[recipeId]) { existingRating = w.ratings[recipeId]; break; }
+  }
+  const austin  = person === 'austin'  ? val : (existingRating?.austin  || 0);
+  const cameron = person === 'cameron' ? val : (existingRating?.cameron || 0);
+
+  try {
+    await fetch('/api/recipes/rate', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        week: weekKey, recipe_id: recipeId,
+        rating: { austin, cameron, notes: existingRating?.notes || '' },
+        rated_at: new Date().toISOString()
+      })
+    });
+    // Update local state
+    let weekEntry = S.mealHistory.weeks.find(w => w.week_start === weekKey);
+    if (!weekEntry) {
+      weekEntry = { week_start: weekKey, ratings: {} };
+      S.mealHistory.weeks.push(weekEntry);
+    }
+    weekEntry.ratings = weekEntry.ratings || {};
+    weekEntry.ratings[recipeId] = { austin, cameron, notes: existingRating?.notes || '' };
+  } catch { showToast('Could not save rating.'); }
+}
+
+// ═══════════════════════════════════════════════════════════
+//  RECIPE EDIT
+// ═══════════════════════════════════════════════════════════
+function editRecipe(id) {
+  const r = S.recipeLib.recipes.find(x => x.id === id);
+  if (!r) return;
+
+  document.getElementById('recipeModal').classList.remove('open');
+  switchTab('add');
+
+  // Populate form
+  document.getElementById('frName').value      = r.name || '';
+  document.getElementById('frCuisine').value   = r.cuisine || '';
+  document.getElementById('frMealType').value  = r.meal_type || '';
+  document.getElementById('frPrep').value      = r.prep || '';
+  document.getElementById('frCook').value      = r.cook || '';
+  document.getElementById('frSpice').value     = r.spice_level || 'None';
+  document.getElementById('frEquip').value     = r.equipment || '';
+  document.getElementById('frTags').value      = (r.tags || []).join(', ');
+  document.getElementById('frSource').value    = r.source_url || '';
+
+  document.getElementById('frAusCal').value  = r.macros?.austin?.cal  || '';
+  document.getElementById('frAusPro').value  = r.macros?.austin?.p    || '';
+  document.getElementById('frAusFat').value  = r.macros?.austin?.f    || '';
+  document.getElementById('frAusCarb').value = r.macros?.austin?.c    || '';
+  document.getElementById('frCamCal').value  = r.macros?.cameron?.cal || '';
+  document.getElementById('frCamPro').value  = r.macros?.cameron?.p   || '';
+  document.getElementById('frCamFat').value  = r.macros?.cameron?.f   || '';
+  document.getElementById('frCamCarb').value = r.macros?.cameron?.c   || '';
+
+  // Instructions
+  document.getElementById('frInstructions').value = (r.instructions || []).join('\n');
+
+  // Ingredients
+  document.getElementById('ingList').innerHTML = '';
+  ingCount = 0;
+  (r.ingredients || []).forEach(ing => {
+    if (ing.name || ing.qty) addIngredientRow(ing.name || '', ing.qty || '');
+  });
+  if (ingCount === 0) { addIngredientRow(); addIngredientRow(); }
+
+  // Mark as editing
+  S.editingRecipeId = id;
+  document.getElementById('submitRecipeBtn').textContent = 'Update Recipe';
+  document.querySelector('#panel-add .panel-header').textContent = '✏️ Edit Recipe';
+  showToast(`Editing "${r.name}" — make changes and click Update.`);
+}
+
+// Patch submitRecipe to handle updates
+const _origSubmitRecipe = submitRecipe;
+document.getElementById('addRecipeForm').removeEventListener('submit', submitRecipe);
+
+async function submitOrUpdateRecipe(e) {
+  e.preventDefault();
+  if (S.editingRecipeId) {
+    await updateRecipe(e);
+  } else {
+    await submitRecipe(e);
+  }
+}
+document.getElementById('addRecipeForm').addEventListener('submit', submitOrUpdateRecipe);
+
+async function updateRecipe(e) {
+  const id = S.editingRecipeId;
+  const name = document.getElementById('frName').value.trim();
+  const type = document.getElementById('frMealType').value;
+  if (!name || !type) { showToast('Name and meal type required.'); return; }
+
+  const updated = {
+    id,
+    name,
+    cuisine:      document.getElementById('frCuisine').value.trim(),
+    meal_type:    type,
+    prep:         document.getElementById('frPrep').value.trim(),
+    cook:         document.getElementById('frCook').value.trim(),
+    spice_level:  document.getElementById('frSpice').value,
+    equipment:    document.getElementById('frEquip').value.trim(),
+    tags:         document.getElementById('frTags').value.split(',').map(t => t.trim()).filter(Boolean),
+    source_url:   document.getElementById('frSource').value.trim() || undefined,
+    macros: {
+      austin:  { cal: +document.getElementById('frAusCal').value||0, p: +document.getElementById('frAusPro').value||0, f: +document.getElementById('frAusFat').value||0, c: +document.getElementById('frAusCarb').value||0 },
+      cameron: { cal: +document.getElementById('frCamCal').value||0, p: +document.getElementById('frCamPro').value||0, f: +document.getElementById('frCamFat').value||0, c: +document.getElementById('frCamCarb').value||0 },
+    },
+    ingredients:  getIngredients(),
+    instructions: getInstructions(),
+  };
+
+  if (!S.serverOnline) { showToast('Start local server to update recipes.'); return; }
+
+  const btn = document.getElementById('submitRecipeBtn');
+  btn.textContent = 'Saving…'; btn.disabled = true;
+  try {
+    const resp = await fetch('/api/recipes/update', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ id, recipe: updated }),
+    });
+    const data = await resp.json();
+    if (data.success) {
+      // Update local state
+      const idx = S.recipeLib.recipes.findIndex(r => r.id === id);
+      if (idx !== -1) S.recipeLib.recipes[idx] = { ...S.recipeLib.recipes[idx], ...updated };
+      renderRecipes();
+      resetAddForm();
+      showToast(`✓ "${name}" updated!`);
+    } else {
+      showToast('Error: ' + (data.error || 'Unknown'));
+    }
+  } catch { showToast('Could not reach server.'); }
+  finally { btn.textContent = 'Update Recipe'; btn.disabled = false; }
+}
+
+function resetAddForm() {
+  document.getElementById('addRecipeForm').reset();
+  document.getElementById('ingList').innerHTML = '';
+  document.getElementById('frInstructions').value = '';
+  ingCount = 0;
+  addIngredientRow(); addIngredientRow(); addIngredientRow();
+  S.editingRecipeId = null;
+  document.getElementById('submitRecipeBtn').textContent = 'Save to Recipe Library';
+  document.querySelector('#panel-add .panel-header').textContent = '✚ Add Recipe to Library';
+}
+
+// Wire up clear button to also reset edit state
+document.getElementById('clearFormBtn').removeEventListener('click', () => {});
+document.getElementById('clearFormBtn').addEventListener('click', () => resetAddForm());
+
+// ═══════════════════════════════════════════════════════════
+//  MEAL PLAN BUILDER
+// ═══════════════════════════════════════════════════════════
+S.planEditMode = false;
+
+document.getElementById('editPlanBtn').addEventListener('click', () => {
+  if (!S.currentPlan) { showToast('No plan loaded for this week.'); return; }
+  S.planSnapshot = JSON.parse(JSON.stringify(S.currentPlan)); // deep copy for cancel
+  S.planEditMode = true;
+  document.getElementById('planEditBar').classList.add('active');
+  document.getElementById('editPlanBtn').style.display = 'none';
+  renderDay();
+});
+
+document.getElementById('cancelPlanEdit').addEventListener('click', () => {
+  S.currentPlan = S.planSnapshot;
+  S.planSnapshot = null;
+  S.planEditMode = false;
+  document.getElementById('planEditBar').classList.remove('active');
+  document.getElementById('editPlanBtn').style.display = '';
+  renderDay();
+});
+
+document.getElementById('savePlanBtn').addEventListener('click', async () => {
+  if (!S.serverOnline) { showToast('Start local server to save the plan.'); return; }
+  const btn = document.getElementById('savePlanBtn');
+  btn.textContent = 'Saving…'; btn.disabled = true;
+  try {
+    const resp = await fetch('/api/plan/save', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ week_date: S.weeks[S.weekIndex], plan: S.currentPlan }),
+    });
+    const data = await resp.json();
+    if (data.success) {
+      S.planEditMode = false;
+      S.planSnapshot = null;
+      document.getElementById('planEditBar').classList.remove('active');
+      document.getElementById('editPlanBtn').style.display = '';
+      showToast('✓ Plan saved!');
+      renderDay();
+    } else {
+      showToast('Error: ' + (data.error || 'Unknown'));
+    }
+  } catch { showToast('Could not reach server.'); }
+  finally { btn.textContent = 'Save Plan'; btn.disabled = false; }
+});
+
+// Recipe picker
+let _pickerAllRecipes = [];
+
+function openRecipePicker(dayIndex, mealType) {
+  S.pickerTarget = { dayIndex, mealType };
+  document.getElementById('pickerTitle').textContent =
+    `Choose ${mealType.charAt(0).toUpperCase() + mealType.slice(1)} Recipe`;
+  document.getElementById('pickerSearch').value = '';
+  _pickerAllRecipes = S.recipeLib.recipes.filter(r => !r.retired);
+  renderPickerList(_pickerAllRecipes);
+  document.getElementById('pickerOverlay').classList.add('open');
+  document.getElementById('pickerSearch').focus();
+}
+
+function renderPickerList(recipes) {
+  const list = document.getElementById('pickerList');
+  if (!recipes.length) {
+    list.innerHTML = '<p style="padding:16px 20px;color:var(--muted);font-size:13px">No recipes found.</p>';
+    return;
+  }
+  list.innerHTML = recipes.map(r => `
+    <div class="picker-item" onclick="selectRecipeForSlot('${r.id}')">
+      <span class="picker-item-type">${r.meal_type}</span>
+      <span class="picker-item-name">${r.name}</span>
+      <span class="picker-item-meta">${r.cuisine || ''}</span>
+    </div>
+  `).join('');
+}
+
+document.getElementById('pickerSearch').addEventListener('input', e => {
+  const q = e.target.value.toLowerCase();
+  renderPickerList(q
+    ? _pickerAllRecipes.filter(r =>
+        r.name.toLowerCase().includes(q) ||
+        r.cuisine?.toLowerCase().includes(q) ||
+        (r.tags||[]).some(t => t.toLowerCase().includes(q)))
+    : _pickerAllRecipes);
+});
+
+document.getElementById('closePicker').addEventListener('click', () => {
+  document.getElementById('pickerOverlay').classList.remove('open');
+});
+document.getElementById('pickerOverlay').addEventListener('click', e => {
+  if (e.target === document.getElementById('pickerOverlay'))
+    document.getElementById('pickerOverlay').classList.remove('open');
+});
+
+function selectRecipeForSlot(recipeId) {
+  const { dayIndex, mealType } = S.pickerTarget;
+  const recipe = S.recipeLib.recipes.find(r => r.id === recipeId);
+  if (!recipe || !S.currentPlan?.days?.[dayIndex]) return;
+
+  const day = S.currentPlan.days[dayIndex];
+  day[mealType] = {
+    recipe_id: recipeId,
+    austin:  { ...recipe.macros?.austin  },
+    cameron: { ...recipe.macros?.cameron },
+  };
+
+  // Recalculate day totals
+  let ausCal = 0, ausP = 0, camCal = 0, camP = 0;
+  ['breakfast','lunch','dinner'].forEach(t => {
+    if (day[t]) {
+      ausCal += day[t].austin?.cal  || 0;
+      ausP   += day[t].austin?.p    || 0;
+      camCal += day[t].cameron?.cal || 0;
+      camP   += day[t].cameron?.p   || 0;
+    }
+  });
+  day.austin_total  = { cal: ausCal, p: ausP };
+  day.cameron_total = { cal: camCal, p: camP };
+
+  document.getElementById('pickerOverlay').classList.remove('open');
+  renderDay();
 }
 
 // ═══════════════════════════════════════════════════════════
