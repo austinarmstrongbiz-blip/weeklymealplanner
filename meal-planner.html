@@ -1023,6 +1023,119 @@ select.form-control { cursor: pointer; }
   .week-nav-title { font-size: 14px; }
 }
 
+/* ── Weekly macro summary ──────────────────────────────────── */
+.week-summary {
+  background: var(--card); border-radius: var(--r);
+  border: 1px solid var(--border); box-shadow: var(--shadow);
+  margin-bottom: 20px; overflow: hidden;
+}
+.week-summary-header {
+  padding: 12px 16px; display: flex; align-items: center;
+  gap: 8px; cursor: pointer; user-select: none;
+  border-bottom: 1px solid transparent; transition: background .15s;
+}
+.week-summary-header:hover { background: var(--bg); }
+.week-summary-header.open { border-bottom-color: var(--border); }
+.week-summary-title { font-size: 12px; font-weight: 700; letter-spacing: .5px; text-transform: uppercase; color: var(--muted); flex: 1; }
+.week-summary-caret { font-size: 11px; color: var(--muted); transition: transform .2s; }
+.week-summary-caret.open { transform: rotate(180deg); }
+.week-summary-body { padding: 14px 16px; display: none; }
+.week-summary-body.open { display: block; }
+
+.wsb-chart { display: flex; align-items: flex-end; gap: 6px; height: 48px; margin-bottom: 12px; }
+.wsb-bar-wrap { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 3px; }
+.wsb-bar {
+  width: 100%; border-radius: 4px 4px 0 0;
+  min-height: 4px; transition: height .3s;
+}
+.wsb-bar.good  { background: var(--green); }
+.wsb-bar.low   { background: #F59E0B; }
+.wsb-bar.high  { background: #EF4444; }
+.wsb-bar.empty { background: var(--border); }
+.wsb-day-label { font-size: 9px; color: var(--muted); font-weight: 600; }
+
+.wsb-stats { display: flex; gap: 24px; flex-wrap: wrap; margin-top: 8px; }
+.wsb-person { flex: 1; min-width: 200px; }
+.wsb-person-label { font-size: 10px; font-weight: 700; letter-spacing: .5px; text-transform: uppercase; margin-bottom: 6px; }
+.wsb-person-label.austin  { color: var(--austin); }
+.wsb-person-label.cameron { color: var(--cameron); }
+.wsb-stat-row { display: flex; gap: 16px; font-size: 13px; }
+.wsb-stat { }
+.wsb-stat strong { font-size: 16px; font-weight: 700; }
+.wsb-stat small { font-size: 11px; color: var(--muted); display: block; }
+
+/* ── Pantry tab ────────────────────────────────────────────── */
+.pantry-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+}
+.pantry-category-card {
+  background: var(--card); border-radius: var(--r);
+  border: 1px solid var(--border); overflow: hidden;
+}
+.pantry-cat-header {
+  padding: 10px 14px; background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  font-size: 11px; font-weight: 700; letter-spacing: .6px;
+  text-transform: uppercase; color: var(--muted);
+}
+.pantry-item {
+  display: flex; align-items: center; gap: 8px;
+  padding: 7px 14px; border-bottom: 1px solid var(--border);
+  font-size: 13px; cursor: pointer; transition: background .1s;
+}
+.pantry-item:last-child { border-bottom: none; }
+.pantry-item:hover { background: var(--bg); }
+.pantry-item.low { background: #FEF3C7; }
+.pantry-item.low .pantry-item-text { color: #92400E; }
+.pantry-item-dot {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: #4ade80; flex-shrink: 0; transition: background .15s;
+}
+.pantry-item.low .pantry-item-dot { background: #F59E0B; }
+.pantry-item-text { flex: 1; line-height: 1.3; }
+.pantry-low-badge {
+  font-size: 10px; font-weight: 700; background: #F59E0B;
+  color: white; border-radius: 4px; padding: 1px 6px; flex-shrink: 0;
+}
+.pantry-notes {
+  background: var(--card); border-radius: var(--r);
+  border: 1px solid var(--border); padding: 14px 16px;
+  margin-top: 20px;
+}
+.pantry-notes-title {
+  font-size: 11px; font-weight: 700; letter-spacing: .6px;
+  text-transform: uppercase; color: var(--muted); margin-bottom: 8px;
+}
+.pantry-notes ul { list-style: none; }
+.pantry-notes li { font-size: 13px; padding: 4px 0; color: var(--muted); }
+.pantry-notes li::before { content: '✕ '; color: #EF4444; font-weight: 700; }
+.pantry-low-count {
+  background: #F59E0B; color: white;
+  border-radius: 999px; padding: 2px 8px;
+  font-size: 11px; font-weight: 700; margin-left: 6px;
+}
+
+/* ── URL Import ─────────────────────────────────────────────── */
+.url-import-row {
+  display: flex; gap: 8px; margin-bottom: 6px;
+}
+.url-import-input {
+  flex: 1; padding: 9px 14px; border-radius: 8px;
+  border: 1.5px solid var(--border); font-size: 13px;
+  outline: none; background: var(--card); transition: border-color .15s;
+}
+.url-import-input:focus { border-color: var(--green); }
+.url-import-hint { font-size: 11px; color: var(--muted); margin-bottom: 16px; }
+.url-import-status {
+  font-size: 13px; padding: 8px 12px; border-radius: 8px;
+  margin-bottom: 12px; display: none;
+}
+.url-import-status.loading { background: var(--bg); color: var(--muted); display: block; }
+.url-import-status.success { background: #F0FDF4; color: #15803D; border: 1px solid #86EFAC; display: block; }
+.url-import-status.error   { background: #FEF2F2; color: #DC2626; border: 1px solid #FCA5A5; display: block; }
+
 /* ── Print grocery ─────────────────────────────────────────── */
 @media print {
   .header, .tabs, .grocery-actions, .offline-banner { display: none !important; }
@@ -1051,6 +1164,7 @@ select.form-control { cursor: pointer; }
     <button class="tab-btn" data-tab="groceries">Groceries</button>
     <button class="tab-btn" data-tab="recipes">Recipes</button>
     <button class="tab-btn" data-tab="substack">Substacks</button>
+    <button class="tab-btn" data-tab="pantry">Pantry</button>
     <button class="tab-btn" data-tab="add">+ Add Recipe</button>
     <button class="tab-btn" data-tab="chat">💬 Chat</button>
   </div>
@@ -1081,6 +1195,16 @@ select.form-control { cursor: pointer; }
       <span>✏️ Edit mode — click <strong>Change</strong> on any meal to swap a recipe</span>
       <button class="btn-primary" style="font-size:12px;padding:7px 14px" id="savePlanBtn">Save Plan</button>
       <button class="btn-secondary" style="font-size:12px;padding:7px 14px" id="cancelPlanEdit">Cancel</button>
+    </div>
+
+    <!-- Weekly macro summary (collapsible) -->
+    <div class="week-summary" id="weekSummary" style="display:none">
+      <div class="week-summary-header" id="weekSummaryToggle">
+        <span class="week-summary-title">📊 Weekly Summary</span>
+        <span id="weekSummaryPreview" style="font-size:12px;color:var(--muted)"></span>
+        <span class="week-summary-caret" id="weekSummaryCaret">▼</span>
+      </div>
+      <div class="week-summary-body" id="weekSummaryBody"></div>
     </div>
 
     <div id="tonightHero"></div>
@@ -1126,6 +1250,7 @@ select.form-control { cursor: pointer; }
       <span class="grocery-budget" id="groceryBudget"></span>
       <div class="grocery-actions">
         <button class="btn-secondary" style="font-size:12px;padding:7px 14px" id="uncheckAllBtn">Uncheck All</button>
+        <button class="btn-secondary" style="font-size:12px;padding:7px 14px" id="shareGroceryBtn">↗ Share</button>
         <button class="btn-primary"   style="font-size:12px;padding:7px 14px" onclick="window.print()">🖨 Print</button>
       </div>
     </div>
@@ -1213,6 +1338,18 @@ select.form-control { cursor: pointer; }
       <div class="panel">
         <div class="panel-header">✚ Add Recipe to Library</div>
         <div class="panel-body">
+
+          <!-- URL import -->
+          <div style="margin-bottom:20px">
+            <div class="form-section-title" style="margin-top:0">Import from URL</div>
+            <div class="url-import-row">
+              <input class="url-import-input" id="urlImportInput"
+                type="url" placeholder="Paste a recipe URL (NYT Cooking, Serious Eats, AllRecipes, etc.)">
+              <button class="btn-primary" id="urlImportBtn" style="padding:9px 16px;font-size:13px;white-space:nowrap">Import ↓</button>
+            </div>
+            <div class="url-import-hint">Works on any site using recipe structured data (most major food sites)</div>
+            <div class="url-import-status" id="urlImportStatus"></div>
+          </div>
 
           <!-- PDF upload -->
           <div class="pdf-section" id="pdfDropZone">
@@ -1339,6 +1476,23 @@ select.form-control { cursor: pointer; }
         </div>
       </div>
     </div>
+  </div>
+
+  <!-- ╔══════════════════════════════╗ -->
+  <!-- ║   TAB: PANTRY                ║ -->
+  <!-- ╚══════════════════════════════╝ -->
+  <div class="tab-panel" id="panel-pantry">
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;flex-wrap:wrap">
+      <div style="font-size:20px;font-weight:700">Pantry Staples</div>
+      <div style="font-size:13px;color:var(--muted)">Always stocked — not on weekly grocery list</div>
+      <div style="margin-left:auto;display:flex;gap:8px">
+        <span id="pantryLowBadge" style="display:none" class="pantry-low-count"></span>
+        <button class="btn-secondary" style="font-size:12px;padding:6px 12px" id="clearPantryLow">Clear Low Marks</button>
+      </div>
+    </div>
+    <p style="font-size:12px;color:var(--muted);margin-bottom:16px">Tap any item to mark it as running low. Low items will be highlighted so you can add them to your next grocery run.</p>
+    <div id="pantryGrid" class="pantry-grid"><p class="text-muted">Loading pantry…</p></div>
+    <div id="pantryNotes"></div>
   </div>
 
   <!-- ╔══════════════════════════════╗ -->
@@ -2085,7 +2239,8 @@ function switchTab(name) {
   document.querySelectorAll('.tab-btn').forEach(b => b.classList.toggle('active', b.dataset.tab === name));
   document.querySelectorAll('.tab-panel').forEach(p => p.classList.toggle('active', p.id === `panel-${name}`));
   if (name === 'groceries') loadGroceryList();
-  if (name === 'prep') renderPrepTab();
+  if (name === 'prep')     renderPrepTab();
+  if (name === 'pantry')   loadPantryTab();
 }
 
 // ═══════════════════════════════════════════════════════════
@@ -3295,6 +3450,337 @@ document.getElementById('seasonChips').addEventListener('click', e => {
 });
 
 // Patch renderRecipes filter to include season
+// ═══════════════════════════════════════════════════════════
+//  WEEKLY MACRO SUMMARY
+// ═══════════════════════════════════════════════════════════
+const AUS_CAL_GOAL  = 1800;
+const AUS_PROT_GOAL = 150;
+const CAM_CAL_GOAL  = 1500;
+const CAM_PROT_GOAL = 100;
+
+function renderWeeklySummary() {
+  const plan = S.currentPlan;
+  const el   = document.getElementById('weekSummary');
+  if (!plan?.days?.length) { el.style.display = 'none'; return; }
+  el.style.display = '';
+
+  const days = plan.days;
+  const ausDaysCal  = days.map(d => d.austin_total?.cal  || 0);
+  const camDaysCal  = days.map(d => d.cameron_total?.cal || 0);
+  const ausTotalCal = ausDaysCal.reduce((a,b) => a+b, 0);
+  const camTotalCal = camDaysCal.reduce((a,b) => a+b, 0);
+  const ausAvgCal   = Math.round(ausTotalCal / days.length);
+  const camAvgCal   = Math.round(camTotalCal / days.length);
+
+  // Protein totals (only if available)
+  const ausTotalProt = days.reduce((s,d) => s + (d.austin_total?.p  || 0), 0);
+  const camTotalProt = days.reduce((s,d) => s + (d.cameron_total?.p || 0), 0);
+
+  // Preview text in header
+  document.getElementById('weekSummaryPreview').textContent =
+    `Austin avg ${ausAvgCal} cal/day · Cameron avg ${camAvgCal} cal/day`;
+
+  // Bar chart — Austin calories per day
+  const maxCal = Math.max(...ausDaysCal, AUS_CAL_GOAL * 1.1, 1);
+  const bars = days.map((d, i) => {
+    const cal = ausDaysCal[i];
+    const pct  = Math.round(cal / maxCal * 100);
+    const cls  = cal === 0 ? 'empty' : Math.abs(cal - AUS_CAL_GOAL) < 100 ? 'good' : cal > AUS_CAL_GOAL + 100 ? 'high' : 'low';
+    return `<div class="wsb-bar-wrap">
+      <div class="wsb-bar ${cls}" style="height:${pct}%" title="${d.day}: ${cal} cal"></div>
+      <div class="wsb-day-label">${d.day.slice(0,2)}</div>
+    </div>`;
+  }).join('');
+
+  const body = document.getElementById('weekSummaryBody');
+  body.innerHTML = `
+    <div class="wsb-chart">${bars}</div>
+    <div class="wsb-stats">
+      <div class="wsb-person">
+        <div class="wsb-person-label austin">Austin</div>
+        <div class="wsb-stat-row">
+          <div class="wsb-stat">
+            <strong>${ausTotalCal.toLocaleString()}</strong>
+            <small>total cal</small>
+          </div>
+          <div class="wsb-stat">
+            <strong>${ausAvgCal}</strong>
+            <small>avg cal/day (goal ${AUS_CAL_GOAL})</small>
+          </div>
+          <div class="wsb-stat">
+            <strong>${ausTotalProt}g</strong>
+            <small>total protein (${Math.round(ausTotalProt/days.length)}g/day)</small>
+          </div>
+        </div>
+      </div>
+      <div class="wsb-person">
+        <div class="wsb-person-label cameron">Cameron</div>
+        <div class="wsb-stat-row">
+          <div class="wsb-stat">
+            <strong>${camTotalCal.toLocaleString()}</strong>
+            <small>total cal</small>
+          </div>
+          <div class="wsb-stat">
+            <strong>${camAvgCal}</strong>
+            <small>avg cal/day (goal ${CAM_CAL_GOAL})</small>
+          </div>
+          <div class="wsb-stat">
+            <strong>${camTotalProt}g</strong>
+            <small>total protein (${Math.round(camTotalProt/days.length)}g/day)</small>
+          </div>
+        </div>
+      </div>
+    </div>`;
+}
+
+document.getElementById('weekSummaryToggle').addEventListener('click', () => {
+  const body   = document.getElementById('weekSummaryBody');
+  const caret  = document.getElementById('weekSummaryCaret');
+  const header = document.getElementById('weekSummaryToggle');
+  const open   = body.classList.toggle('open');
+  caret.classList.toggle('open', open);
+  header.classList.toggle('open', open);
+});
+
+// Hook into loadWeek to refresh summary
+const _origLoadWeek = loadWeek;
+loadWeek = async function(index) {
+  await _origLoadWeek(index);
+  renderWeeklySummary();
+};
+
+// ═══════════════════════════════════════════════════════════
+//  PANTRY TAB
+// ═══════════════════════════════════════════════════════════
+function pantryLowKey() { return 'ak-pantry-low'; }
+
+function loadPantryLow() {
+  return JSON.parse(localStorage.getItem(pantryLowKey()) || '{}');
+}
+
+function savePantryLow(low) {
+  localStorage.setItem(pantryLowKey(), JSON.stringify(low));
+}
+
+async function loadPantryTab() {
+  const grid = document.getElementById('pantryGrid');
+  try {
+    const r = await fetch('references/pantry_staples.md');
+    if (!r.ok) throw new Error('Not found');
+    const md = await r.text();
+    renderPantry(md);
+  } catch {
+    grid.innerHTML = '<p class="text-muted">Could not load pantry_staples.md</p>';
+  }
+}
+
+function parsePantryMd(md) {
+  const categories = {};
+  const notes = [];
+  let currentCat = null;
+  let inNotes = false;
+
+  for (const line of md.split('\n')) {
+    const trimmed = line.trim();
+    if (!trimmed || trimmed === '---') continue;
+
+    if (trimmed.startsWith('## Notes')) {
+      inNotes = true; currentCat = null; continue;
+    }
+    if (trimmed.startsWith('## ')) {
+      currentCat = trimmed.slice(3).trim();
+      categories[currentCat] = [];
+      inNotes = false;
+      continue;
+    }
+    if (trimmed.startsWith('- ') || trimmed.startsWith('* ')) {
+      const item = trimmed.slice(2).trim();
+      if (inNotes) { notes.push(item); continue; }
+      if (currentCat) categories[currentCat].push(item);
+    }
+  }
+  return { categories, notes };
+}
+
+function renderPantry(md) {
+  const { categories, notes } = parsePantryMd(md);
+  const low = loadPantryLow();
+  let lowCount = 0;
+
+  const grid = document.getElementById('pantryGrid');
+  grid.innerHTML = Object.entries(categories).map(([cat, items]) => {
+    const rows = items.map(item => {
+      const key = item.toLowerCase().replace(/[^a-z0-9]/g, '_');
+      const isLow = !!low[key];
+      if (isLow) lowCount++;
+      return `<div class="pantry-item${isLow ? ' low' : ''}" onclick="togglePantryLow('${key}',this)">
+        <div class="pantry-item-dot"></div>
+        <div class="pantry-item-text">${item}</div>
+        ${isLow ? '<span class="pantry-low-badge">LOW</span>' : ''}
+      </div>`;
+    }).join('');
+    return `<div class="pantry-category-card">
+      <div class="pantry-cat-header">${cat}</div>
+      ${rows}
+    </div>`;
+  }).join('');
+
+  // Notes section
+  const notesEl = document.getElementById('pantryNotes');
+  if (notes.length) {
+    notesEl.innerHTML = `<div class="pantry-notes">
+      <div class="pantry-notes-title">Not stocked — buy when needed</div>
+      <ul>${notes.map(n => `<li>${n}</li>`).join('')}</ul>
+    </div>`;
+  }
+
+  // Low count badge
+  const badge = document.getElementById('pantryLowBadge');
+  if (lowCount > 0) {
+    badge.textContent = `${lowCount} low`;
+    badge.style.display = '';
+  } else {
+    badge.style.display = 'none';
+  }
+}
+
+function togglePantryLow(key, el) {
+  const low    = loadPantryLow();
+  const isLow  = !el.classList.contains('low');
+  if (isLow) low[key] = true; else delete low[key];
+  savePantryLow(low);
+
+  el.classList.toggle('low', isLow);
+  el.querySelector('.pantry-item-dot').style.background = isLow ? '' : '';
+  const existing = el.querySelector('.pantry-low-badge');
+  if (isLow && !existing) {
+    const badge = document.createElement('span');
+    badge.className = 'pantry-low-badge'; badge.textContent = 'LOW';
+    el.appendChild(badge);
+  } else if (!isLow && existing) {
+    existing.remove();
+  }
+
+  // Recount
+  const allLow = loadPantryLow();
+  const count = Object.keys(allLow).length;
+  const badge = document.getElementById('pantryLowBadge');
+  if (count > 0) { badge.textContent = `${count} low`; badge.style.display = ''; }
+  else badge.style.display = 'none';
+}
+
+document.getElementById('clearPantryLow').addEventListener('click', () => {
+  localStorage.removeItem(pantryLowKey());
+  loadPantryTab();
+});
+
+// ═══════════════════════════════════════════════════════════
+//  URL RECIPE IMPORT
+// ═══════════════════════════════════════════════════════════
+document.getElementById('urlImportBtn').addEventListener('click', importRecipeFromUrl);
+document.getElementById('urlImportInput').addEventListener('keydown', e => {
+  if (e.key === 'Enter') importRecipeFromUrl();
+});
+
+async function importRecipeFromUrl() {
+  const url = document.getElementById('urlImportInput').value.trim();
+  const statusEl = document.getElementById('urlImportStatus');
+  if (!url) { showToast('Paste a recipe URL first.'); return; }
+  if (!S.serverOnline) {
+    statusEl.className = 'url-import-status error';
+    statusEl.textContent = '⚠️ Start the local server to import from URLs.';
+    return;
+  }
+
+  statusEl.className = 'url-import-status loading';
+  statusEl.textContent = '⏳ Fetching recipe…';
+  document.getElementById('urlImportBtn').disabled = true;
+
+  try {
+    const resp = await fetch('/api/import/url', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ url }),
+    });
+    const data = await resp.json();
+
+    if (!data.success) {
+      statusEl.className = 'url-import-status error';
+      statusEl.textContent = '✕ ' + (data.error || 'Could not extract recipe from this page.');
+      return;
+    }
+
+    const r = data.recipe;
+    // Pre-fill form
+    if (r.name)    document.getElementById('frName').value    = r.name;
+    if (r.cuisine) document.getElementById('frCuisine').value = r.cuisine;
+    if (r.prep)    document.getElementById('frPrep').value    = r.prep;
+    if (r.cook)    document.getElementById('frCook').value    = r.cook;
+    if (r.source_url) document.getElementById('frSource').value = r.source_url;
+
+    // Ingredients
+    if (r.ingredients?.length) {
+      document.getElementById('ingList').innerHTML = '';
+      ingCount = 0;
+      r.ingredients.forEach(ing => addIngredientRow(ing, ''));
+    }
+
+    // Instructions
+    if (r.instructions?.length) {
+      document.getElementById('frInstructions').value = r.instructions.join('\n');
+    }
+
+    statusEl.className = 'url-import-status success';
+    statusEl.textContent = `✓ Imported "${r.name}" — review fields below and save.`;
+    document.getElementById('frName').focus();
+
+  } catch (err) {
+    statusEl.className = 'url-import-status error';
+    statusEl.textContent = '✕ Network error — is the server running?';
+  } finally {
+    document.getElementById('urlImportBtn').disabled = false;
+  }
+}
+
+// ═══════════════════════════════════════════════════════════
+//  SHARE GROCERY LIST
+// ═══════════════════════════════════════════════════════════
+document.getElementById('shareGroceryBtn').addEventListener('click', shareGroceryList);
+
+function shareGroceryList() {
+  if (!S.grocery) { showToast('No grocery list loaded.'); return; }
+
+  const store  = S.groceryStore;
+  const cats   = S.grocery.categories || {};
+  const storeLabel = store === 'sams' ? "Sam's Club" : store === 'wf' ? 'Whole Foods' : 'Full';
+  const weekKey = S.weeks[S.weekIndex] || '';
+
+  let text = `Above Kitch Grocery List — ${storeLabel} — Week of ${weekKey}\n\n`;
+  Object.entries(cats).forEach(([cat, items]) => {
+    const filtered = items.filter(item => {
+      const cls = classifyItem(item);
+      if (store === 'sams' && cls === 'wf') return false;
+      if (store === 'wf'   && cls === 'sams') return false;
+      return true;
+    });
+    if (!filtered.length) return;
+    text += `${cat}\n`;
+    filtered.forEach(item => { text += `  • ${item}\n`; });
+    text += '\n';
+  });
+
+  if (navigator.share) {
+    navigator.share({ title: `Grocery List – ${weekKey}`, text }).catch(() => {});
+  } else if (navigator.clipboard) {
+    navigator.clipboard.writeText(text).then(() => showToast('✓ Grocery list copied to clipboard!'));
+  } else {
+    showToast('Share not supported on this browser.');
+  }
+}
+
+// ═══════════════════════════════════════════════════════════
+//  TAB SWITCH HOOKS
+// ═══════════════════════════════════════════════════════════
 // Season-aware renderRecipes replaces original
 renderRecipes = function() {
   // Temporarily patch S filter logic inline — season filter applied here

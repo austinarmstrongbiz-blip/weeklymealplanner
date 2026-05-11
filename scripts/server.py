@@ -13,10 +13,117 @@ import re
 import sys
 import urllib.request
 import urllib.parse
+from html.parser import HTMLParser
 from http.server import HTTPServer, SimpleHTTPRequestHandler
 from pathlib import Path
 
 ROOT = Path(__file__).parent.parent  # Household Health folder
+
+
+# ── Recipe JSON-LD extractor ───────────────────────────────────────────────
+class _JSONLDParser(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.scripts = []
+        self._capture = False
+        self._buf = ''
+
+    def handle_starttag(self, tag, attrs):
+        if tag == 'script' and ('type', 'application/ld+json') in attrs:
+            self._capture = True
+            self._buf = ''
+
+    def handle_endtag(self, tag):
+        if tag == 'script' and self._capture:
+            self._capture = False
+            if self._buf.strip():
+                self.scripts.append(self._buf)
+
+    def handle_data(self, data):
+        if self._capture:
+            self._buf += data
+
+
+def _parse_iso_duration(d):
+    if not d:
+        return ''
+    h = re.search(r'(\d+)H', d)
+    m = re.search(r'(\d+)M', d)
+    mins = (int(h.group(1)) * 60 if h else 0) + (int(m.group(1)) if m else 0)
+    return f'{mins} min' if mins else ''
+
+
+def _text(obj):
+    if isinstance(obj, str):
+        return obj.strip()
+    if isinstance(obj, dict):
+        return (obj.get('text') or obj.get('name') or '').strip()
+    return str(obj).strip()
+
+
+def _fetch_and_extract_recipe(url):
+    req = urllib.request.Request(url, headers={
+        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36'
+    })
+    with urllib.request.urlopen(req, timeout=15) as resp:
+        html = resp.read().decode('utf-8', errors='replace')
+
+    parser = _JSONLDParser()
+    parser.feed(html)
+
+    recipe_data = None
+    for script in parser.scripts:
+        try:
+            obj = json.loads(script)
+        except (json.JSONDecodeError, ValueError):
+            continue
+        # Unwrap @graph
+        if isinstance(obj, dict) and '@graph' in obj:
+            obj = obj['@graph']
+        if isinstance(obj, list):
+            obj = next((x for x in obj if isinstance(x, dict) and x.get('@type') == 'Recipe'), None)
+        if isinstance(obj, dict) and obj.get('@type') == 'Recipe':
+            recipe_data = obj
+            break
+
+    if not recipe_data:
+        return None
+
+    # Extract ingredients — plain strings
+    raw_ings = recipe_data.get('recipeIngredient') or []
+    ingredients = [_text(i) for i in raw_ings if _text(i)]
+
+    # Extract instructions — list of steps
+    raw_inst = recipe_data.get('recipeInstructions') or []
+    instructions = []
+    for step in raw_inst:
+        if isinstance(step, str):
+            instructions.append(step.strip())
+        elif isinstance(step, dict):
+            # HowToStep or HowToSection
+            if step.get('@type') == 'HowToSection':
+                for sub in (step.get('itemListElement') or []):
+                    t = _text(sub)
+                    if t:
+                        instructions.append(t)
+            else:
+                t = _text(step)
+                if t:
+                    instructions.append(t)
+
+    cuisine = recipe_data.get('recipeCuisine', '')
+    if isinstance(cuisine, list):
+        cuisine = ', '.join(cuisine)
+
+    return {
+        'name':         _text(recipe_data.get('name', '')),
+        'cuisine':      cuisine,
+        'prep':         _parse_iso_duration(recipe_data.get('prepTime', '')),
+        'cook':         _parse_iso_duration(recipe_data.get('cookTime', '')),
+        'ingredients':  ingredients,
+        'instructions': instructions,
+        'source_url':   url,
+    }
 
 
 class MealPlannerHandler(SimpleHTTPRequestHandler):
@@ -141,6 +248,19 @@ class MealPlannerHandler(SimpleHTTPRequestHandler):
             with open(hist_path, 'w', encoding='utf-8') as f:
                 json.dump(history, f, indent=2, ensure_ascii=False)
             return self._json({'success': True})
+
+        # POST /api/import/url — fetch URL and extract schema.org Recipe JSON-LD
+        if parsed.path == '/api/import/url':
+            url = data.get('url', '').strip()
+            if not url or not url.startswith('http'):
+                return self._json({'error': 'Invalid URL'}, 400)
+            try:
+                recipe = _fetch_and_extract_recipe(url)
+                if not recipe:
+                    return self._json({'error': 'No recipe data found on this page. The site may not use standard recipe markup.'})
+                return self._json({'success': True, 'recipe': recipe})
+            except Exception as e:
+                return self._json({'error': f'Could not fetch page: {str(e)}'}, 500)
 
         # POST /api/plan/save — write meal_plan.json for a given week
         if parsed.path == '/api/plan/save':
