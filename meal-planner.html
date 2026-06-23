@@ -2448,7 +2448,9 @@ function renderGroceryList() {
   // Count items per store for badge totals
   let samsCt = 0, wfCt = 0, totalCt = 0;
   Object.values(cats).flat().forEach(item => {
-    const cls = classifyItem(item);
+    const itemName = typeof item === 'string' ? item
+      : [item.name, item.qty].filter(Boolean).join(' — ');
+    const cls = classifyItem(itemName);
     if (cls === 'sams' || cls === 'either') samsCt++;
     if (cls === 'wf'   || cls === 'either') wfCt++;
     totalCt++;
@@ -2463,7 +2465,12 @@ function renderGroceryList() {
     if (!items?.length) return '';
 
     const rows = items.map((item, idx) => {
-      const cls = classifyItem(item);
+      // items are either plain strings (legacy) or {name, qty, for} objects
+      const itemName = typeof item === 'string' ? item
+        : [item.name, item.qty].filter(Boolean).join(' — ');
+      const itemNote = typeof item === 'object' && item.for ? item.for : '';
+
+      const cls = classifyItem(itemName);
       // Hide if store-filtered and item doesn't belong
       if (store === 'sams' && cls === 'wf') return '';
       if (store === 'wf'   && cls === 'sams') return '';
@@ -2477,10 +2484,14 @@ function renderGroceryList() {
         ? `<span class="store-badge ${cls}">${badgeLabel}</span>`
         : '';
 
+      const noteHtml = itemNote
+        ? `<div style="font-size:12px;color:var(--muted);margin-top:2px">${itemNote}</div>`
+        : '';
+
       return `<div class="grocery-item${isChecked ? ' checked' : ''}"
           onclick="toggleGroceryItem('${cat}',${idx},this)">
         <div class="grocery-check">${isChecked ? '✓' : ''}</div>
-        <div class="grocery-text">${item}</div>
+        <div class="grocery-text">${itemName}${noteHtml}</div>
         ${badge}
       </div>`;
     }).join('');
