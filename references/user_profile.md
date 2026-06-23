@@ -129,8 +129,7 @@ PLAN_DELIVERY_TIME: morning
 ## Above Kitch Web App
 
 ```
-ABOVE_KITCH_URL: https://above-kitch.onrender.com
-# Update this URL once Render deployment is live.
+ABOVE_KITCH_URL: https://weeklymealplanner-9w3b.onrender.com
 # Used by the meal planner skill to push weekly plans and new recipes automatically.
 ```
 
