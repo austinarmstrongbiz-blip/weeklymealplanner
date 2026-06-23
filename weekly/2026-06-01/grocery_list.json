@@ -1,0 +1,95 @@
+{
+  "week_date": "2026-06-01",
+  "categories": {
+    "Produce": [
+      {"name": "Zucchini", "qty": "6 medium"},
+      {"name": "Fresh strawberries", "qty": "2 pints"},
+      {"name": "Fresh blueberries", "qty": "1 pint"},
+      {"name": "Fresh cherries", "qty": "1 lb"},
+      {"name": "English cucumber", "qty": "2 large"},
+      {"name": "Persian cucumbers", "qty": "6"},
+      {"name": "Cherry tomatoes", "qty": "3 pints"},
+      {"name": "Red bell pepper", "qty": "1"},
+      {"name": "Snap peas", "qty": "1 lb (3 cups)"},
+      {"name": "Butter lettuce", "qty": "2 heads"},
+      {"name": "Arugula", "qty": "5 oz bag"},
+      {"name": "Fresh basil", "qty": "1 large bunch"},
+      {"name": "Fresh mint", "qty": "1 small bunch"},
+      {"name": "Fresh parsley (flat-leaf)", "qty": "1 large bunch"},
+      {"name": "Fresh dill", "qty": "1 small bunch"},
+      {"name": "Fresh cilantro", "qty": "1 bunch"},
+      {"name": "Fresh Thai basil (or extra Italian basil)", "qty": "1 small bunch"},
+      {"name": "Scallions / spring onions", "qty": "2 bunches (12)"},
+      {"name": "Red onion", "qty": "1 medium"},
+      {"name": "Garlic heads", "qty": "2"},
+      {"name": "Fresh ginger root", "qty": "1 small piece"},
+      {"name": "Lemons", "qty": "5"},
+      {"name": "Limes", "qty": "3"},
+      {"name": "Corn on the cob", "qty": "4 ears"},
+      {"name": "Baby potatoes", "qty": "1 lb"},
+      {"name": "Carrots", "qty": "2 medium"},
+      {"name": "Broccoli slaw mix (no cabbage)", "qty": "1 bag (12 oz)"},
+      {"name": "Avocados (Cameron only)", "qty": "5"}
+    ],
+    "Proteins": [
+      {"name": "Chicken thighs, boneless skinless", "qty": "5 lbs"},
+      {"name": "Chicken thighs, bone-in skin-on", "qty": "1.5 lbs (4 thighs)"},
+      {"name": "Pork tenderloins", "qty": "2 (about 3 lbs total)"},
+      {"name": "Pork tenderloin (for Thursday stir-fry)", "qty": "1 lb"},
+      {"name": "Large shrimp, peeled and deveined", "qty": "2.25 lbs"},
+      {"name": "Turkey sausage crumbles", "qty": "6 oz"},
+      {"name": "Egg whites (carton)", "qty": "1 (16 oz)"},
+      {"name": "Large eggs", "qty": "1 dozen"}
+    ],
+    "Dairy & Eggs": [
+      {"name": "Greek yogurt (vanilla)", "qty": "32 oz"},
+      {"name": "Greek yogurt (plain)", "qty": "16 oz"},
+      {"name": "Feta cheese, crumbled", "qty": "5 oz"},
+      {"name": "Fresh mozzarella pearls", "qty": "4 oz"},
+      {"name": "Shredded Mexican cheese blend", "qty": "2 oz"},
+      {"name": "Parmesan cheese, grated", "qty": "2 oz"},
+      {"name": "Butter", "qty": "small (4 tbsp needed)"},
+      {"name": "Almond milk (unsweetened)", "qty": "1 quart"},
+      {"name": "Coconut milk, full fat (canned)", "qty": "1 can (13.5 oz)"}
+    ],
+    "Dry Goods & Grains": [
+      {"name": "Rolled oats", "qty": "2 cups"},
+      {"name": "Chia seeds", "qty": "4 tbsp"},
+      {"name": "Rotini or fusilli pasta", "qty": "8 oz"},
+      {"name": "Linguine", "qty": "6 oz"},
+      {"name": "Quinoa", "qty": "2 cups dry"},
+      {"name": "Corn tortilla chips", "qty": "small bag"},
+      {"name": "Coconut flakes (unsweetened)", "qty": "small bag"},
+      {"name": "Kalamata olives", "qty": "small jar"},
+      {"name": "Mirin", "qty": "1 small bottle"},
+      {"name": "Green curry paste", "qty": "1 small jar"},
+      {"name": "Harissa paste", "qty": "1 small jar/tube"},
+      {"name": "White miso paste", "qty": "1 small tub"},
+      {"name": "Tomatillo salsa (salsa verde)", "qty": "1 jar (16 oz)"},
+      {"name": "Pickled jalapeños", "qty": "1 small jar"},
+      {"name": "Apple cider vinegar", "qty": "1 small bottle"},
+      {"name": "White wine (cooking) or extra chicken broth", "qty": "small"},
+      {"name": "Cherry wood chips (smoker)", "qty": "1 bag"}
+    ],
+    "Frozen": [
+      {"name": "Frozen corn kernels (if fresh not available)", "qty": "1 small bag"}
+    ]
+  },
+  "pantry_staples_used": [
+    "Jasmine rice", "Couscous", "Olive oil", "Sesame oil", "Soy sauce", "Fish sauce",
+    "Rice vinegar", "Red wine vinegar", "Dijon mustard", "Honey", "Brown sugar",
+    "Gochujang", "Sriracha / hot sauce", "BBQ sauce", "Chicken broth / bouillon",
+    "Pesto (2 jars)", "Black beans (canned)", "Garlic powder", "Onion powder",
+    "Cumin", "Chili powder", "Smoked paprika", "Cayenne", "Red pepper flakes",
+    "Italian seasoning", "Dried oregano", "Salt", "Black pepper",
+    "Vanilla protein powder", "Almond butter", "Granola"
+  ],
+  "notes": [
+    "Mirin is NOT a pantry staple — buy this week (used for miso-ginger pork)",
+    "Green curry paste is NOT stocked — buy this week (Thai coconut shrimp)",
+    "Harissa paste is NOT stocked — buy this week (Mediterranean chicken)",
+    "White miso paste is NOT stocked — buy this week (miso-ginger pork)",
+    "Cherry wood chips — check if any left from previous smokes",
+    "Cameron avocados: 5 whole — store at room temp until ripe, then fridge"
+  ]
+}

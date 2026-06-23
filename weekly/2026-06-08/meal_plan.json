@@ -1,0 +1,253 @@
+{
+  "week_date": "2026-06-08",
+  "week_start": "June 8",
+  "week_end": "June 14, 2026",
+  "season": "Early Summer — Pittsburgh",
+  "city": "Pittsburgh, PA",
+  "seasonal_heroes": [
+    "Zucchini (peak)",
+    "Cherry Tomatoes (arriving)",
+    "Fresh Basil (fragrant)",
+    "Snap Peas (final weeks)",
+    "Strawberries (peak)",
+    "Spring Onions",
+    "Asparagus Tips",
+    "Fresh Corn"
+  ],
+  "cuisine_rotation": [
+    "Japanese",
+    "No Cook",
+    "American BBQ (Smoker)",
+    "Thai",
+    "No Cook",
+    "Italian",
+    "Mediterranean"
+  ],
+  "days": [
+    {
+      "day": "Monday",
+      "cuisine": "Japanese",
+      "breakfast": {
+        "recipe_id": "eggs-and-toast",
+        "austin": { "cal": 540, "p": 38, "f": 24, "c": 38 },
+        "cameron": { "cal": 400, "p": 22, "f": 17, "c": 38 },
+        "cameron_note": "+ 1/4 avocado on the side"
+      },
+      "lunch": {
+        "recipe_id": "lemon-herb-chicken-med-bowl",
+        "austin": { "cal": 630, "p": 51, "f": 19, "c": 55 },
+        "cameron": { "cal": 510, "p": 35, "f": 15, "c": 47 },
+        "cameron_note": "+ 1/4 avocado, extra feta"
+      },
+      "dinner": {
+        "recipe_id": "teriyaki-salmon-bowl",
+        "austin": { "cal": 655, "p": 58, "f": 19, "c": 60 },
+        "cameron": { "cal": 580, "p": 36, "f": 17, "c": 55 }
+      },
+      "austin_total": { "cal": 1825, "p": 147 },
+      "cameron_total": { "cal": 1490, "p": 93 }
+    },
+    {
+      "day": "Tuesday",
+      "cuisine": "No Cook — Out",
+      "breakfast": {
+        "recipe_id": "eggs-and-toast",
+        "austin": { "cal": 540, "p": 38, "f": 24, "c": 38 },
+        "cameron": { "cal": 400, "p": 22, "f": 17, "c": 38 },
+        "cameron_note": "+ 1/4 avocado on the side"
+      },
+      "lunch": {
+        "recipe_id": "lemon-herb-chicken-med-bowl",
+        "austin": { "cal": 630, "p": 51, "f": 19, "c": 55 },
+        "cameron": { "cal": 510, "p": 35, "f": 15, "c": 47 },
+        "cameron_note": "+ 1/4 avocado, extra feta"
+      },
+      "dinner": {
+        "recipe_id": "no-cook-night",
+        "austin": { "cal": 700, "p": 40, "f": 28, "c": 55 },
+        "cameron": { "cal": 600, "p": 35, "f": 22, "c": 50 },
+        "cameron_note": "Macros estimated — aim for protein-forward pick (sushi, lean protein, etc.)"
+      },
+      "austin_total": { "cal": 1870, "p": 129 },
+      "cameron_total": { "cal": 1510, "p": 92 }
+    },
+    {
+      "day": "Wednesday",
+      "cuisine": "American BBQ (Smoker)",
+      "breakfast": {
+        "recipe_id": "eggs-and-toast",
+        "austin": { "cal": 540, "p": 38, "f": 24, "c": 38 },
+        "cameron": { "cal": 400, "p": 22, "f": 17, "c": 38 },
+        "cameron_note": "+ 1/4 avocado on the side"
+      },
+      "lunch": {
+        "recipe_id": "spicy-thai-chicken-cucumber-noodle-salad",
+        "austin": { "cal": 625, "p": 52, "f": 18, "c": 58 },
+        "cameron": { "cal": 505, "p": 36, "f": 14, "c": 50 },
+        "cameron_note": "+ 1/4 avocado, lighter chili oil"
+      },
+      "dinner": {
+        "recipe_id": "smoked-chicken-thighs-street-corn",
+        "austin": { "cal": 680, "p": 64, "f": 28, "c": 36 },
+        "cameron": { "cal": 590, "p": 40, "f": 20, "c": 34 },
+        "cameron_note": "+ 1/4 avocado, lighter cayenne"
+      },
+      "austin_total": { "cal": 1845, "p": 154 },
+      "cameron_total": { "cal": 1495, "p": 98 }
+    },
+    {
+      "day": "Thursday",
+      "cuisine": "Thai",
+      "breakfast": {
+        "recipe_id": "eggs-and-toast",
+        "austin": { "cal": 540, "p": 38, "f": 24, "c": 38 },
+        "cameron": { "cal": 400, "p": 22, "f": 17, "c": 38 },
+        "cameron_note": "+ 1/4 avocado on the side"
+      },
+      "lunch": {
+        "recipe_id": "spicy-thai-chicken-cucumber-noodle-salad",
+        "austin": { "cal": 625, "p": 52, "f": 18, "c": 58 },
+        "cameron": { "cal": 505, "p": 36, "f": 14, "c": 50 },
+        "cameron_note": "+ 1/4 avocado, lighter chili oil"
+      },
+      "dinner": {
+        "recipe_id": "thai-basil-beef-stir-fry",
+        "austin": { "cal": 655, "p": 60, "f": 22, "c": 52 },
+        "cameron": { "cal": 565, "p": 36, "f": 18, "c": 48 },
+        "cameron_note": "1 chili only — + 1/4 avocado alongside"
+      },
+      "austin_total": { "cal": 1820, "p": 150 },
+      "cameron_total": { "cal": 1470, "p": 94 }
+    },
+    {
+      "day": "Friday",
+      "cuisine": "No Cook — Out",
+      "breakfast": {
+        "recipe_id": "eggs-and-toast",
+        "austin": { "cal": 540, "p": 38, "f": 24, "c": 38 },
+        "cameron": { "cal": 400, "p": 22, "f": 17, "c": 38 },
+        "cameron_note": "+ 1/4 avocado on the side"
+      },
+      "lunch": {
+        "recipe_id": "smoked-chicken-spinach-wrap-bowl",
+        "austin": { "cal": 635, "p": 56, "f": 20, "c": 50 },
+        "cameron": { "cal": 515, "p": 38, "f": 16, "c": 44 },
+        "cameron_note": "+ 1/4 avocado"
+      },
+      "dinner": {
+        "recipe_id": "no-cook-night",
+        "austin": { "cal": 700, "p": 40, "f": 28, "c": 55 },
+        "cameron": { "cal": 600, "p": 35, "f": 22, "c": 50 },
+        "cameron_note": "Macros estimated — aim for protein-forward pick"
+      },
+      "austin_total": { "cal": 1875, "p": 134 },
+      "cameron_total": { "cal": 1515, "p": 95 }
+    },
+    {
+      "day": "Saturday",
+      "cuisine": "Italian",
+      "breakfast": {
+        "recipe_id": "eggs-and-toast",
+        "austin": { "cal": 540, "p": 38, "f": 24, "c": 38 },
+        "cameron": { "cal": 400, "p": 22, "f": 17, "c": 38 },
+        "cameron_note": "+ 1/4 avocado on the side"
+      },
+      "lunch": {
+        "recipe_id": "smoked-chicken-spinach-wrap-bowl",
+        "austin": { "cal": 635, "p": 56, "f": 20, "c": 50 },
+        "cameron": { "cal": 515, "p": 38, "f": 16, "c": 44 },
+        "cameron_note": "+ 1/4 avocado"
+      },
+      "dinner": {
+        "recipe_id": "basil-zucchini-pasta-hot-sausage",
+        "austin": { "cal": 690, "p": 55, "f": 26, "c": 58 },
+        "cameron": { "cal": 590, "p": 36, "f": 21, "c": 58 },
+        "cameron_note": "+ 1/4 avocado sliced alongside, lighter sausage portion"
+      },
+      "austin_total": { "cal": 1865, "p": 149 },
+      "cameron_total": { "cal": 1505, "p": 96 }
+    },
+    {
+      "day": "Sunday",
+      "cuisine": "Mediterranean",
+      "breakfast": {
+        "recipe_id": "eggs-and-toast",
+        "austin": { "cal": 540, "p": 38, "f": 24, "c": 38 },
+        "cameron": { "cal": 400, "p": 22, "f": 17, "c": 38 },
+        "cameron_note": "+ 1/4 avocado on the side"
+      },
+      "lunch": {
+        "recipe_id": "chipotle-chicken-burrito-bowls",
+        "austin": { "cal": 660, "p": 60, "f": 17, "c": 66 },
+        "cameron": { "cal": 555, "p": 35, "f": 15, "c": 60 },
+        "cameron_note": "+ 1/4 avocado, lighter chipotle sauce"
+      },
+      "dinner": {
+        "recipe_id": "bruschetta-chicken-bowls",
+        "austin": { "cal": 640, "p": 56, "f": 20, "c": 55 },
+        "cameron": { "cal": 545, "p": 38, "f": 18, "c": 48 },
+        "cameron_note": "+ 1/4 avocado, extra balsamic glaze"
+      },
+      "austin_total": { "cal": 1840, "p": 154 },
+      "cameron_total": { "cal": 1500, "p": 95 }
+    }
+  ],
+  "batch_prep": [
+    {
+      "station": "SATURDAY — DRY BRINE CHICKEN THIGHS (5 min)",
+      "tasks": [
+        "2.5 lbs bone-in skin-on chicken thighs — pat very dry; rub all over with: 1 tbsp kosher salt + 2 tsp smoked paprika + 1 tsp garlic powder + 2 tsp brown sugar + 1/2 tsp cayenne + 1/2 tsp black pepper; place on wire rack over sheet pan; refrigerate UNCOVERED overnight — this builds the bark for Sunday's smoke."
+      ]
+    },
+    {
+      "station": "SUNDAY — FIRE SMOKER (start 10am — ~2 hrs, mostly hands-off)",
+      "tasks": [
+        "Heat smoker to 275°F using apple or cherry wood chips; place dry-brined chicken thighs skin-side up on grate; smoke 1.75–2 hrs until internal temp hits 185°F; last 20 min brush with BBQ sauce every 10 min for sticky glaze; pull and rest 10 min tented; shred half the batch for Fri/Sat smoked chicken spinach wrap bowls (label WRAP BOWLS); keep remaining whole/chunked for Wed dinner street corn platter (label STREET CORN); refrigerate all in labeled airtight containers."
+      ]
+    },
+    {
+      "station": "BREVILLE OVEN — BATCH CHICKEN THIGHS (prep 12 min | roast 32 min, runs while smoker is going)",
+      "tasks": [
+        "2 lbs boneless skinless chicken thighs — pat dry; season with: olive oil + lemon zest + garlic + dried oregano + salt + pepper (LEMON-HERB — for Mon/Tue lunches); roast at 400°F for 30–32 min; cool 10 min; slice thin; portion into 4 labeled containers: LEMON-HERB.",
+        "1 lb boneless skinless chicken thighs — season with: sesame oil + soy sauce + ginger + garlic powder (SESAME-GINGER — for Wed/Thu Thai soba salad lunches); roast alongside at 400°F for 30–32 min; cool; slice thin; label SESAME-GINGER.",
+        "1.5 lbs boneless skinless chicken thighs — season with: 1 tbsp olive oil + 2 chipotle peppers in adobo (minced) + 1 tsp cumin + 1 tsp smoked paprika + salt; roast at 400°F for 32 min; shred and toss with extra chipotle sauce; label CHIPOTLE (Sunday lunch)."
+      ]
+    },
+    {
+      "station": "RICE COOKER + GRAINS (hands-off, parallel)",
+      "tasks": [
+        "Batch 1 — 3 cups dry jasmine rice → ~7.5 cups cooked; used for teriyaki bowls (Mon), chipotle burrito bowls (Sun), Thai beef stir-fry (Thu); portion into labeled containers.",
+        "Batch 2 — 2 cups dry quinoa → ~4 cups cooked; used for lemon-herb med bowls (Mon/Tue) and bruschetta chicken bowls (Sun); portion into containers.",
+        "Batch 3 — Soba noodles: cook 12 oz dry soba (boil 4 min, rinse cold immediately!); toss with 1 tsp sesame oil; portion for Wed/Thu Thai soba salad lunches."
+      ]
+    },
+    {
+      "station": "SAUCES BATCH (20 min)",
+      "tasks": [
+        "TERIYAKI GLAZE (Mon dinner): 3 tbsp soy sauce + 2 tbsp honey + 1 tbsp rice vinegar + 1 tsp fresh ginger + 1 clove garlic minced + 1 tsp sesame oil; whisk in small saucepan over medium; simmer 3–4 min until slightly thickened; jar and fridge.",
+        "LEMON-HERB DRESSING (Mon/Tue lunches): 3 tbsp olive oil + 3 tbsp fresh lemon juice + 1 tsp Dijon + 1 clove garlic minced + 1/2 tsp dried oregano + salt + pepper; whisk; jar and fridge.",
+        "SESAME-LIME DRESSING (Wed/Thu soba salad): 3 tbsp sesame oil + 2 tbsp soy sauce + 2 tbsp lime juice + 1 tbsp rice vinegar + 1 tsp honey + 1/2 tsp grated ginger + 1 clove garlic; whisk; jar and fridge.",
+        "PICKLED CUCUMBERS (Mon teriyaki bowls): 2 Persian cucumbers sliced thin + 3 tbsp rice vinegar + 1 tsp honey + pinch salt; toss; cover; fridge overnight — ready by Monday."
+      ]
+    },
+    {
+      "station": "LABEL & PORTION",
+      "tasks": [
+        "2× Lemon-Herb Chicken Med Bowls per person — Mon/Tue lunches (keep dressing + feta separate; Cameron gets avocado fresh daily).",
+        "2× Thai Soba Salad per person — Wed/Thu lunches (keep dressing separate; lighter chili for Cameron; avocado fresh daily).",
+        "2× Smoked Chicken Spinach Wrap Bowl per person — Fri/Sat lunches (assemble from Wednesday smoker shreds; Cameron + avocado fresh).",
+        "1× Chipotle Chicken Burrito Bowl per person — Sun lunch (assemble from chipotle roast chicken batch).",
+        "NEVER put avocado in any Austin container — allergy. Label all containers: 'A' or 'C'.",
+        "No egg/toast prep needed — made fresh each morning (10 min).",
+        "Cameron avocados: buy 5–6 whole avocados, store at room temp until ripe, then refrigerate; slice fresh daily."
+      ]
+    },
+    {
+      "station": "SUNDAY DINNER — Bruschetta Chicken Bowls (made fresh ~6pm, 45 min)",
+      "tasks": [
+        "Roast 1.5 lbs chicken breasts + 2.5 lbs baby Yukon Gold potatoes in Breville at 400°F (~22–25 min chicken, ~30 min potatoes); meanwhile dice Roma + cherry tomatoes with fresh basil + garlic + olive oil + balsamic for bruschetta topping; assemble bowls; top with shredded mozzarella + bruschetta + optional balsamic glaze drizzle.",
+        "Cameron: + 1/4 avocado and extra balsamic glaze. This is a fresh Sunday cook — don't batch-prep it."
+      ]
+    }
+  ]
+}

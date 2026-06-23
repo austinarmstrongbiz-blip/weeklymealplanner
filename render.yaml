@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: above-kitch
+    runtime: python
+    buildCommand: ""
+    startCommand: python3 scripts/server.py
+    disk:
+      name: meal-data
+      mountPath: /data
+      sizeGB: 1
+    envVars:
+      - key: DATA_DIR
+        value: /data

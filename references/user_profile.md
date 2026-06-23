@@ -126,6 +126,16 @@ PLAN_DELIVERY_TIME: morning
 
 ---
 
+## Above Kitch Web App
+
+```
+ABOVE_KITCH_URL: https://above-kitch.onrender.com
+# Update this URL once Render deployment is live.
+# Used by the meal planner skill to push weekly plans and new recipes automatically.
+```
+
+---
+
 ## Macro Targets (from Household Health)
 
 **Austin** — 1800 cal/day, 150g protein minimum
@@ -163,11 +173,11 @@ PLAN_DELIVERY_TIME: morning
 
 ## Seasonal Context — Pittsburgh / Northeast US
 
-**Current Season (April):** Early Spring
-**In season now:** Asparagus, peas, spring onions, radishes, arugula, spinach, ramps (local PA specialty), morels (early), butter lettuce, watercress, new potatoes, strawberries (late month), Meyer lemons, rhubarb
-**Spring flavor profile:** Light, bright, herb-forward, citrus-accented, fresh without being cold-weather heavy
+**Current Season (Late May / Early June):** Late Spring → Early Summer
+**In season now:** Zucchini (peak), strawberries (peak), cherries (just starting), snap peas (final weeks), spring onions, arugula, fresh basil, cucumbers, early corn, blueberries, cherry tomatoes, new potatoes, fresh herbs abundant
+**Summer flavor profile:** Bright, charred, herb-forward, grilled/smoked, fresh produce-driven, lighter proteins (shrimp, pork tenderloin)
 
-**Seasonal priority this week:** Asparagus, ramps/spring onions, arugula, peas — these are the Pittsburgh spring heroes right now.
+**Seasonal priority this week:** Zucchini, strawberries, cherries, snap peas, fresh basil — summer is arriving in Pittsburgh.
 
 ---
 

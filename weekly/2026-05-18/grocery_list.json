@@ -1,0 +1,66 @@
+{
+  "week_date": "2026-05-18",
+  "budget": "$40-60 (most ingredients already in house)",
+  "note": "Built around on-hand inventory. Only true buy-list items included. ~12 items total.",
+  "categories": {
+    "PROTEINS & DAIRY": [
+      "Greek yogurt, 32 oz plain nonfat — overnight oats + wraps crema",
+      "Eggs, 1 dozen — egg scramble wraps",
+      "Feta, 4 oz crumbled — keftedes + orzo bowls + corn salad",
+      "Parmesan, small wedge or 2 oz grated — Monday pesto pasta",
+      "Almond milk, 1 carton — overnight oats"
+    ],
+    "PRODUCE — BUY": [
+      "Strawberries, 1 pint ← SEASONAL — overnight oats topping",
+      "Cherry tomatoes, 1 pint — orzo bowls + pasta + keftedes bowls all week",
+      "Fresh Thai basil, 2 bunches — Friday stir-fry (ESSENTIAL, no sub)",
+      "Fresh mint, 1 bunch — keftedes + couscous",
+      "Fresh flat-leaf parsley, 1 bunch — keftedes",
+      "⚠ Avocados x4 — CAMERON ONLY (Austin is allergic — never in shared prep)"
+    ],
+    "PANTRY — MUST BUY (not stocked)": [
+      "Vanilla protein powder — check supply first; buy if low (overnight oats 4x/week)"
+    ],
+    "OPTIONAL": [
+      "Serrano peppers x2 — Friday Thai stir-fry (can sub jalapeño from pantry if available)",
+      "Apple/cherry wood chips — verify smoker supply before Saturday"
+    ]
+  },
+  "already_in_house": {
+    "FREEZER (thaw as needed)": [
+      "2.5 lbs chicken thighs → Saturday smoker",
+      "2 lbs tilapia → Tuesday Japanese dinner + Sunday Mediterranean dinner",
+      "Beef fondue slices → Friday Thai stir-fry",
+      "Ground lamb → Thursday keftedes batch",
+      "Mexican street corn → Wednesday tacos + Saturday smoker sides",
+      "Three-pepper blend → Friday stir-fry add-in"
+    ],
+    "FRESH (use this week — perishables first)": [
+      "Ground turkey → Wednesday tacos + Sunday egg wraps batch",
+      "Baby spinach → Monday pasta + egg wraps + keftedes bowls + Sunday lunch",
+      "Baby arugula → Mon/Tue/Wed orzo lunches",
+      "Snow peas → Tuesday tilapia dinner + Friday stir-fry",
+      "Prosciutto → Mon/Tue/Wed orzo lunches",
+      "Spring onions → all week",
+      "Ginger + garlic → Tuesday + Friday Asian dinners",
+      "Shallots → orzo dressing batch",
+      "Celery → Friday Thai stir-fry",
+      "8 lemons + 4 limes → all week"
+    ],
+    "PANTRY (confirmed stocked)": [
+      "Pasta, orzo, pearl couscous, brown rice, rolled oats",
+      "Pesto (jarred) — Monday pasta",
+      "Tahini — Thursday + Saturday + Sunday",
+      "Garbanzo beans x2 cans — multiple meals all week",
+      "Black beans — Wednesday tacos",
+      "Chipotle peppers in adobo x3 cans — Wednesday tacos",
+      "Tomatillo salsa — egg wraps + taco bowls + Sunday lunch",
+      "Chicken broth, vegetable broth",
+      "Soy sauce, fish sauce, oyster sauce, sesame oil, olive oil",
+      "All spices: cumin, smoked paprika, paprika, garlic powder, chili powder, cayenne, oregano, cinnamon",
+      "Honey, brown sugar, Dijon, rice vinegar",
+      "BBQ sauce — Saturday smoker serving",
+      "Chia seeds, granola, almond butter"
+    ]
+  }
+}

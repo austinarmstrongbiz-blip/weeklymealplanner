@@ -1128,6 +1128,7 @@ select.form-control { cursor: pointer; }
 }
 .url-import-input:focus { border-color: var(--green); }
 .url-import-hint { font-size: 11px; color: var(--muted); margin-bottom: 16px; }
+.link-btn { background:none; border:none; padding:0; color:var(--green); font-size:inherit; cursor:pointer; text-decoration:underline; }
 .url-import-status {
   font-size: 13px; padding: 8px 12px; border-radius: 8px;
   margin-bottom: 12px; display: none;
@@ -1347,8 +1348,16 @@ select.form-control { cursor: pointer; }
                 type="url" placeholder="Paste a recipe URL (NYT Cooking, Serious Eats, AllRecipes, etc.)">
               <button class="btn-primary" id="urlImportBtn" style="padding:9px 16px;font-size:13px;white-space:nowrap">Import ↓</button>
             </div>
-            <div class="url-import-hint">Works on any site using recipe structured data (most major food sites)</div>
+            <div class="url-import-hint">Works on any site using recipe structured data (most major food sites). For Substack, PDFs, or paywalled pages — use <button class="link-btn" id="togglePasteImport">paste text instead ↓</button></div>
             <div class="url-import-status" id="urlImportStatus"></div>
+
+            <!-- Paste text fallback -->
+            <div id="pasteImportSection" style="display:none;margin-top:12px">
+              <div class="form-section-title" style="margin-top:0;font-size:12px">Paste Recipe Text</div>
+              <textarea id="pasteImportText" rows="10" style="width:100%;box-sizing:border-box;font-size:12px;font-family:inherit;border:1px solid var(--border);border-radius:6px;padding:10px;resize:vertical;background:var(--card)" placeholder="Copy and paste the recipe text here — include the title, Ingredients section, and Instructions section."></textarea>
+              <button class="btn-primary" id="pasteImportBtn" style="margin-top:8px;padding:9px 16px;font-size:13px">Parse Recipe ↓</button>
+              <div class="url-import-status" id="pasteImportStatus"></div>
+            </div>
           </div>
 
           <!-- PDF upload -->
@@ -1594,7 +1603,25 @@ const todayDay = DAYS[today.getDay() === 0 ? 6 : today.getDay() - 1]; // Mon=0
 //  INIT
 // ═══════════════════════════════════════════════════════════
 async function init() {
-  // ── 1. Environment setup ────────────────────────────────
+  // ── 1. Try API (localhost or cloud server) ──────────────
+  if (!ENV.isGitHubPages && !ENV.isFile) {
+    try {
+      const r = await fetch('/api/weeks', { signal: AbortSignal.timeout(3000) });
+      if (r.ok) {
+        const d = await r.json();
+        S.weeks = d.weeks;
+        S.serverOnline = true;
+        document.getElementById('serverDot').classList.remove('offline');
+        document.getElementById('serverDot').title = 'Server online';
+      }
+    } catch {
+      if (ENV.isLocalServer) {
+        document.getElementById('offlineBanner').classList.add('show');
+      }
+    }
+  }
+
+  // ── 2. GitHub Pages read-only banner ───────────────────
   if (ENV.isGitHubPages) {
     document.getElementById('offlineTitle').textContent = '📖  Read-only view';
     document.getElementById('offlineBody').textContent =
@@ -1604,22 +1631,6 @@ async function init() {
       'Then open <strong>http://localhost:8080/meal-planner.html</strong>';
     document.getElementById('serverDot').title = 'Read-only (GitHub Pages)';
     document.getElementById('offlineBanner').classList.add('show');
-  }
-
-  // ── 2. Check local server (only if on localhost) ────────
-  if (ENV.isLocalServer) {
-    try {
-      const r = await fetch('/api/weeks', { signal: AbortSignal.timeout(1500) });
-      if (r.ok) {
-        const d = await r.json();
-        S.weeks = d.weeks;
-        S.serverOnline = true;
-        document.getElementById('serverDot').classList.remove('offline');
-        document.getElementById('serverDot').title = 'Server online';
-      }
-    } catch {
-      document.getElementById('offlineBanner').classList.add('show');
-    }
   }
 
   // ── 3. Load weeks index (GitHub Pages / fallback) ──────
@@ -2974,7 +2985,11 @@ function renderPrepTab() {
   const weekLbl = document.getElementById('prepWeekLabel');
   const timeLbl = document.getElementById('prepTotalTime');
 
-  if (!S.currentPlan?.batch_prep?.length) {
+  // Normalize both formats: array OR {banner, stations:[...]}
+  let batchPrep = S.currentPlan?.batch_prep;
+  if (batchPrep && !Array.isArray(batchPrep)) batchPrep = batchPrep.stations || [];
+
+  if (!batchPrep?.length) {
     body.innerHTML = `<div class="prep-empty">
       <p style="font-size:14px">No prep guide available for this week.<br>
       <span style="font-size:12px;color:var(--muted)">Run the weekly meal planner skill to generate one.</span></p>
@@ -2988,7 +3003,7 @@ function renderPrepTab() {
   weekLbl.textContent = `Week of ${weekKey}`;
 
   // Parse and sort stations
-  const stations = S.currentPlan.batch_prep.map((s, i) => ({
+  const stations = batchPrep.map((s, i) => ({
     ...s,
     idx: i,
     meta: parseStationMeta(s.station),
@@ -3740,6 +3755,66 @@ async function importRecipeFromUrl() {
   } finally {
     document.getElementById('urlImportBtn').disabled = false;
   }
+}
+
+// ── Paste-text import ─────────────────────────────────────
+document.getElementById('togglePasteImport').addEventListener('click', () => {
+  const sec = document.getElementById('pasteImportSection');
+  sec.style.display = sec.style.display === 'none' ? 'block' : 'none';
+});
+
+document.getElementById('pasteImportBtn').addEventListener('click', parseRecipeFromText);
+
+function parseRecipeFromText() {
+  const raw   = document.getElementById('pasteImportText').value;
+  const status = document.getElementById('pasteImportStatus');
+  if (!raw.trim()) { showToast('Paste some recipe text first.'); return; }
+
+  const lines = raw.split('\n').map(l => l.trim()).filter(l => l);
+
+  const ING_RE  = /^(ingredient|what you.?ll need|you.?ll need|you will need|for the)/i;
+  const INST_RE = /^(instruction|method|step|direction|how to|preparation|to make|to cook|to assemble)/i;
+  const BULLET  = /^[-•*–]\s+/;
+  const NUMBERED = /^\d+[.)]\s+/;
+
+  let name = '';
+  let ingredients = [];
+  let instructions = [];
+  let mode = null;
+
+  for (const line of lines) {
+    if (!name) { name = line; continue; }
+    if (ING_RE.test(line))  { mode = 'ing';  continue; }
+    if (INST_RE.test(line)) { mode = 'inst'; continue; }
+
+    const cleaned = line.replace(BULLET, '').replace(NUMBERED, '').trim();
+    if (!cleaned) continue;
+
+    if (mode === 'ing')  ingredients.push(cleaned);
+    else if (mode === 'inst') instructions.push(cleaned);
+  }
+
+  if (!ingredients.length && !instructions.length) {
+    status.className = 'url-import-status error';
+    status.textContent = '✕ Could not find Ingredients or Instructions sections. Make sure headings like "Ingredients" and "Instructions" (or "Method") are in the text.';
+    return;
+  }
+
+  // Fill form — same as URL import
+  if (name)         document.getElementById('frName').value = name;
+  if (ingredients.length) {
+    document.getElementById('ingList').innerHTML = '';
+    ingCount = 0;
+    ingredients.forEach(ing => addIngredientRow(ing, ''));
+  }
+  if (instructions.length) {
+    document.getElementById('frInstructions').value = instructions.join('\n');
+  }
+
+  status.className = 'url-import-status success';
+  status.textContent = `✓ Parsed "${name}" — ${ingredients.length} ingredients, ${instructions.length} steps. Review fields below and save.`;
+  document.getElementById('frName').focus();
+  document.getElementById('pasteImportText').value = '';
 }
 
 // ═══════════════════════════════════════════════════════════

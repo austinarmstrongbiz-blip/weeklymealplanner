@@ -1,0 +1,65 @@
+{
+  "week_date": "2026-06-08",
+  "week_start": "June 8",
+  "week_end": "June 14, 2026",
+  "categories": {
+    "Produce": [
+      { "name": "Baby arugula", "qty": "5 oz bag", "for": "Lemon herb med bowls (Mon/Tue lunch)" },
+      { "name": "Cherry tomatoes", "qty": "2 pints", "for": "Med bowls, bruschetta, pasta, burrito bowls" },
+      { "name": "Persian cucumbers", "qty": "6–8 (2 bags)", "for": "Med bowls, soba salad, pickled cucumbers" },
+      { "name": "Snap peas", "qty": "8 oz bag", "for": "Thai soba salad (Wed/Thu lunch)" },
+      { "name": "Shredded carrots (pre-shredded bag)", "qty": "8 oz bag", "for": "Thai soba salad" },
+      { "name": "Zucchini", "qty": "4 medium", "for": "Italian pasta (Sat dinner)" },
+      { "name": "Baby Yukon Gold potatoes", "qty": "2.5 lbs", "for": "Bruschetta chicken bowls (Sun dinner)" },
+      { "name": "Roma tomatoes", "qty": "4", "for": "Bruschetta topping (Sun dinner)" },
+      { "name": "Garlic (whole heads)", "qty": "2 heads", "for": "Multiple recipes all week" },
+      { "name": "Limes", "qty": "5", "for": "Soba dressing, stir-fry, wrap bowls" },
+      { "name": "Lemons", "qty": "4", "for": "Med bowls dressing, bruschetta, pasta" },
+      { "name": "Fresh ginger root", "qty": "1 small knob", "for": "Teriyaki glaze, sesame-lime dressing, sesame-ginger chicken" },
+      { "name": "Fresh basil (large bunch)", "qty": "2 bunches", "for": "Bruschetta (Sun), zucchini pasta (Sat)" },
+      { "name": "Thai basil (MUST BE THAI BASIL — not regular)", "qty": "2 bunches", "for": "Thai basil beef stir-fry (Thu dinner)" },
+      { "name": "Fresh cilantro", "qty": "1 bunch", "for": "Mexican street corn (Wed), burrito bowls (Sun)" },
+      { "name": "Red onion", "qty": "1 medium", "for": "Med bowls, pico" },
+      { "name": "Jalapeños", "qty": "2", "for": "Austin only — burrito bowls (Sun), Thai stir-fry (Thu)" },
+      { "name": "Serrano or bird's eye chilies", "qty": "4–6", "for": "Thai basil beef stir-fry (Thu) — Austin 3, Cameron 1" },
+      { "name": "Spring onions (scallions)", "qty": "2 bunches (~12 stalks)", "for": "Med bowls, soba salad, stir-fry, street corn, wrap bowls, burrito bowls" },
+      { "name": "Whole wheat sandwich bread", "qty": "1 loaf", "for": "Eggs & toast all week" },
+      { "name": "Avocados", "qty": "5–6 (CAMERON ONLY — Austin allergic)", "for": "Cameron's daily additions — buy at varying ripeness" }
+    ],
+    "Proteins": [
+      { "name": "Salmon fillets (skin-on, 6–7 oz each)", "qty": "2 fillets", "for": "Teriyaki salmon bowls (Mon dinner)" },
+      { "name": "Boneless skinless chicken thighs", "qty": "4.5 lbs total", "for": "2 lbs lemon-herb batch, 1 lb sesame-ginger batch, 1.5 lbs chipotle (Sun lunch)" },
+      { "name": "Boneless skinless chicken breasts", "qty": "1.5 lbs", "for": "Bruschetta chicken bowls (Sun dinner)" },
+      { "name": "Bone-in skin-on chicken thighs", "qty": "2.5 lbs", "for": "Smoker (Wed dinner + Fri/Sat wrap bowls)" },
+      { "name": "Skirt or flank steak", "qty": "1.5 lbs", "for": "Thai basil beef stir-fry (Thu dinner)" },
+      { "name": "Hot Italian sausage links", "qty": "1.5 lbs", "for": "Basil zucchini pasta (Sat dinner)" }
+    ],
+    "Dairy & Eggs": [
+      { "name": "Large eggs", "qty": "3 dozen", "for": "Eggs & toast every morning (5 Austin + 3 Cameron = 56 eggs for the week)" },
+      { "name": "Plain nonfat Greek yogurt", "qty": "2 large containers (32 oz each)", "for": "Wrap bowl sauce, chipotle crema, street corn" },
+      { "name": "Crumbled feta cheese", "qty": "8 oz block or crumbled", "for": "Med bowls, street corn" },
+      { "name": "Shredded part-skim mozzarella", "qty": "1 cup / 4 oz bag", "for": "Bruschetta chicken bowls (Sun dinner)" },
+      { "name": "Parmesan (block or pre-grated)", "qty": "4 oz", "for": "Basil zucchini pasta (Sat dinner)" },
+      { "name": "Butter (unsalted)", "qty": "1 stick", "for": "Eggs every morning" }
+    ],
+    "Grains & Dry Goods": [
+      { "name": "Soba noodles", "qty": "12 oz package", "for": "Thai soba cucumber noodle salad (Wed/Thu lunch)" },
+      { "name": "Dry spaghetti or rigatoni (12 oz)", "qty": "1 box", "for": "Basil zucchini pasta (Sat dinner)" },
+      { "name": "Pita bread (4 pieces)", "qty": "1 package", "for": "Bruschetta chicken bowls (optional) — can skip" }
+    ],
+    "Canned & Jarred": [
+      { "name": "Chipotle peppers in adobo (7 oz can)", "qty": "1 can", "for": "Chipotle chicken (Sun lunch)" },
+      { "name": "Tomatillo salsa (green salsa)", "qty": "1 jar (16 oz)", "for": "Smoked chicken wrap bowls (Fri/Sat lunch)" },
+      { "name": "Frozen shelled edamame", "qty": "12 oz bag", "for": "Teriyaki bowls (Mon), chipotle bowls (Sun)" },
+      { "name": "Frozen Mexican street corn (Trader Joe's or similar)", "qty": "1 bag (10 oz)", "for": "Street corn salad (Wed dinner)" },
+      { "name": "Frozen snow peas or stir-fry pepper blend", "qty": "10 oz bag", "for": "Thai basil beef stir-fry (Thu dinner)" },
+      { "name": "Balsamic glaze", "qty": "1 bottle", "for": "Bruschetta chicken bowls drizzle (Sun dinner)" },
+      { "name": "Avocado oil", "qty": "1 bottle", "for": "Bruschetta chicken — high-heat cooking" },
+      { "name": "Apple or cherry wood chips (smoker)", "qty": "1 bag — check stock", "for": "Sunday smoker" }
+    ],
+    "Pantry Staples (Check Stock / Replenish)": [
+      { "name": "BBQ sauce", "qty": "CHECK — need for smoker glaze + wrap bowls", "for": "Wed smoked chicken" },
+      { "name": "Balsamic vinegar", "qty": "CHECK PANTRY — likely stocked", "for": "Bruschetta topping" }
+    ]
+  }
+}

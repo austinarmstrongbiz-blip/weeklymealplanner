@@ -1,0 +1,249 @@
+{
+  "week_date": "2026-05-18",
+  "week_start": "May 18, 2026",
+  "week_end": "May 24, 2026",
+  "season": "Late Spring / Early Summer — Pittsburgh, PA",
+  "city": "Pittsburgh, PA",
+  "seasonal_heroes": [
+    "Strawberries (peak)",
+    "Snap Peas",
+    "Early Zucchini",
+    "Spring Onions",
+    "Fresh Basil"
+  ],
+  "cuisine_rotation": [
+    "Italian",
+    "Japanese",
+    "Mexican",
+    "Greek",
+    "Thai",
+    "American BBQ",
+    "Mediterranean"
+  ],
+  "pantry_note": "Built almost entirely from on-hand ingredients. Grocery list is 12-15 items only.",
+  "days": [
+    {
+      "day": "Monday",
+      "cuisine": "Italian",
+      "breakfast": {
+        "recipe_id": "overnight-protein-oats",
+        "austin": { "cal": 530, "p": 43, "f": 15, "c": 58 },
+        "cameron": { "cal": 415, "p": 32, "f": 10, "c": 54 }
+      },
+      "lunch": {
+        "recipe_id": "arugula-prosciutto-orzo-bowl",
+        "austin": { "cal": 645, "p": 48, "f": 26, "c": 56 },
+        "cameron": { "cal": 525, "p": 34, "f": 21, "c": 46 },
+        "cameron_note": "+ 1/4 avocado"
+      },
+      "dinner": {
+        "recipe_id": "pesto-chicken-spinach-pasta",
+        "austin": { "cal": 665, "p": 62, "f": 22, "c": 58 },
+        "cameron": { "cal": 570, "p": 38, "f": 18, "c": 52 },
+        "cameron_note": "+ 1/4 avocado sliced alongside, extra pesto"
+      },
+      "austin_total": { "cal": 1840, "p": 153 },
+      "cameron_total": { "cal": 1510, "p": 104 }
+    },
+    {
+      "day": "Tuesday",
+      "cuisine": "Japanese",
+      "breakfast": {
+        "recipe_id": "turkey-spinach-egg-wraps",
+        "austin": { "cal": 520, "p": 42, "f": 15, "c": 50 },
+        "cameron": { "cal": 405, "p": 32, "f": 12, "c": 42 }
+      },
+      "lunch": {
+        "recipe_id": "arugula-prosciutto-orzo-bowl",
+        "austin": { "cal": 645, "p": 48, "f": 26, "c": 56 },
+        "cameron": { "cal": 525, "p": 34, "f": 21, "c": 46 },
+        "cameron_note": "+ 1/4 avocado"
+      },
+      "dinner": {
+        "recipe_id": "ginger-soy-tilapia-snow-peas",
+        "austin": { "cal": 650, "p": 64, "f": 14, "c": 62 },
+        "cameron": { "cal": 575, "p": 40, "f": 11, "c": 58 },
+        "cameron_note": "+ 1/4 avocado"
+      },
+      "austin_total": { "cal": 1815, "p": 154 },
+      "cameron_total": { "cal": 1505, "p": 106 }
+    },
+    {
+      "day": "Wednesday",
+      "cuisine": "Mexican / Tex-Mex",
+      "breakfast": {
+        "recipe_id": "overnight-protein-oats",
+        "austin": { "cal": 530, "p": 43, "f": 15, "c": 58 },
+        "cameron": { "cal": 415, "p": 32, "f": 10, "c": 54 }
+      },
+      "lunch": {
+        "recipe_id": "arugula-prosciutto-orzo-bowl",
+        "austin": { "cal": 645, "p": 48, "f": 26, "c": 56 },
+        "cameron": { "cal": 525, "p": 34, "f": 21, "c": 46 },
+        "cameron_note": "Last of batch — + 1/4 avocado"
+      },
+      "dinner": {
+        "recipe_id": "chipotle-turkey-taco-bowls",
+        "austin": { "cal": 665, "p": 62, "f": 18, "c": 72 },
+        "cameron": { "cal": 575, "p": 38, "f": 15, "c": 64 },
+        "cameron_note": "+ 1/4 avocado, Greek yogurt crema"
+      },
+      "austin_total": { "cal": 1840, "p": 153 },
+      "cameron_total": { "cal": 1515, "p": 104 }
+    },
+    {
+      "day": "Thursday",
+      "cuisine": "Greek",
+      "breakfast": {
+        "recipe_id": "turkey-spinach-egg-wraps",
+        "austin": { "cal": 520, "p": 42, "f": 15, "c": 50 },
+        "cameron": { "cal": 405, "p": 32, "f": 12, "c": 42 }
+      },
+      "lunch": {
+        "recipe_id": "lamb-keftedes-couscous-bowl",
+        "austin": { "cal": 635, "p": 52, "f": 24, "c": 46 },
+        "cameron": { "cal": 515, "p": 36, "f": 20, "c": 40 },
+        "cameron_note": "+ 1/4 avocado"
+      },
+      "dinner": {
+        "recipe_id": "lamb-keftedes-couscous-tahini",
+        "austin": { "cal": 680, "p": 62, "f": 28, "c": 48 },
+        "cameron": { "cal": 590, "p": 38, "f": 22, "c": 44 },
+        "cameron_note": "+ 1/4 avocado, extra tahini drizzle"
+      },
+      "austin_total": { "cal": 1835, "p": 156 },
+      "cameron_total": { "cal": 1510, "p": 106 }
+    },
+    {
+      "day": "Friday",
+      "cuisine": "Thai",
+      "breakfast": {
+        "recipe_id": "overnight-protein-oats",
+        "austin": { "cal": 530, "p": 43, "f": 15, "c": 58 },
+        "cameron": { "cal": 415, "p": 32, "f": 10, "c": 54 }
+      },
+      "lunch": {
+        "recipe_id": "lamb-keftedes-couscous-bowl",
+        "austin": { "cal": 635, "p": 52, "f": 24, "c": 46 },
+        "cameron": { "cal": 515, "p": 36, "f": 20, "c": 40 },
+        "cameron_note": "Day 2 — + 1/4 avocado"
+      },
+      "dinner": {
+        "recipe_id": "thai-basil-beef-stir-fry",
+        "austin": { "cal": 655, "p": 60, "f": 22, "c": 52 },
+        "cameron": { "cal": 565, "p": 36, "f": 18, "c": 48 },
+        "cameron_note": "Mild — 1 serrano only, + 1/4 avocado"
+      },
+      "austin_total": { "cal": 1820, "p": 155 },
+      "cameron_total": { "cal": 1495, "p": 104 }
+    },
+    {
+      "day": "Saturday",
+      "cuisine": "American BBQ",
+      "breakfast": {
+        "recipe_id": "turkey-spinach-egg-wraps",
+        "austin": { "cal": 520, "p": 42, "f": 15, "c": 50 },
+        "cameron": { "cal": 405, "p": 32, "f": 12, "c": 42 }
+      },
+      "lunch": {
+        "recipe_id": "garbanzo-tahini-spinach-bowl",
+        "austin": { "cal": 620, "p": 44, "f": 22, "c": 64 },
+        "cameron": { "cal": 505, "p": 32, "f": 18, "c": 55 },
+        "cameron_note": "+ 1/4 avocado"
+      },
+      "dinner": {
+        "recipe_id": "smoked-chicken-thighs-street-corn",
+        "austin": { "cal": 700, "p": 68, "f": 30, "c": 36 },
+        "cameron": { "cal": 600, "p": 42, "f": 22, "c": 34 },
+        "cameron_note": "+ 1/4 avocado crumbled over corn"
+      },
+      "austin_total": { "cal": 1840, "p": 154 },
+      "cameron_total": { "cal": 1510, "p": 106 }
+    },
+    {
+      "day": "Sunday",
+      "cuisine": "Mediterranean",
+      "breakfast": {
+        "recipe_id": "overnight-protein-oats",
+        "austin": { "cal": 530, "p": 43, "f": 15, "c": 58 },
+        "cameron": { "cal": 415, "p": 32, "f": 10, "c": 54 }
+      },
+      "lunch": {
+        "recipe_id": "smoked-chicken-spinach-wrap-bowl",
+        "austin": { "cal": 635, "p": 56, "f": 20, "c": 50 },
+        "cameron": { "cal": 515, "p": 38, "f": 16, "c": 44 },
+        "cameron_note": "+ 1/4 avocado, extra tomatillo salsa"
+      },
+      "dinner": {
+        "recipe_id": "moroccan-tilapia-pearl-couscous",
+        "austin": { "cal": 645, "p": 60, "f": 16, "c": 62 },
+        "cameron": { "cal": 565, "p": 38, "f": 13, "c": 58 },
+        "cameron_note": "+ 1/4 avocado, extra tahini drizzle"
+      },
+      "austin_total": { "cal": 1810, "p": 159 },
+      "cameron_total": { "cal": 1495, "p": 108 }
+    }
+  ],
+  "batch_prep": [
+    {
+      "station": "Friday Night — Chicken Dry Rub (10 min)",
+      "tasks": [
+        "Pat 2.5 lbs chicken thighs dry",
+        "Rub: smoked paprika, garlic powder, brown sugar, cayenne, black pepper, salt",
+        "Wrap and refrigerate overnight"
+      ]
+    },
+    {
+      "station": "Saturday Morning — Smoker (3-4 hrs at 275°F)",
+      "tasks": [
+        "Smoke chicken thighs to 175°F internal — apple or cherry wood",
+        "Dinner: serve 2-3 thighs each with street corn + garbanzo salad",
+        "Pull remaining chicken Saturday evening — portion for Sunday lunch"
+      ]
+    },
+    {
+      "station": "Sunday — Overnight Oats (8 jars, 10 min)",
+      "tasks": [
+        "4 jars Austin (larger) + 4 jars Cameron — label A / C",
+        "Oats + chia seeds + protein powder + Greek yogurt + almond milk + honey",
+        "Top with fresh strawberries morning-of",
+        "Good Mon–Thu — make second batch Thursday night"
+      ]
+    },
+    {
+      "station": "Sunday — Turkey Spinach Egg Wraps (6 total, 20 min)",
+      "tasks": [
+        "Turkey + baby spinach + eggs + egg whites + spring onions + tomatillo salsa",
+        "3 wraps Austin + 3 wraps Cameron — wrap in foil, label",
+        "Cameron's 3 wraps: add avocado slice inside before rolling, mark AVO",
+        "Reheat: Breville 325°F, 3-4 min"
+      ]
+    },
+    {
+      "station": "Sunday — Lamb Keftedes (20 pieces, 35 min)",
+      "tasks": [
+        "Thaw ground lamb overnight Sat if still frozen",
+        "Mix: lamb + feta + garlic + spring onions + cumin + oregano + mint + parsley + egg",
+        "Roll 20 pieces, sear cast iron 3-4 min per side",
+        "5 per person for Thursday dinner, rest portioned for Thu/Fri lunch bowls"
+      ]
+    },
+    {
+      "station": "Sunday — Arugula Prosciutto Orzo Batch (15 min)",
+      "tasks": [
+        "Cook 2 cups orzo, rinse and cool",
+        "Toss with olive oil + lemon juice + minced shallot + salt",
+        "Keep arugula, prosciutto, cherry tomatoes, garbanzo beans separate",
+        "Assemble bowls daily — toss everything together and go",
+        "Covers Mon/Tue/Wed lunches for both"
+      ]
+    },
+    {
+      "station": "Sunday — Grains (10 min)",
+      "tasks": [
+        "Rice cooker: 2 cups brown rice (Tue tilapia + Fri Thai beef)",
+        "Small pot: 1.5 cups pearl couscous (Thu Greek + Sun Mediterranean)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "week_date": "2026-06-01",
+  "week_start": "June 1",
+  "week_end": "June 7, 2026",
+  "season": "Late Spring / Early Summer — Pittsburgh",
+  "city": "Pittsburgh, PA",
+  "seasonal_heroes": ["Zucchini (peak)", "Strawberries (peak)", "Cherries (just starting)", "Fresh Basil", "Snap Peas (final weeks)", "Cucumbers", "Early Corn"],
+  "cuisine_rotation": ["Mediterranean", "Mexican", "Thai", "Japanese", "Italian", "American BBQ", "Greek"],
+  "days": [
+    {
+      "day": "Monday",
+      "cuisine": "Mediterranean",
+      "breakfast": { "recipe_id": "berry-protein-overnight-oats", "austin": {"cal": 530, "p": 42, "f": 14, "c": 58}, "cameron": {"cal": 420, "p": 31, "f": 11, "c": 48} },
+      "lunch":    { "recipe_id": "mediterranean-chicken-cucumber-grain-bowl", "austin": {"cal": 630, "p": 52, "f": 18, "c": 58}, "cameron": {"cal": 510, "p": 36, "f": 14, "c": 50}, "cameron_note": "+ 1/4 avocado, extra feta" },
+      "dinner":   { "recipe_id": "harissa-chicken-zucchini-couscous", "austin": {"cal": 670, "p": 60, "f": 20, "c": 56}, "cameron": {"cal": 590, "p": 37, "f": 17, "c": 52} },
+      "austin_total": {"cal": 1830, "p": 154}, "cameron_total": {"cal": 1520, "p": 104}
+    },
+    {
+      "day": "Tuesday",
+      "cuisine": "Mexican",
+      "breakfast": { "recipe_id": "zucchini-turkey-sausage-egg-bites", "austin": {"cal": 520, "p": 44, "f": 24, "c": 12}, "cameron": {"cal": 410, "p": 33, "f": 19, "c": 9}, "cameron_note": "+ 1/4 avocado on the side" },
+      "lunch":    { "recipe_id": "mediterranean-chicken-cucumber-grain-bowl", "austin": {"cal": 630, "p": 52, "f": 18, "c": 58}, "cameron": {"cal": 510, "p": 36, "f": 14, "c": 50}, "cameron_note": "+ 1/4 avocado" },
+      "dinner":   { "recipe_id": "chicken-enchilada-verde-bowls", "austin": {"cal": 660, "p": 58, "f": 18, "c": 64}, "cameron": {"cal": 585, "p": 36, "f": 16, "c": 62}, "cameron_note": "+ sliced avocado, lighter salsa verde" },
+      "austin_total": {"cal": 1810, "p": 154}, "cameron_total": {"cal": 1505, "p": 105}
+    },
+    {
+      "day": "Wednesday",
+      "cuisine": "Thai",
+      "breakfast": { "recipe_id": "berry-protein-overnight-oats", "austin": {"cal": 530, "p": 42, "f": 14, "c": 58}, "cameron": {"cal": 420, "p": 31, "f": 11, "c": 48} },
+      "lunch":    { "recipe_id": "gochujang-chicken-lettuce-wraps", "austin": {"cal": 620, "p": 51, "f": 20, "c": 52}, "cameron": {"cal": 510, "p": 35, "f": 16, "c": 48}, "cameron_note": "+ 1/4 avocado, lighter gochujang" },
+      "dinner":   { "recipe_id": "thai-coconut-basil-shrimp", "austin": {"cal": 670, "p": 60, "f": 22, "c": 54}, "cameron": {"cal": 590, "p": 37, "f": 18, "c": 50} },
+      "austin_total": {"cal": 1820, "p": 153}, "cameron_total": {"cal": 1520, "p": 103}
+    },
+    {
+      "day": "Thursday",
+      "cuisine": "Japanese",
+      "breakfast": { "recipe_id": "zucchini-turkey-sausage-egg-bites", "austin": {"cal": 520, "p": 44, "f": 24, "c": 12}, "cameron": {"cal": 410, "p": 33, "f": 19, "c": 9}, "cameron_note": "+ 1/4 avocado on the side" },
+      "lunch":    { "recipe_id": "gochujang-chicken-lettuce-wraps", "austin": {"cal": 620, "p": 51, "f": 20, "c": 52}, "cameron": {"cal": 510, "p": 35, "f": 16, "c": 48}, "cameron_note": "+ 1/4 avocado" },
+      "dinner":   { "recipe_id": "miso-ginger-pork-stir-fry-snap-peas", "austin": {"cal": 660, "p": 58, "f": 20, "c": 58}, "cameron": {"cal": 580, "p": 36, "f": 17, "c": 54} },
+      "austin_total": {"cal": 1800, "p": 153}, "cameron_total": {"cal": 1500, "p": 104}
+    },
+    {
+      "day": "Friday",
+      "cuisine": "Italian",
+      "breakfast": { "recipe_id": "berry-protein-overnight-oats", "austin": {"cal": 530, "p": 42, "f": 14, "c": 58}, "cameron": {"cal": 420, "p": 31, "f": 11, "c": 48} },
+      "lunch":    { "recipe_id": "italian-zucchini-chicken-pesto-pasta-salad", "austin": {"cal": 640, "p": 50, "f": 19, "c": 62}, "cameron": {"cal": 520, "p": 35, "f": 15, "c": 56}, "cameron_note": "+ 1/4 avocado, extra pesto drizzle" },
+      "dinner":   { "recipe_id": "lemon-garlic-shrimp-zucchini-linguine", "austin": {"cal": 660, "p": 60, "f": 17, "c": 64}, "cameron": {"cal": 585, "p": 37, "f": 14, "c": 62} },
+      "austin_total": {"cal": 1830, "p": 152}, "cameron_total": {"cal": 1525, "p": 103}
+    },
+    {
+      "day": "Saturday",
+      "cuisine": "American BBQ",
+      "breakfast": { "recipe_id": "zucchini-turkey-sausage-egg-bites", "austin": {"cal": 520, "p": 44, "f": 24, "c": 12}, "cameron": {"cal": 410, "p": 33, "f": 19, "c": 9}, "cameron_note": "+ 1/4 avocado on the side" },
+      "lunch":    { "recipe_id": "italian-zucchini-chicken-pesto-pasta-salad", "austin": {"cal": 640, "p": 50, "f": 19, "c": 62}, "cameron": {"cal": 520, "p": 35, "f": 15, "c": 56}, "cameron_note": "+ 1/4 avocado" },
+      "dinner":   { "recipe_id": "smoked-pork-tenderloin-cherry-bbq", "austin": {"cal": 680, "p": 62, "f": 22, "c": 50}, "cameron": {"cal": 595, "p": 38, "f": 19, "c": 46} },
+      "austin_total": {"cal": 1840, "p": 156}, "cameron_total": {"cal": 1525, "p": 106}
+    },
+    {
+      "day": "Sunday",
+      "cuisine": "Greek",
+      "breakfast": { "recipe_id": "berry-protein-overnight-oats", "austin": {"cal": 530, "p": 42, "f": 14, "c": 58}, "cameron": {"cal": 420, "p": 31, "f": 11, "c": 48} },
+      "lunch":    { "recipe_id": "smoked-pork-tenderloin-grain-bowl", "austin": {"cal": 630, "p": 52, "f": 18, "c": 56}, "cameron": {"cal": 510, "p": 36, "f": 14, "c": 50}, "cameron_note": "+ 1/4 avocado, extra tzatziki" },
+      "dinner":   { "recipe_id": "greek-lemon-chicken-potatoes-tzatziki", "austin": {"cal": 665, "p": 60, "f": 20, "c": 56}, "cameron": {"cal": 585, "p": 36, "f": 17, "c": 52} },
+      "austin_total": {"cal": 1825, "p": 154}, "cameron_total": {"cal": 1515, "p": 103}
+    }
+  ],
+  "batch_prep": [
+    {
+      "station": "FRIDAY NIGHT — OVERNIGHT OATS (10 min)",
+      "tasks": [
+        "Prep 4 overnight oats jars: per jar — 1/2 cup rolled oats + 1 scoop vanilla protein powder + 1/3 cup Greek yogurt + 2/3 cup almond milk + 1 tbsp chia seeds; stir well; refrigerate overnight; morning-of: top with sliced strawberries + blueberries + 1 tbsp almond butter (Austin) or 1 tbsp coconut flakes (Cameron)"
+      ]
+    },
+    {
+      "station": "SATURDAY — DRY BRINE PORK TENDERLOIN (5 min)",
+      "tasks": [
+        "2 pork tenderloins (~1.5 lbs each) — pat dry; mix 1 tbsp kosher salt + 1 tsp smoked paprika + 1 tsp garlic powder + 1/2 tsp black pepper + 1/2 tsp cayenne; rub all over; place on wire rack over sheet pan; refrigerate uncovered overnight for crisp bark"
+      ]
+    },
+    {
+      "station": "SUNDAY — FIRE SMOKER (start 10am, ~2 hrs)",
+      "tasks": [
+        "Heat smoker to 250°F using cherry wood chips; place dry-brined pork tenderloins on grate; smoke 1.5–2 hrs until internal temp hits 145°F; last 20 min: brush with Cherry BBQ Glaze (see sauce station) every 10 min for lacquer; pull at 145°F; rest 10 min tented; slice — reserve 1/3 for Sunday lunch grain bowls, remaining 2/3 for Saturday dinner with extra glaze on the side"
+      ]
+    },
+    {
+      "station": "BREVILLE OVEN — BATCH CHICKEN THIGHS (prep 15 min | roast 35 min)",
+      "tasks": [
+        "5 lbs boneless skinless chicken thighs — pat dry; season half (2.5 lbs) with olive oil + harissa paste + lemon zest + garlic + cumin for Mediterranean bowls + harissa dinner; season other half (2.5 lbs) with olive oil + gochujang + soy sauce + ginger + garlic for lettuce wraps + enchilada bowls; roast all at 400°F for 32–35 min; cool 10 min; slice or shred; label clearly: 'HARISSA' and 'GOCHUJANG'"
+      ]
+    },
+    {
+      "station": "OVEN — ZUCCHINI-TURKEY SAUSAGE EGG BITES (prep 12 min | bake 22 min)",
+      "tasks": [
+        "12-cup muffin tin greased; whisk 10 egg whites + 4 whole eggs + 6 oz turkey sausage crumbles + 1 cup shredded zucchini (squeeze out excess moisture!) + 4 sliced spring onions + 2 oz crumbled feta + 1/2 tsp garlic powder + 1/4 tsp red pepper flakes + salt + pepper; fill cups 3/4 full; bake 375°F for 20–22 min until puffed and set; cool fully; store airtight 5 days",
+        "Austin: 4 bites per morning | Cameron: 3 bites + avocado side"
+      ]
+    },
+    {
+      "station": "RICE COOKER + GRAINS (hands-off)",
+      "tasks": [
+        "3 cups dry jasmine rice — makes ~7.5 cups cooked; used for enchilada verde bowls (Tue), Thai coconut shrimp (Wed), gochujang lettuce wraps (Wed/Thu), and Sunday grain bowls; portion and fridge",
+        "2 cups dry quinoa — makes ~4 cups cooked; used for Mediterranean bowls Mon/Tue; portion and fridge",
+        "Cook 8 oz dry linguine per package; drain, toss with 1 tsp olive oil; portion for Fri dinner (dress day-of)"
+      ]
+    },
+    {
+      "station": "SAUCES BATCH (20 min)",
+      "tasks": [
+        "CHERRY BBQ GLAZE: 1/2 lb fresh cherries (pitted + roughly chopped) + 1/4 cup BBQ sauce + 2 tbsp honey + 1 tbsp red wine vinegar + 1/2 tsp smoked paprika + pinch cayenne; simmer 15 min stirring occasionally until cherries break down; blend smooth or leave chunky; jar and fridge — use for smoker baste + serving sauce",
+        "LEMON-HERB DRESSING (Med bowls): 3 tbsp olive oil + 2 tbsp lemon juice + 1 tsp Dijon + 1/2 tsp garlic powder + 1 tbsp fresh oregano (or 1 tsp dried) + salt + pepper; whisk; jar and fridge",
+        "GOCHUJANG GLAZE (lettuce wraps): 2 tbsp gochujang + 1 tbsp soy sauce + 1 tbsp honey + 1 tsp sesame oil + 1 tsp rice vinegar + 1/2 tsp garlic powder; whisk; jar and fridge",
+        "TZATZIKI (Sun Greek dinner + grain bowls): 1 cup Greek yogurt + 1/2 grated cucumber (squeeze dry) + 1 clove garlic minced + 1 tbsp fresh dill + 1 tbsp lemon juice + salt; stir; fridge 4 days",
+        "SALSA VERDE CREMA (Tue enchilada bowls): 1 cup tomatillo salsa + 1/4 cup Greek yogurt + juice of 1 lime + pinch cumin; blend; fridge"
+      ]
+    },
+    {
+      "station": "LABEL & PORTION",
+      "tasks": [
+        "2x Mediterranean Chicken Cucumber Grain Bowl per person — Mon/Tue (keep dressing separate; Cameron gets avocado separate)",
+        "2x Gochujang Chicken Lettuce Wraps per person — Wed/Thu (butter lettuce + pickled cucumber in separate container; Cameron less gochujang + avocado)",
+        "2x Italian Zucchini Chicken Pesto Pasta Salad per person — Fri/Sat (dress day-of with pesto; Cameron gets avocado separately)",
+        "1x Smoked Pork Grain Bowl — Sun (assemble from Saturday's smoker pork)",
+        "NEVER put avocado in any container labeled A — Austin allergy",
+        "Cameron avocados: 5 whole avocados — store at room temp until ripe, then fridge; slice fresh daily"
+      ]
+    }
+  ]
+}
