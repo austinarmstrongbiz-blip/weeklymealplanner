@@ -306,6 +306,10 @@ class MealPlannerHandler(SimpleHTTPRequestHandler):
                 self._json({'error': str(e)}, 500)
             return
 
+        # GET /api/recipes — full recipe library from DATA_ROOT
+        if parsed.path == '/api/recipes':
+            return self._file_json(DATA_ROOT / 'references' / 'recipe_library.json')
+
         # GET /api/ratings — meal history ratings
         if parsed.path == '/api/ratings':
             path = DATA_ROOT / 'references' / 'meal_history.json'

@@ -1646,7 +1646,8 @@ async function init() {
 
   // ── 4. Load recipe library ──────────────────────────────
   try {
-    const r = await fetch('references/recipe_library.json');
+    const recipeUrl = S.serverOnline ? '/api/recipes' : 'references/recipe_library.json';
+    const r = await fetch(recipeUrl);
     if (r.ok) S.recipeLib = await r.json();
   } catch { /* no data available */ }
 
