@@ -242,6 +242,56 @@ def _fetch_and_extract_recipe(url):
     }
 
 
+_SECTION_ING  = ('ingredient', 'what you need', 'you will need', 'what you\'ll need')
+_SECTION_INST = ('instruction', 'direction', 'method', 'steps', 'how to make',
+                 'how to', 'preparation', 'procedure', 'directions')
+
+
+def _parse_recipe_from_text(text):
+    """Parse raw pasted recipe text into structured recipe dict."""
+    lines = [l.strip() for l in text.splitlines()]
+
+    # First non-empty line = title
+    title = next((l for l in lines if l), 'Untitled Recipe')
+
+    ingredients, instructions = [], []
+    mode = None  # 'ing' | 'inst' | None
+
+    for line in lines[1:]:
+        ll = line.lower().rstrip(':').strip()
+        if any(k in ll for k in _SECTION_ING) and len(line) < 60:
+            mode = 'ing'; continue
+        if any(k in ll for k in _SECTION_INST) and len(line) < 60:
+            mode = 'inst'; continue
+        if not line:
+            continue
+        # Strip leading numbers/bullets
+        clean = re.sub(r'^[\d]+[.\)]\s*', '', line)
+        clean = re.sub(r'^[-•*]\s*', '', clean).strip()
+        if not clean:
+            continue
+        if mode == 'ing':
+            ingredients.append(clean)
+        elif mode == 'inst':
+            instructions.append(clean)
+        # If no mode yet, try to auto-detect by line shape
+        elif re.match(r'^\d[\d/\s]*(?:cup|tbsp|tsp|oz|lb|g|ml|clove|piece|slice)', line, re.I):
+            ingredients.append(clean)
+
+    if not ingredients and not instructions:
+        return None
+
+    return {
+        'name':         title,
+        'cuisine':      '',
+        'prep':         '',
+        'cook':         '',
+        'ingredients':  ingredients,
+        'instructions': instructions,
+        'source_url':   '',
+    }
+
+
 class MealPlannerHandler(SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, directory=str(ROOT), **kwargs)
@@ -381,6 +431,16 @@ class MealPlannerHandler(SimpleHTTPRequestHandler):
                 return self._json({'success': True, 'recipe': recipe})
             except Exception as e:
                 return self._json({'error': f'Could not fetch page: {str(e)}'}, 500)
+
+        # POST /api/import/text — parse raw pasted recipe text
+        if parsed.path == '/api/import/text':
+            text = data.get('text', '').strip()
+            if not text:
+                return self._json({'error': 'No text provided'}, 400)
+            recipe = _parse_recipe_from_text(text)
+            if not recipe:
+                return self._json({'error': 'Could not find ingredients or instructions in the pasted text.'})
+            return self._json({'success': True, 'recipe': recipe})
 
         # POST /api/plan/save — write meal_plan.json (and optionally grocery_list.json)
         if parsed.path == '/api/plan/save':

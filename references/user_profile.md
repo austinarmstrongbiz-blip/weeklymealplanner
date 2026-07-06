@@ -23,14 +23,10 @@ BRAND_LOGO_PATH: None
 # Or tell Claude: "Add [Publication Name] at [URL] to my meal planner Substacks"
 # Format used by fetch_substacks.py and the meal planner server:
 
-SUBSTACK_PUBLICATIONS: None
-
-# Example (uncomment and fill in):
-# SUBSTACK_PUBLICATIONS:
-#   - name: "Samin Nosrat"
-#     url: "https://saminnosrat.substack.com"
-#   - name: "Alison Roman"
-#     url: "https://alisonroman.substack.com"
+SUBSTACK_PUBLICATIONS:
+  - name: "Restaurant Dropout"
+    url: "https://restaurantdropout.substack.com"
+    notes: "Austin has premium subscription. RSS feed accessible. Weekly menus, seasonal recipes, simple prep focus — primary inspiration source."
 ```
 
 ---
