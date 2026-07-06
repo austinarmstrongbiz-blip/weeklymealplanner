@@ -1,0 +1,140 @@
+{
+  "week_date": "2026-07-06",
+  "note": "Excludes chicken breast, chicken thighs (shredded), bone-in thighs, arugula, and freezer protein \u2014 you've already got those on hand.",
+  "categories": {
+    "PRODUCE": [
+      {
+        "name": "Celery",
+        "qty": "1 small bunch"
+      },
+      {
+        "name": "Red onion",
+        "qty": "2"
+      },
+      {
+        "name": "Red grapes",
+        "qty": "1 bunch"
+      },
+      {
+        "name": "Corn on the cob",
+        "qty": "4-5 ears (peak season)"
+      },
+      {
+        "name": "Jalape\u00f1o",
+        "qty": "2-3"
+      },
+      {
+        "name": "Roma tomatoes (for pico)",
+        "qty": "3"
+      },
+      {
+        "name": "Cherry tomatoes (for Mediterranean salad)",
+        "qty": "1 pint"
+      },
+      {
+        "name": "Cilantro",
+        "qty": "1 bunch"
+      },
+      {
+        "name": "Persian or English cucumber",
+        "qty": "4"
+      },
+      {
+        "name": "Snap peas",
+        "qty": "1 small bag (soba bowl garnish)"
+      },
+      {
+        "name": "Scallions / green onions",
+        "qty": "2 bunches"
+      },
+      {
+        "name": "Limes",
+        "qty": "6"
+      },
+      {
+        "name": "Lemon",
+        "qty": "2"
+      },
+      {
+        "name": "Avocados \u2014 CAMERON ONLY",
+        "qty": "5"
+      },
+      {
+        "name": "Fresh ginger",
+        "qty": "1 small knob"
+      },
+      {
+        "name": "Garlic",
+        "qty": "1 head (check stock first)"
+      },
+      {
+        "name": "Broccoli or mixed stir-fry veg (fresh, for Sunday freezer dinner)",
+        "qty": "1 lb"
+      }
+    ],
+    "PROTEINS": [
+      {
+        "name": "Turkey breakfast sausage",
+        "qty": "8 oz (egg bites)"
+      },
+      {
+        "name": "Eggs",
+        "qty": "2 dozen (egg bites + Cameron's daily eggs)"
+      },
+      {
+        "name": "Liquid egg whites or extra eggs",
+        "qty": "1 carton (Cameron's eggs)"
+      }
+    ],
+    "DAIRY & CHEESE": [
+      {
+        "name": "Plain Greek yogurt (unsweetened)",
+        "qty": "1 large tub"
+      },
+      {
+        "name": "Shredded light cheddar",
+        "qty": "1 small bag"
+      },
+      {
+        "name": "Feta, crumbled",
+        "qty": "1 tub"
+      },
+      {
+        "name": "Light sour cream (for chipotle crema)",
+        "qty": "1 small tub"
+      },
+      {
+        "name": "Light mayo",
+        "qty": "1 small jar"
+      }
+    ],
+    "NOT-YET-STOCKED PANTRY ITEMS": [
+      {
+        "name": "Soba noodles",
+        "qty": "2 packs (not a pantry staple \u2014 confirmed in staples list)"
+      },
+      {
+        "name": "Chipotle peppers in adobo",
+        "qty": "1 small can"
+      },
+      {
+        "name": "Whole grain crackers",
+        "qty": "1 box"
+      },
+      {
+        "name": "Whole wheat bread",
+        "qty": "1 loaf"
+      }
+    ],
+    "PANTRY \u2014 VERIFY STOCK BEFORE SKIPPING": [
+      {
+        "name": "Black beans (canned)",
+        "qty": "verify 1-2 cans on hand"
+      },
+      {
+        "name": "Chickpeas (canned)",
+        "qty": "verify 2 cans on hand \u2014 used in two dishes this week"
+      }
+    ]
+  }
+}

@@ -9819,6 +9819,3824 @@
         }
       },
       "retired": false
+    },
+    {
+      "id": "chipotle-turkey-zucchini-egg-bites",
+      "name": "Chipotle Turkey Zucchini Egg Bites",
+      "cuisine": "American",
+      "meal_type": "breakfast",
+      "prep": "10 min",
+      "cook": "25 min",
+      "total": "35 min",
+      "spice_level": "Medium",
+      "serving_note": "12 bites — 3 per person, covers Mon–Thu",
+      "tags": [
+        "batch-friendly",
+        "summer-2026",
+        "high-protein",
+        "meal-prep"
+      ],
+      "equipment": "Muffin tin, skillet",
+      "macro_strings": {
+        "austin": "380 cal | 36g P | 14g F | 8g C",
+        "cameron": "490 cal | 32g P | 24g F | 14g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 380,
+          "p": 36,
+          "f": 14,
+          "c": 8
+        },
+        "cameron": {
+          "cal": 490,
+          "p": 32,
+          "f": 24,
+          "c": 14
+        }
+      },
+      "ingredients": [
+        {
+          "name": "egg whites",
+          "qty": "8 (or 1 cup liquid)"
+        },
+        {
+          "name": "whole eggs",
+          "qty": "4"
+        },
+        {
+          "name": "lean ground turkey 93/7",
+          "qty": "8 oz"
+        },
+        {
+          "name": "zucchini, finely diced",
+          "qty": "1 medium"
+        },
+        {
+          "name": "shredded cheddar cheese",
+          "qty": "1/2 cup"
+        },
+        {
+          "name": "chipotle in adobo sauce",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "garlic powder",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "onion powder",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "smoked paprika",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "salt and pepper",
+          "qty": "to taste"
+        },
+        {
+          "name": "cooking spray",
+          "qty": "for tin"
+        }
+      ],
+      "instructions": [
+        "Preheat oven 350°F. Spray 12-cup muffin tin.",
+        "Cook turkey with spices until no pink, 5–6 min. Drain.",
+        "Dice zucchini fine. Squeeze dry in paper towels.",
+        "Whisk egg whites + whole eggs + chipotle sauce + salt + pepper.",
+        "Fill muffin cups with turkey and zucchini. Pour egg mix over, 3/4 full. Top with cheddar.",
+        "Bake 22–25 min until set. Cool 5 min, knife around edges to release.",
+        "Refrigerate up to 5 days. Reheat 60 sec microwave."
+      ],
+      "batch_note": "Batch Sunday. Covers Mon–Thu breakfasts.",
+      "cameron_note": "Serve with 1/2 avocado on the side.",
+      "history": {
+        "first_used": "2026-07-07",
+        "last_used": "2026-07-07",
+        "times_made": 1,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "dijon-herb-chicken-salad-on-arugula",
+      "name": "Dijon Herb Chicken Salad on Arugula",
+      "cuisine": "American",
+      "meal_type": "lunch",
+      "prep": "10 min",
+      "cook": "0 min",
+      "total": "10 min",
+      "spice_level": "None",
+      "serving_note": "4–5 servings from batch",
+      "tags": [
+        "batch-friendly",
+        "summer-2026",
+        "no-cook",
+        "high-protein"
+      ],
+      "equipment": "Mixing bowl",
+      "macro_strings": {
+        "austin": "540 cal | 48g P | 10g F | 30g C",
+        "cameron": "520 cal | 36g P | 18g F | 30g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 540,
+          "p": 48,
+          "f": 10,
+          "c": 30
+        },
+        "cameron": {
+          "cal": 520,
+          "p": 36,
+          "f": 18,
+          "c": 30
+        }
+      },
+      "ingredients": [
+        {
+          "name": "shredded chicken breast (pre-cooked)",
+          "qty": "2 lbs"
+        },
+        {
+          "name": "celery, finely diced",
+          "qty": "3 stalks"
+        },
+        {
+          "name": "red onion, finely diced",
+          "qty": "1/4 cup"
+        },
+        {
+          "name": "plain Greek yogurt",
+          "qty": "1/2 cup"
+        },
+        {
+          "name": "Dijon mustard",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "apple cider vinegar",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "honey",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "fresh dill, chopped",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "fresh parsley, chopped",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "salt and pepper",
+          "qty": "to taste"
+        },
+        {
+          "name": "arugula",
+          "qty": "4–5 oz"
+        },
+        {
+          "name": "lemon",
+          "qty": "1"
+        }
+      ],
+      "instructions": [
+        "Whisk Greek yogurt, Dijon, ACV, honey, dill, parsley, salt, pepper.",
+        "Fold in shredded chicken, celery, red onion. Mix fully.",
+        "Taste and adjust seasoning.",
+        "Store chicken salad separately from arugula. Dress arugula day-of only.",
+        "Serve: arugula base, top with chicken salad, lemon squeeze for Austin.",
+        "Cameron: + sliced avocado and crackers."
+      ],
+      "batch_note": "Make Sunday. Keeps 4–5 days. Dress arugula at serving time.",
+      "cameron_note": "Add 1/2 avocado per serving. Serve with crackers.",
+      "history": {
+        "first_used": "2026-07-07",
+        "last_used": "2026-07-07",
+        "times_made": 1,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "smoky-chipotle-chicken-rice-bowls",
+      "name": "Smoky Chipotle Chicken Rice Bowls",
+      "cuisine": "Mexican",
+      "meal_type": "dinner",
+      "prep": "10 min",
+      "cook": "5 min",
+      "total": "15 min",
+      "spice_level": "High",
+      "serving_note": "4 servings — chicken pre-prepped",
+      "tags": [
+        "summer-2026",
+        "batch-friendly",
+        "spicy",
+        "meal-prep"
+      ],
+      "equipment": "Skillet",
+      "macro_strings": {
+        "austin": "620 cal | 52g P | 14g F | 58g C",
+        "cameron": "560 cal | 38g P | 18g F | 56g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 620,
+          "p": 52,
+          "f": 14,
+          "c": 58
+        },
+        "cameron": {
+          "cal": 560,
+          "p": 38,
+          "f": 18,
+          "c": 56
+        }
+      },
+      "ingredients": [
+        {
+          "name": "shredded chipotle chicken thighs (pre-cooked)",
+          "qty": "2 lbs"
+        },
+        {
+          "name": "brown rice, cooked",
+          "qty": "2 cups"
+        },
+        {
+          "name": "fresh corn, charred",
+          "qty": "2 ears"
+        },
+        {
+          "name": "black beans, rinsed",
+          "qty": "1 can (15 oz)"
+        },
+        {
+          "name": "cherry tomatoes, halved",
+          "qty": "1 cup"
+        },
+        {
+          "name": "jalapeño, minced",
+          "qty": "1"
+        },
+        {
+          "name": "red onion, diced",
+          "qty": "1/4 cup"
+        },
+        {
+          "name": "fresh cilantro",
+          "qty": "1/4 cup"
+        },
+        {
+          "name": "limes",
+          "qty": "2"
+        },
+        {
+          "name": "cumin",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "smoked paprika",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "hot sauce",
+          "qty": "Austin only"
+        },
+        {
+          "name": "avocado",
+          "qty": "Cameron only"
+        }
+      ],
+      "instructions": [
+        "Warm chipotle chicken in skillet with splash of water + cumin + smoked paprika, 3–4 min.",
+        "Make corn pico: charred corn + tomatoes + red onion + jalapeño + cilantro + lime + salt.",
+        "Assemble: rice → chicken → corn pico → black beans. Lime over top.",
+        "Hot sauce for Austin. Cameron: + avocado + extra pico."
+      ],
+      "batch_note": "Rice batched Sunday. Corn pico Sunday. Make extra pico for wraps later in week.",
+      "cameron_note": "Add 1/4 avocado + extra pico.",
+      "history": {
+        "first_used": "2026-07-07",
+        "last_used": "2026-07-07",
+        "times_made": 1,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "chilled-sesame-teriyaki-soba-bowl",
+      "name": "Chilled Sesame Teriyaki Soba Bowl",
+      "cuisine": "Japanese",
+      "meal_type": "dinner",
+      "prep": "10 min",
+      "cook": "15 min",
+      "total": "25 min",
+      "spice_level": "Medium",
+      "serving_note": "4 servings — sauce made Sunday",
+      "tags": [
+        "summer-2026",
+        "cold-noodles",
+        "light",
+        "japanese"
+      ],
+      "equipment": "Large pot, small saucepan, skillet",
+      "macro_strings": {
+        "austin": "590 cal | 48g P | 14g F | 68g C",
+        "cameron": "550 cal | 42g P | 14g F | 64g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 590,
+          "p": 48,
+          "f": 14,
+          "c": 68
+        },
+        "cameron": {
+          "cal": 550,
+          "p": 42,
+          "f": 14,
+          "c": 64
+        }
+      },
+      "ingredients": [
+        {
+          "name": "soba noodles",
+          "qty": "8 oz"
+        },
+        {
+          "name": "smoked chicken thigh meat, pulled",
+          "qty": "1.5 lbs"
+        },
+        {
+          "name": "low-sodium soy sauce",
+          "qty": "1/4 cup"
+        },
+        {
+          "name": "honey",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "rice vinegar",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "sesame oil",
+          "qty": "1.5 tsp"
+        },
+        {
+          "name": "fresh ginger, grated",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "garlic, minced",
+          "qty": "2 cloves"
+        },
+        {
+          "name": "cornstarch",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "cucumber, julienned",
+          "qty": "1 large"
+        },
+        {
+          "name": "shelled edamame, thawed",
+          "qty": "1 cup"
+        },
+        {
+          "name": "scallions, sliced",
+          "qty": "3"
+        },
+        {
+          "name": "sesame seeds",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "red pepper flakes",
+          "qty": "Austin only"
+        },
+        {
+          "name": "sriracha",
+          "qty": "Austin only"
+        }
+      ],
+      "instructions": [
+        "SAUCE (make Sunday): soy sauce + honey + rice vinegar + sesame oil + ginger + garlic, simmer, thicken with cornstarch slurry. Jar and refrigerate.",
+        "Cook soba 4–5 min. Drain, rinse cold IMMEDIATELY. Toss with 1/2 tsp sesame oil.",
+        "Warm pulled smoked chicken with 2 tbsp teriyaki sauce.",
+        "Toss cold soba with remaining sauce.",
+        "Bowls: soba → chicken → cucumber → edamame → scallions → sesame seeds.",
+        "Austin: red pepper flakes + sriracha. Cameron: extra sesame oil."
+      ],
+      "batch_note": "Sauce Sunday. Use leftover smoked thighs. Assembly 10 min Tuesday.",
+      "cameron_note": "Extra sesame oil drizzle. Avocado optional.",
+      "history": {
+        "first_used": "2026-07-07",
+        "last_used": "2026-07-07",
+        "times_made": 1,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "blackened-tilapia-street-tacos-with-corn-slaw",
+      "name": "Blackened Tilapia Street Tacos with Corn Slaw",
+      "cuisine": "Mexican Coastal",
+      "meal_type": "dinner",
+      "prep": "15 min",
+      "cook": "12 min",
+      "total": "27 min",
+      "spice_level": "High",
+      "serving_note": "4 servings, 3 tacos each",
+      "tags": [
+        "summer-2026",
+        "restaurant-dropout-inspired",
+        "light",
+        "spicy"
+      ],
+      "equipment": "Cast-iron skillet",
+      "macro_strings": {
+        "austin": "570 cal | 50g P | 12g F | 54g C",
+        "cameron": "640 cal | 44g P | 24g F | 58g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 570,
+          "p": 50,
+          "f": 12,
+          "c": 54
+        },
+        "cameron": {
+          "cal": 640,
+          "p": 44,
+          "f": 24,
+          "c": 58
+        }
+      },
+      "ingredients": [
+        {
+          "name": "tilapia fillets (or cod, mahi mahi)",
+          "qty": "1.5 lbs"
+        },
+        {
+          "name": "smoked paprika",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "garlic powder",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "onion powder",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "cayenne",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "cumin",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "dried oregano",
+          "qty": "1/4 tsp"
+        },
+        {
+          "name": "salt and black pepper",
+          "qty": "1/4 tsp each"
+        },
+        {
+          "name": "neutral oil",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "small corn tortillas",
+          "qty": "12"
+        },
+        {
+          "name": "cucumber, julienned",
+          "qty": "1 large"
+        },
+        {
+          "name": "corn kernels",
+          "qty": "1/2 cup"
+        },
+        {
+          "name": "red onion, thin-sliced",
+          "qty": "1/4"
+        },
+        {
+          "name": "cilantro",
+          "qty": "1/4 cup"
+        },
+        {
+          "name": "lime juice",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Greek yogurt",
+          "qty": "1/4 cup"
+        },
+        {
+          "name": "sriracha",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "avocado",
+          "qty": "Cameron only"
+        }
+      ],
+      "instructions": [
+        "Slaw: cucumber + corn + red onion + cilantro + lime juice + olive oil + salt. Rest 10 min.",
+        "Sauce: Greek yogurt + sriracha + lime + pinch cumin.",
+        "Press fish into blackening spice mix on both sides.",
+        "Cast-iron smoking hot with oil. Cook fish 3–4 min per side without moving. Break into chunks.",
+        "Warm tortillas dry pan or over flame.",
+        "Build: tortilla → slaw → fish → sauce → lime. Austin: extra cayenne + hot sauce. Cameron: + avocado."
+      ],
+      "batch_note": "Slaw and sauce made ahead. Fish day-of — 12 min.",
+      "cameron_note": "1/2 avocado per serving. Double sauce.",
+      "history": {
+        "first_used": "2026-07-07",
+        "last_used": "2026-07-07",
+        "times_made": 1,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "smoke-kissed-bone-in-thighs-with-charred-corn-pico",
+      "name": "Smoke-Kissed Bone-In Thighs with Charred Corn Pico",
+      "cuisine": "American BBQ",
+      "meal_type": "dinner",
+      "prep": "15 min + overnight",
+      "cook": "2.5 hrs",
+      "total": "Batch Sunday, serve Thursday",
+      "spice_level": "Medium",
+      "serving_note": "8 thighs — 2/person Thu, pull rest for Fri",
+      "tags": [
+        "summer-2026",
+        "smoker",
+        "batch-friendly",
+        "seasonal-corn"
+      ],
+      "equipment": "Smoker, broiler",
+      "macro_strings": {
+        "austin": "640 cal | 54g P | 28g F | 20g C",
+        "cameron": "540 cal | 42g P | 22g F | 20g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 640,
+          "p": 54,
+          "f": 28,
+          "c": 20
+        },
+        "cameron": {
+          "cal": 540,
+          "p": 42,
+          "f": 22,
+          "c": 20
+        }
+      },
+      "ingredients": [
+        {
+          "name": "bone-in skin-on chicken thighs",
+          "qty": "8"
+        },
+        {
+          "name": "smoked paprika",
+          "qty": "2 tsp"
+        },
+        {
+          "name": "garlic powder",
+          "qty": "1.5 tsp"
+        },
+        {
+          "name": "onion powder",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "brown sugar",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "chipotle powder",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "cumin",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "salt",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "black pepper",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "fresh corn",
+          "qty": "3 ears"
+        },
+        {
+          "name": "cherry tomatoes, halved",
+          "qty": "1 cup"
+        },
+        {
+          "name": "jalapeño",
+          "qty": "1–2"
+        },
+        {
+          "name": "red onion, diced",
+          "qty": "1/4 cup"
+        },
+        {
+          "name": "cilantro",
+          "qty": "1/4 cup"
+        },
+        {
+          "name": "limes",
+          "qty": "2"
+        }
+      ],
+      "instructions": [
+        "Rub all over thighs. Refrigerate 4+ hrs or overnight.",
+        "Smoker 250°F, applewood or hickory.",
+        "Smoke skin-side up 2–2.5 hrs until 175°F internal.",
+        "Optional: broiler 5 min for crispy skin.",
+        "Charred corn pico: char corn on grill, cut kernels, mix with tomatoes + red onion + jalapeño + cilantro + lime + salt. Make big batch.",
+        "Serve Thu with 2 thighs + generous pico. Refrigerate rest for Fri grain bowls."
+      ],
+      "batch_note": "Sunday smoker anchor. Make extra corn pico — carries into Fri.",
+      "cameron_note": "1.5 thighs portion.",
+      "history": {
+        "first_used": "2026-07-07",
+        "last_used": "2026-07-07",
+        "times_made": 1,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "smoked-chicken-corn-tomato-bowl",
+      "name": "Smoked Chicken Corn Tomato Bowl",
+      "cuisine": "American Summer",
+      "meal_type": "lunch",
+      "prep": "10 min",
+      "cook": "0 min",
+      "total": "10 min",
+      "spice_level": "Mild",
+      "serving_note": "4 servings — uses Thursday dinner leftovers",
+      "tags": [
+        "summer-2026",
+        "no-cook",
+        "batch-friendly"
+      ],
+      "equipment": "None",
+      "macro_strings": {
+        "austin": "570 cal | 48g P | 16g F | 48g C",
+        "cameron": "550 cal | 38g P | 22g F | 46g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 570,
+          "p": 48,
+          "f": 16,
+          "c": 48
+        },
+        "cameron": {
+          "cal": 550,
+          "p": 38,
+          "f": 22,
+          "c": 46
+        }
+      },
+      "ingredients": [
+        {
+          "name": "smoked chicken thigh meat, pulled off bone",
+          "qty": "4 thighs worth"
+        },
+        {
+          "name": "brown rice or farro, cooked",
+          "qty": "2 cups"
+        },
+        {
+          "name": "charred corn pico (Thursday leftover)",
+          "qty": "1.5 cups"
+        },
+        {
+          "name": "mixed greens or arugula",
+          "qty": "4 cups"
+        },
+        {
+          "name": "olive oil",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "red wine vinegar",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Dijon mustard",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "red pepper flakes",
+          "qty": "Austin only"
+        },
+        {
+          "name": "avocado",
+          "qty": "Cameron only"
+        }
+      ],
+      "instructions": [
+        "Pull chicken meat off bone.",
+        "Vinaigrette: olive oil + red wine vinegar + Dijon + salt + pepper.",
+        "Bowls: grain → chicken → corn pico → greens → vinaigrette.",
+        "Austin: red pepper flakes. Cameron: + avocado."
+      ],
+      "batch_note": "Pull chicken Thu evening. Always make extra corn pico Thursday.",
+      "cameron_note": "Add 1/2 avocado. Extra vinaigrette.",
+      "history": {
+        "first_used": "2026-07-07",
+        "last_used": "2026-07-07",
+        "times_made": 1,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "baja-spiced-shrimp-lettuce-wraps",
+      "name": "Baja Spiced Shrimp Lettuce Wraps",
+      "cuisine": "Mexican Coastal",
+      "meal_type": "dinner",
+      "prep": "10 min",
+      "cook": "6 min",
+      "total": "16 min",
+      "spice_level": "Medium",
+      "serving_note": "4 servings",
+      "tags": [
+        "summer-2026",
+        "restaurant-dropout-inspired",
+        "light",
+        "quick"
+      ],
+      "equipment": "Large skillet",
+      "macro_strings": {
+        "austin": "480 cal | 46g P | 10g F | 30g C",
+        "cameron": "570 cal | 42g P | 22g F | 34g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 480,
+          "p": 46,
+          "f": 10,
+          "c": 30
+        },
+        "cameron": {
+          "cal": 570,
+          "p": 42,
+          "f": 22,
+          "c": 34
+        }
+      },
+      "ingredients": [
+        {
+          "name": "large shrimp, peeled and deveined",
+          "qty": "1.5 lbs"
+        },
+        {
+          "name": "cumin",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "chili powder",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "smoked paprika",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "garlic powder",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "cayenne",
+          "qty": "1/4 tsp"
+        },
+        {
+          "name": "salt",
+          "qty": "to taste"
+        },
+        {
+          "name": "neutral oil",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "butter lettuce",
+          "qty": "1 head"
+        },
+        {
+          "name": "frozen corn, thawed",
+          "qty": "1/2 cup"
+        },
+        {
+          "name": "cherry tomatoes, halved",
+          "qty": "1/2 cup"
+        },
+        {
+          "name": "red onion, diced",
+          "qty": "1/4 cup"
+        },
+        {
+          "name": "fresh cilantro",
+          "qty": "1/4 cup"
+        },
+        {
+          "name": "limes",
+          "qty": "2"
+        },
+        {
+          "name": "Greek yogurt",
+          "qty": "1/4 cup"
+        },
+        {
+          "name": "hot sauce",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "avocado",
+          "qty": "Cameron only"
+        }
+      ],
+      "instructions": [
+        "Toss shrimp with spice mix.",
+        "High heat skillet + oil. Shrimp single layer 2–3 min per side. Don't overcook.",
+        "Baja sauce: Greek yogurt + hot sauce + lime juice + pinch cumin.",
+        "Build wraps: lettuce cup → 3–4 shrimp → corn + tomatoes → sauce → cilantro → lime.",
+        "Cameron: + avocado or quick guac."
+      ],
+      "batch_note": "Sauce made Sunday. Shrimp 6 min Friday. Toppings from leftover corn pico.",
+      "cameron_note": "Add 1/2 avocado or mini guac. Double sauce.",
+      "history": {
+        "first_used": "2026-07-07",
+        "last_used": "2026-07-07",
+        "times_made": 1,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "jalapeno-cheddar-turkey-smash-burgers",
+      "name": "Jalapeño Cheddar Turkey Smash Burgers",
+      "cuisine": "American",
+      "meal_type": "dinner",
+      "prep": "10 min",
+      "cook": "15 min",
+      "total": "25 min",
+      "spice_level": "Medium",
+      "serving_note": "4 servings — Restaurant Dropout Jun 26 adapted",
+      "tags": [
+        "summer-2026",
+        "restaurant-dropout-inspired",
+        "weekend",
+        "spicy"
+      ],
+      "equipment": "Cast-iron skillet",
+      "macro_strings": {
+        "austin": "620 cal | 52g P | 22g F | 38g C",
+        "cameron": "700 cal | 48g P | 34g F | 42g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 620,
+          "p": 52,
+          "f": 22,
+          "c": 38
+        },
+        "cameron": {
+          "cal": 700,
+          "p": 48,
+          "f": 34,
+          "c": 42
+        }
+      },
+      "ingredients": [
+        {
+          "name": "lean ground turkey 93/7",
+          "qty": "1.5 lbs"
+        },
+        {
+          "name": "jalapeño, minced (into patty)",
+          "qty": "1"
+        },
+        {
+          "name": "jalapeño, sliced rounds (topping)",
+          "qty": "1"
+        },
+        {
+          "name": "sharp cheddar",
+          "qty": "4 oz"
+        },
+        {
+          "name": "garlic powder",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "smoked paprika",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Worcestershire sauce",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "salt and pepper",
+          "qty": "to taste"
+        },
+        {
+          "name": "brioche or potato burger buns",
+          "qty": "4"
+        },
+        {
+          "name": "tomato, sliced",
+          "qty": "1"
+        },
+        {
+          "name": "lettuce leaves",
+          "qty": "4"
+        },
+        {
+          "name": "red onion rings",
+          "qty": "a few"
+        },
+        {
+          "name": "Greek yogurt",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "hot sauce",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "ketchup",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "avocado",
+          "qty": "Cameron only"
+        }
+      ],
+      "instructions": [
+        "Mix turkey + minced jalapeño + garlic powder + smoked paprika + Worcestershire + salt + pepper. Gently.",
+        "Divide into 8 loose balls — 2 per person.",
+        "Cast-iron medium-high, very hot. Smash 2 balls hard with flat spatula. Cook 3–4 min until crust. Flip, add cheddar. Cook 2–3 min.",
+        "Sauce: Greek yogurt + hot sauce + ketchup + garlic powder.",
+        "Toast buns in drippings 30 sec.",
+        "Stack: bun → sauce → double patty → jalapeño rounds → tomato → onion → lettuce.",
+        "Cameron: + avocado + extra sauce."
+      ],
+      "batch_note": "Quick Saturday cook. Don't mix turkey more than 2 hrs ahead.",
+      "cameron_note": "Add 1/2 avocado. Double sauce.",
+      "history": {
+        "first_used": "2026-07-07",
+        "last_used": "2026-07-07",
+        "times_made": 1,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "charred-zucchini-tomato-white-bean-panzanella",
+      "name": "Charred Zucchini & Tomato White Bean Panzanella",
+      "cuisine": "Mediterranean",
+      "meal_type": "dinner",
+      "prep": "15 min",
+      "cook": "10 min",
+      "total": "25 min",
+      "spice_level": "None",
+      "serving_note": "4 servings — Austin adds tuna. Restaurant Dropout Jul 3.",
+      "tags": [
+        "summer-2026",
+        "restaurant-dropout-inspired",
+        "light",
+        "vegetable-forward"
+      ],
+      "equipment": "Cast-iron skillet, oven",
+      "macro_strings": {
+        "austin": "560 cal | 42g P | 16g F | 56g C",
+        "cameron": "620 cal | 30g P | 28g F | 58g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 560,
+          "p": 42,
+          "f": 16,
+          "c": 56
+        },
+        "cameron": {
+          "cal": 620,
+          "p": 30,
+          "f": 28,
+          "c": 58
+        }
+      },
+      "ingredients": [
+        {
+          "name": "zucchini, 1/2-inch rounds",
+          "qty": "3 medium"
+        },
+        {
+          "name": "cherry tomatoes, halved",
+          "qty": "2 cups"
+        },
+        {
+          "name": "cannellini white beans, rinsed",
+          "qty": "2 cans (15 oz)"
+        },
+        {
+          "name": "crusty bread, torn",
+          "qty": "4 thick slices"
+        },
+        {
+          "name": "fresh basil, torn",
+          "qty": "1/4 cup"
+        },
+        {
+          "name": "garlic, pressed",
+          "qty": "3 cloves"
+        },
+        {
+          "name": "olive oil",
+          "qty": "3 tbsp"
+        },
+        {
+          "name": "balsamic vinegar",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Dijon mustard",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "salt and black pepper",
+          "qty": "to taste"
+        },
+        {
+          "name": "canned tuna in water",
+          "qty": "Austin only — 2 cans"
+        },
+        {
+          "name": "fresh mozzarella",
+          "qty": "Cameron only — 4 oz"
+        },
+        {
+          "name": "avocado",
+          "qty": "Cameron only"
+        }
+      ],
+      "instructions": [
+        "Toast bread: toss with 1 tbsp oil, bake 400°F 8–10 min until crisp.",
+        "Char zucchini: cast-iron high heat, rounds flat, 3 min per side. Salt.",
+        "Dressing: 2 tbsp olive oil + balsamic + Dijon + garlic + salt + pepper.",
+        "Combine beans + tomatoes + zucchini + bread + basil in large bowl.",
+        "Pour dressing, toss, rest 5–10 min (bread softens — this is the point).",
+        "Austin: flake tuna over + chili flakes. Cameron: torn mozzarella + avocado + balsamic drizzle."
+      ],
+      "batch_note": "Light Sunday dinner. Minimal cooking.",
+      "cameron_note": "Mozzarella + 1/2 avocado. Greek yogurt on side for protein.",
+      "history": {
+        "first_used": "2026-07-07",
+        "last_used": "2026-07-07",
+        "times_made": 1,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "spicy-pasta-salad",
+      "name": "Spicy Pasta Salad",
+      "cuisine": "American",
+      "meal_type": "dinner",
+      "prep": "15 min",
+      "cook": "10 min",
+      "total": "",
+      "spice_level": "",
+      "serving_note": "",
+      "tags": [
+        "anylist-import"
+      ],
+      "equipment": "",
+      "macro_strings": {
+        "austin": "",
+        "cameron": ""
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        "450 g large shell pasta (dry) (cooked and cooled)",
+        "1½ cups cherry tomatoes (quartered)",
+        "½ cup pickled peperoncini peppers (sliced)",
+        "¼ cup red onion (finely chopped)",
+        "15 oz chickpeas (one can, drained and rinsed)",
+        "1 bunch parsley (finely chopped)",
+        "¼ cup vegan feta",
+        "1 heaping handful  kale (shredded)",
+        "1 cup vegan yogurt (unsweetened )",
+        "2½ tbsp pickled Peperoncino juice (or lemon juice)",
+        "1 tsp maple syrup",
+        "1½ tbsp olive oil",
+        "Salt and pepper (to taste)",
+        "1-2 tbsp chili oil"
+      ],
+      "instructions": [
+        "Cook the pasta according to package instructions. Drain and allow it to cool.",
+        "Prepare the dressing. In a bowl or jar, add the yogurt, pepperoncino juice, maple syrup, olive oil, salt and pepper.",
+        "Mix until a smooth dressing is formed. Just before adding to the pasta salad, drizzle the chili oil over the dressing and swirl it with a spoon to disperse it across the surface.",
+        "Add all of the salad ingredients to a large bowl, and pour the dressing over the top. Toss and serve immediately. Store in the fridge in a sealed container for up to 4 days."
+      ],
+      "batch_note": "",
+      "cameron_note": "",
+      "source_url": "https://plantyou.com/spicy-pasta-salad/",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "crockpot-pesto-chicken",
+      "name": "Crockpot Pesto Chicken",
+      "cuisine": "American",
+      "meal_type": "dinner",
+      "prep": "10 min",
+      "cook": "240 min",
+      "total": "",
+      "spice_level": "",
+      "serving_note": "",
+      "tags": [
+        "anylist-import"
+      ],
+      "equipment": "",
+      "macro_strings": {
+        "austin": "",
+        "cameron": ""
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        "2 lbs chicken breasts (skinless and boneless)",
+        "2 tbsp Italian seasoning",
+        "1 cup pesto",
+        "Sea salt and black pepper (to taste)",
+        "4 tbsp pesto",
+        "1  Roma tomato (chopped)",
+        "2 tbsp parmesan (grated)"
+      ],
+      "instructions": [
+        "Add the chicken breasts into a crockpot. Seasoning with Italian seasoning, salt, and black pepper on all sides.",
+        "Cover the chicken breasts with pesto using a tablespoon, covering all of the chicken.",
+        "Cook for 4-5 hours on low heat until the chicken fully cooks through. 2 hours in, check whether the chicken is not dry. If dry, pour in some vegetable broth and continue checking accordingly.",
+        "Cover the chicken with a little bit more pesto (1 tbsp per chicken breast) or any other sauce you love. Top up with chopped tomato and grated parmesan. Serve with rice, potatoes, pasta, or vegetables."
+      ],
+      "batch_note": "",
+      "cameron_note": "",
+      "source_url": "https://allnutritious.com/crockpot-pesto-chicken/",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "baked-caesar-chicken",
+      "name": "Baked Caesar Chicken",
+      "cuisine": "American",
+      "meal_type": "dinner",
+      "prep": "10 min",
+      "cook": "30 min",
+      "total": "",
+      "spice_level": "",
+      "serving_note": "",
+      "tags": [
+        "anylist-import"
+      ],
+      "equipment": "",
+      "macro_strings": {
+        "austin": "",
+        "cameron": ""
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        "2 lbs chicken breast (boneless, skinless, thin)",
+        "1/4 tsp salt",
+        "1/4 tsp black pepper",
+        "6 tbsp creamy Caesar dressing",
+        "1 cup parmesan (shredded)",
+        "1 cup Caesar-style croutons (crushed into crumbs)",
+        "1 tbsp butter (melted)",
+        "Fresh parsley (chopped)"
+      ],
+      "instructions": [
+        "Preheat the oven to 375F and prepare a casserole dish.",
+        "Pound the chicken breasts if they’re not thin and place them in a casserole dish. Sprinkle with salt and black pepper.",
+        "Spread creamy Caesar dressing on the chicken breasts and sprinkle with parmesan cheese all over the chicken breasts.",
+        "In a small bowl, combine crushed croutons with melted butter.",
+        "Sprinkle the crouton mixture over the cheese and bake in the oven for 20-30 minutes until the chicken fully cooks. If the cheese and croutons are browning up too much, just cover the casserole dish with foil.",
+        "Sprinkle with chopped parsley and serve."
+      ],
+      "batch_note": "",
+      "cameron_note": "",
+      "source_url": "https://cushyspa.com/baked-caesar-chicken/",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "loaded-zucchini-potato-soup",
+      "name": "Loaded zucchini potato soup",
+      "cuisine": "American",
+      "meal_type": "dinner",
+      "prep": "10 min",
+      "cook": "20 min",
+      "total": "",
+      "spice_level": "",
+      "serving_note": "",
+      "tags": [
+        "anylist-import"
+      ],
+      "equipment": "",
+      "macro_strings": {
+        "austin": "",
+        "cameron": ""
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        "1/2  yellow onion",
+        "2  garlic cloves",
+        "1 tbsp olive oil",
+        "3 lbs zucchini (2 large or 3-4 medium)",
+        "1 lb russet potatoes (about 2 medium)",
+        "3 cups chicken or vegetable broth",
+        "2 ounces cheddar cheese",
+        "salt to taste",
+        "4  strips of bacon",
+        "2 ounces cheddar cheese",
+        "1/2 bunch green onion or chives",
+        "1/2  leftover french bread for croutons"
+      ],
+      "instructions": [
+        "Place bacon on a tray and put into a cold oven. Turn oven to 425℉ on convection bake (if you have that setting). Bake for 10-20 minutes, until it reaches your desired crispiness.",
+        "While the bacon cooks, cut bread into crouton-sized pieces. Toss with olive oil, a pinch of salt, and pepper.",
+        "Once bacon is done, toast croutons on a tray in the 425℉ oven for about 5 minutes (until golden brown).",
+        "Dice garlic and onions. Heat olive oil in a large cooking pot or dutch oven. Add onion and garlic and cook for 5 minutes, until fragrant.",
+        "While the onions cook, scrub potatoes (leave the skin on for extra potato flavor and nutrients). Cut into large 2&quot; chunks and add to pot.  Add just enough broth to cover them. Bring to a boil then cook for 5 minutes with the lid on.",
+        "Meanwhile, cut the zucchini into large 2&quot; chunks. Add to the pot (if they aren&#39;t submerged in broth, that is ok as they will steam). Cook for another 5 minutes with the lid on.",
+        "While the soup simmers, prepare the toppings: chop the green onions (or chives), shred 2 ounces of cheese, and crumble the cooled bacon. If you need more time, you can let the soup continue to simmer, it won&#39;t affect the flavor.",
+        "Remove lid and puree the vegetables with an immersion blender (or transfer carefully to a blender). Add remaining broth until you reach the desired consistency.",
+        "Stir in 2 ounces of cheese. Add salt to taste (remember bacon and croutons will add some saltiness as well).",
+        "Add desired toppings to each bowl and enjoy."
+      ],
+      "batch_note": "",
+      "cameron_note": "",
+      "source_url": "https://askthefoodgeek.com/loaded-zucchini-potato-soup/",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "spicy-roasted-tomato-white-bean-stew",
+      "name": "Spicy Roasted Tomato White Bean Stew",
+      "cuisine": "Gluten-free, Vegan",
+      "meal_type": "dinner",
+      "prep": "5 min",
+      "cook": "45 min",
+      "total": "",
+      "spice_level": "",
+      "serving_note": "",
+      "tags": [
+        "anylist-import"
+      ],
+      "equipment": "",
+      "macro_strings": {
+        "austin": "",
+        "cameron": ""
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        "17 ounces (500gr) cherry tomatoes ((or other tomatoes of choice))",
+        "2 tbsp olive oil, divided",
+        "½ tsp salt, divided",
+        "Freshly cracked black pepper",
+        "1 medium white onion, diced",
+        "3 garlic cloves, minced",
+        "1 tbsp tomato paste",
+        "½ tsp red pepper flakes ((optional))",
+        "3 (15 oz) cans butter beans, drained and rinsed ((or cannellini beans))",
+        "2 cups vegetable broth or water",
+        "1  bay leaf",
+        "¼ cup chopped parsley",
+        "3 cups chopped greens of choice such as spinach, kale, etc.  ((optional))"
+      ],
+      "instructions": [
+        "Pre-heat oven to 350ºF (180ºC). Add tomatoes to a baking dish, drizzle 1 tbsp olive oil, and season with ¼ tsp salt and black pepper. Toss to coat and bake for 25-30 minutes or until soft.",
+        "In the last 10 minutes of roasting the tomatoes, start making the stew. To a medium-sized pot, heat 1 tbsp olive oil. Once hot, add onion and cook over medium heat for 3-4 minutes, until fragrant.",
+        "Add garlic, chili flakes, and tomato paste, and cook for 2-3 minutes, until the tomato paste is caramelized and darkened in color. Make sure to stir often to prevent burning. If it starts to burn, you can deglaze the pot with a splash of white wine, broth, or water.",
+        "Next add white beans, vegetable broth, ¼ tsp salt, black pepper, and the bay leaf. At this point, the tomatoes should be ready, so take them out of the oven and smash each one with the back of a spoon to release the juices. Add them to the pot and stir.",
+        "Bring to a boil and simmer on medium-low heat for 15-20 minutes or until the stew has thickened and the onions are cooked through. Make sure to stir it from time to time.",
+        "Finally, stir in the chopped parsley and your greens of choice (if using) and cook for 2-3 more minutes. Remove from the heat, taste and adjust the flavor if needed, adding more salt or black pepper as taste. Serve!"
+      ],
+      "batch_note": "",
+      "cameron_note": "",
+      "source_url": "https://sunglowkitchen.com/spicy-roasted-tomato-white-bean-stew/",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "freezer-lasagna-recipe",
+      "name": "Freezer Lasagna Recipe",
+      "cuisine": "American, Italian",
+      "meal_type": "dinner",
+      "prep": "30 min",
+      "cook": "137 min",
+      "total": "",
+      "spice_level": "",
+      "serving_note": "",
+      "tags": [
+        "anylist-import"
+      ],
+      "equipment": "",
+      "macro_strings": {
+        "austin": "",
+        "cameron": ""
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        "1 pound lean ground beef",
+        "1  white or yellow onion (finely chopped)",
+        "6 cloves garlic (minced)",
+        "1 teaspoon salt",
+        "½ teaspoon pepper",
+        "¼ cup heavy cream",
+        "56 ounces crushed tomatoes (2-28 ounce cans)",
+        "28 ounce can diced tomatoes (drained)",
+        "1 tablespoon Italian seasoning",
+        "1 teaspoon dried sweet basil",
+        "1¾ cups whole-milk ricotta cheese",
+        "1¼ cups grated Parmesan cheese (divided)",
+        "2  large eggs (lightly beaten)",
+        "¼ teaspoon salt",
+        "¼ teaspoon pepper",
+        "12  no-boil lasagna noodles",
+        "5 cups shredded mozzarella cheese"
+      ],
+      "instructions": [
+        "Brown ground beef in Dutch oven. Drain, and set aside.",
+        "Add onion to the now-empty Dutch oven and cook until softened, about 2 minutes.",
+        "Add garlic, salt, and pepper and cook until fragrant, about 30 seconds.",
+        "Add cream and simmer until liquid cooks down by half, about 2-3 minutes.",
+        "Stir in cooked meat, crushed tomatoes, diced tomatoes, and seasonings. Bring to simmer.",
+        "Reduce heat to low and simmer until flavors blend, about 3 minutes.",
+        "Remove pot from heat, cool sauce until it reaches room temperature.",
+        "Mix ricotta, 1 cup Parmesan, eggs, salt, and pepper in a large bowl.",
+        "Spread 1/4 cup meat sauce over bottom of 9- x 13-inch baking dish.",
+        "Place 3 noodles crosswise on top of sauce, evenly space 9 tablespoons ricotta mixture over noodles, and sprinkle evenly with 1¼ cups mozzarella; spoon 1½ cups sauce over cheese.",
+        "Repeat layering of noodles, ricotta mixture, mozzarella and sauce two more times.",
+        "Place 3 remaining noodles on top and spread with remaining sauce.",
+        "Cover with remaining 1¼ cups mozzarella and remaining ¼ cup Parmesan.",
+        "Let cool to room temperature.",
+        "Wrap with plastic wrap, and cover tightly with a layer of foil.",
+        "Freeze.",
+        "To serve, adjust oven rack to middle position and heat oven to 375F.",
+        "Remove plastic wrap, and re-cover lasagna with foil.",
+        "For a thawed lasagna: Bake 30-40 minutes, then remove the foil. Continue baking until the cheese is golden brown in spots and the sauce is bubbling, about 20-30 minutes.",
+        "For a frozen lasagna: Bake 1 hour and 15 minutes, then remove foil. Continue baking until cheese is golden brown in spots and sauce is bubbling, about 30 minutes. Depending on how cold your freezer is and how long the lasagna has been in the freezer, you may find that you need to increase the covered baking time.",
+        "Let lasagna stand for 15 minutes before serving."
+      ],
+      "batch_note": "",
+      "cameron_note": "",
+      "source_url": "https://ihearteating.com/freezer-lasagna-recipe/",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "super-simple-slow-cooker-fall-apart-roast-beef",
+      "name": "Super Simple Slow Cooker Fall Apart Roast Beef",
+      "cuisine": "",
+      "meal_type": "dinner",
+      "prep": "10 min",
+      "cook": "480 min",
+      "total": "",
+      "spice_level": "",
+      "serving_note": "",
+      "tags": [
+        "anylist-import"
+      ],
+      "equipment": "",
+      "macro_strings": {
+        "austin": "",
+        "cameron": ""
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        "2-3 lb chuck or shoulder beef roast",
+        "1 chopped onion",
+        "3/4 bone broth (water or red wine)",
+        "sea salt to taste",
+        "1 tsp pepper",
+        "1 tsp granulated garlic",
+        "1/2 tsp turmeric",
+        "1/2 tsp oregano",
+        "1/2 tsp thyme",
+        "1/2 tsp cumin",
+        "1/4 tsp allspice"
+      ],
+      "instructions": [
+        "Wash and season your beef roast with sea salt, pepper, granulated garlic, turmeric, oregano, thyme, cumin and allspice.",
+        "Add chopped onion to slow cooker.",
+        "In a skillet, brown roast on medium high for 2-3 minutes per side, including edges.",
+        "Transfer roast to slow cooker.",
+        "Turn off skillet and add 3/4 cup of liquid to pan. Scrape bottom to remove any stuck bits and then pour into slow cooker.",
+        "Put top on slow cooker and set to LOW 8 hrs or desired cooking time."
+      ],
+      "batch_note": "",
+      "cameron_note": "",
+      "source_url": "https://birtheatlove.com/super-simple-slow-cooker-fall-apart-roast-beef/",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "cajun-potato-soup",
+      "name": "Cajun Potato Soup",
+      "cuisine": "",
+      "meal_type": "dinner",
+      "prep": "15 min",
+      "cook": "35 min",
+      "total": "",
+      "spice_level": "",
+      "serving_note": "",
+      "tags": [
+        "anylist-import"
+      ],
+      "equipment": "",
+      "macro_strings": {
+        "austin": "",
+        "cameron": ""
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        "1 tbsp vegetable oil",
+        "1  ring 13.5 oz andouille sausage, sliced into ¼-inch rounds",
+        "1  large onion diced (about 1 cup)",
+        "½ cup diced celery about 1 rib",
+        "½  red bell pepper diced",
+        "2 tsp minced garlic",
+        "1 tsp Cajun seasoning",
+        "½ tsp kosher salt",
+        "½ tsp black pepper",
+        "½ tsp paprika",
+        "¼ tsp cayenne pepper",
+        "4 cups 960 g chicken broth",
+        "4  large russet potatoes peeled and cubed",
+        "½ cup 119 g heavy whipping cream",
+        "1 cup 113 g mild cheddar cheese, shredded",
+        "Chopped parsley for garnish"
+      ],
+      "instructions": [
+        "Heat oil in a large pot over medium heat.",
+        "Add sausage and cook until browned, about 3–4 minutes. Remove and set aside.",
+        "In the same pot, sauté onion, celery, and bell pepper for 5–8 minutes until softened.",
+        "Add garlic and cook for 1 minute.",
+        "Add Cajun seasoning, salt, pepper, paprika, cayenne, broth, and potatoes.",
+        "Simmer for 20–25 minutes until potatoes are tender.",
+        "Return sausage to the pot. Stir in cream and cheddar.",
+        "See full steps with tips & photos → https://theboatshedcafe.com/cajun-potato-soup/"
+      ],
+      "batch_note": "",
+      "cameron_note": "",
+      "source_url": "https://theboatshedcafe.com/cajun-potato-soup/",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "creamy-lemon-and-pea-risotto-with-salmon",
+      "name": "Creamy Lemon and Pea Risotto with Salmon",
+      "cuisine": "American",
+      "meal_type": "dinner",
+      "prep": "10 min",
+      "cook": "30 min",
+      "total": "",
+      "spice_level": "",
+      "serving_note": "",
+      "tags": [
+        "anylist-import"
+      ],
+      "equipment": "",
+      "macro_strings": {
+        "austin": "",
+        "cameron": ""
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        "2 1/2 cups Chicken Bone Broth (or low-sodium chicken OR vegetable stock)",
+        "1 tbsp. Olive Oil",
+        "1/2 cup finely chopped Yellow Onion",
+        "2 cloves Garlic (minced)",
+        "Kosher Salt (or Sea Salt)",
+        "1/2 cup dry Arborio Rice",
+        "1/4 cup dry White Wine",
+        "1 tbsp. Lemon Zest",
+        "1/4 cup Mascarpone",
+        "1/4 cup finely grated Parmesan",
+        "1/3 cup frozen Peas",
+        "1 tbsp. freshly squeezed Lemon Juice (plus more to taste)",
+        "freshly cracked Black Pepper  (to taste)",
+        "6 oz. Salmon Fillet",
+        "Kosher Salt &amp; Freshly Cracked Black Pepper",
+        "2 tsp. Olive Oil"
+      ],
+      "instructions": [
+        "Warm the Broth. Pour 2 1/2 cups&#32;Chicken Bone Broth into a small saucepan set over low heat. Keep it warm throughout the cooking process.",
+        "Cook the Onions + Garlic. In a skillet or saute pan, heat 1 tbsp.&#32;Olive Oil over medium heat. Stir in 1/2 cup&#32;finely chopped Yellow Onion with a generous pinch of salt and cook until softened and lightly golden, about 5-6 minutes. Stir in 2 cloves&#32;Garlic (minced), and cook for about 30 seconds until fragrant.",
+        "Toast the Rice. Stir 1/2 cup&#32;dry Arborio Rice into the onions and garlic and cook for 2-3 minutes until only a small white dot remains in the center of most of the grains of rice.",
+        "Add Wine. Pour 1/4 cup&#32;dry White Wine into the pan, stirring frequently until absorbed, about 2-3 minutes.",
+        "Stir in Broth (Slowly). Add one ladle of warm broth at a time, stirring it into the rice until it is mostly absorbed. Continue adding the remaining broth, one ladle at a time, stirring slowly and frequently as it absorbs into the rice. (This process takes about 20-25 minutes, and is the perfect excuse to sip on a glass of that wine you added in the previous step. 🙂 ) You’ll notice the risotto taking on a thicker, creamy texture towards the end of the cooking process. Once the broth is completely added, try a bite of the risotto. If it has a slight crunch to it, slowly stir in warm water, 2-3 tablespoons  at at time, until the rice is al dente but not crunchy.",
+        "Season the Salmon. About halfway through cooking the risotto, get the 6 oz.&#32;Salmon Fillet from the refrigerator, pat it dry, and season it with a healthy pinch of salt and pepper. Let it rest at room temperature for about 10-15 minutes while you finish the risotto. (It&#39;s okay to step away from the risotto for a minute or two for this part).",
+        "Finish the Risotto. Once the risotto is fully cooked, turn the heat beneath the pan to low. Stir in the 1 tbsp.&#32;Lemon Zest, 1/4 cup&#32;Mascarpone, and 1/4 cup&#32;finely grated Parmesan until smooth and creamy. Stir in 1/3 cup&#32;frozen Peas and 1 tbsp.&#32;freshly squeezed Lemon Juice, then season to taste with salt and pepper. Cover the pan with a lid and keep it warm while you cook the salmon.",
+        "Cook the Salmon. In a separate skillet or saute pan, warm 2 tsp.&#32;Olive Oil over medium heat. Cook the salmon skin-side down for 3-4 minutes, or until it easily releases from the pan. Flip and cook it for another 2-3 minutes, or until it’s cooked to your preferred temperature.",
+        "Serve. Divide the risotto between two warm bowls, then top each bowl with half of of the salmon. Serve with more freshly grated parmesan, a squeeze of lemon, or a crack of black pepper. (Or thinly sliced lemon if you’re feeling fancy!)"
+      ],
+      "batch_note": "",
+      "cameron_note": "",
+      "source_url": "https://aflavorjournal.com/creamy-lemon-and-pea-risotto-with-salmon/",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "browned-butter-toffee-chocolate-chip-cookies",
+      "name": "Browned Butter Toffee Chocolate Chip Cookies",
+      "cuisine": "American",
+      "meal_type": "dinner",
+      "prep": "20 min",
+      "cook": "15 min",
+      "total": "",
+      "spice_level": "",
+      "serving_note": "",
+      "tags": [
+        "anylist-import"
+      ],
+      "equipment": "",
+      "macro_strings": {
+        "austin": "",
+        "cameron": ""
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        "2  sticks (227 grams) unsalted butter",
+        "1/2  (100 grams) cup granulated sugar",
+        "1 cup (200 grams) lightly packed dark brown sugar",
+        "1 1/2 cups (190 grams) all-purpose flour",
+        "1 cup (127 grams) bread flour",
+        "1 teaspoon baking soda",
+        "1/2 teaspoon baking powder",
+        "1 teaspoon fine sea salt",
+        "1 teaspoon instant espresso powder,  (optional)",
+        "2  large eggs plus 1 egg yolk,  (at room temperature)",
+        "2 teaspoons vanilla",
+        "10 ounces (283 grams) semisweet chocolate,  (chopped)",
+        "1 cup homemade toffee bits, (or Heath brand)",
+        "Flaky sea salt,  (for finishing)"
+      ],
+      "instructions": [
+        "In a medium stainless steel sauté pan set over medium heat, melt the butter. Swirling the pan occasionally, continue to cook the butter. It should become foamy with audible cracking and popping noises. Once the crackling becomes quieter, continue to swirl the pan or stir until the butter develops a nutty aroma and brown bits start to form at the bottom. Once the bits are amber in color, remove from heat and pour into a mixing bowl. Be sure to keep the brown bits at the bottom of the pan as well, they hold so much flavor!",
+        "Note: You do NOT need to measure the butter after browning, I&#39;ve engineered this recipe to account for the average water loss.",
+        "Add the granulated sugar and brown sugar to the hot butter, stirring to combine. Set aside to cool to room temperature.",
+        "In a medium bowl, combine the flours, baking soda, baking powder, salt, and espresso powder.",
+        "To the cooled butter mixture, whisk in the eggs, yolk, and vanilla until combined. Gradually stir in the flour mixture with a rubber spatula. Stir in the chocolate chunks and toffee bits.",
+        "Wrap dough in plastic wrap and refrigerate for at least 4 hours, preferably 24 hours, but no more than 72 hours. You can chill the scooped dough so long as it&#39;s well sealed to avoid drying out. If you chill the entire mass of dough, let it come to room temperature so it&#39;s soft enough to scoop.",
+        "Preheat the oven to 350ºF. Line baking sheets with parchment paper.",
+        "Divide the dough into 3-tablespoon sized balls using a large cookie scoop and drop onto prepared baking sheets. Dough may be slightly challenging to scoop.",
+        "At this point, you can portion the dough, place it on a baking sheet, and freeze just until solid. Remove frozen balls of dough to an airtight container and store for up to 6 weeks.",
+        "Bake for 12 to 14 minutes, or until golden brown. Remove from the oven and immediately use a round cookie or biscuit cutter slightly larger than each cookie to gently reshape them into perfectly round, thicker cookies.",
+        "Sprinkle flaky sea salt on top of the cookies, if desired. Let cookies cool for 2 minutes before removing to wire racks to cool completely.",
+        "Store in an airtight container at room temperature for up to 3 days."
+      ],
+      "batch_note": "",
+      "cameron_note": "",
+      "source_url": "https://handletheheat.com/browned-butter-toffee-chocolate-chip-cookies/",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "ricotta-meatballs",
+      "name": "Ricotta Meatballs",
+      "cuisine": "Italian",
+      "meal_type": "dinner",
+      "prep": "25 min",
+      "cook": "45 min",
+      "total": "",
+      "spice_level": "",
+      "serving_note": "",
+      "tags": [
+        "anylist-import"
+      ],
+      "equipment": "",
+      "macro_strings": {
+        "austin": "",
+        "cameron": ""
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        "32 oz. marinara sauce",
+        "½ cup olive oil (divided)",
+        "15 oz. Ricotta cheese",
+        "1 teaspoon garlic (minced)",
+        "1 teaspoon EACH: dried basil, oregano, parsley",
+        "1  yellow onion (finely diced)",
+        "3 cloves garlic (minced)",
+        "1  Egg (whisked)",
+        "½ cup half and half (can sub cream)",
+        "½ cup Italian breadcrumbs",
+        "½ cup Parmesan cheese",
+        "1/3 cup roughly chopped parsley (plus more to garnish)",
+        "1 teaspoon EACH: Italian seasoning, mustard powder, salt",
+        "½ teaspoon Pepper",
+        "1 lb. ground chuck (80% lean)",
+        "½ lb. ground pork (or ground sausage or veal)"
+      ],
+      "instructions": [
+        "Combine the Herb Ricotta mixture and set aside.",
+        "Heat 1 tbsp. olive oil in a skillet and add the finely diced onion. Soften for 5 minutes, then add the garlic and cook for 1 more minute. Set aside and let cool.",
+        "In a large bowl, combine the egg, half and half, breadcrumbs, Parmesan, parsley, Italian seasoning, mustard powder, and ¾ cup of the herb Ricotta mixture. Add the cooled onions/garlic.",
+        "Season the meat with salt and pepper, add it to the large bowl and gently mix it with your hands until well-combined. (Don’t overwork the meat or it will become tough.)",
+        "Roll into 1 ½-inch meatballs and transfer them to the fridge for 15 minutes.",
+        "Heat remaining oil in a large skillet over medium-high heat. Use enough oil to cover the meatballs almost halfway.",
+        "Brown the meatballs in batches, leave plenty of room around each so that you can easily rotate them without having to pick them up to flip them. Brown for about 1 ½ minutes per side. Use kitchen tongs to remove and set aside.",
+        "Remove excess oil from the skillet and add 32 oz. of marinara sauce. The sauce will thicken and reduce during cooking so I recommend that you add about ¼+ cup water as well so that the sauce doesn’t get too thick. You can do this now or later as you judge the consistency. (The ricotta topping thickens it more as well.)",
+        "Add the meatballs to the skillet and spoon the sauce on top. Cook for 30 minutes over medium heat, partially covered. Use a small cookie scoop to dollop the remaining herb ricotta mixture on top and allow it to heat through during the last 15 minutes.",
+        "Garnish with parsley and serve."
+      ],
+      "batch_note": "",
+      "cameron_note": "",
+      "source_url": "https://thecozycook.com/ricotta-meatballs/",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "classic-thai-beef-salad-yum-nua",
+      "name": "Classic Thai Beef Salad (Yum Nua)",
+      "cuisine": "Thai",
+      "meal_type": "dinner",
+      "prep": "15 min",
+      "cook": "15 min",
+      "total": "",
+      "spice_level": "",
+      "serving_note": "",
+      "tags": [
+        "anylist-import"
+      ],
+      "equipment": "",
+      "macro_strings": {
+        "austin": "",
+        "cameron": ""
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        "3/4 lb (340 g) beef tenderloin, rib-eye, sirloin, or striploin (room temperature)",
+        "1 tbsp soy sauce",
+        "dashes  pepper",
+        "2  small cucumber or 1 English cucumber (seeded and sliced)",
+        "4 oz (113 g) cherry tomato (cut in half)",
+        "1  shallot (sliced)",
+        "1/4 cup (60 ml) mint (loosely packed and torn)",
+        "1/4 cup (60 ml ) cilantro (loosely packed and torn)",
+        "1 1/2 tbsp fish sauce",
+        "1 tbsp palm sugar (or light brown sugar)",
+        "2 tbsp fresh lime juice",
+        "1  fresh red chili (finely minced)"
+      ],
+      "instructions": [
+        "Season your beef steak with soy sauce and pepper. Let it sit for 15 minutes.",
+        "Grill your steak over a very hot grill to get the grill marks. Cook to your desired done-ness. Let the steak rest for 5 minutes, then slice thinly across the grain.",
+        "For the salad dressing, mix together the fish sauce, sugar, lime juice and chili in a small bowl. Taste and adjust sweetness, saltiness and tartness according to your taste.",
+        "In a large mixing bowl, combine beef, cucumber, tomato, shallot, and herbs. Start with half the dressing, then taste and adjust — it&#39;s easy to overdo it. Always toss the salad just before serving to keep the greens crisp and the flavors balanced."
+      ],
+      "batch_note": "",
+      "cameron_note": "",
+      "source_url": "https://beyondkimchee.com/classic-thai-beef-salad/",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "air-fryer-chicken-kabobs-kebabs",
+      "name": "Air Fryer Chicken Kabobs (Kebabs)",
+      "cuisine": "American, Mediterranean",
+      "meal_type": "dinner",
+      "prep": "15 min",
+      "cook": "15 min",
+      "total": "",
+      "spice_level": "",
+      "serving_note": "",
+      "tags": [
+        "anylist-import"
+      ],
+      "equipment": "",
+      "macro_strings": {
+        "austin": "",
+        "cameron": ""
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        "1.5 lb boneless skinless chicken breast (cut into 1-inch cubes)",
+        "2  bell peppers (red, yellow or orange)",
+        "2  small zucchini",
+        "1/2  red onion (large)",
+        "3 tbsp olive oil",
+        "3 tbsp red wine vinegar",
+        "3  garlic cloves (minced)",
+        "1.5 tsp salt (kosher or Himalayan pink salt)",
+        "1/4 tsp  ground black pepper",
+        "1/2 tsp onion powder",
+        "1/2 tsp dried thyme",
+        "1/2 tsp dried oregano",
+        "1/2 tsp dried basil leaves"
+      ],
+      "instructions": [
+        "Make the marinade. In a large bowl whisk together olive oil, red wine vinegar, mincedfresh garlic, oregano, basil, thyme, onion powder, salt and pepper.",
+        "Place cubed chicken pieces in the marinade and stir to coat.",
+        "While the meat is sitting in the marinade, slice the zucchini into ½ inch coins, remove the seeds and stems from bellpeppers and cut them into 1-inch pieces. Carefully separate layers of red onionand cut each layer into pieces. Your zucchini, pepper and onion pieces shouldbe similarly sized. That way they’ll cook at the same size and the edges won’t brown too fast.",
+        "Place cut up veggies in the bowl with the chicken and stir everything together until all veggies are shiny and coated in seasoning.",
+        "Place the bowl in the fridge and let sit for at least 30 minutes or as long as 24 hours.",
+        "Skewer veggies and chicken pieces onto the sticks using 3-4 chicken pieces per stick. I like tp start and end with a piece of bell pepper.",
+        "Preheat your air fryer to 370 degrees for afew minutes. Place 4-5 skewers in the air fryer basket in one single layer. They should be spaced out evenly and ideally not touch each other much to promote even browning.",
+        "Air fry for 12-15 minutes or until the internaltemperature of the chicken reaches 160 degrees Fahrenheit. Turn the kabobs once after 7 minutes. Repeat with second batch."
+      ],
+      "batch_note": "",
+      "cameron_note": "",
+      "source_url": "https://whollytasteful.com/air-fryer-chicken-kabobs/",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "red-beans-and-rice",
+      "name": "Red Beans And Rice",
+      "cuisine": "American, American/Southern",
+      "meal_type": "dinner",
+      "prep": "20 min",
+      "cook": "120 min",
+      "total": "",
+      "spice_level": "",
+      "serving_note": "",
+      "tags": [
+        "anylist-import"
+      ],
+      "equipment": "",
+      "macro_strings": {
+        "austin": "",
+        "cameron": ""
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        "1 pound dry red beans",
+        "2 tablespoons olive oil",
+        "12 to 14 ounces andouille sausage (cut into 1/4-inch slices)",
+        "½ tablespoon butter",
+        "1 large yellow onion (diced)",
+        "2  celery ribs (diced)",
+        "1 small red bell pepper (diced)",
+        "1 small green bell pepper (diced)",
+        "6 cloves garlic (minced)",
+        "1 teaspoon salt (or to taste)",
+        "1 teaspoon dried oregano",
+        "½ teaspoon dried thyme",
+        "½ teaspoon paprika",
+        "⅛ teaspoon ground cayenne red pepper (or to taste)",
+        "freshly ground black pepper (to taste)",
+        "6 to 7 cups low sodium vegetable broth (you can also use chicken broth)",
+        "2  bay leaves",
+        "½ cup chopped fresh parsley (plus more for garnish)",
+        "¼ cup chopped fresh green onions (plus more for garnish)",
+        "1½ cups long grain brown rice or white rice (cooked according to the directions on the package)"
+      ],
+      "instructions": [
+        "Soak the beans. Put the dry beans in a large soup pot or a large bowl; cover in water and soak for 8 hours or overnight. Water should come up about 2 inches over the beans.",
+        "Brown the andouille sausages. When ready to cook, heat 2 tablespoons olive oil in a large Dutch oven or a heavy pot over medium heat. Add the sausage slices to the heated oil and cook until browned on both sides. Stir frequently. Remove the browned sausages from the pot and set them aside.",
+        "Sauté the vegetables. Add butter to the pot and let it melt. Stir in the onions and cook over medium heat for 3 minutes or until starting to soften. Add celery and bell peppers; continue to cook for 4 minutes. Add a little more butter if needed. Stir in garlic and cook for 15 seconds.",
+        "Stir in the seasonings and broth. Add salt, oregano, thyme, paprika, cayenne, and black pepper; continue to cook for 1 more minute. Pour in the vegetable broth and stir, scraping up all the browned bits from the bottom of the pot.",
+        "Add the beans and sausage. Drain the soaked beans and rinse; add the beans to the pot and stir in the browned andouille sausage.",
+        "Simmer. Add the bay leaves, increase the heat to high, and bring the mixture to a boil. Reduce heat to low; cover and simmer for 1-½ to 2 hours or until beans are soft and tender. Start checking for doneness around the 1-½ hour mark by mashing or squeezing the beans between your fingers. The skin should be a bit resistant to pressure, but the interior should be the consistency and appearance of a baked potato.",
+        "Mash the beans. When the beans are cooked through, remove the bay leaves from the pot and discard them. Remove 1 cup of beans to a bowl; mash the beans with the back of a fork, and then return them to the pot and stir until blended.",
+        "Adjust. If the mixture is too thick, add up to 1 cup of water or broth. Taste the mixture for salt, pepper, and seasonings, and adjust accordingly.",
+        "Finish and serve. Stir in the parsley and green onions, and cook for an additional 5 minutes. Remove the beans from the heat and serve them over cooked rice."
+      ],
+      "batch_note": "",
+      "cameron_note": "",
+      "source_url": "https://diethood.com/red-beans-and-rice/",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "smores-cheesecake",
+      "name": "S'mores Cheesecake",
+      "cuisine": "American",
+      "meal_type": "dinner",
+      "prep": "45 min",
+      "cook": "70 min",
+      "total": "",
+      "spice_level": "",
+      "serving_note": "",
+      "tags": [
+        "anylist-import"
+      ],
+      "equipment": "",
+      "macro_strings": {
+        "austin": "",
+        "cameron": ""
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        "250 g graham crackers or digestive",
+        "2 tbsp  granulated sugar",
+        "75 g butter",
+        "800 g full fat cream cheese (room temperature)",
+        "250 g granulated sugar",
+        "200 g sour cream  (18% room temperature)",
+        "1 1/2 tbsp cornstarch",
+        "2 1/2 tsp vanilla extract",
+        "4  large eggs",
+        "100 g semi sweet dark chocolate",
+        "100 g heavy cream",
+        "10 g butter",
+        "90 g egg whites (about 2-3 egg whites)",
+        "180 g granulated sugar",
+        "1/2 tsp vanilla paste"
+      ],
+      "instructions": [
+        "Before starting, preheat the oven to 160ºC/ 325ºF conventional oven. Prepare a 23 cm/9-inch springform tin lined with parchment paper in the bottom.",
+        "In a food processor, add the cookies and granulated sugar and blend it all together until a fine sand-like texture. Melt the butter. Add the melted butter to the food processor and blend it together with the blended cookies.",
+        "In a 23 cm/ 9-inch spring cake pan add parchment paper to the bottom. Add the cookie crumbs and press the cookie crumbs down with the bottom of a glass, and up against the side of the pan, so it’s well packed together and flattened out.",
+        "Bake it for 10 minutes. While it cools down, make the cheesecake filling. Keep the oven turned on.",
+        "With a hand mixer or in a stand mix using the paddle attachment, cream the cream cheese for 1 minute on low speed. Add granulated sugar and let it mix for 1 minute on low speed.",
+        "In a small bowl, mix together the sour cream and cornstarch until smooth. Add it to the cream cheese with the vanilla extract and let it mix on low speed until combined. Then add two eggs at a time and let it mix on low speed until combined. Once all the eggs have mixed in, scrape down the sides of the bowl and give it a final mix to make sure all the ingredients have incorporated.",
+        "Pour the cheesecake batter into the spring pan.",
+        "Boil up water in a kettle. Place the springform pan in a 25 cm/10 inch cake pan. Place the cake pan in another baking pan or roasting pan and fill it with hot water ⅔ up the side of the pan. This method will prevent water from getting into the crust.",
+        "Alternatively, add a triple layer of aluminium foil around the cake pan to safely seal it from the water before placing it in a water bath. There might be a possibility of water leaking in, so make sure it's covered well if choosing this method.",
+        "Bake for 1 hour and 10-15 minutes.",
+        "Once the time has passed, give the tray a very gentle shake. The cheesecake should still be a small wobble in the middle. Turn off the oven and have the oven door slightly open and let the cheesecake cool down in the oven for 1 hour.",
+        "Then take it out of the oven and remove it from the water bath. Take off the aluminium foil, if added, and place the cheesecake on a wire rack. Let it cool down fully for about 1 hour to room temperature.",
+        "Finally, once at room temperature, place it in the fridge and let it set for at least 6 hours, preferable overnight before eating.",
+        "Melt the chocolate and butter in the microwave or over a double boiler. Once melted add the cold heavy cream and with a rubber spatula gently stir it together until smooth.",
+        "Move the cheesecake to a serving dish and pour the ganache over the cheesecake. Place the cheesecake in the fridge while making the meringue.",
+        "In a heat safe mixing bowl of your stand mixer or mixing bowl, add the egg whites and sugar. Place the bowl over a saucepan of simmering water, making sure the water does not touch the bowl. With the whisk attachment to your mixer, use it to constantly stir around the mixture until the sugar granules have melted together with the egg whites.",
+        "Take it off the heat and place it in your stand mixer or using a hand mixer, and immediately set it at the highest speed. Let it mix for 5-6 minutes until the meringue creates stiff peaks. Then add the vanilla and whisk it in.",
+        "Add the meringue on top of the cheesecake and with a kitchen blowtorch give it a torch."
+      ],
+      "batch_note": "",
+      "cameron_note": "",
+      "source_url": "https://juliemarieeats.com/smores-cheesecake/",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "cornmeal-brown-butter-cinnamon-rolls",
+      "name": "Cornmeal Brown Butter Cinnamon Rolls",
+      "cuisine": "American",
+      "meal_type": "dinner",
+      "prep": "180 min",
+      "cook": "30 min",
+      "total": "",
+      "spice_level": "",
+      "serving_note": "",
+      "tags": [
+        "anylist-import"
+      ],
+      "equipment": "",
+      "macro_strings": {
+        "austin": "",
+        "cameron": ""
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        "23 grams active dry yeast (5 1/2 teaspoons)",
+        "330 grams warm water (between 80-95°F) (1 cup and 6 tablespoons)",
+        "750 grams all-purpose flour (5 cups and 6 tablespoons)",
+        "10 grams Diamond Crystal kosher salt (2 teaspoons)",
+        "110 grams  granulated sugar (1/2 cup)",
+        "1 medium egg",
+        "113 grams softened unsalted butter (1/2 cup )",
+        "180 grams heavy cream (3/4 cup, for using right before baking)",
+        "90 grams yellow cornmeal (1/2 cup)",
+        "226 grams salted butter (1 cup)",
+        "110 grams  dark brown sugar (1/2 cup, lightly packed)",
+        "1/2 teaspoon Diamond Crystal kosher salt",
+        "90 grams yellow cornmeal  (1/2 cup)",
+        "113 grams salted butter (1/2 cup)",
+        "50 grams  turbinado sugar (1/4 cup)",
+        "1/2 teaspoon  Diamond Crystal kosher salt",
+        "50 grams powdered sugar (1/2 cup, packed)",
+        "1 tablespoon bourbon of choice",
+        "1 tablespoon water"
+      ],
+      "instructions": [
+        "Begin all the components of the recipe 24 hours before you want to bake.",
+        "In the bowl of a stand mixer, add the yeast and water and whisk together. Add the flour, salt, sugar and egg and use the hook attachment on the lowest setting of the stand mixer to mix together.",
+        "Adding one cube at a time, add the softened butter to the dough. Let each piece mix in before adding the next. The dough will be shaggy first, then sticky, then tough. When it is mostly together, turn the mixer to medium and let it mix until the dough is smooth and completely pulling away from the sides, 4-5 minutes. This dough is dense, so feel free to press it down into the mixer if it starts to creep up the sides of the bowl.",
+        "Transfer the dough to a large bowl, cover, and let it proof in the fridge for 18-24 hours.",
+        "Prepare the cornmeal brown butter filling. Set a pan over medium heat and add the cornmeal. Toast for 1-2 minutes or until fragrant, then add the butter. Let the butter foam, stirring occasionally, until the cornmeal and the butter have both turned into a light shade of brown and smell nutty, 4-5 minutes. Transfer this to a bowl to cool.",
+        "When the cornmeal brown butter has cooled to room temperature, whisk in the brown sugar and salt. It&#39;s important not to do this too soon, if the butter is warm it will melt the sugar and make the mixture unspreadable. Only add the sugar when the butter is cool but still pliable. Cover and let this sit at room temperature overnight.",
+        "To make the cornmeal brown butter crumble topping, repeat the toasting of the cornmeal and browning of the butter with the second batch of ingredients. However this time, just transfer the cornmeal brown butter to a bowl. You&#39;ll add the sugar the next day. Cover this and let it sit at room temperature overnight. This is so that the cornmeal will absorb the butter and turn into a crumble-like texture.",
+        "The next day, remove the dough from the fridge. Lightly punch it down and transfer it to a work surface. No need to flour the surface, the dough will be tacky, like play-dough.",
+        "Use a rolling pin to roll the dough into a large square, 24 inches by 24 inches. Whisk the brown sugar filling until it is room temperature and spreadable. Spread it evenly onto the dough.",
+        "Working from the furthest edge from you, roll the dough toward you, making a very tight coil.",
+        "Measure and mark down the roll every 2 inches. Cut the roll into 12 2-inch tall cinnamon rolls.",
+        "Line a sheet with parchment paper.",
+        "Pull the dough edge of each cinnamon roll out but 2 inches, then pull it over to cover the bottom of the cinnamon roll. This helps make it so that no filling escapes. Evenly space the cinnamon rolls on the baking sheet, and firmly press each one down so that they are half as tall (see blog photos for reference).",
+        "Cover the rolls with plastic wrap and let rise for 2 hours at room temperature.",
+        "Position a rack in the center of the oven and preheat to 400°F.",
+        "When the rolls are ready to bake, drizzle the tops evenly with heavy cream. Aim to get as much on the rolls as possible, anything that falls to the pan won&#39;t be as nice.",
+        "Bake the cinnamon rolls for 22-25 minutes or until golden.",
+        "While the cinnamon rolls are baking, take the cornmeal crumble topping from yesterday. It will look completely solid, but use your hands to crumble it out of the bowl. It should adopt a crumble topping texture. Add the turbinado sugar and salt and lightly mix everything together with your hands. Set aside.",
+        "In a small bowl or measuring cup, whisk together the bourbon glaze.",
+        "When the cinnamon rolls are out of the oven, brush them all with the bourbon glaze, then scatter the cornmeal brown butter crumble topping on top. Serve warm!"
+      ],
+      "batch_note": "",
+      "cameron_note": "",
+      "source_url": "https://justinesnacks.com/cornmeal-brown-butter-cinnamon-rolls/",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "french-toast-iced-latte",
+      "name": "French Toast Iced Latte",
+      "cuisine": "American",
+      "meal_type": "dinner",
+      "prep": "15 min",
+      "cook": "",
+      "total": "",
+      "spice_level": "",
+      "serving_note": "",
+      "tags": [
+        "anylist-import"
+      ],
+      "equipment": "",
+      "macro_strings": {
+        "austin": "",
+        "cameron": ""
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        "225 g water ((1 c.))",
+        "120 g pure maple syrup ((¼ c. + 2 tbsp.))",
+        "100 g light brown sugar ((½ c.))",
+        "2 tsp. butter vanilla bakery emulsion",
+        "1 tsp. ground cinnamon",
+        "2 tbsp. whole milk",
+        "3 tbsp. heavy cream",
+        "1 tbsp. french toast syrup",
+        "1-2 tbsp. french toast syrup",
+        "6 oz. milk of choice",
+        "2 oz. espresso"
+      ],
+      "instructions": [
+        "To a small saucepan, add the water, maple syrup, brown sugar, butter vanilla bakery emulsion, and ground cinnamon. Set the mixture over medium heat, stirring ocasionally.",
+        "Let the syrup come to a simmer, then remove it from the heat and transfer it to a container to cool.",
+        "Once you&#39;re ready to make your drink, add the milk, heavy cream, and 1 tbsp. of the french toast syrup to a medium sized cup or container. Froth or shake the mixture until it&#39;s thick and foamy.",
+        "Fill a medium sized cup with ice. Pour 1-2 tbsp. of the french toast syrup over the ice, depending on how sweet you&#39;d like the drink to be.",
+        "Pour the milk over the ice.",
+        "Brew 2 shots of espresso, then add them into the drink.",
+        "Top with the french toast cold foam and a dusting of cinnamon. Serve and enjoy!"
+      ],
+      "batch_note": "",
+      "cameron_note": "",
+      "source_url": "https://freshbeanbakery.com/french-toast-iced-latte/",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "banana-bread-cinnamon-rolls-with-peanut-butter-frosting",
+      "name": "Banana Bread Cinnamon Rolls with Peanut Butter Frosting",
+      "cuisine": "American",
+      "meal_type": "dinner",
+      "prep": "20 min",
+      "cook": "35 min",
+      "total": "",
+      "spice_level": "",
+      "serving_note": "",
+      "tags": [
+        "anylist-import"
+      ],
+      "equipment": "",
+      "macro_strings": {
+        "austin": "",
+        "cameron": ""
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        "1/2 cup warm water ((110°F))",
+        "1 tablespoon honey",
+        "2 1/4 teaspoons instant active yeast ((1 packet))",
+        "1/3 cup sugar ((divided))",
+        "1/2 cup milk",
+        "6 tablespoons butter",
+        "1 cup mashed ripe bananas",
+        "3 1/2 cups all-purpose flour ((1:1 gluten-free flour; plus 1/2-1 cup for working the dough))",
+        "1 teaspoon kosher salt",
+        "1 teaspoon ground cinnamon",
+        "1/4 teaspoon ground allspice",
+        "1 cup packed brown sugar",
+        "1 1/2 teaspoons ground cinnamon",
+        "4 tablespoons butter",
+        "1 cup heavy cream ((optional if you want a Cinnabon-style cinnamon roll))",
+        "8 ounces cream cheese ((room temperature))",
+        "1 teaspoon vanilla extract",
+        "1 1/2 cups powdered sugar",
+        "1 cup creamy peanut butter",
+        "4 tablespoons *May need up to 4  additional tablespoons of milk to make frosting smooth, depending on Peanut Butter used."
+      ],
+      "instructions": [
+        "In a mixing bowl, combine 110°F warm water, honey, yeast, and half of the sugar. Allow it to rest for 5 minutes until bubbles form. NOTE: The top should be really foamy and this will show the yeast has activated. If the yeast is not foamy it has not activated.",
+        "Heat milk, remaining sugar, and butter in a saucepan over medium/low heat until it&#39;s scalded – bubbles forming on the edges, but not boiling. Remove from heat and let it cool partially.",
+        "In a separate mixing bowl, add the bananas and mash well with a fork. Add a dough hook attachment or paddle (not a whip) If mixing by hand I recommend a wooden spoon.",
+        "Turn the mixer to low, and while the mixer is running, add the milk mixture to the banana mixture.",
+        "With the mixer still running, incorporate the yeast mixture into the bowl.",
+        "Mix flour, salt, and spices separately, then add to the mixing bowl in half increments. Allow each addition to mix before adding more. After all flour is added, mix for an additional 3 minutes. NOTE: This dough is extremely sticky. Use a spatula to remove from the mixing bowl.",
+        "Lightly flour both your work surface, a rolling pin and the dough, as it will be sticky.",
+        "Gently fold the dough about 5 times, being careful not to deflate it.",
+        "Roll out the dough to a 9x12-inch rectangle.",
+        "Combine butter, brown sugar, and cinnamon in a bowl, then spread the mixture evenly over the dough. NOTE: I use my hands for this part. It will be a little crumbly in texture.",
+        "Roll up the dough tightly and cut into 9 rolls. TIP: you can use dental floss to cut each roll or a sharp knife. If you use a knife wipe the blade off after each cut.",
+        "Place the rolls in a buttered 9x11x2-inch baking dish or a 12-inch skillet. Cover with plastic wrap and a towel, allow the dough to rise until doubled in size. (It should be almost pillowy looking.) A warmer area in the kitchen that is not drafty will allow the dough to rise quicker. Approximately 1-3 hours for rise time. Rise time will depend on the moisture and temperature in the house. TIP: I use a dough rise heat pad that I highly recommend if you have it available. It will speed up the rise time.",
+        "Preheat the oven to 350°F.",
+        "Uncover the baking dish and pour the heavy cream over the top if desired.The heavy cream will make the exterior of the cinnamon roll more soft vs crunchy.",
+        "Bake the cinnamon rolls for 30-35 minutes until they&#39;re golden brown.",
+        "For the frosting, combine all frosting ingredients in a bowl and mix until smooth and creamy. NOTE: If you find that the frosting is too thick, add milk until it&#39;s soft like a frosting. The texture will vary on the brand of peanut butter being used.*May need up to 4  additional tablespoons of milk to make frosting smooth, depending on the peanut butter used.",
+        "Spread the frosting over the cooled cinnamon rolls. Enjoy!"
+      ],
+      "batch_note": "",
+      "cameron_note": "",
+      "source_url": "https://thesaltycooker.com/banana-bread-cinnamon-rolls-with-peanut-butter-frosting/",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "jalapeno-chicken",
+      "name": "Jalapeno Chicken",
+      "cuisine": "",
+      "meal_type": "dinner",
+      "prep": "15 min",
+      "cook": "15 min",
+      "total": "",
+      "spice_level": "",
+      "serving_note": "",
+      "tags": [
+        "anylist-import"
+      ],
+      "equipment": "",
+      "macro_strings": {
+        "austin": "",
+        "cameron": ""
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        "2 pounds boneless skinless chicken thighs, (fat removed, cut into 1-inch pieces)",
+        "¼ cup (32 g) cornstarch",
+        "¼ teaspoon kosher salt",
+        "¼ teaspoon ground black pepper",
+        "2 tablespoons extra virgin olive oil",
+        "⅓ cup (85 g) soy sauce",
+        "⅓ cup (83 g) water",
+        "⅓ cup (67 g) light brown sugar, (packed)",
+        "1 teaspoon sesame oil",
+        "2 teaspoons garlic, (minced)",
+        "½ yellow onion, (diced)",
+        "2 large jalapeno peppers, (sliced into thin rounds)",
+        "sesame seeds, (for garnish)",
+        "cooked white rice, (for serving)"
+      ],
+      "instructions": [
+        "In a large mixing bowl, combine chicken, cornstarch, salt, and pepper. Toss to coat evenly on all sides. Set aside.",
+        "In a medium mixing bowl, combine water, soy sauce, brown sugar, sesame oil, and garlic. Mix well and set aside.",
+        "To a large nonstick skillet over medium-high heat, add oil.* When the oil is shimmering,  carefully add chicken to the hot oil. (Depending on the size of the skillet, you may have to work in batches.) Cook for 2-3 minutes per side, or until browned and cooked through to an internal temperature of 165°F. Transfer the chicken to a plate, and tent to keep warm.",
+        "To the same skillet, add onions and jalapeno. Cook until softened (about 4-6 minutes).",
+        "Add the chicken and the soy sauce mixture to the pan and stir to combine. Continue to cook for 2-3 minutes.",
+        "Serve garnished with sesame seeds over cooked white rice."
+      ],
+      "batch_note": "",
+      "cameron_note": "",
+      "source_url": "https://iamhomesteader.com/jalapeno-chicken/",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "taco-lunch-bowls",
+      "name": "Taco Lunch Bowls",
+      "cuisine": "Tex-Mex",
+      "meal_type": "dinner",
+      "prep": "60 min",
+      "cook": "",
+      "total": "",
+      "spice_level": "",
+      "serving_note": "",
+      "tags": [
+        "anylist-import"
+      ],
+      "equipment": "",
+      "macro_strings": {
+        "austin": "",
+        "cameron": ""
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        "1 pound Ground Turkey Meat",
+        "1 Onion (diced)",
+        "1 pod Garlic (diced)",
+        "2 teaspoon Garlic Powder",
+        "2 teaspoon Cumin",
+        "2 teaspoon Chili Powder",
+        "2 teaspoon Paprika",
+        "1 teaspoon Salt",
+        "1 teaspoon Oregano",
+        "8 ounce Tomato Sauce",
+        "4 ounce Water",
+        "2 cups Water",
+        "1 cup Rice (long grain)",
+        "1 teaspoon Salt",
+        "1 Tablespoon Vegan Butter",
+        "¼ cup Cilantro (for Cilantro Lime Rice)",
+        "2 Tablespoon Lime Juice (for Cilantro Lime Rice)",
+        "Romaine Lettuce (Chopped and Rinsed)",
+        "1 can Whole Corn",
+        "1 can Black Beans",
+        "Green Onion (for Garnish)",
+        "Avocado (for Garnish)",
+        "Cilantro (for Garnish)",
+        "Red Onion (for Garnish)",
+        "Pico de Gallo (Optional)",
+        "Guacamole (Optional)"
+      ],
+      "instructions": [
+        "In a skillet, on medium heat, brown 1 pound ground turkey until no longer pink.",
+        "Add the onion, garlic, and spices to the pan. Cook for a few minutes, until onion is tender and the seasoning has covered the meat.",
+        "Add the tomato sauce and water, as needed, to the pan. Reduce heat to low, cover and simmer for about 10 minutes.",
+        "To begin, measure 2 cups of water. Pour into a medium saucepan. Bring the water to boil over medium high heat.",
+        "Once boiling, stir in 1 cup rice, 1 teaspoon salt, and 1 Tablespoon vegan butter. Return to a boil.",
+        "Stir twice, cover and reduce heat to low. Cook for 15 minutes.",
+        "Once 15 minutes are up, leave the cover on the pot and remove from heat. Let sit 5 minutes.",
+        "Next stir in 1/4 cup chopped cilantro, 2 tablespoons lime juice, and a pinch of salt. Taste and adjust as needed.",
+        "Begin by making the rice into cilantro lime rice. Mix ¼ c. cilantro and 2 Tbsp Lime Juice into the rice to make the cilantro lime rice.",
+        "Rinse and chop a heat of romaine and set aside.",
+        "Rinse and drain 1 can of black beans and 1 can of corn. Mix together and set aside until ready to assemble.",
+        "In your lunch Tupperwares, scoop about ½ c. cilantro lime rice, then scoop about ½ c. Turkey Taco Meat, then add a scoop of the black beans and corn mixture.",
+        "In a reusable ziplock bag or additional Tupperware put the chopped romaine, cilantro, green onion, red onion, and avocado. If you are adding pico de gallo and guacamole you can put them in a small Tupperware to be added in with the rest of the greens.",
+        "When you are ready to enjoy your lunch simply heat up the meat, rice, and corn/beans mixture then toss the greens in with it and enjoy!"
+      ],
+      "batch_note": "",
+      "cameron_note": "",
+      "source_url": "https://mylifeafterdairy.com/taco-lunch-bowls/",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "mediterranean-chickpea-salad",
+      "name": "Mediterranean Chickpea Salad",
+      "cuisine": "Mediterranean",
+      "meal_type": "dinner",
+      "prep": "20 min",
+      "cook": "",
+      "total": "",
+      "spice_level": "",
+      "serving_note": "",
+      "tags": [
+        "anylist-import"
+      ],
+      "equipment": "",
+      "macro_strings": {
+        "austin": "",
+        "cameron": ""
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        "15  ounces One Can  Chickpeas (drained and rinsed)",
+        "1 Large Sweet Pepper or Bell Pepper (stems and seeds removed)",
+        "1  English Cucumber (halved lengthwise and cut into rough chunks)",
+        "1 Pint Cherry Tomatoes  (halved)",
+        "½ medium Red Onion (diced)",
+        "½ Cup Pitted Black or Kalamata Olives (roughly chopped)",
+        "½ Cup Crumbled Feta Cheese",
+        "2 tablespoons Chopped Fresh Oregano",
+        "2 tablespoons Fresh Thyme Leaves",
+        "¾ Cup Brined Artichokes (chopped)",
+        "Kosher salt and freshly ground black pepper to taste",
+        "¼ Cup Extra Virgin Olive Oil",
+        "2-3 tablespoons Freshly Squeezed Lemon Juice",
+        "2 tablespoons White Wine Vinegar",
+        "1 tablespoon Honey",
+        "1  Garlic Clove (minced)",
+        "1 Tsp Dried Oregano",
+        "Kosher salt and freshly ground black pepper"
+      ],
+      "instructions": [
+        "Start by prepping all the vegetables and place them in a large bowl. Add in the chickpeas, olives, feta, fresh herbs, and a pinch of salt and pepper.",
+        "Next, make the dressing. In a small bowl, whisk together the olive oil, lemon juice, white wine vinegar, honey, garlic, oregano, and a pinch of salt and pepper.",
+        "When ready to serve, pour the dressing over the salad and toss to combine.",
+        "Taste and add additional salt, pepper, or lemon juice, if necessary. Enjoy!"
+      ],
+      "batch_note": "",
+      "cameron_note": "",
+      "source_url": "https://healthyfitnessmeals.com/mediterranean-chickpea-salad/",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "grilled-mozzarella-sandwich",
+      "name": "Grilled Mozzarella Sandwich",
+      "cuisine": "Italian",
+      "meal_type": "dinner",
+      "prep": "10 min",
+      "cook": "5 min",
+      "total": "",
+      "spice_level": "",
+      "serving_note": "",
+      "tags": [
+        "anylist-import"
+      ],
+      "equipment": "",
+      "macro_strings": {
+        "austin": "",
+        "cameron": ""
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        "4 slices sourdough bread",
+        "4 oz mozzarella cheese (sliced)",
+        "1  large tomato (sliced)",
+        "2 oz roasted red peppers (jarred)",
+        "1/2 cup fresh basil leaves",
+        "2 cloves garlic clove (peeled)",
+        "2 tablespoons walnuts",
+        "2 tablespoons Grated Parmesan cheese",
+        "Salt and pepper",
+        "1/4 cup olive oil"
+      ],
+      "instructions": [
+        "To make the pesto, place the basil, garlic, walnuts and Parmesan cheese in the food processor; season with salt and pepper, to taste, and blend. While the food processor is on, pour the olive oil slowly into the mixture in order to allow the olive oil to emulsify.",
+        "Spread the pesto equally on the 4 slices of bread and place two slices of bread on the panini maker or in a toaster oven for 2 minutes.",
+        "Then place the mozzarella cheese, tomatoes and roasted red peppers on top of two bread slices and allow the cheese to melt and the veggies to soften, keeping the panini maker open.",
+        "Once the cheese starts to melt, add the second slices on top to close the sandwiches, then close the panini maker for 2-3 minutes. Remove, slice in half and serve immediately"
+      ],
+      "batch_note": "",
+      "cameron_note": "",
+      "source_url": "https://feelgoodfoodie.net/grilled-mozzarella-sandwich/",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "caprese-sandwich-melted-or-cold",
+      "name": "Caprese Sandwich (Melted or Cold)",
+      "cuisine": "Italian",
+      "meal_type": "dinner",
+      "prep": "10 min",
+      "cook": "",
+      "total": "",
+      "spice_level": "",
+      "serving_note": "",
+      "tags": [
+        "anylist-import"
+      ],
+      "equipment": "",
+      "macro_strings": {
+        "austin": "",
+        "cameron": ""
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        "1 large red tomato (approximately 10-12 ounces)",
+        "8 ounces fresh mozzarella (see Notes)",
+        "1 12-inch baguette",
+        "2 tablespoons full-fat mayonnaise",
+        "1 tablespoon pesto",
+        "1 tablespoon high-quality olive oil",
+        "salt (to taste)",
+        "freshly cracked black pepper (to taste)",
+        "1 tablespoon balsamic glaze (plus more as desired)",
+        "6 leaves fresh basil",
+        "high-quality olive oil"
+      ],
+      "instructions": [
+        "Slice 1 large red tomato into ½-inch-thick rounds. Set aside.",
+        "Slice 8 ounces fresh mozzarella into ½-inch-thick rounds. Set aside.",
+        "Slice 1 12-inch baguette in half length-wise. Place both halves of baguette on flat surface, cut-side up.",
+        "Optional: If toasting sandwich, preheat broiler on High, with oven rack positioned approximately 8 to 12 inches below heating element.",
+        "Add 2 tablespoons full-fat mayonnaise and 1 tablespoon pesto to small mixing bowl. Stir or whisk ingredients together until fully combined. Spread pesto mixture evenly onto cut-side of bottom baguette half.",
+        "Spoon 1 tablespoon high-quality olive oil evenly over cut-side of top baguette half. Be careful not to concentrate oil in one spot or bread can become soggy.",
+        "Place slices of tomato on bottom baguette half in one layer, with each slice slightly overlapping.",
+        "Place slices of mozzarella on top of tomato slices in one layer. Sprinkle salt and freshly cracked black pepper over mozzarella to taste.",
+        "Optional: Place sandwich halves cut-side up on baking sheet and place baking sheet under broiler. Broil sandwich 2 to 3 minutes or until bread is lightly toasted and mozzarella is melted slightly. Carefully remove baking sheet from beneath broiler.",
+        "Drizzle 1 tablespoon balsamic glaze over entire layer of mozzarella, then top mozzarella with 6 leaves fresh basil, placed evenly across sandwich.",
+        "Cover mozzarella and tomatoes with top half of baguette, placed cut-side down. Slice sandwich in half, creating two 6-inch sandwiches, and serve with dipping bowl of high-quality olive oil if desired."
+      ],
+      "batch_note": "",
+      "cameron_note": "",
+      "source_url": "https://40aprons.com/caprese-sandwich/",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "philly-cheesesteak-quesadilla-recipe",
+      "name": "Philly Cheesesteak Quesadilla Recipe",
+      "cuisine": "Mexican",
+      "meal_type": "dinner",
+      "prep": "10 min",
+      "cook": "15 min",
+      "total": "",
+      "spice_level": "",
+      "serving_note": "",
+      "tags": [
+        "anylist-import"
+      ],
+      "equipment": "",
+      "macro_strings": {
+        "austin": "",
+        "cameron": ""
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        "2  flour tortillas (medium/ burrito-sized)",
+        "1/2 lb beef ((ribeye or top round), thinly sliced or diced)",
+        "1/2  medium onion (chopped)",
+        "1/2  red pepper (diced)",
+        "1/2  green pepper (diced)",
+        "6 oz mushrooms (diced)",
+        "3 slices provolone cheese ((avoid aged cheese), sliced in half)",
+        "1 Tbsp light olive oil (divided)",
+        "1  garlic clove (minced)",
+        "¼ tsp sea salt (or to taste)",
+        "1/8 tsp ground black pepper (or to taste)",
+        "2 tsp mayonnaise (optional)"
+      ],
+      "instructions": [
+        "In a large skillet, heat 2 tsp oil, once hot add the chopped meat. Season with salt and pepper and cook until meat is fully cooked. Remove from skillet and cover to keep warm.",
+        "Meanwhile, finely chop the onion, dice the mushrooms, and peppers. Sautee vegetables in the same skillet until tender, adding another teaspoon of oil if needed.",
+        "Add the beef back to the skillet with minced garlic, stir and cook until meat is reheated.",
+        "Spread mayo (if using) on the tortillas. Divide the filling between the tortillas, adding them to one side of the tortilla. Top the filling with sliced cheese and close the tortilla",
+        "Heat a skillet over med heat. For a crisper tortilla, add a little oil to the pan. Place the tortilla in the hot pan and sautee until the cheese is melted and the outside is golden and crisp, flipping once. Slice and serve."
+      ],
+      "batch_note": "",
+      "cameron_note": "",
+      "source_url": "https://natashaskitchen.com/philly-cheesesteak-quesadilla-recipe/",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "queso-blanco-dip-with-chorizo",
+      "name": "Queso Blanco Dip with Chorizo",
+      "cuisine": "American, Mexican",
+      "meal_type": "dinner",
+      "prep": "5 min",
+      "cook": "25 min",
+      "total": "",
+      "spice_level": "",
+      "serving_note": "",
+      "tags": [
+        "anylist-import"
+      ],
+      "equipment": "",
+      "macro_strings": {
+        "austin": "",
+        "cameron": ""
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        "1-2  tbsp canola oil",
+        "1/2 lb Mexican style chorizo sausage",
+        "1/2  Vidalia onion (minced)",
+        "1  jalapeno (seeds taken out and minced)",
+        "1/4 tsp cumin",
+        "Salt",
+        "1-2 tbsp canola oil",
+        "1/2  Vidalia onion (minced)",
+        "1  red chili pepper (seeds taken out and minced)",
+        "1  jalapeno (seeds taken out and minced)",
+        "1 tbsp all purpose flour*",
+        "1 cup heavy whipping cream",
+        "1/2 lb white American cheese (chopped)",
+        "4 oz Monterrey Jack cheese (grated off the block or chopped)",
+        "1/4 tsp ground cumin",
+        "Salt"
+      ],
+      "instructions": [
+        "Take the sausage out of the skin and break it apart as much as possible.",
+        "Heat a little bit of oil in a medium pan, over medium heat.",
+        "Add diced onion, minced jalapeno, and sausage to the pan. Saute everything mixing and breaking up the clumps of chorizo as much as possible.",
+        "Season with cumin and salt, mix well, cook until chorizo is done. Take off heat.",
+        "In a bottom-heavy sauce pot, heat up a little bit of oil over medium heat.",
+        "Saute diced onions, jalapeno, and chili pepper until softened. Sprinkle flour over the vegetables and stir well.",
+        "Slowly pour in heavy whipping cream while stirring.",
+        "When heavy whipping cream is heated through but not simmering, start adding cheeses one handful at a time. Keep stirring slowly until cheese is melted and smooth. Stir in salt and cumin and take off heat.",
+        "Transfer queso blanco into a serving dish and top it off with cooked chorizo. (Make sure the bowl is big enough to fit both.)"
+      ],
+      "batch_note": "",
+      "cameron_note": "",
+      "source_url": "https://willcookforsmiles.com/queso-blanco-dip-with-chorizo/",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "crock-pot-smothered-pork-chops",
+      "name": "Crock pot Smothered Pork Chops",
+      "cuisine": "American",
+      "meal_type": "dinner",
+      "prep": "10 min",
+      "cook": "360 min",
+      "total": "",
+      "spice_level": "",
+      "serving_note": "",
+      "tags": [
+        "anylist-import"
+      ],
+      "equipment": "",
+      "macro_strings": {
+        "austin": "",
+        "cameron": ""
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        "6  Boneless Thick Cut Pork Chops",
+        "8 oz Mushrooms ((Sliced))",
+        "1/2  Onion ((Sliced))",
+        "1  can cream of Mushroom Soup ((10.5 oz))",
+        "1  can cream of Chicken Soup ((10.5 oz))",
+        "2 tsp Minced Garlic",
+        "1 tsp Paprika",
+        "1 tsp Pepper",
+        "1/2 cup Beef Broth"
+      ],
+      "instructions": [
+        "Place 6 boneless pork chops in the bottom of a 6 quart crock pot.  Place 8 ounces of mushrooms and 1/2 a sliced onion are top of the pork in the crock pot.",
+        "In a medium size mixing bowl, whisk together 1 can of cream of mushroom soup and 1 can of cream of chicken soup, 1/2 cup of beef broth. 2 tsp of garlic, 1 tsp of paprika and 1 tsp of pepper.",
+        "Pour this mixture into the crock pot.",
+        "Cover and cook on low for 6-8 hours or on high for 3-4 hours until the pork has an internal temperature of 165 degrees F.",
+        "Serve over rice, mashed potatoes or noodles.",
+        "Enjoy!"
+      ],
+      "batch_note": "",
+      "cameron_note": "",
+      "source_url": "https://eatingonadime.com/crock-pot-smothered-pork-chops/",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "slow-cooker-creamy-tomato-basil-chicken",
+      "name": "Slow Cooker Creamy Tomato Basil Chicken",
+      "cuisine": "American",
+      "meal_type": "dinner",
+      "prep": "5 min",
+      "cook": "180 min",
+      "total": "",
+      "spice_level": "",
+      "serving_note": "",
+      "tags": [
+        "anylist-import"
+      ],
+      "equipment": "",
+      "macro_strings": {
+        "austin": "",
+        "cameron": ""
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        "1  can diced tomatoes with Italian herbs (with juice (14oz or 398ml))",
+        "1 cup marinara sauce",
+        "3 cloves garlic ((finely minced))",
+        "1 teaspoon salt",
+        "1 teaspoon Italian seasoning",
+        "½ teaspoon dried basil",
+        "¼ teaspoon pepper",
+        "½ cup heavy whipping cream",
+        "2 tablespoons cornstarch",
+        "4  boneless skinless chicken breasts  ((about 2 lbs))",
+        "2 tablespoons finely chopped fresh basil",
+        "Grated Parmesan cheese (for serving)"
+      ],
+      "instructions": [
+        "Add the tomatoes, sauce, garlic, salt, Italian seasoning, basil, and pepper to a 4- to 6-quart slow cooker. Stir.",
+        "In a small bowl, whisk together the cream and cornstarch and add to the slow cooker.",
+        "Add the chicken and press down into the sauce.",
+        "Cook on low for 3 to 4 hours, or until a meat thermometer inserted in the thickest part of the chicken reaches 165°F.",
+        "Stir in the basil, taste and adjust seasonings as desired. Serve with the Parmesan."
+      ],
+      "batch_note": "",
+      "cameron_note": "",
+      "source_url": "https://thereciperebel.com/slow-cooker-creamy-tomato-basil-chicken/",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "creamy-crockpot-crack-chicken",
+      "name": "Creamy Crockpot Crack Chicken",
+      "cuisine": "chicken, Crockpot, Slow cooker",
+      "meal_type": "dinner",
+      "prep": "10 min",
+      "cook": "360 min",
+      "total": "",
+      "spice_level": "",
+      "serving_note": "",
+      "tags": [
+        "anylist-import"
+      ],
+      "equipment": "",
+      "macro_strings": {
+        "austin": "",
+        "cameron": ""
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        "2 lbs chicken breasts",
+        "1  pkt ranch dressing mix",
+        "1  8 oz block cream cheese",
+        "1/2-3/4 cup cooked crumbled bacon (depending on how much you like bacon)",
+        "1 cup shredded cheddar cheese",
+        "4  green onions (sliced)",
+        "Buns"
+      ],
+      "instructions": [
+        "In crockpot add your chicken, sprinkle with ranch and then place cream cheese on top.",
+        "Cover and cook on low for 6-7 hours.",
+        "Remove lid and shred chicken and stirring in the cream cheese.",
+        "Add your cheddar cheese, bacon and green onions and give it a stir to combine.",
+        "Serve on buns, croissants, tortillas, etc."
+      ],
+      "batch_note": "",
+      "cameron_note": "",
+      "source_url": "https://familyfreshmeals.com/creamy-crockpot-crack-chicken/",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "chicken-zucchini-casserole",
+      "name": "Chicken Zucchini Casserole",
+      "cuisine": "American",
+      "meal_type": "dinner",
+      "prep": "15 min",
+      "cook": "45 min",
+      "total": "",
+      "spice_level": "",
+      "serving_note": "",
+      "tags": [
+        "anylist-import"
+      ],
+      "equipment": "",
+      "macro_strings": {
+        "austin": "",
+        "cameron": ""
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        "1 tablespoon plus 2 teaspoons olive oil (divided)",
+        "2 pounds boneless skinless chicken breast (cut into 1-inch pieces)",
+        "1 teaspoon kosher salt (divided)",
+        "1 teaspoon garlic pepper",
+        "2  large zucchini (cut into ½ -inch pieces)",
+        "1 heaping cup chopped red and yellow bell pepper (2 small bell peppers)",
+        "1 teaspoon minced garlic",
+        "2 tablespoons butter",
+        "⅓ cup all-purpose flour",
+        "1 cup low sodium chicken broth",
+        "1 cup whole milk",
+        "3 ounces reduced fat cream cheese ((⅓ less fat Neufchatel), cut into cubes)",
+        "1 ¼ cups shredded part-skim mozzarella cheese (divided)",
+        "¼ cup shredded Parmesan (divided)",
+        "½ teaspoon freshly ground black pepper",
+        "3 tablespoons seasoned panko bread crumbs (I use Italian style)"
+      ],
+      "instructions": [
+        "Preheat oven to 400 degrees F. Coat a 13- x 9-inch baking dish with nonstick cooking spray.",
+        "Heat the olive oil in a large nonstick skillet over MEDIUM-HIGH heat. Add the chicken to the pan. Season with ½ teaspoon salt and the garlic pepper. Cook, stirring occasionally, until well browned, about 6 to 8 minutes. Transfer the chicken to a medium bowl. Add the remaining 2 teaspoons of oil to the pan and return it to the heat. Add the zucchini, bell pepper and garlic and cook, stirring occasionally, until the vegetables are just barely fork tender, about 4 minutes. Transfer the zucchini mixture to the bowl with the chicken and set aside.",
+        "Add the butter to the pan. Stir in the flour and cook, stirring constantly, until the flour starts to brown, about 1 minute. Whisk in the broth and milk. Bring to a low boil, whisking often to smooth out the sauce as much as possible (a few small lumps are okay). Remove from the heat and add the cream cheese, ¾  cup mozzarella and 2 tablespoons Parmesan and stir until melted. Stir in the remaining ½ teaspoon salt and the black pepper.",
+        "Drain all of the liquid from the chicken and vegetable mixture and stir the mixture into the cheese sauce in the pan. Transfer the mixture to the prepared baking dish. Sprinkle the casserole with the remaining ½ cup mozzarella, remaining 2 tablespoons Parmesan, and the breadcrumbs.",
+        "Bake until the top is browned and the edges are bubbly, 20 to 25 minutes.If desired, set the oven to BROIL for the last minute of the cooking time to brown the top a little more. Remove from the oven and let it rest for 10 minutes before serving."
+      ],
+      "batch_note": "",
+      "cameron_note": "",
+      "source_url": "https://wholesomemadeeasy.com/chicken-zucchini-casserole/",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "taco-chili",
+      "name": "Taco Chili",
+      "cuisine": "American",
+      "meal_type": "dinner",
+      "prep": "20 min",
+      "cook": "30 min",
+      "total": "",
+      "spice_level": "",
+      "serving_note": "",
+      "tags": [
+        "anylist-import"
+      ],
+      "equipment": "",
+      "macro_strings": {
+        "austin": "",
+        "cameron": ""
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        "1 lb lean ground beef",
+        "1  sweet onion (chopped)",
+        "2 cans diced tomatoes (28oz cans)",
+        "1 can black beans (15oz/540ml can, rinsed and drained)",
+        "1 can corn (8.75oz/341ml can, drained)",
+        "1 bottle taco sauce (8oz/243ml bottle)",
+        "1 can green chilies (4oz/127 ml can)",
+        "2 tbsp taco seasoning (1 packet)",
+        "1 tbsp chili powder",
+        "Shredded cheese",
+        "Green onions",
+        "Nacho chips or corn chips",
+        "Sour cream"
+      ],
+      "instructions": [
+        "In a large pot, add lean ground beef and onions over medium high heat. Cook until beef is cooked and onions are softened.",
+        "Stir in black beans, corn, diced tomatoes, taco seasoning, green chilies, taco sauce and chili powder. Bring to a boil. Reduce to heat medium low and simmer, uncovered, for 30 minutes.",
+        "Ladle into bowls and top with garnishes, if desired."
+      ],
+      "batch_note": "",
+      "cameron_note": "",
+      "source_url": "https://simplystacie.net/taco-chili/",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "cracker-barrel-broccoli-cheddar-chicken-recipe",
+      "name": "Cracker Barrel Broccoli Cheddar Chicken Recipe",
+      "cuisine": "American",
+      "meal_type": "dinner",
+      "prep": "15 min",
+      "cook": "65 min",
+      "total": "",
+      "spice_level": "",
+      "serving_note": "",
+      "tags": [
+        "anylist-import"
+      ],
+      "equipment": "",
+      "macro_strings": {
+        "austin": "",
+        "cameron": ""
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        "4  boneless skinless chicken breasts (about 3-3 ½ pounds)",
+        "(2) 10 ¾ ounces Campbell’s Cheddar Cheese Soup",
+        "2 ½ cups milk (anything but skim)",
+        "24 ounces frozen broccoli",
+        "½ teaspoon salt",
+        "1  sleeve of Ritz crackers (crushed)",
+        "8 Tablespoons unsalted butter (melted)",
+        "8 ounces cheddar cheese (shredded, about 2 cups)"
+      ],
+      "instructions": [
+        "Move the oven rack to the middle position and preheat to 350 degrees F.",
+        "Lightly spray a 16x11-inch baking dish with non-stick cooking spray and set aside.",
+        "In a medium saucepan over medium heat, prepare the Cheddar Cheese Soup by whisking together the soup and milk until combined and heated through.",
+        "Place the chicken breasts in the prepared baking dish.",
+        "Season the chicken with salt and pour about ¾ of the soup over the chicken.",
+        "Next, add the broccoli on top.",
+        "In a small bowl combine the crushed Ritz crackers and melted butter until the crackers are coated in the butter.",
+        "Sprinkle the Ritz crackers over the broccoli.",
+        "Add the remaining soup mix.",
+        "Bake for about 50-60 minutes, or until the chicken has reached an internal temperature of 165 degrees Fahrenheit with an instant-read thermometer.",
+        "Remove the casserole from the oven and top with the shredded cheddar cheese.",
+        "Bake for 5 more minutes.",
+        "Serve immediately and enjoy!"
+      ],
+      "batch_note": "",
+      "cameron_note": "",
+      "source_url": "https://easybudgetrecipes.com/cracker-barrel-broccoli-cheddar-chicken-recipe/",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "stuffed-portobello-mushrooms",
+      "name": "Stuffed Portobello Mushrooms",
+      "cuisine": "American",
+      "meal_type": "dinner",
+      "prep": "10 min",
+      "cook": "35 min",
+      "total": "",
+      "spice_level": "",
+      "serving_note": "",
+      "tags": [
+        "anylist-import"
+      ],
+      "equipment": "",
+      "macro_strings": {
+        "austin": "",
+        "cameron": ""
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        "4 large portobello mushrooms (or 8 smaller ones)",
+        "1 tablespoon olive oil",
+        "½ medium onion (chopped)",
+        "4 cloves garlic (minced)",
+        "½ medium green bell pepper (chopped)",
+        "2 cups spinach (chopped)",
+        "4  cocktail tomatoes (chopped)",
+        "¼ cup goat cheese (crumbled)",
+        "¼ teaspoon salt (or to taste)",
+        "¼ teaspoon pepper (or to taste)",
+        "1 tablespoon hot sauce (Frank's)",
+        "½ cup breadcrumbs",
+        "½ cup mozzarella cheese (shredded)"
+      ],
+      "instructions": [
+        "Prep the oven: Preheat oven to 400°F.",
+        "Prep the mushrooms: Carefully remove stems from mushrooms, reserve and chop the stems for the stuffing. Place the mushrooms stem side down onto a baking pan. Bake for 10 to 15 minutes until the water leaks out of them. Remove from the oven and using paper towels soak up excess water. Set aside.",
+        "Make the filling: In a skillet, heat the olive oil over medium heat. Add the chopped onion and garlic and saute for a couple minutes until the onion is translucent. Add the green pepper and spinach to the skillet and cook for a couple more minutes, until the spinach wilts. Add tomatoes, goat cheese, salt, pepper, mushrooms stems, hot sauce and breadcrumbs. Stir and cook for an additional couple minutes.",
+        "Stuff the mushrooms: Stuff the mushrooms with the mixture equally. Top with mozzarella cheese. If using smaller mushrooms you should have enough mixture for about 8 mushrooms.",
+        "Bake: Bake for 10 minutes or until the cheese melts."
+      ],
+      "batch_note": "",
+      "cameron_note": "",
+      "source_url": "https://jocooks.com/recipe/stuffed-portobello-mushrooms/",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "crack-chicken-chili",
+      "name": "Crack Chicken Chili",
+      "cuisine": "American",
+      "meal_type": "dinner",
+      "prep": "10 min",
+      "cook": "240 min",
+      "total": "",
+      "spice_level": "",
+      "serving_note": "",
+      "tags": [
+        "anylist-import"
+      ],
+      "equipment": "",
+      "macro_strings": {
+        "austin": "",
+        "cameron": ""
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        "2½ cups chicken broth",
+        "15.25 ounce can of southwest corn with poblano and red peppers (do not drain)",
+        "10 ounce can mild Rotel diced tomatoes and green chilies (do not drain)",
+        "1 ounce packet ranch seasoning mix",
+        "1 tablespoon onion powder",
+        "1 tablespoon chili powder",
+        "1 teaspoon kosher salt",
+        "1 teaspoon cracked black pepper",
+        "3  medium-sized boneless skinless chicken breasts",
+        "15.25 ounce can of black beans (drained and rinsed)",
+        "1¼ cups cooked and crumbled smoked bacon",
+        "8 ounce package of cream cheese (cubed)",
+        "2 cups fresh shredded Colby and Monterey jack cheese ((Cobly Jack Cheese))",
+        "1½ tablespoons chopped fresh cilantro (optional garnish)"
+      ],
+      "instructions": [
+        "Lightly spray the inside of a 5 to 7-quart crock pot with nonstick cooking spray, or use a disposable crock pot liner.",
+        "Add the chicken broth, southwest corn, Rotel, ranch mix, onion powder, chili powder, salt, and pepper to a medium-sized bowl. Whisk to combine.",
+        "Lay the chicken breasts in the bottom of the prepared crock pot.",
+        "Sprinkle the black beans on top of the chicken.",
+        "Pour the chicken broth mixture over the black bean layer.",
+        "Sprinkle the crumbled cooked bacon over the broth mixture.",
+        "Top the bacon layer with the cubed cream cheese. Cook on high temperature for 4 hours or 6 hours on low temperature.",
+        "When the chili has finished cooking, remove the chicken breasts. Use 2 forks to shred the chicken.",
+        "Before returning the chicken to the crock pot, stir the broth and cream cheese until the cream cheese is evenly distributed and melted.",
+        "Stir in the shredded cheese.",
+        "Add the shredded chicken back into the crock pot and stir to combine. Garnish with chopped cilantro. Serve while hot."
+      ],
+      "batch_note": "",
+      "cameron_note": "",
+      "source_url": "https://princesspinkygirl.com/crack-chicken-chili/",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "creamy-sausage-and-peppers-pasta",
+      "name": "Creamy Sausage and Peppers Pasta",
+      "cuisine": "American",
+      "meal_type": "dinner",
+      "prep": "10 min",
+      "cook": "30 min",
+      "total": "",
+      "spice_level": "",
+      "serving_note": "",
+      "tags": [
+        "anylist-import"
+      ],
+      "equipment": "",
+      "macro_strings": {
+        "austin": "",
+        "cameron": ""
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        "8 ounces uncooked pasta (I used bucatini)",
+        "1 pound Italian sausage  (see note)",
+        "1 tablespoon olive oil",
+        "1/2 medium onion (chopped)",
+        "1 medium red bell pepper (chopped)",
+        "1 medium yellow bell pepper (chopped)",
+        "1 tablespoon butter",
+        "2-3 cloves garlic (minced)",
+        "1 teaspoon flour",
+        "1 cup heavy/whipping cream",
+        "1/2 teaspoon Dijon mustard",
+        "2 cups (packed) fresh baby spinach",
+        "Salt &amp; pepper (to taste)",
+        "Freshly grated parmesan cheese (optional, to taste )"
+      ],
+      "instructions": [
+        "Boil a large, salted pot of water and cook the pasta al dente according to package directions.",
+        "Meanwhile, brown the sausage meat in a skillet over medium-high heat, breaking it up as you go along (about 8-10 minutes). Once it&#39;s cooked through, transfer it to a paper towel lined plate.",
+        "Add the oil to the skillet, along with the onion and chopped bell peppers. Cook until the onion is lightly browned and the peppers have softened up (about 7-8 minutes).",
+        "Reduce the heat to medium. Add the butter and garlic to the skillet, and once the butter melts, sprinkle in the flour and cook for about a minute, stirring well.",
+        "Stir in the cream and Dijon mustard (ensure there&#39;s no lumps from the flour). The sauce should thicken quite quickly, so don&#39;t let it cook for more than a minute or so before moving on to the next step.",
+        "Add the cooked sausage and spinach to the skillet and stir/toss.",
+        "Before draining the pasta, add in a splash (a couple tablespoons or so) of the hot pasta water to the skillet, then drain the pasta and add it to the skillet. Toss until the spinach has wilted and the pasta is coated with the sauce. Serve immediately with salt &amp; pepper as needed and some freshly grated parmesan cheese."
+      ],
+      "batch_note": "",
+      "cameron_note": "",
+      "source_url": "https://saltandlavender.com/creamy-sausage-and-peppers-pasta/",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "zuppa-toscana",
+      "name": "Zuppa Toscana",
+      "cuisine": "American",
+      "meal_type": "dinner",
+      "prep": "10 min",
+      "cook": "25 min",
+      "total": "",
+      "spice_level": "",
+      "serving_note": "",
+      "tags": [
+        "anylist-import"
+      ],
+      "equipment": "",
+      "macro_strings": {
+        "austin": "",
+        "cameron": ""
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        "5 slices bacon (diced)",
+        "1 lb. spicy Italian sausage (casings removed)",
+        "1 small sweet onion (diced)",
+        "3 cloves garlic (minced)",
+        "32 oz. low-sodium chicken broth",
+        "3 medium russet potatoes (peeled and diced small (about ½-inch cubes))",
+        "3 cups fresh baby spinach",
+        "¾ cup heavy cream",
+        "salt and pepper (to taste)"
+      ],
+      "instructions": [
+        "Heat a large pot over medium-high; add bacon and cook until crispy, about 5 minutes. Transfer to a paper towel-lined plate.",
+        "Drain off all but one tablespoon of the rendered bacon fat; add sausage and onion to the pot and cook until pork is no longer pink and onion is translucent, crumbling up the pork and stirring frequently, 3-5 minutes. Add in garlic and cook until fragrant, about 20 seconds. Drain excess fat.",
+        "Pour in chicken broth and bring to a boil. Add potatoes; reduce heat to a medium simmer for about 12 minutes until potatoes are tender.",
+        "Stir in spinach until it begins to wilt.",
+        "Return most of the bacon back to the pot (reserving some for garnish) and stir in heavy cream until heated through, 2-3 more minutes.",
+        "Taste and season with salt and pepper.",
+        "Serve with some crusty bread and a little reserved crumbled bacon!"
+      ],
+      "batch_note": "",
+      "cameron_note": "",
+      "source_url": "https://bellyfull.net/zuppa-toscana/",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "fluffernutter-cookies",
+      "name": "Fluffernutter Cookies",
+      "cuisine": "",
+      "meal_type": "dinner",
+      "prep": "15 min",
+      "cook": "12 min",
+      "total": "",
+      "spice_level": "",
+      "serving_note": "",
+      "tags": [
+        "anylist-import"
+      ],
+      "equipment": "",
+      "macro_strings": {
+        "austin": "",
+        "cameron": ""
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        "½ cup (129 g) creamy peanut butter",
+        "½ cup (1 stick / 113 g) unsalted butter, (room temperature)",
+        "1 cup (200 g) light brown sugar, (packed)",
+        "1 large egg, (room temperature)",
+        "1 teaspoon vanilla extract",
+        "1½ cups (187.5 g) all-purpose flour",
+        "1 teaspoon cornstarch",
+        "½ teaspoon kosher salt",
+        "1 cup marshmallow fluff, (or marshmallow creme)"
+      ],
+      "instructions": [
+        "Preheat the oven to 350°F and line two large baking sheets with parchment paper.",
+        "In a large bowl, add peanut butter, butter, and brown sugar. Using a hand mixer, combine the mixture until smooth and creamy, about 2-3 minutes.",
+        "Scrape down the sides of the bowl. Add egg and vanilla and mix until combined (about 30 seconds).",
+        "Add in flour, cornstarch, and salt.",
+        "With the mixer on low, incorporate the ingredients until just combined (30 seconds-1 minute).",
+        "Using a 2-tablespoon cookie scoop, drop dough onto the lined baking sheets. Using your hand, flatten each dough ball into a flat disk shape about 3-inches across.",
+        "Using two spoons (this will keep your hands from getting sticky), add about 1 tablespoon of marshmallow fluff to the center of each disk of dough. (You can also add the fluff to a piping bag and pipe dollops onto each dough disk.)",
+        "Bring the dough up around the marshmallow fluff, completely covering the fluff and forming a ball. Place on the lined baking sheets.",
+        "Bake the cookies for 10-12 minutes, or until the edges are brown. Watch the cookies carefully so that the marshmallow does not burn.",
+        "Let the cookies rest for 10-15 minutes before serving."
+      ],
+      "batch_note": "",
+      "cameron_note": "",
+      "source_url": "https://iambaker.net/fluffernutter-cookies/",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
     }
   ]
 }

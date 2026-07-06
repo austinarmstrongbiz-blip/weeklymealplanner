@@ -87,8 +87,13 @@ def compile_text_list():
     for category, items in GROCERY_LIST.items():
         lines.append(f"── {category} ──")
         for item in items:
-            prefix = "  ⚠  " if "CAMERON ONLY" in item else "  ☐  "
-            lines.append(f"{prefix}{item}")
+            # Handle both string and dict formats
+            if isinstance(item, dict):
+                item_str = f"{item.get('qty', '')} {item.get('name', '')}".strip()
+            else:
+                item_str = item
+            prefix = "  ⚠  " if "CAMERON ONLY" in item_str or "Cameron" in item_str else "  ☐  "
+            lines.append(f"{prefix}{item_str}")
         lines.append("")
 
     lines.append("── PANTRY CHECK (already stocked — verify before ordering) ──")
@@ -116,8 +121,12 @@ def compile_anylist_format():
     for category, items in GROCERY_LIST.items():
         lines.append(f"# {category}")
         for item in items:
-            # Strip emoji/notes for AnyList import
-            clean = item.replace("← SEASONAL HERO", "").replace("⚠ ", "").strip()
+            # Handle both string and dict formats
+            if isinstance(item, dict):
+                clean = f"{item.get('qty', '')} {item.get('name', '')}".strip()
+            else:
+                # Strip emoji/notes for AnyList import
+                clean = item.replace("← SEASONAL HERO", "").replace("⚠ ", "").strip()
             # Remove parenthetical notes
             if "(" in clean:
                 clean = clean[:clean.index("(")].strip()

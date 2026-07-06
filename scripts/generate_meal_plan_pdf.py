@@ -191,9 +191,14 @@ def load_week_data(week_date):
     RECIPES = [_convert_recipe(library[rid]) for rid in recipe_ids_ordered if rid in library]
 
     # ── BATCH_PREP list of (station, tasks) tuples ──
+    raw_batch = plan.get("batch_prep", [])
+    if isinstance(raw_batch, dict):
+        # New format: {"banner": "...", "stations": [...]}
+        BATCH_PREP_BANNER = raw_batch.get("banner", BATCH_PREP_BANNER)
+        raw_batch = raw_batch.get("stations", [])
     BATCH_PREP = [
         (item["station"], item["tasks"])
-        for item in plan.get("batch_prep", [])
+        for item in raw_batch
     ]
 
     # ── GROCERY_LIST dict ──
@@ -214,10 +219,10 @@ def load_week_data(week_date):
 
 def build_styles():
     styles = getSampleStyleSheet()
-    styles.add(ParagraphStyle("CoverTitle", fontName="Helvetica-Bold", fontSize=38,
-        textColor=WHITE, alignment=TA_CENTER, spaceAfter=6))
-    styles.add(ParagraphStyle("CoverSub", fontName="Helvetica", fontSize=14,
-        textColor=CREAM, alignment=TA_CENTER, spaceAfter=4))
+    styles.add(ParagraphStyle("CoverTitle", fontName="Helvetica-Bold", fontSize=28,
+        textColor=WHITE, alignment=TA_CENTER, spaceAfter=4, spaceBefore=0))
+    styles.add(ParagraphStyle("CoverSub", fontName="Helvetica", fontSize=13,
+        textColor=CREAM, alignment=TA_CENTER, spaceAfter=3))
     styles.add(ParagraphStyle("CoverTagline", fontName="Helvetica-Oblique", fontSize=10,
         textColor=ACCENT_GOLD, alignment=TA_CENTER, spaceAfter=2))
     styles.add(ParagraphStyle("SectionHeader", fontName="Helvetica-Bold", fontSize=15,
@@ -271,14 +276,15 @@ def build_cover(story, styles, pw):
         t = Table(content_rows, colWidths=col_widths or [cw])
         t.setStyle(TableStyle([
             ("BACKGROUND",    (0,0),(-1,-1), bg),
-            ("TOPPADDING",    (0,0),(-1,-1), 8),
-            ("BOTTOMPADDING", (0,0),(-1,-1), 8),
+            ("TOPPADDING",    (0,0),(-1,-1), 6),
+            ("BOTTOMPADDING", (0,0),(-1,-1), 6),
             ("LEFTPADDING",   (0,0),(-1,-1), 12),
             ("RIGHTPADDING",  (0,0),(-1,-1), 12),
             ("VALIGN",        (0,0),(-1,-1), "MIDDLE"),
         ]))
         return t
 
+    story.append(Spacer(1, 0.05*inch))
     story.append(banner([[Paragraph("ABOVE KITCH", styles["CoverTitle"])]], DARK_GREEN))
     story.append(banner([[Paragraph("WEEKLY MEAL PLAN", styles["CoverSub"])]], RUST))
     story.append(Spacer(1, 0.1*inch))
@@ -611,33 +617,18 @@ def build_grocery(story, styles, pw):
     story.append(Spacer(1, 5))
 
     cats = list(GROCERY_LIST.keys())
-    left_cats = cats[:3]
-    right_cats = cats[3:]
 
-    def col_items(cat_list):
-        items = []
-        for cat in cat_list:
-            items.append(Paragraph(f"-- {cat} --", styles["GroceryCategory"]))
-            for item in GROCERY_LIST[cat]:
-                prefix = "(!)" if "CAMERON ONLY" in item else "[ ]"
-                items.append(Paragraph(f"{prefix} {item}", styles["GroceryItem"]))
-            items.append(Spacer(1, 3))
-        return items
+    for cat in cats:
+        story.append(Paragraph(f"— {cat} —", styles["GroceryCategory"]))
+        for item in GROCERY_LIST[cat]:
+            prefix = "(!)" if "CAMERON ONLY" in item else "[ ]"
+            story.append(Paragraph(f"{prefix} {item}", styles["GroceryItem"]))
+        story.append(Spacer(1, 6))
 
-    left_col = col_items(left_cats)
-    right_col = col_items(right_cats)
-    right_col.append(Paragraph("-- PANTRY CHECK (verify stock) --", styles["GroceryCategory"]))
+    story.append(Paragraph("— PANTRY CHECK (verify stock before shopping) —", styles["GroceryCategory"]))
     for item in PANTRY_STOCKED:
-        right_col.append(Paragraph(f"[v] {item}", styles["GroceryItem"]))
-
-    gt = Table([[left_col, right_col]], colWidths=[cw*0.5, cw*0.5])
-    gt.setStyle(TableStyle([
-        ("VALIGN",      (0,0),(-1,-1), "TOP"),
-        ("LEFTPADDING", (0,0),(-1,-1), 5),
-        ("RIGHTPADDING",(0,0),(-1,-1), 5),
-        ("LINEAFTER",   (0,0),(0,-1), 0.5, LIGHT_GRAY),
-    ]))
-    story.append(gt)
+        story.append(Paragraph(f"[✓] {item}", styles["GroceryItem"]))
+    story.append(Spacer(1, 6))
 
 
 def build_pdf(week_date, output_path=None):

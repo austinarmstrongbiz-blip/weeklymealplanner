@@ -1,0 +1,525 @@
+{
+  "week_date": "2026-07-06",
+  "week_start": "July 6",
+  "week_end": "July 12, 2026",
+  "season": "Peak Summer \u2014 Pittsburgh",
+  "city": "Pittsburgh, PA",
+  "seasonal_heroes": [
+    "Corn (peak)",
+    "Cherry Tomatoes (peak)",
+    "Cucumbers (peak)",
+    "Peaches",
+    "Snap Peas / Green Beans",
+    "Fresh Herbs (basil, cilantro)"
+  ],
+  "cuisine_rotation": [
+    "Mexican (Chipotle Bowls)",
+    "Mexican (Chipotle Bowls)",
+    "Mexican (Chipotle Bowls)",
+    "Japanese (Teriyaki Soba)",
+    "Japanese (Teriyaki Soba)",
+    "Mediterranean",
+    "Freezer Flex"
+  ],
+  "days": [
+    {
+      "day": "Monday",
+      "cuisine": "Mexican (Chipotle Bowls)",
+      "breakfast": {
+        "recipe_id": "summer-egg-bites-simple-eggs",
+        "austin": {
+          "cal": 510,
+          "p": 40,
+          "f": 22,
+          "c": 30
+        },
+        "cameron": {
+          "cal": 430,
+          "p": 32,
+          "f": 19,
+          "c": 35
+        },
+        "cameron_note": "Simple scrambled eggs + toast, not egg bites \u2014 + 1/4 avocado"
+      },
+      "lunch": {
+        "recipe_id": "chicken-salad-arugula-lunch",
+        "austin": {
+          "cal": 590,
+          "p": 50,
+          "f": 16,
+          "c": 46
+        },
+        "cameron": {
+          "cal": 490,
+          "p": 34,
+          "f": 15,
+          "c": 40
+        },
+        "cameron_note": "+ 1/4 avocado, side of crackers"
+      },
+      "dinner": {
+        "recipe_id": "chipotle-chicken-bowl-prepped",
+        "austin": {
+          "cal": 640,
+          "p": 54,
+          "f": 18,
+          "c": 58
+        },
+        "cameron": {
+          "cal": 520,
+          "p": 36,
+          "f": 15,
+          "c": 48
+        },
+        "cameron_note": "+ 1/4 avocado, extra pico"
+      },
+      "austin_total": {
+        "cal": 1740,
+        "p": 144,
+        "f": 56,
+        "c": 134
+      },
+      "cameron_total": {
+        "cal": 1440,
+        "p": 102,
+        "f": 49,
+        "c": 123
+      }
+    },
+    {
+      "day": "Tuesday",
+      "cuisine": "Mexican (Chipotle Bowls)",
+      "breakfast": {
+        "recipe_id": "summer-egg-bites-simple-eggs",
+        "austin": {
+          "cal": 510,
+          "p": 40,
+          "f": 22,
+          "c": 30
+        },
+        "cameron": {
+          "cal": 430,
+          "p": 32,
+          "f": 19,
+          "c": 35
+        },
+        "cameron_note": "Simple scrambled eggs + toast, not egg bites \u2014 + 1/4 avocado"
+      },
+      "lunch": {
+        "recipe_id": "chicken-salad-arugula-lunch",
+        "austin": {
+          "cal": 590,
+          "p": 50,
+          "f": 16,
+          "c": 46
+        },
+        "cameron": {
+          "cal": 490,
+          "p": 34,
+          "f": 15,
+          "c": 40
+        },
+        "cameron_note": "+ 1/4 avocado, side of crackers"
+      },
+      "dinner": {
+        "recipe_id": "chipotle-chicken-bowl-prepped",
+        "austin": {
+          "cal": 640,
+          "p": 54,
+          "f": 18,
+          "c": 58
+        },
+        "cameron": {
+          "cal": 520,
+          "p": 36,
+          "f": 15,
+          "c": 48
+        },
+        "cameron_note": "+ 1/4 avocado, extra pico"
+      },
+      "austin_total": {
+        "cal": 1740,
+        "p": 144,
+        "f": 56,
+        "c": 134
+      },
+      "cameron_total": {
+        "cal": 1440,
+        "p": 102,
+        "f": 49,
+        "c": 123
+      }
+    },
+    {
+      "day": "Wednesday",
+      "cuisine": "Mexican (Chipotle Bowls)",
+      "breakfast": {
+        "recipe_id": "summer-egg-bites-simple-eggs",
+        "austin": {
+          "cal": 510,
+          "p": 40,
+          "f": 22,
+          "c": 30
+        },
+        "cameron": {
+          "cal": 430,
+          "p": 32,
+          "f": 19,
+          "c": 35
+        },
+        "cameron_note": "Simple scrambled eggs + toast, not egg bites \u2014 + 1/4 avocado"
+      },
+      "lunch": {
+        "recipe_id": "chicken-salad-arugula-lunch",
+        "austin": {
+          "cal": 590,
+          "p": 50,
+          "f": 16,
+          "c": 46
+        },
+        "cameron": {
+          "cal": 490,
+          "p": 34,
+          "f": 15,
+          "c": 40
+        },
+        "cameron_note": "+ 1/4 avocado, side of crackers"
+      },
+      "dinner": {
+        "recipe_id": "chipotle-chicken-bowl-prepped",
+        "austin": {
+          "cal": 640,
+          "p": 54,
+          "f": 18,
+          "c": 58
+        },
+        "cameron": {
+          "cal": 520,
+          "p": 36,
+          "f": 15,
+          "c": 48
+        },
+        "cameron_note": "+ 1/4 avocado, extra pico"
+      },
+      "austin_total": {
+        "cal": 1740,
+        "p": 144,
+        "f": 56,
+        "c": 134
+      },
+      "cameron_total": {
+        "cal": 1440,
+        "p": 102,
+        "f": 49,
+        "c": 123
+      }
+    },
+    {
+      "day": "Thursday",
+      "cuisine": "Japanese (Teriyaki Soba)",
+      "breakfast": {
+        "recipe_id": "summer-egg-bites-simple-eggs",
+        "austin": {
+          "cal": 510,
+          "p": 40,
+          "f": 22,
+          "c": 30
+        },
+        "cameron": {
+          "cal": 430,
+          "p": 32,
+          "f": 19,
+          "c": 35
+        },
+        "cameron_note": "Simple scrambled eggs + toast, not egg bites \u2014 + 1/4 avocado"
+      },
+      "lunch": {
+        "recipe_id": "chicken-salad-arugula-lunch",
+        "austin": {
+          "cal": 590,
+          "p": 50,
+          "f": 16,
+          "c": 46
+        },
+        "cameron": {
+          "cal": 490,
+          "p": 34,
+          "f": 15,
+          "c": 40
+        },
+        "cameron_note": "+ 1/4 avocado, side of crackers"
+      },
+      "dinner": {
+        "recipe_id": "teriyaki-chicken-soba-bowl",
+        "austin": {
+          "cal": 660,
+          "p": 58,
+          "f": 20,
+          "c": 58
+        },
+        "cameron": {
+          "cal": 580,
+          "p": 38,
+          "f": 18,
+          "c": 52
+        },
+        "cameron_note": "+ 1/4 avocado on the side"
+      },
+      "austin_total": {
+        "cal": 1760,
+        "p": 148,
+        "f": 58,
+        "c": 134
+      },
+      "cameron_total": {
+        "cal": 1500,
+        "p": 104,
+        "f": 52,
+        "c": 127
+      }
+    },
+    {
+      "day": "Friday",
+      "cuisine": "Japanese (Teriyaki Soba)",
+      "breakfast": {
+        "recipe_id": "summer-egg-bites-simple-eggs",
+        "austin": {
+          "cal": 510,
+          "p": 40,
+          "f": 22,
+          "c": 30
+        },
+        "cameron": {
+          "cal": 430,
+          "p": 32,
+          "f": 19,
+          "c": 35
+        },
+        "cameron_note": "Simple scrambled eggs + toast, not egg bites \u2014 + 1/4 avocado"
+      },
+      "lunch": {
+        "recipe_id": "chipotle-chicken-bowl-prepped",
+        "austin": {
+          "cal": 640,
+          "p": 54,
+          "f": 18,
+          "c": 58
+        },
+        "cameron": {
+          "cal": 520,
+          "p": 36,
+          "f": 15,
+          "c": 48
+        },
+        "cameron_note": "+ 1/4 avocado, extra pico"
+      },
+      "dinner": {
+        "recipe_id": "teriyaki-chicken-soba-bowl",
+        "austin": {
+          "cal": 660,
+          "p": 58,
+          "f": 20,
+          "c": 58
+        },
+        "cameron": {
+          "cal": 580,
+          "p": 38,
+          "f": 18,
+          "c": 52
+        },
+        "cameron_note": "+ 1/4 avocado on the side"
+      },
+      "austin_total": {
+        "cal": 1810,
+        "p": 152,
+        "f": 60,
+        "c": 146
+      },
+      "cameron_total": {
+        "cal": 1530,
+        "p": 106,
+        "f": 52,
+        "c": 135
+      }
+    },
+    {
+      "day": "Saturday",
+      "cuisine": "Mediterranean",
+      "breakfast": {
+        "recipe_id": "summer-egg-bites-simple-eggs",
+        "austin": {
+          "cal": 510,
+          "p": 40,
+          "f": 22,
+          "c": 30
+        },
+        "cameron": {
+          "cal": 430,
+          "p": 32,
+          "f": 19,
+          "c": 35
+        },
+        "cameron_note": "Simple scrambled eggs + toast, not egg bites \u2014 + 1/4 avocado"
+      },
+      "lunch": {
+        "recipe_id": "chipotle-chicken-bowl-prepped",
+        "austin": {
+          "cal": 640,
+          "p": 54,
+          "f": 18,
+          "c": 58
+        },
+        "cameron": {
+          "cal": 520,
+          "p": 36,
+          "f": 15,
+          "c": 48
+        },
+        "cameron_note": "+ 1/4 avocado, extra pico"
+      },
+      "dinner": {
+        "recipe_id": "mediterranean-arugula-chickpea-salad",
+        "austin": {
+          "cal": 620,
+          "p": 55,
+          "f": 22,
+          "c": 52
+        },
+        "cameron": {
+          "cal": 560,
+          "p": 34,
+          "f": 20,
+          "c": 46
+        },
+        "cameron_note": "+ 1/4 avocado, extra feta"
+      },
+      "austin_total": {
+        "cal": 1770,
+        "p": 149,
+        "f": 62,
+        "c": 140
+      },
+      "cameron_total": {
+        "cal": 1510,
+        "p": 102,
+        "f": 54,
+        "c": 129
+      }
+    },
+    {
+      "day": "Sunday",
+      "cuisine": "Freezer Flex",
+      "breakfast": {
+        "recipe_id": "summer-egg-bites-simple-eggs",
+        "austin": {
+          "cal": 510,
+          "p": 40,
+          "f": 22,
+          "c": 30
+        },
+        "cameron": {
+          "cal": 430,
+          "p": 32,
+          "f": 19,
+          "c": 35
+        },
+        "cameron_note": "Simple scrambled eggs + toast, not egg bites \u2014 + 1/4 avocado"
+      },
+      "lunch": {
+        "recipe_id": "chipotle-chicken-bowl-prepped",
+        "austin": {
+          "cal": 640,
+          "p": 54,
+          "f": 18,
+          "c": 58
+        },
+        "cameron": {
+          "cal": 520,
+          "p": 36,
+          "f": 15,
+          "c": 48
+        },
+        "cameron_note": "+ 1/4 avocado, extra pico"
+      },
+      "dinner": {
+        "recipe_id": "freezer-cleanout-stir-fry",
+        "austin": {
+          "cal": 630,
+          "p": 55,
+          "f": 20,
+          "c": 55
+        },
+        "cameron": {
+          "cal": 560,
+          "p": 35,
+          "f": 18,
+          "c": 48
+        },
+        "cameron_note": "Light or no sriracha; avocado optional"
+      },
+      "austin_total": {
+        "cal": 1780,
+        "p": 149,
+        "f": 60,
+        "c": 143
+      },
+      "cameron_total": {
+        "cal": 1510,
+        "p": 103,
+        "f": 52,
+        "c": 131
+      }
+    }
+  ],
+  "batch_prep": [
+    {
+      "station": "Saturday \u2014 Egg Bites Batch (25 min)",
+      "tasks": [
+        "Whisk 8 eggs with milk, salt, pepper, garlic powder.",
+        "Brown turkey sausage, wilt spinach in same pan.",
+        "Divide sausage/spinach into greased muffin tin, top with cheddar, pour egg mixture over.",
+        "Bake 350\u00b0F for 18-20 min. Cool, store in fridge up to 5 days (covers all 7 breakfasts)."
+      ]
+    },
+    {
+      "station": "Saturday \u2014 Teriyaki Bone-In Chicken Thighs (45 min)",
+      "tasks": [
+        "Whisk teriyaki glaze: soy sauce, honey, rice vinegar, garlic, ginger, sesame oil.",
+        "Season bone-in thighs, brush with glaze, bake at 400\u00b0F for 35-40 min, brushing halfway.",
+        "Cook soba noodles, rinse under cold water to stop cooking and prevent clumping.",
+        "Once cooled, remove skin/bones, slice meat. Portion into 4 containers (2 dinners x 2 people) with cold soba, snap peas/cucumber, scallions, sesame seeds."
+      ]
+    },
+    {
+      "station": "Sunday \u2014 Chicken Salad Assembly (15 min)",
+      "tasks": [
+        "Mix Greek yogurt, light mayo, Dijon as the dressing base.",
+        "Fold in already-shredded chicken breast, celery, red onion, halved grapes.",
+        "Portion into 4 containers over a bed of the leftover arugula. Keep crackers/toast separate."
+      ]
+    },
+    {
+      "station": "Sunday \u2014 Chipotle Chicken Bowl Components (30 min)",
+      "tasks": [
+        "Cook jasmine rice, toss with cilantro and lime while warm.",
+        "Char corn in a dry skillet. Make pico de gallo (tomato, onion, jalape\u00f1o, cilantro, lime).",
+        "Warm black beans with a pinch of cumin. Make chipotle crema (light sour cream/yogurt + minced chipotle in adobo).",
+        "Portion rice, beans, corn, pico, and the already-shredded chipotle chicken thigh into 6 containers \u2014 covers 3 dinners + 3 lunches."
+      ]
+    },
+    {
+      "station": "Saturday \u2014 Chickpeas & Dressings Prep (20 min)",
+      "tasks": [
+        "Roast chickpeas at 400\u00b0F for 15 min with olive oil, salt, smoked paprika until crisp.",
+        "Make lemon-olive oil dressing (olive oil, lemon juice, Dijon, oregano) for Saturday's salad.",
+        "Assemble the Mediterranean salad itself fresh Saturday evening rather than pre-portioning \u2014 arugula and chickpeas hold texture better that way."
+      ]
+    },
+    {
+      "station": "Sunday \u2014 Freezer Meal Check (5 min)",
+      "tasks": [
+        "Confirm which freezer protein you're pulling for Sunday's stir-fry (shrimp, ground turkey, or salmon all work at the same macros) and move it to the fridge Saturday night to thaw."
+      ]
+    }
+  ]
+}

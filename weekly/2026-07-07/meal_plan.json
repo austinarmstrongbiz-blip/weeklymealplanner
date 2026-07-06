@@ -1,0 +1,246 @@
+{
+  "week_date": "2026-07-07",
+  "week_start": "July 7",
+  "week_end": "July 13, 2026",
+  "season": "Peak Summer — Pittsburgh",
+  "city": "Pittsburgh, PA",
+  "seasonal_heroes": [
+    "Corn (peak)",
+    "Cherry Tomatoes (peak)",
+    "Zucchini (peak)",
+    "Cucumbers (peak)",
+    "Basil (peak)",
+    "Jalapeños"
+  ],
+  "cuisine_rotation": [
+    "Mexican",
+    "Japanese",
+    "Mexican Coastal",
+    "American BBQ / Smoker",
+    "Mexican Coastal",
+    "American",
+    "Mediterranean"
+  ],
+  "days": [
+    {
+      "day": "Monday",
+      "cuisine": "Mexican",
+      "breakfast": {
+        "recipe_id": "chipotle-turkey-zucchini-egg-bites",
+        "austin": { "cal": 380, "p": 36, "f": 14, "c": 8 },
+        "cameron": { "cal": 490, "p": 32, "f": 24, "c": 14 },
+        "cameron_note": "+ 1/2 avocado on the side"
+      },
+      "lunch": {
+        "recipe_id": "dijon-herb-chicken-salad-on-arugula",
+        "austin": { "cal": 540, "p": 48, "f": 10, "c": 30 },
+        "cameron": { "cal": 520, "p": 36, "f": 18, "c": 30 },
+        "cameron_note": "+ 1/2 avocado, crackers on the side"
+      },
+      "dinner": {
+        "recipe_id": "smoky-chipotle-chicken-rice-bowls",
+        "austin": { "cal": 620, "p": 52, "f": 14, "c": 58 },
+        "cameron": { "cal": 560, "p": 38, "f": 18, "c": 56 },
+        "cameron_note": "+ 1/4 avocado, extra pico de gallo"
+      },
+      "austin_total": { "cal": 1540, "p": 136 },
+      "cameron_total": { "cal": 1570, "p": 106 }
+    },
+    {
+      "day": "Tuesday",
+      "cuisine": "Japanese",
+      "breakfast": {
+        "recipe_id": "chipotle-turkey-zucchini-egg-bites",
+        "austin": { "cal": 380, "p": 36, "f": 14, "c": 8 },
+        "cameron": { "cal": 490, "p": 32, "f": 24, "c": 14 },
+        "cameron_note": "+ 1/2 avocado on the side"
+      },
+      "lunch": {
+        "recipe_id": "dijon-herb-chicken-salad-on-arugula",
+        "austin": { "cal": 540, "p": 48, "f": 10, "c": 30 },
+        "cameron": { "cal": 520, "p": 36, "f": 18, "c": 30 },
+        "cameron_note": "+ 1/2 avocado, crackers on the side"
+      },
+      "dinner": {
+        "recipe_id": "chilled-sesame-teriyaki-soba-bowl",
+        "austin": { "cal": 590, "p": 48, "f": 14, "c": 68 },
+        "cameron": { "cal": 550, "p": 42, "f": 14, "c": 64 },
+        "cameron_note": "Extra sesame oil drizzle; sliced avocado optional"
+      },
+      "austin_total": { "cal": 1510, "p": 132 },
+      "cameron_total": { "cal": 1560, "p": 110 }
+    },
+    {
+      "day": "Wednesday",
+      "cuisine": "Mexican Coastal",
+      "breakfast": {
+        "recipe_id": "chipotle-turkey-zucchini-egg-bites",
+        "austin": { "cal": 380, "p": 36, "f": 14, "c": 8 },
+        "cameron": { "cal": 490, "p": 32, "f": 24, "c": 14 },
+        "cameron_note": "+ 1/2 avocado on the side"
+      },
+      "lunch": {
+        "recipe_id": "dijon-herb-chicken-salad-on-arugula",
+        "austin": { "cal": 540, "p": 48, "f": 10, "c": 30 },
+        "cameron": { "cal": 520, "p": 36, "f": 18, "c": 30 },
+        "cameron_note": "+ 1/2 avocado, crackers on the side"
+      },
+      "dinner": {
+        "recipe_id": "blackened-tilapia-street-tacos-with-corn-slaw",
+        "austin": { "cal": 570, "p": 50, "f": 12, "c": 54 },
+        "cameron": { "cal": 640, "p": 44, "f": 24, "c": 58 },
+        "cameron_note": "+ 1/2 avocado sliced on each taco, extra yogurt sauce"
+      },
+      "austin_total": { "cal": 1490, "p": 134 },
+      "cameron_total": { "cal": 1650, "p": 112 }
+    },
+    {
+      "day": "Thursday",
+      "cuisine": "American BBQ / Smoker",
+      "breakfast": {
+        "recipe_id": "chipotle-turkey-zucchini-egg-bites",
+        "austin": { "cal": 380, "p": 36, "f": 14, "c": 8 },
+        "cameron": { "cal": 490, "p": 32, "f": 24, "c": 14 },
+        "cameron_note": "+ 1/2 avocado on the side"
+      },
+      "lunch": {
+        "recipe_id": "smoked-chicken-corn-tomato-bowl",
+        "austin": { "cal": 570, "p": 48, "f": 16, "c": 48 },
+        "cameron": { "cal": 550, "p": 38, "f": 22, "c": 46 },
+        "cameron_note": "+ 1/2 avocado"
+      },
+      "dinner": {
+        "recipe_id": "smoke-kissed-bone-in-thighs-with-charred-corn-pico",
+        "austin": { "cal": 640, "p": 54, "f": 28, "c": 20 },
+        "cameron": { "cal": 540, "p": 42, "f": 22, "c": 20 },
+        "cameron_note": "1.5 thighs lighter portion"
+      },
+      "austin_total": { "cal": 1590, "p": 138 },
+      "cameron_total": { "cal": 1580, "p": 102 }
+    },
+    {
+      "day": "Friday",
+      "cuisine": "Mexican Coastal",
+      "breakfast": {
+        "recipe_id": "simple-pan-eggs",
+        "austin": { "cal": 350, "p": 30, "f": 18, "c": 4 },
+        "cameron": { "cal": 430, "p": 28, "f": 16, "c": 32 },
+        "cameron_note": "2 eggs + Greek yogurt + toast + avocado"
+      },
+      "lunch": {
+        "recipe_id": "smoked-chicken-corn-tomato-bowl",
+        "austin": { "cal": 570, "p": 48, "f": 16, "c": 48 },
+        "cameron": { "cal": 550, "p": 38, "f": 22, "c": 46 },
+        "cameron_note": "+ 1/2 avocado"
+      },
+      "dinner": {
+        "recipe_id": "baja-spiced-shrimp-lettuce-wraps",
+        "austin": { "cal": 480, "p": 46, "f": 10, "c": 30 },
+        "cameron": { "cal": 570, "p": 42, "f": 22, "c": 34 },
+        "cameron_note": "+ 1/2 avocado, mini guac scoop"
+      },
+      "austin_total": { "cal": 1400, "p": 124 },
+      "cameron_total": { "cal": 1550, "p": 108 }
+    },
+    {
+      "day": "Saturday",
+      "cuisine": "American",
+      "breakfast": {
+        "recipe_id": "simple-pan-eggs",
+        "austin": { "cal": 350, "p": 30, "f": 18, "c": 4 },
+        "cameron": { "cal": 430, "p": 28, "f": 16, "c": 32 },
+        "cameron_note": "2 eggs + Greek yogurt + toast + avocado"
+      },
+      "lunch": {
+        "recipe_id": "dijon-herb-chicken-salad-on-arugula",
+        "austin": { "cal": 540, "p": 48, "f": 10, "c": 30 },
+        "cameron": { "cal": 520, "p": 36, "f": 18, "c": 30 },
+        "cameron_note": "+ 1/2 avocado, crackers on the side"
+      },
+      "dinner": {
+        "recipe_id": "jalapeno-cheddar-turkey-smash-burgers",
+        "austin": { "cal": 620, "p": 52, "f": 22, "c": 38 },
+        "cameron": { "cal": 700, "p": 48, "f": 34, "c": 42 },
+        "cameron_note": "+ 1/2 avocado sliced, extra sauce"
+      },
+      "austin_total": { "cal": 1510, "p": 130 },
+      "cameron_total": { "cal": 1650, "p": 112 }
+    },
+    {
+      "day": "Sunday",
+      "cuisine": "Mediterranean",
+      "breakfast": {
+        "recipe_id": "simple-pan-eggs",
+        "austin": { "cal": 350, "p": 30, "f": 18, "c": 4 },
+        "cameron": { "cal": 430, "p": 28, "f": 16, "c": 32 },
+        "cameron_note": "2 eggs + Greek yogurt + toast + avocado"
+      },
+      "lunch": {
+        "recipe_id": "dijon-herb-chicken-salad-on-arugula",
+        "austin": { "cal": 540, "p": 48, "f": 10, "c": 30 },
+        "cameron": { "cal": 520, "p": 36, "f": 18, "c": 30 },
+        "cameron_note": "+ 1/2 avocado, crackers on the side"
+      },
+      "dinner": {
+        "recipe_id": "charred-zucchini-tomato-white-bean-panzanella",
+        "austin": { "cal": 560, "p": 42, "f": 16, "c": 56 },
+        "cameron": { "cal": 620, "p": 30, "f": 28, "c": 58 },
+        "cameron_note": "+ fresh mozzarella torn, 1/2 avocado — add Greek yogurt on side for extra protein"
+      },
+      "austin_total": { "cal": 1450, "p": 120 },
+      "cameron_total": { "cal": 1570, "p": 94 }
+    }
+  ],
+  "batch_prep": [
+    {
+      "station": "Sunday — Egg Bites Batch (35 min, covers Mon–Thu breakfasts)",
+      "tasks": [
+        "Preheat oven to 350°F. Spray 12-cup muffin tin well.",
+        "Cook 8 oz ground turkey with garlic powder, onion powder, smoked paprika, salt in a skillet until no pink remains. Drain.",
+        "Finely dice 1 zucchini. Squeeze between paper towels to remove moisture.",
+        "Whisk 8 egg whites + 4 whole eggs + 2 tbsp chipotle adobo sauce + salt/pepper.",
+        "Fill each muffin cup with turkey + zucchini. Pour egg mixture over. Top with shredded cheddar.",
+        "Bake 22–25 min until set. Cool 5 min. Run knife around edges. Store in fridge up to 5 days.",
+        "Austin: 3 bites per morning. Cameron: 3 bites + 1/2 avocado on the side."
+      ]
+    },
+    {
+      "station": "Sunday — Smoker: Bone-In Thighs (2–2.5 hrs, hands-off)",
+      "tasks": [
+        "Apply dry rub to all thighs: smoked paprika, garlic powder, onion powder, brown sugar, chipotle powder, cumin, salt, pepper. Rub in well.",
+        "Set smoker to 250°F with applewood or hickory chips.",
+        "Smoke skin-side up 2–2.5 hrs until internal temp hits 175°F. Don't rush it.",
+        "Optional: 5 min under broiler at end for crispy skin.",
+        "Cool and refrigerate. Thursday dinner = 2 thighs per person. Friday = pull meat off bone for grain bowls."
+      ]
+    },
+    {
+      "station": "Sunday — Chicken Salad Assembly (10 min)",
+      "tasks": [
+        "Dice 3 celery stalks + 1/4 cup red onion finely.",
+        "Whisk dressing: 1/2 cup Greek yogurt + 2 tbsp Dijon + 1 tbsp ACV + 1 tsp honey + dill + parsley.",
+        "Fold dressing into ALREADY-SHREDDED chicken breast. Taste and adjust.",
+        "Portion into 4 containers. Keep arugula SEPARATE — dress day-of so it doesn't wilt.",
+        "Austin: red pepper flakes + lemon squeeze at serving. Cameron: + sliced avocado."
+      ]
+    },
+    {
+      "station": "Sunday — Chipotle Bowl Components (20 min)",
+      "tasks": [
+        "Cook 3 cups brown rice. Toss with lime juice and cilantro while warm. Batch for 4 dinner servings.",
+        "Char corn in dry cast-iron or on grill. Make pico: diced tomato, jalapeño, red onion, cilantro, lime.",
+        "Warm ALREADY-PREPPED chipotle chicken thighs in skillet with splash of water. Season with cumin + smoked paprika.",
+        "Portion rice + chicken + black beans + corn + pico into 4 containers.",
+        "Make extra pico — you'll use it Friday for soba bowl and shrimp wraps."
+      ]
+    },
+    {
+      "station": "Sunday — Teriyaki Sauce for Tuesday (10 min)",
+      "tasks": [
+        "Combine in small saucepan: 1/4 cup soy sauce + 2 tbsp honey + 1 tbsp rice vinegar + 1 tsp sesame oil + 1 tsp grated ginger + 2 cloves minced garlic.",
+        "Bring to simmer, stir in cornstarch slurry (1 tbsp cornstarch + 2 tbsp water). Cook 2 min until glossy.",
+        "Cool and refrigerate in a jar. Tuesday: cook soba noodles, rinse cold, use leftover smoked chicken, toss with sauce. Done in 15 min."
+      ]
+    }
+  ]
+}

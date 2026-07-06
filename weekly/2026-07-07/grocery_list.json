@@ -1,0 +1,59 @@
+{
+  "week_date": "2026-07-07",
+  "week_start": "July 7",
+  "week_end": "July 13, 2026",
+  "notes": "Pantry staples excluded. Austin already has: shredded chicken breast, shredded chipotle chicken thighs, bone-in chicken thighs (raw), leftover arugula.",
+  "categories": {
+    "Produce": [
+      { "name": "Fresh corn", "qty": "4 ears", "for": "Chipotle bowls + charred corn pico + grain bowl" },
+      { "name": "Cherry tomatoes", "qty": "2 pints", "for": "Pico de gallo + panzanella" },
+      { "name": "Zucchini", "qty": "4 medium", "for": "Egg bites (1) + panzanella (3)" },
+      { "name": "Cucumbers", "qty": "2 large", "for": "Teriyaki soba + fish taco slaw" },
+      { "name": "Butter lettuce", "qty": "1 head", "for": "Baja shrimp wraps (Fri)" },
+      { "name": "Avocados", "qty": "5-6", "for": "Cameron all week — 1 per day roughly" },
+      { "name": "Jalapeños", "qty": "4-5", "for": "Turkey burgers + pico + chipotle bowls" },
+      { "name": "Limes", "qty": "6", "for": "Pico + bowls + tacos + wraps + dressings" },
+      { "name": "Lemons", "qty": "2", "for": "Chicken salad dressing + finishing" },
+      { "name": "Scallions", "qty": "1 bunch", "for": "Teriyaki soba" },
+      { "name": "Celery", "qty": "1 bunch (3 stalks needed)", "for": "Dijon chicken salad" },
+      { "name": "Red onion", "qty": "2 medium", "for": "Chicken salad + pico + fish tacos + various" },
+      { "name": "Fresh cilantro", "qty": "2 bunches", "for": "Pico + bowls + wraps + tacos" },
+      { "name": "Fresh dill", "qty": "1 small bunch", "for": "Chicken salad dressing" },
+      { "name": "Fresh parsley", "qty": "1 small bunch", "for": "Chicken salad dressing" },
+      { "name": "Fresh basil", "qty": "1 bunch", "for": "Panzanella (Sunday)" },
+      { "name": "Fresh ginger", "qty": "1 small knob", "for": "Teriyaki sauce" },
+      { "name": "Garlic", "qty": "1 head", "for": "Teriyaki + various" }
+    ],
+    "Proteins": [
+      { "name": "Lean ground turkey 93/7", "qty": "2.5 lbs", "for": "8 oz egg bites + 1.5 lbs turkey smash burgers" },
+      { "name": "White fish — tilapia, cod, or mahi mahi", "qty": "1.5 lbs", "for": "Blackened fish tacos (Wed)" },
+      { "name": "Large shrimp, peeled & deveined", "qty": "1.5 lbs", "for": "Baja shrimp lettuce wraps (Fri) — check freezer first" },
+      { "name": "Solid white tuna in water (canned)", "qty": "2 cans", "for": "Panzanella protein boost for Austin (Sun)" }
+    ],
+    "Dairy & Eggs": [
+      { "name": "Large eggs", "qty": "2 dozen", "for": "Egg bites (4 whole eggs) + Fri-Sun breakfasts (6 eggs)" },
+      { "name": "Liquid egg whites", "qty": "16 oz carton", "for": "Egg bites (8 egg whites)" },
+      { "name": "Plain Greek yogurt", "qty": "32 oz", "for": "Egg bites + chicken salad dressing + fish taco sauce + burger sauce" },
+      { "name": "Sharp cheddar, shredded", "qty": "6 oz", "for": "Egg bites (2 oz) + turkey burgers (4 oz)" },
+      { "name": "Fresh mozzarella", "qty": "4 oz ball", "for": "Panzanella — Cameron only" }
+    ],
+    "Grains & Dry Goods": [
+      { "name": "Soba noodles", "qty": "8 oz package", "for": "Chilled teriyaki soba bowl (Tue) — NOT in pantry" },
+      { "name": "Corn tortillas (small, 4-inch)", "qty": "12-count pack", "for": "Blackened fish tacos (Wed) — NOT in pantry" },
+      { "name": "Brioche or potato burger buns", "qty": "4 count", "for": "Turkey smash burgers (Sat)" },
+      { "name": "Sourdough or ciabatta bread", "qty": "4 thick slices", "for": "Panzanella croutons (Sun)" },
+      { "name": "Frozen shelled edamame", "qty": "1 cup", "for": "Teriyaki soba — check freezer first" }
+    ],
+    "Canned & Jarred": [
+      { "name": "Chipotle peppers in adobo sauce", "qty": "1 can (7 oz)", "for": "Egg bites sauce + chipotle bowls" },
+      { "name": "Cannellini white beans", "qty": "2 cans (15 oz each)", "for": "Charred zucchini panzanella (Sun)" }
+    ],
+    "Pantry / Other": [
+      { "name": "Cornstarch", "qty": "small box", "for": "Teriyaki sauce slurry — check pantry" },
+      { "name": "Apple cider vinegar", "qty": "small bottle", "for": "Chicken salad dressing — check pantry" },
+      { "name": "Worcestershire sauce", "qty": "small bottle", "for": "Turkey smash burgers" },
+      { "name": "Ketchup", "qty": "—", "for": "Burger sauce — check fridge" },
+      { "name": "Balsamic vinegar", "qty": "small bottle", "for": "Panzanella dressing (Sun) — check pantry" }
+    ]
+  }
+}
