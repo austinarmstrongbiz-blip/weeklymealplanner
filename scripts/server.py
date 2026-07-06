@@ -378,7 +378,7 @@ class MealPlannerHandler(SimpleHTTPRequestHandler):
             except Exception as e:
                 return self._json({'error': f'Could not fetch page: {str(e)}'}, 500)
 
-        # POST /api/plan/save — write meal_plan.json for a given week
+        # POST /api/plan/save — write meal_plan.json (and optionally grocery_list.json)
         if parsed.path == '/api/plan/save':
             week_date = data.get('week_date')
             plan      = data.get('plan')
@@ -389,9 +389,12 @@ class MealPlannerHandler(SimpleHTTPRequestHandler):
                 return self._json({'error': 'Invalid week_date format'}, 400)
             week_dir = DATA_ROOT / 'weekly' / week_date
             week_dir.mkdir(parents=True, exist_ok=True)
-            plan_path = week_dir / 'meal_plan.json'
-            with open(plan_path, 'w', encoding='utf-8') as f:
+            with open(week_dir / 'meal_plan.json', 'w', encoding='utf-8') as f:
                 json.dump(plan, f, indent=2, ensure_ascii=False)
+            grocery = data.get('grocery')
+            if grocery:
+                with open(week_dir / 'grocery_list.json', 'w', encoding='utf-8') as f:
+                    json.dump(grocery, f, indent=2, ensure_ascii=False)
             return self._json({'success': True})
 
         # POST /api/recipes/update — update existing recipe by id
