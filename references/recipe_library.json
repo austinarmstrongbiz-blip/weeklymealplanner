@@ -9829,7 +9829,7 @@
       "cook": "25 min",
       "total": "35 min",
       "spice_level": "Medium",
-      "serving_note": "12 bites — 3 per person, covers Mon–Thu",
+      "serving_note": "12 bites — Austin 3 bites, Cameron 2 bites",
       "tags": [
         "batch-friendly",
         "summer-2026",
@@ -9838,21 +9838,21 @@
       ],
       "equipment": "Muffin tin, skillet",
       "macro_strings": {
-        "austin": "380 cal | 36g P | 14g F | 8g C",
-        "cameron": "490 cal | 32g P | 24g F | 14g C"
+        "austin": "480 cal | 42g P | 16g F | 8g C",
+        "cameron": "270 cal | 24g P | 10g F | 7g C"
       },
       "macros": {
         "austin": {
-          "cal": 380,
-          "p": 36,
-          "f": 14,
+          "cal": 480,
+          "p": 42,
+          "f": 16,
           "c": 8
         },
         "cameron": {
-          "cal": 490,
-          "p": 32,
-          "f": 24,
-          "c": 14
+          "cal": 270,
+          "p": 24,
+          "f": 10,
+          "c": 7
         }
       },
       "ingredients": [
@@ -9934,7 +9934,7 @@
       "cook": "0 min",
       "total": "10 min",
       "spice_level": "None",
-      "serving_note": "4–5 servings from batch",
+      "serving_note": "4-5 servings — Austin full portion, Cameron light portion",
       "tags": [
         "batch-friendly",
         "summer-2026",
@@ -9943,21 +9943,21 @@
       ],
       "equipment": "Mixing bowl",
       "macro_strings": {
-        "austin": "540 cal | 48g P | 10g F | 30g C",
-        "cameron": "520 cal | 36g P | 18g F | 30g C"
+        "austin": "640 cal | 56g P | 12g F | 32g C",
+        "cameron": "380 cal | 30g P | 8g F | 26g C"
       },
       "macros": {
         "austin": {
-          "cal": 540,
-          "p": 48,
-          "f": 10,
-          "c": 30
+          "cal": 640,
+          "p": 56,
+          "f": 12,
+          "c": 32
         },
         "cameron": {
-          "cal": 520,
-          "p": 36,
-          "f": 18,
-          "c": 30
+          "cal": 380,
+          "p": 30,
+          "f": 8,
+          "c": 26
         }
       },
       "ingredients": [
@@ -10051,21 +10051,21 @@
       ],
       "equipment": "Skillet",
       "macro_strings": {
-        "austin": "620 cal | 52g P | 14g F | 58g C",
-        "cameron": "560 cal | 38g P | 18g F | 56g C"
+        "austin": "780 cal | 60g P | 16g F | 62g C",
+        "cameron": "480 cal | 38g P | 14g F | 48g C"
       },
       "macros": {
         "austin": {
-          "cal": 620,
-          "p": 52,
-          "f": 14,
-          "c": 58
+          "cal": 780,
+          "p": 60,
+          "f": 16,
+          "c": 62
         },
         "cameron": {
-          "cal": 560,
+          "cal": 480,
           "p": 38,
-          "f": 18,
-          "c": 56
+          "f": 14,
+          "c": 48
         }
       },
       "ingredients": [
@@ -10129,7 +10129,7 @@
         "Hot sauce for Austin. Cameron: + avocado + extra pico."
       ],
       "batch_note": "Rice batched Sunday. Corn pico Sunday. Make extra pico for wraps later in week.",
-      "cameron_note": "Add 1/4 avocado + extra pico.",
+      "cameron_note": "Smaller rice portion + 1/4 avocado, extra pico",
       "history": {
         "first_used": "2026-07-07",
         "last_used": "2026-07-07",
@@ -10161,21 +10161,21 @@
       ],
       "equipment": "Large pot, small saucepan, skillet",
       "macro_strings": {
-        "austin": "590 cal | 48g P | 14g F | 68g C",
-        "cameron": "550 cal | 42g P | 14g F | 64g C"
+        "austin": "790 cal | 60g P | 16g F | 72g C",
+        "cameron": "480 cal | 40g P | 14g F | 58g C"
       },
       "macros": {
         "austin": {
-          "cal": 590,
-          "p": 48,
-          "f": 14,
-          "c": 68
+          "cal": 790,
+          "p": 60,
+          "f": 16,
+          "c": 72
         },
         "cameron": {
-          "cal": 550,
-          "p": 42,
+          "cal": 480,
+          "p": 40,
           "f": 14,
-          "c": 64
+          "c": 58
         }
       },
       "ingredients": [
@@ -10249,7 +10249,7 @@
         "Austin: red pepper flakes + sriracha. Cameron: extra sesame oil."
       ],
       "batch_note": "Sauce Sunday. Use leftover smoked thighs. Assembly 10 min Tuesday.",
-      "cameron_note": "Extra sesame oil drizzle. Avocado optional.",
+      "cameron_note": "Half soba portion, extra sesame oil drizzle",
       "history": {
         "first_used": "2026-07-07",
         "last_used": "2026-07-07",
@@ -10272,7 +10272,7 @@
       "cook": "12 min",
       "total": "27 min",
       "spice_level": "High",
-      "serving_note": "4 servings, 3 tacos each",
+      "serving_note": "Austin: 9 tacos (3 meals) | Cameron: 6 tacos",
       "tags": [
         "summer-2026",
         "restaurant-dropout-inspired",
@@ -10281,21 +10281,21 @@
       ],
       "equipment": "Cast-iron skillet",
       "macro_strings": {
-        "austin": "570 cal | 50g P | 12g F | 54g C",
-        "cameron": "640 cal | 44g P | 24g F | 58g C"
+        "austin": "760 cal | 58g P | 14g F | 58g C",
+        "cameron": "470 cal | 38g P | 18g F | 44g C"
       },
       "macros": {
         "austin": {
-          "cal": 570,
-          "p": 50,
-          "f": 12,
-          "c": 54
+          "cal": 760,
+          "p": 58,
+          "f": 14,
+          "c": 58
         },
         "cameron": {
-          "cal": 640,
-          "p": 44,
-          "f": 24,
-          "c": 58
+          "cal": 470,
+          "p": 38,
+          "f": 18,
+          "c": 44
         }
       },
       "ingredients": [
@@ -10381,7 +10381,7 @@
         "Build: tortilla → slaw → fish → sauce → lime. Austin: extra cayenne + hot sauce. Cameron: + avocado."
       ],
       "batch_note": "Slaw and sauce made ahead. Fish day-of — 12 min.",
-      "cameron_note": "1/2 avocado per serving. Double sauce.",
+      "cameron_note": "6 tacos not 9, 1/4 avocado per taco, extra yogurt sauce",
       "history": {
         "first_used": "2026-07-07",
         "last_used": "2026-07-07",
@@ -10413,20 +10413,20 @@
       ],
       "equipment": "Smoker, broiler",
       "macro_strings": {
-        "austin": "640 cal | 54g P | 28g F | 20g C",
-        "cameron": "540 cal | 42g P | 22g F | 20g C"
+        "austin": "820 cal | 62g P | 30g F | 22g C",
+        "cameron": "480 cal | 38g P | 18g F | 20g C"
       },
       "macros": {
         "austin": {
-          "cal": 640,
-          "p": 54,
-          "f": 28,
-          "c": 20
+          "cal": 820,
+          "p": 62,
+          "f": 30,
+          "c": 22
         },
         "cameron": {
-          "cal": 540,
-          "p": 42,
-          "f": 22,
+          "cal": 480,
+          "p": 38,
+          "f": 18,
           "c": 20
         }
       },
@@ -10501,7 +10501,7 @@
         "Serve Thu with 2 thighs + generous pico. Refrigerate rest for Fri grain bowls."
       ],
       "batch_note": "Sunday smoker anchor. Make extra corn pico — carries into Fri.",
-      "cameron_note": "1.5 thighs portion.",
+      "cameron_note": "1 thigh only, big pico, no rice",
       "history": {
         "first_used": "2026-07-07",
         "last_used": "2026-07-07",
@@ -10532,21 +10532,21 @@
       ],
       "equipment": "None",
       "macro_strings": {
-        "austin": "570 cal | 48g P | 16g F | 48g C",
-        "cameron": "550 cal | 38g P | 22g F | 46g C"
+        "austin": "700 cal | 56g P | 18g F | 52g C",
+        "cameron": "400 cal | 34g P | 16g F | 40g C"
       },
       "macros": {
         "austin": {
-          "cal": 570,
-          "p": 48,
-          "f": 16,
-          "c": 48
+          "cal": 700,
+          "p": 56,
+          "f": 18,
+          "c": 52
         },
         "cameron": {
-          "cal": 550,
-          "p": 38,
-          "f": 22,
-          "c": 46
+          "cal": 400,
+          "p": 34,
+          "f": 16,
+          "c": 40
         }
       },
       "ingredients": [
@@ -10594,7 +10594,7 @@
         "Austin: red pepper flakes. Cameron: + avocado."
       ],
       "batch_note": "Pull chicken Thu evening. Always make extra corn pico Thursday.",
-      "cameron_note": "Add 1/2 avocado. Extra vinaigrette.",
+      "cameron_note": "+ 1/4 avocado, smaller grain portion",
       "history": {
         "first_used": "2026-07-07",
         "last_used": "2026-07-07",
@@ -10626,21 +10626,21 @@
       ],
       "equipment": "Large skillet",
       "macro_strings": {
-        "austin": "480 cal | 46g P | 10g F | 30g C",
-        "cameron": "570 cal | 42g P | 22g F | 34g C"
+        "austin": "720 cal | 54g P | 12g F | 34g C",
+        "cameron": "450 cal | 40g P | 18g F | 28g C"
       },
       "macros": {
         "austin": {
-          "cal": 480,
-          "p": 46,
-          "f": 10,
-          "c": 30
+          "cal": 720,
+          "p": 54,
+          "f": 12,
+          "c": 34
         },
         "cameron": {
-          "cal": 570,
-          "p": 42,
-          "f": 22,
-          "c": 34
+          "cal": 450,
+          "p": 40,
+          "f": 18,
+          "c": 28
         }
       },
       "ingredients": [
@@ -10721,7 +10721,7 @@
         "Cameron: + avocado or quick guac."
       ],
       "batch_note": "Sauce made Sunday. Shrimp 6 min Friday. Toppings from leftover corn pico.",
-      "cameron_note": "Add 1/2 avocado or mini guac. Double sauce.",
+      "cameron_note": "3 wraps not 4, + 1/4 avocado, double sauce",
       "history": {
         "first_used": "2026-07-07",
         "last_used": "2026-07-07",
@@ -10753,21 +10753,21 @@
       ],
       "equipment": "Cast-iron skillet",
       "macro_strings": {
-        "austin": "620 cal | 52g P | 22g F | 38g C",
-        "cameron": "700 cal | 48g P | 34g F | 42g C"
+        "austin": "820 cal | 60g P | 24g F | 42g C",
+        "cameron": "480 cal | 36g P | 26g F | 36g C"
       },
       "macros": {
         "austin": {
-          "cal": 620,
-          "p": 52,
-          "f": 22,
-          "c": 38
+          "cal": 820,
+          "p": 60,
+          "f": 24,
+          "c": 42
         },
         "cameron": {
-          "cal": 700,
-          "p": 48,
-          "f": 34,
-          "c": 42
+          "cal": 480,
+          "p": 36,
+          "f": 26,
+          "c": 36
         }
       },
       "ingredients": [
@@ -10846,7 +10846,7 @@
         "Cameron: + avocado + extra sauce."
       ],
       "batch_note": "Quick Saturday cook. Don't mix turkey more than 2 hrs ahead.",
-      "cameron_note": "Add 1/2 avocado. Double sauce.",
+      "cameron_note": "1.5 patties not 2, 1/4 avocado, extra sauce",
       "history": {
         "first_used": "2026-07-07",
         "last_used": "2026-07-07",
@@ -10878,21 +10878,21 @@
       ],
       "equipment": "Cast-iron skillet, oven",
       "macro_strings": {
-        "austin": "560 cal | 42g P | 16g F | 56g C",
-        "cameron": "620 cal | 30g P | 28g F | 58g C"
+        "austin": "740 cal | 54g P | 18g F | 60g C",
+        "cameron": "460 cal | 34g P | 22g F | 52g C"
       },
       "macros": {
         "austin": {
-          "cal": 560,
-          "p": 42,
-          "f": 16,
-          "c": 56
+          "cal": 740,
+          "p": 54,
+          "f": 18,
+          "c": 60
         },
         "cameron": {
-          "cal": 620,
-          "p": 30,
-          "f": 28,
-          "c": 58
+          "cal": 460,
+          "p": 34,
+          "f": 22,
+          "c": 52
         }
       },
       "ingredients": [
@@ -10958,7 +10958,7 @@
         "Austin: flake tuna over + chili flakes. Cameron: torn mozzarella + avocado + balsamic drizzle."
       ],
       "batch_note": "Light Sunday dinner. Minimal cooking.",
-      "cameron_note": "Mozzarella + 1/2 avocado. Greek yogurt on side for protein.",
+      "cameron_note": "+ mozzarella, 1/4 avocado, smaller portion, Greek yogurt on side",
       "history": {
         "first_used": "2026-07-07",
         "last_used": "2026-07-07",

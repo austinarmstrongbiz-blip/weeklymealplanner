@@ -27,168 +27,420 @@
       "cuisine": "Mexican",
       "breakfast": {
         "recipe_id": "chipotle-turkey-zucchini-egg-bites",
-        "austin": { "cal": 380, "p": 36, "f": 14, "c": 8 },
-        "cameron": { "cal": 490, "p": 32, "f": 24, "c": 14 },
-        "cameron_note": "+ 1/2 avocado on the side"
+        "austin": {
+          "cal": 480,
+          "p": 42,
+          "f": 16,
+          "c": 8
+        },
+        "cameron": {
+          "cal": 270,
+          "p": 24,
+          "f": 10,
+          "c": 7
+        },
+        "cameron_note": "+ 1/4 avocado (2 bites only)"
       },
       "lunch": {
         "recipe_id": "dijon-herb-chicken-salad-on-arugula",
-        "austin": { "cal": 540, "p": 48, "f": 10, "c": 30 },
-        "cameron": { "cal": 520, "p": 36, "f": 18, "c": 30 },
-        "cameron_note": "+ 1/2 avocado, crackers on the side"
+        "austin": {
+          "cal": 640,
+          "p": 56,
+          "f": 12,
+          "c": 32
+        },
+        "cameron": {
+          "cal": 380,
+          "p": 30,
+          "f": 8,
+          "c": 26
+        },
+        "cameron_note": "+ 1/4 avocado, light portion"
       },
       "dinner": {
         "recipe_id": "smoky-chipotle-chicken-rice-bowls",
-        "austin": { "cal": 620, "p": 52, "f": 14, "c": 58 },
-        "cameron": { "cal": 560, "p": 38, "f": 18, "c": 56 },
-        "cameron_note": "+ 1/4 avocado, extra pico de gallo"
+        "austin": {
+          "cal": 780,
+          "p": 60,
+          "f": 16,
+          "c": 62
+        },
+        "cameron": {
+          "cal": 480,
+          "p": 38,
+          "f": 14,
+          "c": 48
+        },
+        "cameron_note": "Smaller rice portion + 1/4 avocado, extra pico"
       },
-      "austin_total": { "cal": 1540, "p": 136 },
-      "cameron_total": { "cal": 1570, "p": 106 }
+      "austin_total": {
+        "cal": 1900,
+        "p": 158
+      },
+      "cameron_total": {
+        "cal": 1130,
+        "p": 92
+      }
     },
     {
       "day": "Tuesday",
       "cuisine": "Japanese",
       "breakfast": {
         "recipe_id": "chipotle-turkey-zucchini-egg-bites",
-        "austin": { "cal": 380, "p": 36, "f": 14, "c": 8 },
-        "cameron": { "cal": 490, "p": 32, "f": 24, "c": 14 },
-        "cameron_note": "+ 1/2 avocado on the side"
+        "austin": {
+          "cal": 480,
+          "p": 42,
+          "f": 16,
+          "c": 8
+        },
+        "cameron": {
+          "cal": 270,
+          "p": 24,
+          "f": 10,
+          "c": 7
+        },
+        "cameron_note": "2 bites only"
       },
       "lunch": {
         "recipe_id": "dijon-herb-chicken-salad-on-arugula",
-        "austin": { "cal": 540, "p": 48, "f": 10, "c": 30 },
-        "cameron": { "cal": 520, "p": 36, "f": 18, "c": 30 },
-        "cameron_note": "+ 1/2 avocado, crackers on the side"
+        "austin": {
+          "cal": 640,
+          "p": 56,
+          "f": 12,
+          "c": 32
+        },
+        "cameron": {
+          "cal": 380,
+          "p": 30,
+          "f": 8,
+          "c": 26
+        },
+        "cameron_note": "+ 1/4 avocado, light portion"
       },
       "dinner": {
         "recipe_id": "chilled-sesame-teriyaki-soba-bowl",
-        "austin": { "cal": 590, "p": 48, "f": 14, "c": 68 },
-        "cameron": { "cal": 550, "p": 42, "f": 14, "c": 64 },
-        "cameron_note": "Extra sesame oil drizzle; sliced avocado optional"
+        "austin": {
+          "cal": 790,
+          "p": 60,
+          "f": 16,
+          "c": 72
+        },
+        "cameron": {
+          "cal": 480,
+          "p": 40,
+          "f": 14,
+          "c": 58
+        },
+        "cameron_note": "Half soba portion, extra sesame oil drizzle"
       },
-      "austin_total": { "cal": 1510, "p": 132 },
-      "cameron_total": { "cal": 1560, "p": 110 }
+      "austin_total": {
+        "cal": 1910,
+        "p": 158
+      },
+      "cameron_total": {
+        "cal": 1130,
+        "p": 94
+      }
     },
     {
       "day": "Wednesday",
       "cuisine": "Mexican Coastal",
       "breakfast": {
         "recipe_id": "chipotle-turkey-zucchini-egg-bites",
-        "austin": { "cal": 380, "p": 36, "f": 14, "c": 8 },
-        "cameron": { "cal": 490, "p": 32, "f": 24, "c": 14 },
-        "cameron_note": "+ 1/2 avocado on the side"
+        "austin": {
+          "cal": 480,
+          "p": 42,
+          "f": 16,
+          "c": 8
+        },
+        "cameron": {
+          "cal": 270,
+          "p": 24,
+          "f": 10,
+          "c": 7
+        },
+        "cameron_note": "2 bites only"
       },
       "lunch": {
         "recipe_id": "dijon-herb-chicken-salad-on-arugula",
-        "austin": { "cal": 540, "p": 48, "f": 10, "c": 30 },
-        "cameron": { "cal": 520, "p": 36, "f": 18, "c": 30 },
-        "cameron_note": "+ 1/2 avocado, crackers on the side"
+        "austin": {
+          "cal": 640,
+          "p": 56,
+          "f": 12,
+          "c": 32
+        },
+        "cameron": {
+          "cal": 380,
+          "p": 30,
+          "f": 8,
+          "c": 26
+        },
+        "cameron_note": "+ 1/4 avocado, light portion"
       },
       "dinner": {
         "recipe_id": "blackened-tilapia-street-tacos-with-corn-slaw",
-        "austin": { "cal": 570, "p": 50, "f": 12, "c": 54 },
-        "cameron": { "cal": 640, "p": 44, "f": 24, "c": 58 },
-        "cameron_note": "+ 1/2 avocado sliced on each taco, extra yogurt sauce"
+        "austin": {
+          "cal": 760,
+          "p": 58,
+          "f": 14,
+          "c": 58
+        },
+        "cameron": {
+          "cal": 470,
+          "p": 38,
+          "f": 18,
+          "c": 44
+        },
+        "cameron_note": "6 tacos not 9, 1/4 avocado per taco, extra yogurt sauce"
       },
-      "austin_total": { "cal": 1490, "p": 134 },
-      "cameron_total": { "cal": 1650, "p": 112 }
+      "austin_total": {
+        "cal": 1880,
+        "p": 156
+      },
+      "cameron_total": {
+        "cal": 1120,
+        "p": 92
+      }
     },
     {
       "day": "Thursday",
       "cuisine": "American BBQ / Smoker",
       "breakfast": {
         "recipe_id": "chipotle-turkey-zucchini-egg-bites",
-        "austin": { "cal": 380, "p": 36, "f": 14, "c": 8 },
-        "cameron": { "cal": 490, "p": 32, "f": 24, "c": 14 },
-        "cameron_note": "+ 1/2 avocado on the side"
+        "austin": {
+          "cal": 480,
+          "p": 42,
+          "f": 16,
+          "c": 8
+        },
+        "cameron": {
+          "cal": 270,
+          "p": 24,
+          "f": 10,
+          "c": 7
+        },
+        "cameron_note": "2 bites only"
       },
       "lunch": {
         "recipe_id": "smoked-chicken-corn-tomato-bowl",
-        "austin": { "cal": 570, "p": 48, "f": 16, "c": 48 },
-        "cameron": { "cal": 550, "p": 38, "f": 22, "c": 46 },
-        "cameron_note": "+ 1/2 avocado"
+        "austin": {
+          "cal": 700,
+          "p": 56,
+          "f": 18,
+          "c": 52
+        },
+        "cameron": {
+          "cal": 400,
+          "p": 34,
+          "f": 16,
+          "c": 40
+        },
+        "cameron_note": "+ 1/4 avocado"
       },
       "dinner": {
         "recipe_id": "smoke-kissed-bone-in-thighs-with-charred-corn-pico",
-        "austin": { "cal": 640, "p": 54, "f": 28, "c": 20 },
-        "cameron": { "cal": 540, "p": 42, "f": 22, "c": 20 },
-        "cameron_note": "1.5 thighs lighter portion"
+        "austin": {
+          "cal": 820,
+          "p": 62,
+          "f": 30,
+          "c": 22
+        },
+        "cameron": {
+          "cal": 480,
+          "p": 38,
+          "f": 18,
+          "c": 20
+        },
+        "cameron_note": "1 thigh only, big pico, no rice"
       },
-      "austin_total": { "cal": 1590, "p": 138 },
-      "cameron_total": { "cal": 1580, "p": 102 }
+      "austin_total": {
+        "cal": 2000,
+        "p": 160
+      },
+      "cameron_total": {
+        "cal": 1150,
+        "p": 96
+      }
     },
     {
       "day": "Friday",
       "cuisine": "Mexican Coastal",
       "breakfast": {
         "recipe_id": "simple-pan-eggs",
-        "austin": { "cal": 350, "p": 30, "f": 18, "c": 4 },
-        "cameron": { "cal": 430, "p": 28, "f": 16, "c": 32 },
-        "cameron_note": "2 eggs + Greek yogurt + toast + avocado"
+        "austin": {
+          "cal": 520,
+          "p": 38,
+          "f": 20,
+          "c": 6
+        },
+        "cameron": {
+          "cal": 280,
+          "p": 22,
+          "f": 12,
+          "c": 16
+        },
+        "cameron_note": "2 eggs + 1/4 avocado on toast"
       },
       "lunch": {
         "recipe_id": "smoked-chicken-corn-tomato-bowl",
-        "austin": { "cal": 570, "p": 48, "f": 16, "c": 48 },
-        "cameron": { "cal": 550, "p": 38, "f": 22, "c": 46 },
-        "cameron_note": "+ 1/2 avocado"
+        "austin": {
+          "cal": 700,
+          "p": 56,
+          "f": 18,
+          "c": 52
+        },
+        "cameron": {
+          "cal": 400,
+          "p": 34,
+          "f": 16,
+          "c": 40
+        },
+        "cameron_note": "+ 1/4 avocado"
       },
       "dinner": {
         "recipe_id": "baja-spiced-shrimp-lettuce-wraps",
-        "austin": { "cal": 480, "p": 46, "f": 10, "c": 30 },
-        "cameron": { "cal": 570, "p": 42, "f": 22, "c": 34 },
-        "cameron_note": "+ 1/2 avocado, mini guac scoop"
+        "austin": {
+          "cal": 720,
+          "p": 54,
+          "f": 12,
+          "c": 34
+        },
+        "cameron": {
+          "cal": 450,
+          "p": 40,
+          "f": 18,
+          "c": 28
+        },
+        "cameron_note": "3 wraps not 4, + 1/4 avocado, double sauce"
       },
-      "austin_total": { "cal": 1400, "p": 124 },
-      "cameron_total": { "cal": 1550, "p": 108 }
+      "austin_total": {
+        "cal": 1940,
+        "p": 148
+      },
+      "cameron_total": {
+        "cal": 1130,
+        "p": 96
+      }
     },
     {
       "day": "Saturday",
       "cuisine": "American",
       "breakfast": {
         "recipe_id": "simple-pan-eggs",
-        "austin": { "cal": 350, "p": 30, "f": 18, "c": 4 },
-        "cameron": { "cal": 430, "p": 28, "f": 16, "c": 32 },
-        "cameron_note": "2 eggs + Greek yogurt + toast + avocado"
+        "austin": {
+          "cal": 520,
+          "p": 38,
+          "f": 20,
+          "c": 6
+        },
+        "cameron": {
+          "cal": 280,
+          "p": 22,
+          "f": 12,
+          "c": 16
+        },
+        "cameron_note": "2 eggs + 1/4 avocado on toast"
       },
       "lunch": {
         "recipe_id": "dijon-herb-chicken-salad-on-arugula",
-        "austin": { "cal": 540, "p": 48, "f": 10, "c": 30 },
-        "cameron": { "cal": 520, "p": 36, "f": 18, "c": 30 },
-        "cameron_note": "+ 1/2 avocado, crackers on the side"
+        "austin": {
+          "cal": 640,
+          "p": 56,
+          "f": 12,
+          "c": 32
+        },
+        "cameron": {
+          "cal": 380,
+          "p": 30,
+          "f": 8,
+          "c": 26
+        },
+        "cameron_note": "+ 1/4 avocado, light portion"
       },
       "dinner": {
         "recipe_id": "jalapeno-cheddar-turkey-smash-burgers",
-        "austin": { "cal": 620, "p": 52, "f": 22, "c": 38 },
-        "cameron": { "cal": 700, "p": 48, "f": 34, "c": 42 },
-        "cameron_note": "+ 1/2 avocado sliced, extra sauce"
+        "austin": {
+          "cal": 820,
+          "p": 60,
+          "f": 24,
+          "c": 42
+        },
+        "cameron": {
+          "cal": 480,
+          "p": 36,
+          "f": 26,
+          "c": 36
+        },
+        "cameron_note": "1.5 patties not 2, 1/4 avocado, extra sauce"
       },
-      "austin_total": { "cal": 1510, "p": 130 },
-      "cameron_total": { "cal": 1650, "p": 112 }
+      "austin_total": {
+        "cal": 1980,
+        "p": 154
+      },
+      "cameron_total": {
+        "cal": 1140,
+        "p": 88
+      }
     },
     {
       "day": "Sunday",
       "cuisine": "Mediterranean",
       "breakfast": {
         "recipe_id": "simple-pan-eggs",
-        "austin": { "cal": 350, "p": 30, "f": 18, "c": 4 },
-        "cameron": { "cal": 430, "p": 28, "f": 16, "c": 32 },
-        "cameron_note": "2 eggs + Greek yogurt + toast + avocado"
+        "austin": {
+          "cal": 520,
+          "p": 38,
+          "f": 20,
+          "c": 6
+        },
+        "cameron": {
+          "cal": 280,
+          "p": 22,
+          "f": 12,
+          "c": 16
+        },
+        "cameron_note": "2 eggs + 1/4 avocado on toast"
       },
       "lunch": {
         "recipe_id": "dijon-herb-chicken-salad-on-arugula",
-        "austin": { "cal": 540, "p": 48, "f": 10, "c": 30 },
-        "cameron": { "cal": 520, "p": 36, "f": 18, "c": 30 },
-        "cameron_note": "+ 1/2 avocado, crackers on the side"
+        "austin": {
+          "cal": 640,
+          "p": 56,
+          "f": 12,
+          "c": 32
+        },
+        "cameron": {
+          "cal": 380,
+          "p": 30,
+          "f": 8,
+          "c": 26
+        },
+        "cameron_note": "+ 1/4 avocado, light portion"
       },
       "dinner": {
         "recipe_id": "charred-zucchini-tomato-white-bean-panzanella",
-        "austin": { "cal": 560, "p": 42, "f": 16, "c": 56 },
-        "cameron": { "cal": 620, "p": 30, "f": 28, "c": 58 },
-        "cameron_note": "+ fresh mozzarella torn, 1/2 avocado — add Greek yogurt on side for extra protein"
+        "austin": {
+          "cal": 740,
+          "p": 54,
+          "f": 18,
+          "c": 60
+        },
+        "cameron": {
+          "cal": 460,
+          "p": 34,
+          "f": 22,
+          "c": 52
+        },
+        "cameron_note": "+ mozzarella, 1/4 avocado, smaller portion, Greek yogurt on side"
       },
-      "austin_total": { "cal": 1450, "p": 120 },
-      "cameron_total": { "cal": 1570, "p": 94 }
+      "austin_total": {
+        "cal": 1900,
+        "p": 148
+      },
+      "cameron_total": {
+        "cal": 1120,
+        "p": 86
+      }
     }
   ],
   "batch_prep": [

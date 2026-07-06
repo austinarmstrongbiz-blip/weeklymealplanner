@@ -133,17 +133,20 @@ ABOVE_KITCH_URL: https://weeklymealplanner-9w3b.onrender.com
 
 ## Macro Targets (from Household Health)
 
-**Austin** — 1800 cal/day, 150g protein minimum
-- Breakfast: 500-550 cal / 40g P
-- Lunch: 600-650 cal / 50g P
-- Dinner: 650-700 cal / 60g P
+**Austin** — 1800–2100 cal/day, 150g protein minimum
+- Breakfast: 500–600 cal / 40–45g P
+- Lunch: 650–700 cal / 55–60g P
+- Dinner: 700–800 cal / 60–65g P
+- Daily target: ~1900–2100 cal, 150g+ protein
 - NO avocados (allergy)
 - High heat/spice preferred
 
-**Cameron** — 1500 cal/day, 100g protein
-- Breakfast: 400-450 cal / 30g P
-- Lunch: 500-550 cal / 35g P
-- Dinner: ~600 cal / 35g P
+**Cameron** — 1100–1200 cal/day, 90–100g protein
+- Breakfast: 250–300 cal / 22–25g P
+- Lunch: 350–400 cal / 30–35g P
+- Dinner: 450–500 cal / 35–40g P
+- Daily target: ~1100–1200 cal total
+- Cameron's portions are ALWAYS smaller than Austin's — she eats ~40% fewer calories
 - Loves avocados (add to her meals where applicable)
 - Needs strong flavor + sauce — never bland
 - Spice: mild-medium, building tolerance

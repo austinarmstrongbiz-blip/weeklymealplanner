@@ -70,9 +70,17 @@ python3 scripts/fetch_substacks.py
 
 | | Austin | Cameron |
 |---|---|---|
-| Calories | 1,800/day | 1,500/day |
-| Protein | 150g+ | 100g |
-| Goal | Cut 15 lbs | Maintain |
+| Calories | 1,800–2,100/day | 1,100–1,200/day |
+| Protein | 150g+ | 90–100g |
+| Goal | Cut | Maintain |
+
+**Per-meal:**
+
+| Meal | Austin | Cameron |
+|------|--------|---------|
+| Breakfast | 500–600 cal / 40–45g P | 250–300 cal / 22–25g P |
+| Lunch | 650–700 cal / 55–60g P | 350–400 cal / 30–35g P |
+| Dinner | 700–800 cal / 60–65g P | 450–500 cal / 35–40g P |
 
 ---
 
