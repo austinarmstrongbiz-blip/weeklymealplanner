@@ -1,0 +1,499 @@
+{
+  "week_date": "2026-08-10",
+  "week_start": "August 10",
+  "week_end": "August 16, 2026",
+  "season": "Peak Summer \u2014 Pittsburgh",
+  "city": "Pittsburgh, PA",
+  "seasonal_heroes": [
+    "Sweet corn (peak)",
+    "Cherry tomatoes (peak)",
+    "Zucchini",
+    "Cucumbers",
+    "Bell peppers",
+    "Fresh basil"
+  ],
+  "cuisine_rotation": [
+    "Thai",
+    "Italian",
+    "Korean",
+    "Night Out",
+    "Mediterranean",
+    "American",
+    "Mexican Coastal"
+  ],
+  "days": [
+    {
+      "day": "Monday",
+      "cuisine": "Thai",
+      "breakfast": {
+        "recipe_id": "jalapeno-cheddar-cottage-cheese-egg-cups",
+        "austin": {
+          "cal": 560,
+          "p": 50,
+          "f": 33,
+          "c": 18
+        },
+        "cameron": {
+          "cal": 280,
+          "p": 25,
+          "f": 17,
+          "c": 7
+        },
+        "cameron_note": "2 cups to Austin's 4, + 1/8 avocado instead of the berry side"
+      },
+      "lunch": {
+        "recipe_id": "chipotle-chicken-tinga-grain-bowls",
+        "austin": {
+          "cal": 660,
+          "p": 62,
+          "f": 17,
+          "c": 68
+        },
+        "cameron": {
+          "cal": 381,
+          "p": 35,
+          "f": 14,
+          "c": 33
+        },
+        "cameron_note": "+ 1/4 avocado, extra tinga sauce, light cotija"
+      },
+      "dinner": {
+        "recipe_id": "blistered-thai-basil-shrimp",
+        "austin": {
+          "cal": 745,
+          "p": 66,
+          "f": 26,
+          "c": 68
+        },
+        "cameron": {
+          "cal": 488,
+          "p": 40,
+          "f": 24,
+          "c": 33
+        },
+        "cameron_note": "1/3 cup rice, fewer chilies, + 1/4 avocado. Keeps the fried egg."
+      },
+      "austin_total": {
+        "cal": 1965,
+        "p": 178
+      },
+      "cameron_total": {
+        "cal": 1149,
+        "p": 100
+      }
+    },
+    {
+      "day": "Tuesday",
+      "cuisine": "Italian",
+      "breakfast": {
+        "recipe_id": "jalapeno-cheddar-cottage-cheese-egg-cups",
+        "austin": {
+          "cal": 560,
+          "p": 50,
+          "f": 33,
+          "c": 18
+        },
+        "cameron": {
+          "cal": 280,
+          "p": 25,
+          "f": 17,
+          "c": 7
+        },
+        "cameron_note": "2 cups to Austin's 4, + 1/8 avocado instead of the berry side"
+      },
+      "lunch": {
+        "recipe_id": "chipotle-chicken-tinga-grain-bowls",
+        "austin": {
+          "cal": 660,
+          "p": 62,
+          "f": 17,
+          "c": 68
+        },
+        "cameron": {
+          "cal": 381,
+          "p": 35,
+          "f": 14,
+          "c": 33
+        },
+        "cameron_note": "+ 1/4 avocado, extra tinga sauce, light cotija"
+      },
+      "dinner": {
+        "recipe_id": "crispy-tilapia-blistered-tomato-orzo",
+        "austin": {
+          "cal": 765,
+          "p": 67,
+          "f": 28,
+          "c": 60
+        },
+        "cameron": {
+          "cal": 473,
+          "p": 38,
+          "f": 24,
+          "c": 30
+        },
+        "cameron_note": "1 tbsp pesto stirred into her orzo. No avocado this one."
+      },
+      "austin_total": {
+        "cal": 1985,
+        "p": 179
+      },
+      "cameron_total": {
+        "cal": 1134,
+        "p": 98
+      }
+    },
+    {
+      "day": "Wednesday",
+      "cuisine": "Korean",
+      "breakfast": {
+        "recipe_id": "jalapeno-cheddar-cottage-cheese-egg-cups",
+        "austin": {
+          "cal": 560,
+          "p": 50,
+          "f": 33,
+          "c": 18
+        },
+        "cameron": {
+          "cal": 280,
+          "p": 25,
+          "f": 17,
+          "c": 7
+        },
+        "cameron_note": "2 cups to Austin's 4, + 1/8 avocado instead of the berry side"
+      },
+      "lunch": {
+        "recipe_id": "chipotle-chicken-tinga-grain-bowls",
+        "austin": {
+          "cal": 660,
+          "p": 62,
+          "f": 17,
+          "c": 68
+        },
+        "cameron": {
+          "cal": 381,
+          "p": 35,
+          "f": 14,
+          "c": 33
+        },
+        "cameron_note": "+ 1/4 avocado, extra tinga sauce, light cotija"
+      },
+      "dinner": {
+        "recipe_id": "gochujang-glazed-salmon-rice-bowls",
+        "austin": {
+          "cal": 765,
+          "p": 60,
+          "f": 30,
+          "c": 62
+        },
+        "cameron": {
+          "cal": 500,
+          "p": 37,
+          "f": 21,
+          "c": 40
+        },
+        "cameron_note": "Smaller fillet, 1/3 cup rice, + 1/8 avocado. Glaze on the side, it builds heat."
+      },
+      "austin_total": {
+        "cal": 1985,
+        "p": 172
+      },
+      "cameron_total": {
+        "cal": 1161,
+        "p": 97
+      }
+    },
+    {
+      "day": "Thursday",
+      "cuisine": "Night Out",
+      "breakfast": {
+        "recipe_id": "jalapeno-cheddar-cottage-cheese-egg-cups",
+        "austin": {
+          "cal": 560,
+          "p": 50,
+          "f": 33,
+          "c": 18
+        },
+        "cameron": {
+          "cal": 280,
+          "p": 25,
+          "f": 17,
+          "c": 7
+        },
+        "cameron_note": "2 cups to Austin's 4, + 1/8 avocado instead of the berry side"
+      },
+      "lunch": {
+        "recipe_id": "charred-corn-chicken-panzanella",
+        "austin": {
+          "cal": 672,
+          "p": 62,
+          "f": 26,
+          "c": 47
+        },
+        "cameron": {
+          "cal": 396,
+          "p": 35,
+          "f": 18,
+          "c": 25
+        },
+        "cameron_note": "+ 1/4 avocado, fewer croutons, extra vinaigrette"
+      },
+      "dinner": {
+        "recipe_id": "no-cook-night",
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron_note": "Eating out \u2014 order protein-forward. Austin needs 60g+ P to close the day."
+      },
+      "austin_total": {
+        "cal": 1232,
+        "p": 112
+      },
+      "cameron_total": {
+        "cal": 676,
+        "p": 60
+      }
+    },
+    {
+      "day": "Friday",
+      "cuisine": "Mediterranean",
+      "breakfast": {
+        "recipe_id": "smoky-pepper-egg-breakfast-scramble",
+        "austin": {
+          "cal": 546,
+          "p": 45,
+          "f": 26,
+          "c": 30
+        },
+        "cameron": {
+          "cal": 271,
+          "p": 24,
+          "f": 15,
+          "c": 9
+        },
+        "cameron_note": "No tortilla, no cheddar. + 1/4 avocado in a bowl."
+      },
+      "lunch": {
+        "recipe_id": "charred-corn-chicken-panzanella",
+        "austin": {
+          "cal": 672,
+          "p": 62,
+          "f": 26,
+          "c": 47
+        },
+        "cameron": {
+          "cal": 396,
+          "p": 35,
+          "f": 18,
+          "c": 25
+        },
+        "cameron_note": "+ 1/4 avocado, fewer croutons, extra vinaigrette"
+      },
+      "dinner": {
+        "recipe_id": "charred-salmon-herb-couscous",
+        "austin": {
+          "cal": 766,
+          "p": 62,
+          "f": 36,
+          "c": 45
+        },
+        "cameron": {
+          "cal": 481,
+          "p": 36,
+          "f": 24,
+          "c": 32
+        },
+        "cameron_note": "One fillet, less couscous, extra tzatziki and lemon"
+      },
+      "austin_total": {
+        "cal": 1984,
+        "p": 169
+      },
+      "cameron_total": {
+        "cal": 1148,
+        "p": 95
+      }
+    },
+    {
+      "day": "Saturday",
+      "cuisine": "American",
+      "breakfast": {
+        "recipe_id": "smoky-pepper-egg-breakfast-scramble",
+        "austin": {
+          "cal": 546,
+          "p": 45,
+          "f": 26,
+          "c": 30
+        },
+        "cameron": {
+          "cal": 271,
+          "p": 24,
+          "f": 15,
+          "c": 9
+        },
+        "cameron_note": "No tortilla, no cheddar. + 1/4 avocado in a bowl."
+      },
+      "lunch": {
+        "recipe_id": "charred-corn-chicken-panzanella",
+        "austin": {
+          "cal": 672,
+          "p": 62,
+          "f": 26,
+          "c": 47
+        },
+        "cameron": {
+          "cal": 396,
+          "p": 35,
+          "f": 18,
+          "c": 25
+        },
+        "cameron_note": "+ 1/4 avocado, fewer croutons, extra vinaigrette"
+      },
+      "dinner": {
+        "recipe_id": "charred-onion-smash-burgers",
+        "austin": {
+          "cal": 799,
+          "p": 64,
+          "f": 38,
+          "c": 44
+        },
+        "cameron": {
+          "cal": 471,
+          "p": 36,
+          "f": 24,
+          "c": 28
+        },
+        "cameron_note": "Open-face on half a bun, 4 oz patty, + sliced avocado"
+      },
+      "austin_total": {
+        "cal": 2017,
+        "p": 171
+      },
+      "cameron_total": {
+        "cal": 1138,
+        "p": 95
+      }
+    },
+    {
+      "day": "Sunday",
+      "cuisine": "Mexican Coastal",
+      "breakfast": {
+        "recipe_id": "smoky-pepper-egg-breakfast-scramble",
+        "austin": {
+          "cal": 546,
+          "p": 45,
+          "f": 26,
+          "c": 30
+        },
+        "cameron": {
+          "cal": 271,
+          "p": 24,
+          "f": 15,
+          "c": 9
+        },
+        "cameron_note": "No tortilla, no cheddar. + 1/4 avocado in a bowl."
+      },
+      "lunch": {
+        "recipe_id": "charred-corn-chicken-panzanella",
+        "austin": {
+          "cal": 672,
+          "p": 62,
+          "f": 26,
+          "c": 47
+        },
+        "cameron": {
+          "cal": 396,
+          "p": 35,
+          "f": 18,
+          "c": 25
+        },
+        "cameron_note": "+ 1/4 avocado, fewer croutons, extra vinaigrette"
+      },
+      "dinner": {
+        "recipe_id": "fiery-blackened-tilapia-tacos",
+        "austin": {
+          "cal": 775,
+          "p": 63,
+          "f": 24,
+          "c": 76
+        },
+        "cameron": {
+          "cal": 451,
+          "p": 38,
+          "f": 18,
+          "c": 40
+        },
+        "cameron_note": "2 tacos to Austin's 4, + 1/4 avocado, half the crema heat"
+      },
+      "austin_total": {
+        "cal": 1993,
+        "p": 170
+      },
+      "cameron_total": {
+        "cal": 1118,
+        "p": 97
+      }
+    }
+  ],
+  "batch_prep": [
+    {
+      "station": "Sunday \u2014 Jalape\u00f1o Cheddar Egg Cups (12 min hands-on, 25 min in the Breville)",
+      "tasks": [
+        "Heat the Breville to 350\u00b0F. Spray a 12-cup muffin tin hard, top surface included.",
+        "Brown 6 oz turkey sausage with 1/2 diced yellow onion, 5 min. Add 2 minced seeded jalape\u00f1os for the last minute. Drain.",
+        "Blend 8 whole eggs + 1 cup egg whites + 1 cup cottage cheese until fully smooth. Blending is what keeps them creamy, not rubbery.",
+        "Stir in smoked paprika, garlic powder, salt, pepper.",
+        "Divide the sausage across 12 cups, pour the egg blend over to 3/4 full, top with shredded cheddar.",
+        "Bake 22\u201325 min until set. Cool 5 min, knife around the edges, lift out. Keeps 5 days.",
+        "Austin: 4 cups + berries each morning. Cameron: 2 cups + 1/8 avocado."
+      ]
+    },
+    {
+      "station": "Sunday \u2014 Chicken Tinga + Rice (20 min, covers Mon\u2013Wed lunches)",
+      "tasks": [
+        "Start 3 cups brown rice in the rice cooker. Hands off.",
+        "Quick pickle: thin-slice 1 red onion into a jar, cover with juice of 2 limes + salt + hot water. Ready in 30 min, lasts all week.",
+        "Blend 1 can fire-roasted tomatoes + 3 chipotles + 2 tbsp adobo + 4 garlic cloves + 2 tsp cumin + 1 tsp oregano.",
+        "Saut\u00e9 1 sliced yellow onion 4 min, add the sauce, simmer 5 min until it thickens.",
+        "Pull both rotisserie chickens. Save about 20 oz of plain meat for the panzanella. Fold the rest into the tinga.",
+        "Build 6 lunch containers. Austin x3: 3/4 c rice, 6 oz tinga, 1/2 c black beans, 1/4 c corn, pickled onion, cotija. Cameron x3: 1/3 c rice, 3.5 oz tinga, 1/4 c beans, pickled onion, light cotija."
+      ]
+    },
+    {
+      "station": "Sunday \u2014 Char the Corn + Panzanella Base (15 min, covers Thu\u2013Sun lunches)",
+      "tasks": [
+        "Cut the kernels off 6 ears of corn. Dry-toast in a hot cast-iron skillet in batches, 4 min each, tossing once a minute, until blackened in spots. Four ears' worth goes to lunches, two to Tuesday's taco pico.",
+        "Shake vinaigrette: 3 tbsp red wine vinegar, 3 tbsp olive oil, 1 tsp dijon, 1 grated garlic clove, salt, pepper.",
+        "Toss charred corn + 2 pints halved cherry tomatoes + 2 diced cucumbers + 1/2 sliced red onion with the vinaigrette.",
+        "Portion into 8 containers. Top with the reserved rotisserie chicken: Austin 6 oz, Cameron 3.5 oz.",
+        "CROUTONS STAY OUT. Bag them separately or they turn to mush. Feta and basil also go on at eating time."
+      ]
+    },
+    {
+      "station": "Equipment note \u2014 the griddle is optional this week",
+      "tasks": [
+        "Only Wednesday's smash burgers really want the Loco flat-top. Everything else runs on skillets, the Breville, and the air fryer.",
+        "If the griddle is already fired for burgers, the Friday shrimp and the Saturday vegetables work great on it too. Your call, not a requirement.",
+        "Total Sunday hands-on: about 45 min, and the Breville and rice cooker do half of it while you stand there."
+      ]
+    },
+    {
+      "station": "Cook in any order",
+      "tasks": [
+        "Nothing below is locked to a night. Pick whatever sounds good.",
+        "Only real constraint: Thursday you're out.",
+        "Eat the tinga bowls Mon\u2013Wed and the panzanella Thu\u2013Sun. That order is about freshness, not preference.",
+        "Every dinner is self-contained and takes 25 minutes or less."
+      ]
+    }
+  ],
+  "flexible_order": "Days are a suggestion, not a schedule. All six dinners are independent \u2014 cook whichever one you feel like on any night. Only fixed point is Thursday out. Lunches are the one exception: the tinga bowls are built Sunday and should go first, the panzanella keeps better later in the week."
+}

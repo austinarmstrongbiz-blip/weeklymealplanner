@@ -84,7 +84,9 @@ Mediterranean · Mexican/Tex-Mex · Thai · Italian · Japanese · American BBQ 
 
 ## Equipment
 
-Smoker · Crock pot/slow cooker · Breville Smart Oven Pro · Large air fryer · Rice cooker · Blender · Vacuum sealer · KitchenAid stand mixer · Tabletop griddle · Le Creuset casserole dish · Cast-iron skillets
+Smoker · Crock pot/slow cooker · Breville Smart Oven Pro · Large air fryer · Rice cooker · Blender · Vacuum sealer · KitchenAid stand mixer · Cast-iron skillets · Le Creuset casserole dish · Tabletop griddle · **Loco flat-top griddle (Blackstone-style, added Aug 2026)**
+
+The Loco flat-top is an extra option, not the default. Use it when smashing, charring, or cooking for a crowd actually calls for it — usually 1 or 2 meals a week. Skillets, the Breville, and the air fryer stay the everyday tools.
 
 ---
 

@@ -26,7 +26,8 @@ BRAND_LOGO_PATH: None
 SUBSTACK_PUBLICATIONS:
   - name: "Restaurant Dropout"
     url: "https://restaurantdropout.substack.com"
-    notes: "Austin has premium subscription. RSS feed accessible. Weekly menus, seasonal recipes, simple prep focus — primary inspiration source."
+    notes: "Austin pays for premium. The RSS feed only gives post TITLES — full recipes are paywalled and Claude cannot read them from the web."
+    delivery: "PDF DROP. Austin saves each post as a PDF into references/substacks/. Naming: YYYY-MM-DD_short-slug.pdf"
 ```
 
 ---
@@ -155,6 +156,7 @@ ABOVE_KITCH_URL: https://weeklymealplanner-9w3b.onrender.com
 
 ## Equipment Available
 
+- **Loco flat-top griddle / Blackstone-style outdoor griddle (added Aug 2026)** — an EXTRA option, not the default cook surface. Great for smash burgers, big-batch charring, griddled veg. Work it in 1 to 2 meals a week when it genuinely fits. Do not build a whole week around it. Reference: [Loco flat-top grill review](https://www.familyhandyman.com/article/loco-flat-top-grill-review/)
 - Smoker (USE THIS — Austin is craving smoker vibes)
 - Crock pot / Slow cooker
 - Breville Smart Oven Pro
@@ -176,6 +178,37 @@ ABOVE_KITCH_URL: https://weeklymealplanner-9w3b.onrender.com
 **Summer flavor profile:** Bright, charred, herb-forward, grilled/smoked, fresh produce-driven, lighter proteins (shrimp, pork tenderloin)
 
 **Seasonal priority this week:** Zucchini, strawberries, cherries, snap peas, fresh basil — summer is arriving in Pittsburgh.
+
+---
+
+## On-Hand Inventory — logged 2026-08-09
+
+Austin's stock check before the Aug 10 haul. Plan around these before adding anything to the grocery list.
+
+**Proteins:** 5 salmon fillets · 2 lb tilapia · 16 oz frozen shrimp · 1.5 lb 93/7 ground beef
+**Grains & dry:** rolled oats · protein oats · brown rice · white quinoa · pearl couscous · white couscous · arborio rice · ramen · croutons · many corn tortillas
+**Canned:** baked beans · 1 can black beans · 1 can sweet peas
+**Produce:** 4 yellow onions · 5 red onions
+**Bread:** 8 hamburger buns · 3 Hawaiian brioche buns
+
+Note: corn tortillas and brown rice are normally NOT staples but are stocked right now.
+Re-ask Austin for a stock check before each week's plan — his inventory swings.
+
+---
+
+## Substack PDF Drop — how paid recipes reach Claude
+
+Restaurant Dropout's paid posts are paywalled. The RSS feed gives titles only. Austin drops PDFs instead.
+
+**Austin's step (about 20 seconds, once a week):**
+1. Open the Friday Restaurant Dropout post in Chrome while logged in.
+2. Cmd+P → destination "Save as PDF" → Save.
+3. Save it into `~/Documents/Claude/Projects/Household Health/references/substacks/`
+4. Name it `YYYY-MM-DD_short-slug.pdf` (example: `2026-08-07_caroline-chambers.pdf`)
+
+**Claude's step:** at the start of every meal-planner run, list `references/substacks/`, read any PDF from the last 21 days, and pull recipe names, ingredients, and techniques from them. Adapt to macro targets. Never use a recipe verbatim.
+
+If the folder is empty or stale, say so in chat and fall back to seasonal context plus the cuisine rotation. Do not silently skip it.
 
 ---
 

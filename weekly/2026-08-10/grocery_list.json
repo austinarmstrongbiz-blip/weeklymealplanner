@@ -1,0 +1,226 @@
+{
+  "week_date": "2026-08-10",
+  "week_start": "August 10",
+  "week_end": "August 16, 2026",
+  "categories": {
+    "Produce": [
+      {
+        "name": "Sweet corn",
+        "qty": "6 ears",
+        "for": "Panzanella lunches + taco pico"
+      },
+      {
+        "name": "Cherry tomatoes",
+        "qty": "4 pints",
+        "for": "Panzanella, salmon couscous, tilapia orzo"
+      },
+      {
+        "name": "Roma tomatoes",
+        "qty": "3",
+        "for": "Taco pico + burger topping"
+      },
+      {
+        "name": "English cucumbers",
+        "qty": "4",
+        "for": "Panzanella, smashed cucumber, tzatziki"
+      },
+      {
+        "name": "Zucchini",
+        "qty": "2",
+        "for": "Saturday salmon"
+      },
+      {
+        "name": "Bell peppers",
+        "qty": "4",
+        "for": "Breakfast scramble + Thai shrimp"
+      },
+      {
+        "name": "Jalape\u00f1os",
+        "qty": "6",
+        "for": "Egg cups + taco pico + Thai shrimp heat"
+      },
+      {
+        "name": "Green beans",
+        "qty": "12 oz",
+        "for": "Friday Thai shrimp"
+      },
+      {
+        "name": "Romaine hearts",
+        "qty": "1 package",
+        "for": "Tacos + burgers"
+      },
+      {
+        "name": "Mixed berries",
+        "qty": "2 pints",
+        "for": "Austin's side with the egg cups"
+      },
+      {
+        "name": "Thai basil (or regular basil)",
+        "qty": "2 large bunches",
+        "for": "Thai shrimp + panzanella + orzo"
+      },
+      {
+        "name": "Fresh cilantro",
+        "qty": "2 bunches",
+        "for": "Tinga bowls + taco pico"
+      },
+      {
+        "name": "Fresh dill",
+        "qty": "1 bunch",
+        "for": "Tzatziki + salmon couscous"
+      },
+      {
+        "name": "Fresh parsley",
+        "qty": "1 bunch",
+        "for": "Herb couscous"
+      },
+      {
+        "name": "Scallions",
+        "qty": "2 bunches",
+        "for": "Salmon rice bowls"
+      },
+      {
+        "name": "Limes",
+        "qty": "8",
+        "for": "Everywhere \u2014 tacos, tinga, Thai"
+      },
+      {
+        "name": "Lemons",
+        "qty": "4",
+        "for": "Salmon couscous + tilapia orzo"
+      },
+      {
+        "name": "Garlic",
+        "qty": "2 heads",
+        "for": "Every dinner"
+      },
+      {
+        "name": "Fresh ginger",
+        "qty": "1 knob",
+        "for": "Gochujang glaze"
+      },
+      {
+        "name": "Avocados",
+        "qty": "5",
+        "for": "CAMERON ONLY \u2014 Austin is allergic"
+      }
+    ],
+    "Proteins": [
+      {
+        "name": "Rotisserie chicken",
+        "qty": "2",
+        "for": "Both lunches, all 7 days. Zero cooking."
+      },
+      {
+        "name": "Turkey breakfast sausage",
+        "qty": "1.5 lb",
+        "for": "Egg cups (6 oz) + Fri\u2013Sun scramble (9 oz)"
+      },
+      {
+        "name": "ON HAND \u2014 do not buy",
+        "qty": "5 salmon fillets, 2 lb tilapia, 16 oz shrimp, 1.5 lb ground beef",
+        "for": "All 6 dinners are built on these"
+      }
+    ],
+    "Dairy & Eggs": [
+      {
+        "name": "Large eggs",
+        "qty": "2 dozen",
+        "for": "Scramble + Thai fried eggs + panko dredge"
+      },
+      {
+        "name": "Liquid egg whites",
+        "qty": "32 oz carton",
+        "for": "Breakfast scramble"
+      },
+      {
+        "name": "Lowfat cottage cheese",
+        "qty": "16 oz",
+        "for": "Blended into the egg cups \u2014 this is what makes them creamy"
+      },
+      {
+        "name": "Nonfat Greek yogurt",
+        "qty": "32 oz tub",
+        "for": "Overnight oats + tzatziki"
+      },
+      {
+        "name": "Sharp cheddar block",
+        "qty": "8 oz",
+        "for": "Smash burgers + scramble"
+      },
+      {
+        "name": "Cotija cheese",
+        "qty": "6 oz",
+        "for": "Tinga bowls + tacos"
+      },
+      {
+        "name": "Feta",
+        "qty": "6 oz",
+        "for": "Panzanella + salmon couscous"
+      },
+      {
+        "name": "Parmesan (fresh block)",
+        "qty": "4 oz",
+        "for": "Tilapia orzo"
+      },
+      {
+        "name": "Sour cream",
+        "qty": "8 oz",
+        "for": "Chipotle crema"
+      }
+    ],
+    "Grains & Dry Goods": [
+      {
+        "name": "ON HAND \u2014 do not buy",
+        "qty": "Rolled oats, protein oats, brown rice, quinoa, pearl couscous, white couscous, arborio, ramen, croutons, corn tortillas",
+        "for": "Covers every grain this week"
+      }
+    ],
+    "Canned & Jarred": [
+      {
+        "name": "Chipotles in adobo",
+        "qty": "2 cans",
+        "for": "Tinga sauce + chipotle crema + taco rub"
+      },
+      {
+        "name": "Fire-roasted diced tomatoes",
+        "qty": "1 can (14.5 oz)",
+        "for": "Tinga sauce"
+      },
+      {
+        "name": "Black beans",
+        "qty": "2 cans",
+        "for": "Tinga bowls + tacos. You only have 1 on hand."
+      },
+      {
+        "name": "Kimchi",
+        "qty": "16 oz jar",
+        "for": "Monday salmon rice bowls"
+      },
+      {
+        "name": "Mayo",
+        "qty": "check the jar",
+        "for": "Burger sauce"
+      },
+      {
+        "name": "Dill pickles",
+        "qty": "1 jar",
+        "for": "Burger sauce"
+      }
+    ],
+    "Frozen": [
+      {
+        "name": "Shelled edamame",
+        "qty": "1 bag",
+        "for": "Monday salmon bowls"
+      }
+    ],
+    "Pantry / Other": [
+      {
+        "name": "Nothing needed",
+        "qty": "\u2014",
+        "for": "Gochujang, fish sauce, oyster sauce, soy, orzo, jasmine rice, panko, pesto, dijon, all spices are stocked"
+      }
+    ]
+  }
+}
