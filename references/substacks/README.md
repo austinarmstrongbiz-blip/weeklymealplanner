@@ -20,6 +20,14 @@ Every time the weekly meal planner runs, it checks this folder, reads any PDF fr
 
 If the folder is empty or the newest PDF is stale, Claude will say so in chat and fall back to seasonal produce plus the cuisine rotation.
 
+## Log
+
+| Week | Post | How it arrived | Used in |
+|---|---|---|---|
+| 125 | 8.7.2026 (Caroline Chambers collab) | Pasted into chat, not saved here | Week of 2026-08-10 |
+
+Week 125 worked fine pasted straight into the conversation. That's an equally good route — dropping the file in this folder just means Claude finds it without you having to attach anything.
+
 ## Cleanup
 
 Delete anything older than about 2 months. Nothing here is load-bearing.

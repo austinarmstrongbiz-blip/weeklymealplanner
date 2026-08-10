@@ -14802,6 +14802,1329 @@
         }
       },
       "retired": false
+    },
+    {
+      "id": "citrus-marinade-rd125",
+      "name": "Citrus Marinade",
+      "cuisine": "Mexican / Asian \u2014 component",
+      "meal_type": "component",
+      "prep": "5 min",
+      "cook": "0 min",
+      "total": "5 min",
+      "spice_level": "Varies",
+      "serving_note": "About 1 cup \u2014 enough for the salmon, the beef, the tilapia, and the chicken",
+      "tags": [
+        "restaurant-dropout",
+        "rd-week-125",
+        "summer-2026",
+        "aug-2026",
+        "component"
+      ],
+      "equipment": "Bowl or blender",
+      "source": "Adapted from Restaurant Dropout Week 125 (8.7.2026)",
+      "macro_strings": {
+        "austin": "component \u2014 counted in the dish",
+        "cameron": "component \u2014 counted in the dish"
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Fresh orange juice",
+          "qty": "1/2 cup"
+        },
+        {
+          "name": "Low-sodium soy sauce (pantry)",
+          "qty": "1/4 cup"
+        },
+        {
+          "name": "Extra-virgin olive oil (pantry)",
+          "qty": "1/4 cup"
+        },
+        {
+          "name": "Lemon juice",
+          "qty": "1 lemon"
+        },
+        {
+          "name": "Lime zest and juice",
+          "qty": "1 lime"
+        },
+        {
+          "name": "Garlic, grated",
+          "qty": "2 cloves"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Ground cumin (pantry)",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "Chili powder (pantry)",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "Dried oregano (pantry)",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "Granulated sugar (pantry)",
+          "qty": "1/2 tsp"
+        }
+      ],
+      "instructions": [
+        "Stir everything together in a bowl until combined. That's the whole recipe.",
+        "Keeps 5 days in an airtight container in the fridge.",
+        "This one marinade does four dishes this week. Make the full cup Sunday."
+      ],
+      "batch_note": "Sunday, 5 minutes. Divides across: 1/4 cup for the tilapia, 1/4 cup for the chicken, 1/4 cup for the ground beef, and the rest as a finishing drizzle.",
+      "cameron_note": "",
+      "history": {
+        "first_used": "2026-08-10",
+        "last_used": "2026-08-10",
+        "times_made": 1,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "elote-salsa-rd125",
+      "name": "Elote Salsa",
+      "cuisine": "Mexican / Asian \u2014 component",
+      "meal_type": "component",
+      "prep": "5 min",
+      "cook": "0 min",
+      "total": "5 min",
+      "spice_level": "Varies",
+      "serving_note": "About 2 cups \u2014 both lunches",
+      "tags": [
+        "restaurant-dropout",
+        "rd-week-125",
+        "summer-2026",
+        "aug-2026",
+        "component"
+      ],
+      "equipment": "Bowl or blender",
+      "source": "Adapted from Restaurant Dropout Week 125 (8.7.2026)",
+      "macro_strings": {
+        "austin": "component \u2014 counted in the dish",
+        "cameron": "component \u2014 counted in the dish"
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Extra-virgin olive oil (pantry)",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Shallot, minced",
+          "qty": "1"
+        },
+        {
+          "name": "Corn kernels",
+          "qty": "1 cup (about 1 ear)"
+        },
+        {
+          "name": "Red bell pepper, fine diced",
+          "qty": "1"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "Lime juice",
+          "qty": "1 lime"
+        },
+        {
+          "name": "Cilantro, chopped",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Chili powder (pantry)",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "Cotija",
+          "qty": "1/4 cup"
+        }
+      ],
+      "instructions": [
+        "Heat olive oil in a skillet over medium-high. Cook the minced shallot 2 minutes until soft.",
+        "Add corn, diced bell pepper, and salt. Cook 3 to 4 minutes, stirring often, until tender and lightly caramelized.",
+        "Tip into a bowl and let it sit 5 minutes. It needs to cool before the cheese goes in or the cotija melts into paste.",
+        "Stir in lime juice, cilantro, chili powder, and cotija."
+      ],
+      "batch_note": "Sunday. Keeps 5 days. Goes into both lunch builds all week.",
+      "cameron_note": "",
+      "history": {
+        "first_used": "2026-08-10",
+        "last_used": "2026-08-10",
+        "times_made": 1,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "cumin-lime-vinaigrette-rd125",
+      "name": "Cumin-Lime Vinaigrette",
+      "cuisine": "Mexican / Asian \u2014 component",
+      "meal_type": "component",
+      "prep": "5 min",
+      "cook": "0 min",
+      "total": "5 min",
+      "spice_level": "Varies",
+      "serving_note": "About 1/2 cup \u2014 both lunches plus the slaws",
+      "tags": [
+        "restaurant-dropout",
+        "rd-week-125",
+        "summer-2026",
+        "aug-2026",
+        "component"
+      ],
+      "equipment": "Bowl or blender",
+      "source": "Adapted from Restaurant Dropout Week 125 (8.7.2026)",
+      "macro_strings": {
+        "austin": "component \u2014 counted in the dish",
+        "cameron": "component \u2014 counted in the dish"
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Extra-virgin olive oil (pantry)",
+          "qty": "3 tbsp"
+        },
+        {
+          "name": "Honey (pantry)",
+          "qty": "1.5 tbsp"
+        },
+        {
+          "name": "Lime juice",
+          "qty": "1.5 limes, about 3 tbsp"
+        },
+        {
+          "name": "White wine vinegar (pantry)",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Ground cumin (pantry)",
+          "qty": "3/4 tsp"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "1/2 tsp"
+        }
+      ],
+      "instructions": [
+        "Whisk everything in a bowl until it comes together.",
+        "Keeps 5 days. Shake before each use, it separates."
+      ],
+      "batch_note": "Sunday, 2 minutes. Double it if you want dressing for stray salads.",
+      "cameron_note": "",
+      "history": {
+        "first_used": "2026-08-10",
+        "last_used": "2026-08-10",
+        "times_made": 1,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "spicy-avocado-crema-rd125",
+      "name": "Spicy Avocado Crema \u2014 CAMERON ONLY",
+      "cuisine": "Mexican / Asian \u2014 component",
+      "meal_type": "component",
+      "prep": "5 min",
+      "cook": "0 min",
+      "total": "5 min",
+      "spice_level": "Varies",
+      "serving_note": "About 1.5 cups",
+      "tags": [
+        "restaurant-dropout",
+        "rd-week-125",
+        "summer-2026",
+        "aug-2026",
+        "component"
+      ],
+      "equipment": "Bowl or blender",
+      "source": "Adapted from Restaurant Dropout Week 125 (8.7.2026)",
+      "macro_strings": {
+        "austin": "component \u2014 counted in the dish",
+        "cameron": "component \u2014 counted in the dish"
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Avocados, pitted and peeled",
+          "qty": "2"
+        },
+        {
+          "name": "Serranos, cut into pieces",
+          "qty": "2"
+        },
+        {
+          "name": "Cilantro, chopped",
+          "qty": "1/4 cup"
+        },
+        {
+          "name": "Scallions, thin sliced",
+          "qty": "1/4 cup"
+        },
+        {
+          "name": "Greek yogurt",
+          "qty": "1/2 cup"
+        },
+        {
+          "name": "Lime juice",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Water",
+          "qty": "1/4 cup"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Granulated sugar (pantry)",
+          "qty": "1/2 tsp"
+        }
+      ],
+      "instructions": [
+        "Blend everything on high until smooth. Taste and adjust salt.",
+        "\u26a0\ufe0f THIS IS AVOCADO-BASED AND AUSTIN IS ALLERGIC. Label the container CAMERON.",
+        "Use a separate spoon. Do not let it touch Austin's plate.",
+        "Keeps 5 days, but press plastic wrap to the surface or it browns."
+      ],
+      "batch_note": "Sunday. Cameron gets this on the Asada bowls, the tilapia tacos, and both lunches. Austin gets the yogurt crema instead.",
+      "cameron_note": "",
+      "history": {
+        "first_used": "2026-08-10",
+        "last_used": "2026-08-10",
+        "times_made": 1,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "jalapeno-lime-yogurt-crema-rd125",
+      "name": "Jalape\u00f1o-Lime Yogurt Crema \u2014 AUSTIN'S VERSION",
+      "cuisine": "Mexican / Asian \u2014 component",
+      "meal_type": "component",
+      "prep": "5 min",
+      "cook": "0 min",
+      "total": "5 min",
+      "spice_level": "Varies",
+      "serving_note": "About 1.5 cups",
+      "tags": [
+        "restaurant-dropout",
+        "rd-week-125",
+        "summer-2026",
+        "aug-2026",
+        "component"
+      ],
+      "equipment": "Bowl or blender",
+      "source": "Adapted from Restaurant Dropout Week 125 (8.7.2026)",
+      "macro_strings": {
+        "austin": "component \u2014 counted in the dish",
+        "cameron": "component \u2014 counted in the dish"
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Greek yogurt",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Sour cream",
+          "qty": "1/4 cup"
+        },
+        {
+          "name": "Jalape\u00f1os, seeded and chopped",
+          "qty": "2"
+        },
+        {
+          "name": "Cilantro, chopped",
+          "qty": "1/4 cup"
+        },
+        {
+          "name": "Scallions, thin sliced",
+          "qty": "1/4 cup"
+        },
+        {
+          "name": "Lime juice",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Water",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Ground cumin (pantry)",
+          "qty": "1/4 tsp"
+        }
+      ],
+      "instructions": [
+        "Blend everything on high until smooth. Thin with more water until it drizzles off a spoon.",
+        "This is the avocado-free stand-in for Restaurant Dropout's Spicy Avocado Crema. Same job on the plate \u2014 cool, tangy, green, spicy \u2014 with zero avocado.",
+        "Leave the jalape\u00f1o seeds in if you want it hotter. Austin usually does.",
+        "Keeps 5 days."
+      ],
+      "batch_note": "Sunday. Label it AUSTIN. This is what goes on his Asada bowls, tilapia tacos, and both lunches.",
+      "cameron_note": "",
+      "history": {
+        "first_used": "2026-08-10",
+        "last_used": "2026-08-10",
+        "times_made": 1,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "sambal-glaze-rd125",
+      "name": "Sambal Glaze",
+      "cuisine": "Mexican / Asian \u2014 component",
+      "meal_type": "component",
+      "prep": "5 min",
+      "cook": "0 min",
+      "total": "5 min",
+      "spice_level": "Varies",
+      "serving_note": "About 1/2 cup \u2014 the shrimp night",
+      "tags": [
+        "restaurant-dropout",
+        "rd-week-125",
+        "summer-2026",
+        "aug-2026",
+        "component"
+      ],
+      "equipment": "Bowl or blender",
+      "source": "Adapted from Restaurant Dropout Week 125 (8.7.2026)",
+      "macro_strings": {
+        "austin": "component \u2014 counted in the dish",
+        "cameron": "component \u2014 counted in the dish"
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Brown sugar (pantry)",
+          "qty": "1/4 cup"
+        },
+        {
+          "name": "Low-sodium soy sauce (pantry)",
+          "qty": "1/4 cup"
+        },
+        {
+          "name": "Sambal oelek",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Mirin",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Rice vinegar (pantry)",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Cornstarch",
+          "qty": "1 tbsp"
+        }
+      ],
+      "instructions": [
+        "Whisk everything in a bowl until the cornstarch is fully dissolved. No lumps.",
+        "It looks thin cold. It thickens the second it hits the hot pan \u2014 that's the cornstarch doing its job.",
+        "No sambal? Gochujang or sriracha both work, you already have them. No mirin? Use 2 tbsp honey plus 1 tsp rice vinegar.",
+        "Keeps 5 days."
+      ],
+      "batch_note": "Make it the night you cook the shrimp, or Sunday. Either is fine.",
+      "cameron_note": "",
+      "history": {
+        "first_used": "2026-08-10",
+        "last_used": "2026-08-10",
+        "times_made": 1,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "crispy-tortilla-strips-rd125",
+      "name": "Crispy Tortilla Strips",
+      "cuisine": "Mexican / Asian \u2014 component",
+      "meal_type": "component",
+      "prep": "5 min",
+      "cook": "0 min",
+      "total": "5 min",
+      "spice_level": "Varies",
+      "serving_note": "About 2 cups \u2014 lunches and the Asada bowls",
+      "tags": [
+        "restaurant-dropout",
+        "rd-week-125",
+        "summer-2026",
+        "aug-2026",
+        "component"
+      ],
+      "equipment": "Bowl or blender",
+      "source": "Adapted from Restaurant Dropout Week 125 (8.7.2026)",
+      "macro_strings": {
+        "austin": "component \u2014 counted in the dish",
+        "cameron": "component \u2014 counted in the dish"
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Corn tortillas (on hand)",
+          "qty": "6"
+        },
+        {
+          "name": "Neutral oil (pantry)",
+          "qty": "enough for a 1/2-inch layer"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "to taste"
+        }
+      ],
+      "instructions": [
+        "Stack the corn tortillas and slice them into 2-inch strips.",
+        "Heat a 1/2-inch layer of neutral oil in a large skillet over medium.",
+        "Add the strips carefully. Stir often, 3 to 4 minutes, until golden and crisp.",
+        "Move to a paper-towel-lined plate and salt them immediately while they're still hot. Salt does not stick to cool strips.",
+        "Once cool, strain the oil into a jar. It keeps in the pantry 2 months and you can fry with it again."
+      ],
+      "batch_note": "Sunday. Store in an airtight container at room temperature, NOT the fridge \u2014 the fridge makes them go soft. They stay crisp 4 days.",
+      "cameron_note": "",
+      "history": {
+        "first_used": "2026-08-10",
+        "last_used": "2026-08-10",
+        "times_made": 1,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "fiesta-en-mi-boca-chicken-salad",
+      "name": "Fiesta en Mi Boca Chicken Salad",
+      "cuisine": "Mexican",
+      "meal_type": "lunch",
+      "prep": "15 min",
+      "cook": "0 min",
+      "total": "15 min",
+      "spice_level": "Medium",
+      "serving_note": "6 servings \u2014 Mon, Tue, Wed for both",
+      "tags": [
+        "restaurant-dropout",
+        "rd-week-125",
+        "summer-2026",
+        "aug-2026"
+      ],
+      "equipment": "No cooking \u2014 rotisserie chicken, assembly only",
+      "source": "Adapted from Restaurant Dropout Week 125 (8.7.2026)",
+      "macro_strings": {
+        "austin": "653 cal | 62g P | 30g F | 32g C",
+        "cameron": "399 cal | 35g P | 22g F | 17g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 653,
+          "p": 62,
+          "f": 30,
+          "c": 32
+        },
+        "cameron": {
+          "cal": 399,
+          "p": 35,
+          "f": 22,
+          "c": 17
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Rotisserie chicken, pulled",
+          "qty": "about 30 oz meat"
+        },
+        {
+          "name": "Citrus Marinade (component)",
+          "qty": "1/4 cup \u2014 as a dressing, not a marinade"
+        },
+        {
+          "name": "Baby spring mix",
+          "qty": "5 oz"
+        },
+        {
+          "name": "Cumin-Lime Vinaigrette (component)",
+          "qty": "6 tbsp"
+        },
+        {
+          "name": "Elote Salsa (component)",
+          "qty": "2.25 cups"
+        },
+        {
+          "name": "Cotija, crumbled",
+          "qty": "about 4 oz"
+        },
+        {
+          "name": "Crispy Tortilla Strips (component)",
+          "qty": "about 2 oz"
+        },
+        {
+          "name": "Scallions, thin sliced",
+          "qty": "1/2 cup"
+        },
+        {
+          "name": "Jalape\u00f1o-Lime Yogurt Crema (component)",
+          "qty": "6 tbsp \u2014 AUSTIN"
+        },
+        {
+          "name": "Spicy Avocado Crema (component)",
+          "qty": "6 tbsp \u2014 CAMERON"
+        },
+        {
+          "name": "Lime wedges",
+          "qty": "6"
+        }
+      ],
+      "instructions": [
+        "Pull both rotisserie chickens. Skin and bones go in the trash, meat gets shredded with two forks.",
+        "Toss the shredded chicken with 1/4 cup Citrus Marinade. Restaurant Dropout marinates raw chicken here \u2014 using it as a dressing on already-cooked rotisserie meat gets you 90 percent of the flavor for zero cooking.",
+        "Set aside about 20 oz of PLAIN shredded chicken before you dress it. That goes to the Thursday-onward corn rice bowls.",
+        "Build 6 containers. Bottom layer is spring mix, then dressed chicken, then Elote Salsa. Austin 6 oz chicken, Cameron 3.5 oz.",
+        "KEEP SEPARATE in a small bag or the lid: the tortilla strips, the cotija, and the vinaigrette. Dressing and strips added at eating time or you get a wet, sad salad by Tuesday.",
+        "At lunch: shake on the vinaigrette, add cotija and tortilla strips, toss, then crema on top.",
+        "AUSTIN: Jalape\u00f1o-Lime Yogurt Crema. CAMERON: Spicy Avocado Crema. Two different jars, two different spoons."
+      ],
+      "batch_note": "This is the big Sunday lunch build and it involves no cooking at all. Rotisserie chicken plus components you already made. About 15 minutes of assembly.",
+      "cameron_note": "Cameron gets 3.5 oz chicken to Austin's 6, fewer tortilla strips, and the avocado crema. Give her the full 2 tsp of vinaigrette \u2014 she needs the acid and she will not eat a dry salad.",
+      "history": {
+        "first_used": "2026-08-10",
+        "last_used": "2026-08-10",
+        "times_made": 1,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "savory-corn-rice-chicken-bowls",
+      "name": "Savory Corn Rice Chicken Bowls",
+      "cuisine": "Mexican",
+      "meal_type": "lunch",
+      "prep": "10 min",
+      "cook": "10 min",
+      "total": "20 min",
+      "spice_level": "Medium",
+      "serving_note": "8 servings \u2014 Thu through Sun for both",
+      "tags": [
+        "restaurant-dropout",
+        "rd-week-125",
+        "summer-2026",
+        "aug-2026"
+      ],
+      "equipment": "Nonstick skillet + rice cooker",
+      "source": "Adapted from Restaurant Dropout Week 125 (8.7.2026)",
+      "macro_strings": {
+        "austin": "665 cal | 61g P | 24g F | 48g C",
+        "cameron": "396 cal | 35g P | 18g F | 26g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 665,
+          "p": 61,
+          "f": 24,
+          "c": 48
+        },
+        "cameron": {
+          "cal": 396,
+          "p": 35,
+          "f": 18,
+          "c": 26
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Rotisserie chicken, plain shredded",
+          "qty": "about 20 oz reserved from Sunday"
+        },
+        {
+          "name": "Brown rice (on hand)",
+          "qty": "3 cups cooked"
+        },
+        {
+          "name": "Salted butter",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Corn kernels",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Granulated chicken bouillon (pantry)",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Elote Salsa (component)",
+          "qty": "2 cups"
+        },
+        {
+          "name": "Cumin-Lime Vinaigrette (component)",
+          "qty": "6 tbsp"
+        },
+        {
+          "name": "Cotija, crumbled",
+          "qty": "about 3 oz"
+        },
+        {
+          "name": "Jalape\u00f1o-Lime Yogurt Crema (component)",
+          "qty": "1/2 cup \u2014 AUSTIN"
+        },
+        {
+          "name": "Spicy Avocado Crema (component)",
+          "qty": "1/2 cup \u2014 CAMERON"
+        },
+        {
+          "name": "Cilantro and lime wedges",
+          "qty": "for serving"
+        }
+      ],
+      "instructions": [
+        "Start 3 cups of brown rice in the rice cooker.",
+        "SAVORY CORN RICE: melt the butter in a nonstick skillet over medium. Add the corn and the granulated bouillon. Cook until the corn toasts and picks up color, about 4 minutes.",
+        "Add the cooked rice. Stir and press it around the pan until it's heated through and lightly toasted, another 4 minutes. This step is what separates it from plain rice \u2014 do not skip the toasting.",
+        "Build 8 containers: corn rice on the bottom, plain shredded chicken on top, Elote Salsa alongside. Austin 1/2 cup rice and 6 oz chicken. Cameron 1/4 cup rice and 3.5 oz chicken.",
+        "Vinaigrette, cotija, and crema stay separate until eating time.",
+        "At lunch: shake on the vinaigrette, top with cotija, cilantro, a lime squeeze, and crema.",
+        "AUSTIN: yogurt crema. CAMERON: avocado crema."
+      ],
+      "batch_note": "The corn rice comes straight from Restaurant Dropout's Asada Bowls and it is the best thing in the whole menu. Make a double batch Sunday \u2014 it feeds this lunch AND the Asada dinner.",
+      "cameron_note": "Cameron gets half the rice and 3.5 oz chicken. Load her up on Elote Salsa and avocado crema \u2014 that's where her flavor comes from, since her portion is small.",
+      "history": {
+        "first_used": "2026-08-10",
+        "last_used": "2026-08-10",
+        "times_made": 1,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "sticky-orange-salmon-and-brussels",
+      "name": "Sticky Orange Salmon and Brussels",
+      "cuisine": "Chinese-American",
+      "meal_type": "dinner",
+      "prep": "10 min",
+      "cook": "25 min",
+      "total": "35 min",
+      "spice_level": "Medium-High",
+      "serving_note": "2 servings \u2014 uses 3 of your salmon fillets",
+      "tags": [
+        "restaurant-dropout",
+        "rd-week-125",
+        "summer-2026",
+        "aug-2026"
+      ],
+      "equipment": "Breville Smart Oven Pro + small skillet",
+      "source": "Adapted from Restaurant Dropout Week 125 (8.7.2026)",
+      "macro_strings": {
+        "austin": "775 cal | 61g P | 34g F | 55g C",
+        "cameron": "496 cal | 38g P | 21g F | 38g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 775,
+          "p": 61,
+          "f": 34,
+          "c": 55
+        },
+        "cameron": {
+          "cal": 496,
+          "p": 38,
+          "f": 21,
+          "c": 38
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Salmon fillets (on hand)",
+          "qty": "3, cut into 1-inch cubes"
+        },
+        {
+          "name": "Brussels sprouts, halved",
+          "qty": "14 oz"
+        },
+        {
+          "name": "Cornstarch",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "Neutral oil (pantry)",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Fresh orange juice",
+          "qty": "3/4 cup"
+        },
+        {
+          "name": "Sambal oelek",
+          "qty": "1 to 2 tbsp"
+        },
+        {
+          "name": "Low-sodium soy sauce (pantry)",
+          "qty": "3 tbsp"
+        },
+        {
+          "name": "Rice vinegar (pantry)",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Fish sauce (pantry)",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Brown rice (on hand)",
+          "qty": "3/4 cup cooked"
+        },
+        {
+          "name": "Scallions, thin sliced",
+          "qty": "2"
+        },
+        {
+          "name": "Toasted sesame seeds",
+          "qty": "1 tbsp"
+        }
+      ],
+      "instructions": [
+        "Heat the Breville to 450\u00b0F. Drizzle a little oil on a sheet pan.",
+        "Halve the Brussels sprouts. Restaurant Dropout's shortcut applies: do NOT bother trimming the ends unless they look brown. The ends go soft and tender in the oven anyway.",
+        "Cut the salmon into 1-inch cubes. Toss the salmon and sprouts on the sheet pan with 2 tbsp oil, the cornstarch, and the salt. The cornstarch is what makes both go crispy instead of soggy.",
+        "Spread everything into one even layer. Roast about 18 minutes, stirring once. Salmon cooks faster than chicken does in the original, so pull it earlier \u2014 the sprouts should be dark brown and crisp, the salmon just firm.",
+        "MEANWHILE, in a small skillet combine the orange juice, 1 tbsp sambal, soy sauce, rice vinegar, and fish sauce. Boil, then drop to medium and reduce to about 1/3 cup, 10 to 15 minutes.",
+        "Watch it. Reduced too far and it burns and turns bitter. It should coat a spoon and look glossy.",
+        "Taste. Add the second tablespoon of sambal if you want it hotter \u2014 do this AFTER you pull Cameron's portion.",
+        "Pour the sauce over the salmon and sprouts and toss to coat. Top with scallions and sesame seeds.",
+        "AUSTIN: about 8 oz salmon, 8 oz sprouts, 1/2 cup brown rice under it, extra sauce.",
+        "CAMERON: about 5 oz salmon, 6 oz sprouts, 1/3 cup brown rice."
+      ],
+      "batch_note": "One sheet pan and one small saucepan. The sauce reduces while the pan roasts, so it's genuinely 25 minutes with almost no attention.",
+      "cameron_note": "Pull Cameron's portion before you add the second tablespoon of sambal. She gets the same dish at half a step down in heat. No avocado here \u2014 it fights the orange and sesame.",
+      "history": {
+        "first_used": "2026-08-10",
+        "last_used": "2026-08-10",
+        "times_made": 1,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "crispy-sambal-glazed-shrimp",
+      "name": "Crispy Sambal-Glazed Shrimp",
+      "cuisine": "Indonesian-American",
+      "meal_type": "dinner",
+      "prep": "15 min",
+      "cook": "20 min",
+      "total": "35 min",
+      "spice_level": "High",
+      "serving_note": "2 servings \u2014 uses all 16 oz of your shrimp",
+      "tags": [
+        "restaurant-dropout",
+        "rd-week-125",
+        "summer-2026",
+        "aug-2026"
+      ],
+      "equipment": "Air fryer + large skillet",
+      "source": "Adapted from Restaurant Dropout Week 125 (8.7.2026)",
+      "macro_strings": {
+        "austin": "735 cal | 64g P | 22g F | 72g C",
+        "cameron": "463 cal | 40g P | 15g F | 47g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 735,
+          "p": 64,
+          "f": 22,
+          "c": 72
+        },
+        "cameron": {
+          "cal": 463,
+          "p": 40,
+          "f": 15,
+          "c": 47
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Shrimp, peeled and deveined (on hand)",
+          "qty": "16 oz, thawed"
+        },
+        {
+          "name": "Large egg",
+          "qty": "1"
+        },
+        {
+          "name": "Low-sodium soy sauce (pantry)",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "All-purpose flour",
+          "qty": "1/2 cup"
+        },
+        {
+          "name": "Cornstarch",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Baking powder",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "Brussels sprouts, halved",
+          "qty": "10 oz"
+        },
+        {
+          "name": "Extra-virgin olive oil (pantry)",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Sambal Glaze (component)",
+          "qty": "1/2 cup"
+        },
+        {
+          "name": "Brown rice (on hand)",
+          "qty": "1.25 cups cooked"
+        },
+        {
+          "name": "Scallions, thin sliced",
+          "qty": "2"
+        },
+        {
+          "name": "Cooking spray",
+          "qty": "for the air fryer basket"
+        }
+      ],
+      "instructions": [
+        "Thaw the shrimp in cold water 10 minutes if needed. Pat them completely dry.",
+        "Whisk the egg with 1 tbsp soy sauce in a bowl. Add the shrimp and let them sit 10 minutes.",
+        "MEANWHILE heat the olive oil in a large skillet over medium. Add the halved Brussels sprouts and a pinch of salt. Cook 10 to 12 minutes, stirring now and then, until fork-tender and browned at the edges.",
+        "In another bowl whisk the flour, cornstarch, baking powder, and 1/2 tsp salt. The baking powder is what makes the crust light instead of dense.",
+        "Lift the shrimp out of the egg mixture, letting most of it drip off, and toss them in the dry mix until fully coated.",
+        "Restaurant Dropout deep-fries these. Air fry instead: 400\u00b0F, basket sprayed, shrimp in a single layer, 8 minutes, flipping and spraying again halfway. Same crunch, about 200 fewer calories, no pot of hot oil.",
+        "Work in two batches if they don't fit in one layer. Crowding steams them and you lose the crust.",
+        "Add the Sambal Glaze to the skillet with the Brussels sprouts. Stir over medium until it turns glossy and thick, about 1 minute.",
+        "Kill the heat. Add the shrimp and toss to coat. Do this at the last possible second \u2014 glaze sitting on crispy shrimp softens it fast.",
+        "AUSTIN: 3/4 cup brown rice, about 9 oz shrimp, 8 oz sprouts, scallions.",
+        "CAMERON: 1/2 cup brown rice, about 6 oz shrimp, 5 oz sprouts, scallions."
+      ],
+      "batch_note": "Nothing to batch ahead except the glaze. The sprouts cook while the shrimp marinate. About 35 minutes end to end.",
+      "cameron_note": "Cameron's portion comes off before you toss in the glaze \u2014 dress hers with about two-thirds the glaze so the sambal heat stays at her level. She still gets full crunch.",
+      "history": {
+        "first_used": "2026-08-10",
+        "last_used": "2026-08-10",
+        "times_made": 1,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "asada-ground-beef-corn-rice-bowls",
+      "name": "Asada Ground Beef Corn Rice Bowls",
+      "cuisine": "Mexican",
+      "meal_type": "dinner",
+      "prep": "10 min",
+      "cook": "15 min",
+      "total": "25 min",
+      "spice_level": "Medium-High",
+      "serving_note": "2 servings \u2014 uses about 14 oz of your ground beef",
+      "tags": [
+        "restaurant-dropout",
+        "rd-week-125",
+        "summer-2026",
+        "aug-2026"
+      ],
+      "equipment": "Cast-iron skillet + nonstick skillet",
+      "source": "Adapted from Restaurant Dropout Week 125 (8.7.2026)",
+      "macro_strings": {
+        "austin": "793 cal | 64g P | 32g F | 62g C",
+        "cameron": "459 cal | 35g P | 22g F | 32g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 793,
+          "p": 64,
+          "f": 32,
+          "c": 62
+        },
+        "cameron": {
+          "cal": 459,
+          "p": 35,
+          "f": 22,
+          "c": 32
+        }
+      },
+      "ingredients": [
+        {
+          "name": "93/7 ground beef (on hand)",
+          "qty": "14 oz"
+        },
+        {
+          "name": "Citrus Marinade (component)",
+          "qty": "1/4 cup"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "Smoked paprika (pantry)",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "Salted butter",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Corn kernels",
+          "qty": "1/2 cup"
+        },
+        {
+          "name": "Granulated chicken bouillon (pantry)",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "Brown rice (on hand)",
+          "qty": "1.25 cups cooked"
+        },
+        {
+          "name": "Romaine hearts, thin sliced",
+          "qty": "3 cups"
+        },
+        {
+          "name": "Jalape\u00f1o, thin sliced",
+          "qty": "1"
+        },
+        {
+          "name": "Cumin-Lime Vinaigrette (component)",
+          "qty": "3 tbsp"
+        },
+        {
+          "name": "Crispy Tortilla Strips (component)",
+          "qty": "1/2 cup"
+        },
+        {
+          "name": "Cotija, crumbled",
+          "qty": "1 oz"
+        },
+        {
+          "name": "Cilantro, chopped",
+          "qty": "for garnish"
+        },
+        {
+          "name": "Jalape\u00f1o-Lime Yogurt Crema",
+          "qty": "for AUSTIN"
+        },
+        {
+          "name": "Spicy Avocado Crema",
+          "qty": "for CAMERON"
+        }
+      ],
+      "instructions": [
+        "Restaurant Dropout uses skirt steak here. Ground beef is what's in your freezer and it works \u2014 you're after the citrus-cumin flavor and the corn rice, not the slicing.",
+        "Get a cast-iron skillet hot over medium-high. Add the ground beef and press it flat into the pan. Leave it alone 3 minutes so a real crust forms before you break it up.",
+        "Break it apart, add the salt and smoked paprika, and cook until browned through, about 5 more minutes. Drain off the fat.",
+        "Kill the heat and stir in the Citrus Marinade. It will hiss and reduce onto the meat in about a minute. Adding it off-heat keeps the citrus bright instead of cooked-out.",
+        "SAVORY CORN RICE: in a nonstick skillet, melt the butter over medium. Add corn and bouillon, cook until the corn toasts, 4 minutes. Add the cooked brown rice and stir until heated through and lightly toasted.",
+        "SLAW: toss the sliced romaine and jalape\u00f1o with the Cumin-Lime Vinaigrette and a pinch of salt. Romaine instead of the purple cabbage in the original \u2014 you're sick of cabbage, and Restaurant Dropout lists romaine as the official swap.",
+        "AUSTIN: 3/4 cup corn rice, about 7 oz beef, romaine slaw, cotija, tortilla strips, cilantro, Jalape\u00f1o-Lime Yogurt Crema.",
+        "CAMERON: 1/3 cup corn rice, about 4 oz beef, romaine slaw, cotija, fewer tortilla strips, Spicy Avocado Crema."
+      ],
+      "batch_note": "Make a double batch of the corn rice \u2014 half goes here, half goes into the Thursday-onward lunch bowls. Same pan, no extra time.",
+      "cameron_note": "Cameron gets a little over half of Austin's beef and less than half the rice, but a full portion of slaw and a generous spoon of avocado crema. Volume from vegetables, calories held down.",
+      "history": {
+        "first_used": "2026-08-10",
+        "last_used": "2026-08-10",
+        "times_made": 1,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "citrus-tilapia-tacos-charred-romaine",
+      "name": "Citrus Tilapia Tacos, Charred Romaine",
+      "cuisine": "Mexican",
+      "meal_type": "dinner",
+      "prep": "10 min",
+      "cook": "12 min",
+      "total": "22 min",
+      "spice_level": "Medium-High",
+      "serving_note": "2 servings \u2014 uses 1 lb of your tilapia",
+      "tags": [
+        "restaurant-dropout",
+        "rd-week-125",
+        "summer-2026",
+        "aug-2026"
+      ],
+      "equipment": "Cast-iron skillet (or the Loco griddle)",
+      "source": "Adapted from Restaurant Dropout Week 125 (8.7.2026)",
+      "macro_strings": {
+        "austin": "730 cal | 67g P | 21g F | 71g C",
+        "cameron": "460 cal | 39g P | 19g F | 40g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 730,
+          "p": 67,
+          "f": 21,
+          "c": 71
+        },
+        "cameron": {
+          "cal": 460,
+          "p": 39,
+          "f": 19,
+          "c": 40
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Tilapia (on hand)",
+          "qty": "about 13 oz"
+        },
+        {
+          "name": "Citrus Marinade (component)",
+          "qty": "1/4 cup"
+        },
+        {
+          "name": "Corn tortillas (on hand)",
+          "qty": "6"
+        },
+        {
+          "name": "Romaine hearts",
+          "qty": "2, halved lengthwise"
+        },
+        {
+          "name": "Corn kernels",
+          "qty": "1/2 cup"
+        },
+        {
+          "name": "Scallions, thin sliced",
+          "qty": "1/4 cup"
+        },
+        {
+          "name": "Cilantro, chopped",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Cumin-Lime Vinaigrette (component)",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Black beans, warmed",
+          "qty": "3/4 cup"
+        },
+        {
+          "name": "Cotija, crumbled",
+          "qty": "1 oz"
+        },
+        {
+          "name": "Lime wedges",
+          "qty": "4"
+        },
+        {
+          "name": "Neutral oil (pantry)",
+          "qty": "for the pan"
+        },
+        {
+          "name": "Jalape\u00f1o-Lime Yogurt Crema",
+          "qty": "3 tbsp for AUSTIN"
+        },
+        {
+          "name": "Spicy Avocado Crema",
+          "qty": "3 tbsp for CAMERON"
+        }
+      ],
+      "instructions": [
+        "Salt the tilapia on both sides and let it sit 5 minutes. Then toss it with 1/4 cup Citrus Marinade and leave it 25 minutes at room temperature. Do not go past 40 minutes \u2014 the citrus starts cooking the fish and it goes mealy.",
+        "CHARRED ROMAINE SLAW: halve the romaine hearts lengthwise, brush the cut sides with oil, and lay them face down in a screaming-hot dry skillet for 90 seconds until blackened. Pull, cool, then chop.",
+        "Toss the charred romaine with the corn, scallions, cilantro, Cumin-Lime Vinaigrette, and a pinch of salt. Charring the lettuce first is the whole move here \u2014 it goes smoky and sweet instead of just crunchy.",
+        "Wipe the skillet, add oil, get it hot. Shake the excess marinade off the tilapia and discard it. Never reuse raw fish marinade.",
+        "Cook 3 minutes undisturbed until a crust forms, then flip and go 2 to 3 more. Tilapia is thin and it goes from perfect to dry in under a minute.",
+        "Flake into big chunks. Warm the corn tortillas in the dry skillet, 30 seconds a side.",
+        "AUSTIN: 4 tortillas, about 8 oz fish, charred romaine slaw, 1/2 cup black beans, cotija, Jalape\u00f1o-Lime Yogurt Crema, lime.",
+        "CAMERON: 2 tortillas, about 5 oz fish, slaw, 1/4 cup black beans, cotija, Spicy Avocado Crema, lime."
+      ],
+      "batch_note": "Marinate the fish in the morning or right when you get home \u2014 25 minutes is the minimum and it can sit in the fridge up to 24 hours. Slaw can be made a few hours ahead.",
+      "cameron_note": "Cameron gets 2 tacos to Austin's 4 and the avocado crema. The marinade itself is mild, so this one lands in her range without changes.",
+      "history": {
+        "first_used": "2026-08-10",
+        "last_used": "2026-08-10",
+        "times_made": 1,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
     }
   ]
 }

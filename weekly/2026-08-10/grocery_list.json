@@ -5,49 +5,59 @@
   "categories": {
     "Produce": [
       {
+        "name": "Brussels sprouts",
+        "qty": "24 oz",
+        "for": "Sticky orange salmon + sambal shrimp"
+      },
+      {
+        "name": "Romaine hearts",
+        "qty": "2 packages",
+        "for": "Charred slaw, asada slaw, burgers"
+      },
+      {
+        "name": "Baby spring mix",
+        "qty": "5 oz",
+        "for": "Fiesta salad lunches"
+      },
+      {
         "name": "Sweet corn",
-        "qty": "6 ears",
-        "for": "Panzanella lunches + taco pico"
+        "qty": "4 ears",
+        "for": "Elote salsa, corn rice, taco slaw"
       },
       {
-        "name": "Cherry tomatoes",
-        "qty": "4 pints",
-        "for": "Panzanella, salmon couscous, tilapia orzo"
-      },
-      {
-        "name": "Roma tomatoes",
-        "qty": "3",
-        "for": "Taco pico + burger topping"
-      },
-      {
-        "name": "English cucumbers",
-        "qty": "4",
-        "for": "Panzanella, smashed cucumber, tzatziki"
-      },
-      {
-        "name": "Zucchini",
+        "name": "Red bell peppers",
         "qty": "2",
-        "for": "Saturday salmon"
+        "for": "Elote salsa"
       },
       {
-        "name": "Bell peppers",
-        "qty": "4",
-        "for": "Breakfast scramble + Thai shrimp"
+        "name": "Bell peppers (any color)",
+        "qty": "3",
+        "for": "Breakfast scramble"
       },
       {
         "name": "Jalape\u00f1os",
         "qty": "6",
-        "for": "Egg cups + taco pico + Thai shrimp heat"
+        "for": "Egg cups + Austin's crema + asada slaw"
       },
       {
-        "name": "Green beans",
-        "qty": "12 oz",
-        "for": "Friday Thai shrimp"
+        "name": "Serrano peppers",
+        "qty": "2",
+        "for": "Cameron's avocado crema"
       },
       {
-        "name": "Romaine hearts",
-        "qty": "1 package",
-        "for": "Tacos + burgers"
+        "name": "Shallot",
+        "qty": "1",
+        "for": "Elote salsa"
+      },
+      {
+        "name": "Cherry tomatoes",
+        "qty": "1 pint",
+        "for": "Tilapia orzo"
+      },
+      {
+        "name": "Tomato",
+        "qty": "1",
+        "for": "Burger topping"
       },
       {
         "name": "Mixed berries",
@@ -55,54 +65,39 @@
         "for": "Austin's side with the egg cups"
       },
       {
-        "name": "Thai basil (or regular basil)",
-        "qty": "2 large bunches",
-        "for": "Thai shrimp + panzanella + orzo"
-      },
-      {
-        "name": "Fresh cilantro",
+        "name": "Cilantro",
         "qty": "2 bunches",
-        "for": "Tinga bowls + taco pico"
-      },
-      {
-        "name": "Fresh dill",
-        "qty": "1 bunch",
-        "for": "Tzatziki + salmon couscous"
-      },
-      {
-        "name": "Fresh parsley",
-        "qty": "1 bunch",
-        "for": "Herb couscous"
+        "for": "Both cremas, elote salsa, every bowl"
       },
       {
         "name": "Scallions",
         "qty": "2 bunches",
-        "for": "Salmon rice bowls"
+        "for": "Both cremas, salmon, shrimp, tacos"
+      },
+      {
+        "name": "Fresh basil",
+        "qty": "1 bunch",
+        "for": "Tilapia orzo"
       },
       {
         "name": "Limes",
-        "qty": "8",
-        "for": "Everywhere \u2014 tacos, tinga, Thai"
+        "qty": "10",
+        "for": "Marinade, vinaigrette, both cremas, every plate"
       },
       {
         "name": "Lemons",
-        "qty": "4",
-        "for": "Salmon couscous + tilapia orzo"
+        "qty": "2",
+        "for": "Citrus marinade + tilapia orzo"
       },
       {
         "name": "Garlic",
-        "qty": "2 heads",
-        "for": "Every dinner"
-      },
-      {
-        "name": "Fresh ginger",
-        "qty": "1 knob",
-        "for": "Gochujang glaze"
+        "qty": "1 head",
+        "for": "Marinade + orzo"
       },
       {
         "name": "Avocados",
-        "qty": "5",
-        "for": "CAMERON ONLY \u2014 Austin is allergic"
+        "qty": "3",
+        "for": "CAMERON ONLY \u2014 her crema and her plates. Austin is allergic."
       }
     ],
     "Proteins": [
@@ -114,49 +109,49 @@
       {
         "name": "Turkey breakfast sausage",
         "qty": "1.5 lb",
-        "for": "Egg cups (6 oz) + Fri\u2013Sun scramble (9 oz)"
+        "for": "Egg cups + Fri\u2013Sun scramble"
       },
       {
         "name": "ON HAND \u2014 do not buy",
-        "qty": "5 salmon fillets, 2 lb tilapia, 16 oz shrimp, 1.5 lb ground beef",
-        "for": "All 6 dinners are built on these"
+        "qty": "3 salmon fillets, 2 lb tilapia, 16 oz shrimp, ~14 oz ground beef",
+        "for": "All 6 dinners. 2 salmon + ~10 oz beef stay frozen."
       }
     ],
     "Dairy & Eggs": [
       {
         "name": "Large eggs",
         "qty": "2 dozen",
-        "for": "Scramble + Thai fried eggs + panko dredge"
+        "for": "Egg cups, scramble, shrimp dredge"
       },
       {
         "name": "Liquid egg whites",
         "qty": "32 oz carton",
-        "for": "Breakfast scramble"
+        "for": "Egg cups + scramble"
+      },
+      {
+        "name": "Greek yogurt",
+        "qty": "32 oz tub",
+        "for": "Both cremas \u2014 this is the base for each"
       },
       {
         "name": "Lowfat cottage cheese",
         "qty": "16 oz",
-        "for": "Blended into the egg cups \u2014 this is what makes them creamy"
+        "for": "Blended into the egg cups"
       },
       {
-        "name": "Nonfat Greek yogurt",
-        "qty": "32 oz tub",
-        "for": "Overnight oats + tzatziki"
+        "name": "Sour cream",
+        "qty": "8 oz",
+        "for": "Austin's jalape\u00f1o-lime crema"
+      },
+      {
+        "name": "Cotija",
+        "qty": "10 oz package",
+        "for": "Elote salsa + both lunches + asada + tacos"
       },
       {
         "name": "Sharp cheddar block",
         "qty": "8 oz",
-        "for": "Smash burgers + scramble"
-      },
-      {
-        "name": "Cotija cheese",
-        "qty": "6 oz",
-        "for": "Tinga bowls + tacos"
-      },
-      {
-        "name": "Feta",
-        "qty": "6 oz",
-        "for": "Panzanella + salmon couscous"
+        "for": "Egg cups + burgers"
       },
       {
         "name": "Parmesan (fresh block)",
@@ -164,38 +159,58 @@
         "for": "Tilapia orzo"
       },
       {
-        "name": "Sour cream",
-        "qty": "8 oz",
-        "for": "Chipotle crema"
+        "name": "Salted butter",
+        "qty": "1 stick",
+        "for": "Savory corn rice"
       }
     ],
     "Grains & Dry Goods": [
       {
+        "name": "Cornstarch",
+        "qty": "1 box",
+        "for": "Sticky orange coating, shrimp dredge, sambal glaze. NOT stocked."
+      },
+      {
+        "name": "Baking powder",
+        "qty": "1 can",
+        "for": "Shrimp dredge \u2014 this is what makes the crust light"
+      },
+      {
+        "name": "All-purpose flour",
+        "qty": "small bag",
+        "for": "Shrimp dredge"
+      },
+      {
+        "name": "Toasted sesame seeds",
+        "qty": "1 jar",
+        "for": "Sticky orange salmon"
+      },
+      {
         "name": "ON HAND \u2014 do not buy",
-        "qty": "Rolled oats, protein oats, brown rice, quinoa, pearl couscous, white couscous, arborio, ramen, croutons, corn tortillas",
-        "for": "Covers every grain this week"
+        "qty": "Brown rice, corn tortillas, orzo, croutons, quinoa, couscous",
+        "for": "Every grain this week"
       }
     ],
     "Canned & Jarred": [
       {
-        "name": "Chipotles in adobo",
-        "qty": "2 cans",
-        "for": "Tinga sauce + chipotle crema + taco rub"
+        "name": "Sambal oelek",
+        "qty": "1 jar",
+        "for": "Sticky orange sauce + sambal glaze. Gochujang or sriracha work if you'd rather skip it."
       },
       {
-        "name": "Fire-roasted diced tomatoes",
-        "qty": "1 can (14.5 oz)",
-        "for": "Tinga sauce"
+        "name": "Mirin",
+        "qty": "1 small bottle",
+        "for": "Sambal glaze. Sub 2 tbsp honey + 1 tsp rice vinegar if you skip it."
+      },
+      {
+        "name": "Orange juice",
+        "qty": "1 small bottle (need 1.25 cups)",
+        "for": "Citrus marinade + sticky orange sauce"
       },
       {
         "name": "Black beans",
         "qty": "2 cans",
-        "for": "Tinga bowls + tacos. You only have 1 on hand."
-      },
-      {
-        "name": "Kimchi",
-        "qty": "16 oz jar",
-        "for": "Monday salmon rice bowls"
+        "for": "Tilapia tacos. You have 1 on hand."
       },
       {
         "name": "Mayo",
@@ -208,18 +223,11 @@
         "for": "Burger sauce"
       }
     ],
-    "Frozen": [
-      {
-        "name": "Shelled edamame",
-        "qty": "1 bag",
-        "for": "Monday salmon bowls"
-      }
-    ],
     "Pantry / Other": [
       {
         "name": "Nothing needed",
         "qty": "\u2014",
-        "for": "Gochujang, fish sauce, oyster sauce, soy, orzo, jasmine rice, panko, pesto, dijon, all spices are stocked"
+        "for": "Soy sauce, fish sauce, rice vinegar, white wine vinegar, honey, brown sugar, olive/neutral oil, smoked paprika, cumin, chili powder, oregano, bouillon all stocked"
       }
     ]
   }
