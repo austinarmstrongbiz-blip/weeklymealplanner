@@ -1,0 +1,143 @@
+/* Austin Armstrong brand skin for meal-planner.html.
+   Loaded AFTER the app's inline <style>, so it remaps the app's own tokens
+   to the design system's and re-cuts the components: paper ground, ink plane,
+   one yellow, Basilia italic titles, JetBrains Mono labels, square surfaces. */
+
+:root{
+  --green:#231f20;--green-l:#000000;
+  --orange:#231f20;--orange-l:#4a4547;      /* orange was used as TEXT — yellow text on paper is banned, so orange becomes ink and yellow is applied as fills below */
+  --bg:#f9f9f9;--card:#ffffff;--border:#e4e0db;
+  --text:#231f20;--muted:#7a7577;
+  --austin:#231f20;--cameron:#231f20;
+  --r:0px;--shadow:none;
+}
+
+/* ── Type roles ───────────────────────────────────────────── */
+body{font-family:var(--font-sans);font-size:16px;line-height:1.6}
+.logo,.week-nav-title,.meal-card-title,.modal-title,.picker-title,.rc-name,.fp-title,.prep-title,.prep-card-name,.tonight-name,.cs-name,.substack-name,.picker-item-name,.pdf-section-text{font-family:var(--font-display);font-style:italic;font-weight:700;letter-spacing:-.015em;line-height:1.1}
+.logo{font-size:22px;color:var(--on-ink)}
+.logo span{color:var(--ink);background:var(--yellow);display:inline-block;padding:0 .14em}
+.meal-card-title,.rc-name,.picker-item-name,.cs-name{font-size:19px}
+.modal-title,.picker-title{font-size:26px}
+.prep-title{font-size:30px}
+.tonight-name{font-size:22px}
+
+.tab-btn,.section-title,.day-btn,.meal-type-badge,.rc-type,.cs-type,.picker-item-type,.totals-label,.macro-col-label,.rating-label,.chip,.btn-primary,.btn-secondary,.btn-view-recipe,.store-filter-btn,.grocery-category-title,.prep-section-title,.prep-sub-title,.form-label,.form-section-title,.modal-section h4,.fp-source,.cuisine-badge,.grocery-budget,.prep-total-time,.prep-badge,.week-label,.macro-pill,.prep-feed-chip,.tag,.ing-section,.macro-table th,.tonight-hero-band,.btn-add-ing,.edit-plan-btn,.btn-change-recipe,.recipes-count,.grocery-progress-label,.prep-week-label,.substack-url,.panel-header,.chat-send{font-family:var(--font-mono);text-transform:uppercase;letter-spacing:.12em}
+.tab-btn,.day-btn,.chip,.store-filter-btn,.btn-primary,.btn-secondary,.chat-send,.panel-header{font-size:11px;font-weight:500}
+.section-title,.grocery-category-title,.prep-section-title,.form-section-title,.modal-section h4,.prep-sub-title,.form-label,.fp-source,.macro-table th{font-size:10.5px;font-weight:400;letter-spacing:.14em;color:var(--ink-muted)}
+.meal-type-badge,.rc-type,.cs-type,.picker-item-type,.totals-label,.macro-col-label,.rating-label,.prep-badge,.tag,.prep-feed-chip,.week-label,.macro-pill,.cuisine-badge,.grocery-budget,.prep-total-time,.tonight-hero-band{font-size:10px;font-weight:400;letter-spacing:.12em}
+.recipes-count,.grocery-progress-label,.prep-week-label,.substack-url{font-size:10px;letter-spacing:.12em;color:var(--ink-muted)}
+.macro-vals,.rc-macro-row,.grocery-text,.chat-bubble,.fp-desc,.modal-body,.ingredient-list li,.instructions-list li,.prep-step-list li{font-family:var(--font-sans)}
+
+/* ── Header / tabs: the ink plane ─────────────────────────── */
+.header{background:var(--ink);box-shadow:none;border-bottom:1px solid var(--on-ink-rule)}
+.week-label{color:var(--on-ink-muted)}
+.tabs{background:var(--ink);border-bottom:4px solid var(--yellow)}
+.tab-btn{color:var(--on-ink-muted);border-bottom:2px solid transparent;padding:12px 18px}
+.tab-btn:hover{color:var(--on-ink)}
+.tab-btn.active{color:var(--on-ink);border-bottom-color:var(--yellow)}
+
+/* ── Structure: square surfaces, hairline rules, no shadows ─ */
+.meal-card,.recipe-card,.prep-card,.panel,.feed-post,.tonight-hero,.pdf-status,.pdf-item,.substack-item,.day-totals,.chat-suggestion-card{border-radius:0;box-shadow:none}
+.modal,.picker-modal{border-radius:0;box-shadow:0 20px 60px rgba(35,31,32,.18)}
+.search-input,.form-input,.form-control,.picker-search,.chat-input,.ing-row input{border-radius:2px;border-width:1px}
+.search-input:focus,.form-input:focus,.form-control:focus,.picker-search:focus,.chat-input:focus{border-color:var(--ink)}
+.chip,.day-btn,.macro-pill,.prep-badge,.cuisine-badge,.grocery-budget,.prep-total-time,.store-count{border-radius:999px}
+.btn-primary,.btn-secondary,.btn-icon,.store-filter-btn,.chat-send{border-radius:0}
+.section-title{padding-bottom:8px;border-bottom:2px solid var(--ink)}
+.grocery-category-title,.prep-section-title{border-bottom:2px solid var(--ink)!important}
+.prep-section-title.sat,.prep-section-title.start,.prep-section-title.while,.prep-section-title.active,.prep-section-title.final{color:var(--ink-muted)}
+.recipe-card:hover{transform:none;box-shadow:none;background:var(--bg);border-color:var(--ink)}
+.prep-card:hover,.meal-card:hover{box-shadow:none}
+
+/* ── Buttons: yellow fill, ink outline ────────────────────── */
+.btn-primary{background:var(--yellow);color:var(--ink);padding:11px 18px}
+.btn-primary:hover{background:var(--yellow-dim);color:var(--ink)}
+.btn-secondary{background:transparent;color:var(--ink);border:1px solid var(--ink);padding:11px 18px}
+.btn-secondary:hover{background:var(--ink);color:var(--on-ink)}
+.btn-icon:hover{background:var(--ink);color:var(--on-ink);border-color:var(--ink)}
+.btn-view-recipe{font-size:10px;color:var(--ink);border-bottom:2px solid var(--yellow)}
+.btn-view-recipe:hover{border-bottom-color:var(--ink)}
+.btn-add-ing{font-size:10px;color:var(--ink)}
+.pdf-browse-label,.pdf-item-link,.fp-source{color:var(--ink)}
+
+/* ── Yellow, doing one job at a time ──────────────────────── */
+.cuisine-badge,.grocery-budget,.prep-total-time{background:var(--yellow);color:var(--ink)}
+.grocery-progress-bar{background:var(--yellow)}
+.star.filled,.star:hover,.star.hover,.rc-stars{color:var(--yellow)}
+.prep-card-stripe.active{background:var(--yellow)}
+.prep-card-stripe.sat{background:var(--pillar-mind)}
+.prep-card-stripe.start{background:var(--ink)}
+.prep-card-stripe.while{background:var(--pillar-ai)}
+.prep-card-stripe.final{background:var(--rule)}
+.prep-badge.time,.prep-badge.passive,.prep-badge.sat-b{background:var(--bg);color:var(--ink-muted);border:1px solid var(--rule)}
+.prep-badge.active-b{background:var(--yellow);color:var(--ink);border:none}
+.macro-pill{background:var(--bg);border:1px solid var(--rule);color:var(--ink-soft)}
+.macro-pill.good{background:var(--yellow);color:var(--ink);border-color:var(--yellow)}
+.macro-pill.over{background:var(--ink);color:var(--on-ink);border-color:var(--ink)}
+.offline-banner{background:var(--yellow);border:2px solid var(--ink);border-radius:0}
+.offline-banner h3{color:var(--ink);font-family:var(--font-mono);text-transform:uppercase;letter-spacing:.14em;font-size:10.5px;font-weight:400}
+.offline-banner code{background:var(--card);color:var(--ink);border-radius:0;font-family:var(--font-mono)}
+.tonight-hero-band{background:var(--ink)!important;color:var(--on-ink)}
+.success-toast{background:var(--ink);color:var(--on-ink);border-radius:0;font-family:var(--font-mono);text-transform:uppercase;letter-spacing:.12em;font-size:11px}
+
+/* ── The two people: pillar colours as accents, never fills ─ */
+.totals-label.austin,.macro-col-label.austin,.rating-label.austin{color:var(--ink);border-bottom:2px solid var(--pillar-ai);padding-bottom:2px}
+.totals-label.cameron,.macro-col-label.cameron,.rating-label.cameron{color:var(--ink);border-bottom:2px solid var(--pillar-mind);padding-bottom:2px}
+.macro-table td.austin,.macro-table td.cameron{color:var(--ink)}
+.cameron-note{background:var(--card);border-left:3px solid var(--pillar-mind);border-radius:0;color:var(--ink-soft);font-family:var(--font-sans);font-size:12px}
+.plan-edit-bar{background:var(--ink);border-radius:0;color:var(--on-ink)}
+.btn-change-recipe{background:var(--yellow);color:var(--ink);border-radius:999px;font-size:10px}
+.btn-change-recipe:hover{background:var(--yellow-dim)}
+.edit-plan-btn{border-radius:0;border:1px solid var(--on-ink-rule);color:var(--on-ink-muted);font-size:10px}
+.chat-avatar{background:var(--ink);color:var(--on-ink);font-family:var(--font-mono)}
+.chat-message.user .chat-avatar{background:var(--yellow);color:var(--ink)}
+.chat-bubble{border-radius:0;box-shadow:none}
+.chat-message.user .chat-bubble{background:var(--ink);color:var(--on-ink);border-color:var(--ink)}
+.chat-suggestion-card{border-radius:0;border-width:1px}
+.chat-suggestion-card:hover{background:var(--bg);border-color:var(--ink)}
+.chat-input{border-radius:999px}
+.chat-send{background:var(--yellow);color:var(--ink)}
+
+/* ── Lists, steps, ingredients ────────────────────────────── */
+.instructions-list li::before{background:var(--ink);color:var(--on-ink);border-radius:50%;font-family:var(--font-mono);font-weight:400}
+.prep-step-list li::before{font-family:var(--font-mono)}
+.ing-section{color:var(--ink)}
+.tag,.prep-ing-list li,.prep-feed-chip{border-radius:0;background:var(--bg);color:var(--ink-muted)}
+.prep-feed-chip.linked{background:var(--yellow);border-color:var(--yellow);color:var(--ink)}
+.prep-feed-chip.linked:hover{background:var(--yellow-dim)}
+.grocery-check{border-radius:0;border:1px solid var(--ink)}
+.pdf-section{border:1px dashed var(--ink);border-radius:0;background:var(--card)}
+.pdf-section:hover,.pdf-section.drag-over{background:var(--bg);border-color:var(--ink)}
+.pdf-status.success{border-color:var(--ink);background:var(--bg);color:var(--ink)}
+.pdf-status.error{border-color:var(--ink);background:var(--bg);color:var(--ink)}
+.picker-item:hover{background:var(--bg)}
+.meal-type-badge,.rc-type,.cs-type,.picker-item-type{background:var(--ink);color:var(--on-ink);border-radius:0}
+
+/* ── No emoji in brand output ─────────────────────────────── */
+.pdf-section-icon,.feed-empty .icon,.tonight-emoji,.rc-hero-emoji,.recipe-card-hero{display:none}
+
+a:hover{text-decoration-color:var(--yellow)}
+
+.server-dot{background:var(--yellow);border-radius:0;width:7px;height:7px}
+.server-dot.offline{background:var(--on-ink-rule)}
+.offline-banner p,.offline-banner strong{color:var(--ink-soft);font-family:var(--font-sans);font-size:13px}
+
+.grocery-budget:empty,.cuisine-badge:empty,.prep-total-time:empty,.grocery-progress-label:empty,.recipes-count:empty,.store-count:empty,.macro-pill:empty,.prep-badge:empty,.week-label:empty{display:none}
+
+/* ── Addendum: off-palette holdouts in the app's inline CSS ──
+   Saturated blue/green/orange the original skin didn't reach.
+   Verify step 5 of the handoff requires none of these survive. */
+.store-badge.sams,.store-filter-btn.active-sams{background:var(--ink);color:var(--on-ink);border-color:var(--ink)}
+.store-badge.wf,.store-filter-btn.active-wf{background:transparent;color:var(--ink);border:1px solid var(--ink)}
+.store-badge.wf{background:var(--bg)}
+.store-filter-btn.active-all{background:var(--ink);color:var(--on-ink);border-color:var(--ink)}
+.store-badge,.store-badge.either{border-radius:999px;font-family:var(--font-mono);text-transform:uppercase;letter-spacing:.12em}
+.store-count{background:var(--on-ink-rule)}
+.store-filter-btn:hover{border-color:var(--ink);color:var(--ink)}
+.pantry-item-dot{width:7px;height:7px;border-radius:0;background:var(--ink)}
+.pantry-item.low .pantry-item-dot{background:var(--yellow)}
+.pantry-item.low{background:var(--bg)}
+.pantry-item.low .pantry-item-text{color:var(--ink-soft)}
+.pantry-low-badge{background:var(--yellow);color:var(--ink);font-family:var(--font-mono);text-transform:uppercase;letter-spacing:.12em}
+.prep-section-title.active{border-color:var(--ink)}

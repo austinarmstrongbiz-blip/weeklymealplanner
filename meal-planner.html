@@ -1145,6 +1145,8 @@ select.form-control { cursor: pointer; }
   .tab-panel:not(#panel-groceries) { display: none !important; }
 }
 </style>
+<link rel="stylesheet" href="brand/austin-tokens.css">
+<link rel="stylesheet" href="brand/austin-brand-skin.css">
 </head>
 <body>
 
@@ -1167,7 +1169,7 @@ select.form-control { cursor: pointer; }
     <button class="tab-btn" data-tab="substack">Substacks</button>
     <button class="tab-btn" data-tab="pantry">Pantry</button>
     <button class="tab-btn" data-tab="add">+ Add Recipe</button>
-    <button class="tab-btn" data-tab="chat">💬 Chat</button>
+    <button class="tab-btn" data-tab="chat">Chat</button>
   </div>
 </div>
 
@@ -1176,10 +1178,10 @@ select.form-control { cursor: pointer; }
 
   <!-- Offline / read-only banner -->
   <div class="offline-banner" id="offlineBanner">
-    <h3 id="offlineTitle">⚠️  Server not running — some features are limited</h3>
+    <h3 id="offlineTitle">Server not running — some features are limited</h3>
     <p id="offlineBody">To add recipes and manage Substacks, run:</p>
     <p style="margin-top:8px"><code id="offlineCmd">python3 scripts/server.py</code></p>
-    <p style="margin-top:6px;font-size:13px;color:#92400E" id="offlineHint">Then open <strong>http://localhost:8080/meal-planner.html</strong></p>
+    <p style="margin-top:6px;font-size:13px;color:var(--ink-soft)" id="offlineHint">Then open <strong>http://localhost:8080/meal-planner.html</strong></p>
   </div>
 
   <!-- ╔══════════════════════════════╗ -->
@@ -1193,7 +1195,7 @@ select.form-control { cursor: pointer; }
       <button class="btn-secondary" id="editPlanBtn" style="font-size:12px;padding:6px 14px">Edit Plan</button>
     </div>
     <div class="plan-edit-bar" id="planEditBar">
-      <span>✏️ Edit mode — click <strong>Change</strong> on any meal to swap a recipe</span>
+      <span>Edit mode — click <strong>Change</strong> on any meal to swap a recipe</span>
       <button class="btn-primary" style="font-size:12px;padding:7px 14px" id="savePlanBtn">Save Plan</button>
       <button class="btn-secondary" style="font-size:12px;padding:7px 14px" id="cancelPlanEdit">Cancel</button>
     </div>
@@ -1201,7 +1203,7 @@ select.form-control { cursor: pointer; }
     <!-- Weekly macro summary (collapsible) -->
     <div class="week-summary" id="weekSummary" style="display:none">
       <div class="week-summary-header" id="weekSummaryToggle">
-        <span class="week-summary-title">📊 Weekly Summary</span>
+        <span class="week-summary-title">Weekly Summary</span>
         <span id="weekSummaryPreview" style="font-size:12px;color:var(--muted)"></span>
         <span class="week-summary-caret" id="weekSummaryCaret">▼</span>
       </div>
@@ -1252,13 +1254,13 @@ select.form-control { cursor: pointer; }
       <div class="grocery-actions">
         <button class="btn-secondary" style="font-size:12px;padding:7px 14px" id="uncheckAllBtn">Uncheck All</button>
         <button class="btn-secondary" style="font-size:12px;padding:7px 14px" id="shareGroceryBtn">↗ Share</button>
-        <button class="btn-primary"   style="font-size:12px;padding:7px 14px" onclick="window.print()">🖨 Print</button>
+        <button class="btn-primary"   style="font-size:12px;padding:7px 14px" onclick="window.print()">Print</button>
       </div>
     </div>
     <div class="store-filter-row" id="storeFilterRow">
       <button class="store-filter-btn active-all" data-store="" id="sfAll">All <span class="store-count" id="sfAllCount"></span></button>
-      <button class="store-filter-btn" data-store="sams" id="sfSams">🔵 Sam's Club <span class="store-count" id="sfSamsCount"></span></button>
-      <button class="store-filter-btn" data-store="wf" id="sfWf">🟢 Whole Foods <span class="store-count" id="sfWfCount"></span></button>
+      <button class="store-filter-btn" data-store="sams" id="sfSams">Sam's Club <span class="store-count" id="sfSamsCount"></span></button>
+      <button class="store-filter-btn" data-store="wf" id="sfWf">Whole Foods <span class="store-count" id="sfWfCount"></span></button>
     </div>
     <div class="grocery-progress-label" id="groceryProgressLabel"></div>
     <div class="grocery-progress"><div class="grocery-progress-bar" id="groceryProgressBar" style="width:0%"></div></div>
@@ -1285,10 +1287,10 @@ select.form-control { cursor: pointer; }
     </div>
     <div class="filter-chips" id="seasonChips">
       <button class="chip" data-season="">All seasons</button>
-      <button class="chip" data-season="spring">🌸 Spring</button>
-      <button class="chip" data-season="summer">☀️ Summer</button>
-      <button class="chip" data-season="fall">🍂 Fall</button>
-      <button class="chip" data-season="winter">❄️ Winter</button>
+      <button class="chip" data-season="spring">Spring</button>
+      <button class="chip" data-season="summer">Summer</button>
+      <button class="chip" data-season="fall">Fall</button>
+      <button class="chip" data-season="winter">Winter</button>
     </div>
     <div class="recipes-count" id="recipesCount"></div>
     <div class="recipes-grid" id="recipesGrid"></div>
@@ -1302,7 +1304,7 @@ select.form-control { cursor: pointer; }
       <!-- Left: manage Substacks -->
       <div>
         <div class="panel">
-          <div class="panel-header">📰 Your Substacks</div>
+          <div class="panel-header">Your Substacks</div>
           <div class="panel-body">
             <div class="add-substack-form">
               <input class="form-input" id="ssName" placeholder="Publication name (e.g. Samin Nosrat)">
@@ -1323,7 +1325,7 @@ select.form-control { cursor: pointer; }
       <div>
         <div id="feedContainer">
           <div class="feed-empty">
-            <div class="icon">📖</div>
+            <div class="icon"></div>
             <p>Add a Substack publication on the left to see recent recipe posts here.</p>
           </div>
         </div>
@@ -1362,7 +1364,7 @@ select.form-control { cursor: pointer; }
 
           <!-- PDF upload -->
           <div class="pdf-section" id="pdfDropZone">
-            <div class="pdf-section-icon">📄</div>
+            <div class="pdf-section-icon"></div>
             <div class="pdf-section-text">Drop a recipe PDF here, or <label class="pdf-browse-label" for="pdfFileInput">browse</label></div>
             <div class="pdf-section-hint">PDFs are saved to the repository — view them anytime in the library</div>
             <input type="file" id="pdfFileInput" accept=".pdf" style="display:none">
@@ -1623,7 +1625,7 @@ async function init() {
 
   // ── 2. GitHub Pages read-only banner ───────────────────
   if (ENV.isGitHubPages) {
-    document.getElementById('offlineTitle').textContent = '📖  Read-only view';
+    document.getElementById('offlineTitle').textContent = 'Read-only view';
     document.getElementById('offlineBody').textContent =
       'You\'re viewing the shared version. Browsing meals, recipes, and Substack feeds all work here. To add recipes or manage settings, use the local app:';
     document.getElementById('offlineCmd').textContent = 'python3 scripts/server.py';
@@ -1754,7 +1756,7 @@ function renderDay() {
 
   // Cuisine badge
   document.getElementById('cuisineBadgeContainer').innerHTML =
-    `<div class="cuisine-badge">🍽 ${day.cuisine || 'Mixed'} ${day.day}</div>`;
+    `<div class="cuisine-badge">${day.cuisine || 'Mixed'} ${day.day}</div>`;
 
   // Day totals
   const at = day.austin_total || {};
@@ -1910,10 +1912,10 @@ function openRecipeModal(id) {
   if (!r) return;
   document.getElementById('modalTitle').textContent = r.name;
   document.getElementById('modalMeta').innerHTML =
-    [r.cuisine, r.total ? `⏱ ${r.total}` : '', r.spice_level && r.spice_level !== 'None' ? `🌶 ${r.spice_level}` : '', r.equipment]
+    [r.cuisine, r.total ? `${r.total}` : '', r.spice_level && r.spice_level !== 'None' ? `${r.spice_level}` : '', r.equipment]
     .filter(Boolean).join(' · ') +
     (S.serverOnline
-      ? ` &nbsp;<button onclick="editRecipe('${r.id}')" style="color:var(--orange);font-size:12px;font-weight:600;border-bottom:1px solid transparent" onmouseover="this.style.borderBottomColor='var(--orange)'" onmouseout="this.style.borderBottomColor='transparent'">Edit ✏️</button>`
+      ? ` &nbsp;<button onclick="editRecipe('${r.id}')" style="color:var(--orange);font-size:12px;font-weight:600;border-bottom:1px solid transparent" onmouseover="this.style.borderBottomColor='var(--orange)'" onmouseout="this.style.borderBottomColor='transparent'">Edit</button>`
       : '');
 
   const rating = (() => {
@@ -2087,7 +2089,7 @@ function renderFeed() {
   const container = document.getElementById('feedContainer');
   if (S.feed.length === 0) {
     container.innerHTML = `<div class="feed-empty">
-      <div class="icon">📭</div>
+      <div class="icon"></div>
       <p>No posts found. Check that your Substack URLs are correct, then hit Refresh.</p>
     </div>`;
     return;
@@ -2648,7 +2650,7 @@ function editRecipe(id) {
   // Mark as editing
   S.editingRecipeId = id;
   document.getElementById('submitRecipeBtn').textContent = 'Update Recipe';
-  document.querySelector('#panel-add .panel-header').textContent = '✏️ Edit Recipe';
+  document.querySelector('#panel-add .panel-header').textContent = 'Edit Recipe';
   showToast(`Editing "${r.name}" — make changes and click Update.`);
 }
 
@@ -3030,7 +3032,7 @@ function renderPrepTab() {
   if (totalMin > 0) {
     const hrs = Math.floor(totalMin / 60);
     const rem = totalMin % 60;
-    timeLbl.textContent = `⏱ Est. ${hrs > 0 ? hrs + 'h ' : ''}${rem > 0 ? rem + 'm' : ''} active time`;
+    timeLbl.textContent = `Est. ${hrs > 0 ? hrs + 'h ' : ''}${rem > 0 ? rem + 'm' : ''} active time`;
     timeLbl.style.display = '';
   }
 
@@ -3040,11 +3042,11 @@ function renderPrepTab() {
 
   // Group stations
   const GROUPS = {
-    'sat':    { label: '🌙 Saturday Night — Do the night before', cls: 'sat'    },
-    'start':  { label: '🔥 Start First — Set & Forget (longest cook)',  cls: 'start'  },
-    'while':  { label: '🍳 While Those Run — Oven & Stove',      cls: 'while'  },
-    'active': { label: '⚡ Active Prep — Hands on',              cls: 'active' },
-    'final':  { label: '🏷 Final Step — Label & Portion',         cls: 'final'  },
+    'sat':    { label: 'Saturday Night — Do the night before', cls: 'sat'    },
+    'start':  { label: 'Start First — Set & Forget (longest cook)',  cls: 'start'  },
+    'while':  { label: 'While Those Run — Oven & Stove',      cls: 'while'  },
+    'active': { label: 'Active Prep — Hands on',              cls: 'active' },
+    'final':  { label: 'Final Step — Label & Portion',         cls: 'final'  },
   };
 
   const grouped = {};
@@ -3084,7 +3086,7 @@ function renderPrepTab() {
               <label for="prepchk-${s.idx}" class="prep-card-name">${cleanName}</label>
             </div>
             <div class="prep-badges">
-              ${timeLabel ? `<span class="prep-badge time">⏱ ${timeLabel}</span>` : ''}
+              ${timeLabel ? `<span class="prep-badge time">${timeLabel}</span>` : ''}
               <span class="prep-badge ${badgeType}">${badgeText}</span>
             </div>
           </div>
@@ -3148,10 +3150,10 @@ pdfInput.addEventListener('change', () => {
 
 async function uploadPDF(file) {
   const statusEl = document.getElementById('pdfStatusMsg');
-  statusEl.innerHTML = `<div class="pdf-status">⏳ Uploading ${file.name}…</div>`;
+  statusEl.innerHTML = `<div class="pdf-status">Uploading ${file.name}…</div>`;
 
   if (!S.serverOnline) {
-    statusEl.innerHTML = `<div class="pdf-status error">⚠️ Server offline — start the local server to save PDFs.</div>`;
+    statusEl.innerHTML = `<div class="pdf-status error">Server offline — start the local server to save PDFs.</div>`;
     return;
   }
 
@@ -3188,7 +3190,6 @@ async function loadPDFList() {
     if (!files?.length) { list.innerHTML = ''; return; }
     list.innerHTML = files.map(f => `
       <div class="pdf-item">
-        <span style="font-size:16px">📄</span>
         <span class="pdf-item-name">${f}</span>
         <a class="pdf-item-link" href="/references/pdfs/${encodeURIComponent(f)}" target="_blank">Open ↗</a>
       </div>
@@ -3350,35 +3351,35 @@ document.getElementById('chatInput').addEventListener('keydown', e => {
 //  CUISINE VISUAL MAP
 // ═══════════════════════════════════════════════════════════
 const CUISINE_VISUAL = {
-  italian:        { color: '#C4622D', emoji: '🍝' },
-  greek:          { color: '#1D4ED8', emoji: '🫒' },
-  thai:           { color: '#059669', emoji: '🌶️' },
-  japanese:       { color: '#BE185D', emoji: '🍜' },
-  mexican:        { color: '#D97706', emoji: '🌮' },
-  'tex-mex':      { color: '#D97706', emoji: '🌮' },
-  american:       { color: '#2563EB', emoji: '🍔' },
-  bbq:            { color: '#9A3412', emoji: '🔥' },
-  mediterranean:  { color: '#0891B2', emoji: '🫙' },
-  indian:         { color: '#EA580C', emoji: '🍛' },
-  chinese:        { color: '#DC2626', emoji: '🥢' },
-  korean:         { color: '#7C3AED', emoji: '🥬' },
-  vietnamese:     { color: '#16A34A', emoji: '🍲' },
-  french:         { color: '#6D28D9', emoji: '🥐' },
-  spanish:        { color: '#DC2626', emoji: '🥘' },
-  middle_eastern: { color: '#B45309', emoji: '🧆' },
-  breakfast:      { color: '#CA8A04', emoji: '🍳' },
-  spring:         { color: '#16A34A', emoji: '🌱' },
-  summer:         { color: '#EA580C', emoji: '🌞' },
+  italian:        { color: '#C4622D', emoji: '' },
+  greek:          { color: '#1D4ED8', emoji: '' },
+  thai:           { color: '#059669', emoji: '' },
+  japanese:       { color: '#BE185D', emoji: '' },
+  mexican:        { color: '#D97706', emoji: '' },
+  'tex-mex':      { color: '#D97706', emoji: '' },
+  american:       { color: '#2563EB', emoji: '' },
+  bbq:            { color: '#9A3412', emoji: '' },
+  mediterranean:  { color: '#0891B2', emoji: '' },
+  indian:         { color: '#EA580C', emoji: '' },
+  chinese:        { color: '#DC2626', emoji: '' },
+  korean:         { color: '#7C3AED', emoji: '' },
+  vietnamese:     { color: '#16A34A', emoji: '' },
+  french:         { color: '#6D28D9', emoji: '' },
+  spanish:        { color: '#DC2626', emoji: '' },
+  middle_eastern: { color: '#B45309', emoji: '' },
+  breakfast:      { color: '#CA8A04', emoji: '' },
+  spring:         { color: '#16A34A', emoji: '' },
+  summer:         { color: '#EA580C', emoji: '' },
 };
 
 function getCuisineVisual(recipe) {
-  if (!recipe) return { color: '#6B7280', emoji: '🍽' };
+  if (!recipe) return { color: '#6B7280', emoji: '' };
   const key = (recipe.cuisine || recipe.meal_type || '')
     .toLowerCase()
     .replace(/[^a-z\s]/g, '')
     .split(/[\s\/\-]+/)[0]  // take first word
     .trim();
-  return CUISINE_VISUAL[key] || { color: '#6B7280', emoji: '🍽' };
+  return CUISINE_VISUAL[key] || { color: '#6B7280', emoji: '' };
 }
 
 // ═══════════════════════════════════════════════════════════
@@ -3422,10 +3423,10 @@ function renderTonightHero() {
         <div style="flex:1">
           <div class="tonight-name">${name}</div>
           <div class="tonight-macros">
-            <strong style="color:#1E3A5F">Austin</strong>
+            <strong style="color:inherit;border-bottom:2px solid var(--pillar-ai)">Austin</strong>
             ${aus.cal||'—'} cal · ${aus.p||'—'}g P
             &nbsp;&nbsp;
-            <strong style="color:#6B2D5E">Cameron</strong>
+            <strong style="color:inherit;border-bottom:2px solid var(--pillar-mind)">Cameron</strong>
             ${cam.cal||'—'} cal · ${cam.p||'—'}g P
           </div>
         </div>
@@ -3715,12 +3716,12 @@ async function importRecipeFromUrl() {
   if (!url) { showToast('Paste a recipe URL first.'); return; }
   if (!S.serverOnline) {
     statusEl.className = 'url-import-status error';
-    statusEl.textContent = '⚠️ Start the local server to import from URLs.';
+    statusEl.textContent = 'Start the local server to import from URLs.';
     return;
   }
 
   statusEl.className = 'url-import-status loading';
-  statusEl.textContent = '⏳ Fetching recipe…';
+  statusEl.textContent = 'Fetching recipe…';
   document.getElementById('urlImportBtn').disabled = true;
 
   try {

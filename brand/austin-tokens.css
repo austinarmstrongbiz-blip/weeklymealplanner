@@ -1,0 +1,15 @@
+/* Austin Armstrong design tokens — extracted from the design system.
+   Source of truth: austinarmstrongbiz-blip/austinarmstrongbiz-blip src/app/globals.css */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..900;1,9..40,100..900&family=JetBrains+Mono:wght@300;400;500;700&display=swap');
+@font-face{font-family:'Basilia';src:url('fonts/Basilia-BolIta.woff') format('woff');font-weight:700;font-style:italic;font-display:swap}
+@font-face{font-family:'Basilia';src:url('fonts/Basilia-Bol.woff') format('woff');font-weight:700;font-style:normal;font-display:swap}
+:root{
+  --yellow:#fbd601;--yellow-dim:#e8c400;
+  --ink:#231f20;--bg:#f9f9f9;--bg-warm:#ffffff;
+  --ink-soft:#4a4547;--ink-muted:#7a7577;--rule:#e4e0db;
+  --on-ink:#f9f9f9;--on-ink-muted:rgba(249,249,249,.55);--on-ink-rule:rgba(249,249,249,.1);
+  --pillar-lifestyle:#c9a96e;--pillar-ai:#6ea5c9;--pillar-mind:#c96e8a;--pillar-philosophy:#6ec98a;
+  --font-display:'Basilia','Bodoni MT','Didot',Georgia,serif;
+  --font-sans:'DM Sans',system-ui,sans-serif;
+  --font-mono:'JetBrains Mono','Fira Code',monospace;
+}
