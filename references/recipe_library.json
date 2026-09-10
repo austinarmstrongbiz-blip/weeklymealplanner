@@ -16125,6 +16125,147 @@
         }
       },
       "retired": false
+    },
+    {
+      "id": "smoked-salmon-breakfast-board",
+      "name": "Smoked Salmon Breakfast Board with Honeycomb & Cr\u00e8me Fra\u00eeche",
+      "cuisine": "European / Brunch",
+      "meal_type": "breakfast",
+      "prep": "10 min",
+      "cook": "7 min (soft-boil eggs)",
+      "total": "15 min",
+      "spice_level": "None",
+      "serving_note": "1 board per person \u2014 Austin: full board | Cameron: lighter portion, avocado swapped in for cr\u00e8me fra\u00eeche",
+      "tags": [
+        "brunch",
+        "weekend",
+        "no-cook-mostly",
+        "egg",
+        "special-occasion"
+      ],
+      "equipment": "Small saucepan (soft-boiled eggs), cutting board, serving board or plate",
+      "macro_strings": {
+        "austin": "570 cal | 42g P | 29g F | 35g C",
+        "cameron": "300 cal | 23g P | 17g F | 13g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 570,
+          "p": 42,
+          "f": 29,
+          "c": 35
+        },
+        "cameron": {
+          "cal": 300,
+          "p": 23,
+          "f": 17,
+          "c": 13
+        }
+      },
+      "ingredients": [
+        {
+          "name": "AUSTIN (per serving)",
+          "qty": null
+        },
+        {
+          "name": "Focaccia, torn into rustic pieces",
+          "qty": "1.5 oz (35g)"
+        },
+        {
+          "name": "Soft cheese (Brie or similar), thin slices",
+          "qty": "25g"
+        },
+        {
+          "name": "Smoked salmon",
+          "qty": "4 oz (112g)"
+        },
+        {
+          "name": "Large eggs, soft-boiled",
+          "qty": "2"
+        },
+        {
+          "name": "Cr\u00e8me fra\u00eeche",
+          "qty": "2 tsp"
+        },
+        {
+          "name": "Honeycomb, broken into pieces",
+          "qty": "2 tsp"
+        },
+        {
+          "name": "Orange, segmented",
+          "qty": "1/2"
+        },
+        {
+          "name": "Flaky salt & cracked pepper",
+          "qty": "to taste"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "CAMERON (per serving) \u2014 no cr\u00e8me fra\u00eeche, avocado swapped in",
+          "qty": null
+        },
+        {
+          "name": "Focaccia, small torn piece",
+          "qty": "0.3 oz (10g)"
+        },
+        {
+          "name": "Soft cheese (Brie or similar), thin shaving",
+          "qty": "8g"
+        },
+        {
+          "name": "Smoked salmon",
+          "qty": "2.5 oz (70g)"
+        },
+        {
+          "name": "Large egg, soft-boiled",
+          "qty": "1"
+        },
+        {
+          "name": "Avocado, sliced (replaces cr\u00e8me fra\u00eeche)",
+          "qty": "3 tbsp (~40g)"
+        },
+        {
+          "name": "Honeycomb, small drizzle",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "Orange, segmented",
+          "qty": "2-3 segments"
+        },
+        {
+          "name": "Flaky salt & cracked pepper",
+          "qty": "to taste"
+        }
+      ],
+      "instructions": [
+        "Bring a small pot of water to a boil. Gently lower in the eggs (2 for Austin, 1 for Cameron) and soft-boil 6-7 minutes for a jammy yolk. Transfer to an ice bath, peel, and halve.",
+        "Tear the focaccia into rustic pieces \u2014 warm 2 minutes in the oven if not fresh-baked.",
+        "Arrange the smoked salmon in loose folds on the board, portioning Austin's and Cameron's servings separately.",
+        "Add the cheese slices (Austin) or thin shaving (Cameron) next to the salmon.",
+        "Segment the orange and tuck the pieces on the board for brightness and acidity.",
+        "Austin: spoon cr\u00e8me fra\u00eeche into a small dish and drizzle honeycomb over the cheese and salmon.",
+        "Cameron: fan the avocado slices across her section in place of cr\u00e8me fra\u00eeche, then add a light drizzle of honeycomb.",
+        "Place the halved eggs on the board and finish with flaky salt and cracked pepper.",
+        "Serve immediately with the focaccia alongside for scooping and topping."
+      ],
+      "batch_note": "Best assembled fresh \u2014 doesn't hold well as leftovers. Soft-boil the eggs the night before and refrigerate if mornings are tight; the rest assembles in under 10 minutes.",
+      "cameron_note": "Cameron: cr\u00e8me fra\u00eeche is swapped for 3 tbsp sliced avocado, she gets 1 egg instead of 2, and the focaccia/cheese portions are scaled down to hit her lighter breakfast target \u2014 same board, softer landing.",
+      "seasonal_note": "Good transitional breakfast for early fall in Pittsburgh \u2014 citrus is still in season and the board is light enough before mornings turn colder.",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
     }
   ]
 }
