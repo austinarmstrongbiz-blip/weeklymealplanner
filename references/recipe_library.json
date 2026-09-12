@@ -16125,6 +16125,946 @@
         }
       },
       "retired": false
+    },
+    {
+      "id": "rosemary-focaccia",
+      "name": "Rosemary Focaccia",
+      "cuisine": "Italian",
+      "meal_type": "bread / component",
+      "prep": "20 min active, 4-5 hrs proofing (mostly hands-off)",
+      "cook": "20-25 min",
+      "total": "About 5 hrs total, ~20 min hands-on",
+      "spice_level": "None",
+      "serving_note": "Makes 1 large 9x13 loaf, about 12 slices. Bake Sunday during prep -- keeps refrigerated up to 7 days. Used in Pesto Chicken Focaccia Sandwiches (Saturday dinner) and as breakfast/side bread through the week.",
+      "tags": [
+        "bread",
+        "batch-friendly",
+        "restaurant-dropout-week130",
+        "component"
+      ],
+      "equipment": "Stand mixer bowl or large mixing bowl, 9x13 pan, oven",
+      "macro_strings": {
+        "austin": "~140 cal per slice | 4g P | 4g F | 22g C",
+        "cameron": "~140 cal per slice | 4g P | 4g F | 22g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 140,
+          "p": 4,
+          "f": 4,
+          "c": 22
+        },
+        "cameron": {
+          "cal": 140,
+          "p": 4,
+          "f": 4,
+          "c": 22
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Warm water (100-109F)",
+          "qty": "2 3/4 cup (620g)"
+        },
+        {
+          "name": "Granulated sugar",
+          "qty": "2 tsp (10g)"
+        },
+        {
+          "name": "Active dry yeast",
+          "qty": "2 tsp (6g)"
+        },
+        {
+          "name": "All-purpose flour",
+          "qty": "5 cups (700g)"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "1 tbsp (12g)"
+        },
+        {
+          "name": "Extra-virgin olive oil",
+          "qty": "1/4 cup plus 2 tbsp (70g), plus more for proofing & baking"
+        },
+        {
+          "name": "Dried rosemary",
+          "qty": "for garnish"
+        }
+      ],
+      "instructions": [
+        "Combine water, sugar, and yeast in a large mixing bowl and stir. Once yeast begins to foam (5-7 minutes), add flour, salt, and olive oil. Stir until a wet, tacky dough forms.",
+        "Transfer dough to a well-oiled bowl and proof 2-3 hours at room temperature, or until doubled.",
+        "Stretch and fold 18-20 times (grab dough from underneath with wet hands, fold over, turn bowl 90 degrees, repeat). Proof another hour.",
+        "Generously oil a 9x13 pan. Stretch and fold the dough 12 more times, then transfer to the pan.",
+        "Using your hands, stretch the dough to touch all 4 corners of the pan -- it doesn't need to be perfect. Cover and rest 45-50 minutes. Preheat oven to 450F.",
+        "Top with 1-2 tbsp olive oil, sprinkle dried rosemary over the top, and press fingers firmly into the dough to make dimples all over.",
+        "Top with a pinch of kosher salt. Bake 20-25 minutes until lightly golden brown all over.",
+        "Cool, then store wrapped tightly in the fridge up to 7 days."
+      ],
+      "batch_note": "Bake this Sunday during the 2-hour prep block -- it's mostly hands-off proofing time that overlaps with other prep. Extra slices double as breakfast toast (Italian bread/sourdough already on hand can be used first, then focaccia) or a side through the week.",
+      "cameron_note": "No difference -- same bread for both. She gets fewer slices to match her calorie budget.",
+      "seasonal_note": "From Restaurant Dropout Week 130 (9.11.2026).",
+      "history": {
+        "first_used": "2026-09-13",
+        "last_used": "2026-09-13",
+        "times_made": 1,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "caramelized-spring-onion-ramen",
+      "name": "Caramelized Spring Onion Ramen",
+      "cuisine": "Japanese / Asian",
+      "meal_type": "dinner (Soup of the Week)",
+      "prep": "15 min",
+      "cook": "35 min",
+      "total": "50 min",
+      "spice_level": "Medium (chili-garlic sauce, adjustable)",
+      "serving_note": "Base recipe serves 4. Austin gets extra noodles + a bigger shrimp topper; Cameron gets a lighter noodle portion + smaller shrimp + soft-boiled egg.",
+      "tags": [
+        "soup-of-the-week",
+        "fall-2026",
+        "batch-friendly"
+      ],
+      "equipment": "Large Dutch oven or stockpot, second pot for noodles",
+      "macro_strings": {
+        "austin": "750 cal | 62g P | 22g F | 82g C",
+        "cameron": "480 cal | 36g P | 16g F | 52g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 750,
+          "p": 62,
+          "f": 22,
+          "c": 82
+        },
+        "cameron": {
+          "cal": 480,
+          "p": 36,
+          "f": 16,
+          "c": 52
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Olive oil or canola oil",
+          "qty": "1/4 cup (60 ml)"
+        },
+        {
+          "name": "Spring onions, thinly sliced",
+          "qty": "4 bunches (13 oz / 370g total, about 4 cups)"
+        },
+        {
+          "name": "Salt",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "Fresh ginger, peeled and grated",
+          "qty": "2 in (5 cm) piece"
+        },
+        {
+          "name": "Garlic cloves, minced",
+          "qty": "3"
+        },
+        {
+          "name": "Miso paste",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Chili-garlic sauce",
+          "qty": "1 tsp, plus more to taste"
+        },
+        {
+          "name": "Ground turmeric",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "Black pepper, freshly ground",
+          "qty": "1/4 tsp"
+        },
+        {
+          "name": "Vegetable broth",
+          "qty": "4 cups (960 ml)"
+        },
+        {
+          "name": "Tamari or low-sodium soy sauce",
+          "qty": "1/2 tbsp"
+        },
+        {
+          "name": "Ramen noodles, flavor packets discarded",
+          "qty": "3 packages (basement stock)"
+        },
+        {
+          "name": "Baby bok choy, trimmed and quartered",
+          "qty": "1"
+        },
+        {
+          "name": "Carrot, peeled and cut into matchsticks",
+          "qty": "1"
+        },
+        {
+          "name": "Snow peas",
+          "qty": "1 cup (100g)"
+        },
+        {
+          "name": "Rice vinegar",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Cilantro, sesame oil, chili oil",
+          "qty": "for serving, optional"
+        },
+        {
+          "name": "AUSTIN'S TOPPER -- Spicy Shrimp",
+          "qty": null
+        },
+        {
+          "name": "Shrimp, peeled and deveined",
+          "qty": "6 oz, from freezer stock"
+        },
+        {
+          "name": "Chili-garlic sauce (for searing shrimp)",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Soft-boiled egg",
+          "qty": "1"
+        },
+        {
+          "name": "CAMERON'S TOPPER -- Lighter Shrimp + Egg + Avocado",
+          "qty": null
+        },
+        {
+          "name": "Shrimp, peeled and deveined",
+          "qty": "3 oz, from freezer stock"
+        },
+        {
+          "name": "Soft-boiled egg",
+          "qty": "1"
+        },
+        {
+          "name": "Avocado, sliced, on the side",
+          "qty": "1/4"
+        }
+      ],
+      "instructions": [
+        "In a large Dutch oven or stockpot over medium-low heat, warm the oil. Add the spring onions and salt and cook until very soft and just starting to brown in some parts, 12-15 minutes.",
+        "Add ginger and garlic, saute until fragrant, about 30 seconds. Stir in miso, chili-garlic sauce, turmeric, and pepper, cook 30 more seconds until fragrant.",
+        "Add vegetable broth, tamari, and 2 cups (480ml) water. Bring to a boil over high heat, then lower to medium-low and simmer 10 minutes to develop the flavor.",
+        "Meanwhile, bring a large pot of water to a boil. Cook the noodles 3 minutes. Drain.",
+        "Add bok choy, carrot, and snow peas to the simmering broth and cook just until vegetables start to soften, about 2 minutes. Remove from heat and stir in the vinegar. Taste and adjust with more vinegar, tamari (for salt), or chili-garlic sauce (for spice).",
+        "For Austin's topper: pat 6 oz shrimp dry, sear in a hot skillet with a little oil and 1 tsp chili-garlic sauce, 2-3 minutes per side until pink and just cooked through. Soft-boil 1 egg (6-7 min in simmering water, then ice bath, peel, halve).",
+        "For Cameron's topper: repeat with 3 oz shrimp and her own soft-boiled egg.",
+        "Divide noodles among bowls -- more for Austin, less for Cameron -- and ladle broth and vegetables over top. Top Austin's bowl with his shrimp and egg. Top Cameron's bowl with her shrimp, egg, and a few slices of avocado on the side. Finish with cilantro and a sprinkle of sesame oil or chili oil if desired."
+      ],
+      "batch_note": "This is the new weekly Soup of the Week feature (starting fall/winter 2026) -- plan on a rotating soup dinner most weeks going forward. This batch makes 4 servings of soup; store soup and noodles separately if there are leftovers (2 days refrigerated, or freeze the broth up to 2 months and add noodles fresh when reheating).",
+      "cameron_note": "Smaller noodle portion, smaller shrimp topper, same egg, and avocado added on the side since it doesn't naturally go in the bowl.",
+      "seasonal_note": "From a recipe card photographed by Austin, tagged 'Best Enjoyed in Spring' -- adapted here as the season-opening entry in the new fall/winter Soup of the Week rotation.",
+      "history": {
+        "first_used": "2026-09-13",
+        "last_used": "2026-09-13",
+        "times_made": 1,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "pesto-butter-salmon-cannellini",
+      "name": "Pesto Butter Salmon with Tomato-Garlic Cannellini Beans",
+      "cuisine": "Italian",
+      "meal_type": "dinner",
+      "prep": "10 min",
+      "cook": "20 min",
+      "total": "30 min",
+      "spice_level": "None",
+      "serving_note": "Serves 2 (1 salmon fillet each). Adapted from Restaurant Dropout Week 130 -- swapped store-bought jarred pesto for the walnut pesto, and baby spinach for swiss chard (both on hand).",
+      "tags": [
+        "restaurant-dropout-week130",
+        "pantry-priority",
+        "fall-2026"
+      ],
+      "equipment": "Baking sheet, small saute pan",
+      "macro_strings": {
+        "austin": "760 cal | 61g P | 34g F | 58g C",
+        "cameron": "490 cal | 37g P | 20g F | 38g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 760,
+          "p": 61,
+          "f": 34,
+          "c": 58
+        },
+        "cameron": {
+          "cal": 490,
+          "p": 37,
+          "f": 20,
+          "c": 38
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Salmon fillets, pat dry",
+          "qty": "2 (from freezer stock)"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "to taste"
+        },
+        {
+          "name": "Salted butter, room temperature",
+          "qty": "4 tbsp"
+        },
+        {
+          "name": "Jarred pesto (rosso, on hand)",
+          "qty": "1 tbsp, plus more to taste"
+        },
+        {
+          "name": "Olive oil",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Yellow onion, finely diced",
+          "qty": "1/2"
+        },
+        {
+          "name": "Garlic clove, grated",
+          "qty": "1"
+        },
+        {
+          "name": "Cherry or grape tomatoes, halved",
+          "qty": "4 oz"
+        },
+        {
+          "name": "Chicken or vegetable bouillon",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "Baby spinach (sub for swiss chard, on hand)",
+          "qty": "2 cups, roughly chopped"
+        },
+        {
+          "name": "Water",
+          "qty": "1/4 cup"
+        },
+        {
+          "name": "Cannellini beans, drained and rinsed",
+          "qty": "1.5 cups (about 1.5 cans)"
+        },
+        {
+          "name": "Black pepper",
+          "qty": "to taste"
+        },
+        {
+          "name": "Parmesan, shaved, for garnish",
+          "qty": "small handful"
+        },
+        {
+          "name": "Fresh basil, for garnish",
+          "qty": "a few leaves"
+        },
+        {
+          "name": "Rosemary Focaccia, toasted, on the side",
+          "qty": "2 slices Austin / 1 slice Cameron"
+        },
+        {
+          "name": "CAMERON ONLY -- Avocado, sliced, on the side",
+          "qty": "1/4, with a squeeze of lemon"
+        }
+      ],
+      "instructions": [
+        "Preheat oven to 350F. Pat salmon dry and season with salt; rest 5-10 minutes.",
+        "Combine softened butter and pesto in a small bowl, whisk until combined.",
+        "Top each fillet with 2 tbsp of the pesto butter and bake 12-14 minutes, until just cooked through.",
+        "Meanwhile, heat olive oil in a small saute pan over medium-high. Add onion and a pinch of salt, cook until soft and translucent, 3-4 minutes. Add garlic and tomatoes, cook until tomatoes soften and garlic is fragrant, 3-4 minutes.",
+        "Stir in bouillon, spinach, and water. Cook until spinach wilts, about 2 minutes. Add cannellini beans and a pinch of salt, cook on low until glossy and thickened, 5-6 minutes.",
+        "Plate the beans, top with the salmon, and garnish with black pepper, shaved parmesan, and basil. Serve with toasted focaccia on the side.",
+        "For Cameron: smaller fillet portion, less beans, one slice of focaccia, and sliced avocado with lemon on the side."
+      ],
+      "batch_note": "Uses both salmon fillets from the freezer and the cannellini beans on hand (buy 1-2 more cans -- the pasta salad lunch this week also uses cannellini).",
+      "cameron_note": "Smaller salmon portion, lighter on the beans and butter, one slice of focaccia instead of two, avocado added on the side.",
+      "seasonal_note": "Adapted from Restaurant Dropout Week 130 (9.11.2026).",
+      "history": {
+        "first_used": "2026-09-13",
+        "last_used": "2026-09-13",
+        "times_made": 1,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "smoked-three-pepper-chicken-quinoa",
+      "name": "Smoked Three-Pepper Chicken & Quinoa Bowls",
+      "cuisine": "American BBQ",
+      "meal_type": "dinner",
+      "prep": "10 min",
+      "cook": "1.5-2 hrs smoker (mostly hands-off)",
+      "total": "About 2 hrs, minimal active time",
+      "spice_level": "Medium-high for Austin, mild for Cameron",
+      "serving_note": "This week's smoker recipe. Batch extra chicken thighs Sunday -- some go on the smoker fresh Wednesday, extra gets used across Sun-Wed quinoa lunch bowls.",
+      "tags": [
+        "smoker",
+        "pantry-priority",
+        "fall-2026",
+        "batch-friendly"
+      ],
+      "equipment": "Smoker, cast-iron skillet, rice cooker or pot for quinoa",
+      "macro_strings": {
+        "austin": "740 cal | 64g P | 28g F | 55g C",
+        "cameron": "470 cal | 38g P | 16g F | 34g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 740,
+          "p": 64,
+          "f": 28,
+          "c": 55
+        },
+        "cameron": {
+          "cal": 470,
+          "p": 38,
+          "f": 16,
+          "c": 34
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Boneless skinless chicken thighs",
+          "qty": "2-2.5 lb (extra reserved for lunch bowls)"
+        },
+        {
+          "name": "Smoked paprika, garlic powder, onion powder, salt, pepper (pantry rub)",
+          "qty": "to coat"
+        },
+        {
+          "name": "White quinoa (on hand)",
+          "qty": "1.5 cups dry"
+        },
+        {
+          "name": "Frozen three-pepper blend (on hand)",
+          "qty": "16 oz"
+        },
+        {
+          "name": "Olive oil",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Lime",
+          "qty": "1, juiced"
+        },
+        {
+          "name": "Cilantro, chopped",
+          "qty": "for garnish"
+        },
+        {
+          "name": "CAMERON ONLY -- Avocado-lime crema (Greek yogurt, avocado, lime, salt, blended)",
+          "qty": "on the side"
+        }
+      ],
+      "instructions": [
+        "Rub chicken thighs generously with the paprika/garlic/onion/salt/pepper mix. Smoke at 225F until internal temp hits 165F, about 1.5-2 hours depending on thickness.",
+        "Cook quinoa according to package directions (roughly 1 cup dry quinoa to 2 cups water, simmer 15 min, rest 5 min, fluff).",
+        "While the chicken smokes, saute the three-pepper blend in olive oil over medium-high heat until charred at the edges, 6-8 minutes. Season with salt and a squeeze of lime.",
+        "Slice smoked chicken. Build bowls: quinoa on the bottom, charred peppers, sliced chicken on top, cilantro to finish.",
+        "For Cameron: smaller portion of chicken and quinoa, extra peppers, and a spoonful of avocado-lime crema on the side."
+      ],
+      "batch_note": "Buy 2-2.5 lb of thighs -- smoke all of it Wednesday, but pull off extra plain chicken to portion into the Sun-Wed Mediterranean quinoa lunch bowls (grill or pan-sear a portion of the thighs Sunday during prep instead of smoking, since the smoker is only fired up Wednesday).",
+      "cameron_note": "Smaller chicken and quinoa portions, extra charred peppers for volume, avocado-lime crema on the side.",
+      "seasonal_note": "Uses the frozen three-pepper blend and quinoa already on hand -- built around using up freezer/pantry stock.",
+      "history": {
+        "first_used": "2026-09-13",
+        "last_used": "2026-09-13",
+        "times_made": 1,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "basil-white-bean-pasta-chicken-skewers",
+      "name": "Basil & White Bean Pasta Salad with Balsamic Chicken Skewers",
+      "cuisine": "Italian",
+      "meal_type": "lunch",
+      "prep": "20 min, plus marinating time",
+      "cook": "20 min",
+      "total": "40 min active + 1 hr chill/marinate",
+      "spice_level": "None",
+      "serving_note": "Adapted from Restaurant Dropout Week 130 -- swapped baby spinach for arugula and jarred pesto for walnut pesto (both on hand). Batch Sunday for Thu-Sat lunches.",
+      "tags": [
+        "restaurant-dropout-week130",
+        "batch-friendly",
+        "fall-2026"
+      ],
+      "equipment": "Grill or grill pan, skewers, large mixing bowl",
+      "macro_strings": {
+        "austin": "660 cal | 58g P | 24g F | 55g C",
+        "cameron": "390 cal | 33g P | 15g F | 34g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 660,
+          "p": 58,
+          "f": 24,
+          "c": 55
+        },
+        "cameron": {
+          "cal": 390,
+          "p": 33,
+          "f": 15,
+          "c": 34
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Medium pasta shells or ditalini (on hand)",
+          "qty": "8 oz, cooked"
+        },
+        {
+          "name": "Cannellini beans, drained and rinsed",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Jarred pesto (rosso, on hand)",
+          "qty": "1/2 cup plus 1 tbsp, divided"
+        },
+        {
+          "name": "Baby spinach (sub for arugula/spring mix, on hand)",
+          "qty": "1 cup, tightly packed"
+        },
+        {
+          "name": "Parmesan, shaved",
+          "qty": "1/3 cup"
+        },
+        {
+          "name": "Feta, crumbled",
+          "qty": "1/2 cup"
+        },
+        {
+          "name": "Kosher salt & black pepper",
+          "qty": "to taste"
+        },
+        {
+          "name": "Olive oil, for finishing",
+          "qty": "drizzle"
+        },
+        {
+          "name": "Boneless skinless chicken breast, diced into 1.5-2in cubes",
+          "qty": "1.5 lb"
+        },
+        {
+          "name": "Balsamic vinegar",
+          "qty": "1/2 cup"
+        },
+        {
+          "name": "Olive oil (for marinade)",
+          "qty": "1/4 cup"
+        },
+        {
+          "name": "Garlic cloves",
+          "qty": "2"
+        },
+        {
+          "name": "Brown sugar",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Dried rosemary",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "Fresh basil, for garnish",
+          "qty": "a few leaves"
+        },
+        {
+          "name": "Flaky salt, for garnish",
+          "qty": "optional"
+        }
+      ],
+      "instructions": [
+        "Blend balsamic vinegar, olive oil, garlic, brown sugar, salt, and rosemary into a marinade.",
+        "Salt the diced chicken, rest 5 minutes, then coat in the marinade. Marinate at room temp 30 min or refrigerate up to 8 hours.",
+        "Combine cooked pasta, cannellini beans, 1/2 cup pesto, spinach, parmesan, feta, salt, and pepper in a large bowl. Refrigerate at least 1 hour (up to 48 hours).",
+        "Thread marinated chicken onto skewers (6-7 pieces each). Grill over medium-high heat, flipping every 5 minutes, until charred and internal temp hits 165F, 18-20 minutes.",
+        "Before serving, stir 1 tbsp more pesto, a drizzle of olive oil, and a pinch of salt into the pasta salad.",
+        "Plate pasta salad alongside the skewers, garnish with basil and flaky salt.",
+        "For Cameron: fewer skewer pieces and a smaller pasta portion."
+      ],
+      "batch_note": "Batch Sunday for Thursday-Saturday lunches. Needs 1-2 more cans of cannellini beans since the Monday salmon dinner also uses the one can on hand.",
+      "cameron_note": "About 2/3 the chicken and pasta salad portion of Austin's serving.",
+      "seasonal_note": "Adapted from Restaurant Dropout Week 130 (9.11.2026).",
+      "history": {
+        "first_used": "2026-09-13",
+        "last_used": "2026-09-13",
+        "times_made": 1,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "pesto-chicken-focaccia-sandwich",
+      "name": "Pesto Chicken Focaccia Sandwiches with Sun-Dried Tomato Greens",
+      "cuisine": "Italian",
+      "meal_type": "dinner",
+      "prep": "10 min",
+      "cook": "15 min",
+      "total": "25 min",
+      "spice_level": "None",
+      "serving_note": "Adapted from Restaurant Dropout Week 130 -- uses the fresh Rosemary Focaccia baked Sunday, jarred pesto instead of walnut pesto, and a simple olive oil-balsamic dressing on the greens instead of a separate vinaigrette.",
+      "tags": [
+        "restaurant-dropout-week130",
+        "fall-2026"
+      ],
+      "equipment": "Oven-safe saute pan, oven",
+      "macro_strings": {
+        "austin": "700 cal | 62g P | 26g F | 62g C",
+        "cameron": "460 cal | 34g P | 20g F | 42g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 700,
+          "p": 62,
+          "f": 26,
+          "c": 62
+        },
+        "cameron": {
+          "cal": 460,
+          "p": 34,
+          "f": 20,
+          "c": 42
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Boneless skinless chicken breast, sliced in half lengthwise",
+          "qty": "1 (9 oz)"
+        },
+        {
+          "name": "Kosher salt & black pepper",
+          "qty": "to taste"
+        },
+        {
+          "name": "Rosemary Focaccia (baked Sunday)",
+          "qty": "3 slices Austin / 1.5 slices Cameron"
+        },
+        {
+          "name": "Jarred pesto (rosso, on hand)",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Olive oil, for cooking",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Baby spinach (sub for arugula, on hand)",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Balsamic vinegar",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Cherry tomatoes, halved",
+          "qty": "6"
+        },
+        {
+          "name": "Parmesan, shaved",
+          "qty": "small handful"
+        },
+        {
+          "name": "Fresh basil, for garnish",
+          "qty": "a few leaves"
+        },
+        {
+          "name": "CAMERON ONLY -- Avocado, sliced",
+          "qty": "1/4, layered into the sandwich"
+        }
+      ],
+      "instructions": [
+        "Preheat oven to 350F. Season chicken generously with salt and pepper, rest 5 minutes.",
+        "Slice focaccia in half sandwich-style, place on a baking sheet, toast in the oven 8-10 minutes.",
+        "Heat olive oil in an oven-safe saute pan over medium-high. Sear chicken 2-3 minutes without moving, flip, then transfer pan to the oven to finish 3-4 minutes, until internal temp hits 165F.",
+        "Toss spinach with balsamic vinegar, cherry tomatoes, and a pinch of salt.",
+        "Spread pesto on the inside of the toasted focaccia, layer in the chicken, top with the dressed greens and tomatoes. Finish with shaved parmesan and basil, close, and slice.",
+        "For Cameron: smaller chicken portion, one less slice of focaccia, and sliced avocado layered into her sandwich."
+      ],
+      "batch_note": "Uses the Rosemary Focaccia baked earlier in the week -- bake Sunday, use through Saturday.",
+      "cameron_note": "Smaller chicken portion, less bread, avocado layered into the sandwich.",
+      "seasonal_note": "Adapted from Restaurant Dropout Week 130 (9.11.2026).",
+      "history": {
+        "first_used": "2026-09-13",
+        "last_used": "2026-09-13",
+        "times_made": 1,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "banana-pepper-cheddar-cottage-cheese-egg-bake",
+      "name": "Banana Pepper Cheddar Cottage Cheese Egg Bake",
+      "cuisine": "American",
+      "meal_type": "breakfast",
+      "prep": "10 min",
+      "cook": "25 min",
+      "total": "35 min",
+      "spice_level": "Mild (banana peppers, not jalapeno)",
+      "serving_note": "Bake Sunday or Wednesday night, grab-and-go Thu-Sat. Uses banana peppers on hand instead of jalapeno for a milder, tangier heat.",
+      "tags": [
+        "batch-friendly",
+        "grab-and-go",
+        "pantry-priority",
+        "fall-2026"
+      ],
+      "equipment": "Muffin tin or 8x8 baking dish, oven",
+      "macro_strings": {
+        "austin": "580 cal | 44g P | 30g F | 38g C",
+        "cameron": "275 cal | 23g P | 15g F | 14g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 580,
+          "p": 44,
+          "f": 30,
+          "c": 38
+        },
+        "cameron": {
+          "cal": 275,
+          "p": 23,
+          "f": 15,
+          "c": 14
+        }
+      },
+      "ingredients": [
+        {
+          "name": "AUSTIN (per serving)",
+          "qty": null
+        },
+        {
+          "name": "Large eggs",
+          "qty": "4"
+        },
+        {
+          "name": "Egg whites",
+          "qty": "2"
+        },
+        {
+          "name": "Low-fat cottage cheese",
+          "qty": "1/4 cup"
+        },
+        {
+          "name": "Shredded sharp cheddar",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Baby spinach, chopped",
+          "qty": "1/4 cup"
+        },
+        {
+          "name": "Banana peppers, chopped",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Salt & black pepper",
+          "qty": "to taste"
+        },
+        {
+          "name": "Italian bread or sourdough, toasted (on hand)",
+          "qty": "2 slices"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "CAMERON (per serving)",
+          "qty": null
+        },
+        {
+          "name": "Large eggs",
+          "qty": "2"
+        },
+        {
+          "name": "Egg whites",
+          "qty": "1"
+        },
+        {
+          "name": "Low-fat cottage cheese",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Shredded sharp cheddar",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Baby spinach, chopped",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Banana peppers, chopped",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Avocado",
+          "qty": "1/4, sliced on the side"
+        }
+      ],
+      "instructions": [
+        "Preheat oven to 350F. Grease a muffin tin (for grab-and-go cups) or an 8x8 dish.",
+        "Whisk eggs, egg whites, and cottage cheese together until mostly smooth (some cottage cheese curds are fine).",
+        "Stir in cheddar, spinach, and banana peppers. Season with salt and pepper.",
+        "Divide between muffin cups (about 2/3 full) or pour into the baking dish.",
+        "Bake 20-25 minutes until puffed and set in the center.",
+        "Cool, then refrigerate in an airtight container up to 4 days. Reheat 45-60 seconds in the microwave.",
+        "Serve Austin's portion with toasted bread on the side. Serve Cameron's with sliced avocado on the side."
+      ],
+      "batch_note": "Batch Sunday or Wednesday night for Thu-Sat grab-and-go breakfasts.",
+      "cameron_note": "Half the egg mixture, no toast, avocado on the side instead.",
+      "seasonal_note": "Built around using up banana peppers, cottage cheese, and spinach already on hand.",
+      "history": {
+        "first_used": "2026-09-13",
+        "last_used": "2026-09-13",
+        "times_made": 1,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "mediterranean-quinoa-chickpea-tahini-bowl",
+      "name": "Mediterranean Quinoa, Chicken & Chickpea Tahini Bowl",
+      "cuisine": "Mediterranean",
+      "meal_type": "lunch",
+      "prep": "15 min",
+      "cook": "20 min",
+      "total": "35 min",
+      "spice_level": "Mild",
+      "serving_note": "Batch Sunday for Sun-Wed lunches. Uses quinoa, garbanzo beans, tahini, and spinach on hand, plus batch-cooked chicken.",
+      "tags": [
+        "batch-friendly",
+        "pantry-priority",
+        "fall-2026"
+      ],
+      "equipment": "Rice cooker or pot for quinoa, grill pan or skillet",
+      "macro_strings": {
+        "austin": "690 cal | 57g P | 22g F | 68g C",
+        "cameron": "380 cal | 33g P | 14g F | 36g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 690,
+          "p": 57,
+          "f": 22,
+          "c": 68
+        },
+        "cameron": {
+          "cal": 380,
+          "p": 33,
+          "f": 14,
+          "c": 36
+        }
+      },
+      "ingredients": [
+        {
+          "name": "White quinoa (on hand), cooked",
+          "qty": "3 cups total"
+        },
+        {
+          "name": "Boneless skinless chicken thighs, grilled or pan-seared and sliced",
+          "qty": "1.5 lb (batch with Wednesday's smoker chicken)"
+        },
+        {
+          "name": "Garbanzo beans, drained and rinsed",
+          "qty": "1 can"
+        },
+        {
+          "name": "Baby spinach",
+          "qty": "2 cups, chopped"
+        },
+        {
+          "name": "Bell pepper, diced",
+          "qty": "1"
+        },
+        {
+          "name": "Tahini",
+          "qty": "1/4 cup"
+        },
+        {
+          "name": "Lemon juice",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Water (to thin tahini)",
+          "qty": "2-3 tbsp"
+        },
+        {
+          "name": "Garlic, minced",
+          "qty": "1 clove"
+        },
+        {
+          "name": "Salt",
+          "qty": "to taste"
+        },
+        {
+          "name": "Hard-boiled eggs",
+          "qty": "4 (for Austin's portions)"
+        }
+      ],
+      "instructions": [
+        "Cook quinoa according to package directions.",
+        "Season and grill or pan-sear the chicken thighs until internal temp hits 165F. Rest, then slice.",
+        "Whisk tahini, lemon juice, water, garlic, and a pinch of salt into a pourable dressing.",
+        "Hard-boil the eggs (Austin's portions only): 9-10 minutes at a simmer, then ice bath and peel.",
+        "Build bowls: quinoa on the bottom, chicken, garbanzo beans, spinach, and bell pepper on top. Drizzle with tahini dressing. Add a halved hard-boiled egg to Austin's bowls.",
+        "For Cameron: smaller quinoa and chicken portions, less tahini dressing, no egg -- add a few slices of avocado instead."
+      ],
+      "batch_note": "Batch Sunday for Sun-Wed lunches. Cook extra chicken thighs alongside the batch for Wednesday's smoker dinner (pan-sear or grill this portion since the smoker isn't fired up until Wednesday).",
+      "cameron_note": "Smaller portions across the board, tahini dressing on the light side, avocado instead of the egg.",
+      "seasonal_note": "Built around using up quinoa, garbanzo beans, tahini, and spinach already on hand.",
+      "history": {
+        "first_used": "2026-09-13",
+        "last_used": "2026-09-13",
+        "times_made": 1,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
     }
   ]
 }
