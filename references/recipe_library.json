@@ -3480,8 +3480,8 @@
       "retired": false
     },
     {
-      "id": "strawberry-mango-smoothie-bowl",
-      "name": "Strawberry Mango Protein Smoothie Bowl",
+      "id": "strawberry-banana-smoothie-bowl",
+      "name": "Strawberry Banana Protein Smoothie Bowl",
       "cuisine": "American / Spring",
       "meal_type": "breakfast",
       "prep": "5 min (batch 4 bases Saturday night, freeze)",
@@ -3494,25 +3494,26 @@
         "grab-and-go",
         "spring",
         "no-cook",
-        "smoothie"
+        "smoothie",
+        "no-mango-peach-melon"
       ],
       "equipment": "High-powered blender, 4 freezer-safe meal prep containers",
       "macro_strings": {
-        "austin": "520 cal | 42g P | 11g F | 56g C",
-        "cameron": "415 cal | 31g P | 8g F | 47g C"
+        "austin": "510 cal | 42g P | 11g F | 52g C",
+        "cameron": "405 cal | 31g P | 8g F | 43g C"
       },
       "macros": {
         "austin": {
-          "cal": 520,
+          "cal": 510,
           "p": 42,
           "f": 11,
-          "c": 56
+          "c": 52
         },
         "cameron": {
-          "cal": 415,
+          "cal": 405,
           "p": 31,
           "f": 8,
-          "c": 47
+          "c": 43
         }
       },
       "ingredients": [
@@ -3521,8 +3522,12 @@
           "qty": null
         },
         {
-          "name": "Frozen mango chunks",
-          "qty": "1 cup (150g)"
+          "name": "Ripe banana, sliced and frozen",
+          "qty": "1 medium (120g)"
+        },
+        {
+          "name": "Frozen strawberries",
+          "qty": "1/2 cup (75g), extra"
         },
         {
           "name": "Frozen strawberries",
@@ -3561,8 +3566,12 @@
           "qty": null
         },
         {
-          "name": "Frozen mango chunks",
-          "qty": "3/4 cup (110g)"
+          "name": "Ripe banana, sliced and frozen",
+          "qty": "3/4 medium (90g)"
+        },
+        {
+          "name": "Frozen strawberries",
+          "qty": "1/3 cup (50g), extra"
         },
         {
           "name": "Frozen strawberries",
@@ -3594,7 +3603,7 @@
         }
       ],
       "instructions": [
-        "SATURDAY BATCH: Blend each serving base separately (or in 2 batches of 2). Combine frozen mango + frozen strawberries + Greek yogurt + protein powder + almond milk. Blend on high until completely smooth and very thick \u2014 much thicker than a drinkable smoothie. It should hold a spoon upright.",
+        "SATURDAY BATCH: Blend each serving base separately (or in 2 batches of 2). Combine frozen banana + frozen strawberries + Greek yogurt + protein powder + almond milk. Blend on high until completely smooth and very thick \u2014 much thicker than a drinkable smoothie. It should hold a spoon upright.",
         "Pour into individual meal prep containers. Cover tightly and freeze overnight.",
         "MORNING-OF: Pull container from freezer 15\u201320 minutes before eating. It should be the consistency of soft-serve or thick sorbet.",
         "Top Austin's bowl with granola + fresh strawberry slices + 1 tbsp almond butter.",
@@ -3602,8 +3611,8 @@
         "Eat immediately \u2014 do not refreeze once thawed."
       ],
       "batch_note": "Blend 4 bases Saturday night, freeze in containers. Pull each one out 15-20 min before eating. Add toppings fresh morning-of.",
-      "cameron_note": "Cameron skips almond butter \u2014 uses coconut flakes instead. Lighter on the mango if preferred.",
-      "seasonal_note": "Strawberries are at peak in late May Pittsburgh. Use fresh for toppings, frozen for the base blend.",
+      "cameron_note": "Cameron skips almond butter -- uses coconut flakes instead. Lighter on the banana if preferred.",
+      "seasonal_note": "Strawberries are at peak in late May Pittsburgh, but frozen strawberries and bananas work year-round. Use fresh strawberries for toppings, frozen for the base blend.",
       "history": {
         "first_used": "2026-05-11",
         "last_used": "2026-05-11",
@@ -3615,7 +3624,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "allergy_note": "Swapped from mango to banana + extra strawberries (2026-09) -- Austin can't really eat mango, peach, or melon (not a severe allergy, just avoid)."
     },
     {
       "id": "egg-white-veggie-frittata-cups",

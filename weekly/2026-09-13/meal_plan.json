@@ -27,20 +27,20 @@
       "day": "Sunday",
       "cuisine": "Japanese / Asian (Soup of the Week)",
       "breakfast": {
-        "recipe_id": "strawberry-mango-smoothie-bowl",
+        "recipe_id": "strawberry-banana-smoothie-bowl",
         "austin": {
-          "cal": 520,
+          "cal": 510,
           "p": 42,
           "f": 11,
-          "c": 56
+          "c": 52
         },
         "cameron": {
-          "cal": 260,
+          "cal": 255,
           "p": 24,
           "f": 6,
-          "c": 28
+          "c": 26
         },
-        "cameron_note": "Lighter portion this week than the library default (415 cal) -- scaled down to fit her 250-300 cal breakfast target. Half base, less protein powder, no almond butter."
+        "cameron_note": "Lighter portion this week than the library default (405 cal) -- scaled down to fit her 250-300 cal breakfast target. Half base, less protein powder, no almond butter. Banana + extra strawberries instead of mango (Austin can't really eat mango/peach/melon)."
       },
       "lunch": {
         "recipe_id": "mediterranean-quinoa-chickpea-tahini-bowl",
@@ -75,11 +75,11 @@
         "cameron_note": "Smaller noodle portion, smaller shrimp topper, avocado on the side."
       },
       "austin_total": {
-        "cal": 1960,
+        "cal": 1950,
         "p": 161
       },
       "cameron_total": {
-        "cal": 1120,
+        "cal": 1115,
         "p": 93
       }
     },
@@ -87,20 +87,20 @@
       "day": "Monday",
       "cuisine": "Italian",
       "breakfast": {
-        "recipe_id": "strawberry-mango-smoothie-bowl",
+        "recipe_id": "strawberry-banana-smoothie-bowl",
         "austin": {
-          "cal": 520,
+          "cal": 510,
           "p": 42,
           "f": 11,
-          "c": 56
+          "c": 52
         },
         "cameron": {
-          "cal": 260,
+          "cal": 255,
           "p": 24,
           "f": 6,
-          "c": 28
+          "c": 26
         },
-        "cameron_note": "Lighter portion this week than the library default (415 cal) -- scaled down to fit her 250-300 cal breakfast target. Half base, less protein powder, no almond butter."
+        "cameron_note": "Lighter portion this week than the library default (405 cal) -- scaled down to fit her 250-300 cal breakfast target. Half base, less protein powder, no almond butter. Banana + extra strawberries instead of mango (Austin can't really eat mango/peach/melon)."
       },
       "lunch": {
         "recipe_id": "mediterranean-quinoa-chickpea-tahini-bowl",
@@ -135,11 +135,11 @@
         "cameron_note": "Smaller fillet, lighter on the beans and butter, one slice of focaccia, avocado on the side."
       },
       "austin_total": {
-        "cal": 1970,
+        "cal": 1960,
         "p": 160
       },
       "cameron_total": {
-        "cal": 1130,
+        "cal": 1125,
         "p": 94
       }
     },
@@ -147,20 +147,20 @@
       "day": "Tuesday",
       "cuisine": "Mediterranean",
       "breakfast": {
-        "recipe_id": "strawberry-mango-smoothie-bowl",
+        "recipe_id": "strawberry-banana-smoothie-bowl",
         "austin": {
-          "cal": 520,
+          "cal": 510,
           "p": 42,
           "f": 11,
-          "c": 56
+          "c": 52
         },
         "cameron": {
-          "cal": 260,
+          "cal": 255,
           "p": 24,
           "f": 6,
-          "c": 28
+          "c": 26
         },
-        "cameron_note": "Lighter portion this week than the library default (415 cal) -- scaled down to fit her 250-300 cal breakfast target. Half base, less protein powder, no almond butter."
+        "cameron_note": "Lighter portion this week than the library default (405 cal) -- scaled down to fit her 250-300 cal breakfast target. Half base, less protein powder, no almond butter. Banana + extra strawberries instead of mango (Austin can't really eat mango/peach/melon)."
       },
       "lunch": {
         "recipe_id": "mediterranean-quinoa-chickpea-tahini-bowl",
@@ -195,11 +195,11 @@
         "cameron_note": "Scaled down from the library default (565 cal) to fit her 450-500 cal dinner target -- smaller tilapia portion and less couscous."
       },
       "austin_total": {
-        "cal": 1855,
+        "cal": 1845,
         "p": 159
       },
       "cameron_total": {
-        "cal": 1100,
+        "cal": 1095,
         "p": 92
       }
     },
@@ -207,20 +207,20 @@
       "day": "Wednesday",
       "cuisine": "American BBQ",
       "breakfast": {
-        "recipe_id": "strawberry-mango-smoothie-bowl",
+        "recipe_id": "strawberry-banana-smoothie-bowl",
         "austin": {
-          "cal": 520,
+          "cal": 510,
           "p": 42,
           "f": 11,
-          "c": 56
+          "c": 52
         },
         "cameron": {
-          "cal": 260,
+          "cal": 255,
           "p": 24,
           "f": 6,
-          "c": 28
+          "c": 26
         },
-        "cameron_note": "Lighter portion this week than the library default (415 cal) -- scaled down to fit her 250-300 cal breakfast target. Half base, less protein powder, no almond butter."
+        "cameron_note": "Lighter portion this week than the library default (405 cal) -- scaled down to fit her 250-300 cal breakfast target. Half base, less protein powder, no almond butter. Banana + extra strawberries instead of mango (Austin can't really eat mango/peach/melon)."
       },
       "lunch": {
         "recipe_id": "mediterranean-quinoa-chickpea-tahini-bowl",
@@ -255,11 +255,11 @@
         "cameron_note": "Smaller chicken and quinoa portions, extra charred peppers, avocado-lime crema on the side."
       },
       "austin_total": {
-        "cal": 1950,
+        "cal": 1940,
         "p": 163
       },
       "cameron_total": {
-        "cal": 1110,
+        "cal": 1105,
         "p": 95
       }
     },
@@ -490,6 +490,7 @@
   "new_this_week": {
     "focaccia_added": "Rosemary Focaccia added to the recipe library as a standalone bread/component recipe (from Restaurant Dropout Week 130). Bake Sunday, use through the week.",
     "soup_of_the_week": "Caramelized Spring Onion Ramen is the debut entry in a new recurring Soup of the Week feature for fall/winter 2026. Plan on featuring a rotating soup dinner most weeks -- swap in a new one each week once this rotation is running.",
-    "cameron_macro_adjustments": "Cameron's smoothie bowl, Moroccan tilapia, and lamb keftedes portions were scaled down this week from their stored recipe-library defaults (which were sized closer to a 1500 cal/day target) to match her actual 1100-1200 cal/day Household Health target. Worth updating those three library entries with a proper 'Cameron -- lighter portion' variant so future weeks don't have to re-derive this."
+    "cameron_macro_adjustments": "Cameron's smoothie bowl, Moroccan tilapia, and lamb keftedes portions were scaled down this week from their stored recipe-library defaults (which were sized closer to a 1500 cal/day target) to match her actual 1100-1200 cal/day Household Health target. Worth updating those three library entries with a proper 'Cameron -- lighter portion' variant so future weeks don't have to re-derive this.",
+    "allergy_update": "Austin flagged (2026-09-12) that he can't really eat mango, peach, or melon (not a severe allergy, just avoid). The smoothie bowl was renamed to Strawberry Banana Protein Smoothie Bowl and swapped mango for banana + extra strawberries. This is now recorded in user_profile.md and CLAUDE.md as a standing constraint alongside his avocado allergy -- 5 older recipes in the library (peach BBQ sauce, several Restaurant Dropout Week 112 pork/chicken dishes, and a watermelon salad) still contain peach or watermelon and should be reviewed/adapted before they're reused."
   }
 }

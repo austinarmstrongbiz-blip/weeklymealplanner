@@ -140,6 +140,7 @@ ABOVE_KITCH_URL: https://weeklymealplanner-9w3b.onrender.com
 - Dinner: 700–800 cal / 60–65g P
 - Daily target: ~1900–2100 cal, 150g+ protein
 - NO avocados (allergy)
+- Can't really eat mango, peach, or melon (cantaloupe/honeydew/watermelon) -- not a severe allergy, just avoid as ingredients (added 2026-09-12)
 - High heat/spice preferred
 
 **Cameron** — 1100–1200 cal/day, 90–100g protein
@@ -240,3 +241,4 @@ find later. Pause the feature going into spring/summer unless Austin says to kee
 - Cameron always gets avocado where applicable
 - AnyList and Amazon WF not yet configured → skip those steps, print grocery list in chat
 - Cameron's real macro target is 1100-1200 cal/day (not the higher figure used in some older recipe-library entries) — double-check her portion against this before reusing an older recipe as-is; scale her serving down if the stored default runs hot
+- Austin can't really eat mango, peach, or melon (added 2026-09-12) — 5 older library recipes still contain peach or watermelon and haven't been reviewed yet: `peach-barbecue-sauce`, `barbecue-pulled-pork-rd112`, `pulled-pork-grain-bowls-rd112`, `bbq-pork-tacos-apple-cider-slaw-rd112`, `bbq-chicken-salad-sesame-croutons-rd112`, and `watermelon-arugula-grilled-chicken-salad`. Adapt or retire these before reusing them in a future week.

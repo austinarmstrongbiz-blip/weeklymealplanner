@@ -42,7 +42,7 @@ household health/
 
 | Person | Goal | Cal/day | Protein | Notes |
 |--------|------|---------|---------|-------|
-| **Austin** | Cutting | 1800–2100 | 150g min | No avocados (allergy). High heat/spice. Can eat simple fuel. |
+| **Austin** | Cutting | 1800–2100 | 150g min | No avocados (allergy). Can't really eat mango, peach, or melon (not severe, just avoid). High heat/spice. Can eat simple fuel. |
 | **Cameron** | Maintaining | 1100–1200 | 90–100g | Loves avocados. Needs strong flavor + sauce. Spice: mild-medium, building tolerance. |
 
 ### Austin — Per-Meal Targets
@@ -67,6 +67,7 @@ household health/
 
 ### Key Constraints
 - **Austin: NO avocado.** He has an allergy. Never add it to his meals.
+- **Austin: no mango, peach, or melon** (cantaloupe/honeydew/watermelon). Not a severe allergy, but he can't really eat them — avoid as ingredients in his meals. (Added 2026-09-12.)
 - **Cameron: Always avocado** where it fits — in her meals, never his.
 - Different portions/variants for every meal — they don't eat identical plates.
 
