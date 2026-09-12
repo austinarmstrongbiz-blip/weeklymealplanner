@@ -1,0 +1,219 @@
+{
+  "week_date": "2026-09-13",
+  "week_start": "September 13",
+  "week_end": "September 19, 2026",
+  "categories": {
+    "Produce": [
+      {
+        "name": "Bananas",
+        "qty": "2, ripe (to slice and freeze)",
+        "for": "Strawberry Banana Smoothie Bowl -- swapped for mango, Austin can't really eat mango/peach/melon"
+      },
+      {
+        "name": "Spring onions",
+        "qty": "4 bunches (13 oz)",
+        "for": "Caramelized spring onion ramen"
+      },
+      {
+        "name": "Fresh ginger",
+        "qty": "1 knob",
+        "for": "Ramen broth"
+      },
+      {
+        "name": "Baby bok choy",
+        "qty": "1",
+        "for": "Ramen"
+      },
+      {
+        "name": "Carrot",
+        "qty": "1",
+        "for": "Ramen"
+      },
+      {
+        "name": "Snow peas",
+        "qty": "1 cup",
+        "for": "Ramen"
+      },
+      {
+        "name": "Cilantro",
+        "qty": "2 bunches",
+        "for": "Ramen, smoked chicken bowls"
+      },
+      {
+        "name": "Limes",
+        "qty": "3",
+        "for": "Smoked chicken bowls, ramen, crema"
+      },
+      {
+        "name": "Lemon",
+        "qty": "2",
+        "for": "Tahini dressing, salmon beans, focaccia sandwich"
+      },
+      {
+        "name": "Garlic",
+        "qty": "1 head",
+        "for": "Ramen, salmon beans, pasta salad marinade, tahini dressing"
+      },
+      {
+        "name": "Yellow onion",
+        "qty": "1 (check stock first -- may already be on hand)",
+        "for": "Pesto salmon beans"
+      },
+      {
+        "name": "Cherry or grape tomatoes",
+        "qty": "2 pints",
+        "for": "Pesto salmon beans, pasta salad, focaccia sandwich"
+      },
+      {
+        "name": "Fresh basil",
+        "qty": "1 bunch",
+        "for": "Salmon garnish, pasta salad, focaccia sandwich"
+      },
+      {
+        "name": "Avocados",
+        "qty": "6",
+        "for": "CAMERON ONLY -- ramen, salmon dinner, smoked chicken bowls, lunch bowls, egg bake, focaccia sandwich. Austin is allergic."
+      },
+      {
+        "name": "ON HAND -- do not buy",
+        "qty": "3 bell peppers, 12 oz banana peppers, baby spinach (a lot), half loaf Italian bread, sourdough toast",
+        "for": "Confirmed in this week's stock check"
+      }
+    ],
+    "Proteins": [
+      {
+        "name": "Boneless skinless chicken thighs",
+        "qty": "4-4.5 lb",
+        "for": "Mediterranean lunch bowls (Sun-Wed) + smoked chicken quinoa bowls (Wed) -- batch together"
+      },
+      {
+        "name": "Boneless skinless chicken breast",
+        "qty": "2.5 lb",
+        "for": "Balsamic chicken skewers (pasta salad lunch, Thu-Sat) + pesto chicken focaccia sandwich (Sat dinner)"
+      },
+      {
+        "name": "Ground lamb",
+        "qty": "1 lb",
+        "for": "Lamb keftedes (Friday dinner)"
+      },
+      {
+        "name": "Shrimp",
+        "qty": "8 oz extra",
+        "for": "Buffer on top of the 16 oz on hand -- split across ramen toppers (Sun) and Thai basil shrimp (Thu)"
+      },
+      {
+        "name": "Large eggs",
+        "qty": "1 dozen",
+        "for": "On top of the 6 on hand -- ramen soft-boiled eggs, egg bake, hard-boiled eggs for lunch bowls"
+      },
+      {
+        "name": "ON HAND -- do not buy",
+        "qty": "16 oz shrimp, 2 lb tilapia, 2 salmon fillets",
+        "for": "All from freezer stock"
+      }
+    ],
+    "Dairy & Eggs": [
+      {
+        "name": "Greek yogurt, plain nonfat",
+        "qty": "32 oz tub",
+        "for": "Smoothie bowls, avocado-lime crema"
+      },
+      {
+        "name": "Vanilla protein powder",
+        "qty": "check stock, buy if low",
+        "for": "Smoothie bowls"
+      },
+      {
+        "name": "Unsweetened almond milk",
+        "qty": "1 small carton",
+        "for": "Smoothie bowls"
+      },
+      {
+        "name": "Feta, crumbled",
+        "qty": "6 oz",
+        "for": "Pasta salad lunch"
+      },
+      {
+        "name": "Parmesan, fresh block or shaved",
+        "qty": "4 oz",
+        "for": "Salmon dinner, pasta salad, focaccia sandwich"
+      },
+      {
+        "name": "ON HAND -- do not buy",
+        "qty": "Low-fat cottage cheese, sour cream, sharp cheddar, 6 eggs, miso paste",
+        "for": "Confirmed in this week's stock check"
+      }
+    ],
+    "Grains & Dry Goods": [
+      {
+        "name": "All-purpose flour",
+        "qty": "5 cups (small bag)",
+        "for": "Rosemary focaccia"
+      },
+      {
+        "name": "Active dry yeast",
+        "qty": "1 packet",
+        "for": "Rosemary focaccia"
+      },
+      {
+        "name": "Pasta shells or similar (8 oz)",
+        "qty": "1 box, if not using ditalini on hand",
+        "for": "Basil white bean pasta salad -- can substitute the ditalini or other pasta already on hand instead"
+      },
+      {
+        "name": "ON HAND -- do not buy",
+        "qty": "White quinoa, ditalini, star pastina, pearl couscous, arborio rice, brown rice, white rice, sushi rice, ramen noodles (basement)",
+        "for": "Confirmed in this week's stock check"
+      }
+    ],
+    "Canned & Jarred": [
+      {
+        "name": "Cannellini beans",
+        "qty": "2 more cans",
+        "for": "You have 1 -- pesto salmon dinner and pasta salad lunch both use it"
+      },
+      {
+        "name": "Garbanzo beans",
+        "qty": "1 more can",
+        "for": "You have 1 -- Mediterranean lunch bowls and lamb keftedes both use it"
+      },
+      {
+        "name": "Vegetable broth",
+        "qty": "4 cups (1 carton)",
+        "for": "Ramen"
+      },
+      {
+        "name": "Chili-garlic sauce",
+        "qty": "1 small jar",
+        "for": "Ramen (sub sriracha if you'd rather skip the purchase)"
+      },
+      {
+        "name": "ON HAND -- do not buy",
+        "qty": "2 cans black beans, 1 can green beans, tahini, rosso pesto, Italian pasta sauce",
+        "for": "Confirmed in this week's stock check -- not used this week except tahini and pesto"
+      }
+    ],
+    "Pantry / Other": [
+      {
+        "name": "Dried rosemary",
+        "qty": "check stock, buy if low",
+        "for": "Focaccia + balsamic marinade"
+      },
+      {
+        "name": "Granulated sugar",
+        "qty": "check stock, likely already have",
+        "for": "Focaccia"
+      },
+      {
+        "name": "Turmeric, ground",
+        "qty": "check stock, buy if needed",
+        "for": "Ramen"
+      },
+      {
+        "name": "Nothing else needed",
+        "qty": "-",
+        "for": "Olive oil, tamari/soy sauce, rice vinegar, sesame oil, balsamic vinegar, brown sugar, smoked paprika, garlic/onion powder, salt, pepper, chicken bouillon all stocked"
+      }
+    ]
+  }
+}

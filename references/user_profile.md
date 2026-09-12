@@ -140,6 +140,7 @@ ABOVE_KITCH_URL: https://weeklymealplanner-9w3b.onrender.com
 - Dinner: 700–800 cal / 60–65g P
 - Daily target: ~1900–2100 cal, 150g+ protein
 - NO avocados (allergy)
+- Can't really eat mango, peach, or melon (cantaloupe/honeydew/watermelon) -- not a severe allergy, just avoid as ingredients (added 2026-09-12)
 - High heat/spice preferred
 
 **Cameron** — 1100–1200 cal/day, 90–100g protein
@@ -181,17 +182,20 @@ ABOVE_KITCH_URL: https://weeklymealplanner-9w3b.onrender.com
 
 ---
 
-## On-Hand Inventory — logged 2026-08-09
+## On-Hand Inventory — logged 2026-09-12
 
-Austin's stock check before the Aug 10 haul. Plan around these before adding anything to the grocery list.
+Austin's stock check before the Sept 13 week. Plan around these before adding anything to the grocery list.
 
-**Proteins:** 5 salmon fillets · 2 lb tilapia · 16 oz frozen shrimp · 1.5 lb 93/7 ground beef
-**Grains & dry:** rolled oats · protein oats · brown rice · white quinoa · pearl couscous · white couscous · arborio rice · ramen · croutons · many corn tortillas
-**Canned:** baked beans · 1 can black beans · 1 can sweet peas
-**Produce:** 4 yellow onions · 5 red onions
-**Bread:** 8 hamburger buns · 3 Hawaiian brioche buns
+**Bread:** half loaf Italian bread · a couple pieces sourdough toast
+**Breakfast:** granola · chia seeds · Kodiak protein oats
+**Grains & dry:** white quinoa (16 oz) · star pastina · ditalini pasta · arborio rice · pearl couscous · brown rice · white rice · sushi rice · 2 other bags assorted pasta
+**Canned/jarred:** 2 cans black beans · 1 can cannellini beans · 1 can green beans · 1 can garbanzo beans · homemade Italian hot pasta sauce · 16 oz tahini · 7 oz rosso pesto
+**Tortillas:** corn tortillas on hand (steering away from Mexican this week to use up other items first)
+**Freezer:** 16 oz shrimp · 2 lb tilapia · 2 salmon fillets · 16 oz three-pepper blend · frozen berries/strawberries
+**Fridge:** miso paste · sour cream · low-fat cottage cheese · 3 bell peppers · 12 oz banana peppers · a lot of baby spinach · sharp cheddar cheese · 6 eggs
+**Basement:** ramen noodles
 
-Note: corn tortillas and brown rice are normally NOT staples but are stocked right now.
+Note: corn tortillas, star pastina, and ditalini are normally NOT staples but are stocked right now.
 Re-ask Austin for a stock check before each week's plan — his inventory swings.
 
 ---
@@ -212,12 +216,29 @@ If the folder is empty or stale, say so in chat and fall back to seasonal contex
 
 ---
 
+## Soup of the Week (started 2026-09-13)
+
+```
+SOUP_OF_THE_WEEK: ACTIVE — recurring feature for fall/winter 2026
+STARTED: Week of 2026-09-13, debut recipe: Caramelized Spring Onion Ramen
+CADENCE: One soup dinner (or lunch, if it fits the week better) most weeks through fall/winter
+```
+
+Starting the week of Sept 13, 2026, each week's plan should try to feature one soup —
+rotate in a new one, or repeat a favorite once the rotation has a few entries. Tag new
+soup recipes added to recipe_library.json with `"soup-of-the-week"` so they're easy to
+find later. Pause the feature going into spring/summer unless Austin says to keep it going.
+
+---
+
 ## Skill Behavior Notes
 
-- No Substacks yet → rely on seasonal context + cuisine rotation for inspiration
+- No Substacks yet on RSS → rely on Austin's PDF drops (references/substacks/) when present, otherwise seasonal context + cuisine rotation
 - No dinner subscription → plan ALL 7 dinners
 - Smoker is available and Austin is craving it → include at least 1 smoker recipe per week
-- Spring vibes + light salads → at least 2 lighter/salad-forward meals
+- Fall 2026 → Soup of the Week is active (see above) — feature one soup most weeks
 - No cabbage → avoid as a primary ingredient
 - Cameron always gets avocado where applicable
 - AnyList and Amazon WF not yet configured → skip those steps, print grocery list in chat
+- Cameron's real macro target is 1100-1200 cal/day (not the higher figure used in some older recipe-library entries) — double-check her portion against this before reusing an older recipe as-is; scale her serving down if the stored default runs hot
+- Austin can't really eat mango, peach, or melon (added 2026-09-12) — 5 older library recipes still contain peach or watermelon and haven't been reviewed yet: `peach-barbecue-sauce`, `barbecue-pulled-pork-rd112`, `pulled-pork-grain-bowls-rd112`, `bbq-pork-tacos-apple-cider-slaw-rd112`, `bbq-chicken-salad-sesame-croutons-rd112`, and `watermelon-arugula-grilled-chicken-salad`. Adapt or retire these before reusing them in a future week.

@@ -1,0 +1,496 @@
+{
+  "week_date": "2026-09-13",
+  "week_start": "September 13",
+  "week_end": "September 19, 2026",
+  "season": "Early Fall -- Pittsburgh",
+  "city": "Pittsburgh, PA",
+  "source": "Built from Austin's pantry stock check + Restaurant Dropout Week 130 (9.11.2026, 'Officially Back to School') + a photographed Caramelized Spring Onion Ramen recipe card, kicking off the new weekly Soup of the Week feature.",
+  "seasonal_heroes": [
+    "Spring onions / scallions",
+    "Bell peppers",
+    "Cherry tomatoes",
+    "Baby spinach",
+    "Fresh basil"
+  ],
+  "cuisine_rotation": [
+    "Japanese / Asian (Soup of the Week)",
+    "Italian",
+    "Mediterranean",
+    "American BBQ",
+    "Thai",
+    "Greek",
+    "Italian"
+  ],
+  "flexible_order": "Soup of the Week (ramen) is fixed to Sunday to kick off the feature. Otherwise dinners can move around if something sounds better on a different night -- just keep the smoker dinner (Wednesday) as its own night since it needs the longest lead time.",
+  "days": [
+    {
+      "day": "Sunday",
+      "cuisine": "Japanese / Asian (Soup of the Week)",
+      "breakfast": {
+        "recipe_id": "strawberry-banana-smoothie-bowl",
+        "austin": {
+          "cal": 510,
+          "p": 42,
+          "f": 11,
+          "c": 52
+        },
+        "cameron": {
+          "cal": 255,
+          "p": 24,
+          "f": 6,
+          "c": 26
+        },
+        "cameron_note": "Lighter portion this week than the library default (405 cal) -- scaled down to fit her 250-300 cal breakfast target. Half base, less protein powder, no almond butter. Banana + extra strawberries instead of mango (Austin can't really eat mango/peach/melon)."
+      },
+      "lunch": {
+        "recipe_id": "mediterranean-quinoa-chickpea-tahini-bowl",
+        "austin": {
+          "cal": 690,
+          "p": 57,
+          "f": 22,
+          "c": 68
+        },
+        "cameron": {
+          "cal": 380,
+          "p": 33,
+          "f": 14,
+          "c": 36
+        },
+        "cameron_note": "Smaller portions, lighter tahini, avocado instead of the egg."
+      },
+      "dinner": {
+        "recipe_id": "caramelized-spring-onion-ramen",
+        "austin": {
+          "cal": 750,
+          "p": 62,
+          "f": 22,
+          "c": 82
+        },
+        "cameron": {
+          "cal": 480,
+          "p": 36,
+          "f": 16,
+          "c": 52
+        },
+        "cameron_note": "Smaller noodle portion, smaller shrimp topper, avocado on the side."
+      },
+      "austin_total": {
+        "cal": 1950,
+        "p": 161
+      },
+      "cameron_total": {
+        "cal": 1115,
+        "p": 93
+      }
+    },
+    {
+      "day": "Monday",
+      "cuisine": "Italian",
+      "breakfast": {
+        "recipe_id": "strawberry-banana-smoothie-bowl",
+        "austin": {
+          "cal": 510,
+          "p": 42,
+          "f": 11,
+          "c": 52
+        },
+        "cameron": {
+          "cal": 255,
+          "p": 24,
+          "f": 6,
+          "c": 26
+        },
+        "cameron_note": "Lighter portion this week than the library default (405 cal) -- scaled down to fit her 250-300 cal breakfast target. Half base, less protein powder, no almond butter. Banana + extra strawberries instead of mango (Austin can't really eat mango/peach/melon)."
+      },
+      "lunch": {
+        "recipe_id": "mediterranean-quinoa-chickpea-tahini-bowl",
+        "austin": {
+          "cal": 690,
+          "p": 57,
+          "f": 22,
+          "c": 68
+        },
+        "cameron": {
+          "cal": 380,
+          "p": 33,
+          "f": 14,
+          "c": 36
+        },
+        "cameron_note": "Smaller portions, lighter tahini, avocado instead of the egg."
+      },
+      "dinner": {
+        "recipe_id": "pesto-butter-salmon-cannellini",
+        "austin": {
+          "cal": 760,
+          "p": 61,
+          "f": 34,
+          "c": 58
+        },
+        "cameron": {
+          "cal": 490,
+          "p": 37,
+          "f": 20,
+          "c": 38
+        },
+        "cameron_note": "Smaller fillet, lighter on the beans and butter, one slice of focaccia, avocado on the side."
+      },
+      "austin_total": {
+        "cal": 1960,
+        "p": 160
+      },
+      "cameron_total": {
+        "cal": 1125,
+        "p": 94
+      }
+    },
+    {
+      "day": "Tuesday",
+      "cuisine": "Mediterranean",
+      "breakfast": {
+        "recipe_id": "strawberry-banana-smoothie-bowl",
+        "austin": {
+          "cal": 510,
+          "p": 42,
+          "f": 11,
+          "c": 52
+        },
+        "cameron": {
+          "cal": 255,
+          "p": 24,
+          "f": 6,
+          "c": 26
+        },
+        "cameron_note": "Lighter portion this week than the library default (405 cal) -- scaled down to fit her 250-300 cal breakfast target. Half base, less protein powder, no almond butter. Banana + extra strawberries instead of mango (Austin can't really eat mango/peach/melon)."
+      },
+      "lunch": {
+        "recipe_id": "mediterranean-quinoa-chickpea-tahini-bowl",
+        "austin": {
+          "cal": 690,
+          "p": 57,
+          "f": 22,
+          "c": 68
+        },
+        "cameron": {
+          "cal": 380,
+          "p": 33,
+          "f": 14,
+          "c": 36
+        },
+        "cameron_note": "Smaller portions, lighter tahini, avocado instead of the egg."
+      },
+      "dinner": {
+        "recipe_id": "moroccan-tilapia-pearl-couscous",
+        "austin": {
+          "cal": 645,
+          "p": 60,
+          "f": 16,
+          "c": 62
+        },
+        "cameron": {
+          "cal": 460,
+          "p": 35,
+          "f": 12,
+          "c": 40
+        },
+        "cameron_note": "Scaled down from the library default (565 cal) to fit her 450-500 cal dinner target -- smaller tilapia portion and less couscous."
+      },
+      "austin_total": {
+        "cal": 1845,
+        "p": 159
+      },
+      "cameron_total": {
+        "cal": 1095,
+        "p": 92
+      }
+    },
+    {
+      "day": "Wednesday",
+      "cuisine": "American BBQ",
+      "breakfast": {
+        "recipe_id": "strawberry-banana-smoothie-bowl",
+        "austin": {
+          "cal": 510,
+          "p": 42,
+          "f": 11,
+          "c": 52
+        },
+        "cameron": {
+          "cal": 255,
+          "p": 24,
+          "f": 6,
+          "c": 26
+        },
+        "cameron_note": "Lighter portion this week than the library default (405 cal) -- scaled down to fit her 250-300 cal breakfast target. Half base, less protein powder, no almond butter. Banana + extra strawberries instead of mango (Austin can't really eat mango/peach/melon)."
+      },
+      "lunch": {
+        "recipe_id": "mediterranean-quinoa-chickpea-tahini-bowl",
+        "austin": {
+          "cal": 690,
+          "p": 57,
+          "f": 22,
+          "c": 68
+        },
+        "cameron": {
+          "cal": 380,
+          "p": 33,
+          "f": 14,
+          "c": 36
+        },
+        "cameron_note": "Smaller portions, lighter tahini, avocado instead of the egg."
+      },
+      "dinner": {
+        "recipe_id": "smoked-three-pepper-chicken-quinoa",
+        "austin": {
+          "cal": 740,
+          "p": 64,
+          "f": 28,
+          "c": 55
+        },
+        "cameron": {
+          "cal": 470,
+          "p": 38,
+          "f": 16,
+          "c": 34
+        },
+        "cameron_note": "Smaller chicken and quinoa portions, extra charred peppers, avocado-lime crema on the side."
+      },
+      "austin_total": {
+        "cal": 1940,
+        "p": 163
+      },
+      "cameron_total": {
+        "cal": 1105,
+        "p": 95
+      }
+    },
+    {
+      "day": "Thursday",
+      "cuisine": "Thai",
+      "breakfast": {
+        "recipe_id": "banana-pepper-cheddar-cottage-cheese-egg-bake",
+        "austin": {
+          "cal": 580,
+          "p": 44,
+          "f": 30,
+          "c": 38
+        },
+        "cameron": {
+          "cal": 275,
+          "p": 23,
+          "f": 15,
+          "c": 14
+        },
+        "cameron_note": "Half the egg mixture, no toast, avocado on the side."
+      },
+      "lunch": {
+        "recipe_id": "basil-white-bean-pasta-chicken-skewers",
+        "austin": {
+          "cal": 660,
+          "p": 58,
+          "f": 24,
+          "c": 55
+        },
+        "cameron": {
+          "cal": 390,
+          "p": 33,
+          "f": 15,
+          "c": 34
+        },
+        "cameron_note": "About 2/3 the chicken and pasta salad portion."
+      },
+      "dinner": {
+        "recipe_id": "blistered-thai-basil-shrimp",
+        "austin": {
+          "cal": 745,
+          "p": 66,
+          "f": 26,
+          "c": 68
+        },
+        "cameron": {
+          "cal": 488,
+          "p": 40,
+          "f": 24,
+          "c": 33
+        }
+      },
+      "austin_total": {
+        "cal": 1985,
+        "p": 168
+      },
+      "cameron_total": {
+        "cal": 1153,
+        "p": 96
+      }
+    },
+    {
+      "day": "Friday",
+      "cuisine": "Greek",
+      "breakfast": {
+        "recipe_id": "banana-pepper-cheddar-cottage-cheese-egg-bake",
+        "austin": {
+          "cal": 580,
+          "p": 44,
+          "f": 30,
+          "c": 38
+        },
+        "cameron": {
+          "cal": 275,
+          "p": 23,
+          "f": 15,
+          "c": 14
+        },
+        "cameron_note": "Half the egg mixture, no toast, avocado on the side."
+      },
+      "lunch": {
+        "recipe_id": "basil-white-bean-pasta-chicken-skewers",
+        "austin": {
+          "cal": 660,
+          "p": 58,
+          "f": 24,
+          "c": 55
+        },
+        "cameron": {
+          "cal": 390,
+          "p": 33,
+          "f": 15,
+          "c": 34
+        },
+        "cameron_note": "About 2/3 the chicken and pasta salad portion."
+      },
+      "dinner": {
+        "recipe_id": "lamb-keftedes-couscous-tahini",
+        "austin": {
+          "cal": 680,
+          "p": 62,
+          "f": 28,
+          "c": 48
+        },
+        "cameron": {
+          "cal": 480,
+          "p": 36,
+          "f": 20,
+          "c": 34
+        },
+        "cameron_note": "Scaled down from the library default (590 cal) to fit her 450-500 cal dinner target -- smaller portion of keftedes and couscous."
+      },
+      "austin_total": {
+        "cal": 1920,
+        "p": 164
+      },
+      "cameron_total": {
+        "cal": 1145,
+        "p": 92
+      }
+    },
+    {
+      "day": "Saturday",
+      "cuisine": "Italian",
+      "breakfast": {
+        "recipe_id": "banana-pepper-cheddar-cottage-cheese-egg-bake",
+        "austin": {
+          "cal": 580,
+          "p": 44,
+          "f": 30,
+          "c": 38
+        },
+        "cameron": {
+          "cal": 275,
+          "p": 23,
+          "f": 15,
+          "c": 14
+        },
+        "cameron_note": "Half the egg mixture, no toast, avocado on the side."
+      },
+      "lunch": {
+        "recipe_id": "basil-white-bean-pasta-chicken-skewers",
+        "austin": {
+          "cal": 660,
+          "p": 58,
+          "f": 24,
+          "c": 55
+        },
+        "cameron": {
+          "cal": 390,
+          "p": 33,
+          "f": 15,
+          "c": 34
+        },
+        "cameron_note": "About 2/3 the chicken and pasta salad portion."
+      },
+      "dinner": {
+        "recipe_id": "pesto-chicken-focaccia-sandwich",
+        "austin": {
+          "cal": 700,
+          "p": 62,
+          "f": 26,
+          "c": 62
+        },
+        "cameron": {
+          "cal": 460,
+          "p": 34,
+          "f": 20,
+          "c": 42
+        },
+        "cameron_note": "Smaller chicken portion, one less slice of focaccia, avocado layered into her sandwich."
+      },
+      "austin_total": {
+        "cal": 1940,
+        "p": 164
+      },
+      "cameron_total": {
+        "cal": 1125,
+        "p": 90
+      }
+    }
+  ],
+  "batch_prep": [
+    {
+      "station": "Sunday -- The Big Bake + Bases (about 45 min active, several hours hands-off)",
+      "tasks": [
+        "Start the Rosemary Focaccia dough first thing -- it needs 4-5 hours of mostly hands-off proofing, so get it going before anything else. Bake it toward the end of your prep block.",
+        "Blend and freeze 4 servings of the Strawberry Mango Smoothie Bowl base (frozen berries + Greek yogurt + protein powder). This covers breakfast Sunday through Wednesday.",
+        "Cook 1.5 cups dry quinoa (3 cups cooked) for the Mediterranean lunch bowls.",
+        "Cook the Mediterranean Quinoa Chicken Chickpea Tahini Bowl lunches for Sun-Wed (4 days): grill or pan-sear the full batch of chicken thighs now (don't smoke it yet -- reserve a portion of raw/cooked thighs for Wednesday's smoker dinner if you'd rather smoke everything fresh Wednesday instead).",
+        "Hard-boil 4 eggs for Austin's lunch bowls.",
+        "Make the tahini dressing and store separately from the bowls."
+      ]
+    },
+    {
+      "station": "Sunday -- Ramen (Soup of the Week, 50 min)",
+      "tasks": [
+        "This is the new weekly Soup of the Week feature -- plan on rotating in a new soup most weeks going forward.",
+        "Caramelize the spring onions, build the broth, and cook the noodles fresh right before serving (noodles get soggy if they sit in the broth).",
+        "Sear the shrimp toppers and soft-boil the eggs just before serving.",
+        "If there's extra soup, store the broth/veg separately from any leftover noodles -- 2 days refrigerated, or freeze the broth up to 2 months."
+      ]
+    },
+    {
+      "station": "Sunday or midweek -- Basil & White Bean Pasta Salad + Chicken Skewers (for Thu-Sat lunches)",
+      "tasks": [
+        "Marinate the chicken for the skewers Sunday (or up to 8 hours ahead), then grill closer to Thursday if you'd rather have it fresher -- the pasta salad itself holds well up to 48 hours.",
+        "Cook the pasta, mix with cannellini beans, pesto, spinach, and cheeses. Refrigerate at least 1 hour before the first lunch."
+      ]
+    },
+    {
+      "station": "Wednesday or midweek -- Egg Bake (for Thu-Sat breakfasts)",
+      "tasks": [
+        "Bake the Banana Pepper Cheddar Cottage Cheese Egg Bake Wednesday night so it's ready to grab Thursday morning."
+      ]
+    },
+    {
+      "station": "Freezer & pantry note",
+      "tasks": [
+        "This week uses both salmon fillets (Monday), about half the tilapia (Tuesday), the full 16 oz three-pepper blend (Wednesday), the ramen noodles from the basement (Sunday), the quinoa, garbanzo beans, tahini, pearl couscous, and cannellini beans on hand.",
+        "Remaining tilapia (about 1 lb) stays in the freezer for a future week.",
+        "Shrimp is split across Sunday's ramen toppers and Thursday's Thai basil shrimp -- buy a little extra (about 8 oz) as a buffer since the exact split is approximate.",
+        "Steered clear of Mexican cuisine and corn tortillas this week per your request -- the tortillas are still in the pantry for next time."
+      ]
+    }
+  ],
+  "new_this_week": {
+    "focaccia_added": "Rosemary Focaccia added to the recipe library as a standalone bread/component recipe (from Restaurant Dropout Week 130). Bake Sunday, use through the week.",
+    "soup_of_the_week": "Caramelized Spring Onion Ramen is the debut entry in a new recurring Soup of the Week feature for fall/winter 2026. Plan on featuring a rotating soup dinner most weeks -- swap in a new one each week once this rotation is running.",
+    "cameron_macro_adjustments": "Cameron's smoothie bowl, Moroccan tilapia, and lamb keftedes portions were scaled down this week from their stored recipe-library defaults (which were sized closer to a 1500 cal/day target) to match her actual 1100-1200 cal/day Household Health target. Worth updating those three library entries with a proper 'Cameron -- lighter portion' variant so future weeks don't have to re-derive this.",
+    "allergy_update": "Austin flagged (2026-09-12) that he can't really eat mango, peach, or melon (not a severe allergy, just avoid). The smoothie bowl was renamed to Strawberry Banana Protein Smoothie Bowl and swapped mango for banana + extra strawberries. This is now recorded in user_profile.md and CLAUDE.md as a standing constraint alongside his avocado allergy -- 5 older recipes in the library (peach BBQ sauce, several Restaurant Dropout Week 112 pork/chicken dishes, and a watermelon salad) still contain peach or watermelon and should be reviewed/adapted before they're reused."
+  }
+}
