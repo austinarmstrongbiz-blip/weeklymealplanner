@@ -25,6 +25,10 @@ archive/
 
 # Large generated PDFs — keep locally, don't push to GitHub
 weekly/**/*.pdf
+Weekly_Meal_Plan_*.pdf
 
 # AnyList text exports — keep locally
 weekly/**/*_AnyList.txt
+
+# Generated grocery list text exports (root-level, from compile_grocery_list.py) — keep locally
+Grocery_List_*.txt
