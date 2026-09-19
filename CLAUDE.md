@@ -7,6 +7,13 @@
 Live app: `https://weeklymealplanner-9w3b.onrender.com`
 Run locally: `python3 scripts/server.py` → `http://localhost:8080/meal-planner.html`
 
+**Nutrition Philosophy (adopted 2026-09-19, from "The Apex Nutrition Protocol"):**
+never skip breakfast — hit protein within ~2 hours of waking; build every meal
+from protein + fat + starchy carb + leafy veg; apply the 90/10 rule (90% whole
+foods, 10% guilt-free flexibility); use `references/travel_fueling_protocols.md`
+for travel/eat-out nights. Full detail in `references/user_profile.md` →
+Nutrition Philosophy.
+
 ---
 
 ## Folder Structure
@@ -20,7 +27,8 @@ household health/
 │   ├── pantry_staples.md       ← Always-stocked items (excluded from grocery lists)
 │   ├── recipe_library.json     ← All recipes (138+). Never delete — set retired:true
 │   ├── meal_history.json       ← Weekly ratings and history
-│   └── intake_schema.md        ← Schema for weekly intake questionnaire JSON
+│   ├── intake_schema.md        ← Schema for weekly intake questionnaire JSON
+│   └── travel_fueling_protocols.md ← Scenario fueling guidance for travel/eat-out nights
 ├── weekly/
 │   └── YYYY-MM-DD/             ← One dir per week
 │       ├── meal_plan.json      ← Full 7-day plan (served by app)
@@ -190,6 +198,8 @@ python3 scripts/import_anylist.py --scrape --local
 8. **Cameron's portions are always smaller** — she's eating 1100-1200/day vs Austin's 1800-2100.
 9. **No avocado for Austin, always avocado for Cameron** where applicable.
 10. **Variety > safety** — push flavor. Don't default to "chicken bowl" when shrimp tacos or lamb kofta works.
+11. **Breakfast protein timing** — never skip breakfast; hit the per-meal breakfast protein target within ~2 hours of waking.
+12. **Travel / eat-out nights** — use `references/travel_fueling_protocols.md` for scenario-specific fueling guidance (airport, Airbnb, hotel-fridge-only, restaurant) instead of defaulting to a blank "eating out" placeholder.
 
 ---
 

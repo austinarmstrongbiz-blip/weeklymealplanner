@@ -231,12 +231,36 @@ find later. Pause the feature going into spring/summer unless Austin says to kee
 
 ---
 
+## Nutrition Philosophy (adopted 2026-09-19)
+
+```
+NUTRITION_PHILOSOPHY: ACTIVE — adopted 2026-09-19 from "The Apex Nutrition
+Protocol" (Jack Krucial)
+```
+
+- Breakfast is never skipped; protein target is hit within ~2 hours of
+  waking (already reflected in Austin's/Cameron's per-meal breakfast
+  targets above).
+- Every meal is built from: a lean protein source, a fat source, a starchy
+  carb (when warranted), and leafy/non-starchy veg — this is already how
+  recipes are macro-balanced; treat it as the explicit construction check
+  when writing new recipes.
+- 90/10 rule: aim for ~90% whole, minimally processed ingredients across
+  the week's recipes; the remaining ~10% (a treat, a dessert out, drinks on
+  vacation) needs no compensation or guilt-tracking elsewhere in the plan.
+- Travel / eating-out nights: see `references/travel_fueling_protocols.md`
+  for scenario-specific fueling guidance instead of defaulting to a blank
+  "eating out" placeholder.
+
+---
+
 ## Skill Behavior Notes
 
 - No Substacks yet on RSS → rely on Austin's PDF drops (references/substacks/) when present, otherwise seasonal context + cuisine rotation
 - No dinner subscription → plan ALL 7 dinners
 - Smoker is available and Austin is craving it → include at least 1 smoker recipe per week
 - Fall 2026 → Soup of the Week is active (see above) — feature one soup most weeks
+- Nutrition Philosophy is active (see above) — never skip breakfast, build every meal on protein+fat+carb+veg, apply the 90/10 rule, and use `references/travel_fueling_protocols.md` for travel/eat-out nights instead of a blank placeholder
 - No cabbage → avoid as a primary ingredient
 - Cameron always gets avocado where applicable
 - AnyList and Amazon WF not yet configured → skip those steps, print grocery list in chat
