@@ -24,7 +24,9 @@ from pathlib import Path
 ROOT = Path(__file__).parent.parent  # Household Health folder
 
 # DATA_ROOT: where mutable JSON/data files live.
-# On Render, set DATA_DIR=/data (persistent disk). Locally defaults to ROOT.
+# On Render (free plan), DATA_DIR=/data is ephemeral: it is recreated and reseeded
+# from the git clone on every cold start. Commit anything worth keeping.
+# Locally defaults to ROOT.
 DATA_ROOT = Path(os.environ.get('DATA_DIR', str(ROOT)))
 
 
