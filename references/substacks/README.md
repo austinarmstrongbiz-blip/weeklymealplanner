@@ -25,9 +25,13 @@ If the folder is empty or the newest PDF is stale, Claude will say so in chat an
 | Week | Post | How it arrived | Used in |
 |---|---|---|---|
 | 125 | 8.7.2026 (Caroline Chambers collab) | Pasted into chat, not saved here | Week of 2026-08-10 |
+| 131 | 9.18.2026 (Fall - Dinners) | PDF uploaded to chat, not committed | In library as `rd-week-131` (5 dinners, 5 components); not yet in a weekly plan |
+| 132 | 9.25.2026 (Fall - Dinners) | PDF uploaded to chat, not committed | In library as `rd-week-132` (5 dinners, 7 components); not yet in a weekly plan |
 
 Week 125 worked fine pasted straight into the conversation. That's an equally good route — dropping the file in this folder just means Claude finds it without you having to attach anything.
 
 ## Cleanup
 
 Delete anything older than about 2 months. Nothing here is load-bearing.
+
+These PDFs are paid content and this repo is public, so the PDFs themselves are not committed. Only the adapted recipes are.
