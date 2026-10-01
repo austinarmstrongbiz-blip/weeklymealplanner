@@ -17075,6 +17075,203 @@
         }
       },
       "retired": false
+    },
+    {
+      "id": "maple-dijon-harvest-chicken-bowl",
+      "name": "Maple Dijon Harvest Chicken Bowl",
+      "cuisine": "American / Fall Harvest",
+      "meal_type": "dinner",
+      "prep": "20 min (+ marinate while prepping sides)",
+      "cook": "45-60 min",
+      "total": "~1 hr 15 min",
+      "spice_level": "None",
+      "serving_note": "5-6 servings \u2014 batch Sunday for weeknight dinners, extra portions double as lunches. Source: @calwillcookit.",
+      "tags": [
+        "batch-friendly",
+        "fall-2026",
+        "harvest",
+        "maple",
+        "highly-rated"
+      ],
+      "equipment": "Grill or grill pan, baking sheet, skillet for Brussels sprouts",
+      "macro_strings": {
+        "austin": "800 cal | 62g P | 42g F | 50g C",
+        "cameron": "480 cal | 35g P | 29g F | 26g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 800,
+          "p": 62,
+          "f": 42,
+          "c": 50
+        },
+        "cameron": {
+          "cal": 480,
+          "p": 35,
+          "f": 29,
+          "c": 26
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Maple Dijon Chicken",
+          "qty": null
+        },
+        {
+          "name": "Boneless skinless chicken thighs",
+          "qty": "~3 lbs"
+        },
+        {
+          "name": "Olive oil",
+          "qty": "3-4 tbsp"
+        },
+        {
+          "name": "Dijon mustard",
+          "qty": "1/4 cup"
+        },
+        {
+          "name": "Maple syrup",
+          "qty": "1/4 cup"
+        },
+        {
+          "name": "Fresh garlic, minced",
+          "qty": "3-4 tbsp"
+        },
+        {
+          "name": "Salt, pepper, onion powder",
+          "qty": "to taste"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "Maple Dijon Vinaigrette",
+          "qty": null
+        },
+        {
+          "name": "Olive oil",
+          "qty": "1/4 cup"
+        },
+        {
+          "name": "Maple syrup",
+          "qty": "2-3 tbsp"
+        },
+        {
+          "name": "Apple cider vinegar",
+          "qty": "2-3 tbsp"
+        },
+        {
+          "name": "Dijon mustard",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Garlic, grated",
+          "qty": "1 clove"
+        },
+        {
+          "name": "Salt, pepper, onion powder",
+          "qty": "to taste"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "Shaved Brussels Sprouts",
+          "qty": null
+        },
+        {
+          "name": "Brussels sprouts, thinly sliced",
+          "qty": "~1.5 lbs"
+        },
+        {
+          "name": "Olive oil",
+          "qty": "to taste"
+        },
+        {
+          "name": "Salt, pepper, garlic powder",
+          "qty": "to taste"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "Roasted Sweet Potatoes",
+          "qty": null
+        },
+        {
+          "name": "Sweet potatoes, diced",
+          "qty": "2 large"
+        },
+        {
+          "name": "Olive oil",
+          "qty": "to taste"
+        },
+        {
+          "name": "Salt, pepper, garlic powder, onion powder, paprika",
+          "qty": "to taste"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "Toppings & Base",
+          "qty": null
+        },
+        {
+          "name": "Mixed greens",
+          "qty": "to taste"
+        },
+        {
+          "name": "Feta, crumbled",
+          "qty": "to taste"
+        },
+        {
+          "name": "Candied pecans, chopped",
+          "qty": "to taste"
+        },
+        {
+          "name": "Honeycrisp apple, diced",
+          "qty": "to taste"
+        },
+        {
+          "name": "Dates, chopped",
+          "qty": "to taste"
+        },
+        {
+          "name": "Chives, chopped",
+          "qty": "to taste"
+        }
+      ],
+      "instructions": [
+        "Mix the chicken with the marinade ingredients (olive oil, Dijon, maple syrup, garlic, salt, pepper, onion powder) and refrigerate while prepping everything else.",
+        "Whisk the vinaigrette ingredients together and set aside.",
+        "Toss diced sweet potatoes with olive oil and seasonings, roast at 400F for 45-60 minutes.",
+        "Saute the sliced Brussels sprouts in olive oil with seasonings until tender and crispy.",
+        "Grill the chicken over medium-high heat, 6-8 minutes per side, until cooked through (internal temp 165F). Rest, then slice.",
+        "Toss the greens with a little vinaigrette, then build bowls: greens, sweet potatoes, Brussels sprouts, sliced chicken.",
+        "Top with feta, candied pecans, diced apple, dates, and chives. Finish with a drizzle of vinaigrette.",
+        "Austin: full portion of chicken (~7 oz), generous sides and toppings, light drizzle of vinaigrette.",
+        "Cameron: smaller portions across chicken and sides, a bit more vinaigrette for flavor, and add avocado slices on the side."
+      ],
+      "batch_note": "Batch Sunday: marinate and grill all the chicken, roast all the sweet potatoes, saute all the Brussels sprouts, and portion into containers for the week. Keep toppings (feta, pecans, apple, dates) separate and add fresh each night so the apple doesn't brown and the pecans stay crunchy.",
+      "cameron_note": "Smaller chicken portion (~4 oz) and smaller sides than Austin's. A bit more vinaigrette since she likes stronger flavor/sauce, and add a few avocado slices on the side \u2014 this recipe doesn't call for avocado, so always add it for her.",
+      "seasonal_note": "Classic Pittsburgh fall harvest bowl \u2014 Brussels sprouts, sweet potato, Honeycrisp apple, and maple all peak in September/October.",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
     }
   ]
 }
