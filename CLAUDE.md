@@ -68,7 +68,7 @@ household health/
 ### Key Constraints
 - **Austin: NO avocado.** He has an allergy. Never add it to his meals.
 - **Austin: no mango, peach, or melon** (cantaloupe/honeydew/watermelon). Not a severe allergy, but he can't really eat them — avoid as ingredients in his meals. (Added 2026-09-12.)
-- **Cameron: Always avocado** where it fits — in her meals, never his.
+- **Cameron: likes avocado** — fine to use in her meals when it fits the dish, but not mandatory every meal. (Removed the "always avocado" rule 2026-10-01 — it was a mistake.)
 - Different portions/variants for every meal — they don't eat identical plates.
 
 ---
@@ -188,7 +188,7 @@ python3 scripts/import_anylist.py --scrape --local
 6. **Restaurant Dropout Substack** — primary recipe inspiration. Austin has premium. Pull weekly menus.
 7. **Protein target non-negotiable** — Austin 150g+, Cameron 90-100g. If a meal falls short, add protein.
 8. **Cameron's portions are always smaller** — she's eating 1100-1200/day vs Austin's 1800-2100.
-9. **No avocado for Austin, always avocado for Cameron** where applicable.
+9. **No avocado for Austin** (allergy, non-negotiable). Avocado for Cameron only when it fits the dish — not required every meal.
 10. **Variety > safety** — push flavor. Don't default to "chicken bowl" when shrimp tacos or lamb kofta works.
 
 ---

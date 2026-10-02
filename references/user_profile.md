@@ -149,7 +149,7 @@ ABOVE_KITCH_URL: https://weeklymealplanner-9w3b.onrender.com
 - Dinner: 450–500 cal / 35–40g P
 - Daily target: ~1100–1200 cal total
 - Cameron's portions are ALWAYS smaller than Austin's — she eats ~40% fewer calories
-- Loves avocados (add to her meals where applicable)
+- Loves avocados (optional — fine to use when it fits the dish, not mandatory every meal)
 - Needs strong flavor + sauce — never bland
 - Spice: mild-medium, building tolerance
 
@@ -238,7 +238,6 @@ find later. Pause the feature going into spring/summer unless Austin says to kee
 - Smoker is available and Austin is craving it → include at least 1 smoker recipe per week
 - Fall 2026 → Soup of the Week is active (see above) — feature one soup most weeks
 - No cabbage → avoid as a primary ingredient
-- Cameron always gets avocado where applicable
 - AnyList and Amazon WF not yet configured → skip those steps, print grocery list in chat
 - Cameron's real macro target is 1100-1200 cal/day (not the higher figure used in some older recipe-library entries) — double-check her portion against this before reusing an older recipe as-is; scale her serving down if the stored default runs hot
 - Austin can't really eat mango, peach, or melon (added 2026-09-12) — 5 older library recipes still contain peach or watermelon and haven't been reviewed yet: `peach-barbecue-sauce`, `barbecue-pulled-pork-rd112`, `pulled-pork-grain-bowls-rd112`, `bbq-pork-tacos-apple-cider-slaw-rd112`, `bbq-chicken-salad-sesame-croutons-rd112`, and `watermelon-arugula-grilled-chicken-salad`. Adapt or retire these before reusing them in a future week.
