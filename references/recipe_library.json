@@ -19524,6 +19524,417 @@
         }
       },
       "retired": false
+    },
+    {
+      "id": "croissant-french-toast-breakfast-sandwich",
+      "name": "Croissant French Toast Breakfast Sandwich",
+      "cuisine": "American / Brunch",
+      "meal_type": "breakfast",
+      "prep": "20 min",
+      "cook": "35 min (flat-top, in batches)",
+      "total": "~55 min",
+      "spice_level": "Mild (maple-sriracha mayo optional)",
+      "serving_note": "12 sandwiches \u2014 scaled for entertaining (~6 people). Halve everything for 6. First planned for friends weekend, Oct 3, 2026.",
+      "tags": [
+        "entertaining",
+        "crowd",
+        "loco-flat-top",
+        "fall-2026",
+        "indulgent",
+        "not-macro-aligned"
+      ],
+      "equipment": "Loco flat-top griddle (two heat zones), burger press, egg rings, 9x13 dish, sheet pan + Breville at 200\u00b0F for holding",
+      "macros": {
+        "austin": {
+          "cal": 1010,
+          "p": 35,
+          "f": 66,
+          "c": 72
+        },
+        "cameron": {
+          "cal": 505,
+          "p": 18,
+          "f": 33,
+          "c": 36
+        }
+      },
+      "ingredients": [
+        {
+          "name": "CROISSANT FRENCH TOAST (12 croissants / 24 halves)",
+          "qty": null
+        },
+        {
+          "name": "Large butter croissants, day-old, split horizontally",
+          "qty": "12 (buy 14)"
+        },
+        {
+          "name": "Large eggs (custard)",
+          "qty": "8"
+        },
+        {
+          "name": "Whole milk",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Heavy cream",
+          "qty": "1/2 cup"
+        },
+        {
+          "name": "Brown sugar (pantry)",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Vanilla extract",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Cinnamon (pantry)",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "Kosher salt (pantry)",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "Butter, for the griddle",
+          "qty": "~6 tbsp"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "FILLINGS (12 sandwiches)",
+          "qty": null
+        },
+        {
+          "name": "Bulk pork breakfast sausage (or 2 lb thick-cut bacon, 2 strips each)",
+          "qty": "2 lb \u2014 12 patties, ~2.5 oz each"
+        },
+        {
+          "name": "Frozen hash brown patties",
+          "qty": "12 (2 x 10-ct boxes)"
+        },
+        {
+          "name": "Large eggs (fried)",
+          "qty": "12"
+        },
+        {
+          "name": "American cheese slices",
+          "qty": "12"
+        },
+        {
+          "name": "Canola / vegetable oil (NOT avocado oil)",
+          "qty": "as needed"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "MAPLE-SRIRACHA MAYO (optional)",
+          "qty": null
+        },
+        {
+          "name": "Mayonnaise",
+          "qty": "1/2 cup"
+        },
+        {
+          "name": "Maple syrup",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Sriracha (pantry)",
+          "qty": "1-2 tbsp"
+        }
+      ],
+      "instructions": [
+        "Set up the flat-top with two zones: medium-high on one side, medium-low (~325-350\u00b0F) on the other. Heat the Breville to 200\u00b0F for holding.",
+        "Whisk the custard (8 eggs, milk, cream, brown sugar, vanilla, cinnamon, salt) in a 9x13 dish. Sugar is kept low on purpose \u2014 these are buns for a savory sandwich.",
+        "Hash browns (medium-high, ~12 min): oil the griddle well, cook 12 frozen patties 5-6 min per side until crisp. Hold in the oven on a rack.",
+        "Sausage (medium-high, ~7 min): divide 2 lb into 12 balls, smash thin with a burger press slightly wider than the croissant. Pepper, cook 3 min per side. Hold in the oven. (Bacon: cook 24 strips.)",
+        "French toast (medium-low): dip each croissant half only 2-3 seconds per side \u2014 croissants soak like sponges and fall apart if soaked. Griddle in butter cut side down ~2 min until deep golden, flip, 1-2 min more. Hold in the oven.",
+        "Eggs (medium, ~3 min): butter the griddle, crack 12 eggs (egg rings keep them bun-sized). When whites are nearly set, top each with American cheese, splash water nearby, dome 30-60 sec to melt.",
+        "Mix the maple-sriracha mayo.",
+        "Build: bottom croissant \u2192 mayo \u2192 hash brown \u2192 sausage \u2192 egg + cheese \u2192 top croissant. Maple syrup on the side."
+      ],
+      "batch_note": "Not a batch-prep recipe \u2014 cook to order for a crowd. Buy croissants the day before and leave them in the bag overnight so they're slightly stale; they hold up better in the custard.",
+      "cameron_note": "Cameron: half a sandwich is roughly a full breakfast for her targets. Go light on the sriracha in her mayo.",
+      "allergy_note": "Austin: no avocado \u2014 don't use avocado oil on the griddle. Use canola or vegetable oil.",
+      "seasonal_note": "Year-round weekend/entertaining breakfast.",
+      "macro_strings": {
+        "austin": "1010 cal | 35g P | 66g F | 72g C",
+        "cameron": "505 cal | 18g P | 33g F | 36g C"
+      },
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "roasted-tomato-basil-soup",
+      "name": "Roasted Tomato Basil Soup (Ina Garten)",
+      "cuisine": "American / Comfort",
+      "meal_type": "lunch",
+      "prep": "20 min",
+      "cook": "~1 hr 45 min (45 min roast, 10 min saut\u00e9, 40 min simmer, blend)",
+      "total": "~2 hr",
+      "spice_level": "Mild",
+      "serving_note": "Double batch: ~12 servings (~1.5 cups each). The single Ina Garten recipe serves 6-8 \u2014 halve all quantities for that. Needs an 8-qt+ pot when doubled.",
+      "tags": [
+        "entertaining",
+        "crowd",
+        "make-ahead",
+        "batch-friendly",
+        "freezer-friendly",
+        "fall-2026",
+        "highly-rated",
+        "vegetarian-option"
+      ],
+      "equipment": "2 sheet pans, oven, 8-qt+ stockpot, blender",
+      "source": "Ina Garten \u2014 Roasted Tomato Basil Soup (Food Network / Barefoot Contessa)",
+      "source_url": "https://www.food.com/recipe/roasted-tomato-basil-soup-ina-garten-101250",
+      "macros": {
+        "austin": {
+          "cal": 250,
+          "p": 5,
+          "f": 17,
+          "c": 19
+        },
+        "cameron": {
+          "cal": 170,
+          "p": 3,
+          "f": 11,
+          "c": 13
+        }
+      },
+      "ingredients": [
+        {
+          "name": "DOUBLE BATCH (~12 servings)",
+          "qty": null
+        },
+        {
+          "name": "Ripe Roma / plum tomatoes, halved lengthwise",
+          "qty": "6 lb"
+        },
+        {
+          "name": "Olive oil (pantry)",
+          "qty": "3/4 cup (1/2 cup roasting, 1/4 cup pot)"
+        },
+        {
+          "name": "Kosher salt (pantry)",
+          "qty": "2 tbsp (on the tomatoes)"
+        },
+        {
+          "name": "Black pepper, fresh ground (pantry)",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Yellow onions, chopped",
+          "qty": "4 cups (~3 large)"
+        },
+        {
+          "name": "Garlic, minced",
+          "qty": "12 cloves"
+        },
+        {
+          "name": "Unsalted butter",
+          "qty": "4 tbsp"
+        },
+        {
+          "name": "Red pepper flakes (pantry)",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "Whole canned plum / San Marzano tomatoes with juice",
+          "qty": "2 x 28 oz cans"
+        },
+        {
+          "name": "Fresh basil leaves, packed",
+          "qty": "8 cups (~6 oz)"
+        },
+        {
+          "name": "Fresh thyme leaves",
+          "qty": "2 tsp"
+        },
+        {
+          "name": "Low-sodium chicken stock (or vegetable stock for vegetarian)",
+          "qty": "2 quarts"
+        },
+        {
+          "name": "Heavy cream (optional)",
+          "qty": "1/2-1 cup"
+        }
+      ],
+      "instructions": [
+        "Heat oven to 400\u00b0F. Toss halved tomatoes with 1/2 cup olive oil, salt, and pepper. Spread cut side up in one layer across 2 sheet pans. Roast 45 min until soft and caramelized at the edges.",
+        "In an 8-qt+ pot over medium heat, cook onions, garlic, 1/4 cup olive oil, butter, and red pepper flakes ~10 min until the onions start to brown.",
+        "Add canned tomatoes, basil, thyme, and stock. Add the roasted tomatoes with all their pan juices, scraping the pans.",
+        "Bring to a boil, then simmer uncovered 40 min.",
+        "Cool ~10 min. Blend in batches: fill the blender no more than half full, remove the center cap, and cover the opening with a folded towel so steam can escape. (Ina uses a food mill for a rustic texture \u2014 blend shorter for chunkier.)",
+        "Return to the pot, taste for salt, and stir in cream if you want it richer. Serve hot."
+      ],
+      "batch_note": "Better the next day \u2014 make it the day before and reheat. Freezes well in quart containers (add any cream after thawing).",
+      "cameron_note": "Cameron: 1-cup serving. Pair with half a grilled cheese, or add a protein side (grilled chicken, white beans) to hit her lunch protein target.",
+      "seasonal_note": "Best in late summer / early fall when Pittsburgh Roma tomatoes are still ripe. Out of season, lean more on good canned San Marzanos.",
+      "macro_strings": {
+        "austin": "250 cal | 5g P | 17g F | 19g C",
+        "cameron": "170 cal | 3g P | 11g F | 13g C"
+      },
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "gruyere-cheddar-grilled-cheese-parmesan-butter",
+      "name": "Gruy\u00e8re-Cheddar Grilled Cheese with Garlic-Herb Parmesan Butter",
+      "cuisine": "American / Comfort",
+      "meal_type": "lunch",
+      "prep": "20 min (shred cheese, make compound butter)",
+      "cook": "~7 min per batch on the flat-top",
+      "total": "~30 min",
+      "spice_level": "None (hot honey optional)",
+      "serving_note": "12 sandwiches \u2014 scaled for entertaining (~6 people with tomato soup). Halve for 6.",
+      "tags": [
+        "entertaining",
+        "crowd",
+        "loco-flat-top",
+        "fall-2026",
+        "indulgent",
+        "not-macro-aligned",
+        "pairs-with-tomato-soup"
+      ],
+      "equipment": "Loco flat-top griddle, dome or sheet pan to cover, box grater, microplane",
+      "macros": {
+        "austin": {
+          "cal": 725,
+          "p": 32,
+          "f": 46,
+          "c": 48
+        },
+        "cameron": {
+          "cal": 365,
+          "p": 16,
+          "f": 23,
+          "c": 24
+        }
+      },
+      "ingredients": [
+        {
+          "name": "GARLIC-HERB PARMESAN COMPOUND BUTTER",
+          "qty": null
+        },
+        {
+          "name": "Butter, softened",
+          "qty": "1 cup (2 sticks)"
+        },
+        {
+          "name": "Parmigiano-Reggiano, finely grated",
+          "qty": "1/2 cup"
+        },
+        {
+          "name": "Garlic, grated on a microplane",
+          "qty": "3 cloves"
+        },
+        {
+          "name": "Fresh chives, minced",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Fresh thyme leaves",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Black pepper + pinch red pepper flakes (pantry)",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "SANDWICHES (12)",
+          "qty": null
+        },
+        {
+          "name": "Sourdough, ~1/2-inch slices",
+          "qty": "24 slices (2 large loaves)"
+        },
+        {
+          "name": "Gruy\u00e8re, shredded",
+          "qty": "12 oz"
+        },
+        {
+          "name": "Sharp white cheddar (aged), shredded",
+          "qty": "12 oz"
+        },
+        {
+          "name": "Fontina, shredded",
+          "qty": "6 oz"
+        },
+        {
+          "name": "Parmigiano-Reggiano, finely grated (crust)",
+          "qty": "~1 cup"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "OPTIONAL ADD-INS",
+          "qty": null
+        },
+        {
+          "name": "Caramelized onions, fig jam, or hot honey (honey + red pepper flakes)",
+          "qty": "to taste"
+        }
+      ],
+      "instructions": [
+        "Mash the compound butter ingredients together with a fork. (Can be made a day ahead \u2014 soften 1 hr before spreading.)",
+        "Shred the Gruy\u00e8re, cheddar, and fontina yourself and toss together \u2014 pre-shredded cheese has anti-caking starch and melts grainy. ~2.5 oz per sandwich.",
+        "Spread compound butter edge to edge on one side of every bread slice.",
+        "Heat the flat-top to medium-low (~300-325\u00b0F). Low heat lets the cheese melt before the bread burns.",
+        "Parm crust: sprinkle ~1 tbsp grated Parm on the griddle per slice and set the bread on it, butter side down \u2014 it fries into a lacy frico crust.",
+        "Pile cheese on half the slices. Once it starts to soften, flip the plain slices on top, butter side up.",
+        "Cover with a dome or sheet pan, 3-4 min until deep golden. Flip, cover, 3 min more until fully melted.",
+        "Rest 1 min, cut diagonally, serve with tomato soup for dunking."
+      ],
+      "batch_note": "Make the compound butter and shred/toss the cheese the day before. Cook to order.",
+      "cameron_note": "Cameron: half a sandwich with a cup of soup. She likes bold flavor \u2014 fig jam or caramelized onion inside works well for her.",
+      "seasonal_note": "Cold-weather comfort food; pairs with Roasted Tomato Basil Soup.",
+      "macro_strings": {
+        "austin": "725 cal | 32g P | 46g F | 48g C",
+        "cameron": "365 cal | 16g P | 23g F | 24g C"
+      },
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
     }
   ]
 }
