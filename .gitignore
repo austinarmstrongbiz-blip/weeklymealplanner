@@ -25,6 +25,7 @@ archive/
 
 # Large generated PDFs — keep locally, don't push to GitHub
 weekly/**/*.pdf
+events/**/*.pdf
 Weekly_Meal_Plan_*.pdf
 
 # AnyList text exports — keep locally
