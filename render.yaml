@@ -1,13 +1,14 @@
+# Free plan: no persistent disk. Render's free filesystem is ephemeral, so
+# /data is recreated and reseeded from this repo (scripts/server.py
+# _init_data_dir) on every cold start. Anything worth keeping must be
+# committed to git, not written through the API alone.
 services:
   - type: web
     name: above-kitch
     runtime: python
+    plan: free
     buildCommand: ""
     startCommand: python3 scripts/server.py
-    disk:
-      name: meal-data
-      mountPath: /data
-      sizeGB: 1
     envVars:
       - key: DATA_DIR
         value: /data
