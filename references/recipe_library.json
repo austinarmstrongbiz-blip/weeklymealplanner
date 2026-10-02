@@ -17077,6 +17077,2258 @@
       "retired": false
     },
     {
+      "id": "curried-chicken-tomato-pan-sauce-rd132",
+      "name": "Curried Chicken with Blistered Tomato Pan Sauce",
+      "cuisine": "Indian",
+      "meal_type": "dinner",
+      "prep": "15 min (plus 10 min rest)",
+      "cook": "30 min",
+      "total": "40 min",
+      "spice_level": "Mild-Medium",
+      "serving_note": "Serves 2 (Austin 2 thighs, Cameron 1). Macros are estimates from standard ingredient values, not lab numbers. Austin's plate assumes you eat the skin.",
+      "tags": [
+        "restaurant-dropout",
+        "rd-week-132",
+        "fall-2026",
+        "sep-2026",
+        "fall-dinners",
+        "dinner",
+        "indian"
+      ],
+      "equipment": "Oven-safe cast-iron skillet, small pot or rice cooker, blender (chutney)",
+      "source": "Adapted from Restaurant Dropout Week 132 (9.25.2026)",
+      "macro_strings": {
+        "austin": "800 cal | 65g P | 41g F | 45g C",
+        "cameron": "485 cal | 36g P | 23g F | 36g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 800,
+          "p": 65,
+          "f": 41,
+          "c": 45
+        },
+        "cameron": {
+          "cal": 485,
+          "p": 36,
+          "f": 23,
+          "c": 36
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Bone-in, skin-on chicken thighs",
+          "qty": "3 (about 1\u00bc lb) \u2014 Austin 2, Cameron 1"
+        },
+        {
+          "name": "Curry Rub (component)",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "\u00be tsp"
+        },
+        {
+          "name": "Olive oil",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Cherry tomatoes",
+          "qty": "9 oz \u2014 Austin 5 oz, Cameron 4 oz"
+        },
+        {
+          "name": "Granulated chicken bouillon (pantry)",
+          "qty": "\u00bd tsp"
+        },
+        {
+          "name": "Chicken stock",
+          "qty": "\u00bd cup"
+        },
+        {
+          "name": "Salted butter",
+          "qty": "2\u00bd tsp \u2014 Austin 1\u00bd, Cameron 1"
+        },
+        {
+          "name": "Cooked basmati rice",
+          "qty": "1\u00bc cups \u2014 Austin \u2154 cup, Cameron \u00bd cup"
+        },
+        {
+          "name": "Nonfat Greek yogurt",
+          "qty": "about \u00be cup \u2014 Austin \u00bd cup, Cameron \u00bc cup + 1 tbsp, served alongside like a raita"
+        },
+        {
+          "name": "Mint Chutney (component)",
+          "qty": "2 tbsp each"
+        },
+        {
+          "name": "Fresh cilantro",
+          "qty": "small handful"
+        },
+        {
+          "name": "Lime",
+          "qty": "1, cut in wedges"
+        },
+        {
+          "name": "Crispy Shallots (component, optional)",
+          "qty": "1 tbsp each"
+        },
+        {
+          "name": "Avocado (Cameron only)",
+          "qty": "\u215b, sliced"
+        }
+      ],
+      "instructions": [
+        "Rub the thighs all over with the salt and curry rub. Cover and rest 10 minutes while the oven heats to 375\u00b0F.",
+        "Heat the oil in an oven-safe skillet over medium-high. Sear the thighs skin-side down about 3 minutes until the skin is crisp and golden, flip, sear 3 more minutes. Move to a plate.",
+        "Drop the heat to medium. Add the cherry tomatoes and bouillon to the same pan and cook, stirring, until they blister and soften. Pour in the stock and scrape up the browned bits.",
+        "Simmer until the tomatoes turn jammy, then press on them with a spoon so they burst into the sauce.",
+        "Nestle the chicken back in, skin up, and dot each thigh with butter. Roast 18 minutes, until the chicken hits 165\u00b0F and the sauce bubbles at the edges.",
+        "Rice in shallow bowls, chicken on top, spoon over the tomato sauce. Finish with mint chutney, cilantro, lime and crispy shallots. Yogurt on the side; Cameron adds the avocado."
+      ],
+      "batch_note": "Sear and roast to order (40 min). The rub, chutney and shallots can all be made ahead; the rice can come from Sunday's batch.",
+      "cameron_note": "One thigh, half cup of rice, a smaller yogurt dollop and \u215b avocado keeps her around 485 cal. Mild as written; add a pinch of extra chutney if she wants more punch.",
+      "seasonal_note": "Tomatoes are the flavor here, so use the best cherry tomatoes you can find at the end of the season.",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "salmon-cakes-lemony-green-salad-rd132",
+      "name": "Salmon Cakes with Lemony Green Salad",
+      "cuisine": "American",
+      "meal_type": "dinner",
+      "prep": "35 min (cakes can be made ahead)",
+      "cook": "15 min",
+      "total": "50 min",
+      "spice_level": "None",
+      "serving_note": "Serves 2 (4 cakes, Austin 2\u00bd, Cameron 1\u00bd). Macros are estimates from standard ingredient values, not lab numbers. Austin runs about 3g short of 60g protein and Cameron about 2g short of 35g; a side of extra Greek yogurt closes it.",
+      "tags": [
+        "restaurant-dropout",
+        "rd-week-132",
+        "fall-2026",
+        "sep-2026",
+        "fall-dinners",
+        "dinner",
+        "american"
+      ],
+      "equipment": "Large skillet, baking sheet, blender (vinaigrette)",
+      "source": "Adapted from Restaurant Dropout Week 132 (9.25.2026)",
+      "macro_strings": {
+        "austin": "810 cal | 57g P | 51g F | 29g C",
+        "cameron": "490 cal | 33g P | 30g F | 21g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 810,
+          "p": 57,
+          "f": 51,
+          "c": 29
+        },
+        "cameron": {
+          "cal": 490,
+          "p": 33,
+          "f": 30,
+          "c": 21
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Skinless salmon fillets",
+          "qty": "12\u00bd oz \u2014 Austin 8 oz, Cameron 4\u00bd oz (buy 2 \u00d7 8 oz fillets)"
+        },
+        {
+          "name": "Olive oil",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Shallot, minced",
+          "qty": "1 small"
+        },
+        {
+          "name": "Red bell pepper, diced",
+          "qty": "\u2154 cup"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "1 tsp, divided"
+        },
+        {
+          "name": "Black pepper",
+          "qty": "\u00bc tsp"
+        },
+        {
+          "name": "Dijon mustard (pantry)",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Worcestershire sauce (pantry)",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Yogurt Aioli (component)",
+          "qty": "3 tbsp in the cakes + 2 tbsp Austin / 1 tbsp Cameron on top"
+        },
+        {
+          "name": "Lemon",
+          "qty": "1 (zest of 1, juice of \u00bd)"
+        },
+        {
+          "name": "Panko",
+          "qty": "6 tbsp"
+        },
+        {
+          "name": "Egg",
+          "qty": "1 large"
+        },
+        {
+          "name": "Salted butter",
+          "qty": "1\u00bd tsp, for frying"
+        },
+        {
+          "name": "Flaky salt",
+          "qty": "to garnish"
+        },
+        {
+          "name": "Baby spinach",
+          "qty": "3 cups"
+        },
+        {
+          "name": "Persian cucumbers",
+          "qty": "3, thinly sliced"
+        },
+        {
+          "name": "Medium tomato, in wedges",
+          "qty": "1"
+        },
+        {
+          "name": "Lemon Vinaigrette (component)",
+          "qty": "1 tbsp Austin / 1 tsp Cameron"
+        },
+        {
+          "name": "Avocado (Cameron only)",
+          "qty": "\u215b, in her salad"
+        }
+      ],
+      "instructions": [
+        "Salt the salmon lightly and rest 10 minutes. Meanwhile soften the shallot and bell pepper in 1 tsp of the oil with salt and pepper, about 4 minutes. Scrape into a bowl.",
+        "Heat the other 2 tsp oil in the same skillet and cook the salmon 3 minutes on the first side and 2\u20133 on the second, until golden and firm. Turn off the heat and let it cool 15 minutes.",
+        "Flake the salmon into the bowl. Add the mustard, Worcestershire, aioli, lemon zest and juice, panko and egg. Mix to a cohesive paste.",
+        "Shape into 4 even patties about 4 inches wide on a parchment-lined sheet. Chill until you're ready to fry (up to a day).",
+        "Melt the butter in a skillet over medium. Fry the patties 3 minutes undisturbed, flip, 2 more minutes, until crisp. Sprinkle with flaky salt.",
+        "Toss spinach, cucumber and tomato with the vinaigrette, season to taste, and top with the cakes and a dab of aioli. Cameron gets avocado in her salad."
+      ],
+      "batch_note": "Make and chill the patties Sunday; fry fresh on the night. Cooked cakes keep 3 days but lose their crust.",
+      "cameron_note": "Two smaller cakes' worth, light dressing, \u215b avocado. Keeps her near 485 cal.",
+      "seasonal_note": "Light enough for a warm evening; the lemon and cucumber keep it bright.",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "sheet-tray-chicken-kofta-rd132",
+      "name": "Sheet Tray Chicken Kofta with Tomato-Cucumber Salad",
+      "cuisine": "Indian",
+      "meal_type": "dinner",
+      "prep": "20 min",
+      "cook": "15 min",
+      "total": "40 min",
+      "spice_level": "Mild",
+      "serving_note": "Serves 2. Macros are estimates from standard ingredient values, not lab numbers. Uses extra-lean ground chicken breast so Austin reaches his protein target; regular ground chicken is richer but runs ~10g lower protein.",
+      "tags": [
+        "restaurant-dropout",
+        "rd-week-132",
+        "fall-2026",
+        "sep-2026",
+        "fall-dinners",
+        "dinner",
+        "indian"
+      ],
+      "equipment": "Baking sheet, parchment, bench scraper, blender (chutney)",
+      "source": "Adapted from Restaurant Dropout Week 132 (9.25.2026)",
+      "macro_strings": {
+        "austin": "725 cal | 63g P | 26g F | 57g C",
+        "cameron": "490 cal | 40g P | 19g F | 40g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 725,
+          "p": 63,
+          "f": 26,
+          "c": 57
+        },
+        "cameron": {
+          "cal": 490,
+          "p": 40,
+          "f": 19,
+          "c": 40
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Extra-lean ground chicken breast",
+          "qty": "13 oz \u2014 Austin 8 oz, Cameron 5 oz"
+        },
+        {
+          "name": "Panko",
+          "qty": "6 tbsp"
+        },
+        {
+          "name": "Egg",
+          "qty": "1 large"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "\u00be tsp"
+        },
+        {
+          "name": "Ground cumin",
+          "qty": "\u00be tsp"
+        },
+        {
+          "name": "Granulated garlic",
+          "qty": "\u00bc tsp"
+        },
+        {
+          "name": "Mint Chutney (component)",
+          "qty": "\u00bc cup in the mix + 2 tbsp Austin / 1 tbsp Cameron to serve"
+        },
+        {
+          "name": "Salted butter",
+          "qty": "2 tsp"
+        },
+        {
+          "name": "Curry powder",
+          "qty": "\u00bc tsp"
+        },
+        {
+          "name": "Olive oil",
+          "qty": "2 tsp"
+        },
+        {
+          "name": "Medium tomato, in wedges",
+          "qty": "1"
+        },
+        {
+          "name": "Persian cucumbers, roll cut",
+          "qty": "3"
+        },
+        {
+          "name": "Lemon Vinaigrette (component)",
+          "qty": "2 tsp Austin / 1 tsp Cameron"
+        },
+        {
+          "name": "Cooked basmati rice",
+          "qty": "1\u00bc cups \u2014 Austin \u00be cup, Cameron \u00bd cup"
+        },
+        {
+          "name": "Yogurt Aioli (component)",
+          "qty": "2 tbsp Austin / 1 tbsp Cameron"
+        },
+        {
+          "name": "Store-bought naan (optional)",
+          "qty": "1 each, not in the macros"
+        },
+        {
+          "name": "Avocado (Cameron only)",
+          "qty": "\u215b, with her salad"
+        }
+      ],
+      "instructions": [
+        "Mix the chicken, panko, egg, salt, cumin, garlic and \u00bc cup chutney until the mixture feels slightly bouncy. Preheat the oven to 425\u00b0F.",
+        "Turn it onto parchment on a baking sheet and press into an even 8 \u00d7 6 inch slab about \u00be inch thick. Cut it into 1\u20131\u00bd inch strips, leaving them in place.",
+        "Roast 10 minutes.",
+        "Microwave the butter with the curry powder in 10-second bursts until melted and fragrant. Brush it over the kofta.",
+        "Raise the oven to 450\u00b0F and roast another 5\u20137 minutes until the tops are golden and the center reads 165\u00b0F.",
+        "Toss tomato and cucumber with the vinaigrette. Serve the kofta over rice with the salad, aioli and extra chutney. Cameron adds her avocado."
+      ],
+      "batch_note": "Mix the kofta through step 1 on Sunday and keep it covered in the fridge; the slab cooks in 15 minutes on the night.",
+      "cameron_note": "Five ounces of chicken, half cup of rice and \u215b avocado keeps her at about 490 cal and 40g protein.",
+      "seasonal_note": "A fast weeknight dinner that doubles as a good cold lunch.",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "coconut-curry-poached-fish-rd132",
+      "name": "Coconut Curry-Poached Fish",
+      "cuisine": "Indian",
+      "meal_type": "dinner",
+      "prep": "20 min (curry base and shallots made ahead)",
+      "cook": "25 min",
+      "total": "30 min",
+      "spice_level": "Mild-Medium",
+      "serving_note": "Serves 2. Macros are estimates from standard ingredient values, not lab numbers. Uses the lighter curry base made with lite coconut milk; the original is ~100 cal more per serving.",
+      "tags": [
+        "restaurant-dropout",
+        "rd-week-132",
+        "fall-2026",
+        "sep-2026",
+        "fall-dinners",
+        "dinner",
+        "indian"
+      ],
+      "equipment": "Lidded frying pan, small saucepan, blender",
+      "source": "Adapted from Restaurant Dropout Week 132 (9.25.2026)",
+      "macro_strings": {
+        "austin": "770 cal | 66g P | 24g F | 72g C",
+        "cameron": "495 cal | 40g P | 16g F | 47g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 770,
+          "p": 66,
+          "f": 24,
+          "c": 72
+        },
+        "cameron": {
+          "cal": 495,
+          "p": 40,
+          "f": 16,
+          "c": 47
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Tilapia fillets (or halibut/cod)",
+          "qty": "1 lb \u2014 Austin 10 oz, Cameron 6 oz"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Neutral oil",
+          "qty": "1\u00bd tsp"
+        },
+        {
+          "name": "Medium tomato, in wedges",
+          "qty": "1"
+        },
+        {
+          "name": "Red bell pepper, thinly sliced",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Yellow Coconut Curry Base (component)",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Baby spinach",
+          "qty": "2 cups"
+        },
+        {
+          "name": "Cooked basmati rice",
+          "qty": "2 cups \u2014 Austin 1\u00bc cups, Cameron \u00be cup"
+        },
+        {
+          "name": "Fresh cilantro",
+          "qty": "handful"
+        },
+        {
+          "name": "Lime",
+          "qty": "1, in wedges"
+        },
+        {
+          "name": "Crispy Shallots (component)",
+          "qty": "1 tbsp each"
+        },
+        {
+          "name": "Mint Chutney (component)",
+          "qty": "2 tbsp Austin / 1 tbsp Cameron"
+        },
+        {
+          "name": "Serrano, thinly sliced (Austin's garnish)",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Store-bought naan (optional)",
+          "qty": "not in the macros"
+        }
+      ],
+      "instructions": [
+        "Pat the fish dry, salt it and rest 10 minutes.",
+        "In a lidded frying pan, heat the oil over medium. Cook the tomato wedges and bell pepper about 6 minutes until the tomato skins blister and the pepper barely softens.",
+        "Stir in the curry base and spinach and bring to a simmer. Lay the fish in the middle and spoon sauce over it.",
+        "Cover, drop to low and cook 10 minutes until the fish flakes and reads 145\u00b0F.",
+        "Rice in shallow bowls, fish on top, sauce over. Garnish with cilantro, lime, crispy shallots and chutney. Austin adds the sliced serrano; leave it off Cameron's."
+      ],
+      "batch_note": "Curry base, shallots and rice are all Sunday jobs. The night itself is 30 minutes.",
+      "cameron_note": "Six ounces of fish, \u00be cup rice and a little less sauce, no serrano. About 495 cal and 40g protein.",
+      "seasonal_note": "Warm and gentle, a good answer to the first cold evenings.",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "shrimp-spinach-scampi-pappardelle-rd132",
+      "name": "Shrimp & Spinach Scampi Pappardelle",
+      "cuisine": "Italian",
+      "meal_type": "dinner",
+      "prep": "10 min",
+      "cook": "15 min",
+      "total": "25 min",
+      "spice_level": "Mild",
+      "serving_note": "Serves 2. Macros are estimates from standard ingredient values, not lab numbers. Butter sauce is cut roughly in half from the original to fit the macros.",
+      "tags": [
+        "restaurant-dropout",
+        "rd-week-132",
+        "fall-2026",
+        "sep-2026",
+        "fall-dinners",
+        "dinner",
+        "italian"
+      ],
+      "equipment": "Large skillet, pot for pasta",
+      "source": "Adapted from Restaurant Dropout Week 132 (9.25.2026)",
+      "macro_strings": {
+        "austin": "785 cal | 67g P | 33g F | 49g C",
+        "cameron": "445 cal | 41g P | 15g F | 32g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 785,
+          "p": 67,
+          "f": 33,
+          "c": 49
+        },
+        "cameron": {
+          "cal": 445,
+          "p": 41,
+          "f": 15,
+          "c": 32
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Large shrimp, peeled and deveined",
+          "qty": "1 lb \u2014 Austin 10 oz, Cameron 6 oz"
+        },
+        {
+          "name": "Lemon",
+          "qty": "1, in wedges (2 for the marinade)"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "\u00bd tsp plus to taste"
+        },
+        {
+          "name": "Black pepper",
+          "qty": "to taste"
+        },
+        {
+          "name": "Olive oil",
+          "qty": "1\u00bd tbsp, divided (\u00bd tbsp each: marinade, sauce, sear)"
+        },
+        {
+          "name": "Pappardelle or fettuccine",
+          "qty": "3\u00bc oz dry \u2014 Austin 2 oz, Cameron 1\u00bc oz"
+        },
+        {
+          "name": "Shallot, minced",
+          "qty": "1"
+        },
+        {
+          "name": "Garlic, minced",
+          "qty": "3 cloves"
+        },
+        {
+          "name": "Dry white wine",
+          "qty": "\u00be cup"
+        },
+        {
+          "name": "Lemon zest",
+          "qty": "\u00bd lemon"
+        },
+        {
+          "name": "Crushed red pepper",
+          "qty": "\u00bc tsp"
+        },
+        {
+          "name": "Heavy cream",
+          "qty": "1\u00bd tbsp"
+        },
+        {
+          "name": "Cold salted butter",
+          "qty": "1 tbsp + 1 tsp, in cubes"
+        },
+        {
+          "name": "Baby spinach",
+          "qty": "4 cups"
+        }
+      ],
+      "instructions": [
+        "Toss the shrimp with the juice of 2 lemon wedges, \u00bd tsp salt, pepper and \u00bd tbsp of the oil. Marinate 5 minutes.",
+        "Boil the pasta in well-salted water until al dente.",
+        "Meanwhile soften the shallot in \u00bd tbsp oil over medium-low, 2 minutes. Add the garlic for 20 seconds, then the wine, lemon zest and red pepper. Reduce over medium until about 2 tablespoons of liquid remain, 6\u20138 minutes.",
+        "Whisk in the cream, drop the heat to low, and whisk in the cold butter a piece at a time so it emulsifies. If the sauce turns oily, whisk in another spoon of cream.",
+        "In a second skillet, sear the shrimp in the remaining \u00bd tbsp oil over medium-high, about 3 minutes, turning once, until pink. Add the spinach and cook until wilted, 1\u20132 minutes.",
+        "Fold the shrimp, spinach and drained pasta into the sauce until glossy. Season and serve with lemon wedges."
+      ],
+      "batch_note": "Cook to order. The shrimp can be marinated and the shallot and garlic prepped earlier in the day.",
+      "cameron_note": "Smaller pasta portion and a third of the butter keep her near 445 cal and 41g protein. No avocado; it doesn't belong in scampi.",
+      "seasonal_note": "A quick pasta night that still keeps the protein high.",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "french-onion-short-ribs-rustic-mash-rd131",
+      "name": "French Onion Short Ribs with Rustic Mashed Potatoes",
+      "cuisine": "French",
+      "meal_type": "dinner",
+      "prep": "30 min",
+      "cook": "3 hr 15 min (oven, unattended)",
+      "total": "3 hr 30 min",
+      "spice_level": "None",
+      "serving_note": "Makes 4 portions of short rib (Sunday braise); the other portions feed the French Onion Toasties. Macros are estimates from standard ingredient values, not lab numbers. Short rib fat varies a lot, so this is the loosest estimate in the set. Austin runs ~8g short of protein, Cameron ~5g short; cover with a yogurt or shake at another meal.",
+      "tags": [
+        "restaurant-dropout",
+        "rd-week-131",
+        "fall-2026",
+        "sep-2026",
+        "fall-dinners",
+        "dinner",
+        "french"
+      ],
+      "equipment": "Dutch oven, small saucepan, masher",
+      "source": "Adapted from Restaurant Dropout Week 131 (9.18.2026)",
+      "macro_strings": {
+        "austin": "795 cal | 52g P | 49g F | 36g C",
+        "cameron": "485 cal | 31g P | 29g F | 26g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 795,
+          "p": 52,
+          "f": 49,
+          "c": 36
+        },
+        "cameron": {
+          "cal": 485,
+          "p": 31,
+          "f": 29,
+          "c": 26
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Boneless beef short ribs",
+          "qty": "2 lb, cut in 2\u00bd-inch pieces"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "2\u00bd tsp, divided"
+        },
+        {
+          "name": "Black pepper",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Neutral oil",
+          "qty": "3 tbsp, divided"
+        },
+        {
+          "name": "Garlic",
+          "qty": "5 cloves, crushed"
+        },
+        {
+          "name": "Caramelized Onion Medley (component)",
+          "qty": "\u00be cup"
+        },
+        {
+          "name": "Dry white wine",
+          "qty": "\u00bd cup"
+        },
+        {
+          "name": "Beef stock",
+          "qty": "3 cups"
+        },
+        {
+          "name": "Thyme",
+          "qty": "3 sprigs"
+        },
+        {
+          "name": "Bay leaf",
+          "qty": "1"
+        },
+        {
+          "name": "Roasted Potatoes (component)",
+          "qty": "8 oz for the mash (Austin ~5 oz eaten, Cameron ~3 oz)"
+        },
+        {
+          "name": "Garlic Confit (component)",
+          "qty": "5 cloves"
+        },
+        {
+          "name": "Salted butter",
+          "qty": "2 tbsp in the pot; Austin takes \u00bc tbsp, Cameron \u00bc tbsp"
+        },
+        {
+          "name": "Heavy cream",
+          "qty": "\u00bc cup in the pot; Austin 1 tbsp, Cameron \u00bd tbsp"
+        },
+        {
+          "name": "Broccolini, blanched",
+          "qty": "1 bunch, about 1\u00bd cups each"
+        }
+      ],
+      "instructions": [
+        "Season the short ribs with 2 tsp salt and the pepper. Rest 5 minutes and heat the oven to 300\u00b0F.",
+        "In a Dutch oven, heat 2 tbsp oil over medium-high. Brown the ribs in two batches, turning every 2\u20133 minutes, 8\u201310 minutes per batch. Set aside.",
+        "Wipe the pot. Heat the remaining tbsp of oil over low, add the garlic, onion medley and remaining \u00bd tsp salt until fragrant. Pour in the wine and reduce by half, 2\u20133 minutes.",
+        "Return the ribs with their juices. Add the stock, thyme and bay leaf, cover, and braise 3 hours until a fork shreds the meat. Remove the thyme and bay.",
+        "To cut the fat (for the macros): chill the braising liquid and lift off the solidified fat before you reheat. Set aside 1 cup of meat for the toasties.",
+        "Mash: warm the garlic confit, roasted potatoes, butter, cream and salt in a saucepan over medium-low until the cream bubbles at the edges. Mash coarsely.",
+        "Serve the potatoes in shallow bowls with broccolini and short ribs on top, with a spoon of the skimmed braising liquid."
+      ],
+      "batch_note": "Braise Sunday, chill, skim, and portion. It reheats better than it cooks the first time. Holds 3\u20135 days.",
+      "cameron_note": "Three ounces of rib, three ounces of potatoes and a lot of broccolini keeps her near 485 cal.",
+      "seasonal_note": "Slow comfort food for the first properly cold weekend.",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "grilled-white-fish-ragout-rd131",
+      "name": "Grilled White Fish with Late-Summer Vegetable Ragout",
+      "cuisine": "Mediterranean",
+      "meal_type": "dinner",
+      "prep": "15 min (plus 20 min marinade)",
+      "cook": "15 min",
+      "total": "30 min",
+      "spice_level": "None",
+      "serving_note": "Serves 2. Macros are estimates from standard ingredient values, not lab numbers. The easiest week-131 dinner to hit Cameron's and Austin's targets.",
+      "tags": [
+        "restaurant-dropout",
+        "rd-week-131",
+        "fall-2026",
+        "sep-2026",
+        "fall-dinners",
+        "dinner",
+        "mediterranean"
+      ],
+      "equipment": "Grill or grill pan, small saucepan",
+      "source": "Adapted from Restaurant Dropout Week 131 (9.18.2026)",
+      "macro_strings": {
+        "austin": "745 cal | 69g P | 30g F | 50g C",
+        "cameron": "485 cal | 43g P | 19g F | 36g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 745,
+          "p": 69,
+          "f": 30,
+          "c": 50
+        },
+        "cameron": {
+          "cal": 485,
+          "p": 43,
+          "f": 19,
+          "c": 36
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Firm white fish (halibut, swordfish or sea bass)",
+          "qty": "1 lb \u2014 Austin 10 oz, Cameron 6 oz"
+        },
+        {
+          "name": "Lemon",
+          "qty": "1, juiced"
+        },
+        {
+          "name": "Garlic",
+          "qty": "2 cloves, grated"
+        },
+        {
+          "name": "Olive oil",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Dijon mustard (pantry)",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Dried oregano (pantry)",
+          "qty": "\u00bc tsp"
+        },
+        {
+          "name": "Black pepper",
+          "qty": "\u00bc tsp"
+        },
+        {
+          "name": "Ratatouille Vegetable Ragout (component)",
+          "qty": "2\u00bd cups \u2014 Austin 1\u00bd, Cameron 1"
+        },
+        {
+          "name": "Fresh basil",
+          "qty": "small handful"
+        },
+        {
+          "name": "Sourdough, warmed",
+          "qty": "Austin 1 slice, Cameron \u00be slice"
+        },
+        {
+          "name": "Garlic Confit Oil (component)",
+          "qty": "1 tsp to brush the bread"
+        }
+      ],
+      "instructions": [
+        "Whisk the lemon juice, garlic, oil, Dijon, salt, oregano and pepper. Toss the fish in it, cover, and chill 20 minutes (up to 8 hours).",
+        "Heat the grill to 400\u2013450\u00b0F. Let excess marinade drip off the fish and grill it covered 10\u201315 minutes, turning halfway, until marked and firm but springy, 145\u00b0F inside. Thick cuts run long.",
+        "Warm the ragout in a saucepan over medium-low and season to taste.",
+        "Brush the bread with confit oil and grill 1\u20132 minutes a side until crisp.",
+        "Ragout in bowls, fish on top, basil and pepper, bread alongside."
+      ],
+      "batch_note": "The ragout is a Sunday component and keeps a week. The marinade can sit all day.",
+      "cameron_note": "Six ounces of fish and a cup of ragout with \u00be slice of toast. About 485 cal and 43g protein.",
+      "seasonal_note": "The last of the eggplant, zucchini and tomatoes, done simply.",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "french-onion-toasties-tomato-soup-rd131",
+      "name": "French Onion Toasties with Roasted Tomato Soup",
+      "cuisine": "French",
+      "meal_type": "dinner",
+      "prep": "20 min",
+      "cook": "25 min",
+      "total": "25 min",
+      "spice_level": "None",
+      "serving_note": "Serves 2. Macros are estimates from standard ingredient values, not lab numbers. Treat dinner: even cut down it runs about 80 cal over Austin's dinner band and ~20g short of his protein; Cameron is ~9g short. Plan a lean, high-protein lunch and breakfast around it.",
+      "tags": [
+        "restaurant-dropout",
+        "rd-week-131",
+        "fall-2026",
+        "sep-2026",
+        "fall-dinners",
+        "dinner",
+        "french"
+      ],
+      "equipment": "Skillet or griddle, oven, immersion blender",
+      "source": "Adapted from Restaurant Dropout Week 131 (9.18.2026)",
+      "macro_strings": {
+        "austin": "880 cal | 43g P | 40g F | 82g C",
+        "cameron": "530 cal | 26g P | 25g F | 47g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 880,
+          "p": 43,
+          "f": 40,
+          "c": 82
+        },
+        "cameron": {
+          "cal": 530,
+          "p": 26,
+          "f": 25,
+          "c": 47
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Sourdough slices (\u00be inch max)",
+          "qty": "4 \u2014 Austin 2 (closed sandwich), Cameron 1 (open-faced)"
+        },
+        {
+          "name": "Gruyere, shredded",
+          "qty": "3 tbsp total \u2014 Austin 2, Cameron 1"
+        },
+        {
+          "name": "Leftover French Onion Short Rib",
+          "qty": "5 oz \u2014 Austin 3, Cameron 2"
+        },
+        {
+          "name": "Caramelized Onion Medley (component)",
+          "qty": "1\u00bd tbsp"
+        },
+        {
+          "name": "Grated Parmesan",
+          "qty": "1\u00bd tbsp \u2014 Austin 1, Cameron \u00bd"
+        },
+        {
+          "name": "Garlic Confit (component)",
+          "qty": "2 cloves for the bread, 4 for the soup"
+        },
+        {
+          "name": "Garlic Confit Oil (component)",
+          "qty": "1\u00bd tsp to grease the pan"
+        },
+        {
+          "name": "Yellow onion, sliced",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Roasted Cherry Tomatoes (component)",
+          "qty": "1 batch"
+        },
+        {
+          "name": "Beef stock",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Olive oil",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Heavy cream (optional)",
+          "qty": "a drizzle to finish, not in the macros"
+        }
+      ],
+      "instructions": [
+        "Heat the oven to 425\u00b0F with a rack in the upper third. Soften the onion in the oil with a pinch of salt, 4 minutes. Add 4 confit cloves, the roasted tomatoes and stock, and simmer 15 minutes.",
+        "Spread the inside of each slice with confit. Pile gruyere and onion medley on one slice per sandwich.",
+        "Warm the short rib in a skillet, divide it over the cheese, and close the sandwiches. Cameron's is open-faced.",
+        "Grease a skillet or griddle with the confit oil over medium. Cook the sandwiches, pressing firmly, 5\u20137 minutes, flipping halfway, until golden and mostly melted.",
+        "Move to a baking sheet, sprinkle with Parmesan, and bake on the top rack about 5 minutes until melted and browned.",
+        "Blend the soup smooth, season, and finish with a little cream if you like. Serve the soup beside the halved toasties."
+      ],
+      "batch_note": "Uses the leftover braised short rib and the onion medley from Sunday, so the night is quick.",
+      "cameron_note": "An open-faced toastie and a bowl and a half of soup. About 530 cal, which is over her band; drop the parm for ~20 cal back.",
+      "seasonal_note": "Soup-and-sandwich weather.",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "pan-roasted-chicken-creamy-peperonata-rd131",
+      "name": "Pan-Roasted Chicken with Creamy Peperonata",
+      "cuisine": "Italian",
+      "meal_type": "dinner",
+      "prep": "15 min",
+      "cook": "30 min",
+      "total": "45 min",
+      "spice_level": "None",
+      "serving_note": "Serves 2 (Austin 2 thighs, Cameron 1). Macros are estimates from standard ingredient values, not lab numbers. Greek yogurt replaces the cream to add protein and save about 70 cal per plate; Austin assumes you eat the skin and runs ~2g short of 60g.",
+      "tags": [
+        "restaurant-dropout",
+        "rd-week-131",
+        "fall-2026",
+        "sep-2026",
+        "fall-dinners",
+        "dinner",
+        "italian"
+      ],
+      "equipment": "Oven-safe skillet, baking sheet",
+      "source": "Adapted from Restaurant Dropout Week 131 (9.18.2026)",
+      "macro_strings": {
+        "austin": "740 cal | 58g P | 43g F | 33g C",
+        "cameron": "475 cal | 33g P | 27g F | 28g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 740,
+          "p": 58,
+          "f": 43,
+          "c": 33
+        },
+        "cameron": {
+          "cal": 475,
+          "p": 33,
+          "f": 27,
+          "c": 28
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Bone-in, skin-on chicken thighs",
+          "qty": "3 (about 1\u00bc lb) \u2014 Austin 2, Cameron 1"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "2 tsp, divided"
+        },
+        {
+          "name": "Black pepper",
+          "qty": "\u00bd tsp"
+        },
+        {
+          "name": "Garlic Confit Oil (component)",
+          "qty": "1\u00bd tsp"
+        },
+        {
+          "name": "Shallot, thinly sliced",
+          "qty": "\u00bd cup"
+        },
+        {
+          "name": "Red bell pepper, diced",
+          "qty": "1\u00bd cups"
+        },
+        {
+          "name": "Garlic Confit (component)",
+          "qty": "2 cloves"
+        },
+        {
+          "name": "Tomato paste",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Dry white wine",
+          "qty": "\u00bc cup"
+        },
+        {
+          "name": "Nonfat Greek yogurt",
+          "qty": "\u2153 cup + 1 tbsp (Austin \u00bc cup, Cameron ~3 tbsp), stirred in off the heat"
+        },
+        {
+          "name": "Roasted Potatoes (component)",
+          "qty": "9 oz \u2014 Austin 5 oz, Cameron 4 oz"
+        },
+        {
+          "name": "Fresh basil",
+          "qty": "for serving"
+        },
+        {
+          "name": "Avocado (Cameron only)",
+          "qty": "\u215b, on the side"
+        }
+      ],
+      "instructions": [
+        "Heat the oven to 425\u00b0F. Pat the thighs dry and season with 1\u00bd tsp salt and the pepper. Rest 5 minutes.",
+        "Heat the confit oil in an oven-safe skillet over medium-high. Sear the thighs skin-down 3\u20135 minutes until golden, flip for 2 minutes, and set aside.",
+        "Drop the heat to low. Soften the shallot 2 minutes, then add the bell pepper, confit garlic, tomato paste and the remaining \u00bd tsp salt. Cook about 6 minutes until the peppers are soft.",
+        "Add the wine and reduce by half, scraping the pan. Take the skillet off the heat and let it stop bubbling, then stir in the yogurt so it doesn't split.",
+        "Nestle the chicken back in and roast 12 minutes. Spoon sauce over and finish until the thighs hit 165\u00b0F, another 5\u20137 minutes. Warm the potatoes on a sheet for the last 10 minutes.",
+        "Potatoes on plates, chicken on top, sauce over, basil and pepper to finish."
+      ],
+      "batch_note": "The potatoes and confit come from Sunday's components. The chicken is 45 minutes start to finish.",
+      "cameron_note": "One thigh, 4 oz of potatoes and a smaller spoon of sauce with \u215b avocado. About 475 cal and 33g protein.",
+      "seasonal_note": "Late-summer peppers, for one of the last weeks they're good.",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "baked-ratatouille-gnocchi-chicken-meatballs-rd131",
+      "name": "Baked Ratatouille Gnocchi with Chicken Meatballs",
+      "cuisine": "Italian",
+      "meal_type": "dinner",
+      "prep": "20 min",
+      "cook": "25 min",
+      "total": "45 min",
+      "spice_level": "None",
+      "serving_note": "Serves 2. Macros are estimates from standard ingredient values, not lab numbers. Gnocchi on its own is almost no protein, so this adds baked chicken meatballs (one of the original's own suggested add-ons) to bring it in range.",
+      "tags": [
+        "restaurant-dropout",
+        "rd-week-131",
+        "fall-2026",
+        "sep-2026",
+        "fall-dinners",
+        "dinner",
+        "italian"
+      ],
+      "equipment": "Oven-safe skillet, baking sheet, pot",
+      "source": "Adapted from Restaurant Dropout Week 131 (9.18.2026)",
+      "macro_strings": {
+        "austin": "765 cal | 61g P | 30g F | 64g C",
+        "cameron": "495 cal | 41g P | 19g F | 40g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 765,
+          "p": 61,
+          "f": 30,
+          "c": 64
+        },
+        "cameron": {
+          "cal": 495,
+          "p": 41,
+          "f": 19,
+          "c": 40
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Extra-lean ground chicken breast",
+          "qty": "12 oz \u2014 Austin 7 oz, Cameron 5 oz"
+        },
+        {
+          "name": "Panko",
+          "qty": "3 tbsp"
+        },
+        {
+          "name": "Egg",
+          "qty": "1 large"
+        },
+        {
+          "name": "Parmesan, grated",
+          "qty": "3 tbsp total (1 in the meatballs)"
+        },
+        {
+          "name": "Dried oregano",
+          "qty": "\u00bd tsp"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "\u00be tsp"
+        },
+        {
+          "name": "Garlic Confit Oil (component)",
+          "qty": "1\u00bd tsp"
+        },
+        {
+          "name": "Garlic Confit (component)",
+          "qty": "5 cloves"
+        },
+        {
+          "name": "Ratatouille Vegetable Ragout (component)",
+          "qty": "1\u00be cups \u2014 Austin 1 cup, Cameron \u00be cup"
+        },
+        {
+          "name": "Store-bought potato gnocchi",
+          "qty": "8 oz \u2014 Austin 5 oz, Cameron 3 oz"
+        },
+        {
+          "name": "Heavy cream",
+          "qty": "2\u00bd tsp total \u2014 Austin 1\u00bd tsp, Cameron 1 tsp"
+        },
+        {
+          "name": "Fresh basil",
+          "qty": "to garnish"
+        }
+      ],
+      "instructions": [
+        "Heat the oven to 425\u00b0F. Mix the chicken, panko, egg, 1 tbsp of the parmesan, oregano and salt. Roll into about 12 small meatballs on a lined sheet and bake 12\u201314 minutes until they reach 165\u00b0F.",
+        "Set a rack 6 inches under the broiler. Bring a large pot of salted water to a boil.",
+        "In an oven-safe skillet, warm the confit oil over medium with the confit garlic and ragout for about 4 minutes until it steams and bubbles, then keep on low.",
+        "Cook the gnocchi to the package directions, drain, and fold it into the ragout with the cream until glossy. Add the meatballs.",
+        "Scatter the remaining parmesan over the top and broil 2 minutes until melted and golden. Basil to finish."
+      ],
+      "batch_note": "The ragout keeps a week. The meatballs can be baked on Sunday and reheated in the sauce.",
+      "cameron_note": "Five ounces of meatball and three ounces of gnocchi, about 495 cal and 41g protein. Skip the avocado, it doesn't fit here.",
+      "seasonal_note": "The last summer vegetables, folded into something comforting.",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "mint-chutney-rd132",
+      "name": "Mint Chutney",
+      "cuisine": "Indian \u2014 component",
+      "meal_type": "component",
+      "prep": "5 min",
+      "cook": "0 min",
+      "total": "5 min",
+      "spice_level": "Varies",
+      "serving_note": "About \u2154 cup \u2014 used in the curried chicken, kofta and coconut fish",
+      "tags": [
+        "restaurant-dropout",
+        "rd-week-132",
+        "fall-2026",
+        "sep-2026",
+        "fall-dinners",
+        "component"
+      ],
+      "equipment": "Blender",
+      "source": "Adapted from Restaurant Dropout Week 132 (9.25.2026)",
+      "macro_strings": {
+        "austin": "component \u2014 counted in the dish",
+        "cameron": "component \u2014 counted in the dish"
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Fresh mint leaves",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Fresh cilantro, stems included",
+          "qty": "2 loosely packed cups"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Shallot, chopped",
+          "qty": "1 large"
+        },
+        {
+          "name": "Serrano, sliced",
+          "qty": "1 (use 2 for Austin's heat)"
+        },
+        {
+          "name": "Garlic",
+          "qty": "2 cloves"
+        },
+        {
+          "name": "Ginger",
+          "qty": "1\u00bd-inch knob, sliced"
+        },
+        {
+          "name": "Lemon juice",
+          "qty": "1 lemon"
+        },
+        {
+          "name": "Water",
+          "qty": "\u00bc cup"
+        },
+        {
+          "name": "Sugar",
+          "qty": "1 tsp"
+        }
+      ],
+      "instructions": [
+        "Blend everything until smooth. Taste and add salt or lemon.",
+        "The original calls for 1\u20132 serranos. Start with 1 so Cameron can eat it, and add fresh serrano to Austin's plate.",
+        "Keeps about a week in the fridge; it darkens a little but stays good."
+      ],
+      "batch_note": "Make once for the week. Used in three dinners.",
+      "cameron_note": "",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "lemon-vinaigrette-rd132",
+      "name": "Lemon Vinaigrette",
+      "cuisine": "Mediterranean \u2014 component",
+      "meal_type": "component",
+      "prep": "3 min",
+      "cook": "0 min",
+      "total": "3 min",
+      "spice_level": "Varies",
+      "serving_note": "About \u00bd cup \u2014 salmon cake salad and kofta salad",
+      "tags": [
+        "restaurant-dropout",
+        "rd-week-132",
+        "fall-2026",
+        "sep-2026",
+        "fall-dinners",
+        "component"
+      ],
+      "equipment": "Blender",
+      "source": "Adapted from Restaurant Dropout Week 132 (9.25.2026)",
+      "macro_strings": {
+        "austin": "component \u2014 counted in the dish",
+        "cameron": "component \u2014 counted in the dish"
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Extra-virgin olive oil",
+          "qty": "\u2153 cup"
+        },
+        {
+          "name": "White wine vinegar",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Lemon",
+          "qty": "zest and juice of \u00bd"
+        },
+        {
+          "name": "Garlic",
+          "qty": "1 clove"
+        },
+        {
+          "name": "Honey",
+          "qty": "2 tsp"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "\u00be tsp"
+        },
+        {
+          "name": "Black pepper",
+          "qty": "to taste"
+        }
+      ],
+      "instructions": [
+        "Blend everything until smooth.",
+        "Runs about 85 cal a tablespoon, so dress lightly: Austin 1 tbsp, Cameron 1 tsp.",
+        "Keeps 1 week."
+      ],
+      "batch_note": "Sunday job.",
+      "cameron_note": "",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "yogurt-aioli-rd132",
+      "name": "Yogurt Aioli",
+      "cuisine": "American \u2014 component",
+      "meal_type": "component",
+      "prep": "3 min",
+      "cook": "0 min",
+      "total": "3 min",
+      "spice_level": "Varies",
+      "serving_note": "About \u00bd cup \u2014 salmon cakes and kofta",
+      "tags": [
+        "restaurant-dropout",
+        "rd-week-132",
+        "fall-2026",
+        "sep-2026",
+        "fall-dinners",
+        "component"
+      ],
+      "equipment": "Small bowl",
+      "source": "Adapted from Restaurant Dropout Week 132 (9.25.2026)",
+      "macro_strings": {
+        "austin": "component \u2014 counted in the dish",
+        "cameron": "component \u2014 counted in the dish"
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Nonfat Greek yogurt",
+          "qty": "\u00bc cup"
+        },
+        {
+          "name": "Full-fat mayonnaise",
+          "qty": "1 tbsp (the original is all mayo)"
+        },
+        {
+          "name": "Garlic, grated",
+          "qty": "2 cloves"
+        }
+      ],
+      "instructions": [
+        "Stir everything together until smooth.",
+        "Adapted from Restaurant Dropout's Simple Aioli (\u00bc cup mayo + 4 grated garlic cloves). Swapping most of the mayo for yogurt cuts the calories by about 70% per tablespoon and adds protein.",
+        "Keeps 5 days."
+      ],
+      "batch_note": "Make Sunday.",
+      "cameron_note": "",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "curry-rub-rd132",
+      "name": "Curry Rub",
+      "cuisine": "Indian \u2014 component",
+      "meal_type": "component",
+      "prep": "3 min",
+      "cook": "0 min",
+      "total": "3 min",
+      "spice_level": "Varies",
+      "serving_note": "About 3 tbsp \u2014 the curried chicken",
+      "tags": [
+        "restaurant-dropout",
+        "rd-week-132",
+        "fall-2026",
+        "sep-2026",
+        "fall-dinners",
+        "component"
+      ],
+      "equipment": "Small bowl",
+      "source": "Adapted from Restaurant Dropout Week 132 (9.25.2026)",
+      "macro_strings": {
+        "austin": "component \u2014 counted in the dish",
+        "cameron": "component \u2014 counted in the dish"
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Curry powder",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Brown sugar",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Chili powder",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Ground cumin",
+          "qty": "\u00bd tsp"
+        },
+        {
+          "name": "Onion powder",
+          "qty": "\u00bc tsp"
+        },
+        {
+          "name": "Granulated garlic",
+          "qty": "\u00bc tsp"
+        },
+        {
+          "name": "Black pepper",
+          "qty": "\u00bc tsp"
+        }
+      ],
+      "instructions": [
+        "Mix everything in a small bowl.",
+        "Keeps months in a jar in the pantry."
+      ],
+      "batch_note": "Make a double batch if you like; it keeps.",
+      "cameron_note": "",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "crispy-shallots-rd132",
+      "name": "Crispy Shallots",
+      "cuisine": "French / Indian \u2014 component",
+      "meal_type": "component",
+      "prep": "5 min",
+      "cook": "25 min",
+      "total": "30 min",
+      "spice_level": "Varies",
+      "serving_note": "About 2 cups \u2014 a garnish for the curried chicken and coconut fish",
+      "tags": [
+        "restaurant-dropout",
+        "rd-week-132",
+        "fall-2026",
+        "sep-2026",
+        "fall-dinners",
+        "component"
+      ],
+      "equipment": "Small saucepan, sieve",
+      "source": "Adapted from Restaurant Dropout Week 132 (9.25.2026)",
+      "macro_strings": {
+        "austin": "component \u2014 counted in the dish",
+        "cameron": "component \u2014 counted in the dish"
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Shallots, thinly sliced",
+          "qty": "4 (\u00bd lb)"
+        },
+        {
+          "name": "Neutral oil",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "to taste"
+        }
+      ],
+      "instructions": [
+        "Cover the shallots with the oil in a small saucepan and cook over low 23\u201325 minutes until golden brown.",
+        "Strain over a heatproof bowl and salt the shallots. Save the shallot oil for cooking.",
+        "About 35 cal a tablespoon. A little goes a long way."
+      ],
+      "batch_note": "Keeps in the fridge for the week.",
+      "cameron_note": "",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "yellow-coconut-curry-base-rd132",
+      "name": "Yellow Coconut Curry Base (lighter)",
+      "cuisine": "Indian \u2014 component",
+      "meal_type": "component",
+      "prep": "5 min",
+      "cook": "25 min",
+      "total": "30 min",
+      "spice_level": "Varies",
+      "serving_note": "About 2 cups \u2014 the coconut fish, with extra for another meal",
+      "tags": [
+        "restaurant-dropout",
+        "rd-week-132",
+        "fall-2026",
+        "sep-2026",
+        "fall-dinners",
+        "component"
+      ],
+      "equipment": "Small saucepan, blender",
+      "source": "Adapted from Restaurant Dropout Week 132 (9.25.2026)",
+      "macro_strings": {
+        "austin": "component \u2014 counted in the dish",
+        "cameron": "component \u2014 counted in the dish"
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Neutral oil",
+          "qty": "1 tbsp (original uses 2)"
+        },
+        {
+          "name": "Shallot, minced",
+          "qty": "1"
+        },
+        {
+          "name": "Curry powder",
+          "qty": "2 tsp"
+        },
+        {
+          "name": "Garam masala",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Ginger",
+          "qty": "1-inch knob, sliced"
+        },
+        {
+          "name": "Serrano",
+          "qty": "1, sliced"
+        },
+        {
+          "name": "Garlic",
+          "qty": "1 clove, crushed"
+        },
+        {
+          "name": "Lite coconut milk",
+          "qty": "1 (13.5 oz) can (original uses full-fat)"
+        },
+        {
+          "name": "Chicken stock or water",
+          "qty": "\u00bd cup"
+        },
+        {
+          "name": "Brown sugar",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "1 tsp"
+        }
+      ],
+      "instructions": [
+        "Brown the shallot in the oil over medium, 7\u20138 minutes.",
+        "Add the curry powder, garam masala, ginger, serrano and garlic for 1\u20132 minutes until fragrant.",
+        "Stir in the coconut milk, stock, sugar and salt. Cover and simmer on low 15\u201320 minutes.",
+        "Cool 15 minutes, then blend smooth.",
+        "The lite version saves roughly 100 cal per serving versus the full-fat original."
+      ],
+      "batch_note": "Sunday job; keeps a week.",
+      "cameron_note": "",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "coconut-rice-rd132",
+      "name": "Coconut Rice (optional)",
+      "cuisine": "Indian \u2014 component",
+      "meal_type": "component",
+      "prep": "5 min",
+      "cook": "20 min",
+      "total": "25 min",
+      "spice_level": "Varies",
+      "serving_note": "About 4 cups. Not in the macros; plain basmati is the default",
+      "tags": [
+        "restaurant-dropout",
+        "rd-week-132",
+        "fall-2026",
+        "sep-2026",
+        "fall-dinners",
+        "component"
+      ],
+      "equipment": "Lidded saucepan",
+      "source": "Adapted from Restaurant Dropout Week 132 (9.25.2026)",
+      "macro_strings": {
+        "austin": "component \u2014 counted in the dish",
+        "cameron": "component \u2014 counted in the dish"
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Basmati or jasmine rice",
+          "qty": "1\u00bd cups"
+        },
+        {
+          "name": "Full-fat coconut milk",
+          "qty": "1\u00bd cups"
+        },
+        {
+          "name": "Water",
+          "qty": "1\u00bd cups"
+        },
+        {
+          "name": "Sugar",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Ginger, grated (optional)",
+          "qty": "1-inch"
+        }
+      ],
+      "instructions": [
+        "Bring everything to a rolling boil in a lidded saucepan, stir, cover and simmer 18\u201320 minutes.",
+        "Turn off the heat and leave covered 10 minutes before fluffing.",
+        "This adds roughly 240 cal per cup over plain basmati, so the dinner macros assume plain rice. Use it only for a treat night or for Austin.",
+        "Source typo: the coconut fish cites it on page 9, but it is on page 8."
+      ],
+      "batch_note": "Optional.",
+      "cameron_note": "",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "garlic-confit-rd131",
+      "name": "Garlic Confit and Confit Oil",
+      "cuisine": "French \u2014 component",
+      "meal_type": "component",
+      "prep": "5 min",
+      "cook": "1 hr",
+      "total": "1 hr 5 min",
+      "spice_level": "Varies",
+      "serving_note": "About 1 cup \u2014 used in all five week-131 dinners",
+      "tags": [
+        "restaurant-dropout",
+        "rd-week-131",
+        "fall-2026",
+        "sep-2026",
+        "fall-dinners",
+        "component"
+      ],
+      "equipment": "Small baking dish",
+      "source": "Adapted from Restaurant Dropout Week 131 (9.18.2026)",
+      "macro_strings": {
+        "austin": "component \u2014 counted in the dish",
+        "cameron": "component \u2014 counted in the dish"
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Peeled garlic cloves",
+          "qty": "22"
+        },
+        {
+          "name": "Extra-virgin olive oil",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Thyme",
+          "qty": "2 sprigs"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "\u00bd tsp"
+        }
+      ],
+      "instructions": [
+        "Heat the oven to 300\u00b0F. Combine everything in a small baking dish.",
+        "Bake about 1 hour until the cloves are soft and light golden.",
+        "Cool and store in the fridge up to a week. The oil is now garlic confit oil, good for searing, grilling bread and finishing."
+      ],
+      "batch_note": "Do this first on Sunday; everything else uses it.",
+      "cameron_note": "",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "ratatouille-vegetable-ragout-rd131",
+      "name": "Ratatouille Vegetable Ragout",
+      "cuisine": "French \u2014 component",
+      "meal_type": "component",
+      "prep": "15 min",
+      "cook": "45 min",
+      "total": "1 hr",
+      "spice_level": "Varies",
+      "serving_note": "3\u00bd\u20134 cups \u2014 the white fish and the gnocchi",
+      "tags": [
+        "restaurant-dropout",
+        "rd-week-131",
+        "fall-2026",
+        "sep-2026",
+        "fall-dinners",
+        "component"
+      ],
+      "equipment": "Large saucepan",
+      "source": "Adapted from Restaurant Dropout Week 131 (9.18.2026)",
+      "macro_strings": {
+        "austin": "component \u2014 counted in the dish",
+        "cameron": "component \u2014 counted in the dish"
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Extra-virgin olive oil",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Shallot, sliced",
+          "qty": "\u00bd cup"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "1 tsp, divided"
+        },
+        {
+          "name": "Tomato paste",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Garlic",
+          "qty": "2 cloves, minced"
+        },
+        {
+          "name": "Beef stock or water",
+          "qty": "\u00bd cup"
+        },
+        {
+          "name": "Eggplant, \u00bd-inch dice",
+          "qty": "2 cups"
+        },
+        {
+          "name": "Zucchini, \u00bd-inch dice",
+          "qty": "2 cups"
+        },
+        {
+          "name": "Red bell pepper, \u00bd-inch dice",
+          "qty": "2 cups"
+        },
+        {
+          "name": "Cherry or grape tomatoes",
+          "qty": "12 oz"
+        }
+      ],
+      "instructions": [
+        "Soften the shallot in the oil with \u00bd tsp salt, 2\u20133 minutes. Stir in the tomato paste and garlic for 15 seconds. Add the stock and scrape up the browned bits.",
+        "Add the eggplant, zucchini, pepper and remaining salt and cook about 5 minutes until the stock has reduced by half.",
+        "Turn to low, add the tomatoes, and cook, stirring now and then, 35 minutes until soft and jammy.",
+        "Cool 10 minutes and season. Keeps a week in the fridge."
+      ],
+      "batch_note": "Sunday job.",
+      "cameron_note": "",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "caramelized-onion-medley-rd131",
+      "name": "Caramelized Onion Medley",
+      "cuisine": "French \u2014 component",
+      "meal_type": "component",
+      "prep": "10 min",
+      "cook": "40 min",
+      "total": "50 min",
+      "spice_level": "Varies",
+      "serving_note": "About 1 cup \u2014 the short ribs and the toasties",
+      "tags": [
+        "restaurant-dropout",
+        "rd-week-131",
+        "fall-2026",
+        "sep-2026",
+        "fall-dinners",
+        "component"
+      ],
+      "equipment": "Large skillet",
+      "source": "Adapted from Restaurant Dropout Week 131 (9.18.2026)",
+      "macro_strings": {
+        "austin": "component \u2014 counted in the dish",
+        "cameron": "component \u2014 counted in the dish"
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Extra-virgin olive oil",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Salted butter",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Shallots, thinly sliced",
+          "qty": "\u00bd cup"
+        },
+        {
+          "name": "Yellow onions, thinly sliced",
+          "qty": "5 cups (4\u20135 onions)"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Black pepper",
+          "qty": "\u00bd tsp"
+        },
+        {
+          "name": "Water",
+          "qty": "for deglazing"
+        }
+      ],
+      "instructions": [
+        "Melt the oil and butter together in a large skillet over medium-low.",
+        "Add the shallots, onions, salt and pepper and cook about 40 minutes, stirring now and then, until deep golden and jammy.",
+        "Whenever the onions stick, deglaze with \u00bc cup water and scrape up the browned bits.",
+        "Keeps 5 days."
+      ],
+      "batch_note": "Sunday job.",
+      "cameron_note": "",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "roasted-cherry-tomatoes-rd131",
+      "name": "Roasted Cherry Tomatoes",
+      "cuisine": "French \u2014 component",
+      "meal_type": "component",
+      "prep": "5 min",
+      "cook": "35 min",
+      "total": "40 min",
+      "spice_level": "Varies",
+      "serving_note": "About 1 cup \u2014 the tomato soup in the toasties",
+      "tags": [
+        "restaurant-dropout",
+        "rd-week-131",
+        "fall-2026",
+        "sep-2026",
+        "fall-dinners",
+        "component"
+      ],
+      "equipment": "Baking sheet",
+      "source": "Adapted from Restaurant Dropout Week 131 (9.18.2026)",
+      "macro_strings": {
+        "austin": "component \u2014 counted in the dish",
+        "cameron": "component \u2014 counted in the dish"
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Garlic",
+          "qty": "5 cloves, crushed"
+        },
+        {
+          "name": "Thyme",
+          "qty": "2 sprigs"
+        },
+        {
+          "name": "Cherry tomatoes, halved",
+          "qty": "1 lb"
+        },
+        {
+          "name": "Extra-virgin olive oil",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "\u00be tsp"
+        }
+      ],
+      "instructions": [
+        "Heat the oven to 425\u00b0F. Toss everything on a baking sheet.",
+        "Roast 30\u201335 minutes until soft and deeply caramelized.",
+        "Keeps 5 days in the fridge."
+      ],
+      "batch_note": "Sunday job, in the same oven as the potatoes.",
+      "cameron_note": "",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "roasted-potatoes-rd131",
+      "name": "Roasted Baby Gold Potatoes",
+      "cuisine": "French \u2014 component",
+      "meal_type": "component",
+      "prep": "10 min",
+      "cook": "32 min",
+      "total": "45 min",
+      "spice_level": "Varies",
+      "serving_note": "5\u20136 cups \u2014 the mash and the peperonata",
+      "tags": [
+        "restaurant-dropout",
+        "rd-week-131",
+        "fall-2026",
+        "sep-2026",
+        "fall-dinners",
+        "component"
+      ],
+      "equipment": "Two baking sheets",
+      "source": "Adapted from Restaurant Dropout Week 131 (9.18.2026)",
+      "macro_strings": {
+        "austin": "component \u2014 counted in the dish",
+        "cameron": "component \u2014 counted in the dish"
+      },
+      "macros": {
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Baby gold potatoes, halved",
+          "qty": "3 lb"
+        },
+        {
+          "name": "Extra-virgin olive oil",
+          "qty": "\u00bc cup"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "1\u00bd tsp"
+        }
+      ],
+      "instructions": [
+        "Heat the oven to 425\u00b0F. Toss the potatoes with the oil and salt.",
+        "Spread across two sheets so they don't crowd and roast about 32 minutes until soft inside and crisp at the edges.",
+        "Keeps 5 days; reheat on a sheet pan to bring back the crisp."
+      ],
+      "batch_note": "Sunday job.",
+      "cameron_note": "",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
       "id": "maple-dijon-harvest-chicken-bowl",
       "name": "Maple Dijon Harvest Chicken Bowl",
       "cuisine": "American / Fall Harvest",
