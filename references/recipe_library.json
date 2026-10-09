@@ -20734,6 +20734,139 @@
         }
       },
       "retired": false
+    },
+    {
+      "id": "beef-pot-roast",
+      "name": "Beef Pot Roast",
+      "cuisine": "American",
+      "source_account": "@jennseatz_",
+      "source_url": "https://www.instagram.com/reel/DUT61NjjJsL/",
+      "added_date": "2026-10-09",
+      "meal_type": "dinner",
+      "prep": "~20 min",
+      "cook": "~3 hr 10 min",
+      "total": "~3.5 hr",
+      "spice_level": "Mild",
+      "serving_note": "Serves ~6 \u2014 macros are rough estimates, not yet measured",
+      "tags": [
+        "beef",
+        "pot-roast",
+        "comfort-food",
+        "sunday-dinner"
+      ],
+      "equipment": "Dutch oven or oven-safe pan with lid",
+      "macro_strings": {
+        "austin": "630 cal | 33g P | 35g F | 25g C",
+        "cameron": "520 cal | 28g P | 29g F | 21g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 630,
+          "p": 33,
+          "f": 35,
+          "c": 25
+        },
+        "cameron": {
+          "cal": 520,
+          "p": 28,
+          "f": 29,
+          "c": 21
+        }
+      },
+      "ingredients": [
+        {
+          "name": "MEAT & SEASONING",
+          "qty": null
+        },
+        {
+          "name": "Boneless beef chuck roast",
+          "qty": "2.25 lb"
+        },
+        {
+          "name": "Kinders cowboy butter seasoning",
+          "qty": "to taste"
+        },
+        {
+          "name": "White pepper",
+          "qty": "to taste"
+        },
+        {
+          "name": "Beef bouillon",
+          "qty": "to taste"
+        },
+        {
+          "name": "VEGETABLES & FINISH",
+          "qty": null
+        },
+        {
+          "name": "Garlic cloves",
+          "qty": "3"
+        },
+        {
+          "name": "Medium yellow onion, diced",
+          "qty": "1"
+        },
+        {
+          "name": "Carrots, peeled",
+          "qty": "3"
+        },
+        {
+          "name": "Baby gold potatoes, washed",
+          "qty": "1.5 lb"
+        },
+        {
+          "name": "Fresh thyme",
+          "qty": "a few sprigs"
+        },
+        {
+          "name": "Minced parsley",
+          "qty": "for garnish"
+        },
+        {
+          "name": "Real butter",
+          "qty": "3 tbsp"
+        },
+        {
+          "name": "BRAISING LIQUID",
+          "qty": null
+        },
+        {
+          "name": "Beef broth",
+          "qty": "4 cups"
+        },
+        {
+          "name": "Tomato paste",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Red cooking wine",
+          "qty": "1/2-1 cup"
+        }
+      ],
+      "instructions": [
+        "Prep the veggies first: wash and peel the carrots, wash the potatoes, slice and dice the onion, mince the garlic, and wash the thyme.",
+        "Season the chuck roast on both sides with cowboy butter seasoning, white pepper, and beef bouillon. Sear on medium heat about 4 minutes per side until a nice crust forms, then set aside.",
+        "In the same pan, saute the onions for 4 minutes, then add the minced garlic and cook until fragrant.",
+        "Stir in the tomato paste and mix well with the onions and garlic. After 2 minutes, pour in the red wine and let it reduce for 3 minutes on medium heat.",
+        "Add the beef broth and scrape the bottom of the pan to get all the flavor. Season the broth to taste (she adds a little more beef bouillon if it needs salt).",
+        "Add the beef roast, carrots, baby gold potatoes, and thyme plus the butter. Cover and cook 3 hours at 350F.",
+        "Out of the oven, skim as much fat as you can, shred the roast, and serve over mashed potatoes."
+      ],
+      "batch_note": "Cook once, eat for days \u2014 the shredded roast reheats great. Store the meat and veg in the braising liquid so it stays juicy.",
+      "cameron_note": "Rich but not spicy, so it works as-is for her. She prefers it served over mashed potatoes rather than the potatoes cooked in the pot.",
+      "seasonal_note": "Classic cold-weather comfort food \u2014 perfect for a Pittsburgh fall or winter Sunday.",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
     }
   ]
 }
