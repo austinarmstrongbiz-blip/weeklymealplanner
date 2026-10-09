@@ -129,7 +129,8 @@
           "combined": 4.0
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-05-11"
     },
     {
       "id": "turkey-spring-onion-egg-muffins",
@@ -239,7 +240,8 @@
           "combined": 3.5
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-05-11"
     },
     {
       "id": "lemon-herb-chicken-med-bowl",
@@ -372,7 +374,8 @@
           "combined": 4.0
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-05-11"
     },
     {
       "id": "sesame-ginger-chicken-edamame-bowl",
@@ -505,7 +508,8 @@
           "combined": 3.5
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-05-11"
     },
     {
       "id": "pesto-chicken-spring-pea-quinoa",
@@ -611,7 +615,8 @@
           "combined": 4.0
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-05-11"
     },
     {
       "id": "greek-chicken-arugula-salad",
@@ -740,7 +745,8 @@
           "combined": 4.0
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-05-11"
     },
     {
       "id": "spring-pasta-primavera",
@@ -868,7 +874,8 @@
           "combined": 4.0
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-05-11"
     },
     {
       "id": "thai-basil-chicken-stirfry",
@@ -1006,7 +1013,8 @@
           "combined": 4.5
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-05-11"
     },
     {
       "id": "loaded-chicken-fajita-bowls",
@@ -1152,7 +1160,8 @@
           "combined": 3.0
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-05-11"
     },
     {
       "id": "miso-glazed-salmon",
@@ -1288,7 +1297,8 @@
           "combined": 4.5
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-05-11"
     },
     {
       "id": "turkey-meatballs-spaghetti",
@@ -1427,7 +1437,8 @@
           "combined": 4.0
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-05-11"
     },
     {
       "id": "greek-lamb-keftedes",
@@ -1595,7 +1606,8 @@
           "combined": 4.5
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-05-11"
     },
     {
       "id": "smoker-baby-back-ribs",
@@ -1760,7 +1772,8 @@
           "combined": 5.0
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-05-11"
     },
     {
       "id": "strawberry-rhubarb-yogurt-bowl",
@@ -1904,7 +1917,8 @@
           "cameron": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-05-11"
     },
     {
       "id": "spring-asparagus-turkey-egg-bites",
@@ -2005,7 +2019,8 @@
           "cameron": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-05-11"
     },
     {
       "id": "korean-bbq-chicken-bowl",
@@ -2149,7 +2164,8 @@
           "cameron": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-05-11"
     },
     {
       "id": "thai-peanut-soba-bowl",
@@ -2281,7 +2297,8 @@
           "cameron": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-05-11"
     },
     {
       "id": "spring-arugula-prosciutto-salad",
@@ -2393,7 +2410,8 @@
           "cameron": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-05-11"
     },
     {
       "id": "smoked-chicken-lettuce-wraps",
@@ -2530,7 +2548,8 @@
           "cameron": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-05-11"
     },
     {
       "id": "lemon-chicken-piccata",
@@ -2655,7 +2674,8 @@
           "cameron": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-05-11"
     },
     {
       "id": "zaatar-shrimp-couscous",
@@ -2765,7 +2785,8 @@
           "cameron": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-05-11"
     },
     {
       "id": "coconut-green-curry-chicken",
@@ -2891,7 +2912,8 @@
           "cameron": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-05-11"
     },
     {
       "id": "teriyaki-salmon-bowl",
@@ -3021,7 +3043,8 @@
           "cameron": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-05-11"
     },
     {
       "id": "ground-turkey-street-tacos",
@@ -3162,7 +3185,8 @@
           "cameron": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-05-11"
     },
     {
       "id": "chicken-souvlaki-skewers",
@@ -3332,7 +3356,8 @@
           "cameron": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-05-11"
     },
     {
       "id": "beer-can-smoked-chicken",
@@ -3477,7 +3502,8 @@
           "cameron": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-05-11"
     },
     {
       "id": "strawberry-banana-smoothie-bowl",
@@ -3625,7 +3651,8 @@
         }
       },
       "retired": false,
-      "allergy_note": "Swapped from mango to banana + extra strawberries (2026-09) -- Austin can't really eat mango, peach, or melon (not a severe allergy, just avoid)."
+      "allergy_note": "Swapped from mango to banana + extra strawberries (2026-09) -- Austin can't really eat mango, peach, or melon (not a severe allergy, just avoid).",
+      "added_date": "2026-09-12"
     },
     {
       "id": "egg-white-veggie-frittata-cups",
@@ -3741,7 +3768,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-05-11"
     },
     {
       "id": "caprese-chicken-orzo-bowl",
@@ -3878,7 +3906,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-05-11"
     },
     {
       "id": "spicy-thai-chicken-cucumber-noodle-salad",
@@ -4073,7 +4102,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-05-11"
     },
     {
       "id": "watermelon-arugula-grilled-chicken-salad",
@@ -4240,7 +4270,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-05-11"
     },
     {
       "id": "lemon-ricotta-pasta-snap-peas",
@@ -4363,7 +4394,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-05-11"
     },
     {
       "id": "greek-chicken-gyro-plates",
@@ -4476,7 +4508,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-05-11"
     },
     {
       "id": "drunken-noodles-ground-turkey",
@@ -4607,7 +4640,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-05-11"
     },
     {
       "id": "miso-butter-chicken-soba-snap-peas",
@@ -4725,7 +4759,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-05-11"
     },
     {
       "id": "chipotle-chicken-burrito-bowls",
@@ -4847,7 +4882,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-05-11"
     },
     {
       "id": "smoked-spatchcock-chicken-chimichurri",
@@ -5006,7 +5042,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-05-11"
     },
     {
       "id": "smoked-chicken-watercress-snap-pea-salad",
@@ -5153,7 +5190,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-05-11"
     },
     {
       "id": "shakshuka-merguez-warm-pita",
@@ -5290,7 +5328,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-05-11"
     },
     {
       "id": "peach-barbecue-sauce",
@@ -5385,7 +5424,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-06-23"
     },
     {
       "id": "barbecue-pulled-pork-rd112",
@@ -5464,7 +5504,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-06-23"
     },
     {
       "id": "burger-sauce-rd112",
@@ -5536,7 +5577,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-06-23"
     },
     {
       "id": "sesame-seed-croutons-rd112",
@@ -5601,7 +5643,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-06-23"
     },
     {
       "id": "apple-cider-vinaigrette-rd112",
@@ -5678,7 +5721,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-06-23"
     },
     {
       "id": "pickled-jalapenos-shallots-rd112",
@@ -5753,7 +5797,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-06-23"
     },
     {
       "id": "pulled-pork-grain-bowls-rd112",
@@ -5844,7 +5889,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-06-23"
     },
     {
       "id": "burger-bowls-sesame-croutons-rd112",
@@ -5947,7 +5993,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-06-23"
     },
     {
       "id": "bbq-pork-tacos-apple-cider-slaw-rd112",
@@ -6034,7 +6081,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-06-23"
     },
     {
       "id": "bbq-chicken-salad-sesame-croutons-rd112",
@@ -6145,7 +6193,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-06-23"
     },
     {
       "id": "cheesy-california-burgers-rd112",
@@ -6239,7 +6288,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-06-23"
     },
     {
       "id": "bruschetta-chicken-bowls",
@@ -6391,7 +6441,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-06-23"
     },
     {
       "id": "overnight-protein-oats",
@@ -6460,7 +6511,8 @@
       "equipment": [
         "mason jars or airtight containers",
         "spoon"
-      ]
+      ],
+      "added_date": "2026-06-23"
     },
     {
       "id": "turkey-zucchini-egg-scramble-wraps",
@@ -6554,7 +6606,8 @@
         "large skillet",
         "Breville Smart Oven Pro",
         "foil or parchment"
-      ]
+      ],
+      "added_date": "2026-06-23"
     },
     {
       "id": "greek-lamb-keftedes-bowl",
@@ -6630,7 +6683,8 @@
       "equipment": [
         "bowl",
         "microwave (optional reheat)"
-      ]
+      ],
+      "added_date": "2026-06-23"
     },
     {
       "id": "sesame-ginger-salmon-cucumber-rice-bowl",
@@ -6701,7 +6755,8 @@
       "equipment": [
         "bowl",
         "meal prep containers"
-      ]
+      ],
+      "added_date": "2026-06-23"
     },
     {
       "id": "grilled-chicken-zucchini-caprese-salad",
@@ -6776,7 +6831,8 @@
         "bowl",
         "Breville Smart Oven Pro (batch)",
         "meal prep containers"
-      ]
+      ],
+      "added_date": "2026-06-23"
     },
     {
       "id": "smoked-pulled-pork-lettuce-wrap-bowl",
@@ -6850,7 +6906,8 @@
       "equipment": [
         "bowl",
         "microwave"
-      ]
+      ],
+      "added_date": "2026-06-23"
     },
     {
       "id": "greek-lamb-keftedes-tzatziki-tabbouleh",
@@ -6991,7 +7048,8 @@
         "large skillet",
         "mixing bowl",
         "rice cooker (quinoa)"
-      ]
+      ],
+      "added_date": "2026-06-23"
     },
     {
       "id": "miso-glazed-salmon-snap-peas",
@@ -7085,7 +7143,8 @@
         "skillet",
         "sheet pan",
         "foil"
-      ]
+      ],
+      "added_date": "2026-06-23"
     },
     {
       "id": "carne-asada-tacos-corn-pico",
@@ -7189,7 +7248,8 @@
       "equipment": [
         "tabletop griddle or cast iron",
         "skillet (corn char)"
-      ]
+      ],
+      "added_date": "2026-06-23"
     },
     {
       "id": "basil-zucchini-pasta-hot-sausage",
@@ -7274,7 +7334,8 @@
       "equipment": [
         "large pot",
         "large skillet"
-      ]
+      ],
+      "added_date": "2026-06-23"
     },
     {
       "id": "thai-basil-pork-stir-fry",
@@ -7366,7 +7427,8 @@
         "wok or large skillet",
         "rice cooker or pot",
         "small pan (eggs)"
-      ]
+      ],
+      "added_date": "2026-06-23"
     },
     {
       "id": "smoked-pulled-pork-shoulder",
@@ -7472,7 +7534,8 @@
         "bear claws or forks",
         "cooler (rest)",
         "butcher paper or foil"
-      ]
+      ],
+      "added_date": "2026-06-23"
     },
     {
       "id": "zaatar-shrimp-herb-couscous",
@@ -7571,7 +7634,8 @@
       "equipment": [
         "skillet or grill pan",
         "large bowl (couscous)"
-      ]
+      ],
+      "added_date": "2026-06-23"
     },
     {
       "id": "turkey-spinach-egg-wraps",
@@ -7662,7 +7726,8 @@
       "equipment": [
         "large skillet",
         "Breville Smart Oven Pro"
-      ]
+      ],
+      "added_date": "2026-06-23"
     },
     {
       "id": "arugula-prosciutto-orzo-bowl",
@@ -7745,7 +7810,8 @@
         "pot",
         "jar (dressing)",
         "meal prep containers"
-      ]
+      ],
+      "added_date": "2026-06-23"
     },
     {
       "id": "pesto-chicken-spinach-pasta",
@@ -7830,7 +7896,8 @@
         "large pot",
         "large skillet",
         "Breville (optional chicken batch)"
-      ]
+      ],
+      "added_date": "2026-06-23"
     },
     {
       "id": "ginger-soy-tilapia-snow-peas",
@@ -7913,7 +7980,8 @@
       "equipment": [
         "nonstick skillet",
         "rice cooker or pot"
-      ]
+      ],
+      "added_date": "2026-06-23"
     },
     {
       "id": "chipotle-turkey-taco-bowls",
@@ -8008,7 +8076,8 @@
       "equipment": [
         "large skillet",
         "rice cooker"
-      ]
+      ],
+      "added_date": "2026-06-23"
     },
     {
       "id": "lamb-keftedes-couscous-tahini",
@@ -8123,7 +8192,8 @@
       "equipment": [
         "cast iron or large skillet",
         "mixing bowl"
-      ]
+      ],
+      "added_date": "2026-06-23"
     },
     {
       "id": "lamb-keftedes-couscous-bowl",
@@ -8184,7 +8254,8 @@
       "equipment": [
         "microwave",
         "bowl"
-      ]
+      ],
+      "added_date": "2026-06-23"
     },
     {
       "id": "thai-basil-beef-stir-fry",
@@ -8282,7 +8353,8 @@
       "equipment": [
         "wok or large skillet",
         "small pan (fried eggs)"
-      ]
+      ],
+      "added_date": "2026-06-23"
     },
     {
       "id": "garbanzo-tahini-spinach-bowl",
@@ -8364,7 +8436,8 @@
       "equipment": [
         "bowl",
         "whisk"
-      ]
+      ],
+      "added_date": "2026-06-23"
     },
     {
       "id": "smoked-chicken-thighs-street-corn",
@@ -8466,7 +8539,8 @@
         "smoker",
         "probe thermometer",
         "skillet (corn char)"
-      ]
+      ],
+      "added_date": "2026-06-23"
     },
     {
       "id": "smoked-chicken-spinach-wrap-bowl",
@@ -8530,7 +8604,8 @@
       "equipment": [
         "microwave",
         "bowl"
-      ]
+      ],
+      "added_date": "2026-06-23"
     },
     {
       "id": "moroccan-tilapia-pearl-couscous",
@@ -8625,7 +8700,8 @@
       "equipment": [
         "skillet or Breville Smart Oven Pro",
         "bowl"
-      ]
+      ],
+      "added_date": "2026-06-23"
     },
     {
       "id": "berry-protein-overnight-oats",
@@ -8688,7 +8764,8 @@
       "batch_note": "Prep all 4 jars Saturday night. Keeps 5 days refrigerated. Top fresh each morning.",
       "cameron_note": "Cameron uses coconut flakes instead of almond butter; smaller base portion (2/3 cup almond milk, slightly less yogurt).",
       "seasonal_note": "Peak strawberry + blueberry season in Pittsburgh \u2014 use the freshest berries you can find.",
-      "equipment": "Mason jars or meal prep containers"
+      "equipment": "Mason jars or meal prep containers",
+      "added_date": "2026-06-23"
     },
     {
       "id": "zucchini-turkey-sausage-egg-bites",
@@ -8753,7 +8830,8 @@
       "batch_note": "Prep Sunday during batch cook. Austin eats 4 bites per morning, Cameron 3 bites + avocado side.",
       "cameron_note": "Cameron adds 1/4 sliced avocado on the side for healthy fats and creaminess.",
       "seasonal_note": "Zucchini is peaking \u2014 use it up! Spring onions add brightness.",
-      "equipment": "12-cup muffin tin, box grater"
+      "equipment": "12-cup muffin tin, box grater",
+      "added_date": "2026-06-23"
     },
     {
       "id": "mediterranean-chicken-cucumber-grain-bowl",
@@ -8816,7 +8894,8 @@
       "batch_note": "Assemble 4 bowls Sunday. Dressing on the side. Keeps 4 days.",
       "cameron_note": "+ 1/4 avocado sliced fresh daily, extra feta crumble.",
       "seasonal_note": "Cucumber and cherry tomatoes at their summer best.",
-      "equipment": "Meal prep containers"
+      "equipment": "Meal prep containers",
+      "added_date": "2026-06-23"
     },
     {
       "id": "gochujang-chicken-lettuce-wraps",
@@ -8879,7 +8958,8 @@
       "batch_note": "Prep 4 containers Sunday. Keep lettuce separate. Assemble at lunch.",
       "cameron_note": "+ 1/4 avocado in wraps, use lighter gochujang drizzle.",
       "seasonal_note": "Crisp butter lettuce + fresh cucumbers = perfect summer wrap vehicle.",
-      "equipment": "Meal prep containers, small bags for lettuce"
+      "equipment": "Meal prep containers, small bags for lettuce",
+      "added_date": "2026-06-23"
     },
     {
       "id": "italian-zucchini-chicken-pesto-pasta-salad",
@@ -8946,7 +9026,8 @@
       "batch_note": "Assemble Sunday. Keeps 4 days. Add extra pesto drizzle day-of if dry.",
       "cameron_note": "+ 1/4 avocado sliced fresh, extra pesto drizzle.",
       "seasonal_note": "Peak zucchini + fresh basil + cherry tomatoes = summer Italian perfection.",
-      "equipment": "Large pot, large skillet"
+      "equipment": "Large pot, large skillet",
+      "added_date": "2026-06-23"
     },
     {
       "id": "smoked-pork-tenderloin-grain-bowl",
@@ -9004,7 +9085,8 @@
       "batch_note": "Assemble fresh Sunday from Saturday smoker leftovers.",
       "cameron_note": "+ 1/4 avocado, extra tzatziki drizzle.",
       "seasonal_note": "Fresh arugula + cherry BBQ = summer fusion.",
-      "equipment": "None \u2014 assembly only"
+      "equipment": "None \u2014 assembly only",
+      "added_date": "2026-06-23"
     },
     {
       "id": "harissa-chicken-zucchini-couscous",
@@ -9084,7 +9166,8 @@
       "batch_note": "Can use batch-prepped harissa chicken from Sunday for faster weeknight assembly.",
       "cameron_note": "Smaller chicken portion; extra couscous and a generous yogurt dollop to balance the harissa heat.",
       "seasonal_note": "Peak zucchini + fresh herbs = summer Mediterranean done right.",
-      "equipment": "Skillet, sheet pan, small pot"
+      "equipment": "Skillet, sheet pan, small pot",
+      "added_date": "2026-06-23"
     },
     {
       "id": "chicken-enchilada-verde-bowls",
@@ -9155,7 +9238,8 @@
       "batch_note": "Uses batch chicken. Quick 10-min assembly on a weeknight.",
       "cameron_note": "+ sliced avocado, lighter salsa verde, extra cheese for creaminess.",
       "seasonal_note": "Fresh corn just starting in season \u2014 use it if you can find it at the market.",
-      "equipment": "Skillet"
+      "equipment": "Skillet",
+      "added_date": "2026-06-23"
     },
     {
       "id": "thai-coconut-basil-shrimp",
@@ -9236,7 +9320,8 @@
       "batch_note": "Cook fresh Wednesday night \u2014 shrimp dishes are best day-of.",
       "cameron_note": "Use less curry paste (1 tbsp instead of 2) for her portion; no bird eye chili; extra coconut milk for creaminess.",
       "seasonal_note": "Last weeks of snap peas \u2014 enjoy them before summer fully arrives.",
-      "equipment": "Large skillet or wok"
+      "equipment": "Large skillet or wok",
+      "added_date": "2026-06-23"
     },
     {
       "id": "miso-ginger-pork-stir-fry-snap-peas",
@@ -9313,7 +9398,8 @@
       "batch_note": "Cook fresh Thursday night \u2014 pork stir-fry is best day-of. Quick 22-min meal.",
       "cameron_note": "Smaller pork portion; slightly more rice. Miso-ginger is naturally mild \u2014 no adjustment needed.",
       "seasonal_note": "Final weeks of snap peas \u2014 make the most of them in this quick stir-fry.",
-      "equipment": "Large skillet or wok"
+      "equipment": "Large skillet or wok",
+      "added_date": "2026-06-23"
     },
     {
       "id": "lemon-garlic-shrimp-zucchini-linguine",
@@ -9387,7 +9473,8 @@
       "batch_note": "Cook fresh Friday night. Can use Sunday batch linguine for speed.",
       "cameron_note": "Smaller shrimp portion; lighter on red pepper flakes. Extra lemon + Parmesan.",
       "seasonal_note": "Zucchini at its peak \u2014 the char on the half-moons is everything.",
-      "equipment": "Large skillet, large pot (if cooking pasta fresh)"
+      "equipment": "Large skillet, large pot (if cooking pasta fresh)",
+      "added_date": "2026-06-23"
     },
     {
       "id": "smoked-pork-tenderloin-cherry-bbq",
@@ -9478,7 +9565,8 @@
       "batch_note": "Dry brine Friday night. Smoke Saturday or Sunday. Reserve leftover pork for Sunday grain bowl.",
       "cameron_note": "Smaller pork portion (5 oz vs 8 oz). Extra slaw. The cherry glaze is naturally sweet and mild \u2014 no adjustment needed.",
       "seasonal_note": "Cherries just hitting the market in Pittsburgh \u2014 the cherry BBQ glaze is the seasonal star.",
-      "equipment": "Smoker, cherry wood chips"
+      "equipment": "Smoker, cherry wood chips",
+      "added_date": "2026-06-23"
     },
     {
       "id": "greek-lemon-chicken-potatoes-tzatziki",
@@ -9552,7 +9640,8 @@
       "batch_note": "Cook fresh Sunday night. Uses batch tzatziki from Sunday prep.",
       "cameron_note": "Slightly smaller chicken portion. Extra potatoes and a very generous tzatziki dollop.",
       "seasonal_note": "Cherry tomatoes roasting in the pan add summer sweetness.",
-      "equipment": "Large sheet pan"
+      "equipment": "Large sheet pan",
+      "added_date": "2026-06-23"
     },
     {
       "id": "antipasto-pasta-salad-calabrian-chili",
@@ -9671,7 +9760,8 @@
       "cameron_note": "+ 1/4 avocado on top. Use 1 tsp Calabrian chili paste (milder end). The pepperoncini and olives give plenty of flavor without extra heat.",
       "seasonal_note": "Peak summer recipe \u2014 cherry tomatoes and fresh basil at their best. Great for hot days when you want a substantial cold meal.",
       "equipment": "Large pot, large mixing bowl, skillet or grill for chicken",
-      "source": "Adapted from TikTok antipasto pasta salad recipe \u2014 Calabrian chili vinaigrette version. Added grilled chicken for protein targets."
+      "source": "Adapted from TikTok antipasto pasta salad recipe \u2014 Calabrian chili vinaigrette version. Added grilled chicken for protein targets.",
+      "added_date": "2026-06-23"
     },
     {
       "id": "eggs-and-toast",
@@ -9774,7 +9864,8 @@
           "combined": 0
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-06-23"
     },
     {
       "id": "no-cook-night",
@@ -9828,7 +9919,8 @@
           "combined": 0
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-06-23"
     },
     {
       "id": "chipotle-turkey-zucchini-egg-bites",
@@ -9933,7 +10025,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-07-06"
     },
     {
       "id": "dijon-herb-chicken-salad-on-arugula",
@@ -10041,7 +10134,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-07-06"
     },
     {
       "id": "smoky-chipotle-chicken-rice-bowls",
@@ -10151,7 +10245,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-07-06"
     },
     {
       "id": "chilled-sesame-teriyaki-soba-bowl",
@@ -10271,7 +10366,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-07-06"
     },
     {
       "id": "blackened-tilapia-street-tacos-with-corn-slaw",
@@ -10403,7 +10499,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-07-06"
     },
     {
       "id": "smoke-kissed-bone-in-thighs-with-charred-corn-pico",
@@ -10523,7 +10620,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-07-06"
     },
     {
       "id": "smoked-chicken-corn-tomato-bowl",
@@ -10616,7 +10714,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-07-06"
     },
     {
       "id": "baja-spiced-shrimp-lettuce-wraps",
@@ -10743,7 +10842,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-07-06"
     },
     {
       "id": "jalapeno-cheddar-turkey-smash-burgers",
@@ -10868,7 +10968,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-07-06"
     },
     {
       "id": "charred-zucchini-tomato-white-bean-panzanella",
@@ -10980,7 +11081,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-07-06"
     },
     {
       "id": "spicy-pasta-salad",
@@ -11039,6 +11141,7 @@
       "batch_note": "",
       "cameron_note": "",
       "source_url": "https://plantyou.com/spicy-pasta-salad/",
+      "added_date": "2026-07-06",
       "history": {
         "first_used": "",
         "last_used": "",
@@ -11102,6 +11205,7 @@
       "batch_note": "",
       "cameron_note": "",
       "source_url": "https://allnutritious.com/crockpot-pesto-chicken/",
+      "added_date": "2026-07-06",
       "history": {
         "first_used": "",
         "last_used": "",
@@ -11168,6 +11272,7 @@
       "batch_note": "",
       "cameron_note": "",
       "source_url": "https://cushyspa.com/baked-caesar-chicken/",
+      "added_date": "2026-07-06",
       "history": {
         "first_used": "",
         "last_used": "",
@@ -11242,6 +11347,7 @@
       "batch_note": "",
       "cameron_note": "",
       "source_url": "https://askthefoodgeek.com/loaded-zucchini-potato-soup/",
+      "added_date": "2026-07-06",
       "history": {
         "first_used": "",
         "last_used": "",
@@ -11313,6 +11419,7 @@
       "batch_note": "",
       "cameron_note": "",
       "source_url": "https://sunglowkitchen.com/spicy-roasted-tomato-white-bean-stew/",
+      "added_date": "2026-07-06",
       "history": {
         "first_used": "",
         "last_used": "",
@@ -11403,6 +11510,7 @@
       "batch_note": "",
       "cameron_note": "",
       "source_url": "https://ihearteating.com/freezer-lasagna-recipe/",
+      "added_date": "2026-07-06",
       "history": {
         "first_used": "",
         "last_used": "",
@@ -11472,6 +11580,7 @@
       "batch_note": "",
       "cameron_note": "",
       "source_url": "https://birtheatlove.com/super-simple-slow-cooker-fall-apart-roast-beef/",
+      "added_date": "2026-07-06",
       "history": {
         "first_used": "",
         "last_used": "",
@@ -11548,6 +11657,7 @@
       "batch_note": "",
       "cameron_note": "",
       "source_url": "https://theboatshedcafe.com/cajun-potato-soup/",
+      "added_date": "2026-07-06",
       "history": {
         "first_used": "",
         "last_used": "",
@@ -11625,6 +11735,7 @@
       "batch_note": "",
       "cameron_note": "",
       "source_url": "https://aflavorjournal.com/creamy-lemon-and-pea-risotto-with-salmon/",
+      "added_date": "2026-07-06",
       "history": {
         "first_used": "",
         "last_used": "",
@@ -11703,6 +11814,7 @@
       "batch_note": "",
       "cameron_note": "",
       "source_url": "https://handletheheat.com/browned-butter-toffee-chocolate-chip-cookies/",
+      "added_date": "2026-07-06",
       "history": {
         "first_used": "",
         "last_used": "",
@@ -11781,6 +11893,7 @@
       "batch_note": "",
       "cameron_note": "",
       "source_url": "https://thecozycook.com/ricotta-meatballs/",
+      "added_date": "2026-07-06",
       "history": {
         "first_used": "",
         "last_used": "",
@@ -11849,6 +11962,7 @@
       "batch_note": "",
       "cameron_note": "",
       "source_url": "https://beyondkimchee.com/classic-thai-beef-salad/",
+      "added_date": "2026-07-06",
       "history": {
         "first_used": "",
         "last_used": "",
@@ -11922,6 +12036,7 @@
       "batch_note": "",
       "cameron_note": "",
       "source_url": "https://whollytasteful.com/air-fryer-chicken-kabobs/",
+      "added_date": "2026-07-06",
       "history": {
         "first_used": "",
         "last_used": "",
@@ -12003,6 +12118,7 @@
       "batch_note": "",
       "cameron_note": "",
       "source_url": "https://diethood.com/red-beans-and-rice/",
+      "added_date": "2026-07-06",
       "history": {
         "first_used": "",
         "last_used": "",
@@ -12088,6 +12204,7 @@
       "batch_note": "",
       "cameron_note": "",
       "source_url": "https://juliemarieeats.com/smores-cheesecake/",
+      "added_date": "2026-07-06",
       "history": {
         "first_used": "",
         "last_used": "",
@@ -12179,6 +12296,7 @@
       "batch_note": "",
       "cameron_note": "",
       "source_url": "https://justinesnacks.com/cornmeal-brown-butter-cinnamon-rolls/",
+      "added_date": "2026-07-06",
       "history": {
         "first_used": "",
         "last_used": "",
@@ -12249,6 +12367,7 @@
       "batch_note": "",
       "cameron_note": "",
       "source_url": "https://freshbeanbakery.com/french-toast-iced-latte/",
+      "added_date": "2026-07-06",
       "history": {
         "first_used": "",
         "last_used": "",
@@ -12338,6 +12457,7 @@
       "batch_note": "",
       "cameron_note": "",
       "source_url": "https://thesaltycooker.com/banana-bread-cinnamon-rolls-with-peanut-butter-frosting/",
+      "added_date": "2026-07-06",
       "history": {
         "first_used": "",
         "last_used": "",
@@ -12410,6 +12530,7 @@
       "batch_note": "",
       "cameron_note": "",
       "source_url": "https://iamhomesteader.com/jalapeno-chicken/",
+      "added_date": "2026-07-06",
       "history": {
         "first_used": "",
         "last_used": "",
@@ -12502,6 +12623,7 @@
       "batch_note": "",
       "cameron_note": "",
       "source_url": "https://mylifeafterdairy.com/taco-lunch-bowls/",
+      "added_date": "2026-07-06",
       "history": {
         "first_used": "",
         "last_used": "",
@@ -12576,6 +12698,7 @@
       "batch_note": "",
       "cameron_note": "",
       "source_url": "https://healthyfitnessmeals.com/mediterranean-chickpea-salad/",
+      "added_date": "2026-07-06",
       "history": {
         "first_used": "",
         "last_used": "",
@@ -12642,6 +12765,7 @@
       "batch_note": "",
       "cameron_note": "",
       "source_url": "https://feelgoodfoodie.net/grilled-mozzarella-sandwich/",
+      "added_date": "2026-07-06",
       "history": {
         "first_used": "",
         "last_used": "",
@@ -12716,6 +12840,7 @@
       "batch_note": "",
       "cameron_note": "",
       "source_url": "https://40aprons.com/caprese-sandwich/",
+      "added_date": "2026-07-06",
       "history": {
         "first_used": "",
         "last_used": "",
@@ -12785,6 +12910,7 @@
       "batch_note": "",
       "cameron_note": "",
       "source_url": "https://natashaskitchen.com/philly-cheesesteak-quesadilla-recipe/",
+      "added_date": "2026-07-06",
       "history": {
         "first_used": "",
         "last_used": "",
@@ -12862,6 +12988,7 @@
       "batch_note": "",
       "cameron_note": "",
       "source_url": "https://willcookforsmiles.com/queso-blanco-dip-with-chorizo/",
+      "added_date": "2026-07-06",
       "history": {
         "first_used": "",
         "last_used": "",
@@ -12929,6 +13056,7 @@
       "batch_note": "",
       "cameron_note": "",
       "source_url": "https://eatingonadime.com/crock-pot-smothered-pork-chops/",
+      "added_date": "2026-07-06",
       "history": {
         "first_used": "",
         "last_used": "",
@@ -12998,6 +13126,7 @@
       "batch_note": "",
       "cameron_note": "",
       "source_url": "https://thereciperebel.com/slow-cooker-creamy-tomato-basil-chicken/",
+      "added_date": "2026-07-06",
       "history": {
         "first_used": "",
         "last_used": "",
@@ -13062,6 +13191,7 @@
       "batch_note": "",
       "cameron_note": "",
       "source_url": "https://familyfreshmeals.com/creamy-crockpot-crack-chicken/",
+      "added_date": "2026-07-06",
       "history": {
         "first_used": "",
         "last_used": "",
@@ -13135,6 +13265,7 @@
       "batch_note": "",
       "cameron_note": "",
       "source_url": "https://wholesomemadeeasy.com/chicken-zucchini-casserole/",
+      "added_date": "2026-07-06",
       "history": {
         "first_used": "",
         "last_used": "",
@@ -13203,6 +13334,7 @@
       "batch_note": "",
       "cameron_note": "",
       "source_url": "https://simplystacie.net/taco-chili/",
+      "added_date": "2026-07-06",
       "history": {
         "first_used": "",
         "last_used": "",
@@ -13276,6 +13408,7 @@
       "batch_note": "",
       "cameron_note": "",
       "source_url": "https://easybudgetrecipes.com/cracker-barrel-broccoli-cheddar-chicken-recipe/",
+      "added_date": "2026-07-06",
       "history": {
         "first_used": "",
         "last_used": "",
@@ -13346,6 +13479,7 @@
       "batch_note": "",
       "cameron_note": "",
       "source_url": "https://jocooks.com/recipe/stuffed-portobello-mushrooms/",
+      "added_date": "2026-07-06",
       "history": {
         "first_used": "",
         "last_used": "",
@@ -13423,6 +13557,7 @@
       "batch_note": "",
       "cameron_note": "",
       "source_url": "https://princesspinkygirl.com/crack-chicken-chili/",
+      "added_date": "2026-07-06",
       "history": {
         "first_used": "",
         "last_used": "",
@@ -13496,6 +13631,7 @@
       "batch_note": "",
       "cameron_note": "",
       "source_url": "https://saltandlavender.com/creamy-sausage-and-peppers-pasta/",
+      "added_date": "2026-07-06",
       "history": {
         "first_used": "",
         "last_used": "",
@@ -13564,6 +13700,7 @@
       "batch_note": "",
       "cameron_note": "",
       "source_url": "https://bellyfull.net/zuppa-toscana/",
+      "added_date": "2026-07-06",
       "history": {
         "first_used": "",
         "last_used": "",
@@ -13635,6 +13772,7 @@
       "batch_note": "",
       "cameron_note": "",
       "source_url": "https://iambaker.net/fluffernutter-cookies/",
+      "added_date": "2026-07-06",
       "history": {
         "first_used": "",
         "last_used": "",
@@ -13768,7 +13906,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-08-09"
     },
     {
       "id": "charred-corn-chicken-panzanella",
@@ -13883,7 +14022,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-08-09"
     },
     {
       "id": "gochujang-glazed-salmon-rice-bowls",
@@ -14004,7 +14144,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-08-09"
     },
     {
       "id": "fiery-blackened-tilapia-tacos",
@@ -14127,7 +14268,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-08-09"
     },
     {
       "id": "charred-onion-smash-burgers",
@@ -14246,7 +14388,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-08-09"
     },
     {
       "id": "blistered-thai-basil-shrimp",
@@ -14366,7 +14509,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-08-09"
     },
     {
       "id": "charred-salmon-herb-couscous",
@@ -14479,7 +14623,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-08-09"
     },
     {
       "id": "crispy-tilapia-blistered-tomato-orzo",
@@ -14594,7 +14739,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-08-09"
     },
     {
       "id": "jalapeno-cheddar-cottage-cheese-egg-cups",
@@ -14705,7 +14851,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-08-09"
     },
     {
       "id": "smoky-pepper-egg-breakfast-scramble",
@@ -14811,7 +14958,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-08-09"
     },
     {
       "id": "citrus-marinade-rd125",
@@ -14914,7 +15062,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-08-09"
     },
     {
       "id": "elote-salsa-rd125",
@@ -15010,7 +15159,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-08-09"
     },
     {
       "id": "cumin-lime-vinaigrette-rd125",
@@ -15092,7 +15242,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-08-09"
     },
     {
       "id": "spicy-avocado-crema-rd125",
@@ -15188,7 +15339,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-08-09"
     },
     {
       "id": "jalapeno-lime-yogurt-crema-rd125",
@@ -15284,7 +15436,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-08-09"
     },
     {
       "id": "sambal-glaze-rd125",
@@ -15368,7 +15521,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-08-09"
     },
     {
       "id": "crispy-tortilla-strips-rd125",
@@ -15441,7 +15595,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-08-09"
     },
     {
       "id": "fiesta-en-mi-boca-chicken-salad",
@@ -15547,7 +15702,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-08-09"
     },
     {
       "id": "savory-corn-rice-chicken-bowls",
@@ -15653,7 +15809,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-08-09"
     },
     {
       "id": "sticky-orange-salmon-and-brussels",
@@ -15770,7 +15927,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-08-09"
     },
     {
       "id": "crispy-sambal-glazed-shrimp",
@@ -15888,7 +16046,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-08-09"
     },
     {
       "id": "asada-ground-beef-corn-rice-bowls",
@@ -16015,7 +16174,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-08-09"
     },
     {
       "id": "citrus-tilapia-tacos-charred-romaine",
@@ -16134,7 +16294,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-08-09"
     },
     {
       "id": "rosemary-focaccia",
@@ -16225,7 +16386,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-09-12"
     },
     {
       "id": "caramelized-spring-onion-ramen",
@@ -16387,7 +16549,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-09-12"
     },
     {
       "id": "pesto-butter-salmon-cannellini",
@@ -16516,7 +16679,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-09-12"
     },
     {
       "id": "smoked-three-pepper-chicken-quinoa",
@@ -16608,7 +16772,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-09-12"
     },
     {
       "id": "basil-white-bean-pasta-chicken-skewers",
@@ -16733,7 +16898,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-09-12"
     },
     {
       "id": "pesto-chicken-focaccia-sandwich",
@@ -16836,7 +17002,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-09-12"
     },
     {
       "id": "banana-pepper-cheddar-cottage-cheese-egg-bake",
@@ -16970,7 +17137,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-09-12"
     },
     {
       "id": "mediterranean-quinoa-chickpea-tahini-bowl",
@@ -17074,7 +17242,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-09-12"
     },
     {
       "id": "curried-chicken-tomato-pan-sauce-rd132",
@@ -17199,7 +17368,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-09-30"
     },
     {
       "id": "salmon-cakes-lemony-green-salad-rd132",
@@ -17340,7 +17510,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-09-30"
     },
     {
       "id": "sheet-tray-chicken-kofta-rd132",
@@ -17473,7 +17644,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-09-30"
     },
     {
       "id": "coconut-curry-poached-fish-rd132",
@@ -17593,7 +17765,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-09-30"
     },
     {
       "id": "shrimp-spinach-scampi-pappardelle-rd132",
@@ -17714,7 +17887,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-09-30"
     },
     {
       "id": "french-onion-short-ribs-rustic-mash-rd131",
@@ -17840,7 +18014,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-09-30"
     },
     {
       "id": "grilled-white-fish-ragout-rd131",
@@ -17952,7 +18127,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-09-30"
     },
     {
       "id": "french-onion-toasties-tomato-soup-rd131",
@@ -18065,7 +18241,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-09-30"
     },
     {
       "id": "pan-roasted-chicken-creamy-peperonata-rd131",
@@ -18182,7 +18359,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-09-30"
     },
     {
       "id": "baked-ratatouille-gnocchi-chicken-meatballs-rd131",
@@ -18294,7 +18472,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-09-30"
     },
     {
       "id": "mint-chutney-rd132",
@@ -18394,7 +18573,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-09-30"
     },
     {
       "id": "lemon-vinaigrette-rd132",
@@ -18482,7 +18662,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-09-30"
     },
     {
       "id": "yogurt-aioli-rd132",
@@ -18554,7 +18735,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-09-30"
     },
     {
       "id": "curry-rub-rd132",
@@ -18645,7 +18827,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-09-30"
     },
     {
       "id": "crispy-shallots-rd132",
@@ -18717,7 +18900,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-09-30"
     },
     {
       "id": "yellow-coconut-curry-base-rd132",
@@ -18823,7 +19007,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-09-30"
     },
     {
       "id": "coconut-rice-rd132",
@@ -18908,7 +19093,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-09-30"
     },
     {
       "id": "garlic-confit-rd131",
@@ -18984,7 +19170,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-09-30"
     },
     {
       "id": "ratatouille-vegetable-ragout-rd131",
@@ -19085,7 +19272,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-09-30"
     },
     {
       "id": "caramelized-onion-medley-rd131",
@@ -19174,7 +19362,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-09-30"
     },
     {
       "id": "roasted-cherry-tomatoes-rd131",
@@ -19254,7 +19443,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-09-30"
     },
     {
       "id": "roasted-potatoes-rd131",
@@ -19326,7 +19516,8 @@
           "combined": null
         }
       },
-      "retired": false
+      "retired": false,
+      "added_date": "2026-09-30"
     },
     {
       "id": "maple-dijon-harvest-chicken-bowl",
@@ -19334,6 +19525,7 @@
       "cuisine": "American / Fall Harvest",
       "source_account": "@calwillcookit",
       "source_url": "https://www.instagram.com/reel/Dd7eXVlClKf/",
+      "added_date": "2026-10-02",
       "meal_type": "dinner",
       "prep": "20 min (+ marinate while prepping sides)",
       "cook": "45-60 min",
@@ -19533,6 +19725,7 @@
       "cuisine": "American / BBQ",
       "source_account": "@calwillcookit",
       "source_url": "https://www.instagram.com/reel/DeP-gllC-YO/",
+      "added_date": "2026-10-08",
       "meal_type": "dinner",
       "prep": "~20 min (cube + season)",
       "cook": "~4 hrs (smoke)",
@@ -19685,6 +19878,7 @@
       "cuisine": "Italian / Fall",
       "source_account": "@kalememaybe",
       "source_url": "https://www.instagram.com/reel/DA4APKFgTFx/",
+      "added_date": "2026-10-08",
       "meal_type": "dinner",
       "prep": "~15 min",
       "cook": "~35 min",
@@ -19813,6 +20007,7 @@
       "cuisine": "American / Fall",
       "source_account": "@kalememaybe",
       "source_url": "https://www.goodmoodfood.news/p/miso-tomato-soup-with-scallion-grilled",
+      "added_date": "2026-10-08",
       "meal_type": "dinner",
       "prep": "~15 min",
       "cook": "~50 min",
@@ -19943,6 +20138,7 @@
       "cuisine": "American / Fall",
       "source_account": "@kalememaybe",
       "source_url": "https://www.instagram.com/reel/DWmZi4CjR5m/",
+      "added_date": "2026-10-08",
       "meal_type": "dessert",
       "prep": "~25 min",
       "cook": "~50 min",
@@ -20078,6 +20274,7 @@
       "cuisine": "Italian / Fall",
       "source_account": "@kalememaybe",
       "source_url": "https://www.instagram.com/p/CvahLK-L4zR/",
+      "added_date": "2026-10-08",
       "meal_type": "appetizer",
       "prep": "~20 min",
       "cook": "~5 min",
@@ -20183,6 +20380,7 @@
       "cuisine": "American / Fall",
       "source_account": "@kalememaybe",
       "source_url": "https://www.goodmoodfood.news/p/sweet-potato-and-halloumi-chopped",
+      "added_date": "2026-10-08",
       "meal_type": "lunch",
       "prep": "~15 min",
       "cook": "~25 min",
@@ -20312,6 +20510,7 @@
       "cuisine": "American / Fall",
       "source_account": "@kalememaybe",
       "source_url": "https://www.instagram.com/reel/DP_zdENEdj2/",
+      "added_date": "2026-10-08",
       "meal_type": "breakfast",
       "prep": "~5 min",
       "cook": "~6 min",
@@ -20407,6 +20606,7 @@
       "cuisine": "Chinese / Fusion",
       "source_account": "@thecontrarianmoney",
       "source_url": "https://www.instagram.com/reel/DePdiHCBSVx/",
+      "added_date": "2026-10-08",
       "meal_type": "dinner",
       "prep": "~15 min",
       "cook": "20-35 min",

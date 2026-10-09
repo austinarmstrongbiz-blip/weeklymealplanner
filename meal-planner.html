@@ -1286,6 +1286,11 @@ select.form-control { cursor: pointer; }
       <select class="filter-select" id="cuisineFilter">
         <option value="">All cuisines</option>
       </select>
+      <select class="filter-select" id="sortFilter">
+        <option value="newest">Newest first</option>
+        <option value="oldest">Oldest first</option>
+        <option value="name">Name A–Z</option>
+      </select>
     </div>
     <div class="filter-chips" id="mealTypeChips">
       <button class="chip active" data-type="all">All</button>
@@ -1598,6 +1603,7 @@ const S = {
   recipeFilter: 'all',
   recipeCuisine:'',
   recipeSearch: '',
+  recipeSort:  'newest',
   planEditMode: false,
   grocery:      null,             // current week's grocery_list.json
   groceryStore: '',               // '' | 'sams' | 'wf'
@@ -1866,6 +1872,8 @@ function buildCuisineFilter() {
     sel.appendChild(opt);
   });
   sel.addEventListener('change', () => { S.recipeCuisine = sel.value; renderRecipes(); });
+  const sortSel = document.getElementById('sortFilter');
+  sortSel.addEventListener('change', () => { S.recipeSort = sortSel.value; renderRecipes(); });
 }
 
 function renderRecipes() {
@@ -1877,6 +1885,14 @@ function renderRecipes() {
               !r.cuisine?.toLowerCase().includes(q) &&
               !(r.tags || []).some(t => t.toLowerCase().includes(q))) return false;
     return !r.retired;
+  });
+
+  // Sort: newest/oldest by added_date, or name A–Z
+  const sortMode = S.recipeSort || 'newest';
+  filtered.sort((a, b) => {
+    if (sortMode === 'name') return (a.name || '').localeCompare(b.name || '');
+    const da = a.added_date || '', db = b.added_date || '';
+    return sortMode === 'oldest' ? da.localeCompare(db) : db.localeCompare(da);
   });
 
   document.getElementById('recipesCount').textContent =
@@ -3895,6 +3911,14 @@ renderRecipes = function() {
       if (!haystack.includes(sea)) return false;
     }
     return !r.retired;
+  });
+
+  // Sort: newest/oldest by added_date, or name A–Z
+  const sortMode = S.recipeSort || 'newest';
+  filtered.sort((a, b) => {
+    if (sortMode === 'name') return (a.name || '').localeCompare(b.name || '');
+    const da = a.added_date || '', db = b.added_date || '';
+    return sortMode === 'oldest' ? da.localeCompare(db) : db.localeCompare(da);
   });
 
   document.getElementById('recipesCount').textContent =
