@@ -20400,6 +20400,140 @@
         }
       },
       "retired": false
+    },
+    {
+      "id": "dumpling-lasagna",
+      "name": "Dumpling Lasagna",
+      "cuisine": "Chinese / Fusion",
+      "source_account": "@thecontrarianmoney",
+      "source_url": "https://www.instagram.com/reel/DePdiHCBSVx/",
+      "meal_type": "dinner",
+      "prep": "~15 min",
+      "cook": "20-35 min",
+      "total": "~45 min",
+      "spice_level": "Medium-hot",
+      "serving_note": "Serves ~4 \u2014 macros are rough estimates, not yet measured",
+      "tags": [
+        "dumplings",
+        "pork",
+        "weeknight",
+        "crowd-pleaser"
+      ],
+      "equipment": "9x13 baking dish, large pot with lid (steam method) or large roasting pan (oven method), shallow bowl of water",
+      "macro_strings": {
+        "austin": "600 cal | 29g P | 27g F | 27g C",
+        "cameron": "500 cal | 25g P | 23g F | 23g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 600,
+          "p": 29,
+          "f": 27,
+          "c": 27
+        },
+        "cameron": {
+          "cal": 500,
+          "p": 25,
+          "f": 23,
+          "c": 23
+        }
+      },
+      "ingredients": [
+        {
+          "name": "FILLING",
+          "qty": null
+        },
+        {
+          "name": "Ground pork",
+          "qty": "1 lb"
+        },
+        {
+          "name": "Green onions, thinly sliced",
+          "qty": "1/3 cup"
+        },
+        {
+          "name": "Fresh ginger, grated",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Garlic cloves, minced",
+          "qty": "4"
+        },
+        {
+          "name": "Oyster sauce",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Black pepper",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Chili crisp",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Soy sauce",
+          "qty": "3 tbsp"
+        },
+        {
+          "name": "Sesame oil",
+          "qty": "1 1/2 tsp"
+        },
+        {
+          "name": "Rice vinegar",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Dumpling wrappers",
+          "qty": "20-25"
+        },
+        {
+          "name": "Chicken broth",
+          "qty": "1/4 cup"
+        },
+        {
+          "name": "TOPPING",
+          "qty": null
+        },
+        {
+          "name": "Soy sauce",
+          "qty": "to taste"
+        },
+        {
+          "name": "Chili crisp",
+          "qty": "to taste"
+        },
+        {
+          "name": "Green onions, thinly sliced",
+          "qty": "to taste"
+        },
+        {
+          "name": "Sesame seeds",
+          "qty": "to taste"
+        }
+      ],
+      "instructions": [
+        "In a large bowl, combine ground pork, green onions, grated ginger, garlic, oyster sauce, chili crisp, pepper, soy sauce, sesame oil, and rice vinegar. Mix until fully combined.",
+        "Grab a baking dish and layer everything like lasagna. Dip each dumpling wrapper in a shallow bowl of water before layering. Start with wrappers, add a layer of pork, then repeat wrappers and pork until all ingredients are used.",
+        "Pour the chicken broth evenly over the top.",
+        "Cook using one of these methods. Steam: bring water to a boil in a large pot, place the baking dish inside the pot, cover, and steam 20-23 minutes until the pork is cooked through. Oven: place the baking dish inside a larger dish filled with hot water, cover tightly with foil, and bake at 375F for 30-35 minutes.",
+        "Top with soy sauce, chili crisp, green onions, and sesame seeds before serving."
+      ],
+      "batch_note": "Best made fresh; the whole thing takes under an hour. The filling can be mixed a day ahead and refrigerated. Leftovers reheat well in the microwave with a splash of water.",
+      "cameron_note": "Cut the chili crisp in the filling to 1 tbsp (or omit) and skip it on her toppings \u2014 this one runs spicy for her. The steam method keeps it softer and milder.",
+      "seasonal_note": "Cozy cold-weather comfort food \u2014 good for Pittsburgh fall and winter.",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
     }
   ]
 }
