@@ -19678,6 +19678,728 @@
         }
       },
       "retired": false
+    },
+    {
+      "id": "spicy-butternut-squash-pasta",
+      "name": "Spicy Butternut Squash Pasta with Crispy Sage and Burrata",
+      "cuisine": "Italian / Fall",
+      "source_account": "@kalememaybe",
+      "source_url": "https://www.instagram.com/reel/DA4APKFgTFx/",
+      "meal_type": "dinner",
+      "prep": "~15 min",
+      "cook": "~35 min",
+      "total": "~50 min",
+      "spice_level": "Medium",
+      "serving_note": "~4 servings \u2014 macros are rough estimates, not yet measured",
+      "tags": [
+        "fall",
+        "pasta",
+        "vegetarian",
+        "spicy"
+      ],
+      "equipment": "Baking sheet, blender, large skillet",
+      "macro_strings": {
+        "austin": "650 cal | 28g P | 28g F | 65g C",
+        "cameron": "540 cal | 22g P | 23g F | 54g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 650,
+          "p": 28,
+          "f": 28,
+          "c": 65
+        },
+        "cameron": {
+          "cal": 540,
+          "p": 22,
+          "f": 23,
+          "c": 54
+        }
+      },
+      "ingredients": [
+        {
+          "name": "SQUASH & PASTA",
+          "qty": null
+        },
+        {
+          "name": "Butternut squash, cubed",
+          "qty": "~3 cups (half a squash)"
+        },
+        {
+          "name": "Olive oil, divided",
+          "qty": "2 tbsp + 1 tbsp"
+        },
+        {
+          "name": "Salt",
+          "qty": "to taste"
+        },
+        {
+          "name": "Banza gemelli chickpea pasta (or any short pasta)",
+          "qty": "1 (8 oz) box"
+        },
+        {
+          "name": "SAUCE",
+          "qty": null
+        },
+        {
+          "name": "Bone broth or vegetable broth",
+          "qty": "1/2 cup"
+        },
+        {
+          "name": "Fresh sage leaves",
+          "qty": "8-10"
+        },
+        {
+          "name": "Butter",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Shallot, finely chopped",
+          "qty": "1"
+        },
+        {
+          "name": "Garlic cloves, finely chopped",
+          "qty": "2"
+        },
+        {
+          "name": "Tomato paste",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Calabrian chili",
+          "qty": "1 tbsp, plus more to top"
+        },
+        {
+          "name": "Heavy cream",
+          "qty": "1/3 cup"
+        },
+        {
+          "name": "TOPPING",
+          "qty": null
+        },
+        {
+          "name": "Burrata",
+          "qty": "4 oz"
+        }
+      ],
+      "instructions": [
+        "Heat oven to 400\u00b0F. Toss cubed squash with 2 tbsp olive oil and salt on a baking sheet; roast 30-35 minutes, flipping halfway, until soft.",
+        "Cook the pasta per package directions. Reserve at least 1/2 cup pasta water before draining.",
+        "Blend the roasted squash with the broth until completely smooth.",
+        "In a large skillet over medium heat, fry the sage in 1 tbsp olive oil ~30 seconds until crispy; lift out to a paper-towel-lined plate.",
+        "In the same skillet, melt the butter over medium heat. Soften the shallot 3-4 minutes, then stir in garlic, tomato paste, and Calabrian chili; cook 1-2 minutes until the tomato paste turns brick red.",
+        "Pour in the squash puree, stir, then add the cream. Simmer 1-2 minutes until slightly thickened, loosening with splashes of pasta water to your desired consistency.",
+        "Fold in the drained pasta, adding more pasta water as needed. Serve in bowls topped with burrata, crispy sage, and extra Calabrian chili."
+      ],
+      "batch_note": "The squash puree can be made a day ahead. Chickpea pasta is best cooked fresh \u2014 it does not reheat as well as wheat pasta.",
+      "cameron_note": "Cameron: halve the Calabrian chili for mild-medium heat.",
+      "seasonal_note": "From @kalememaybe on Instagram. Peak butternut squash season.",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "miso-tomato-soup-scallion-grilled-cheese",
+      "name": "Miso Tomato Soup with Scallion Grilled Cheese",
+      "cuisine": "American / Fall",
+      "source_account": "@kalememaybe",
+      "source_url": "https://www.goodmoodfood.news/p/miso-tomato-soup-with-scallion-grilled",
+      "meal_type": "dinner",
+      "prep": "~15 min",
+      "cook": "~50 min",
+      "total": "~1 hr 5 min",
+      "spice_level": "Mild",
+      "serving_note": "~4 servings \u2014 macros are rough estimates, not yet measured",
+      "tags": [
+        "fall",
+        "soup",
+        "vegetarian",
+        "comfort"
+      ],
+      "equipment": "Baking dish, Dutch oven or large pot, immersion blender, nonstick skillet",
+      "macro_strings": {
+        "austin": "620 cal | 24g P | 32g F | 58g C",
+        "cameron": "510 cal | 20g P | 26g F | 48g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 620,
+          "p": 24,
+          "f": 32,
+          "c": 58
+        },
+        "cameron": {
+          "cal": 510,
+          "p": 20,
+          "f": 26,
+          "c": 48
+        }
+      },
+      "ingredients": [
+        {
+          "name": "SOUP",
+          "qty": null
+        },
+        {
+          "name": "Cherry or grape tomatoes",
+          "qty": "3 cups"
+        },
+        {
+          "name": "Red onion, cut into 2-inch chunks",
+          "qty": "1"
+        },
+        {
+          "name": "Whole head of garlic, top 1/2 inch cut off",
+          "qty": "1"
+        },
+        {
+          "name": "Olive oil",
+          "qty": "a few glugs"
+        },
+        {
+          "name": "Dried oregano",
+          "qty": "to taste"
+        },
+        {
+          "name": "Crushed red pepper",
+          "qty": "a small pinch"
+        },
+        {
+          "name": "White miso paste",
+          "qty": "3 1/2 tbsp"
+        },
+        {
+          "name": "Low-sodium vegetable broth",
+          "qty": "2 cups"
+        },
+        {
+          "name": "Labneh",
+          "qty": "1/3 cup"
+        },
+        {
+          "name": "Salt & pepper",
+          "qty": "to taste"
+        },
+        {
+          "name": "GRILLED CHEESE",
+          "qty": null
+        },
+        {
+          "name": "Sourdough bread",
+          "qty": "4 slices"
+        },
+        {
+          "name": "Sharp white cheddar, shredded",
+          "qty": "2 cups"
+        },
+        {
+          "name": "Scallions, thinly sliced",
+          "qty": "3 stalks"
+        },
+        {
+          "name": "Mayonnaise",
+          "qty": "for the bread exterior"
+        },
+        {
+          "name": "Butter",
+          "qty": "1/2 tbsp per sandwich"
+        }
+      ],
+      "instructions": [
+        "Heat oven to 400\u00b0F. Add tomatoes, red onion, and garlic to a baking dish; drizzle generously with olive oil and sprinkle with oregano, crushed red pepper, salt, and pepper. Roast 45 minutes.",
+        "Transfer everything to a Dutch oven, squeezing the roasted garlic cloves out of their skins. Add miso, broth, and labneh; blend smooth with an immersion blender. Warm over medium heat until bubbling, then hold on low.",
+        "Toss the shredded cheddar with the sliced scallions. Spread mayo on the outside of each sourdough slice; pile the cheese mixture inside and close the sandwiches.",
+        "In a nonstick skillet over medium heat, melt 1/2 tbsp butter per sandwich and cook ~4 minutes per side until deep golden and the cheese melts.",
+        "Serve immediately with the soup. Optional: top soup with fresh basil and extra cheddar."
+      ],
+      "batch_note": "Soup holds 4-5 days refrigerated and freezes well. Make grilled cheeses fresh \u2014 they do not hold.",
+      "cameron_note": "Cameron: skip the crushed red pepper for zero heat; the soup stays creamy and miso-forward.",
+      "seasonal_note": "From Carina Wolff's good mood food newsletter. Roasted tomato season runs into fall.",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "upside-down-pear-cake-maple-rosemary-caramel",
+      "name": "Brown Butter Upside Down Pear Cake with Maple Rosemary Caramel",
+      "cuisine": "American / Fall",
+      "source_account": "@kalememaybe",
+      "source_url": "https://www.instagram.com/reel/DWmZi4CjR5m/",
+      "meal_type": "dessert",
+      "prep": "~25 min",
+      "cook": "~50 min",
+      "total": "~1 hr 15 min",
+      "spice_level": "None",
+      "serving_note": "~8-10 servings \u2014 macros are rough estimates, not yet measured",
+      "tags": [
+        "fall",
+        "baking",
+        "dessert"
+      ],
+      "equipment": "9-inch round cake pan, small saucepans, mixing bowls",
+      "macro_strings": {
+        "austin": "450 cal | 6g P | 22g F | 60g C",
+        "cameron": "380 cal | 5g P | 18g F | 51g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 450,
+          "p": 6,
+          "f": 22,
+          "c": 60
+        },
+        "cameron": {
+          "cal": 380,
+          "p": 5,
+          "f": 18,
+          "c": 51
+        }
+      },
+      "ingredients": [
+        {
+          "name": "MAPLE ROSEMARY PEAR LAYER",
+          "qty": null
+        },
+        {
+          "name": "Bosc pears, sliced 1/4 inch",
+          "qty": "2"
+        },
+        {
+          "name": "Unsalted butter",
+          "qty": "6 tbsp"
+        },
+        {
+          "name": "Pure maple syrup",
+          "qty": "1/3 cup"
+        },
+        {
+          "name": "Granulated sugar",
+          "qty": "1/4 cup"
+        },
+        {
+          "name": "Fresh rosemary sprigs",
+          "qty": "4"
+        },
+        {
+          "name": "CAKE",
+          "qty": null
+        },
+        {
+          "name": "Unsalted butter",
+          "qty": "1 stick (8 tbsp)"
+        },
+        {
+          "name": "Unbleached all-purpose flour",
+          "qty": "1 1/2 cups"
+        },
+        {
+          "name": "Baking powder",
+          "qty": "1 1/2 tsp"
+        },
+        {
+          "name": "Cinnamon",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Ground ginger",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "Salt",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Granulated sugar",
+          "qty": "3/4 cup"
+        },
+        {
+          "name": "Brown sugar",
+          "qty": "1/2 cup"
+        },
+        {
+          "name": "Large eggs",
+          "qty": "2"
+        },
+        {
+          "name": "Vanilla",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Milk (oat works)",
+          "qty": "1/3 cup"
+        }
+      ],
+      "instructions": [
+        "Brown the stick of butter for the batter: melt in a small saucepan over medium heat, stirring, until the milk solids turn brown and nutty. Transfer to a bowl to cool.",
+        "Heat oven to 350\u00b0F. Line a 9-inch round cake pan with parchment and grease generously. Arrange the pear slices in a spiral on the bottom.",
+        "Make the caramel: melt 6 tbsp butter in a small saucepan over high heat; stir in maple syrup, 1/4 cup sugar, and rosemary sprigs. Boil ~3 minutes until frothy and caramelized. Fish out the rosemary and pour evenly over the pears.",
+        "Whisk flour, baking powder, cinnamon, ginger, and salt in a medium bowl.",
+        "In a separate bowl, whisk the cooled brown butter with both sugars, eggs, vanilla, and milk.",
+        "Fold the wet mixture into the dry until just combined. Spread evenly over the pears.",
+        "Bake 45-50 minutes, until the top springs back when touched. Cool 10 minutes, run a knife around the edge, then invert onto a plate. Serve warm or at room temperature; dust with powdered sugar if you like."
+      ],
+      "batch_note": "Keeps 3 days at room temperature under a cover. Warm slices briefly before serving.",
+      "cameron_note": "",
+      "seasonal_note": "From @kalememaybe on Instagram. Bosc pears peak in fall.",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "burrata-dip-parsley-oil-mandarins",
+      "name": "Burrata Dip with Parsley Oil and Mandarins",
+      "cuisine": "Italian / Fall",
+      "source_account": "@kalememaybe",
+      "source_url": "https://www.instagram.com/p/CvahLK-L4zR/",
+      "meal_type": "appetizer",
+      "prep": "~20 min",
+      "cook": "~5 min",
+      "total": "~25 min",
+      "spice_level": "None",
+      "serving_note": "Serves 4-6 as an appetizer \u2014 macros are rough estimates, not yet measured",
+      "tags": [
+        "fall",
+        "appetizer",
+        "entertaining",
+        "no-cook"
+      ],
+      "equipment": "Blender, skillet",
+      "macro_strings": {
+        "austin": "350 cal | 12g P | 28g F | 12g C",
+        "cameron": "300 cal | 10g P | 24g F | 10g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 350,
+          "p": 12,
+          "f": 28,
+          "c": 12
+        },
+        "cameron": {
+          "cal": 300,
+          "p": 10,
+          "f": 24,
+          "c": 10
+        }
+      },
+      "ingredients": [
+        {
+          "name": "BURRATA",
+          "qty": null
+        },
+        {
+          "name": "Burrata",
+          "qty": "8 oz"
+        },
+        {
+          "name": "Almonds, roughly chopped",
+          "qty": "1/4 cup"
+        },
+        {
+          "name": "Pomegranate seeds",
+          "qty": "2-3 tbsp"
+        },
+        {
+          "name": "Mandarin oranges",
+          "qty": "2"
+        },
+        {
+          "name": "PARSLEY OIL",
+          "qty": null
+        },
+        {
+          "name": "Fresh parsley",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Olive oil",
+          "qty": "1/2 cup"
+        },
+        {
+          "name": "Salt",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "TO SERVE",
+          "qty": null
+        },
+        {
+          "name": "Toasty bread",
+          "qty": "for serving"
+        }
+      ],
+      "instructions": [
+        "Blanch the parsley 15 seconds in boiling water, shock in an ice bath, squeeze dry, then blend with the olive oil and salt into a vivid green oil.",
+        "Toast the almonds in a dry skillet over medium heat, 2-3 minutes, until golden and fragrant.",
+        "Tear the burrata open onto a serving plate and spread lightly. Drizzle with parsley oil.",
+        "Peel the mandarins, pull into segments, and scatter over the burrata with the pomegranate seeds and toasted almonds. Finish with more parsley oil (you will have extra \u2014 save it). Serve immediately with toasted bread."
+      ],
+      "batch_note": "Parsley oil keeps a week refrigerated \u2014 great on eggs, grains, or roasted veg. Assemble the plate right before serving.",
+      "cameron_note": "",
+      "seasonal_note": "From @kalememaybe on Instagram, riffing on a Cafe Birdie dish. Mandarins and pomegranate are fall/winter fruit.",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "sweet-potato-halloumi-chopped-salad",
+      "name": "Sweet Potato & Halloumi Chopped Salad",
+      "cuisine": "American / Fall",
+      "source_account": "@kalememaybe",
+      "source_url": "https://www.goodmoodfood.news/p/sweet-potato-and-halloumi-chopped",
+      "meal_type": "lunch",
+      "prep": "~15 min",
+      "cook": "~25 min",
+      "total": "~40 min",
+      "spice_level": "Mild",
+      "serving_note": "Serves 2-4 \u2014 macros are rough estimates, not yet measured",
+      "tags": [
+        "fall",
+        "salad",
+        "vegetarian",
+        "high-protein"
+      ],
+      "equipment": "Baking sheet, large skillet, small bowl or jar",
+      "macro_strings": {
+        "austin": "550 cal | 20g P | 32g F | 48g C",
+        "cameron": "460 cal | 17g P | 27g F | 40g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 550,
+          "p": 20,
+          "f": 32,
+          "c": 48
+        },
+        "cameron": {
+          "cal": 460,
+          "p": 17,
+          "f": 27,
+          "c": 40
+        }
+      },
+      "ingredients": [
+        {
+          "name": "SALAD",
+          "qty": null
+        },
+        {
+          "name": "Sweet potato, diced",
+          "qty": "1 large"
+        },
+        {
+          "name": "Chickpeas, rinsed, drained, patted dry",
+          "qty": "1 (15.5 oz) can"
+        },
+        {
+          "name": "Olive oil, divided",
+          "qty": "2 1/2 tbsp"
+        },
+        {
+          "name": "Onion salt",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Smoked paprika",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "Halloumi, cut into 1-inch slices",
+          "qty": "8 oz"
+        },
+        {
+          "name": "Brussels sprouts, shaved or shredded",
+          "qty": "2 cups"
+        },
+        {
+          "name": "Apple, chopped",
+          "qty": "1"
+        },
+        {
+          "name": "Red onion, finely chopped",
+          "qty": "1/2 cup"
+        },
+        {
+          "name": "HOT HONEY MUSTARD DRESSING",
+          "qty": null
+        },
+        {
+          "name": "Dijon mustard",
+          "qty": "1 1/2 tbsp"
+        },
+        {
+          "name": "Hot honey (or honey + pinch crushed red pepper)",
+          "qty": "2 1/2 tsp"
+        },
+        {
+          "name": "Garlic clove, minced",
+          "qty": "1"
+        },
+        {
+          "name": "Apple cider vinegar",
+          "qty": "4 tbsp"
+        },
+        {
+          "name": "Olive oil",
+          "qty": "2 1/2 tbsp"
+        },
+        {
+          "name": "Salt & pepper",
+          "qty": "to taste"
+        }
+      ],
+      "instructions": [
+        "Heat oven to 425\u00b0F. Toss sweet potato and chickpeas on a parchment-lined baking sheet with 1 1/2 tbsp olive oil, onion salt, and smoked paprika. Roast 25 minutes, tossing halfway, until the chickpeas crisp and the sweet potato is soft inside and crisp outside.",
+        "Meanwhile, fry the halloumi in 1 tbsp olive oil in a large skillet over medium heat, 2-3 minutes per side, until deep golden. Cool slightly, then chop into bite-sized pieces.",
+        "Whisk the Dijon, hot honey, garlic, vinegar, olive oil, salt, and pepper in a small bowl or jar until smooth.",
+        "Combine Brussels sprouts, roasted sweet potato and chickpeas, halloumi, apple, and red onion in a large bowl. Toss with the dressing, season with another pinch of salt and pepper, and serve."
+      ],
+      "batch_note": "Roast the sweet potato/chickpeas and mix the dressing up to 3 days ahead. Fry halloumi and dress right before serving so everything stays crisp.",
+      "cameron_note": "Cameron: use regular honey in the dressing for zero heat.",
+      "seasonal_note": "From Carina Wolff's good mood food newsletter. Sweet potato, apple, and Brussels sprout season.",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "butter-fried-date-apple-bowl",
+      "name": "Butter Fried Date and Apple Yogurt Bowl",
+      "cuisine": "American / Fall",
+      "source_account": "@kalememaybe",
+      "source_url": "https://www.instagram.com/reel/DP_zdENEdj2/",
+      "meal_type": "breakfast",
+      "prep": "~5 min",
+      "cook": "~6 min",
+      "total": "~12 min",
+      "spice_level": "None",
+      "serving_note": "Serves 2 \u2014 macros are rough estimates, not yet measured",
+      "tags": [
+        "fall",
+        "breakfast",
+        "quick"
+      ],
+      "equipment": "Medium skillet",
+      "macro_strings": {
+        "austin": "450 cal | 18g P | 22g F | 48g C",
+        "cameron": "380 cal | 15g P | 18g F | 41g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 450,
+          "p": 18,
+          "f": 22,
+          "c": 48
+        },
+        "cameron": {
+          "cal": 380,
+          "p": 15,
+          "f": 18,
+          "c": 41
+        }
+      },
+      "ingredients": [
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "Unsalted butter",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Large apple, chopped small",
+          "qty": "1"
+        },
+        {
+          "name": "Medjool dates, pitted and chopped",
+          "qty": "6"
+        },
+        {
+          "name": "Cinnamon",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Greek yogurt, for the base",
+          "qty": "big scoops"
+        },
+        {
+          "name": "Walnuts, chopped",
+          "qty": "1-2 tbsp"
+        },
+        {
+          "name": "Olive oil",
+          "qty": "for drizzling"
+        },
+        {
+          "name": "Flaky salt",
+          "qty": "a pinch or two"
+        }
+      ],
+      "instructions": [
+        "Melt the butter in a medium skillet over medium-low heat. Add the apple, dates, and cinnamon; toss until everything is evenly coated.",
+        "Cook 5-6 minutes, stirring frequently, until the apples soften and the dates turn soft and caramelized \u2014 watch closely so nothing burns.",
+        "Spoon Greek yogurt into bowls and top with the warm apple-date mixture, walnuts, a drizzle of olive oil, and flaky salt."
+      ],
+      "batch_note": "Best made fresh \u2014 the whole thing takes 12 minutes. The caramelized date-apple mix also works over ice cream for dessert.",
+      "cameron_note": "",
+      "seasonal_note": "From @kalememaybe on Instagram. Apple season spin on her banana version from earlier this year.",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
     }
   ]
 }
