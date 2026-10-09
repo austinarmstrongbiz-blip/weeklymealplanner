@@ -20867,6 +20867,144 @@
         }
       },
       "retired": false
+    },
+    {
+      "id": "rice-cooker-hainanese-chicken-rice",
+      "name": "Rice Cooker Hainanese Chicken and Rice",
+      "cuisine": "Singaporean",
+      "source_account": "@joexfitness",
+      "source_url": "https://www.instagram.com/reel/DdwvRCNgCqQ/",
+      "added_date": "2026-10-09",
+      "meal_type": "dinner",
+      "prep": "~10 min",
+      "cook": "30-35 min",
+      "total": "~45 min",
+      "spice_level": "Medium",
+      "serving_note": "Serves 2 \u2014 macros per serving from the creator (not yet measured at home)",
+      "tags": [
+        "rice-cooker",
+        "chicken",
+        "one-pot",
+        "high-protein",
+        "hainanese"
+      ],
+      "equipment": "Rice cooker",
+      "macro_strings": {
+        "austin": "583 cal | 49g P | 12g F | 63g C",
+        "cameron": "583 cal | 49g P | 12g F | 63g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 583,
+          "p": 49,
+          "f": 12,
+          "c": 63
+        },
+        "cameron": {
+          "cal": 583,
+          "p": 49,
+          "f": 12,
+          "c": 63
+        }
+      },
+      "ingredients": [
+        {
+          "name": "CHICKEN & RICE",
+          "qty": null
+        },
+        {
+          "name": "Chicken thighs, skinless boneless, raw",
+          "qty": "14 oz"
+        },
+        {
+          "name": "Sesame oil",
+          "qty": "1.5 tsp"
+        },
+        {
+          "name": "Salt",
+          "qty": "1/4 tsp"
+        },
+        {
+          "name": "Minced garlic",
+          "qty": "1.5 tbsp"
+        },
+        {
+          "name": "Minced ginger",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Chicken bone broth",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Jasmine rice, uncooked",
+          "qty": "2/3 cup"
+        },
+        {
+          "name": "Chicken bouillon powder",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Persian cucumber, thinly sliced",
+          "qty": "1"
+        },
+        {
+          "name": "Green onions, thinly sliced",
+          "qty": "for garnish"
+        },
+        {
+          "name": "CHILI SAUCE",
+          "qty": null
+        },
+        {
+          "name": "Minced garlic",
+          "qty": "1.5 tbsp"
+        },
+        {
+          "name": "Sambal chili paste",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Sriracha",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Chicken broth",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Lime juice",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Brown sugar",
+          "qty": "1/2 tsp"
+        }
+      ],
+      "instructions": [
+        "Dice the cucumber into thin circles and thinly slice the green onions.",
+        "Wash the uncooked rice clean.",
+        "In the rice cooker pot, add the minced garlic, minced ginger, chicken bone broth, chicken bouillon powder, and uncooked rice; mix.",
+        "Season the raw chicken with salt and sesame oil, then add it into the rice cooker pot.",
+        "Cook in the rice cooker for 30-35 minutes on the quick cook setting.",
+        "Meanwhile, mix the garlic, sambal chili paste, sriracha, chicken broth, lime juice, and brown sugar in a small bowl to make the chili sauce.",
+        "Once cooked, plate half the chicken, half the rice, half the chili sauce, and half the cucumbers per serving."
+      ],
+      "batch_note": "One-pot cook \u2014 double the batch for 4 servings. The chili sauce keeps about a week in the fridge.",
+      "cameron_note": "The chili sauce runs hot for her \u2014 halve the sambal and sriracha, or serve her sauce on the side. The chicken and rice base is mild.",
+      "seasonal_note": "Light and gingery \u2014 good year-round.",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
     }
   ]
 }
