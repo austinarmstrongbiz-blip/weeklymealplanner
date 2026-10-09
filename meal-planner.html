@@ -2006,9 +2006,7 @@ function openRecipeModal(id) {
     ${r.source_url ? `
     <div class="modal-section">
       <h4>Source</h4>
-      <a href="${r.source_url}" target="_blank" style="color:var(--orange);font-size:13px">
-        View original post ↗
-      </a>
+      <p style="font-size:13px;color:var(--muted);line-height:1.5">${r.source_account ? `<span>${r.source_account}</span> · ` : ''}<a href="${r.source_url}" target="_blank" style="color:var(--orange)">View original post ↗</a></p>
     </div>` : ''}
   `;
   document.getElementById('recipeModal').classList.add('open');
