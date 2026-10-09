@@ -19524,6 +19524,156 @@
         }
       },
       "retired": false
+    },
+    {
+      "id": "sweet-sticky-pork-belly-burnt-ends",
+      "name": "Sweet & Sticky Pork Belly Burnt Ends",
+      "cuisine": "American / BBQ",
+      "meal_type": "dinner",
+      "prep": "~20 min (cube + season)",
+      "cook": "~4 hrs (smoke)",
+      "total": "~4.5 hrs",
+      "spice_level": "Medium",
+      "serving_note": "5-6 servings \u2014 macros are rough estimates, not yet measured",
+      "tags": [
+        "smoker",
+        "pit-boss",
+        "game-day",
+        "high-protein",
+        "pork"
+      ],
+      "equipment": "Pit Boss smoker, aluminum pan, foil, probe thermometer",
+      "macro_strings": {
+        "austin": "680 cal | 26g P | 52g F | 22g C",
+        "cameron": "560 cal | 21g P | 43g F | 18g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 680,
+          "p": 26,
+          "f": 52,
+          "c": 22
+        },
+        "cameron": {
+          "cal": 560,
+          "p": 21,
+          "f": 43,
+          "c": 18
+        }
+      },
+      "ingredients": [
+        {
+          "name": "PORK",
+          "qty": null
+        },
+        {
+          "name": "Pork belly slab (meaty)",
+          "qty": "~2.5 lb"
+        },
+        {
+          "name": "Japanese BBQ sauce (binder)",
+          "qty": "for coating"
+        },
+        {
+          "name": "SPG rub (salt, pepper, garlic)",
+          "qty": "to coat all sides"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "SWEET & STICKY SAUCE",
+          "qty": null
+        },
+        {
+          "name": "Vegetable broth",
+          "qty": "3/4 cup"
+        },
+        {
+          "name": "Japanese BBQ sauce",
+          "qty": "1/2 cup"
+        },
+        {
+          "name": "Soy sauce",
+          "qty": "1/4 cup"
+        },
+        {
+          "name": "Rice vinegar",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Toasted sesame oil",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Sriracha",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Honey",
+          "qty": "1/4 cup"
+        },
+        {
+          "name": "Minced ginger",
+          "qty": "1.5 tbsp"
+        },
+        {
+          "name": "Minced garlic",
+          "qty": "2.5 tbsp"
+        },
+        {
+          "name": "Brown sugar",
+          "qty": "1/2 cup"
+        },
+        {
+          "name": "Cornstarch slurry (1 tbsp cornstarch + 1 tbsp water)",
+          "qty": "1 batch"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "TOPPINGS",
+          "qty": null
+        },
+        {
+          "name": "Bang bang sauce",
+          "qty": "for drizzling"
+        },
+        {
+          "name": "Sesame seeds",
+          "qty": "for sprinkling"
+        },
+        {
+          "name": "Sliced green onions",
+          "qty": "for sprinkling"
+        }
+      ],
+      "instructions": [
+        "Cut the pork belly into ~1.25-inch cubes. Coat with Japanese BBQ sauce as a binder, then season all sides with SPG rub.",
+        "Place on the smoker at 275\u00b0F until a nice bark develops and cubes reach ~180\u00b0F internal (about 2-2.5 hours).",
+        "For the sauce: add all sauce ingredients to a pan over medium-low heat. Mix well and simmer, stirring frequently, until thickened (~3-5 minutes). Set aside.",
+        "Remove the pork belly from the smoker and place in an aluminum pan. Top with the sweet & sticky sauce, mix well, then cover tightly with foil.",
+        "Place back on the smoker until probe tender (~203-205\u00b0F internal, 1-1.5 hours). Remove the foil and cook another 20-30 minutes so the sauce tacks up.",
+        "Remove from the smoker, rest a few minutes, then plate and add toppings."
+      ],
+      "batch_note": "Smoke-day recipe \u2014 start 4-5 hrs before serving. Rest a few minutes before plating; the sauce tacks up in the final uncovered stretch.",
+      "cameron_note": "Cameron: halve the sriracha in the sauce for mild-medium heat \u2014 the honey-soy base carries the flavor.",
+      "seasonal_note": "From @calwillcookit on Instagram. Game-day and fall cookout pick \u2014 prime October smoker weather.",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
     }
   ]
 }
