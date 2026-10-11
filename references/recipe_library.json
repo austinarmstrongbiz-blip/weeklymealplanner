@@ -21147,6 +21147,213 @@
         }
       },
       "retired": false
+    },
+    {
+      "id": "hot-honey-chicken-tacos",
+      "name": "Hot Honey Chicken Tacos",
+      "cuisine": "Mexican / Fusion",
+      "source_account": "@kurveyskitchen",
+      "source_url": "https://www.instagram.com/reel/Dcj01SOPZ4D/",
+      "added_date": "2026-10-11",
+      "meal_type": "dinner",
+      "prep": "~20 min",
+      "cook": "~15 min",
+      "total": "~35 min",
+      "spice_level": "Medium-hot",
+      "serving_note": "Makes 8 tacos (4 servings of 2) \u2014 macros are rough estimates, not yet measured",
+      "tags": [
+        "tacos",
+        "chicken",
+        "nashville-hot",
+        "crispy"
+      ],
+      "equipment": "Large skillet, wire rack, pastry brush",
+      "macro_strings": {
+        "austin": "850 cal | 28g P | 40g F | 75g C",
+        "cameron": "700 cal | 23g P | 33g F | 62g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 850,
+          "p": 28,
+          "f": 40,
+          "c": 75
+        },
+        "cameron": {
+          "cal": 700,
+          "p": 23,
+          "f": 33,
+          "c": 62
+        }
+      },
+      "ingredients": [
+        {
+          "name": "FOR THE CHICKEN",
+          "qty": null
+        },
+        {
+          "name": "Ground chicken",
+          "qty": "1 lb"
+        },
+        {
+          "name": "Yellow mustard",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Garlic powder",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Onion powder",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Chili powder",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Paprika",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "Black pepper",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "Buttermilk or milk (for brushing)",
+          "qty": "1/4 cup"
+        },
+        {
+          "name": "Small flour tortillas (street style)",
+          "qty": "8"
+        },
+        {
+          "name": "Neutral oil for frying",
+          "qty": "about 1/4 inch in skillet"
+        },
+        {
+          "name": "FOR THE CRUST",
+          "qty": null
+        },
+        {
+          "name": "All-purpose flour",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Aluminum-free baking powder",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Paprika",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Cayenne (adjust to heat preference)",
+          "qty": "1/4-1/2 tsp"
+        },
+        {
+          "name": "Garlic powder",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "Onion powder",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "Black pepper",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "FOR THE HOT OIL",
+          "qty": null
+        },
+        {
+          "name": "Brown sugar",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Cayenne",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Garlic powder",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "Onion powder",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "Chili powder",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "Salt",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "Black pepper",
+          "qty": "1/4 tsp"
+        },
+        {
+          "name": "Neutral oil",
+          "qty": "4 tbsp"
+        },
+        {
+          "name": "TO TOP",
+          "qty": null
+        },
+        {
+          "name": "Pickles",
+          "qty": "to taste"
+        },
+        {
+          "name": "Kale slaw",
+          "qty": "to taste"
+        },
+        {
+          "name": "Sauce of choice",
+          "qty": "a drizzle"
+        },
+        {
+          "name": "Honey",
+          "qty": "a light drizzle (optional)"
+        }
+      ],
+      "instructions": [
+        "In a bowl, combine ground chicken, mustard, garlic powder, onion powder, chili powder, paprika, salt, and pepper. Mix until just combined.",
+        "In a shallow bowl, whisk together flour, baking powder, paprika, cayenne, garlic powder, onion powder, salt, and pepper.",
+        "Drizzle 1-2 tbsp of milk into the flour mixture and rub it through with your fingers to create craggly bits \u2014 this gives the textured crunch.",
+        "Press a thin, even layer of the chicken mixture onto one side of each tortilla.",
+        "Lightly brush the chicken side with milk and firmly press into the seasoned flour mixture.",
+        "Heat about 1/4 inch of neutral oil in a skillet over medium heat. Place tacos chicken-side down, press gently, and cook 4-5 minutes until deeply golden and crispy.",
+        "Flip and cook 1-2 minutes more until the chicken is fully cooked and the tortilla is lightly toasted. Transfer to a wire rack or paper towel-lined plate.",
+        "In another skillet, warm 4 tbsp oil on medium heat for 2-3 minutes. Add the hot-oil seasonings and mix until the sugar dissolves. Remove from heat and brush generously over the crispy chicken side of each taco.",
+        "Top each taco with a drizzle of sauce, pickles, and kale slaw. Optional: finish with a light drizzle of honey."
+      ],
+      "batch_note": "Crust mix and hot-oil seasonings can be pre-mixed. Best fried fresh \u2014 the crunch does not hold overnight.",
+      "cameron_note": "Skip the cayenne in the crust for hers and go light on the hot oil (or brush hers with plain warm oil). Finish hers with honey only \u2014 medium-hot as written is too much for her.",
+      "seasonal_note": "",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
     }
   ]
 }
