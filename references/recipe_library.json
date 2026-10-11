@@ -21457,6 +21457,120 @@
         }
       },
       "retired": false
+    },
+    {
+      "id": "roasted-garlic-tomato-butter",
+      "name": "Roasted Garlic & Tomato Butter Tartine",
+      "cuisine": "Italian",
+      "source_account": "@foodmymuse",
+      "source_url": "https://www.instagram.com/reel/DcmwqWMChWg/",
+      "added_date": "2026-10-11",
+      "meal_type": "snack",
+      "prep": "~15 min",
+      "cook": "~1 hr 15 min",
+      "total": "~1.5 hr",
+      "spice_level": "Mild",
+      "serving_note": "Makes ~8 tartines \u2014 macros are rough estimates, not yet measured",
+      "tags": [
+        "appetizer",
+        "baguette",
+        "burrata",
+        "roasted-garlic"
+      ],
+      "equipment": "Baking sheet, saucepan, mixing bowl",
+      "macro_strings": {
+        "austin": "980 cal | 36g P | 64g F | 60g C",
+        "cameron": "490 cal | 18g P | 32g F | 30g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 980,
+          "p": 36,
+          "f": 64,
+          "c": 60
+        },
+        "cameron": {
+          "cal": 490,
+          "p": 18,
+          "f": 32,
+          "c": 30
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Tomato paste",
+          "qty": "4.5 oz"
+        },
+        {
+          "name": "Garlic head",
+          "qty": "1"
+        },
+        {
+          "name": "Unsalted butter, room temp",
+          "qty": "8 oz"
+        },
+        {
+          "name": "Basil leaves, chiffonade",
+          "qty": "12"
+        },
+        {
+          "name": "Parmigiano reggiano, freshly grated (plus more for topping)",
+          "qty": "1/3 cup"
+        },
+        {
+          "name": "Salt and pepper",
+          "qty": "to taste"
+        },
+        {
+          "name": "Baguette, sliced in half",
+          "qty": "1"
+        },
+        {
+          "name": "Prosciutto",
+          "qty": "1 slice per tartine"
+        },
+        {
+          "name": "Burrata balls",
+          "qty": "2-4 oz"
+        },
+        {
+          "name": "Crushed red peppers, for topping",
+          "qty": "to taste"
+        },
+        {
+          "name": "Chives, for topping",
+          "qty": "to taste"
+        },
+        {
+          "name": "Olive oil, for drizzling",
+          "qty": "to taste"
+        }
+      ],
+      "instructions": [
+        "Cut the top off the garlic, drizzle with oil, and roast covered for 1 hour at 375F.",
+        "Preheat a saucepan for 2 minutes, add the tomato paste, and cook 4-5 minutes on medium-low heat to get rid of the raw tomato taste.",
+        "Add the butter to a bowl along with the parm, basil, roasted garlic, tomato paste, salt, and pepper. Whisk until smooth.",
+        "Spread a thick layer of the tomato butter onto the baguette and grate a lot of parm on it.",
+        "Bake at 350F for 12-15 minutes or until deeply golden.",
+        "Add the prosciutto on top.",
+        "Cut up the burrata and add it on top of the prosciutto.",
+        "Drizzle with olive oil, then add chives, crushed red peppers, and black pepper."
+      ],
+      "batch_note": "The tomato butter makes extra \u2014 save it for pasta, toast, eggs, fish, or chicken. Keeps about a week in the fridge.",
+      "cameron_note": "Crushed red peppers are just a topping \u2014 skip them on hers. Burrata and prosciutto are right up her alley.",
+      "seasonal_note": "",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
     }
   ]
 }
