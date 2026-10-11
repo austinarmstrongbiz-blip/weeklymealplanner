@@ -21571,6 +21571,180 @@
         }
       },
       "retired": false
+    },
+    {
+      "id": "korean-fried-smash-tacos",
+      "name": "Korean Fried Smash Tacos",
+      "cuisine": "Korean / Fusion",
+      "source_account": "@daves_fire_foods",
+      "source_url": "https://www.instagram.com/reel/DdkWrTHRXzt/",
+      "added_date": "2026-10-11",
+      "meal_type": "dinner",
+      "prep": "~20 min",
+      "cook": "~15 min",
+      "total": "~35 min",
+      "spice_level": "Medium",
+      "serving_note": "Makes ~8 tacos (4 servings of 2) \u2014 macros are rough estimates, not yet measured",
+      "tags": [
+        "tacos",
+        "chicken",
+        "korean",
+        "crispy",
+        "smash-tacos"
+      ],
+      "equipment": "Large skillet",
+      "macro_strings": {
+        "austin": "820 cal | 27g P | 38g F | 72g C",
+        "cameron": "680 cal | 22g P | 31g F | 60g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 820,
+          "p": 27,
+          "f": 38,
+          "c": 72
+        },
+        "cameron": {
+          "cal": 680,
+          "p": 22,
+          "f": 31,
+          "c": 60
+        }
+      },
+      "ingredients": [
+        {
+          "name": "TACOS",
+          "qty": null
+        },
+        {
+          "name": "Small flour tortillas",
+          "qty": "8"
+        },
+        {
+          "name": "Ground chicken",
+          "qty": "1 lb"
+        },
+        {
+          "name": "Salt",
+          "qty": "1-2 tsp"
+        },
+        {
+          "name": "Paprika",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Garlic powder",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Panko breadcrumbs",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Beef tallow or neutral oil for frying",
+          "qty": "a thin layer in the pan"
+        },
+        {
+          "name": "KOREAN FRIED CHICKEN GLAZE",
+          "qty": null
+        },
+        {
+          "name": "Ketchup",
+          "qty": "3 tbsp"
+        },
+        {
+          "name": "Gochujang",
+          "qty": "1 1/2 tbsp"
+        },
+        {
+          "name": "Honey",
+          "qty": "3 tbsp"
+        },
+        {
+          "name": "Soy sauce",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Rice vinegar",
+          "qty": "1-2 tbsp"
+        },
+        {
+          "name": "Chili flakes (optional)",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Bachan's Japanese Barbecue Sauce",
+          "qty": "2-3 tbsp"
+        },
+        {
+          "name": "Sesame seeds",
+          "qty": "to taste"
+        },
+        {
+          "name": "SLAW",
+          "qty": null
+        },
+        {
+          "name": "Green cabbage, thinly sliced",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Red cabbage, thinly sliced",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Carrot, thinly sliced or shredded",
+          "qty": "1"
+        },
+        {
+          "name": "Green onions, sliced",
+          "qty": "1/2 cup"
+        },
+        {
+          "name": "Mayonnaise",
+          "qty": "3 tbsp"
+        },
+        {
+          "name": "Rice vinegar",
+          "qty": "3 tbsp"
+        },
+        {
+          "name": "Lime, juiced",
+          "qty": "1"
+        },
+        {
+          "name": "Sesame seeds",
+          "qty": "to taste"
+        },
+        {
+          "name": "Salt",
+          "qty": "to taste"
+        }
+      ],
+      "instructions": [
+        "Season the ground chicken with salt, paprika, and garlic powder.",
+        "Press a thin layer of chicken onto each tortilla, then press the exposed chicken side into the panko breadcrumbs.",
+        "Heat a thin layer of beef tallow or neutral oil in a pan over medium-high heat. Fry the tacos chicken-side down until golden, crispy, and cooked through, then flip briefly to crisp the tortilla.",
+        "For the glaze, add the ketchup, gochujang, honey, soy sauce, rice vinegar, chili flakes, Bachans, and sesame seeds to a pan. Mix until smooth and slightly thickened.",
+        "Dip the crispy chicken side of each taco directly into the glaze until fully coated.",
+        "For the slaw, combine the cabbage, carrot, green onions, mayo, rice vinegar, lime juice, sesame seeds, and a pinch of salt. Toss until lightly coated.",
+        "Load the glazed smash tacos with slaw, finish with a little extra sauce and sesame seeds, and enjoy."
+      ],
+      "batch_note": "Make the slaw and glaze ahead \u2014 smash and fry the tacos fresh. The panko crust does not hold overnight.",
+      "cameron_note": "Skip the chili flakes in the glaze and go light on the gochujang for hers \u2014 the sweet-savory glaze base is fine at half heat.",
+      "seasonal_note": "",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
     }
   ]
 }
