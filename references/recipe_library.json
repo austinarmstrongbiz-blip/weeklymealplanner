@@ -21005,6 +21005,148 @@
         }
       },
       "retired": false
+    },
+    {
+      "id": "caesar-fall-pasta-salad",
+      "name": "Caesar Fall Pasta Salad",
+      "cuisine": "Italian / Fall",
+      "source_account": "@daniela_dish",
+      "source_url": "https://www.instagram.com/reel/DeP4j1PNosh/",
+      "added_date": "2026-10-11",
+      "meal_type": "dinner",
+      "prep": "~15 min",
+      "cook": "25-30 min",
+      "total": "~45 min",
+      "spice_level": "None",
+      "serving_note": "Serves ~6 \u2014 macros are rough estimates, not yet measured",
+      "tags": [
+        "pasta",
+        "fall",
+        "caesar",
+        "roasted-veggies"
+      ],
+      "equipment": "Sheet pan, large pot, large mixing bowl",
+      "macro_strings": {
+        "austin": "1100 cal | 25g P | 75g F | 80g C",
+        "cameron": "900 cal | 20g P | 62g F | 66g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 1100,
+          "p": 25,
+          "f": 75,
+          "c": 80
+        },
+        "cameron": {
+          "cal": 900,
+          "p": 20,
+          "f": 62,
+          "c": 66
+        }
+      },
+      "ingredients": [
+        {
+          "name": "FOR THE PASTA SALAD",
+          "qty": null
+        },
+        {
+          "name": "Pasta",
+          "qty": "1 lb"
+        },
+        {
+          "name": "Brussels sprouts, halved",
+          "qty": "8 oz"
+        },
+        {
+          "name": "Butternut squash, cubed",
+          "qty": "20 oz"
+        },
+        {
+          "name": "Bacon, chopped",
+          "qty": "1/2 lb"
+        },
+        {
+          "name": "Panko breadcrumbs",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Grated parmesan",
+          "qty": "1/3 cup"
+        },
+        {
+          "name": "Sage leaves",
+          "qty": "15-20"
+        },
+        {
+          "name": "Olive oil",
+          "qty": "2-3 tbsp"
+        },
+        {
+          "name": "Salt and pepper",
+          "qty": "to taste"
+        },
+        {
+          "name": "FOR THE DRESSING",
+          "qty": null
+        },
+        {
+          "name": "Olive oil",
+          "qty": "4 tbsp"
+        },
+        {
+          "name": "Anchovy paste",
+          "qty": "3-4 inches"
+        },
+        {
+          "name": "Dijon mustard",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Worcestershire sauce",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Hot sauce",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "Garlic clove, grated",
+          "qty": "1"
+        },
+        {
+          "name": "Mayonnaise",
+          "qty": "1 1/4 cups"
+        },
+        {
+          "name": "Lemon, juiced",
+          "qty": "1"
+        },
+        {
+          "name": "Parmesan",
+          "qty": "3-4 tbsp"
+        }
+      ],
+      "instructions": [
+        "On a baking sheet lined with parchment paper, add the Brussels sprouts, butternut squash, bacon, panko, and parmesan. Drizzle with olive oil and sprinkle with salt and pepper; toss to coat. Bake at 425F for 25-30 minutes.",
+        "In a small bowl, stir together all the dressing ingredients until combined.",
+        "Cook the pasta in boiling salted water until al dente. Drain, reserving 1 cup of cooking water.",
+        "In a large bowl, add the pasta and roasted veggies. Pour the dressing over top and toss to combine, adding pasta water as needed."
+      ],
+      "batch_note": "Roast the veg and mix the dressing ahead \u2014 toss with fresh-cooked pasta when ready to serve.",
+      "cameron_note": "Anchovy is only in the paste (no fishy taste), so it works for her. Go lighter on dressing for her portion if she wants it less rich.",
+      "seasonal_note": "Made for fall \u2014 Brussels sprouts and butternut squash season.",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
     }
   ]
 }
