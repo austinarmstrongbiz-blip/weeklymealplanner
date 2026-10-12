@@ -21745,6 +21745,96 @@
         }
       },
       "retired": false
+    },
+    {
+      "id": "cucumber-ribbon-salad",
+      "name": "Cucumber Ribbon Salad with Crispy Chilli Oil",
+      "cuisine": "Asian",
+      "source_account": "@itsuofficial",
+      "source_url": "https://www.instagram.com/reel/DbbHIKHM3xr/",
+      "added_date": "2026-10-11",
+      "meal_type": "dinner",
+      "prep": "~10 min (+1 hr marinate)",
+      "cook": "0 min",
+      "total": "~10 min + 1 hr marinate",
+      "spice_level": "Mild",
+      "serving_note": "Serves ~4 as a side \u2014 macros are rough estimates, not yet measured",
+      "tags": [
+        "side",
+        "asian",
+        "cucumber",
+        "no-cook"
+      ],
+      "equipment": "Vegetable peeler, mixing bowl",
+      "macro_strings": {
+        "austin": "150 cal | 3g P | 8g F | 15g C",
+        "cameron": "150 cal | 3g P | 8g F | 15g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 150,
+          "p": 3,
+          "f": 8,
+          "c": 15
+        },
+        "cameron": {
+          "cal": 150,
+          "p": 3,
+          "f": 8,
+          "c": 15
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Cucumbers",
+          "qty": "4"
+        },
+        {
+          "name": "Soy sauce",
+          "qty": "1/2 cup"
+        },
+        {
+          "name": "Mirin or water",
+          "qty": "1/4 cup"
+        },
+        {
+          "name": "Crispy chilli oil (adjust to spice preference)",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Honey",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Green onion, minced",
+          "qty": "1 stalk"
+        },
+        {
+          "name": "Garlic",
+          "qty": "1/2 clove"
+        }
+      ],
+      "instructions": [
+        "Mix the soy sauce, mirin, chilli oil, honey, green onion, and garlic for the dressing.",
+        "Use a peeler to create thin strips of cucumber, avoiding the middle segment with the soggy core.",
+        "Arrange the cucumber strips on top of each other and roll into a spiral.",
+        "Pour the sauce over and let marinate for at least 1 hour before serving."
+      ],
+      "batch_note": "Dressing keeps a week in the fridge \u2014 ribbon and dress the cucumbers an hour before serving so they stay crisp.",
+      "cameron_note": "Adjust the chilli oil to her level \u2014 start with 1 tbsp. Mild and fresh, she will like this one.",
+      "seasonal_note": "Cool and fresh \u2014 good alongside rich mains year-round.",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
     }
   ]
 }
