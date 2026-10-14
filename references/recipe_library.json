@@ -21835,6 +21835,146 @@
         }
       },
       "retired": false
+    },
+    {
+      "id": "maple-cinnamon-sweet-potato-casserole",
+      "name": "Maple Cinnamon Sweet Potato Casserole",
+      "cuisine": "American / Fall",
+      "source_account": "@chefalextrim",
+      "source_url": "https://www.instagram.com/reel/Dee5on4qieQ/",
+      "added_date": "2026-10-14",
+      "meal_type": "dinner",
+      "prep": "~30 min",
+      "cook": "~3.5 hr",
+      "total": "~4 hr",
+      "spice_level": "None",
+      "serving_note": "Serves ~8 \u2014 macros are rough estimates, not yet measured",
+      "tags": [
+        "fall",
+        "pork",
+        "sweet-potato",
+        "braised",
+        "casserole"
+      ],
+      "equipment": "Dutch oven, sheet pan, baking dish",
+      "macro_strings": {
+        "austin": "590 cal | 50g P | 35g F | 35g C",
+        "cameron": "490 cal | 42g P | 29g F | 29g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 590,
+          "p": 50,
+          "f": 35,
+          "c": 35
+        },
+        "cameron": {
+          "cal": 490,
+          "p": 42,
+          "f": 29,
+          "c": 29
+        }
+      },
+      "ingredients": [
+        {
+          "name": "FOR THE PORK",
+          "qty": null
+        },
+        {
+          "name": "Boneless pork butt/shoulder",
+          "qty": "4 lbs"
+        },
+        {
+          "name": "Carrots",
+          "qty": "2"
+        },
+        {
+          "name": "Celery stalks",
+          "qty": "3"
+        },
+        {
+          "name": "Yellow onion",
+          "qty": "1"
+        },
+        {
+          "name": "Garlic cloves",
+          "qty": "4"
+        },
+        {
+          "name": "Rosemary sprigs",
+          "qty": "4"
+        },
+        {
+          "name": "Red wine",
+          "qty": "1.5 cups"
+        },
+        {
+          "name": "Chicken stock",
+          "qty": "to cover"
+        },
+        {
+          "name": "AP flour",
+          "qty": "3 tbsp"
+        },
+        {
+          "name": "Salt and pepper",
+          "qty": "to taste"
+        },
+        {
+          "name": "Neutral oil for searing",
+          "qty": "as needed"
+        },
+        {
+          "name": "FOR THE POTATOES",
+          "qty": null
+        },
+        {
+          "name": "Large sweet potatoes",
+          "qty": "5"
+        },
+        {
+          "name": "Cinnamon maple butter",
+          "qty": "5 oz"
+        },
+        {
+          "name": "TO FINISH",
+          "qty": null
+        },
+        {
+          "name": "Additional butter, for brushing",
+          "qty": "to taste"
+        },
+        {
+          "name": "Chives",
+          "qty": "for finishing"
+        }
+      ],
+      "instructions": [
+        "Season the pork heavily with salt and pepper.",
+        "Sear the pork heavily on all sides over medium-high heat, then remove.",
+        "Add the vegetables and saute for 5 minutes. Add the flour and cook 2 more minutes.",
+        "Add the wine, stirring over medium heat until thickened.",
+        "Add the pork, rosemary, and chicken stock until just covered. Bring to a simmer, lid the pot, and cook in the oven at 325F for 2.5 hours.",
+        "Prick the sweet potatoes all over with a fork and bake at 400F for 1 hour or until very tender.",
+        "Puree the potatoes, season, and mix in the cinnamon maple butter.",
+        "Shred the cooked pork well. Layer pork then potatoes in a baking dish.",
+        "Broil for 20 minutes. Brush with additional butter and finish with chives."
+      ],
+      "batch_note": "Weekend project \u2014 braise the pork and bake the potatoes a day ahead, then assemble and broil day-of.",
+      "cameron_note": "Rich and savory-sweet, no heat \u2014 works for her as-is.",
+      "seasonal_note": "Peak fall comfort \u2014 sweet potato and braised pork season.",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
     }
   ]
 }
