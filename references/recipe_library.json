@@ -14,9 +14,11 @@
       "tags": [
         "batch-friendly",
         "grab-and-go",
-        "spring",
+        "high-protein",
+        "highly-rated",
         "no-cook",
-        "highly-rated"
+        "spring",
+        "vegetarian"
       ],
       "equipment": "4 meal prep containers, small zip bags",
       "macro_strings": {
@@ -144,9 +146,11 @@
       "serving_note": "12 muffins \u2014 Austin: 4/serving | Cameron: 3/serving",
       "tags": [
         "batch-friendly",
+        "egg",
         "high-protein",
+        "sausage",
         "spring",
-        "egg"
+        "turkey"
       ],
       "equipment": "12-cup muffin tin, large mixing bowl, whisk",
       "macro_strings": {
@@ -255,10 +259,12 @@
       "serving_note": "2 per person \u2014 batch lunch",
       "tags": [
         "batch-friendly",
-        "no-cook",
+        "chicken",
+        "high-protein",
+        "highly-rated",
         "mediterranean",
-        "spring",
-        "highly-rated"
+        "no-cook",
+        "spring"
       ],
       "equipment": "2 meal prep containers per person, small dressing jar",
       "macro_strings": {
@@ -388,10 +394,12 @@
       "spice_level": "Low-Medium Austin | Low Cameron",
       "serving_note": "2 per person \u2014 batch lunch",
       "tags": [
+        "asian",
         "batch-friendly",
-        "no-cook",
+        "chicken",
+        "high-protein",
         "japanese",
-        "asian"
+        "no-cook"
       ],
       "equipment": "2 meal prep containers per person, small dressing jar",
       "macro_strings": {
@@ -523,10 +531,12 @@
       "serving_note": "2 per person \u2014 batch lunch",
       "tags": [
         "batch-friendly",
-        "no-cook",
+        "chicken",
+        "high-protein",
+        "highly-rated",
         "italian",
-        "spring",
-        "highly-rated"
+        "no-cook",
+        "spring"
       ],
       "equipment": "2 meal prep containers per person",
       "macro_strings": {
@@ -629,11 +639,13 @@
       "spice_level": "None",
       "serving_note": "1 per person \u2014 Sunday lunch",
       "tags": [
-        "no-cook",
+        "chicken",
         "greek",
-        "spring",
+        "high-protein",
+        "highly-rated",
+        "no-cook",
         "salad",
-        "highly-rated"
+        "spring"
       ],
       "equipment": "Salad bowl or meal prep container, small jar",
       "macro_strings": {
@@ -760,11 +772,12 @@
       "serving_note": "2 (Monday dinner)",
       "tags": [
         "fresh",
+        "high-protein",
+        "highly-rated",
         "italian",
-        "spring",
         "pasta",
         "quick",
-        "highly-rated"
+        "spring"
       ],
       "equipment": "Large pot, large skillet",
       "macro_strings": {
@@ -888,12 +901,14 @@
       "spice_level": "High Austin | Medium Cameron",
       "serving_note": "2 (Tuesday dinner)",
       "tags": [
+        "chicken",
+        "egg",
+        "fan-favorite",
         "fresh",
-        "thai",
         "high-protein",
         "quick",
         "spicy",
-        "fan-favorite"
+        "thai"
       ],
       "equipment": "Wok or large skillet, separate small pan for eggs",
       "macro_strings": {
@@ -1027,9 +1042,10 @@
       "spice_level": "Medium Austin | Mild-Medium Cameron",
       "serving_note": "2 (Wednesday dinner)",
       "tags": [
+        "chicken",
         "fresh",
-        "mexican",
         "high-protein",
+        "mexican",
         "spring"
       ],
       "equipment": "Cast iron or tabletop griddle, blender for crema",
@@ -1174,12 +1190,14 @@
       "spice_level": "None (umami-forward)",
       "serving_note": "2 (Thursday dinner)",
       "tags": [
+        "fan-favorite",
         "fresh",
+        "high-protein",
         "japanese",
+        "salmon",
         "seafood",
-        "spring",
         "sheet-pan",
-        "fan-favorite"
+        "spring"
       ],
       "equipment": "Sheet pan, oven, foil",
       "macro_strings": {
@@ -1311,11 +1329,13 @@
       "spice_level": "Low (Austin: red pepper flakes freely)",
       "serving_note": "2 (Friday dinner)",
       "tags": [
+        "egg",
         "fresh",
+        "high-protein",
+        "highly-rated",
         "italian",
         "pasta",
-        "high-protein",
-        "highly-rated"
+        "turkey"
       ],
       "equipment": "Large oven-safe skillet, large pot for pasta",
       "macro_strings": {
@@ -1451,12 +1471,12 @@
       "spice_level": "Medium Austin | Low-Medium Cameron",
       "serving_note": "2 (Saturday dinner)",
       "tags": [
+        "fan-favorite",
         "fresh",
         "greek",
-        "spring",
         "high-protein",
         "lamb",
-        "fan-favorite"
+        "spring"
       ],
       "equipment": "Cast iron skillet, mixing bowl",
       "macro_strings": {
@@ -1620,11 +1640,13 @@
       "spice_level": "High Austin (bold rub) | Medium Cameron (half cayenne)",
       "serving_note": "2 (Sunday dinner \u2014 the main event)",
       "tags": [
-        "smoker",
         "bbq",
-        "weekend-project",
+        "fan-favorite",
+        "high-protein",
+        "sheet-pan",
+        "smoker",
         "spring",
-        "fan-favorite"
+        "weekend-project"
       ],
       "equipment": "Smoker + apple/cherry wood, sheet pan (potatoes), large bowl (slaw)",
       "macro_strings": {
@@ -1788,8 +1810,10 @@
       "tags": [
         "batch-friendly",
         "grab-and-go",
+        "high-protein",
+        "seasonal",
         "spring",
-        "seasonal"
+        "vegetarian"
       ],
       "equipment": "4 meal prep containers, small saucepan",
       "macro_strings": {
@@ -1932,10 +1956,12 @@
       "serving_note": "12 bites \u2014 Austin: 4/serving | Cameron: 3/serving (Tue / Thu / Sat)",
       "tags": [
         "batch-friendly",
-        "high-protein",
-        "spring",
         "egg",
-        "seasonal"
+        "high-protein",
+        "sausage",
+        "seasonal",
+        "spring",
+        "turkey"
       ],
       "equipment": "12-cup muffin tin, large mixing bowl, whisk",
       "macro_strings": {
@@ -2033,10 +2059,12 @@
       "spice_level": "Medium Austin | Low-Medium Cameron",
       "serving_note": "2 per person \u2014 Mon / Tue lunches",
       "tags": [
-        "batch-friendly",
-        "no-cook",
-        "korean",
         "asian",
+        "batch-friendly",
+        "chicken",
+        "high-protein",
+        "korean",
+        "no-cook",
         "quick-pickle"
       ],
       "equipment": "2 meal prep containers per person, small jar for sauce",
@@ -2178,10 +2206,12 @@
       "spice_level": "Medium Austin | Low Cameron",
       "serving_note": "2 per person \u2014 Wed / Thu lunches",
       "tags": [
-        "batch-friendly",
-        "thai",
         "asian",
-        "noodles"
+        "batch-friendly",
+        "chicken",
+        "high-protein",
+        "noodles",
+        "thai"
       ],
       "equipment": "Large pot, 2 meal prep containers per person, sauce jar",
       "macro_strings": {
@@ -2311,11 +2341,12 @@
       "spice_level": "None",
       "serving_note": "1 per person \u2014 Fri / Sat lunches",
       "tags": [
-        "spring",
-        "italian",
-        "salad",
         "egg",
-        "no-cook"
+        "high-protein",
+        "italian",
+        "no-cook",
+        "salad",
+        "spring"
       ],
       "equipment": "Small pot for eggs, ice bowl, salad bowl",
       "macro_strings": {
@@ -2424,9 +2455,11 @@
       "spice_level": "Low-Medium Austin | Low Cameron",
       "serving_note": "1 per person \u2014 Sunday lunch (from beer can chicken leftovers)",
       "tags": [
-        "no-cook",
-        "bbq",
         "asian",
+        "bbq",
+        "chicken",
+        "high-protein",
+        "no-cook",
         "smoker",
         "spring"
       ],
@@ -2562,10 +2595,12 @@
       "spice_level": "None (pure brightness and umami)",
       "serving_note": "2 (Monday dinner)",
       "tags": [
+        "chicken",
         "fresh",
+        "high-protein",
         "italian",
-        "spring",
-        "quick"
+        "quick",
+        "spring"
       ],
       "equipment": "Large skillet, pot for orzo, baking sheet for asparagus",
       "macro_strings": {
@@ -2689,10 +2724,12 @@
       "serving_note": "2 (Tuesday dinner)",
       "tags": [
         "fresh",
+        "high-protein",
         "mediterranean",
+        "quick",
         "seafood",
-        "spring",
-        "quick"
+        "shrimp",
+        "spring"
       ],
       "equipment": "Large skillet, large bowl for couscous",
       "macro_strings": {
@@ -2799,11 +2836,12 @@
       "spice_level": "High Austin (extra jalape\u00f1o) | Medium Cameron (1 tbsp paste, no jalape\u00f1o)",
       "serving_note": "2 (Wednesday dinner)",
       "tags": [
+        "cameron-favorite",
+        "chicken",
         "fresh",
-        "thai",
-        "sauce-forward",
         "high-protein",
-        "cameron-favorite"
+        "sauce-forward",
+        "thai"
       ],
       "equipment": "Large skillet or wok",
       "macro_strings": {
@@ -2927,9 +2965,12 @@
       "serving_note": "2 (Thursday dinner)",
       "tags": [
         "fresh",
+        "high-protein",
         "japanese",
-        "seafood",
         "quick-pickle",
+        "salmon",
+        "seafood",
+        "sheet-pan",
         "spring"
       ],
       "equipment": "Sheet pan, oven/broiler, foil",
@@ -3058,10 +3099,11 @@
       "serving_note": "2 (Friday dinner)",
       "tags": [
         "fresh",
-        "mexican",
         "high-protein",
+        "mexican",
+        "quick",
         "spring",
-        "quick"
+        "turkey"
       ],
       "equipment": "Large skillet, gas burner or cast iron for tortillas",
       "macro_strings": {
@@ -3199,11 +3241,12 @@
       "spice_level": "Medium Austin | Low Cameron (small pinch pepper flakes)",
       "serving_note": "2 (Saturday dinner)",
       "tags": [
+        "chicken",
         "fresh",
         "greek",
-        "spring",
+        "grilled",
         "high-protein",
-        "grilled"
+        "spring"
       ],
       "equipment": "Skewers (metal or soaked wood), cast iron or grill, small mixing bowl for tzatziki",
       "macro_strings": {
@@ -3370,11 +3413,14 @@
       "spice_level": "Medium-High Austin (bold rub) | Medium Cameron (lighter cayenne)",
       "serving_note": "2\u20134 (Sunday dinner + leftover meat for Sunday lunch wraps)",
       "tags": [
-        "smoker",
         "bbq",
-        "weekend-project",
+        "chicken",
+        "grilled",
+        "high-protein",
+        "sheet-pan",
+        "smoker",
         "spring",
-        "spring"
+        "weekend-project"
       ],
       "equipment": "Smoker + apple/cherry wood, sheet pan (potatoes + asparagus), kitchen thermometer",
       "macro_strings": {
@@ -3518,10 +3564,12 @@
       "tags": [
         "batch-friendly",
         "grab-and-go",
-        "spring",
+        "high-protein",
         "no-cook",
+        "no-mango-peach-melon",
         "smoothie",
-        "no-mango-peach-melon"
+        "spring",
+        "vegetarian"
       ],
       "equipment": "High-powered blender, 4 freezer-safe meal prep containers",
       "macro_strings": {
@@ -3666,10 +3714,13 @@
       "serving_note": "12 cups total \u2014 Austin 4/morning, Cameron 3/morning (Tue/Thu/Sat)",
       "tags": [
         "batch-friendly",
-        "high-protein",
+        "egg",
         "grab-and-go",
+        "high-protein",
+        "oven",
+        "sausage",
         "spring",
-        "oven"
+        "turkey"
       ],
       "equipment": "12-cup muffin tin, large mixing bowl, non-stick spray",
       "macro_strings": {
@@ -3783,9 +3834,11 @@
       "serving_note": "2 servings per person \u2014 Mon/Tue lunches",
       "tags": [
         "batch-friendly",
-        "Italian",
-        "spring",
-        "meal-prep"
+        "chicken",
+        "high-protein",
+        "italian",
+        "meal-prep",
+        "spring"
       ],
       "equipment": "Large pot for orzo, meal prep containers",
       "macro_strings": {
@@ -3921,11 +3974,13 @@
       "serving_note": "2 servings per person \u2014 Wed/Thu lunches",
       "tags": [
         "batch-friendly",
-        "Thai",
-        "spring",
+        "chicken",
+        "high-protein",
         "light",
+        "no-cook-day-of",
         "salad-forward",
-        "no-cook-day-of"
+        "spring",
+        "thai"
       ],
       "equipment": "Meal prep containers, small jar for dressing",
       "macro_strings": {
@@ -4117,10 +4172,13 @@
       "serving_note": "2 servings per person \u2014 Fri/Sat lunches",
       "tags": [
         "batch-friendly",
+        "chicken",
+        "grilled",
+        "high-protein",
         "light",
+        "no-cook-day-of",
         "salad-forward",
-        "spring",
-        "no-cook-day-of"
+        "spring"
       ],
       "equipment": "Meal prep containers, jar for dressing",
       "macro_strings": {
@@ -4284,10 +4342,11 @@
       "spice_level": "Mild (red pepper flakes optional)",
       "serving_note": "Serves 2 \u2014 Austin + Cameron with different portions",
       "tags": [
-        "Italian",
-        "spring",
+        "high-protein",
+        "italian",
         "light",
-        "salad-forward"
+        "salad-forward",
+        "spring"
       ],
       "equipment": "Large pot, large skillet or Le Creuset",
       "macro_strings": {
@@ -4408,10 +4467,13 @@
       "spice_level": "Mild",
       "serving_note": "Serves 2",
       "tags": [
-        "Greek",
-        "spring",
+        "air-fryer",
+        "batch-assembly",
+        "chicken",
+        "greek",
+        "high-protein",
         "light",
-        "batch-assembly"
+        "spring"
       ],
       "equipment": "Skillet or air fryer for pita warming",
       "macro_strings": {
@@ -4522,10 +4584,12 @@
       "spice_level": "Hot (Austin) / Mild-medium (Cameron)",
       "serving_note": "Serves 2",
       "tags": [
-        "Thai",
         "bold",
+        "egg",
         "high-protein",
-        "stir-fry"
+        "stir-fry",
+        "thai",
+        "turkey"
       ],
       "equipment": "Large wok or skillet, rice noodle soak bowl",
       "macro_strings": {
@@ -4654,10 +4718,11 @@
       "spice_level": "Mild",
       "serving_note": "Serves 2",
       "tags": [
-        "Japanese",
-        "umami",
+        "chicken",
+        "high-protein",
+        "japanese",
         "spring",
-        "high-protein"
+        "umami"
       ],
       "equipment": "Large skillet, small saucepan for sauce",
       "macro_strings": {
@@ -4773,9 +4838,11 @@
       "spice_level": "Hot (Austin) / Mild-medium (Cameron)",
       "serving_note": "Serves 2",
       "tags": [
-        "Mexican",
         "bold",
+        "chicken",
         "high-protein",
+        "mexican",
+        "rice-cooker",
         "spring"
       ],
       "equipment": "Skillet, rice cooker or pot for cilantro lime rice",
@@ -4896,11 +4963,13 @@
       "spice_level": "Medium (rub) \u2014 chimichurri adds brightness",
       "serving_note": "1 whole chicken serves 2 for dinner + leftover for Sunday lunch",
       "tags": [
-        "smoker",
-        "American BBQ",
-        "spring",
+        "american-bbq",
         "batch",
-        "high-protein"
+        "chicken",
+        "high-protein",
+        "sheet-pan",
+        "smoker",
+        "spring"
       ],
       "equipment": "Smoker (apple wood), kitchen shears, wire rack + sheet pan, thermometer",
       "macro_strings": {
@@ -5056,11 +5125,13 @@
       "spice_level": "None",
       "serving_note": "1 serving each \u2014 Sunday lunch",
       "tags": [
+        "chicken",
+        "high-protein",
         "light",
+        "no-cook",
         "salad-forward",
-        "spring",
         "smoker-leftovers",
-        "no-cook"
+        "spring"
       ],
       "equipment": "Large mixing bowl",
       "macro_strings": {
@@ -5204,10 +5275,13 @@
       "spice_level": "Medium (Austin) / Mild-medium (Cameron)",
       "serving_note": "Serves 2 \u2014 one skillet",
       "tags": [
-        "Mediterranean",
+        "bold",
+        "egg",
+        "high-protein",
+        "mediterranean",
         "one-pan",
-        "spring",
-        "bold"
+        "sausage",
+        "spring"
       ],
       "equipment": "Large oven-safe skillet or Le Creuset casserole dish, oven",
       "macro_strings": {
@@ -5343,10 +5417,12 @@
       "serving_note": "Makes ~2 cups",
       "tags": [
         "batch-friendly",
-        "component",
         "bbq",
+        "component",
+        "rd-week-112",
         "summer",
-        "rd-week-112"
+        "vegan",
+        "vegetarian"
       ],
       "equipment": "Blender or immersion blender, small saucepan",
       "macro_strings": {
@@ -5439,12 +5515,13 @@
       "serving_note": "Makes ~2.5 cups (serves 4 across multiple meals)",
       "tags": [
         "batch-friendly",
-        "component",
         "bbq",
-        "pork",
         "braised",
-        "summer",
-        "rd-week-112"
+        "component",
+        "one-pot",
+        "pork",
+        "rd-week-112",
+        "summer"
       ],
       "equipment": "Dutch oven with lid",
       "macro_strings": {
@@ -5521,7 +5598,8 @@
         "batch-friendly",
         "component",
         "no-cook",
-        "rd-week-112"
+        "rd-week-112",
+        "vegetarian"
       ],
       "equipment": "Small bowl, whisk",
       "macro_strings": {
@@ -5593,7 +5671,9 @@
       "tags": [
         "batch-friendly",
         "component",
-        "rd-week-112"
+        "rd-week-112",
+        "vegan",
+        "vegetarian"
       ],
       "equipment": "Baking sheet, large bowl",
       "macro_strings": {
@@ -5660,7 +5740,8 @@
         "batch-friendly",
         "component",
         "no-cook",
-        "rd-week-112"
+        "rd-week-112",
+        "vegetarian"
       ],
       "equipment": "Large mixing bowl, whisk",
       "macro_strings": {
@@ -5738,7 +5819,10 @@
         "batch-friendly",
         "component",
         "pickled",
-        "rd-week-112"
+        "rd-week-112",
+        "spicy",
+        "vegan",
+        "vegetarian"
       ],
       "equipment": "Small saucepan, quart-sized deli container",
       "macro_strings": {
@@ -5811,12 +5895,12 @@
       "spice_level": "Low",
       "serving_note": "2 servings",
       "tags": [
-        "bowl",
         "bbq",
+        "bowl",
+        "high-protein",
         "pork",
-        "summer",
         "rd-week-112",
-        "high-protein"
+        "summer"
       ],
       "equipment": "Large skillet, mixing bowl",
       "macro_strings": {
@@ -5903,11 +5987,11 @@
       "spice_level": "Low\u2013Medium",
       "serving_note": "2 servings",
       "tags": [
-        "bowl",
         "beef",
+        "bowl",
+        "rd-week-112",
         "salad",
-        "summer",
-        "rd-week-112"
+        "summer"
       ],
       "equipment": "Baking sheet, large skillet, mixing bowl",
       "macro_strings": {
@@ -6007,11 +6091,11 @@
       "spice_level": "Low",
       "serving_note": "2 servings (6 tacos)",
       "tags": [
-        "tacos",
         "bbq",
         "pork",
+        "rd-week-112",
         "summer",
-        "rd-week-112"
+        "tacos"
       ],
       "equipment": "Large skillet, mixing bowl",
       "macro_strings": {
@@ -6095,13 +6179,13 @@
       "spice_level": "Low\u2013Medium",
       "serving_note": "2 servings",
       "tags": [
-        "salad",
-        "chicken",
         "bbq",
+        "chicken",
         "grilled",
-        "summer",
+        "high-protein",
         "rd-week-112",
-        "high-protein"
+        "salad",
+        "summer"
       ],
       "equipment": "Grill (or stovetop skillet), mixing bowls",
       "macro_strings": {
@@ -6207,10 +6291,10 @@
       "spice_level": "Low\u2013Medium",
       "serving_note": "2 servings",
       "tags": [
-        "burger",
         "beef",
-        "summer",
-        "rd-week-112"
+        "burger",
+        "rd-week-112",
+        "summer"
       ],
       "equipment": "Large skillet",
       "macro_strings": {
@@ -6302,11 +6386,12 @@
       "spice_level": "None",
       "serving_note": "5 servings \u2014 full batch meal prep",
       "tags": [
+        "air-fryer",
         "batch-friendly",
-        "Italian",
-        "meal-prep",
+        "chicken",
         "high-protein",
-        "air fryer"
+        "italian",
+        "meal-prep"
       ],
       "equipment": "Large skillet, air fryer, baking sheet, broiler",
       "macro_strings": {
@@ -6512,7 +6597,10 @@
         "mason jars or airtight containers",
         "spoon"
       ],
-      "added_date": "2026-06-23"
+      "added_date": "2026-06-23",
+      "tags": [
+        "vegetarian"
+      ]
     },
     {
       "id": "turkey-zucchini-egg-scramble-wraps",
@@ -6607,7 +6695,11 @@
         "Breville Smart Oven Pro",
         "foil or parchment"
       ],
-      "added_date": "2026-06-23"
+      "added_date": "2026-06-23",
+      "tags": [
+        "egg",
+        "turkey"
+      ]
     },
     {
       "id": "greek-lamb-keftedes-bowl",
@@ -6684,7 +6776,10 @@
         "bowl",
         "microwave (optional reheat)"
       ],
-      "added_date": "2026-06-23"
+      "added_date": "2026-06-23",
+      "tags": [
+        "lamb"
+      ]
     },
     {
       "id": "sesame-ginger-salmon-cucumber-rice-bowl",
@@ -6756,7 +6851,10 @@
         "bowl",
         "meal prep containers"
       ],
-      "added_date": "2026-06-23"
+      "added_date": "2026-06-23",
+      "tags": [
+        "salmon"
+      ]
     },
     {
       "id": "grilled-chicken-zucchini-caprese-salad",
@@ -6832,7 +6930,11 @@
         "Breville Smart Oven Pro (batch)",
         "meal prep containers"
       ],
-      "added_date": "2026-06-23"
+      "added_date": "2026-06-23",
+      "tags": [
+        "chicken",
+        "grilled"
+      ]
     },
     {
       "id": "smoked-pulled-pork-lettuce-wrap-bowl",
@@ -6907,7 +7009,10 @@
         "bowl",
         "microwave"
       ],
-      "added_date": "2026-06-23"
+      "added_date": "2026-06-23",
+      "tags": [
+        "pork"
+      ]
     },
     {
       "id": "greek-lamb-keftedes-tzatziki-tabbouleh",
@@ -7049,7 +7154,12 @@
         "mixing bowl",
         "rice cooker (quinoa)"
       ],
-      "added_date": "2026-06-23"
+      "added_date": "2026-06-23",
+      "tags": [
+        "egg",
+        "lamb",
+        "rice-cooker"
+      ]
     },
     {
       "id": "miso-glazed-salmon-snap-peas",
@@ -7144,7 +7254,11 @@
         "sheet pan",
         "foil"
       ],
-      "added_date": "2026-06-23"
+      "added_date": "2026-06-23",
+      "tags": [
+        "salmon",
+        "sheet-pan"
+      ]
     },
     {
       "id": "carne-asada-tacos-corn-pico",
@@ -7249,7 +7363,8 @@
         "tabletop griddle or cast iron",
         "skillet (corn char)"
       ],
-      "added_date": "2026-06-23"
+      "added_date": "2026-06-23",
+      "tags": []
     },
     {
       "id": "basil-zucchini-pasta-hot-sausage",
@@ -7335,7 +7450,10 @@
         "large pot",
         "large skillet"
       ],
-      "added_date": "2026-06-23"
+      "added_date": "2026-06-23",
+      "tags": [
+        "sausage"
+      ]
     },
     {
       "id": "thai-basil-pork-stir-fry",
@@ -7428,7 +7546,12 @@
         "rice cooker or pot",
         "small pan (eggs)"
       ],
-      "added_date": "2026-06-23"
+      "added_date": "2026-06-23",
+      "tags": [
+        "egg",
+        "pork",
+        "rice-cooker"
+      ]
     },
     {
       "id": "smoked-pulled-pork-shoulder",
@@ -7535,7 +7658,11 @@
         "cooler (rest)",
         "butcher paper or foil"
       ],
-      "added_date": "2026-06-23"
+      "added_date": "2026-06-23",
+      "tags": [
+        "pork",
+        "smoker"
+      ]
     },
     {
       "id": "zaatar-shrimp-herb-couscous",
@@ -7635,7 +7762,11 @@
         "skillet or grill pan",
         "large bowl (couscous)"
       ],
-      "added_date": "2026-06-23"
+      "added_date": "2026-06-23",
+      "tags": [
+        "grilled",
+        "shrimp"
+      ]
     },
     {
       "id": "turkey-spinach-egg-wraps",
@@ -7727,7 +7858,11 @@
         "large skillet",
         "Breville Smart Oven Pro"
       ],
-      "added_date": "2026-06-23"
+      "added_date": "2026-06-23",
+      "tags": [
+        "egg",
+        "turkey"
+      ]
     },
     {
       "id": "arugula-prosciutto-orzo-bowl",
@@ -7811,7 +7946,8 @@
         "jar (dressing)",
         "meal prep containers"
       ],
-      "added_date": "2026-06-23"
+      "added_date": "2026-06-23",
+      "tags": []
     },
     {
       "id": "pesto-chicken-spinach-pasta",
@@ -7897,7 +8033,10 @@
         "large skillet",
         "Breville (optional chicken batch)"
       ],
-      "added_date": "2026-06-23"
+      "added_date": "2026-06-23",
+      "tags": [
+        "chicken"
+      ]
     },
     {
       "id": "ginger-soy-tilapia-snow-peas",
@@ -7981,7 +8120,11 @@
         "nonstick skillet",
         "rice cooker or pot"
       ],
-      "added_date": "2026-06-23"
+      "added_date": "2026-06-23",
+      "tags": [
+        "rice-cooker",
+        "tilapia"
+      ]
     },
     {
       "id": "chipotle-turkey-taco-bowls",
@@ -8077,7 +8220,11 @@
         "large skillet",
         "rice cooker"
       ],
-      "added_date": "2026-06-23"
+      "added_date": "2026-06-23",
+      "tags": [
+        "rice-cooker",
+        "turkey"
+      ]
     },
     {
       "id": "lamb-keftedes-couscous-tahini",
@@ -8193,7 +8340,11 @@
         "cast iron or large skillet",
         "mixing bowl"
       ],
-      "added_date": "2026-06-23"
+      "added_date": "2026-06-23",
+      "tags": [
+        "egg",
+        "lamb"
+      ]
     },
     {
       "id": "lamb-keftedes-couscous-bowl",
@@ -8255,7 +8406,11 @@
         "microwave",
         "bowl"
       ],
-      "added_date": "2026-06-23"
+      "added_date": "2026-06-23",
+      "tags": [
+        "lamb",
+        "no-cook"
+      ]
     },
     {
       "id": "thai-basil-beef-stir-fry",
@@ -8354,7 +8509,11 @@
         "wok or large skillet",
         "small pan (fried eggs)"
       ],
-      "added_date": "2026-06-23"
+      "added_date": "2026-06-23",
+      "tags": [
+        "beef",
+        "egg"
+      ]
     },
     {
       "id": "garbanzo-tahini-spinach-bowl",
@@ -8437,7 +8596,11 @@
         "bowl",
         "whisk"
       ],
-      "added_date": "2026-06-23"
+      "added_date": "2026-06-23",
+      "tags": [
+        "no-cook",
+        "vegetarian"
+      ]
     },
     {
       "id": "smoked-chicken-thighs-street-corn",
@@ -8540,7 +8703,11 @@
         "probe thermometer",
         "skillet (corn char)"
       ],
-      "added_date": "2026-06-23"
+      "added_date": "2026-06-23",
+      "tags": [
+        "chicken",
+        "smoker"
+      ]
     },
     {
       "id": "smoked-chicken-spinach-wrap-bowl",
@@ -8605,7 +8772,11 @@
         "microwave",
         "bowl"
       ],
-      "added_date": "2026-06-23"
+      "added_date": "2026-06-23",
+      "tags": [
+        "chicken",
+        "no-cook"
+      ]
     },
     {
       "id": "moroccan-tilapia-pearl-couscous",
@@ -8701,7 +8872,10 @@
         "skillet or Breville Smart Oven Pro",
         "bowl"
       ],
-      "added_date": "2026-06-23"
+      "added_date": "2026-06-23",
+      "tags": [
+        "tilapia"
+      ]
     },
     {
       "id": "berry-protein-overnight-oats",
@@ -8765,7 +8939,10 @@
       "cameron_note": "Cameron uses coconut flakes instead of almond butter; smaller base portion (2/3 cup almond milk, slightly less yogurt).",
       "seasonal_note": "Peak strawberry + blueberry season in Pittsburgh \u2014 use the freshest berries you can find.",
       "equipment": "Mason jars or meal prep containers",
-      "added_date": "2026-06-23"
+      "added_date": "2026-06-23",
+      "tags": [
+        "vegetarian"
+      ]
     },
     {
       "id": "zucchini-turkey-sausage-egg-bites",
@@ -8831,7 +9008,12 @@
       "cameron_note": "Cameron adds 1/4 sliced avocado on the side for healthy fats and creaminess.",
       "seasonal_note": "Zucchini is peaking \u2014 use it up! Spring onions add brightness.",
       "equipment": "12-cup muffin tin, box grater",
-      "added_date": "2026-06-23"
+      "added_date": "2026-06-23",
+      "tags": [
+        "egg",
+        "sausage",
+        "turkey"
+      ]
     },
     {
       "id": "mediterranean-chicken-cucumber-grain-bowl",
@@ -8895,7 +9077,10 @@
       "cameron_note": "+ 1/4 avocado sliced fresh daily, extra feta crumble.",
       "seasonal_note": "Cucumber and cherry tomatoes at their summer best.",
       "equipment": "Meal prep containers",
-      "added_date": "2026-06-23"
+      "added_date": "2026-06-23",
+      "tags": [
+        "chicken"
+      ]
     },
     {
       "id": "gochujang-chicken-lettuce-wraps",
@@ -8959,7 +9144,10 @@
       "cameron_note": "+ 1/4 avocado in wraps, use lighter gochujang drizzle.",
       "seasonal_note": "Crisp butter lettuce + fresh cucumbers = perfect summer wrap vehicle.",
       "equipment": "Meal prep containers, small bags for lettuce",
-      "added_date": "2026-06-23"
+      "added_date": "2026-06-23",
+      "tags": [
+        "chicken"
+      ]
     },
     {
       "id": "italian-zucchini-chicken-pesto-pasta-salad",
@@ -9027,7 +9215,10 @@
       "cameron_note": "+ 1/4 avocado sliced fresh, extra pesto drizzle.",
       "seasonal_note": "Peak zucchini + fresh basil + cherry tomatoes = summer Italian perfection.",
       "equipment": "Large pot, large skillet",
-      "added_date": "2026-06-23"
+      "added_date": "2026-06-23",
+      "tags": [
+        "chicken"
+      ]
     },
     {
       "id": "smoked-pork-tenderloin-grain-bowl",
@@ -9086,7 +9277,10 @@
       "cameron_note": "+ 1/4 avocado, extra tzatziki drizzle.",
       "seasonal_note": "Fresh arugula + cherry BBQ = summer fusion.",
       "equipment": "None \u2014 assembly only",
-      "added_date": "2026-06-23"
+      "added_date": "2026-06-23",
+      "tags": [
+        "pork"
+      ]
     },
     {
       "id": "harissa-chicken-zucchini-couscous",
@@ -9167,7 +9361,11 @@
       "cameron_note": "Smaller chicken portion; extra couscous and a generous yogurt dollop to balance the harissa heat.",
       "seasonal_note": "Peak zucchini + fresh herbs = summer Mediterranean done right.",
       "equipment": "Skillet, sheet pan, small pot",
-      "added_date": "2026-06-23"
+      "added_date": "2026-06-23",
+      "tags": [
+        "chicken",
+        "sheet-pan"
+      ]
     },
     {
       "id": "chicken-enchilada-verde-bowls",
@@ -9239,7 +9437,11 @@
       "cameron_note": "+ sliced avocado, lighter salsa verde, extra cheese for creaminess.",
       "seasonal_note": "Fresh corn just starting in season \u2014 use it if you can find it at the market.",
       "equipment": "Skillet",
-      "added_date": "2026-06-23"
+      "added_date": "2026-06-23",
+      "tags": [
+        "chicken",
+        "spicy"
+      ]
     },
     {
       "id": "thai-coconut-basil-shrimp",
@@ -9321,7 +9523,10 @@
       "cameron_note": "Use less curry paste (1 tbsp instead of 2) for her portion; no bird eye chili; extra coconut milk for creaminess.",
       "seasonal_note": "Last weeks of snap peas \u2014 enjoy them before summer fully arrives.",
       "equipment": "Large skillet or wok",
-      "added_date": "2026-06-23"
+      "added_date": "2026-06-23",
+      "tags": [
+        "shrimp"
+      ]
     },
     {
       "id": "miso-ginger-pork-stir-fry-snap-peas",
@@ -9399,7 +9604,10 @@
       "cameron_note": "Smaller pork portion; slightly more rice. Miso-ginger is naturally mild \u2014 no adjustment needed.",
       "seasonal_note": "Final weeks of snap peas \u2014 make the most of them in this quick stir-fry.",
       "equipment": "Large skillet or wok",
-      "added_date": "2026-06-23"
+      "added_date": "2026-06-23",
+      "tags": [
+        "pork"
+      ]
     },
     {
       "id": "lemon-garlic-shrimp-zucchini-linguine",
@@ -9474,7 +9682,10 @@
       "cameron_note": "Smaller shrimp portion; lighter on red pepper flakes. Extra lemon + Parmesan.",
       "seasonal_note": "Zucchini at its peak \u2014 the char on the half-moons is everything.",
       "equipment": "Large skillet, large pot (if cooking pasta fresh)",
-      "added_date": "2026-06-23"
+      "added_date": "2026-06-23",
+      "tags": [
+        "shrimp"
+      ]
     },
     {
       "id": "smoked-pork-tenderloin-cherry-bbq",
@@ -9566,7 +9777,12 @@
       "cameron_note": "Smaller pork portion (5 oz vs 8 oz). Extra slaw. The cherry glaze is naturally sweet and mild \u2014 no adjustment needed.",
       "seasonal_note": "Cherries just hitting the market in Pittsburgh \u2014 the cherry BBQ glaze is the seasonal star.",
       "equipment": "Smoker, cherry wood chips",
-      "added_date": "2026-06-23"
+      "added_date": "2026-06-23",
+      "tags": [
+        "pork",
+        "smoker",
+        "spicy"
+      ]
     },
     {
       "id": "greek-lemon-chicken-potatoes-tzatziki",
@@ -9641,7 +9857,11 @@
       "cameron_note": "Slightly smaller chicken portion. Extra potatoes and a very generous tzatziki dollop.",
       "seasonal_note": "Cherry tomatoes roasting in the pan add summer sweetness.",
       "equipment": "Large sheet pan",
-      "added_date": "2026-06-23"
+      "added_date": "2026-06-23",
+      "tags": [
+        "chicken",
+        "sheet-pan"
+      ]
     },
     {
       "id": "antipasto-pasta-salad-calabrian-chili",
@@ -9761,7 +9981,11 @@
       "seasonal_note": "Peak summer recipe \u2014 cherry tomatoes and fresh basil at their best. Great for hot days when you want a substantial cold meal.",
       "equipment": "Large pot, large mixing bowl, skillet or grill for chicken",
       "source": "Adapted from TikTok antipasto pasta salad recipe \u2014 Calabrian chili vinaigrette version. Added grilled chicken for protein targets.",
-      "added_date": "2026-06-23"
+      "added_date": "2026-06-23",
+      "tags": [
+        "chicken",
+        "grilled"
+      ]
     },
     {
       "id": "eggs-and-toast",
@@ -9774,9 +9998,12 @@
       "spice_level": "None",
       "serving_note": "Per person \u2014 made fresh each morning",
       "tags": [
-        "simple",
+        "egg",
+        "high-protein",
         "no-batch",
-        "quick"
+        "quick",
+        "simple",
+        "vegetarian"
       ],
       "equipment": "Skillet, toaster",
       "macro_strings": {
@@ -9878,9 +10105,10 @@
       "spice_level": "Variable",
       "serving_note": "Estimated macros \u2014 actual will vary by restaurant",
       "tags": [
+        "flexible",
+        "high-protein",
         "no-cook",
-        "out",
-        "flexible"
+        "out"
       ],
       "equipment": "None",
       "macro_strings": {
@@ -9934,9 +10162,12 @@
       "serving_note": "12 bites \u2014 Austin 3 bites, Cameron 2 bites",
       "tags": [
         "batch-friendly",
-        "summer-2026",
+        "egg",
         "high-protein",
-        "meal-prep"
+        "meal-prep",
+        "spicy",
+        "summer-2026",
+        "turkey"
       ],
       "equipment": "Muffin tin, skillet",
       "macro_strings": {
@@ -10040,9 +10271,10 @@
       "serving_note": "4-5 servings \u2014 Austin full portion, Cameron light portion",
       "tags": [
         "batch-friendly",
-        "summer-2026",
+        "chicken",
+        "high-protein",
         "no-cook",
-        "high-protein"
+        "summer-2026"
       ],
       "equipment": "Mixing bowl",
       "macro_strings": {
@@ -10148,10 +10380,12 @@
       "spice_level": "High",
       "serving_note": "4 servings \u2014 chicken pre-prepped",
       "tags": [
-        "summer-2026",
         "batch-friendly",
+        "chicken",
+        "high-protein",
+        "meal-prep",
         "spicy",
-        "meal-prep"
+        "summer-2026"
       ],
       "equipment": "Skillet",
       "macro_strings": {
@@ -10259,10 +10493,13 @@
       "spice_level": "Medium",
       "serving_note": "4 servings \u2014 sauce made Sunday",
       "tags": [
-        "summer-2026",
+        "chicken",
         "cold-noodles",
+        "high-protein",
+        "japanese",
         "light",
-        "japanese"
+        "spicy",
+        "summer-2026"
       ],
       "equipment": "Large pot, small saucepan, skillet",
       "macro_strings": {
@@ -10380,10 +10617,12 @@
       "spice_level": "High",
       "serving_note": "Austin: 9 tacos (3 meals) | Cameron: 6 tacos",
       "tags": [
-        "summer-2026",
-        "restaurant-dropout-inspired",
+        "high-protein",
         "light",
-        "spicy"
+        "restaurant-dropout-inspired",
+        "spicy",
+        "summer-2026",
+        "tilapia"
       ],
       "equipment": "Cast-iron skillet",
       "macro_strings": {
@@ -10513,10 +10752,13 @@
       "spice_level": "Medium",
       "serving_note": "8 thighs \u2014 2/person Thu, pull rest for Fri",
       "tags": [
-        "summer-2026",
-        "smoker",
         "batch-friendly",
-        "seasonal-corn"
+        "chicken",
+        "high-protein",
+        "seasonal-corn",
+        "smoker",
+        "spicy",
+        "summer-2026"
       ],
       "equipment": "Smoker, broiler",
       "macro_strings": {
@@ -10634,9 +10876,11 @@
       "spice_level": "Mild",
       "serving_note": "4 servings \u2014 uses Thursday dinner leftovers",
       "tags": [
-        "summer-2026",
+        "batch-friendly",
+        "chicken",
+        "high-protein",
         "no-cook",
-        "batch-friendly"
+        "summer-2026"
       ],
       "equipment": "None",
       "macro_strings": {
@@ -10728,10 +10972,13 @@
       "spice_level": "Medium",
       "serving_note": "4 servings",
       "tags": [
-        "summer-2026",
-        "restaurant-dropout-inspired",
+        "high-protein",
         "light",
-        "quick"
+        "quick",
+        "restaurant-dropout-inspired",
+        "shrimp",
+        "spicy",
+        "summer-2026"
       ],
       "equipment": "Large skillet",
       "macro_strings": {
@@ -10856,10 +11103,12 @@
       "spice_level": "Medium",
       "serving_note": "4 servings \u2014 Restaurant Dropout Jun 26 adapted",
       "tags": [
-        "summer-2026",
+        "high-protein",
         "restaurant-dropout-inspired",
-        "weekend",
-        "spicy"
+        "spicy",
+        "summer-2026",
+        "turkey",
+        "weekend"
       ],
       "equipment": "Cast-iron skillet",
       "macro_strings": {
@@ -10982,9 +11231,11 @@
       "spice_level": "None",
       "serving_note": "4 servings \u2014 Austin adds tuna. Restaurant Dropout Jul 3.",
       "tags": [
-        "summer-2026",
-        "restaurant-dropout-inspired",
+        "high-protein",
         "light",
+        "restaurant-dropout-inspired",
+        "summer-2026",
+        "tuna",
         "vegetable-forward"
       ],
       "equipment": "Cast-iron skillet, oven",
@@ -11095,7 +11346,8 @@
       "spice_level": "",
       "serving_note": "",
       "tags": [
-        "anylist-import"
+        "anylist-import",
+        "vegetarian"
       ],
       "equipment": "",
       "macro_strings": {
@@ -11166,7 +11418,9 @@
       "spice_level": "",
       "serving_note": "",
       "tags": [
-        "anylist-import"
+        "anylist-import",
+        "chicken",
+        "crockpot"
       ],
       "equipment": "",
       "macro_strings": {
@@ -11230,7 +11484,8 @@
       "spice_level": "",
       "serving_note": "",
       "tags": [
-        "anylist-import"
+        "anylist-import",
+        "chicken"
       ],
       "equipment": "",
       "macro_strings": {
@@ -11297,7 +11552,9 @@
       "spice_level": "",
       "serving_note": "",
       "tags": [
-        "anylist-import"
+        "anylist-import",
+        "bacon",
+        "chicken"
       ],
       "equipment": "",
       "macro_strings": {
@@ -11372,7 +11629,8 @@
       "spice_level": "",
       "serving_note": "",
       "tags": [
-        "anylist-import"
+        "anylist-import",
+        "vegetarian"
       ],
       "equipment": "",
       "macro_strings": {
@@ -11444,7 +11702,9 @@
       "spice_level": "",
       "serving_note": "",
       "tags": [
-        "anylist-import"
+        "anylist-import",
+        "beef",
+        "egg"
       ],
       "equipment": "",
       "macro_strings": {
@@ -11535,7 +11795,9 @@
       "spice_level": "",
       "serving_note": "",
       "tags": [
-        "anylist-import"
+        "anylist-import",
+        "beef",
+        "crockpot"
       ],
       "equipment": "",
       "macro_strings": {
@@ -11605,7 +11867,8 @@
       "spice_level": "",
       "serving_note": "",
       "tags": [
-        "anylist-import"
+        "anylist-import",
+        "sausage"
       ],
       "equipment": "",
       "macro_strings": {
@@ -11682,7 +11945,9 @@
       "spice_level": "",
       "serving_note": "",
       "tags": [
-        "anylist-import"
+        "anylist-import",
+        "chicken",
+        "salmon"
       ],
       "equipment": "",
       "macro_strings": {
@@ -11760,7 +12025,9 @@
       "spice_level": "",
       "serving_note": "",
       "tags": [
-        "anylist-import"
+        "anylist-import",
+        "egg",
+        "vegetarian"
       ],
       "equipment": "",
       "macro_strings": {
@@ -11839,7 +12106,9 @@
       "spice_level": "",
       "serving_note": "",
       "tags": [
-        "anylist-import"
+        "anylist-import",
+        "egg",
+        "pork"
       ],
       "equipment": "",
       "macro_strings": {
@@ -11918,7 +12187,8 @@
       "spice_level": "",
       "serving_note": "",
       "tags": [
-        "anylist-import"
+        "anylist-import",
+        "beef"
       ],
       "equipment": "",
       "macro_strings": {
@@ -11987,7 +12257,9 @@
       "spice_level": "",
       "serving_note": "",
       "tags": [
-        "anylist-import"
+        "air-fryer",
+        "anylist-import",
+        "chicken"
       ],
       "equipment": "",
       "macro_strings": {
@@ -12061,7 +12333,8 @@
       "spice_level": "",
       "serving_note": "",
       "tags": [
-        "anylist-import"
+        "anylist-import",
+        "sausage"
       ],
       "equipment": "",
       "macro_strings": {
@@ -12143,7 +12416,9 @@
       "spice_level": "",
       "serving_note": "",
       "tags": [
-        "anylist-import"
+        "anylist-import",
+        "egg",
+        "vegetarian"
       ],
       "equipment": "",
       "macro_strings": {
@@ -12229,7 +12504,9 @@
       "spice_level": "",
       "serving_note": "",
       "tags": [
-        "anylist-import"
+        "anylist-import",
+        "egg",
+        "vegetarian"
       ],
       "equipment": "",
       "macro_strings": {
@@ -12321,7 +12598,8 @@
       "spice_level": "",
       "serving_note": "",
       "tags": [
-        "anylist-import"
+        "anylist-import",
+        "vegetarian"
       ],
       "equipment": "",
       "macro_strings": {
@@ -12392,7 +12670,8 @@
       "spice_level": "",
       "serving_note": "",
       "tags": [
-        "anylist-import"
+        "anylist-import",
+        "vegetarian"
       ],
       "equipment": "",
       "macro_strings": {
@@ -12482,7 +12761,8 @@
       "spice_level": "",
       "serving_note": "",
       "tags": [
-        "anylist-import"
+        "anylist-import",
+        "chicken"
       ],
       "equipment": "",
       "macro_strings": {
@@ -12555,7 +12835,8 @@
       "spice_level": "",
       "serving_note": "",
       "tags": [
-        "anylist-import"
+        "anylist-import",
+        "turkey"
       ],
       "equipment": "",
       "macro_strings": {
@@ -12648,7 +12929,8 @@
       "spice_level": "",
       "serving_note": "",
       "tags": [
-        "anylist-import"
+        "anylist-import",
+        "vegetarian"
       ],
       "equipment": "",
       "macro_strings": {
@@ -12723,7 +13005,9 @@
       "spice_level": "",
       "serving_note": "",
       "tags": [
-        "anylist-import"
+        "anylist-import",
+        "grilled",
+        "vegetarian"
       ],
       "equipment": "",
       "macro_strings": {
@@ -12790,7 +13074,8 @@
       "spice_level": "",
       "serving_note": "",
       "tags": [
-        "anylist-import"
+        "anylist-import",
+        "vegetarian"
       ],
       "equipment": "",
       "macro_strings": {
@@ -12865,7 +13150,8 @@
       "spice_level": "",
       "serving_note": "",
       "tags": [
-        "anylist-import"
+        "anylist-import",
+        "beef"
       ],
       "equipment": "",
       "macro_strings": {
@@ -12935,7 +13221,8 @@
       "spice_level": "",
       "serving_note": "",
       "tags": [
-        "anylist-import"
+        "anylist-import",
+        "sausage"
       ],
       "equipment": "",
       "macro_strings": {
@@ -13013,7 +13300,9 @@
       "spice_level": "",
       "serving_note": "",
       "tags": [
-        "anylist-import"
+        "anylist-import",
+        "crockpot",
+        "pork"
       ],
       "equipment": "",
       "macro_strings": {
@@ -13081,7 +13370,9 @@
       "spice_level": "",
       "serving_note": "",
       "tags": [
-        "anylist-import"
+        "anylist-import",
+        "chicken",
+        "crockpot"
       ],
       "equipment": "",
       "macro_strings": {
@@ -13151,7 +13442,10 @@
       "spice_level": "",
       "serving_note": "",
       "tags": [
-        "anylist-import"
+        "anylist-import",
+        "bacon",
+        "chicken",
+        "crockpot"
       ],
       "equipment": "",
       "macro_strings": {
@@ -13216,7 +13510,8 @@
       "spice_level": "",
       "serving_note": "",
       "tags": [
-        "anylist-import"
+        "anylist-import",
+        "chicken"
       ],
       "equipment": "",
       "macro_strings": {
@@ -13290,7 +13585,8 @@
       "spice_level": "",
       "serving_note": "",
       "tags": [
-        "anylist-import"
+        "anylist-import",
+        "beef"
       ],
       "equipment": "",
       "macro_strings": {
@@ -13359,7 +13655,8 @@
       "spice_level": "",
       "serving_note": "",
       "tags": [
-        "anylist-import"
+        "anylist-import",
+        "chicken"
       ],
       "equipment": "",
       "macro_strings": {
@@ -13433,7 +13730,8 @@
       "spice_level": "",
       "serving_note": "",
       "tags": [
-        "anylist-import"
+        "anylist-import",
+        "vegetarian"
       ],
       "equipment": "",
       "macro_strings": {
@@ -13504,7 +13802,9 @@
       "spice_level": "",
       "serving_note": "",
       "tags": [
-        "anylist-import"
+        "anylist-import",
+        "bacon",
+        "chicken"
       ],
       "equipment": "",
       "macro_strings": {
@@ -13582,7 +13882,8 @@
       "spice_level": "",
       "serving_note": "",
       "tags": [
-        "anylist-import"
+        "anylist-import",
+        "sausage"
       ],
       "equipment": "",
       "macro_strings": {
@@ -13656,7 +13957,9 @@
       "spice_level": "",
       "serving_note": "",
       "tags": [
-        "anylist-import"
+        "anylist-import",
+        "bacon",
+        "sausage"
       ],
       "equipment": "",
       "macro_strings": {
@@ -13725,7 +14028,9 @@
       "spice_level": "",
       "serving_note": "",
       "tags": [
-        "anylist-import"
+        "anylist-import",
+        "egg",
+        "vegetarian"
       ],
       "equipment": "",
       "macro_strings": {
@@ -13797,10 +14102,13 @@
       "spice_level": "Medium-High",
       "serving_note": "6 servings \u2014 Mon\u2013Wed for both",
       "tags": [
+        "aug-2026",
         "batch-friendly",
-        "summer-2026",
+        "chicken",
         "griddle",
-        "aug-2026"
+        "high-protein",
+        "rice-cooker",
+        "summer-2026"
       ],
       "equipment": "Saucepan, rice cooker",
       "macro_strings": {
@@ -13920,9 +14228,11 @@
       "spice_level": "Mild",
       "serving_note": "8 servings \u2014 Thu\u2013Sun for both",
       "tags": [
+        "aug-2026",
         "batch-friendly",
-        "summer-2026",
-        "aug-2026"
+        "chicken",
+        "high-protein",
+        "summer-2026"
       ],
       "equipment": "Cast-iron skillet or Breville broiler",
       "macro_strings": {
@@ -14036,9 +14346,12 @@
       "spice_level": "High",
       "serving_note": "2 servings \u2014 Monday",
       "tags": [
+        "air-fryer",
+        "aug-2026",
         "batch-friendly",
-        "summer-2026",
-        "aug-2026"
+        "high-protein",
+        "salmon",
+        "summer-2026"
       ],
       "equipment": "Air fryer",
       "macro_strings": {
@@ -14158,9 +14471,11 @@
       "spice_level": "High",
       "serving_note": "2 servings \u2014 Tuesday",
       "tags": [
+        "aug-2026",
         "batch-friendly",
+        "high-protein",
         "summer-2026",
-        "aug-2026"
+        "tilapia"
       ],
       "equipment": "Cast-iron skillet",
       "macro_strings": {
@@ -14282,9 +14597,11 @@
       "spice_level": "Mild",
       "serving_note": "3 burgers total \u2014 Wednesday",
       "tags": [
+        "aug-2026",
         "batch-friendly",
-        "summer-2026",
-        "aug-2026"
+        "beef",
+        "high-protein",
+        "summer-2026"
       ],
       "equipment": "Loco flat-top griddle (the one griddle night this week) \u2014 cast iron also works",
       "macro_strings": {
@@ -14402,9 +14719,12 @@
       "spice_level": "High",
       "serving_note": "2 servings \u2014 Friday",
       "tags": [
+        "aug-2026",
         "batch-friendly",
-        "summer-2026",
-        "aug-2026"
+        "egg",
+        "high-protein",
+        "shrimp",
+        "summer-2026"
       ],
       "equipment": "Large skillet or wok",
       "macro_strings": {
@@ -14523,9 +14843,11 @@
       "spice_level": "Mild",
       "serving_note": "2 servings \u2014 Saturday",
       "tags": [
+        "aug-2026",
         "batch-friendly",
-        "summer-2026",
-        "aug-2026"
+        "high-protein",
+        "salmon",
+        "summer-2026"
       ],
       "equipment": "Breville Smart Oven Pro + skillet",
       "macro_strings": {
@@ -14637,9 +14959,12 @@
       "spice_level": "Mild-Medium",
       "serving_note": "2 servings \u2014 Sunday",
       "tags": [
+        "aug-2026",
         "batch-friendly",
+        "egg",
+        "high-protein",
         "summer-2026",
-        "aug-2026"
+        "tilapia"
       ],
       "equipment": "Two skillets",
       "macro_strings": {
@@ -14753,9 +15078,13 @@
       "spice_level": "Medium-High",
       "serving_note": "12 cups \u2014 Austin 4/day, Cameron 2/day, Mon\u2013Thu",
       "tags": [
+        "aug-2026",
         "batch-friendly",
+        "egg",
+        "high-protein",
+        "sausage",
         "summer-2026",
-        "aug-2026"
+        "turkey"
       ],
       "equipment": "Breville Smart Oven Pro, 12-cup muffin tin",
       "macro_strings": {
@@ -14865,9 +15194,14 @@
       "spice_level": "Medium",
       "serving_note": "2 servings per morning \u2014 Fri, Sat, Sun",
       "tags": [
+        "aug-2026",
         "batch-friendly",
+        "egg",
+        "high-protein",
+        "sausage",
+        "spicy",
         "summer-2026",
-        "aug-2026"
+        "turkey"
       ],
       "equipment": "Large skillet (or the Loco griddle if it's already fired)",
       "macro_strings": {
@@ -14972,11 +15306,14 @@
       "spice_level": "Varies",
       "serving_note": "About 1 cup \u2014 enough for the salmon, the beef, the tilapia, and the chicken",
       "tags": [
-        "restaurant-dropout",
-        "rd-week-125",
-        "summer-2026",
         "aug-2026",
-        "component"
+        "component",
+        "no-cook",
+        "rd-week-125",
+        "restaurant-dropout",
+        "summer-2026",
+        "vegan",
+        "vegetarian"
       ],
       "equipment": "Bowl or blender",
       "source": "Adapted from Restaurant Dropout Week 125 (8.7.2026)",
@@ -15076,11 +15413,14 @@
       "spice_level": "Varies",
       "serving_note": "About 2 cups \u2014 both lunches",
       "tags": [
-        "restaurant-dropout",
-        "rd-week-125",
-        "summer-2026",
         "aug-2026",
-        "component"
+        "component",
+        "no-cook",
+        "rd-week-125",
+        "restaurant-dropout",
+        "summer-2026",
+        "vegan",
+        "vegetarian"
       ],
       "equipment": "Bowl or blender",
       "source": "Adapted from Restaurant Dropout Week 125 (8.7.2026)",
@@ -15173,11 +15513,13 @@
       "spice_level": "Varies",
       "serving_note": "About 1/2 cup \u2014 both lunches plus the slaws",
       "tags": [
-        "restaurant-dropout",
-        "rd-week-125",
-        "summer-2026",
         "aug-2026",
-        "component"
+        "component",
+        "no-cook",
+        "rd-week-125",
+        "restaurant-dropout",
+        "summer-2026",
+        "vegetarian"
       ],
       "equipment": "Bowl or blender",
       "source": "Adapted from Restaurant Dropout Week 125 (8.7.2026)",
@@ -15256,11 +15598,13 @@
       "spice_level": "Varies",
       "serving_note": "About 1.5 cups",
       "tags": [
-        "restaurant-dropout",
-        "rd-week-125",
-        "summer-2026",
         "aug-2026",
-        "component"
+        "component",
+        "no-cook",
+        "rd-week-125",
+        "restaurant-dropout",
+        "summer-2026",
+        "vegetarian"
       ],
       "equipment": "Bowl or blender",
       "source": "Adapted from Restaurant Dropout Week 125 (8.7.2026)",
@@ -15353,11 +15697,13 @@
       "spice_level": "Varies",
       "serving_note": "About 1.5 cups",
       "tags": [
-        "restaurant-dropout",
-        "rd-week-125",
-        "summer-2026",
         "aug-2026",
-        "component"
+        "component",
+        "no-cook",
+        "rd-week-125",
+        "restaurant-dropout",
+        "summer-2026",
+        "vegetarian"
       ],
       "equipment": "Bowl or blender",
       "source": "Adapted from Restaurant Dropout Week 125 (8.7.2026)",
@@ -15450,11 +15796,14 @@
       "spice_level": "Varies",
       "serving_note": "About 1/2 cup \u2014 the shrimp night",
       "tags": [
-        "restaurant-dropout",
-        "rd-week-125",
-        "summer-2026",
         "aug-2026",
-        "component"
+        "component",
+        "no-cook",
+        "rd-week-125",
+        "restaurant-dropout",
+        "summer-2026",
+        "vegan",
+        "vegetarian"
       ],
       "equipment": "Bowl or blender",
       "source": "Adapted from Restaurant Dropout Week 125 (8.7.2026)",
@@ -15535,11 +15884,14 @@
       "spice_level": "Varies",
       "serving_note": "About 2 cups \u2014 lunches and the Asada bowls",
       "tags": [
-        "restaurant-dropout",
-        "rd-week-125",
-        "summer-2026",
         "aug-2026",
-        "component"
+        "component",
+        "no-cook",
+        "rd-week-125",
+        "restaurant-dropout",
+        "summer-2026",
+        "vegan",
+        "vegetarian"
       ],
       "equipment": "Bowl or blender",
       "source": "Adapted from Restaurant Dropout Week 125 (8.7.2026)",
@@ -15609,10 +15961,14 @@
       "spice_level": "Medium",
       "serving_note": "6 servings \u2014 Mon, Tue, Wed for both",
       "tags": [
-        "restaurant-dropout",
+        "aug-2026",
+        "chicken",
+        "high-protein",
+        "no-cook",
         "rd-week-125",
-        "summer-2026",
-        "aug-2026"
+        "restaurant-dropout",
+        "spicy",
+        "summer-2026"
       ],
       "equipment": "No cooking \u2014 rotisserie chicken, assembly only",
       "source": "Adapted from Restaurant Dropout Week 125 (8.7.2026)",
@@ -15716,10 +16072,14 @@
       "spice_level": "Medium",
       "serving_note": "8 servings \u2014 Thu through Sun for both",
       "tags": [
-        "restaurant-dropout",
+        "aug-2026",
+        "chicken",
+        "high-protein",
         "rd-week-125",
-        "summer-2026",
-        "aug-2026"
+        "restaurant-dropout",
+        "rice-cooker",
+        "spicy",
+        "summer-2026"
       ],
       "equipment": "Nonstick skillet + rice cooker",
       "source": "Adapted from Restaurant Dropout Week 125 (8.7.2026)",
@@ -15823,10 +16183,12 @@
       "spice_level": "Medium-High",
       "serving_note": "2 servings \u2014 uses 3 of your salmon fillets",
       "tags": [
-        "restaurant-dropout",
+        "aug-2026",
+        "high-protein",
         "rd-week-125",
-        "summer-2026",
-        "aug-2026"
+        "restaurant-dropout",
+        "salmon",
+        "summer-2026"
       ],
       "equipment": "Breville Smart Oven Pro + small skillet",
       "source": "Adapted from Restaurant Dropout Week 125 (8.7.2026)",
@@ -15941,10 +16303,14 @@
       "spice_level": "High",
       "serving_note": "2 servings \u2014 uses all 16 oz of your shrimp",
       "tags": [
-        "restaurant-dropout",
+        "air-fryer",
+        "aug-2026",
+        "egg",
+        "high-protein",
         "rd-week-125",
-        "summer-2026",
-        "aug-2026"
+        "restaurant-dropout",
+        "shrimp",
+        "summer-2026"
       ],
       "equipment": "Air fryer + large skillet",
       "source": "Adapted from Restaurant Dropout Week 125 (8.7.2026)",
@@ -16060,10 +16426,13 @@
       "spice_level": "Medium-High",
       "serving_note": "2 servings \u2014 uses about 14 oz of your ground beef",
       "tags": [
-        "restaurant-dropout",
+        "aug-2026",
+        "beef",
+        "chicken",
+        "high-protein",
         "rd-week-125",
-        "summer-2026",
-        "aug-2026"
+        "restaurant-dropout",
+        "summer-2026"
       ],
       "equipment": "Cast-iron skillet + nonstick skillet",
       "source": "Adapted from Restaurant Dropout Week 125 (8.7.2026)",
@@ -16188,10 +16557,12 @@
       "spice_level": "Medium-High",
       "serving_note": "2 servings \u2014 uses 1 lb of your tilapia",
       "tags": [
-        "restaurant-dropout",
+        "aug-2026",
+        "high-protein",
         "rd-week-125",
+        "restaurant-dropout",
         "summer-2026",
-        "aug-2026"
+        "tilapia"
       ],
       "equipment": "Cast-iron skillet (or the Loco griddle)",
       "source": "Adapted from Restaurant Dropout Week 125 (8.7.2026)",
@@ -16308,10 +16679,12 @@
       "spice_level": "None",
       "serving_note": "Makes 1 large 9x13 loaf, about 12 slices. Bake Sunday during prep -- keeps refrigerated up to 7 days. Used in Pesto Chicken Focaccia Sandwiches (Saturday dinner) and as breakfast/side bread through the week.",
       "tags": [
-        "bread",
         "batch-friendly",
+        "bread",
+        "component",
         "restaurant-dropout-week130",
-        "component"
+        "vegan",
+        "vegetarian"
       ],
       "equipment": "Stand mixer bowl or large mixing bowl, 9x13 pan, oven",
       "macro_strings": {
@@ -16400,9 +16773,13 @@
       "spice_level": "Medium (chili-garlic sauce, adjustable)",
       "serving_note": "Base recipe serves 4. Austin gets extra noodles + a bigger shrimp topper; Cameron gets a lighter noodle portion + smaller shrimp + soft-boiled egg.",
       "tags": [
-        "soup-of-the-week",
+        "batch-friendly",
+        "egg",
         "fall-2026",
-        "batch-friendly"
+        "high-protein",
+        "one-pot",
+        "shrimp",
+        "soup-of-the-week"
       ],
       "equipment": "Large Dutch oven or stockpot, second pot for noodles",
       "macro_strings": {
@@ -16563,9 +16940,12 @@
       "spice_level": "None",
       "serving_note": "Serves 2 (1 salmon fillet each). Adapted from Restaurant Dropout Week 130 -- swapped store-bought jarred pesto for the walnut pesto, and baby spinach for swiss chard (both on hand).",
       "tags": [
-        "restaurant-dropout-week130",
+        "chicken",
+        "fall-2026",
+        "high-protein",
         "pantry-priority",
-        "fall-2026"
+        "restaurant-dropout-week130",
+        "salmon"
       ],
       "equipment": "Baking sheet, small saute pan",
       "macro_strings": {
@@ -16693,10 +17073,13 @@
       "spice_level": "Medium-high for Austin, mild for Cameron",
       "serving_note": "This week's smoker recipe. Batch extra chicken thighs Sunday -- some go on the smoker fresh Wednesday, extra gets used across Sun-Wed quinoa lunch bowls.",
       "tags": [
-        "smoker",
-        "pantry-priority",
+        "batch-friendly",
+        "chicken",
         "fall-2026",
-        "batch-friendly"
+        "high-protein",
+        "pantry-priority",
+        "rice-cooker",
+        "smoker"
       ],
       "equipment": "Smoker, cast-iron skillet, rice cooker or pot for quinoa",
       "macro_strings": {
@@ -16786,9 +17169,12 @@
       "spice_level": "None",
       "serving_note": "Adapted from Restaurant Dropout Week 130 -- swapped baby spinach for arugula and jarred pesto for walnut pesto (both on hand). Batch Sunday for Thu-Sat lunches.",
       "tags": [
-        "restaurant-dropout-week130",
         "batch-friendly",
-        "fall-2026"
+        "chicken",
+        "fall-2026",
+        "grilled",
+        "high-protein",
+        "restaurant-dropout-week130"
       ],
       "equipment": "Grill or grill pan, skewers, large mixing bowl",
       "macro_strings": {
@@ -16912,8 +17298,10 @@
       "spice_level": "None",
       "serving_note": "Adapted from Restaurant Dropout Week 130 -- uses the fresh Rosemary Focaccia baked Sunday, jarred pesto instead of walnut pesto, and a simple olive oil-balsamic dressing on the greens instead of a separate vinaigrette.",
       "tags": [
-        "restaurant-dropout-week130",
-        "fall-2026"
+        "chicken",
+        "fall-2026",
+        "high-protein",
+        "restaurant-dropout-week130"
       ],
       "equipment": "Oven-safe saute pan, oven",
       "macro_strings": {
@@ -17017,9 +17405,12 @@
       "serving_note": "Bake Sunday or Wednesday night, grab-and-go Thu-Sat. Uses banana peppers on hand instead of jalapeno for a milder, tangier heat.",
       "tags": [
         "batch-friendly",
+        "egg",
+        "fall-2026",
         "grab-and-go",
+        "high-protein",
         "pantry-priority",
-        "fall-2026"
+        "vegetarian"
       ],
       "equipment": "Muffin tin or 8x8 baking dish, oven",
       "macro_strings": {
@@ -17152,8 +17543,13 @@
       "serving_note": "Batch Sunday for Sun-Wed lunches. Uses quinoa, garbanzo beans, tahini, and spinach on hand, plus batch-cooked chicken.",
       "tags": [
         "batch-friendly",
+        "chicken",
+        "egg",
+        "fall-2026",
+        "grilled",
+        "high-protein",
         "pantry-priority",
-        "fall-2026"
+        "rice-cooker"
       ],
       "equipment": "Rice cooker or pot for quinoa, grill pan or skillet",
       "macro_strings": {
@@ -17256,13 +17652,16 @@
       "spice_level": "Mild-Medium",
       "serving_note": "Serves 2 (Austin 2 thighs, Cameron 1). Macros are estimates from standard ingredient values, not lab numbers. Austin's plate assumes you eat the skin.",
       "tags": [
-        "restaurant-dropout",
-        "rd-week-132",
-        "fall-2026",
-        "sep-2026",
-        "fall-dinners",
+        "chicken",
         "dinner",
-        "indian"
+        "fall-2026",
+        "fall-dinners",
+        "high-protein",
+        "indian",
+        "rd-week-132",
+        "restaurant-dropout",
+        "rice-cooker",
+        "sep-2026"
       ],
       "equipment": "Oven-safe cast-iron skillet, small pot or rice cooker, blender (chutney)",
       "source": "Adapted from Restaurant Dropout Week 132 (9.25.2026)",
@@ -17382,13 +17781,16 @@
       "spice_level": "None",
       "serving_note": "Serves 2 (4 cakes, Austin 2\u00bd, Cameron 1\u00bd). Macros are estimates from standard ingredient values, not lab numbers. Austin runs about 3g short of 60g protein and Cameron about 2g short of 35g; a side of extra Greek yogurt closes it.",
       "tags": [
-        "restaurant-dropout",
-        "rd-week-132",
-        "fall-2026",
-        "sep-2026",
-        "fall-dinners",
+        "american",
         "dinner",
-        "american"
+        "egg",
+        "fall-2026",
+        "fall-dinners",
+        "high-protein",
+        "rd-week-132",
+        "restaurant-dropout",
+        "salmon",
+        "sep-2026"
       ],
       "equipment": "Large skillet, baking sheet, blender (vinaigrette)",
       "source": "Adapted from Restaurant Dropout Week 132 (9.25.2026)",
@@ -17524,13 +17926,16 @@
       "spice_level": "Mild",
       "serving_note": "Serves 2. Macros are estimates from standard ingredient values, not lab numbers. Uses extra-lean ground chicken breast so Austin reaches his protein target; regular ground chicken is richer but runs ~10g lower protein.",
       "tags": [
-        "restaurant-dropout",
-        "rd-week-132",
-        "fall-2026",
-        "sep-2026",
-        "fall-dinners",
+        "chicken",
         "dinner",
-        "indian"
+        "egg",
+        "fall-2026",
+        "fall-dinners",
+        "high-protein",
+        "indian",
+        "rd-week-132",
+        "restaurant-dropout",
+        "sep-2026"
       ],
       "equipment": "Baking sheet, parchment, bench scraper, blender (chutney)",
       "source": "Adapted from Restaurant Dropout Week 132 (9.25.2026)",
@@ -17658,13 +18063,16 @@
       "spice_level": "Mild-Medium",
       "serving_note": "Serves 2. Macros are estimates from standard ingredient values, not lab numbers. Uses the lighter curry base made with lite coconut milk; the original is ~100 cal more per serving.",
       "tags": [
-        "restaurant-dropout",
-        "rd-week-132",
-        "fall-2026",
-        "sep-2026",
-        "fall-dinners",
         "dinner",
-        "indian"
+        "fall-2026",
+        "fall-dinners",
+        "high-protein",
+        "indian",
+        "rd-week-132",
+        "restaurant-dropout",
+        "seafood",
+        "sep-2026",
+        "tilapia"
       ],
       "equipment": "Lidded frying pan, small saucepan, blender",
       "source": "Adapted from Restaurant Dropout Week 132 (9.25.2026)",
@@ -17779,13 +18187,15 @@
       "spice_level": "Mild",
       "serving_note": "Serves 2. Macros are estimates from standard ingredient values, not lab numbers. Butter sauce is cut roughly in half from the original to fit the macros.",
       "tags": [
-        "restaurant-dropout",
-        "rd-week-132",
-        "fall-2026",
-        "sep-2026",
-        "fall-dinners",
         "dinner",
-        "italian"
+        "fall-2026",
+        "fall-dinners",
+        "high-protein",
+        "italian",
+        "rd-week-132",
+        "restaurant-dropout",
+        "sep-2026",
+        "shrimp"
       ],
       "equipment": "Large skillet, pot for pasta",
       "source": "Adapted from Restaurant Dropout Week 132 (9.25.2026)",
@@ -17901,13 +18311,16 @@
       "spice_level": "None",
       "serving_note": "Makes 4 portions of short rib (Sunday braise); the other portions feed the French Onion Toasties. Macros are estimates from standard ingredient values, not lab numbers. Short rib fat varies a lot, so this is the loosest estimate in the set. Austin runs ~8g short of protein, Cameron ~5g short; cover with a yogurt or shake at another meal.",
       "tags": [
-        "restaurant-dropout",
-        "rd-week-131",
-        "fall-2026",
-        "sep-2026",
-        "fall-dinners",
+        "beef",
         "dinner",
-        "french"
+        "fall-2026",
+        "fall-dinners",
+        "french",
+        "high-protein",
+        "one-pot",
+        "rd-week-131",
+        "restaurant-dropout",
+        "sep-2026"
       ],
       "equipment": "Dutch oven, small saucepan, masher",
       "source": "Adapted from Restaurant Dropout Week 131 (9.18.2026)",
@@ -18028,13 +18441,16 @@
       "spice_level": "None",
       "serving_note": "Serves 2. Macros are estimates from standard ingredient values, not lab numbers. The easiest week-131 dinner to hit Cameron's and Austin's targets.",
       "tags": [
-        "restaurant-dropout",
-        "rd-week-131",
-        "fall-2026",
-        "sep-2026",
-        "fall-dinners",
         "dinner",
-        "mediterranean"
+        "fall-2026",
+        "fall-dinners",
+        "grilled",
+        "high-protein",
+        "mediterranean",
+        "rd-week-131",
+        "restaurant-dropout",
+        "seafood",
+        "sep-2026"
       ],
       "equipment": "Grill or grill pan, small saucepan",
       "source": "Adapted from Restaurant Dropout Week 131 (9.18.2026)",
@@ -18141,13 +18557,14 @@
       "spice_level": "None",
       "serving_note": "Serves 2. Macros are estimates from standard ingredient values, not lab numbers. Treat dinner: even cut down it runs about 80 cal over Austin's dinner band and ~20g short of his protein; Cameron is ~9g short. Plan a lean, high-protein lunch and breakfast around it.",
       "tags": [
-        "restaurant-dropout",
-        "rd-week-131",
-        "fall-2026",
-        "sep-2026",
-        "fall-dinners",
         "dinner",
-        "french"
+        "fall-2026",
+        "fall-dinners",
+        "french",
+        "high-protein",
+        "rd-week-131",
+        "restaurant-dropout",
+        "sep-2026"
       ],
       "equipment": "Skillet or griddle, oven, immersion blender",
       "source": "Adapted from Restaurant Dropout Week 131 (9.18.2026)",
@@ -18255,13 +18672,15 @@
       "spice_level": "None",
       "serving_note": "Serves 2 (Austin 2 thighs, Cameron 1). Macros are estimates from standard ingredient values, not lab numbers. Greek yogurt replaces the cream to add protein and save about 70 cal per plate; Austin assumes you eat the skin and runs ~2g short of 60g.",
       "tags": [
-        "restaurant-dropout",
-        "rd-week-131",
-        "fall-2026",
-        "sep-2026",
-        "fall-dinners",
+        "chicken",
         "dinner",
-        "italian"
+        "fall-2026",
+        "fall-dinners",
+        "high-protein",
+        "italian",
+        "rd-week-131",
+        "restaurant-dropout",
+        "sep-2026"
       ],
       "equipment": "Oven-safe skillet, baking sheet",
       "source": "Adapted from Restaurant Dropout Week 131 (9.18.2026)",
@@ -18373,13 +18792,16 @@
       "spice_level": "None",
       "serving_note": "Serves 2. Macros are estimates from standard ingredient values, not lab numbers. Gnocchi on its own is almost no protein, so this adds baked chicken meatballs (one of the original's own suggested add-ons) to bring it in range.",
       "tags": [
-        "restaurant-dropout",
-        "rd-week-131",
-        "fall-2026",
-        "sep-2026",
-        "fall-dinners",
+        "chicken",
         "dinner",
-        "italian"
+        "egg",
+        "fall-2026",
+        "fall-dinners",
+        "high-protein",
+        "italian",
+        "rd-week-131",
+        "restaurant-dropout",
+        "sep-2026"
       ],
       "equipment": "Oven-safe skillet, baking sheet, pot",
       "source": "Adapted from Restaurant Dropout Week 131 (9.18.2026)",
@@ -18486,12 +18908,15 @@
       "spice_level": "Varies",
       "serving_note": "About \u2154 cup \u2014 used in the curried chicken, kofta and coconut fish",
       "tags": [
-        "restaurant-dropout",
-        "rd-week-132",
+        "component",
         "fall-2026",
-        "sep-2026",
         "fall-dinners",
-        "component"
+        "no-cook",
+        "rd-week-132",
+        "restaurant-dropout",
+        "sep-2026",
+        "vegan",
+        "vegetarian"
       ],
       "equipment": "Blender",
       "source": "Adapted from Restaurant Dropout Week 132 (9.25.2026)",
@@ -18587,12 +19012,14 @@
       "spice_level": "Varies",
       "serving_note": "About \u00bd cup \u2014 salmon cake salad and kofta salad",
       "tags": [
-        "restaurant-dropout",
-        "rd-week-132",
+        "component",
         "fall-2026",
-        "sep-2026",
         "fall-dinners",
-        "component"
+        "no-cook",
+        "rd-week-132",
+        "restaurant-dropout",
+        "sep-2026",
+        "vegetarian"
       ],
       "equipment": "Blender",
       "source": "Adapted from Restaurant Dropout Week 132 (9.25.2026)",
@@ -18676,12 +19103,14 @@
       "spice_level": "Varies",
       "serving_note": "About \u00bd cup \u2014 salmon cakes and kofta",
       "tags": [
-        "restaurant-dropout",
-        "rd-week-132",
+        "component",
         "fall-2026",
-        "sep-2026",
         "fall-dinners",
-        "component"
+        "no-cook",
+        "rd-week-132",
+        "restaurant-dropout",
+        "sep-2026",
+        "vegetarian"
       ],
       "equipment": "Small bowl",
       "source": "Adapted from Restaurant Dropout Week 132 (9.25.2026)",
@@ -18749,12 +19178,15 @@
       "spice_level": "Varies",
       "serving_note": "About 3 tbsp \u2014 the curried chicken",
       "tags": [
-        "restaurant-dropout",
-        "rd-week-132",
+        "component",
         "fall-2026",
-        "sep-2026",
         "fall-dinners",
-        "component"
+        "no-cook",
+        "rd-week-132",
+        "restaurant-dropout",
+        "sep-2026",
+        "vegan",
+        "vegetarian"
       ],
       "equipment": "Small bowl",
       "source": "Adapted from Restaurant Dropout Week 132 (9.25.2026)",
@@ -18841,12 +19273,14 @@
       "spice_level": "Varies",
       "serving_note": "About 2 cups \u2014 a garnish for the curried chicken and coconut fish",
       "tags": [
-        "restaurant-dropout",
-        "rd-week-132",
+        "component",
         "fall-2026",
-        "sep-2026",
         "fall-dinners",
-        "component"
+        "rd-week-132",
+        "restaurant-dropout",
+        "sep-2026",
+        "vegan",
+        "vegetarian"
       ],
       "equipment": "Small saucepan, sieve",
       "source": "Adapted from Restaurant Dropout Week 132 (9.25.2026)",
@@ -18914,12 +19348,13 @@
       "spice_level": "Varies",
       "serving_note": "About 2 cups \u2014 the coconut fish, with extra for another meal",
       "tags": [
-        "restaurant-dropout",
-        "rd-week-132",
+        "component",
         "fall-2026",
-        "sep-2026",
         "fall-dinners",
-        "component"
+        "rd-week-132",
+        "restaurant-dropout",
+        "sep-2026",
+        "vegetarian"
       ],
       "equipment": "Small saucepan, blender",
       "source": "Adapted from Restaurant Dropout Week 132 (9.25.2026)",
@@ -19021,12 +19456,13 @@
       "spice_level": "Varies",
       "serving_note": "About 4 cups. Not in the macros; plain basmati is the default",
       "tags": [
-        "restaurant-dropout",
-        "rd-week-132",
+        "component",
         "fall-2026",
-        "sep-2026",
         "fall-dinners",
-        "component"
+        "rd-week-132",
+        "restaurant-dropout",
+        "sep-2026",
+        "vegetarian"
       ],
       "equipment": "Lidded saucepan",
       "source": "Adapted from Restaurant Dropout Week 132 (9.25.2026)",
@@ -19107,12 +19543,14 @@
       "spice_level": "Varies",
       "serving_note": "About 1 cup \u2014 used in all five week-131 dinners",
       "tags": [
-        "restaurant-dropout",
-        "rd-week-131",
+        "component",
         "fall-2026",
-        "sep-2026",
         "fall-dinners",
-        "component"
+        "rd-week-131",
+        "restaurant-dropout",
+        "sep-2026",
+        "vegan",
+        "vegetarian"
       ],
       "equipment": "Small baking dish",
       "source": "Adapted from Restaurant Dropout Week 131 (9.18.2026)",
@@ -19184,12 +19622,14 @@
       "spice_level": "Varies",
       "serving_note": "3\u00bd\u20134 cups \u2014 the white fish and the gnocchi",
       "tags": [
-        "restaurant-dropout",
-        "rd-week-131",
+        "component",
         "fall-2026",
-        "sep-2026",
         "fall-dinners",
-        "component"
+        "rd-week-131",
+        "restaurant-dropout",
+        "sep-2026",
+        "vegan",
+        "vegetarian"
       ],
       "equipment": "Large saucepan",
       "source": "Adapted from Restaurant Dropout Week 131 (9.18.2026)",
@@ -19286,12 +19726,13 @@
       "spice_level": "Varies",
       "serving_note": "About 1 cup \u2014 the short ribs and the toasties",
       "tags": [
-        "restaurant-dropout",
-        "rd-week-131",
+        "component",
         "fall-2026",
-        "sep-2026",
         "fall-dinners",
-        "component"
+        "rd-week-131",
+        "restaurant-dropout",
+        "sep-2026",
+        "vegetarian"
       ],
       "equipment": "Large skillet",
       "source": "Adapted from Restaurant Dropout Week 131 (9.18.2026)",
@@ -19376,12 +19817,14 @@
       "spice_level": "Varies",
       "serving_note": "About 1 cup \u2014 the tomato soup in the toasties",
       "tags": [
-        "restaurant-dropout",
-        "rd-week-131",
+        "component",
         "fall-2026",
-        "sep-2026",
         "fall-dinners",
-        "component"
+        "rd-week-131",
+        "restaurant-dropout",
+        "sep-2026",
+        "vegan",
+        "vegetarian"
       ],
       "equipment": "Baking sheet",
       "source": "Adapted from Restaurant Dropout Week 131 (9.18.2026)",
@@ -19457,12 +19900,14 @@
       "spice_level": "Varies",
       "serving_note": "5\u20136 cups \u2014 the mash and the peperonata",
       "tags": [
-        "restaurant-dropout",
-        "rd-week-131",
+        "component",
         "fall-2026",
-        "sep-2026",
         "fall-dinners",
-        "component"
+        "rd-week-131",
+        "restaurant-dropout",
+        "sep-2026",
+        "vegan",
+        "vegetarian"
       ],
       "equipment": "Two baking sheets",
       "source": "Adapted from Restaurant Dropout Week 131 (9.18.2026)",
@@ -19534,10 +19979,13 @@
       "serving_note": "5-6 servings \u2014 batch Sunday for weeknight dinners, extra portions double as lunches. Source: @calwillcookit.",
       "tags": [
         "batch-friendly",
+        "chicken",
         "fall-2026",
+        "grilled",
         "harvest",
-        "maple",
-        "highly-rated"
+        "high-protein",
+        "highly-rated",
+        "maple"
       ],
       "equipment": "Grill or grill pan, baking sheet, skillet for Brussels sprouts",
       "macro_strings": {
@@ -19733,11 +20181,12 @@
       "spice_level": "Medium",
       "serving_note": "5-6 servings \u2014 macros are rough estimates, not yet measured",
       "tags": [
-        "smoker",
-        "pit-boss",
         "game-day",
         "high-protein",
-        "pork"
+        "pit-boss",
+        "pork",
+        "smoker",
+        "spicy"
       ],
       "equipment": "Pit Boss smoker, aluminum pan, foil, probe thermometer",
       "macro_strings": {
@@ -19887,9 +20336,10 @@
       "serving_note": "~4 servings \u2014 macros are rough estimates, not yet measured",
       "tags": [
         "fall",
+        "high-protein",
         "pasta",
-        "vegetarian",
-        "spicy"
+        "spicy",
+        "vegetarian"
       ],
       "equipment": "Baking sheet, blender, large skillet",
       "macro_strings": {
@@ -20015,10 +20465,12 @@
       "spice_level": "Mild",
       "serving_note": "~4 servings \u2014 macros are rough estimates, not yet measured",
       "tags": [
+        "comfort",
         "fall",
+        "grilled",
+        "one-pot",
         "soup",
-        "vegetarian",
-        "comfort"
+        "vegetarian"
       ],
       "equipment": "Baking dish, Dutch oven or large pot, immersion blender, nonstick skillet",
       "macro_strings": {
@@ -20146,9 +20598,11 @@
       "spice_level": "None",
       "serving_note": "~8-10 servings \u2014 macros are rough estimates, not yet measured",
       "tags": [
-        "fall",
         "baking",
-        "dessert"
+        "dessert",
+        "egg",
+        "fall",
+        "vegetarian"
       ],
       "equipment": "9-inch round cake pan, small saucepans, mixing bowls",
       "macro_strings": {
@@ -20282,10 +20736,11 @@
       "spice_level": "None",
       "serving_note": "Serves 4-6 as an appetizer \u2014 macros are rough estimates, not yet measured",
       "tags": [
-        "fall",
         "appetizer",
         "entertaining",
-        "no-cook"
+        "fall",
+        "no-cook",
+        "vegetarian"
       ],
       "equipment": "Blender, skillet",
       "macro_strings": {
@@ -20389,9 +20844,9 @@
       "serving_note": "Serves 2-4 \u2014 macros are rough estimates, not yet measured",
       "tags": [
         "fall",
+        "high-protein",
         "salad",
-        "vegetarian",
-        "high-protein"
+        "vegetarian"
       ],
       "equipment": "Baking sheet, large skillet, small bowl or jar",
       "macro_strings": {
@@ -20518,9 +20973,10 @@
       "spice_level": "None",
       "serving_note": "Serves 2 \u2014 macros are rough estimates, not yet measured",
       "tags": [
-        "fall",
         "breakfast",
-        "quick"
+        "fall",
+        "quick",
+        "vegetarian"
       ],
       "equipment": "Medium skillet",
       "macro_strings": {
@@ -20614,11 +21070,13 @@
       "spice_level": "Medium-hot",
       "serving_note": "Serves ~4 \u2014 macros are rough estimates, not yet measured",
       "tags": [
-        "fall",
+        "crowd-pleaser",
         "dumplings",
+        "fall",
+        "high-protein",
         "pork",
-        "weeknight",
-        "crowd-pleaser"
+        "spicy",
+        "weeknight"
       ],
       "equipment": "9x13 baking dish, large pot with lid (steam method) or large roasting pan (oven method), shallow bowl of water",
       "macro_strings": {
@@ -20750,10 +21208,12 @@
       "spice_level": "Mild",
       "serving_note": "Serves ~6 \u2014 macros are rough estimates, not yet measured",
       "tags": [
-        "fall",
         "beef",
-        "pot-roast",
         "comfort-food",
+        "fall",
+        "high-protein",
+        "one-pot",
+        "pot-roast",
         "sunday-dinner"
       ],
       "equipment": "Dutch oven or oven-safe pan with lid",
@@ -20884,11 +21344,12 @@
       "spice_level": "Medium",
       "serving_note": "Serves 2 \u2014 macros per serving from the creator (not yet measured at home)",
       "tags": [
-        "rice-cooker",
         "chicken",
-        "one-pot",
+        "hainanese",
         "high-protein",
-        "hainanese"
+        "one-pot",
+        "rice-cooker",
+        "spicy"
       ],
       "equipment": "Rice cooker",
       "macro_strings": {
@@ -21022,10 +21483,13 @@
       "spice_level": "None",
       "serving_note": "Serves ~6 \u2014 macros are rough estimates, not yet measured",
       "tags": [
-        "pasta",
-        "fall",
+        "bacon",
         "caesar",
-        "roasted-veggies"
+        "fall",
+        "high-protein",
+        "pasta",
+        "roasted-veggies",
+        "sheet-pan"
       ],
       "equipment": "Sheet pan, large pot, large mixing bowl",
       "macro_strings": {
@@ -21164,10 +21628,12 @@
       "spice_level": "Medium-hot",
       "serving_note": "Makes 8 tacos (4 servings of 2) \u2014 macros are rough estimates, not yet measured",
       "tags": [
-        "tacos",
         "chicken",
+        "crispy",
+        "high-protein",
         "nashville-hot",
-        "crispy"
+        "spicy",
+        "tacos"
       ],
       "equipment": "Large skillet, wire rack, pastry brush",
       "macro_strings": {
@@ -21371,11 +21837,14 @@
       "spice_level": "Medium",
       "serving_note": "Makes ~28 shells \u2014 macros are rough estimates, not yet measured",
       "tags": [
-        "bbq",
-        "smoker",
+        "appetizer",
         "bacon",
+        "bbq",
+        "beef",
         "game-day",
-        "appetizer"
+        "high-protein",
+        "smoker",
+        "spicy"
       ],
       "equipment": "Pit Boss smoker, large mixing bowl, basting brush",
       "macro_strings": {
@@ -21474,10 +21943,11 @@
       "spice_level": "Mild",
       "serving_note": "Makes ~8 tartines \u2014 macros are rough estimates, not yet measured",
       "tags": [
-        "fall",
         "appetizer",
         "baguette",
         "burrata",
+        "fall",
+        "high-protein",
         "roasted-garlic"
       ],
       "equipment": "Baking sheet, saucepan, mixing bowl",
@@ -21589,11 +22059,14 @@
       "spice_level": "Medium",
       "serving_note": "Makes ~8 tacos (4 servings of 2) \u2014 macros are rough estimates, not yet measured",
       "tags": [
-        "tacos",
+        "beef",
         "chicken",
-        "korean",
         "crispy",
-        "smash-tacos"
+        "high-protein",
+        "korean",
+        "smash-tacos",
+        "spicy",
+        "tacos"
       ],
       "equipment": "Large skillet",
       "macro_strings": {
@@ -21763,10 +22236,11 @@
       "spice_level": "Mild",
       "serving_note": "Serves ~4 as a side \u2014 macros are rough estimates, not yet measured",
       "tags": [
-        "side",
         "asian",
         "cucumber",
-        "no-cook"
+        "no-cook",
+        "side",
+        "vegetarian"
       ],
       "equipment": "Vegetable peeler, mixing bowl",
       "macro_strings": {
@@ -21853,11 +22327,14 @@
       "spice_level": "None",
       "serving_note": "Serves ~8 \u2014 macros are rough estimates, not yet measured",
       "tags": [
-        "fall",
-        "pork",
-        "sweet-potato",
         "braised",
-        "casserole"
+        "casserole",
+        "fall",
+        "high-protein",
+        "one-pot",
+        "pork",
+        "sheet-pan",
+        "sweet-potato"
       ],
       "equipment": "Dutch oven, sheet pan, baking dish",
       "macro_strings": {
@@ -21995,8 +22472,10 @@
       "tags": [
         "fall",
         "quinoa",
+        "roasted-veggies",
         "salad",
-        "roasted-veggies"
+        "sheet-pan",
+        "vegetarian"
       ],
       "equipment": "Sheet pan, saucepan, food processor",
       "macro_strings": {
@@ -22184,10 +22663,14 @@
       "serving_note": "Makes ~30 rings (2 rings per serving) \u2014 macros from the recipe site, not yet measured at home",
       "tags": [
         "appetizer",
+        "egg",
         "fall",
-        "squash",
+        "holiday",
+        "pork",
         "sausage",
-        "holiday"
+        "sheet-pan",
+        "spicy",
+        "squash"
       ],
       "equipment": "Two sheet pans, food processor, cookie scoop",
       "macro_strings": {
