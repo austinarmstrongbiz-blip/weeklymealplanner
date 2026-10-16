@@ -22775,6 +22775,145 @@
         }
       },
       "retired": false
+    },
+    {
+      "id": "crockpot-mongolian-beef-noodles",
+      "name": "Crockpot Mongolian Beef & Noodles",
+      "cuisine": "Asian / Fusion",
+      "source_account": "@406_bbq",
+      "source_url": "https://www.instagram.com/reel/Deg129uPqbg/",
+      "added_date": "2026-10-16",
+      "meal_type": "dinner",
+      "prep": "~20 min",
+      "cook": "4-5 hr (low)",
+      "total": "~5 hr",
+      "spice_level": "Medium",
+      "serving_note": "Serves ~6 \u2014 macros are rough estimates, not yet measured",
+      "tags": [
+        "crockpot",
+        "beef",
+        "noodles",
+        "weeknight",
+        "asian"
+      ],
+      "equipment": "Crockpot, skillet, saucepan",
+      "macro_strings": {
+        "austin": "700 cal | 30g P | 28g F | 55g C",
+        "cameron": "580 cal | 25g P | 23g F | 46g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 700,
+          "p": 30,
+          "f": 28,
+          "c": 55
+        },
+        "cameron": {
+          "cal": 580,
+          "p": 25,
+          "f": 23,
+          "c": 46
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Chuck roast, thinly sliced",
+          "qty": "2 lbs"
+        },
+        {
+          "name": "Butter",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Low-sodium shoyu",
+          "qty": "1/2 cup"
+        },
+        {
+          "name": "Brown sugar",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Low-sodium beef broth",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Minced garlic",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Grated ginger",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Sesame oil",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Rice vinegar",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Black pepper",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Onion, thinly sliced",
+          "qty": "1"
+        },
+        {
+          "name": "Cornstarch",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Cold water",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Precooked noodles (Fortune Yakisoba)",
+          "qty": "12 oz"
+        },
+        {
+          "name": "Green onions",
+          "qty": "for finishing"
+        },
+        {
+          "name": "Sesame seeds",
+          "qty": "for finishing"
+        },
+        {
+          "name": "Chili crisp",
+          "qty": "for finishing"
+        },
+        {
+          "name": "Favorite beef seasoning",
+          "qty": "to taste"
+        }
+      ],
+      "instructions": [
+        "Season the beef and sear in butter over high heat, 1-2 minutes per side in batches \u2014 just build color.",
+        "Add the sliced onion and beef to the crockpot. Deglaze the skillet with a splash of beef broth and pour it into the crockpot.",
+        "Add the remaining broth, shoyu, brown sugar, garlic, ginger, sesame oil, vinegar, and pepper. Stir.",
+        "Cook on LOW 4-5 hours or HIGH 2.5-3.5 hours. Check early for tenderness.",
+        "Remove 1 cup of sauce and bring to a boil in a saucepan. Mix the cornstarch with cold water, whisk into the boiling sauce until thickened, then return it to the crockpot.",
+        "Cook on HIGH 10-15 minutes until the sauce is thick and glossy.",
+        "Loosen the noodles under hot water. Add to the crockpot with 1-inch green onion pieces. Toss and heat 5-10 minutes.",
+        "Finish with sesame seeds, green onions, and chili crisp for heat. Serve immediately \u2014 do not leave the noodles on KEEP WARM or they will soak up the sauce."
+      ],
+      "batch_note": "Serve immediately \u2014 do not leave the noodles on KEEP WARM or they will soak up all the sauce. The beef and sauce hold great; cook noodles fresh if making ahead.",
+      "cameron_note": "Chili crisp is a finish-only topping \u2014 skip it on hers. The sweet-savory beef and noodles base is fine for her.",
+      "seasonal_note": "Cozy slow-cooker dinner \u2014 great for fall and winter weeknights.",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
     }
   ]
 }
