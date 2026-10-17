@@ -257,6 +257,7 @@ def build_entry(r, scraped=None):
         'cameron_note': '',
         'source_url':   scraped.get('source_url', '') if scraped else
                         (f'https://{r["source_domain"]}' if r.get('source_domain') else ''),
+        'added_date':   __import__('datetime').date.today().isoformat(),
         'history': {
             'first_used': '',
             'last_used':  '',
