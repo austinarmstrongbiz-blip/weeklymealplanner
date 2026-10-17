@@ -23102,6 +23102,174 @@
         }
       },
       "retired": false
+    },
+    {
+      "id": "brothy-beef-bowls",
+      "name": "Brothy Beef Bowls",
+      "cuisine": "Asian / Fusion",
+      "source_account": "@shredhappens",
+      "source_url": "https://www.instagram.com/reel/DeX8e5Bpng7/",
+      "added_date": "2026-10-17",
+      "meal_type": "dinner",
+      "prep": "~15 min",
+      "cook": "~20 min",
+      "total": "~35 min",
+      "spice_level": "Medium",
+      "serving_note": "Serves 4 \u2014 macros per bowl from the creator (not yet measured at home)",
+      "tags": [
+        "beef",
+        "bowls",
+        "high-protein",
+        "soup",
+        "spicy",
+        "weeknight"
+      ],
+      "equipment": "Large pan, saucepan, small bowl",
+      "macro_strings": {
+        "austin": "490 cal | 35g P | 22g F | 35g C",
+        "cameron": "420 cal | 30g P | 19g F | 30g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 490,
+          "p": 35,
+          "f": 22,
+          "c": 35
+        },
+        "cameron": {
+          "cal": 420,
+          "p": 30,
+          "f": 19,
+          "c": 30
+        }
+      },
+      "ingredients": [
+        {
+          "name": "SEASONED BEEF",
+          "qty": null
+        },
+        {
+          "name": "Ground beef",
+          "qty": "1 lb"
+        },
+        {
+          "name": "Garlic cloves, minced",
+          "qty": "4"
+        },
+        {
+          "name": "Smoked paprika",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Cayenne pepper",
+          "qty": "1/4 tsp"
+        },
+        {
+          "name": "Red chili flakes",
+          "qty": "1/4 tsp"
+        },
+        {
+          "name": "Salt",
+          "qty": "a generous pinch"
+        },
+        {
+          "name": "BROTH",
+          "qty": null
+        },
+        {
+          "name": "Red curry paste",
+          "qty": "2.5 tbsp"
+        },
+        {
+          "name": "Garlic cloves, minced",
+          "qty": "2"
+        },
+        {
+          "name": "Half-and-half (or coconut milk)",
+          "qty": "3/4 cup"
+        },
+        {
+          "name": "Kettle & Fire bone broth",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Salt",
+          "qty": "a generous couple pinches"
+        },
+        {
+          "name": "Fresh lime juice",
+          "qty": "to taste"
+        },
+        {
+          "name": "Fresh cilantro, chopped",
+          "qty": "to taste"
+        },
+        {
+          "name": "QUICK PICKLED RED ONIONS",
+          "qty": null
+        },
+        {
+          "name": "Large red onion, super thinly sliced",
+          "qty": "1/2"
+        },
+        {
+          "name": "Lemon, juiced",
+          "qty": "1"
+        },
+        {
+          "name": "Sea salt",
+          "qty": "a sprinkle"
+        },
+        {
+          "name": "TO ASSEMBLE",
+          "qty": null
+        },
+        {
+          "name": "Cooked rice (cooked in bone broth)",
+          "qty": "4 servings"
+        },
+        {
+          "name": "Cucumbers, thinly sliced",
+          "qty": "to taste"
+        },
+        {
+          "name": "Sesame seeds",
+          "qty": "to taste"
+        },
+        {
+          "name": "Korean chili flakes",
+          "qty": "to taste"
+        },
+        {
+          "name": "Fresh cilantro, finely chopped",
+          "qty": "plenty"
+        }
+      ],
+      "instructions": [
+        "Brown the ground beef in a large pan over medium-high heat, breaking it apart. Add the garlic, smoked paprika, cayenne, chili flakes, and salt; brown really well.",
+        "For the broth, add the red curry paste and garlic to a saucepan over medium heat. Stir 1-2 minutes until softened and fragrant.",
+        "Pour in the half-and-half and bone broth. Stir until smooth and bring to a gentle simmer.",
+        "Season the broth with salt, fresh lime juice, and chopped cilantro. Taste and adjust \u2014 you want it creamy, savory, a little spicy, and bright.",
+        "For the quick pickled onions, toss the sliced onion with lemon juice and sea salt; mix well with a fork and let sit 5-10 minutes.",
+        "Prepare 4 servings of rice (he cooks his in bone broth instead of water for extra protein).",
+        "To assemble: 3/4 cup cooked rice per bowl, a quarter of the seasoned beef, and a quarter of the broth ladled over.",
+        "Top with cucumbers, pickled red onions, sesame seeds, Korean chili flakes, and plenty of cilantro."
+      ],
+      "batch_note": "Cook the rice in bone broth for extra protein. The broth and beef reheat well \u2014 assemble bowls fresh.",
+      "cameron_note": "Runs spicy \u2014 halve the cayenne and chili flakes, and go light on the Korean chili flakes topping for hers.",
+      "seasonal_note": "Cozy and filling \u2014 great for fall and winter.",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
     }
   ]
 }
