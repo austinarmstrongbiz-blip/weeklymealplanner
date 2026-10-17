@@ -31,36 +31,270 @@
   "flexible_order": "The soup is fixed to Sunday (guests) and the salmon to Thursday (no leftovers before the trip). The chili, curry and pasta can swap among Mon–Wed, but keep the chili on whichever day someone can load the crock pot in the morning.",
   "batch_prep": [
     {
-      "station": "Sunday morning: short prep (about 60 min, mostly oven time)",
+      "station": "SAT NIGHT — Get ahead if groceries arrive tonight (15 min)",
       "tasks": [
-        "Oven or Breville to 400°F. Toss 2 large diced sweet potatoes with oil, salt, garlic powder, onion powder and paprika, and roast 40–45 min.",
-        "Marinate 3 lb chicken thighs in olive oil, Dijon, maple, minced garlic, salt, pepper and onion powder (harvest bowls). Season 1½ lb chicken breast with salt, pepper and Italian seasoning (soup-lunch protein).",
-        "Cook both chickens: thighs in the air fryer (400°F, 14–16 min) or in cast iron; breasts in the air fryer (380°F, 16–18 min) to 165°F. Rest, then slice. Thighs → harvest bowls (Sun/Wed/Thu). Breasts → Mon/Tue soup lunches (Austin 5 oz, Cameron 3 oz per day).",
-        "Thinly slice 1½ lb Brussels sprouts and sauté in cast iron with oil, salt, pepper and garlic powder until crispy-tender.",
-        "Whisk the maple Dijon vinaigrette and store it in a jar.",
-        "Make the apple-date compote (10 min) for Sun–Thu breakfasts.",
-        "While the skillet is out, crisp 4 slices of center-cut bacon for Monday's chili.",
-        "Pack Wed/Thu harvest lunches: chicken, sweet potato and Brussels in containers, with greens, feta, apple and dressing kept separate (dice the apple the morning you eat it)."
+        "Optional. It takes 15 minutes off Sunday morning. If the groceries come Sunday, do these first thing instead.",
+        "3 lb chicken thighs + 4 tbsp Dijon + 4 tbsp maple syrup + 3 tbsp olive oil + 3 tbsp minced garlic + 1 tsp salt + 1 tsp onion powder + 1/2 tsp pepper — whisk the marinade in a gallon bag, add the thighs, massage, and refrigerate overnight",
+        "4 tbsp olive oil + 3 tbsp apple cider vinegar + 2 tbsp maple syrup + 2 tbsp Dijon + 1 grated garlic clove — shake the vinaigrette in a jar and refrigerate",
+        "Put the frozen shrimp and salmon straight into the freezer. They don't thaw until Tuesday and Wednesday nights."
+      ],
+      "feeds": [
+        "maple-dijon-harvest-chicken-bowl"
       ]
     },
     {
-      "station": "Sunday afternoon: Spicy Vodka Gnocchi Soup at 2x for 8 (about 1 hr 15 min)",
+      "station": "OVEN — Sweet potatoes, lunch chicken breasts + bacon (prep 10 min, roast 40 min)",
       "tasks": [
-        "Use the biggest pot (7–8 qt Dutch oven). 2x = 2 lb hot Italian sausage, 2 shallots + 1 yellow onion, 10 garlic cloves, ⅔ cup tomato paste, 1 cup crushed tomatoes, 2–4 tsp Calabrian chili, ⅔ cup vodka, 8 cups broth, 1½ cups cream, 1 cup Parmesan, 2 lb gnocchi.",
-        "Brown the sausage in two batches so it actually crisps. Reserve a cup of the crispiest bits for topping.",
-        "Before adding the gnocchi, ladle out 4 lunch portions (about 4 cups) into containers. Simmer about 10 oz of the gnocchi separately for the lunch portions, drain, and pack on top.",
-        "Whip the ricotta (2x: 1 cup ricotta, 2 tbsp Parmesan, 1 tsp lemon zest, olive oil, salt and pepper).",
-        "Salad: dress the beans with lemon, shallot, oil and Dijon up to 2 hours ahead. Toss in the arugula and Parmesan at the table.",
-        "Put out chili oil, basil, Parmesan and crispy sausage as a topping bar so guests can set their own heat."
+        "Heat the oven to 400°F with racks in the upper and lower thirds.",
+        "2 large sweet potatoes, diced 3/4-inch + 1 tbsp olive oil + 1/2 tsp each salt, garlic powder, onion powder and smoked paprika — toss on a sheet pan, spread out so they roast instead of steam, and roast 40–45 min, flipping at 20",
+        "1.5 lb chicken breasts + 1 tsp olive oil + 1 tsp Italian seasoning + 1/2 tsp salt + 1/2 tsp pepper — rub, then roast on the second rack 20–25 min to 165°F",
+        "4 slices center-cut bacon — lay on a small foil-lined pan next to the chicken, 15–18 min until crisp, then crumble and refrigerate for Monday's chili",
+        "Rest the breasts 10 minutes and slice thin. Weigh 4 portions for the Mon/Tue soup lunches: Austin 5 oz × 2, Cameron 3 oz × 2."
+      ],
+      "feeds": [
+        "maple-dijon-harvest-chicken-bowl",
+        "spicy-vodka-gnocchi-soup",
+        "crack-chicken-chili-lighter"
       ]
     },
     {
-      "station": "Weeknights",
+      "station": "Maple Dijon sauce + shaved Brussels (20 min)",
       "tasks": [
-        "Mon AM: load the crock pot with the chili (5 min). Low 6 hr. Freeze the ~2 cups of leftovers that night.",
-        "Tue: Thai red curry, 40 min. Microwave the kabocha 2 min before cutting.",
-        "Wed: butternut shrimp pasta, 50 min. Thaw the shrimp in the fridge Tuesday night.",
-        "Thu: miso-maple salmon bowls, 40 min. Clean out the fridge after."
+        "Vinaigrette (skip if you did it Saturday): 4 tbsp olive oil, 3 tbsp apple cider vinegar, 2 tbsp maple, 2 tbsp Dijon and 1 grated garlic clove, shaken in a jar.",
+        "1.5 lb shaved Brussels sprouts + 1 tbsp olive oil + salt, pepper and garlic powder — cast-iron skillet over medium-high, in 2 batches so they brown instead of steam, 6–8 min each until crispy-edged and just tender",
+        "Spread on a sheet pan to cool before packing so they don't go soggy."
+      ],
+      "feeds": [
+        "maple-dijon-harvest-chicken-bowl"
+      ]
+    },
+    {
+      "station": "Air fryer — Maple Dijon chicken thighs (40 min)",
+      "tasks": [
+        "Marinate now if you didn't Saturday night (marinade is on the SAT NIGHT card). Even 20 minutes helps.",
+        "Air fryer at 400°F. Thighs in a single layer, 2 batches, 14–16 min each, flipping at 8 and brushing on a little marinade at the flip, to 175°F.",
+        "Rest 5 minutes and slice. Split into 6 portions: Austin 7 oz × 3 (Sun, Wed, Thu), Cameron 3½ oz × 3."
+      ],
+      "feeds": [
+        "maple-dijon-harvest-chicken-bowl"
+      ]
+    },
+    {
+      "station": "Stovetop — Apple compote, two versions (15 min)",
+      "tasks": [
+        "4 Honeycrisp apples, chopped small + 8 Medjool dates, chopped + 2 tbsp butter + 1 1/2 tsp cinnamon — chop everything first",
+        "Melt 2 tsp of the butter in a skillet over medium-low. Add all the apples, the cinnamon and a pinch of salt, and cook 4 minutes until just softening.",
+        "CAMERON (no dates): scoop half the apples (about 1¼ cups) into a container labeled CAMERON.",
+        "AUSTIN: add the remaining 4 tsp butter and the dates to the pan and cook 3–4 min until jammy. Container labeled AUSTIN."
+      ],
+      "feeds": [
+        "apple-date-protein-yogurt-bowl"
+      ]
+    },
+    {
+      "station": "Get ahead for weeknights (optional, 15 min)",
+      "tasks": [
+        "Kabocha for Tuesday: microwave it whole for 2 minutes so it's easier to cut, then halve, seed, peel and cube 3/4-inch. Put 2½ cups in a container.",
+        "Slice the red bell pepper for Tuesday and bag it with the kabocha.",
+        "Grate 1 tbsp ginger for Tuesday and 1 tsp for Thursday into a small container.",
+        "Chili seasoning cup for Monday: ½ ranch packet, 1½ tsp onion powder, 1½ tsp chili powder, ½ tsp salt and ½ tsp pepper. Cover and leave it by the crock pot.",
+        "Seed and slice the delicata into half-moons for Thursday (it keeps 4 days in a bag).",
+        "Wash and dry the cilantro and basil, then roll them in damp paper towels inside a bag. They'll last all week."
+      ],
+      "feeds": [
+        "crack-chicken-chili-lighter",
+        "thai-red-curry-chicken-kabocha",
+        "miso-maple-salmon-delicata-rice-bowl"
+      ]
+    },
+    {
+      "station": "Label & portion — breakfasts and lunches (15 min)",
+      "tasks": [
+        "Sunday lunch, plate it now. Austin: greens, ¾ cup sweet potato, 1 cup Brussels, 7 oz chicken, ½ oz feta, ¼ diced apple and 1 tbsp vinaigrette. Cameron: extra greens, ⅓ cup sweet potato, ¾ cup Brussels, 3½ oz chicken, ¼ oz feta and 2 tsp vinaigrette.",
+        "Wed/Thu harvest lunches (4 containers): chicken, sweet potato and Brussels go in the container. Greens go in a separate bag, feta and dressing in small cups. Label A-WED, A-THU, C-WED, C-THU. Dice the apple the morning you eat it.",
+        "Day-4 chicken: if Thursday's portions bug you, freeze the two THU containers now and move them to the fridge Wednesday night.",
+        "Breakfast jars, the fastest mornings: stir the protein powder into the yogurt now. 5 jars for Austin (1 cup yogurt + ¾ scoop) and 5 for Cameron (¾ cup + ⅓ scoop). They keep 5 days. Mornings become just topping.",
+        "Mix the walnuts into the granola jar so breakfast is two scoops: compote, then the crunch.",
+        "Bag the Mon/Tue lunch chicken: 4 labeled bags (A-MON, A-TUE, C-MON, C-TUE)."
+      ],
+      "feeds": [
+        "maple-dijon-harvest-chicken-bowl",
+        "apple-date-protein-yogurt-bowl",
+        "spicy-vodka-gnocchi-soup"
+      ]
+    },
+    {
+      "station": "Soup mise en place + timeline",
+      "tasks": [
+        "Work backwards from when guests arrive. T-2:00 start the mise. T-1:30 brown the sausage. T-1:00 simmer the base. T-0:30 cream, lunch pull, salad. T-0:15 gnocchi in.",
+        "2 lb hot Italian sausage + 2 shallots and 1 yellow onion, diced + 10 garlic cloves, minced + 2/3 cup tomato paste + 1 cup crushed tomatoes + 2 tsp Calabrian chili paste + 1 tsp dried oregano + 2/3 cup vodka + 8 cups chicken broth + 2 tsp Better Than Bouillon + 1 Parmesan rind + 1 1/2 cups heavy cream + 1 cup grated Parmesan + 2 lb potato gnocchi — set everything out before you turn on the heat",
+        "Grate all the Parmesan at once: 1 cup for the soup, 2 tbsp for the ricotta, and a bowl for the table. Shave 3 oz with a peeler for the salad."
+      ],
+      "when": "Sunday afternoon — Dinner party for 8",
+      "time": "30 min",
+      "feeds": [
+        "spicy-vodka-gnocchi-soup"
+      ]
+    },
+    {
+      "station": "Build the soup (2x)",
+      "tasks": [
+        "In a 7–8 qt Dutch oven over medium-high, brown the sausage in 2 batches in big chunks, pressing down for crispy edges, about 8 min per batch. Remove it. Set aside 1 cup of the crispiest bits for topping. Leave 2–3 tbsp fat in the pot.",
+        "Medium heat: cook the shallots and onion 5 min. Add the garlic and oregano for 1 min. Add the tomato paste and Calabrian chili and cook 3–5 min until brick red.",
+        "Deglaze with the vodka, scraping the bottom, and simmer 2–3 min.",
+        "Add the broth, bouillon, crushed tomatoes, Parmesan rind and the sausage (minus the topping reserve). Simmer 15 min.",
+        "Fish out the rind, turn the heat to low, and stir in the cream and Parmesan.",
+        "LUNCH PULL: ladle 4 cups into 4 containers (Austin 2 × 1¼ cups, Cameron 2 × ¾ cup). Cook 10 oz of the gnocchi in a small pot of salted water for 2 min, drain, toss with a little oil, and pack it separately so it isn't mushy at lunch.",
+        "About 15 min before serving, add the rest of the gnocchi (about 22 oz) to the pot and simmer 2–4 min until it floats. Thin with broth, then adjust salt and lemon. Hold on low."
+      ],
+      "when": "Sunday afternoon — Dinner party for 8",
+      "time": "1 hr",
+      "feeds": [
+        "spicy-vodka-gnocchi-soup"
+      ]
+    },
+    {
+      "station": "Whipped ricotta, salad + topping bar",
+      "tasks": [
+        "1 cup ricotta + 2 tbsp Parmesan + 1 tsp lemon zest + 1 tbsp olive oil — whip in the stand mixer or with a whisk for 1 min, then season with salt and pepper",
+        "Salad, up to 2 hours ahead: soak the sliced shallot in the juice of 2 lemons with a pinch of salt for 10 min. Whisk in the zest, 1 tsp Dijon, ½ tsp honey and ¼ cup olive oil. Toss in the 2 cans of drained cannellini.",
+        "At the table: pile 10 oz of arugula on the beans, toss, and finish with the shaved Parmesan and black pepper.",
+        "Topping bar so everyone sets their own heat: crispy sausage, whipped ricotta, basil, Parmesan, chili oil, lemon wedges and crusty bread."
+      ],
+      "when": "Sunday afternoon — Dinner party for 8",
+      "time": "15 min",
+      "feeds": [
+        "spicy-vodka-gnocchi-soup",
+        "white-bean-arugula-salad-lemon-parm"
+      ]
+    },
+    {
+      "station": "After dinner — cool, store, set up Monday",
+      "tasks": [
+        "Cool the lunch soup containers uncovered for 20–30 min, then lid them and refrigerate within 2 hours of cooking.",
+        "Extra guest soup: refrigerate and eat by Wednesday, or freeze it.",
+        "Before bed, put the crock pot insert, the chili chicken, the bacon, the Neufchatel and the seasoning cup on one fridge shelf so the Monday load is 5 minutes."
+      ],
+      "when": "Sunday afternoon — Dinner party for 8",
+      "time": "10 min",
+      "feeds": [
+        "spicy-vodka-gnocchi-soup",
+        "crack-chicken-chili-lighter"
+      ]
+    },
+    {
+      "station": "Breakfast bowl + grab lunch",
+      "tasks": [
+        "Austin: yogurt jar, about ⅓ cup compote from the AUSTIN container, then ¼ cup granola with walnuts.",
+        "Cameron: yogurt jar, about ¼ cup cinnamon apples from the CAMERON container (no dates), then 2 tbsp granola with walnuts.",
+        "Grab the labeled lunch: Mon/Tue soup + chicken bag + gnocchi, or Wed/Thu harvest bowl + greens + dressing cup. Dice the apple for the harvest bowls."
+      ],
+      "when": "Every morning (Sun–Thu)",
+      "time": "3 min",
+      "feeds": [
+        "apple-date-protein-yogurt-bowl",
+        "spicy-vodka-gnocchi-soup",
+        "maple-dijon-harvest-chicken-bowl"
+      ]
+    },
+    {
+      "station": "Morning — load the crock pot",
+      "tasks": [
+        "1.25 lb chicken breasts + 1 1/4 cups chicken broth + 1 can Southwest corn + 1 can mild Rotel + 1/2 can black beans + 4 slices crumbled bacon + 4 oz Neufchatel — everything except the Colby Jack goes in now",
+        "Spray the insert. Chicken on the bottom, beans over it. Whisk the broth, corn, Rotel and seasoning cup and pour it over. Bacon on top, then dot the cubed Neufchatel across.",
+        "Low 6 hr or high 4 hr. Most crock pots drop to Warm on their own if you're out longer.",
+        "Lunch: reheat the soup with a splash of broth, add the chicken, and stir in the separate gnocchi for the last 30 seconds."
+      ],
+      "when": "Monday",
+      "time": "5 min",
+      "feeds": [
+        "crack-chicken-chili-lighter",
+        "spicy-vodka-gnocchi-soup"
+      ]
+    },
+    {
+      "station": "Dinner — finish the chili",
+      "tasks": [
+        "Shred the chicken in the pot with two forks. Stir until the Neufchatel melts in, then stir in ½ cup Colby Jack.",
+        "Austin: about 1¾ cups with 2 tbsp Greek yogurt, pickled jalapeños, hot sauce and cilantro. Cameron: about 1 cup with ¼ avocado and cilantro. Wrap the rest of the avocado with the pit in for Thursday.",
+        "Cool the remaining ~2 cups and freeze flat in a labeled bag. It's a future lunch."
+      ],
+      "when": "Monday",
+      "time": "10 min",
+      "feeds": [
+        "crack-chicken-chili-lighter"
+      ]
+    },
+    {
+      "station": "Dinner — Thai red curry with kabocha",
+      "tasks": [
+        "Rice cooker first: ¾ cup jasmine rice.",
+        "15 oz chicken thighs, bite-size + 2 tbsp red curry paste + 1 cup light coconut milk + 1/2 cup chicken broth + 1 tbsp fish sauce + 1 tsp brown sugar + 1 tbsp grated ginger + 3 garlic cloves — kabocha and pepper are already cut from Sunday",
+        "Sear the chicken in 1½ tsp oil over medium-high, 4–5 min, then remove. Fry the garlic, ginger and curry paste 1 min. Add the coconut milk, broth, fish sauce and sugar.",
+        "Add the kabocha, cover, and simmer 10–12 min. Return the chicken with the pepper and simmer uncovered 5–6 min. Off the heat, add the lime juice and basil.",
+        "Austin: 1 cup rice, about 60% of the curry, and an extra tsp of paste or a sliced Thai chili. Cameron: ⅔ cup rice and the rest of the curry.",
+        "Tonight: move the shrimp from the freezer to the fridge on a plate for Wednesday. Freeze the leftover coconut milk in an ice cube tray."
+      ],
+      "when": "Tuesday",
+      "time": "40 min",
+      "feeds": [
+        "thai-red-curry-chicken-kabocha"
+      ]
+    },
+    {
+      "station": "Dinner — butternut squash shrimp pasta",
+      "tasks": [
+        "Oven or Breville at 400°F. Toss 1 lb cubed butternut with 2 tsp oil and salt and roast 25–30 min. Start the pasta water now.",
+        "4 oz Banza gemelli + 12 oz thawed shrimp + 1 shallot + 4 garlic cloves + 1 tbsp tomato paste + 2 tsp Calabrian chili + 1/2 cup broth + 1 tbsp cream + 10 sage leaves + 2 oz burrata — while the squash roasts",
+        "Cook the pasta and save 1 cup of pasta water. Blend the roasted squash with the broth until smooth.",
+        "Fry the sage in 1 tsp oil for 30 sec and remove it. Soften the shallot 3 min, then add 2 garlic cloves, the tomato paste and 1 tsp Calabrian for 1–2 min. Stir in the purée and cream. Pull Cameron's share of sauce, then stir the last tsp of chili into Austin's.",
+        "Toss the pasta in the sauce with pasta water. Sear the shrimp with 2 garlic cloves in 1 tsp oil over high, 1–1½ min per side, and finish with lemon.",
+        "Austin: about 60% of the pasta and 8 oz shrimp. Cameron: about 40% and 4 oz. Tear about 1 oz burrata on each and add the crispy sage.",
+        "Tonight: move the salmon from the freezer to the fridge. If you froze Thursday's harvest lunches, move those too."
+      ],
+      "when": "Wednesday",
+      "time": "50 min",
+      "feeds": [
+        "spicy-butternut-squash-shrimp-pasta"
+      ]
+    },
+    {
+      "station": "Dinner — miso-maple salmon bowls",
+      "tasks": [
+        "Rice cooker: ½ cup jasmine rice. Air-fry the delicata (sliced Sunday) with 1½ tsp oil at 400°F for 15–18 min, shaking halfway.",
+        "14 oz thawed sockeye + 1 1/2 tbsp white miso + 2 tsp maple syrup + 1 tsp soy sauce + 1 tsp rice vinegar + 1 tsp grated ginger — whisk the glaze and spread it on the salmon tops",
+        "Quick pickle: toss ½ sliced cucumber with 2 tsp rice vinegar, ½ tsp sesame oil and salt.",
+        "Air-fry the salmon at 400°F, 7–9 min for Austin's 9 oz and 6–7 min for Cameron's 5 oz, until the glaze chars. Pull it at medium.",
+        "Bowls: rice, delicata, cucumber and salmon, topped with scallions and sesame. Cameron adds the last ¼ avocado. Austin adds chili crisp."
+      ],
+      "when": "Thursday",
+      "time": "40 min",
+      "feeds": [
+        "miso-maple-salmon-delicata-rice-bowl"
+      ]
+    },
+    {
+      "station": "After dinner — trip clean-out",
+      "tasks": [
+        "Freeze: the remaining bacon, and half the bread loaf (keep 3 slices for Friday).",
+        "Eat or toss: any leftover greens, herbs, cucumber and scallions. Leftover burrata goes on Friday's toast.",
+        "Fine until you're back Sunday: eggs, Colby Jack, Neufchatel (wrapped tight), feta, Parmesan, butter, condiments.",
+        "Take out the trash and recycling and run the dishwasher, so you come home to a clean kitchen."
+      ],
+      "when": "Thursday",
+      "time": "15 min",
+      "feeds": []
+    },
+    {
+      "station": "Breakfast — eggs & toast, then lock up",
+      "tasks": [
+        "Austin: 5 eggs, 2 slices toast, hot sauce. Cameron: 2 eggs + 2 egg whites, 1 slice toast, plus any leftover burrata.",
+        "Last check before you leave: nothing perishable left in the fridge, chili in the freezer for next week, crock pot washed."
+      ],
+      "when": "Friday",
+      "time": "10 min",
+      "feeds": [
+        "eggs-and-toast"
       ]
     }
   ],
@@ -77,12 +311,12 @@
           "c": 68
         },
         "cameron": {
-          "cal": 290,
+          "cal": 260,
           "p": 26,
-          "f": 6,
-          "c": 35
+          "f": 5,
+          "c": 27
         },
-        "cameron_note": "Smaller yogurt base and less compote. Compote made Sunday."
+        "cameron_note": "No dates: cinnamon apples only, from her own CAMERON compote container. Smaller yogurt base."
       },
       "lunch": {
         "recipe_id": "maple-dijon-harvest-chicken-bowl",
@@ -122,7 +356,7 @@
         "p": 140
       },
       "cameron_total": {
-        "cal": 1425,
+        "cal": 1395,
         "p": 87
       },
       "note": "Friends over for dinner. Morning: short prep (harvest bowls, lunch chicken, apple compote). Afternoon: the soup at 2x."
@@ -139,12 +373,12 @@
           "c": 68
         },
         "cameron": {
-          "cal": 290,
+          "cal": 260,
           "p": 26,
-          "f": 6,
-          "c": 35
+          "f": 5,
+          "c": 27
         },
-        "cameron_note": "Smaller yogurt base and less compote. Compote made Sunday."
+        "cameron_note": "No dates: cinnamon apples only, from her own CAMERON compote container. Smaller yogurt base."
       },
       "lunch": {
         "recipe_id": "spicy-vodka-gnocchi-soup",
@@ -183,7 +417,7 @@
         "p": 174
       },
       "cameron_total": {
-        "cal": 1140,
+        "cal": 1110,
         "p": 102
       }
     },
@@ -199,12 +433,12 @@
           "c": 68
         },
         "cameron": {
-          "cal": 290,
+          "cal": 260,
           "p": 26,
-          "f": 6,
-          "c": 35
+          "f": 5,
+          "c": 27
         },
-        "cameron_note": "Smaller yogurt base and less compote. Compote made Sunday."
+        "cameron_note": "No dates: cinnamon apples only, from her own CAMERON compote container. Smaller yogurt base."
       },
       "lunch": {
         "recipe_id": "spicy-vodka-gnocchi-soup",
@@ -243,7 +477,7 @@
         "p": 163
       },
       "cameron_total": {
-        "cal": 1145,
+        "cal": 1115,
         "p": 97
       }
     },
@@ -259,12 +493,12 @@
           "c": 68
         },
         "cameron": {
-          "cal": 290,
+          "cal": 260,
           "p": 26,
-          "f": 6,
-          "c": 35
+          "f": 5,
+          "c": 27
         },
-        "cameron_note": "Smaller yogurt base and less compote. Compote made Sunday."
+        "cameron_note": "No dates: cinnamon apples only, from her own CAMERON compote container. Smaller yogurt base."
       },
       "lunch": {
         "recipe_id": "maple-dijon-harvest-chicken-bowl",
@@ -303,7 +537,7 @@
         "p": 168
       },
       "cameron_total": {
-        "cal": 1195,
+        "cal": 1165,
         "p": 94
       }
     },
@@ -319,12 +553,12 @@
           "c": 68
         },
         "cameron": {
-          "cal": 290,
+          "cal": 260,
           "p": 26,
-          "f": 6,
-          "c": 35
+          "f": 5,
+          "c": 27
         },
-        "cameron_note": "Smaller yogurt base and less compote. Compote made Sunday."
+        "cameron_note": "No dates: cinnamon apples only, from her own CAMERON compote container. Smaller yogurt base."
       },
       "lunch": {
         "recipe_id": "maple-dijon-harvest-chicken-bowl",
@@ -363,7 +597,7 @@
         "p": 165
       },
       "cameron_total": {
-        "cal": 1170,
+        "cal": 1140,
         "p": 93
       },
       "note": "Fridge clean-out night: everything cooked tonight gets eaten. Chicken in today's harvest bowls was cooked Sunday (day 4). If that's past your comfort zone, freeze Thursday's chicken portions Sunday and thaw Wednesday night."

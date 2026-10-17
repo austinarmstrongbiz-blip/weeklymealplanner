@@ -23112,7 +23112,7 @@
       "cook": "8 min (compote, once)",
       "total": "13 min",
       "spice_level": "None",
-      "serving_note": "Compote makes 10 portions (5 Austin, 5 Cameron). Cook it once Sunday morning, then put the bowls together each morning in 2 minutes. Macros are estimates from standard ingredient values, not lab numbers.",
+      "serving_note": "Compote makes 10 portions in one pan: Cameron's half is pulled out as apples only, then the dates go in for Austin's half. Cook once Sunday morning, then put the bowls together each morning in 2 minutes. Macros are estimates from standard ingredient values, not lab numbers.",
       "tags": [
         "apple",
         "batch-friendly",
@@ -23128,7 +23128,7 @@
       "source": "Above Kitch protein version of butter-fried-date-apple-bowl",
       "macro_strings": {
         "austin": "560 cal | 44g P | 13g F | 68g C",
-        "cameron": "290 cal | 26g P | 6g F | 35g C"
+        "cameron": "260 cal | 26g P | 5g F | 27g C"
       },
       "macros": {
         "austin": {
@@ -23138,10 +23138,10 @@
           "c": 68
         },
         "cameron": {
-          "cal": 290,
+          "cal": 260,
           "p": 26,
-          "f": 6,
-          "c": 35
+          "f": 5,
+          "c": 27
         }
       },
       "ingredients": [
@@ -23151,15 +23151,15 @@
         },
         {
           "name": "Honeycrisp apples, chopped small",
-          "qty": "4"
+          "qty": "4 (half for Cameron, half for Austin)"
         },
         {
           "name": "Medjool dates, pitted and chopped",
-          "qty": "10"
+          "qty": "8 (AUSTIN ONLY)"
         },
         {
           "name": "Unsalted butter",
-          "qty": "2 tbsp"
+          "qty": "2 tbsp (2 tsp to start, 4 tsp with the dates)"
         },
         {
           "name": "Cinnamon (pantry)",
@@ -23187,7 +23187,7 @@
         },
         {
           "name": "Apple-date compote",
-          "qty": "~\u2153 cup (1/7 of the batch)"
+          "qty": "~\u2153 cup (1/5 of his container)"
         },
         {
           "name": "Walnuts, chopped",
@@ -23202,7 +23202,7 @@
           "qty": null
         },
         {
-          "name": "CAMERON (per bowl)",
+          "name": "CAMERON (per bowl), no dates",
           "qty": null
         },
         {
@@ -23214,8 +23214,8 @@
           "qty": "\u2153 scoop"
         },
         {
-          "name": "Apple-date compote",
-          "qty": "~2\u00bd tbsp"
+          "name": "Cinnamon apples (no dates)",
+          "qty": "~\u00bc cup (1/5 of her container)"
         },
         {
           "name": "Walnuts, chopped",
@@ -23227,13 +23227,15 @@
         }
       ],
       "instructions": [
-        "Compote: melt the butter in a large skillet over medium-low. Add the apples, dates, cinnamon and a pinch of salt and toss to coat.",
-        "Cook 6\u20138 minutes, stirring often, until the apples soften and the dates go jammy and caramelized. Watch the heat so the dates don't scorch.",
-        "Cool, then store in one container in the fridge (holds 6 days).",
-        "Each morning: stir the protein powder into the yogurt until smooth. Spoon the compote on top (cold, or warmed 20 seconds in the microwave), then add the walnuts and granola."
+        "Chop all 4 apples and the dates before you start.",
+        "Melt 2 tsp butter in a large skillet over medium-low. Add all the apples, the cinnamon and a pinch of salt, and cook 4 minutes until just softening.",
+        "Cameron's: scoop out half the apples (about 1\u00bc cups) into their own container. No dates. Label it CAMERON.",
+        "Austin's: add the remaining 4 tsp butter and the dates to the apples left in the pan. Cook 3\u20134 minutes more, stirring, until the dates go jammy. Label it AUSTIN.",
+        "Cool both and refrigerate (they hold 6 days).",
+        "Each morning: stir the protein powder into the yogurt (or use the pre-mixed jars), then top with that person's compote, walnuts and granola."
       ],
       "batch_note": "Make the compote Sunday morning (10 minutes). It covers Sunday through Thursday breakfasts. Keep granola and walnuts in the pantry so they stay crunchy.",
-      "cameron_note": "Smaller yogurt base and less compote keeps her near 290 cal. Add a drizzle of honey if she wants it sweeter.",
+      "cameron_note": "No dates: she gets the cinnamon-butter apples only, pulled from the pan before the dates go in. Add a drizzle of honey if she wants it sweeter.",
       "seasonal_note": "Peak apple season in western PA. Honeycrisp or SweeTango both work.",
       "history": {
         "first_used": "2026-10-18",
