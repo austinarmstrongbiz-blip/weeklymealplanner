@@ -1,0 +1,27 @@
+{
+  "week_date": "2026-10-18",
+  "completed_at": "2026-10-17T00:00:00Z",
+  "eat_out_nights": [
+    "Friday",
+    "Saturday"
+  ],
+  "last_week_feedback": {
+    "repeat": [],
+    "avoid": [],
+    "notes": ""
+  },
+  "cravings": "Fall flavors. Pull from the recipe library first; source and add new recipes if needed.",
+  "protein_rotation": {
+    "increase": [],
+    "reduce": []
+  },
+  "prep_availability": "short",
+  "cameron_notes": "",
+  "calendar_eat_out_nights": [],
+  "special_events": [
+    "Sunday 10/18: hosting 8 people. Spicy Vodka Gnocchi Soup at 2x with a white bean & arugula salad side. Macros not tracked that night.",
+    "Soup leftovers become the Monday/Tuesday lunches.",
+    "Away Friday afternoon (10/23) through Sunday afternoon (10/25). Friday: breakfast at home only, no meal prep."
+  ],
+  "generated_by": "manual"
+}

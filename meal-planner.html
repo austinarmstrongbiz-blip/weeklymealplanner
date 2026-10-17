@@ -844,6 +844,7 @@ select.form-control { cursor: pointer; }
 .prep-section-title.while  { color: #0369A1; border-color: #BAE6FD; }
 .prep-section-title.active { color: var(--orange); border-color: #FED7AA; }
 .prep-section-title.final  { color: var(--muted); border-color: var(--border); }
+.prep-section-title.week   { color: #BE185D; border-color: #FBCFE8; }
 
 .prep-cards { display: flex; flex-direction: column; gap: 12px; }
 
@@ -861,6 +862,7 @@ select.form-control { cursor: pointer; }
 .prep-card-stripe.while  { background: #0369A1; }
 .prep-card-stripe.active { background: var(--orange); }
 .prep-card-stripe.final  { background: var(--muted); }
+.prep-card-stripe.week   { background: #BE185D; }
 
 .prep-card-inner { flex: 1; padding: 14px 18px; }
 
@@ -884,6 +886,7 @@ select.form-control { cursor: pointer; }
 .prep-badge.passive  { background: #DCFCE7; color: #15803D; }
 .prep-badge.active-b { background: #FEF3C7; color: #92400E; }
 .prep-badge.sat-b    { background: #EDE9FE; color: #5B21B6; }
+.prep-badge.week-b   { background: #FCE7F3; color: #9D174D; }
 
 .prep-feeds { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 12px; }
 .prep-feed-chip {
@@ -3038,16 +3041,24 @@ function renderPrepTab() {
   const weekKey = S.weeks[S.weekIndex];
   weekLbl.textContent = `Week of ${weekKey}`;
 
-  // Parse and sort stations
-  const stations = batchPrep.map((s, i) => ({
-    ...s,
-    idx: i,
-    meta: parseStationMeta(s.station),
-  })).sort((a, b) => a.meta.priority - b.meta.priority);
+  // Parse and sort stations. A station with a `when` label (e.g. "Monday")
+  // gets its own section after the Sunday groups, in the order listed.
+  const whenLabels = [];
+  const stations = batchPrep.map((s, i) => {
+    const meta = parseStationMeta(s.station);
+    if (s.time) meta.timeLabel = s.time;
+    if (s.when) {
+      if (!whenLabels.includes(s.when)) whenLabels.push(s.when);
+      meta.group = `when-${whenLabels.indexOf(s.when)}`;
+      meta.isPassive = false;
+      meta.priority = 1000 + i;
+    }
+    return { ...s, idx: i, meta };
+  }).sort((a, b) => a.meta.priority - b.meta.priority);
 
-  // Calculate total active time
+  // Calculate total active time (Sunday stations only)
   let totalMin = 0;
-  stations.forEach(s => {
+  stations.filter(s => !s.when).forEach(s => {
     const m = s.meta.timeLabel.match(/(\d+)\s*min/);
     if (m) totalMin += +m[1];
   });
@@ -3070,6 +3081,7 @@ function renderPrepTab() {
     'active': { label: 'Active Prep — Hands on',              cls: 'active' },
     'final':  { label: 'Final Step — Label & Portion',         cls: 'final'  },
   };
+  whenLabels.forEach((label, i) => { GROUPS[`when-${i}`] = { label, cls: 'week' }; });
 
   const grouped = {};
   stations.forEach(s => {
@@ -3092,13 +3104,17 @@ function renderPrepTab() {
       const isDone = !!checks[s.idx];
       const ingredients = extractIngredients(s.tasks);
       const steps = extractSteps(s.tasks);
-      const fedRecipes = findFedRecipes(s.tasks);
+      const fedRecipes = Array.isArray(s.feeds)
+        ? s.feeds.map(id => S.recipeLib.recipes.find(r => r.id === id)).filter(Boolean).map(r => ({ id: r.id, name: r.name }))
+        : findFedRecipes(s.tasks);
 
-      const badgeType = group === 'sat' ? 'sat-b' : isPassive ? 'passive' : 'active-b';
-      const badgeText = group === 'sat' ? 'Sat Night' : isPassive ? 'Set & Forget' : 'Active';
+      const isWhen = group.startsWith('when-');
+      const badgeType = isWhen ? 'week-b' : group === 'sat' ? 'sat-b' : isPassive ? 'passive' : 'active-b';
+      const badgeText = isWhen ? s.when.split(' — ')[0] : group === 'sat' ? 'Sat Night' : isPassive ? 'Set & Forget' : 'Active';
+      const stripe = isWhen ? 'week' : group;
 
       html += `<div class="prep-card${isDone ? ' done' : ''}" id="prepcard-${s.idx}">
-        <div class="prep-card-stripe ${group}"></div>
+        <div class="prep-card-stripe ${stripe}"></div>
         <div class="prep-card-inner">
           <div class="prep-card-header">
             <div class="prep-check-row">

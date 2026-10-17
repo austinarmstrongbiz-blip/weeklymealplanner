@@ -10082,8 +10082,8 @@
       "seasonal_note": "",
       "history": {
         "first_used": "2026-06-08",
-        "last_used": "2026-06-08",
-        "times_made": 1,
+        "last_used": "2026-10-18",
+        "times_made": 2,
         "ratings": [],
         "avg_rating": {
           "austin": 0,
@@ -20155,9 +20155,9 @@
       "cameron_note": "Smaller chicken portion (~4 oz) and smaller sides than Austin's. A bit more vinaigrette since she likes stronger flavor/sauce. A few avocado slices on the side work well here if she wants them, but it's optional, not required.",
       "seasonal_note": "Classic Pittsburgh fall harvest bowl \u2014 Brussels sprouts, sweet potato, Honeycrisp apple, and maple all peak in September/October.",
       "history": {
-        "first_used": null,
-        "last_used": null,
-        "times_made": 0,
+        "first_used": "2026-10-18",
+        "last_used": "2026-10-18",
+        "times_made": 1,
         "ratings": [],
         "avg_rating": {
           "austin": null,
@@ -23091,9 +23091,9 @@
       "cameron_note": "Calabrian chili gives this real heat \u2014 use 1 tsp and skip the chili oil topping on hers. The creamy vodka base is mild enough for her.",
       "seasonal_note": "Peak soup season \u2014 cozy fall comfort.",
       "history": {
-        "first_used": null,
-        "last_used": null,
-        "times_made": 0,
+        "first_used": "2026-10-18",
+        "last_used": "2026-10-18",
+        "times_made": 1,
         "ratings": [],
         "avg_rating": {
           "austin": null,
@@ -23270,6 +23270,784 @@
         }
       },
       "retired": false
+    },
+    {
+      "id": "apple-date-protein-yogurt-bowl",
+      "name": "Butter-Fried Apple & Date Protein Yogurt Bowl",
+      "cuisine": "American / Fall",
+      "meal_type": "breakfast",
+      "prep": "5 min",
+      "cook": "8 min (compote, once)",
+      "total": "13 min",
+      "spice_level": "None",
+      "serving_note": "Compote makes 10 portions in one pan: Cameron's half is pulled out as apples only, then the dates go in for Austin's half. Cook once Sunday morning, then put the bowls together each morning in 2 minutes. Macros are estimates from standard ingredient values, not lab numbers.",
+      "tags": [
+        "apple",
+        "batch-friendly",
+        "breakfast",
+        "fall",
+        "fall-2026",
+        "grab-and-go",
+        "high-protein",
+        "vegetarian",
+        "yogurt"
+      ],
+      "equipment": "Skillet",
+      "source": "Above Kitch protein version of butter-fried-date-apple-bowl",
+      "macro_strings": {
+        "austin": "560 cal | 44g P | 13g F | 68g C",
+        "cameron": "260 cal | 26g P | 5g F | 27g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 560,
+          "p": 44,
+          "f": 13,
+          "c": 68
+        },
+        "cameron": {
+          "cal": 260,
+          "p": 26,
+          "f": 5,
+          "c": 27
+        }
+      },
+      "ingredients": [
+        {
+          "name": "COMPOTE (batch, 10 portions)",
+          "qty": null
+        },
+        {
+          "name": "Honeycrisp apples, chopped small",
+          "qty": "4 (half for Cameron, half for Austin)"
+        },
+        {
+          "name": "Medjool dates, pitted and chopped",
+          "qty": "8 (AUSTIN ONLY)"
+        },
+        {
+          "name": "Unsalted butter",
+          "qty": "2 tbsp (2 tsp to start, 4 tsp with the dates)"
+        },
+        {
+          "name": "Cinnamon (pantry)",
+          "qty": "1\u00bd tsp"
+        },
+        {
+          "name": "Flaky or kosher salt",
+          "qty": "pinch"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "AUSTIN (per bowl)",
+          "qty": null
+        },
+        {
+          "name": "Plain nonfat Greek yogurt",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Vanilla protein powder (pantry)",
+          "qty": "\u00be scoop, stirred into the yogurt"
+        },
+        {
+          "name": "Apple-date compote",
+          "qty": "~\u2153 cup (1/5 of his container)"
+        },
+        {
+          "name": "Walnuts, chopped",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Granola (pantry)",
+          "qty": "\u00bc cup"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "CAMERON (per bowl), no dates",
+          "qty": null
+        },
+        {
+          "name": "Plain nonfat Greek yogurt",
+          "qty": "\u00be cup"
+        },
+        {
+          "name": "Vanilla protein powder (pantry)",
+          "qty": "\u2153 scoop"
+        },
+        {
+          "name": "Cinnamon apples (no dates)",
+          "qty": "~\u00bc cup (1/5 of her container)"
+        },
+        {
+          "name": "Walnuts, chopped",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Granola (pantry)",
+          "qty": "2 tbsp"
+        }
+      ],
+      "instructions": [
+        "Chop all 4 apples and the dates before you start.",
+        "Melt 2 tsp butter in a large skillet over medium-low. Add all the apples, the cinnamon and a pinch of salt, and cook 4 minutes until just softening.",
+        "Cameron's: scoop out half the apples (about 1\u00bc cups) into their own container. No dates. Label it CAMERON.",
+        "Austin's: add the remaining 4 tsp butter and the dates to the apples left in the pan. Cook 3\u20134 minutes more, stirring, until the dates go jammy. Label it AUSTIN.",
+        "Cool both and refrigerate (they hold 6 days).",
+        "Each morning: stir the protein powder into the yogurt (or use the pre-mixed jars), then top with that person's compote, walnuts and granola."
+      ],
+      "batch_note": "Make the compote Sunday morning (10 minutes). It covers Sunday through Thursday breakfasts. Keep granola and walnuts in the pantry so they stay crunchy.",
+      "cameron_note": "No dates: she gets the cinnamon-butter apples only, pulled from the pan before the dates go in. Add a drizzle of honey if she wants it sweeter.",
+      "seasonal_note": "Peak apple season in western PA. Honeycrisp or SweeTango both work.",
+      "history": {
+        "first_used": "2026-10-18",
+        "last_used": "2026-10-18",
+        "times_made": 1,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false,
+      "added_date": "2026-10-17",
+      "based_on": "butter-fried-date-apple-bowl"
+    },
+    {
+      "id": "white-bean-arugula-salad-lemon-parm",
+      "name": "White Bean & Arugula Salad with Lemon and Shaved Parmesan",
+      "cuisine": "Italian",
+      "meal_type": "side",
+      "prep": "10 min",
+      "cook": "0 min",
+      "total": "10 min",
+      "spice_level": "None",
+      "serving_note": "Serves 8 as a side for a dinner party. Halve it for the two of you. Macros are estimates from standard ingredient values, not lab numbers.",
+      "tags": [
+        "beans",
+        "entertaining",
+        "fall-2026",
+        "italian",
+        "quick",
+        "salad",
+        "side",
+        "vegetarian"
+      ],
+      "equipment": "Large bowl, vegetable peeler",
+      "source": "Above Kitch original, written as the side for Spicy Vodka Gnocchi Soup",
+      "macro_strings": {
+        "austin": "200 cal | 10g P | 12g F | 14g C",
+        "cameron": "140 cal | 7g P | 8g F | 10g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 200,
+          "p": 10,
+          "f": 12,
+          "c": 14
+        },
+        "cameron": {
+          "cal": 140,
+          "p": 7,
+          "f": 8,
+          "c": 10
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Cannellini beans, drained and rinsed",
+          "qty": "2 (15 oz) cans"
+        },
+        {
+          "name": "Baby arugula",
+          "qty": "10 oz"
+        },
+        {
+          "name": "Shallot, very thinly sliced",
+          "qty": "1"
+        },
+        {
+          "name": "Lemons",
+          "qty": "2 (zest of 1, juice of both)"
+        },
+        {
+          "name": "Extra-virgin olive oil (pantry)",
+          "qty": "\u00bc cup"
+        },
+        {
+          "name": "Dijon mustard (pantry)",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Honey (pantry)",
+          "qty": "\u00bd tsp"
+        },
+        {
+          "name": "Parmesan, shaved with a peeler",
+          "qty": "3 oz"
+        },
+        {
+          "name": "Kosher salt + black pepper",
+          "qty": "to taste"
+        },
+        {
+          "name": "Red pepper flakes (pantry)",
+          "qty": "pinch, optional"
+        }
+      ],
+      "instructions": [
+        "Put the sliced shallot in the bottom of a large bowl with the lemon juice and a big pinch of salt. Let it sit 10 minutes to soften the bite.",
+        "Whisk in the lemon zest, Dijon, honey and olive oil. Season with pepper.",
+        "Add the beans and toss. They can sit in the dressing up to 2 hours ahead.",
+        "Right before serving, pile the arugula on top, toss gently, and finish with the shaved Parmesan, more black pepper and a pinch of chili flakes."
+      ],
+      "batch_note": "Dress the beans ahead of time. Add the arugula only at the table so it doesn't wilt.",
+      "cameron_note": "Same salad, slightly smaller scoop.",
+      "seasonal_note": "Bright and acidic, to cut through a rich, creamy soup.",
+      "history": {
+        "first_used": "2026-10-18",
+        "last_used": "2026-10-18",
+        "times_made": 1,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false,
+      "added_date": "2026-10-17"
+    },
+    {
+      "id": "crack-chicken-chili-lighter",
+      "name": "Lighter Crack Chicken Chili (Crock Pot)",
+      "cuisine": "Tex-Mex",
+      "meal_type": "dinner",
+      "prep": "10 min",
+      "cook": "6 hr low / 4 hr high (crock pot)",
+      "total": "~6 hr (hands-off)",
+      "spice_level": "Mild base. Austin adds pickled jalape\u00f1os and hot sauce.",
+      "serving_note": "Half batch of the original with an extra-chicken, lighter-dairy swap: Neufchatel for cream cheese, half the bacon and half the shredded cheese. Makes about 5 cups: Austin ~1\u00be cups, Cameron ~1 cup, and about 2 cups left to freeze. Macros are estimates from standard ingredient values, not lab numbers.",
+      "tags": [
+        "bacon",
+        "chicken",
+        "comfort",
+        "crock-pot",
+        "dinner",
+        "fall-2026",
+        "freezer-friendly",
+        "high-protein",
+        "tex-mex"
+      ],
+      "equipment": "Crock pot / slow cooker",
+      "source": "Lightened from crack-chicken-chili (AnyList import)",
+      "macro_strings": {
+        "austin": "720 cal | 71g P | 27g F | 45g C",
+        "cameron": "470 cal | 41g P | 21g F | 28g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 720,
+          "p": 71,
+          "f": 27,
+          "c": 45
+        },
+        "cameron": {
+          "cal": 470,
+          "p": 41,
+          "f": 21,
+          "c": 28
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Boneless skinless chicken breasts",
+          "qty": "1\u00bc lb (2 large)"
+        },
+        {
+          "name": "Chicken broth (pantry)",
+          "qty": "1\u00bc cups"
+        },
+        {
+          "name": "Southwest corn with poblano & red peppers, undrained",
+          "qty": "1 (15.25 oz) can"
+        },
+        {
+          "name": "Mild Rotel diced tomatoes & green chilies, undrained",
+          "qty": "1 (10 oz) can"
+        },
+        {
+          "name": "Ranch seasoning mix",
+          "qty": "\u00bd packet (\u00bd oz)"
+        },
+        {
+          "name": "Onion powder (pantry)",
+          "qty": "1\u00bd tsp"
+        },
+        {
+          "name": "Chili powder (pantry)",
+          "qty": "1\u00bd tsp"
+        },
+        {
+          "name": "Kosher salt + cracked black pepper",
+          "qty": "\u00bd tsp each"
+        },
+        {
+          "name": "Black beans, drained and rinsed (pantry)",
+          "qty": "\u00bd can"
+        },
+        {
+          "name": "Center-cut bacon, cooked and crumbled",
+          "qty": "4 slices"
+        },
+        {
+          "name": "Neufchatel (\u2153-less-fat cream cheese), cubed",
+          "qty": "4 oz"
+        },
+        {
+          "name": "Shredded Colby Jack",
+          "qty": "\u00bd cup"
+        },
+        {
+          "name": "",
+          "qty": null
+        },
+        {
+          "name": "TOPPINGS",
+          "qty": null
+        },
+        {
+          "name": "Plain nonfat Greek yogurt",
+          "qty": "2 tbsp (Austin)"
+        },
+        {
+          "name": "Pickled jalape\u00f1os + hot sauce",
+          "qty": "Austin, to taste"
+        },
+        {
+          "name": "Fresh cilantro, chopped",
+          "qty": "to garnish"
+        },
+        {
+          "name": "Avocado",
+          "qty": "\u00bc, sliced (CAMERON ONLY)"
+        }
+      ],
+      "instructions": [
+        "Spray the crock pot. Whisk the broth, corn, Rotel, ranch mix, onion powder, chili powder, salt and pepper in a bowl.",
+        "Lay the chicken breasts in the crock pot, scatter the black beans over them, and pour the broth mixture on top.",
+        "Sprinkle on the crumbled bacon and dot the cubed Neufchatel across the top.",
+        "Cover and cook 6 hours on low or 4 hours on high.",
+        "Lift out the chicken and shred it with two forks. Stir the pot until the Neufchatel has melted in, then stir in the Colby Jack and return the chicken.",
+        "Austin: about 1\u00be cups topped with Greek yogurt, pickled jalape\u00f1os, hot sauce and cilantro. Cameron: about 1 cup with avocado and cilantro.",
+        "Cool the remaining ~2 cups and freeze flat in a bag for a future lunch."
+      ],
+      "batch_note": "Five minutes of loading in the morning. Cook the bacon Sunday while the oven is going, or buy precooked. Freeze the leftovers before the weekend away.",
+      "cameron_note": "Mild Rotel keeps the base gentle. Her cup comes with avocado for richness instead of the jalape\u00f1os.",
+      "seasonal_note": "First crock-pot chili of the cold-weather stretch.",
+      "history": {
+        "first_used": "2026-10-18",
+        "last_used": "2026-10-18",
+        "times_made": 1,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false,
+      "added_date": "2026-10-17",
+      "based_on": "crack-chicken-chili"
+    },
+    {
+      "id": "thai-red-curry-chicken-kabocha",
+      "name": "Thai Red Curry Chicken with Kabocha Squash",
+      "cuisine": "Thai",
+      "meal_type": "dinner",
+      "prep": "15 min",
+      "cook": "25 min",
+      "total": "40 min",
+      "spice_level": "Medium base. Austin adds extra curry paste or Thai chili to his bowl.",
+      "serving_note": "Sized for exactly two portions (Austin ~60%, Cameron ~40%) so nothing is left over. Macros are estimates from standard ingredient values, not lab numbers.",
+      "tags": [
+        "chicken",
+        "curry",
+        "dinner",
+        "fall-2026",
+        "high-protein",
+        "one-pot",
+        "squash",
+        "thai",
+        "weeknight"
+      ],
+      "equipment": "Large skillet or braiser, rice cooker",
+      "source": "Above Kitch original, a fall take on a Thai red curry",
+      "macro_strings": {
+        "austin": "725 cal | 60g P | 22g F | 70g C",
+        "cameron": "475 cal | 36g P | 14g F | 50g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 725,
+          "p": 60,
+          "f": 22,
+          "c": 70
+        },
+        "cameron": {
+          "cal": 475,
+          "p": 36,
+          "f": 14,
+          "c": 50
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Boneless skinless chicken thighs, bite-size pieces",
+          "qty": "15 oz (Austin 9 oz, Cameron 6 oz raw)"
+        },
+        {
+          "name": "Kabocha squash (or sugar pumpkin), peeled and cubed \u00be-inch",
+          "qty": "2\u00bd cups (~\u00bd small squash)"
+        },
+        {
+          "name": "Red bell pepper, sliced",
+          "qty": "1"
+        },
+        {
+          "name": "Thai red curry paste",
+          "qty": "2\u20133 tbsp (+1 tsp extra for Austin)"
+        },
+        {
+          "name": "Light coconut milk",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Chicken broth (pantry)",
+          "qty": "\u00bd cup"
+        },
+        {
+          "name": "Fish sauce (pantry)",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Brown sugar (pantry)",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Fresh ginger, grated",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Garlic, minced",
+          "qty": "3 cloves"
+        },
+        {
+          "name": "Neutral or olive oil (pantry)",
+          "qty": "1\u00bd tsp"
+        },
+        {
+          "name": "Lime",
+          "qty": "1 (juice), plus wedges"
+        },
+        {
+          "name": "Thai basil or regular basil + cilantro",
+          "qty": "a big handful"
+        },
+        {
+          "name": "Jasmine rice, cooked (pantry)",
+          "qty": "Austin 1 cup, Cameron \u2154 cup"
+        }
+      ],
+      "instructions": [
+        "Start the rice in the rice cooker (about \u00be cup dry covers both portions).",
+        "Heat the oil in a large skillet over medium-high. Season the chicken with a pinch of salt and sear in one layer until browned, 4\u20135 minutes. It doesn't need to be cooked through. Move it to a plate.",
+        "Lower the heat to medium. Add the garlic, ginger and curry paste and fry 1 minute until fragrant and brick red.",
+        "Stir in the coconut milk, broth, fish sauce and brown sugar. Add the squash, cover, and simmer 10\u201312 minutes until a fork just slides through.",
+        "Return the chicken and add the bell pepper. Simmer uncovered 5\u20136 minutes until the chicken is cooked through and the sauce coats a spoon.",
+        "Off the heat, squeeze in the lime and fold in the basil. Taste for fish sauce or lime.",
+        "Serve over rice. Austin: stir the extra curry paste or a sliced Thai chili into his bowl. Cameron: the base heat, with an extra lime wedge."
+      ],
+      "batch_note": "Cooked fresh on the night. Peel and cube the squash Sunday if you have 5 spare minutes. A microwave burst of 2 minutes makes kabocha much easier to cut.",
+      "cameron_note": "Base heat is medium-mild. Her bowl gets less rice and a bit more sauce and squash.",
+      "seasonal_note": "Kabocha is at its sweetest in October and soaks up curry like pumpkin.",
+      "history": {
+        "first_used": "2026-10-18",
+        "last_used": "2026-10-18",
+        "times_made": 1,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false,
+      "added_date": "2026-10-17"
+    },
+    {
+      "id": "spicy-butternut-squash-shrimp-pasta",
+      "name": "Spicy Butternut Squash Pasta with Garlic Shrimp, Crispy Sage & Burrata",
+      "cuisine": "Italian / Fall",
+      "meal_type": "dinner",
+      "prep": "15 min",
+      "cook": "35 min",
+      "total": "50 min",
+      "spice_level": "Medium (Calabrian chili). Cameron gets half the chili.",
+      "serving_note": "Two-portion version of the library pasta: less pasta and fat, plus garlic shrimp so Austin hits protein. Austin gets about 60% of the pasta and 8 oz shrimp, Cameron about 40% and 4 oz. Macros are estimates from standard ingredient values, not lab numbers.",
+      "tags": [
+        "dinner",
+        "fall",
+        "fall-2026",
+        "high-protein",
+        "italian",
+        "pasta",
+        "seafood",
+        "shrimp",
+        "spicy",
+        "squash"
+      ],
+      "equipment": "Breville Smart Oven (or oven), blender, large skillet",
+      "source": "Adapted from spicy-butternut-squash-pasta",
+      "macro_strings": {
+        "austin": "800 cal | 66g P | 27g F | 74g C",
+        "cameron": "505 cal | 37g P | 18g F | 50g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 800,
+          "p": 66,
+          "f": 27,
+          "c": 74
+        },
+        "cameron": {
+          "cal": 505,
+          "p": 37,
+          "f": 18,
+          "c": 50
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Butternut squash, cubed (pre-cut is fine)",
+          "qty": "3 cups (~1 lb)"
+        },
+        {
+          "name": "Olive oil (pantry)",
+          "qty": "2 tsp for squash + 1 tsp for sage + 1 tsp for shrimp"
+        },
+        {
+          "name": "Banza gemelli chickpea pasta",
+          "qty": "4 oz dry (half a box)"
+        },
+        {
+          "name": "Raw shrimp, peeled and deveined",
+          "qty": "12 oz (Austin 8 oz, Cameron 4 oz)"
+        },
+        {
+          "name": "Garlic",
+          "qty": "4 cloves (2 for sauce, 2 for shrimp)"
+        },
+        {
+          "name": "Shallot, finely chopped",
+          "qty": "1"
+        },
+        {
+          "name": "Tomato paste",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Calabrian chili paste",
+          "qty": "2 tsp (Cameron's portion: pull hers before the last tsp)"
+        },
+        {
+          "name": "Chicken broth (pantry)",
+          "qty": "\u00bd cup"
+        },
+        {
+          "name": "Heavy cream",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Fresh sage leaves",
+          "qty": "10"
+        },
+        {
+          "name": "Burrata",
+          "qty": "2 oz (half a 4 oz ball)"
+        },
+        {
+          "name": "Lemon",
+          "qty": "\u00bd, juice"
+        },
+        {
+          "name": "Kosher salt + pepper",
+          "qty": "to taste"
+        }
+      ],
+      "instructions": [
+        "Heat the oven or Breville to 400\u00b0F. Toss the squash with 2 tsp oil and salt and roast 25\u201330 minutes, flipping once, until soft and browned at the edges.",
+        "Boil the pasta in salted water. Save 1 cup of pasta water, then drain.",
+        "Blend the roasted squash with the broth until completely smooth.",
+        "In a large skillet, fry the sage in 1 tsp oil for 30 seconds until crisp. Lift it out onto a paper towel.",
+        "In the same skillet over medium, soften the shallot 3 minutes. Add 2 cloves of garlic, the tomato paste and 1 tsp Calabrian chili and cook 1\u20132 minutes until brick red. Stir in the squash pur\u00e9e and cream, loosening with pasta water. Spoon out Cameron's share of sauce here if she wants it milder, then stir the last tsp of chili into Austin's.",
+        "Fold in the pasta and adjust with pasta water until glossy. Keep warm.",
+        "Shrimp: wipe out a second pan or use the cast iron. Heat 1 tsp oil over high, add the shrimp and the remaining 2 cloves of garlic with salt and pepper, and sear 1\u20131\u00bd minutes per side. Finish with the lemon juice.",
+        "Plate the pasta, top with shrimp, tear the burrata over (Austin ~1 oz, Cameron ~1 oz), and scatter the crispy sage on top."
+      ],
+      "batch_note": "Cooked fresh. Roast the squash while the pasta water heats. Leftover burrata goes on toast or into Friday's eggs.",
+      "cameron_note": "Half the Calabrian chili, 4 oz shrimp and a smaller pasta scoop. The same burrata and sage keep her plate feeling generous.",
+      "seasonal_note": "Butternut and sage are the core of fall in Italian cooking.",
+      "history": {
+        "first_used": "2026-10-18",
+        "last_used": "2026-10-18",
+        "times_made": 1,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false,
+      "added_date": "2026-10-17",
+      "based_on": "spicy-butternut-squash-pasta"
+    },
+    {
+      "id": "miso-maple-salmon-delicata-rice-bowl",
+      "name": "Miso-Maple Glazed Salmon Bowls with Roasted Delicata & Cucumber",
+      "cuisine": "Japanese",
+      "meal_type": "dinner",
+      "prep": "15 min",
+      "cook": "25 min",
+      "total": "40 min",
+      "spice_level": "Mild. Austin adds chili crisp or sriracha.",
+      "serving_note": "Two portions, no leftovers, which makes it a good last dinner before a weekend away. Uses wild sockeye because it's leaner, so Austin's 60g of protein fits under 750 cal. Macros are estimates from standard ingredient values, not lab numbers.",
+      "tags": [
+        "air-fryer",
+        "dinner",
+        "fall-2026",
+        "high-protein",
+        "japanese",
+        "rice-bowl",
+        "salmon",
+        "seafood",
+        "squash",
+        "weeknight"
+      ],
+      "equipment": "Air fryer or Breville, rice cooker",
+      "source": "Above Kitch original, a fall miso-glazed salmon bowl",
+      "macro_strings": {
+        "austin": "700 cal | 63g P | 20g F | 67g C",
+        "cameron": "480 cal | 36g P | 16g F | 48g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 700,
+          "p": 63,
+          "f": 20,
+          "c": 67
+        },
+        "cameron": {
+          "cal": 480,
+          "p": 36,
+          "f": 16,
+          "c": 48
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Wild sockeye salmon fillets",
+          "qty": "14 oz (Austin 9 oz, Cameron 5 oz)"
+        },
+        {
+          "name": "White miso",
+          "qty": "1\u00bd tbsp"
+        },
+        {
+          "name": "Maple syrup",
+          "qty": "2 tsp"
+        },
+        {
+          "name": "Soy sauce (pantry)",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Rice vinegar (pantry)",
+          "qty": "1 tsp + 2 tsp for cucumbers"
+        },
+        {
+          "name": "Fresh ginger, grated",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Delicata squash, seeded and cut into \u00bd-inch half-moons (skin on)",
+          "qty": "2 small (~2\u00bd cups)"
+        },
+        {
+          "name": "Olive oil (pantry)",
+          "qty": "1\u00bd tsp"
+        },
+        {
+          "name": "English cucumber, thinly sliced",
+          "qty": "\u00bd"
+        },
+        {
+          "name": "Sesame oil (pantry)",
+          "qty": "\u00bd tsp"
+        },
+        {
+          "name": "Scallions, sliced",
+          "qty": "3"
+        },
+        {
+          "name": "Sesame seeds",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Jasmine rice, cooked (pantry)",
+          "qty": "Austin \u00be cup, Cameron \u00bd cup"
+        },
+        {
+          "name": "Avocado",
+          "qty": "\u00bc, sliced (CAMERON ONLY)"
+        },
+        {
+          "name": "Chili crisp or sriracha",
+          "qty": "Austin, to taste"
+        }
+      ],
+      "instructions": [
+        "Start the rice (\u00bd cup dry covers both portions).",
+        "Toss the delicata with the olive oil, salt and pepper. Air-fry at 400\u00b0F for 15\u201318 minutes, shaking halfway, until caramelized.",
+        "Whisk the miso, maple, soy, 1 tsp rice vinegar and ginger into a glaze.",
+        "Quick-pickle the cucumbers: toss with 2 tsp rice vinegar, the sesame oil and a pinch of salt.",
+        "Pat the salmon dry and spread the glaze over the tops. Air-fry at 400\u00b0F for 7\u20139 minutes (thinner Cameron piece 6\u20137 minutes) until the glaze bubbles and chars at the edges and the salmon flakes. Sockeye is lean, so pull it at medium.",
+        "Build the bowls: rice, delicata, cucumbers and salmon, finished with scallions and sesame. Cameron adds avocado. Austin adds chili crisp."
+      ],
+      "batch_note": "Cooked fresh Thursday. Use up any leftover greens or scallions in the bowls so the fridge is clear before Friday.",
+      "cameron_note": "5 oz salmon, \u00bd cup rice and avocado on the side. Mild glaze as written.",
+      "seasonal_note": "Delicata needs no peeling and is at its best mid-October.",
+      "history": {
+        "first_used": "2026-10-18",
+        "last_used": "2026-10-18",
+        "times_made": 1,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false,
+      "added_date": "2026-10-17"
     }
   ]
 }
