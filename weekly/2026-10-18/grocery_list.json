@@ -1,0 +1,363 @@
+{
+  "week_date": "2026-10-18",
+  "week_start": "October 18",
+  "week_end": "October 24, 2026",
+  "categories": {
+    "Produce": [
+      {
+        "name": "Honeycrisp apples",
+        "qty": "5",
+        "for": "Apple-date compote (4), harvest bowls (1)"
+      },
+      {
+        "name": "Sweet potatoes",
+        "qty": "2 large",
+        "for": "Harvest bowls"
+      },
+      {
+        "name": "Brussels sprouts",
+        "qty": "1½ lb",
+        "for": "Harvest bowls"
+      },
+      {
+        "name": "Mixed greens",
+        "qty": "5 oz clamshell",
+        "for": "Harvest bowls"
+      },
+      {
+        "name": "Baby arugula",
+        "qty": "10 oz (2 × 5 oz)",
+        "for": "White bean salad (Sunday)"
+      },
+      {
+        "name": "Kabocha squash (or sugar pumpkin)",
+        "qty": "1 small (~2 lb)",
+        "for": "Thai red curry"
+      },
+      {
+        "name": "Butternut squash, pre-cubed",
+        "qty": "1 lb (about 3 cups)",
+        "for": "Butternut shrimp pasta"
+      },
+      {
+        "name": "Delicata squash",
+        "qty": "2 small",
+        "for": "Miso salmon bowls"
+      },
+      {
+        "name": "Red bell pepper",
+        "qty": "1",
+        "for": "Thai red curry"
+      },
+      {
+        "name": "English cucumber",
+        "qty": "1",
+        "for": "Miso salmon bowls"
+      },
+      {
+        "name": "Avocado",
+        "qty": "1",
+        "for": "Cameron only: chili (Mon) + salmon bowl (Thu)"
+      },
+      {
+        "name": "Shallots",
+        "qty": "4",
+        "for": "Soup (2), salad (1), pasta (1)"
+      },
+      {
+        "name": "Yellow onion",
+        "qty": "1 (check stock)",
+        "for": "Soup"
+      },
+      {
+        "name": "Garlic",
+        "qty": "3 heads",
+        "for": "Soup, harvest chicken + vinaigrette, curry, pasta, shrimp"
+      },
+      {
+        "name": "Fresh ginger",
+        "qty": "1 small knob",
+        "for": "Curry, salmon glaze"
+      },
+      {
+        "name": "Lemons",
+        "qty": "4",
+        "for": "Soup + whipped ricotta (1), salad (2), shrimp (1)"
+      },
+      {
+        "name": "Limes",
+        "qty": "2",
+        "for": "Thai curry"
+      },
+      {
+        "name": "Fresh basil",
+        "qty": "2 bunches",
+        "for": "Soup topping bar for 8, Thai curry"
+      },
+      {
+        "name": "Thai basil (optional)",
+        "qty": "1 small bunch",
+        "for": "Thai curry (regular basil works)"
+      },
+      {
+        "name": "Cilantro",
+        "qty": "1 bunch",
+        "for": "Chili, curry"
+      },
+      {
+        "name": "Fresh sage",
+        "qty": "1 package",
+        "for": "Crispy sage on the pasta"
+      },
+      {
+        "name": "Chives",
+        "qty": "1 bunch",
+        "for": "Harvest bowls"
+      },
+      {
+        "name": "Scallions",
+        "qty": "1 bunch",
+        "for": "Salmon bowls"
+      }
+    ],
+    "Proteins": [
+      {
+        "name": "Hot Italian sausage, bulk or links",
+        "qty": "2 lb",
+        "for": "Vodka gnocchi soup at 2x"
+      },
+      {
+        "name": "Boneless skinless chicken thighs",
+        "qty": "4 lb",
+        "for": "Harvest bowls (3 lb), Thai curry (1 lb)"
+      },
+      {
+        "name": "Boneless skinless chicken breasts",
+        "qty": "2¾ lb",
+        "for": "Mon/Tue soup-lunch protein (1½ lb), crock pot chili (1¼ lb)"
+      },
+      {
+        "name": "Raw shrimp, peeled & deveined (frozen OK)",
+        "qty": "1 lb bag (use 12 oz)",
+        "for": "Butternut pasta (Wed)"
+      },
+      {
+        "name": "Wild sockeye salmon",
+        "qty": "14–16 oz (cut into a 9 oz and a 5 oz piece)",
+        "for": "Miso salmon bowls (Thu)"
+      },
+      {
+        "name": "Center-cut bacon",
+        "qty": "8 oz pack (use 4 slices, freeze the rest)",
+        "for": "Chili"
+      }
+    ],
+    "Dairy & Eggs": [
+      {
+        "name": "Plain nonfat Greek yogurt",
+        "qty": "About 75 oz: 2 × 32 oz tubs + 1 small",
+        "for": "Breakfast bowls Sun–Thu, chili topping"
+      },
+      {
+        "name": "Heavy cream",
+        "qty": "1 pint",
+        "for": "Soup (1½ cups), pasta (1 tbsp)"
+      },
+      {
+        "name": "Parmesan wedge (with rind)",
+        "qty": "10 oz",
+        "for": "Soup (1 cup grated + rind), whipped ricotta, salad (3 oz shaved), topping bar"
+      },
+      {
+        "name": "Whole-milk ricotta",
+        "qty": "15 oz tub (use 1 cup)",
+        "for": "Lemony whipped ricotta for the soup"
+      },
+      {
+        "name": "Crumbled feta",
+        "qty": "4 oz",
+        "for": "Harvest bowls"
+      },
+      {
+        "name": "Neufchatel (⅓-less-fat cream cheese)",
+        "qty": "8 oz block (use half)",
+        "for": "Chili"
+      },
+      {
+        "name": "Shredded Colby Jack",
+        "qty": "8 oz bag (use ½ cup)",
+        "for": "Chili"
+      },
+      {
+        "name": "Burrata",
+        "qty": "1 (4 oz) ball (use half)",
+        "for": "Butternut pasta"
+      },
+      {
+        "name": "Large eggs",
+        "qty": "1 dozen (check stock)",
+        "for": "Friday eggs & toast"
+      },
+      {
+        "name": "Unsalted butter",
+        "qty": "1 stick (check stock)",
+        "for": "Apple-date compote, Friday eggs"
+      }
+    ],
+    "Grains & Dry Goods": [
+      {
+        "name": "Potato gnocchi (shelf-stable or refrigerated)",
+        "qty": "2 lb (2 × 16 oz)",
+        "for": "Vodka gnocchi soup at 2x"
+      },
+      {
+        "name": "Banza gemelli (or any short pasta)",
+        "qty": "8 oz box (use half)",
+        "for": "Butternut pasta"
+      },
+      {
+        "name": "Medjool dates",
+        "qty": "10 (8 oz package)",
+        "for": "Apple-date compote"
+      },
+      {
+        "name": "Walnuts",
+        "qty": "Small bag (about 3 oz needed)",
+        "for": "Breakfast bowls"
+      },
+      {
+        "name": "Whole-wheat sandwich bread",
+        "qty": "1 small loaf",
+        "for": "Friday eggs & toast (and Sunday crusty-bread option for guests)"
+      },
+      {
+        "name": "Crusty bread / baguette (optional)",
+        "qty": "1–2",
+        "for": "Sunday soup for 8"
+      }
+    ],
+    "Canned & Jarred": [
+      {
+        "name": "Tomato paste",
+        "qty": "2 (6 oz) cans",
+        "for": "Soup (⅔ cup), pasta (1 tbsp)"
+      },
+      {
+        "name": "Crushed tomatoes",
+        "qty": "1 (14.5 oz) can",
+        "for": "Soup"
+      },
+      {
+        "name": "Cannellini beans",
+        "qty": "2 (15 oz) cans",
+        "for": "White bean salad"
+      },
+      {
+        "name": "Southwest corn with poblano & red peppers",
+        "qty": "1 (15.25 oz) can",
+        "for": "Chili"
+      },
+      {
+        "name": "Mild Rotel diced tomatoes & green chilies",
+        "qty": "1 (10 oz) can",
+        "for": "Chili"
+      },
+      {
+        "name": "Light coconut milk",
+        "qty": "1 (13.5 oz) can",
+        "for": "Thai curry (1 cup)"
+      },
+      {
+        "name": "Calabrian chili paste",
+        "qty": "1 jar",
+        "for": "Soup, pasta"
+      },
+      {
+        "name": "Thai red curry paste",
+        "qty": "1 (4 oz) jar",
+        "for": "Thai curry"
+      },
+      {
+        "name": "White miso",
+        "qty": "1 small tub",
+        "for": "Salmon glaze"
+      },
+      {
+        "name": "Pickled jalapeños",
+        "qty": "1 jar (check stock)",
+        "for": "Austin's chili topping"
+      },
+      {
+        "name": "Chili oil or chili crisp",
+        "qty": "1 jar (check stock)",
+        "for": "Soup topping bar, Austin's salmon bowl"
+      }
+    ],
+    "Pantry / Other": [
+      {
+        "name": "Vodka",
+        "qty": "⅔ cup (check stock)",
+        "for": "Vodka gnocchi soup"
+      },
+      {
+        "name": "Pure maple syrup",
+        "qty": "1 small bottle",
+        "for": "Harvest chicken + vinaigrette, salmon glaze"
+      },
+      {
+        "name": "Apple cider vinegar",
+        "qty": "1 bottle (check stock)",
+        "for": "Maple Dijon vinaigrette"
+      },
+      {
+        "name": "Ranch seasoning packet",
+        "qty": "1 (use half)",
+        "for": "Chili"
+      },
+      {
+        "name": "Better Than Bouillon chicken base",
+        "qty": "1 jar (check stock)",
+        "for": "Soup"
+      },
+      {
+        "name": "Chicken broth",
+        "qty": "Check stock: need about 10½ cups (soup 8, chili 1¼, curry ½, pasta ½)",
+        "for": "Pantry staple, but this week uses a lot"
+      },
+      {
+        "name": "Sesame seeds",
+        "qty": "Check stock",
+        "for": "Salmon bowls"
+      },
+      {
+        "name": "Vanilla protein powder",
+        "qty": "Check stock: about 5 Austin + 2 Cameron scoops",
+        "for": "Breakfast bowls"
+      }
+    ]
+  },
+  "pantry_used": [
+    "Olive oil",
+    "Dijon mustard",
+    "Honey",
+    "Brown sugar",
+    "Jasmine rice",
+    "Black beans",
+    "Granola",
+    "Soy sauce",
+    "Fish sauce",
+    "Rice vinegar",
+    "Sesame oil",
+    "Cinnamon",
+    "Dried oregano",
+    "Italian seasoning",
+    "Garlic powder",
+    "Onion powder",
+    "Smoked paprika",
+    "Chili powder",
+    "Red pepper flakes",
+    "Kosher salt",
+    "Black pepper",
+    "Hot sauce / sriracha"
+  ]
+}

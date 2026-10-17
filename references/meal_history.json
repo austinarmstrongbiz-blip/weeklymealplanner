@@ -269,6 +269,64 @@
         }
       ],
       "ratings": {}
+    },
+    {
+      "week_start": "2026-10-18",
+      "week_end": "2026-10-24",
+      "status": "planned",
+      "notes": "Mid Fall. Hosting 8 Sunday (vodka gnocchi soup 2x). Away Fri PM\u2013Sun 10/25. New: apple-date protein yogurt bowl, white bean arugula salad, lighter crack chicken chili, Thai red curry kabocha, butternut shrimp pasta, miso-maple salmon delicata bowls.",
+      "days": [
+        {
+          "day": "Sunday",
+          "cuisine": "Italian (Hosting 8)",
+          "breakfast_id": "apple-date-protein-yogurt-bowl",
+          "lunch_id": "maple-dijon-harvest-chicken-bowl",
+          "dinner_id": "spicy-vodka-gnocchi-soup"
+        },
+        {
+          "day": "Monday",
+          "cuisine": "Tex-Mex",
+          "breakfast_id": "apple-date-protein-yogurt-bowl",
+          "lunch_id": "spicy-vodka-gnocchi-soup",
+          "dinner_id": "crack-chicken-chili-lighter"
+        },
+        {
+          "day": "Tuesday",
+          "cuisine": "Thai",
+          "breakfast_id": "apple-date-protein-yogurt-bowl",
+          "lunch_id": "spicy-vodka-gnocchi-soup",
+          "dinner_id": "thai-red-curry-chicken-kabocha"
+        },
+        {
+          "day": "Wednesday",
+          "cuisine": "Italian",
+          "breakfast_id": "apple-date-protein-yogurt-bowl",
+          "lunch_id": "maple-dijon-harvest-chicken-bowl",
+          "dinner_id": "spicy-butternut-squash-shrimp-pasta"
+        },
+        {
+          "day": "Thursday",
+          "cuisine": "Japanese",
+          "breakfast_id": "apple-date-protein-yogurt-bowl",
+          "lunch_id": "maple-dijon-harvest-chicken-bowl",
+          "dinner_id": "miso-maple-salmon-delicata-rice-bowl"
+        },
+        {
+          "day": "Friday",
+          "cuisine": "Simple / Travel day",
+          "breakfast_id": "eggs-and-toast",
+          "lunch_id": null,
+          "dinner_id": null
+        },
+        {
+          "day": "Saturday",
+          "cuisine": "Away",
+          "breakfast_id": null,
+          "lunch_id": null,
+          "dinner_id": null
+        }
+      ],
+      "ratings": {}
     }
   ]
 }

@@ -1,0 +1,419 @@
+{
+  "week_date": "2026-10-18",
+  "week_start": "October 18",
+  "week_end": "October 24, 2026",
+  "season": "Mid Fall — Pittsburgh",
+  "city": "Pittsburgh, PA",
+  "source": "Built from the recipe library plus five new Above Kitch fall recipes. Sunday is a dinner party for 8 (Spicy Vodka Gnocchi Soup at 2x with a white bean & arugula salad). Away Friday afternoon to Sunday afternoon (10/25).",
+  "seasonal_heroes": [
+    "Honeycrisp apples",
+    "Butternut squash",
+    "Kabocha squash",
+    "Delicata squash",
+    "Brussels sprouts",
+    "Sweet potatoes",
+    "Fresh sage"
+  ],
+  "cuisine_rotation": [
+    "Italian (Hosting)",
+    "Tex-Mex",
+    "Thai",
+    "Italian",
+    "Japanese",
+    "Away",
+    "Away"
+  ],
+  "eat_out": [
+    "Friday lunch",
+    "Friday dinner",
+    "Saturday (all meals)"
+  ],
+  "flexible_order": "The soup is fixed to Sunday (guests) and the salmon to Thursday (no leftovers before the trip). The chili, curry and pasta can swap among Mon–Wed, but keep the chili on whichever day someone can load the crock pot in the morning.",
+  "batch_prep": [
+    {
+      "station": "Sunday morning: short prep (about 60 min, mostly oven time)",
+      "tasks": [
+        "Oven or Breville to 400°F. Toss 2 large diced sweet potatoes with oil, salt, garlic powder, onion powder and paprika, and roast 40–45 min.",
+        "Marinate 3 lb chicken thighs in olive oil, Dijon, maple, minced garlic, salt, pepper and onion powder (harvest bowls). Season 1½ lb chicken breast with salt, pepper and Italian seasoning (soup-lunch protein).",
+        "Cook both chickens: thighs in the air fryer (400°F, 14–16 min) or in cast iron; breasts in the air fryer (380°F, 16–18 min) to 165°F. Rest, then slice. Thighs → harvest bowls (Sun/Wed/Thu). Breasts → Mon/Tue soup lunches (Austin 5 oz, Cameron 3 oz per day).",
+        "Thinly slice 1½ lb Brussels sprouts and sauté in cast iron with oil, salt, pepper and garlic powder until crispy-tender.",
+        "Whisk the maple Dijon vinaigrette and store it in a jar.",
+        "Make the apple-date compote (10 min) for Sun–Thu breakfasts.",
+        "While the skillet is out, crisp 4 slices of center-cut bacon for Monday's chili.",
+        "Pack Wed/Thu harvest lunches: chicken, sweet potato and Brussels in containers, with greens, feta, apple and dressing kept separate (dice the apple the morning you eat it)."
+      ]
+    },
+    {
+      "station": "Sunday afternoon: Spicy Vodka Gnocchi Soup at 2x for 8 (about 1 hr 15 min)",
+      "tasks": [
+        "Use the biggest pot (7–8 qt Dutch oven). 2x = 2 lb hot Italian sausage, 2 shallots + 1 yellow onion, 10 garlic cloves, ⅔ cup tomato paste, 1 cup crushed tomatoes, 2–4 tsp Calabrian chili, ⅔ cup vodka, 8 cups broth, 1½ cups cream, 1 cup Parmesan, 2 lb gnocchi.",
+        "Brown the sausage in two batches so it actually crisps. Reserve a cup of the crispiest bits for topping.",
+        "Before adding the gnocchi, ladle out 4 lunch portions (about 4 cups) into containers. Simmer about 10 oz of the gnocchi separately for the lunch portions, drain, and pack on top.",
+        "Whip the ricotta (2x: 1 cup ricotta, 2 tbsp Parmesan, 1 tsp lemon zest, olive oil, salt and pepper).",
+        "Salad: dress the beans with lemon, shallot, oil and Dijon up to 2 hours ahead. Toss in the arugula and Parmesan at the table.",
+        "Put out chili oil, basil, Parmesan and crispy sausage as a topping bar so guests can set their own heat."
+      ]
+    },
+    {
+      "station": "Weeknights",
+      "tasks": [
+        "Mon AM: load the crock pot with the chili (5 min). Low 6 hr. Freeze the ~2 cups of leftovers that night.",
+        "Tue: Thai red curry, 40 min. Microwave the kabocha 2 min before cutting.",
+        "Wed: butternut shrimp pasta, 50 min. Thaw the shrimp in the fridge Tuesday night.",
+        "Thu: miso-maple salmon bowls, 40 min. Clean out the fridge after."
+      ]
+    }
+  ],
+  "days": [
+    {
+      "day": "Sunday",
+      "cuisine": "Italian (Hosting 8)",
+      "breakfast": {
+        "recipe_id": "apple-date-protein-yogurt-bowl",
+        "austin": {
+          "cal": 560,
+          "p": 44,
+          "f": 13,
+          "c": 68
+        },
+        "cameron": {
+          "cal": 290,
+          "p": 26,
+          "f": 6,
+          "c": 35
+        },
+        "cameron_note": "Smaller yogurt base and less compote. Compote made Sunday."
+      },
+      "lunch": {
+        "recipe_id": "maple-dijon-harvest-chicken-bowl",
+        "austin": {
+          "cal": 700,
+          "p": 58,
+          "f": 34,
+          "c": 42
+        },
+        "cameron": {
+          "cal": 400,
+          "p": 31,
+          "f": 18,
+          "c": 30
+        },
+        "cameron_note": "Lunch-size portion: 3½ oz chicken, ⅓ cup sweet potato, extra greens, light feta, 2 tsp vinaigrette. Austin: 7 oz chicken, ¾ cup sweet potato, 1 tbsp vinaigrette. No pecans or dates this week, to keep the calories in check."
+      },
+      "dinner": {
+        "recipe_id": "spicy-vodka-gnocchi-soup",
+        "austin": {
+          "cal": 920,
+          "p": 38,
+          "f": 57,
+          "c": 62
+        },
+        "cameron": {
+          "cal": 735,
+          "p": 30,
+          "f": 46,
+          "c": 50
+        },
+        "side": "white-bean-arugula-salad-lemon-parm",
+        "cameron_note": "Hosting night, macros not tracked (numbers include the white bean & arugula salad). Make the soup at 2x (about 12 servings): 8 for dinner, about 4 lunch portions saved for Mon/Tue. Before the gnocchi goes in, ladle out the lunch portions; simmer about 10 oz of the gnocchi separately for them so it doesn't go mushy overnight. Austin gets the chili oil; Cameron goes easy on it."
+      },
+      "austin_total": {
+        "cal": 2180,
+        "p": 140
+      },
+      "cameron_total": {
+        "cal": 1425,
+        "p": 87
+      },
+      "note": "Friends over for dinner. Morning: short prep (harvest bowls, lunch chicken, apple compote). Afternoon: the soup at 2x."
+    },
+    {
+      "day": "Monday",
+      "cuisine": "Tex-Mex",
+      "breakfast": {
+        "recipe_id": "apple-date-protein-yogurt-bowl",
+        "austin": {
+          "cal": 560,
+          "p": 44,
+          "f": 13,
+          "c": 68
+        },
+        "cameron": {
+          "cal": 290,
+          "p": 26,
+          "f": 6,
+          "c": 35
+        },
+        "cameron_note": "Smaller yogurt base and less compote. Compote made Sunday."
+      },
+      "lunch": {
+        "recipe_id": "spicy-vodka-gnocchi-soup",
+        "austin": {
+          "cal": 660,
+          "p": 59,
+          "f": 31,
+          "c": 30
+        },
+        "cameron": {
+          "cal": 380,
+          "p": 35,
+          "f": 18,
+          "c": 16
+        },
+        "cameron_note": "Sunday's leftover soup with chicken added for protein. Austin: about 1¼ cups soup + 5 oz sliced chicken breast (cooked Sunday morning). Cameron: about ¾ cup soup + 3 oz chicken breast. Reheat gently and thin with broth."
+      },
+      "dinner": {
+        "recipe_id": "crack-chicken-chili-lighter",
+        "austin": {
+          "cal": 720,
+          "p": 71,
+          "f": 27,
+          "c": 45
+        },
+        "cameron": {
+          "cal": 470,
+          "p": 41,
+          "f": 21,
+          "c": 28
+        },
+        "cameron_note": "About 1 cup with ¼ avocado and cilantro. Load the crock pot in the morning (5 minutes). Freeze the extra 2 cups."
+      },
+      "austin_total": {
+        "cal": 1940,
+        "p": 174
+      },
+      "cameron_total": {
+        "cal": 1140,
+        "p": 102
+      }
+    },
+    {
+      "day": "Tuesday",
+      "cuisine": "Thai",
+      "breakfast": {
+        "recipe_id": "apple-date-protein-yogurt-bowl",
+        "austin": {
+          "cal": 560,
+          "p": 44,
+          "f": 13,
+          "c": 68
+        },
+        "cameron": {
+          "cal": 290,
+          "p": 26,
+          "f": 6,
+          "c": 35
+        },
+        "cameron_note": "Smaller yogurt base and less compote. Compote made Sunday."
+      },
+      "lunch": {
+        "recipe_id": "spicy-vodka-gnocchi-soup",
+        "austin": {
+          "cal": 660,
+          "p": 59,
+          "f": 31,
+          "c": 30
+        },
+        "cameron": {
+          "cal": 380,
+          "p": 35,
+          "f": 18,
+          "c": 16
+        },
+        "cameron_note": "Sunday's leftover soup with chicken added for protein. Austin: about 1¼ cups soup + 5 oz sliced chicken breast (cooked Sunday morning). Cameron: about ¾ cup soup + 3 oz chicken breast. Reheat gently and thin with broth."
+      },
+      "dinner": {
+        "recipe_id": "thai-red-curry-chicken-kabocha",
+        "austin": {
+          "cal": 725,
+          "p": 60,
+          "f": 22,
+          "c": 70
+        },
+        "cameron": {
+          "cal": 475,
+          "p": 36,
+          "f": 14,
+          "c": 50
+        },
+        "cameron_note": "Base heat (medium-mild), ⅔ cup rice. Austin stirs extra curry paste or Thai chili into his bowl."
+      },
+      "austin_total": {
+        "cal": 1945,
+        "p": 163
+      },
+      "cameron_total": {
+        "cal": 1145,
+        "p": 97
+      }
+    },
+    {
+      "day": "Wednesday",
+      "cuisine": "Italian",
+      "breakfast": {
+        "recipe_id": "apple-date-protein-yogurt-bowl",
+        "austin": {
+          "cal": 560,
+          "p": 44,
+          "f": 13,
+          "c": 68
+        },
+        "cameron": {
+          "cal": 290,
+          "p": 26,
+          "f": 6,
+          "c": 35
+        },
+        "cameron_note": "Smaller yogurt base and less compote. Compote made Sunday."
+      },
+      "lunch": {
+        "recipe_id": "maple-dijon-harvest-chicken-bowl",
+        "austin": {
+          "cal": 700,
+          "p": 58,
+          "f": 34,
+          "c": 42
+        },
+        "cameron": {
+          "cal": 400,
+          "p": 31,
+          "f": 18,
+          "c": 30
+        },
+        "cameron_note": "Lunch-size portion: 3½ oz chicken, ⅓ cup sweet potato, extra greens, light feta, 2 tsp vinaigrette. Austin: 7 oz chicken, ¾ cup sweet potato, 1 tbsp vinaigrette. No pecans or dates this week, to keep the calories in check."
+      },
+      "dinner": {
+        "recipe_id": "spicy-butternut-squash-shrimp-pasta",
+        "austin": {
+          "cal": 800,
+          "p": 66,
+          "f": 27,
+          "c": 74
+        },
+        "cameron": {
+          "cal": 505,
+          "p": 37,
+          "f": 18,
+          "c": 50
+        },
+        "cameron_note": "Half the Calabrian chili, 4 oz shrimp, about 40% of the pasta."
+      },
+      "austin_total": {
+        "cal": 2060,
+        "p": 168
+      },
+      "cameron_total": {
+        "cal": 1195,
+        "p": 94
+      }
+    },
+    {
+      "day": "Thursday",
+      "cuisine": "Japanese",
+      "breakfast": {
+        "recipe_id": "apple-date-protein-yogurt-bowl",
+        "austin": {
+          "cal": 560,
+          "p": 44,
+          "f": 13,
+          "c": 68
+        },
+        "cameron": {
+          "cal": 290,
+          "p": 26,
+          "f": 6,
+          "c": 35
+        },
+        "cameron_note": "Smaller yogurt base and less compote. Compote made Sunday."
+      },
+      "lunch": {
+        "recipe_id": "maple-dijon-harvest-chicken-bowl",
+        "austin": {
+          "cal": 700,
+          "p": 58,
+          "f": 34,
+          "c": 42
+        },
+        "cameron": {
+          "cal": 400,
+          "p": 31,
+          "f": 18,
+          "c": 30
+        },
+        "cameron_note": "Lunch-size portion: 3½ oz chicken, ⅓ cup sweet potato, extra greens, light feta, 2 tsp vinaigrette. Austin: 7 oz chicken, ¾ cup sweet potato, 1 tbsp vinaigrette. No pecans or dates this week, to keep the calories in check."
+      },
+      "dinner": {
+        "recipe_id": "miso-maple-salmon-delicata-rice-bowl",
+        "austin": {
+          "cal": 700,
+          "p": 63,
+          "f": 20,
+          "c": 67
+        },
+        "cameron": {
+          "cal": 480,
+          "p": 36,
+          "f": 16,
+          "c": 48
+        },
+        "cameron_note": "5 oz salmon, ½ cup rice, ¼ avocado. Last dinner before the trip: no leftovers."
+      },
+      "austin_total": {
+        "cal": 1960,
+        "p": 165
+      },
+      "cameron_total": {
+        "cal": 1170,
+        "p": 93
+      },
+      "note": "Fridge clean-out night: everything cooked tonight gets eaten. Chicken in today's harvest bowls was cooked Sunday (day 4). If that's past your comfort zone, freeze Thursday's chicken portions Sunday and thaw Wednesday night."
+    },
+    {
+      "day": "Friday",
+      "cuisine": "Simple / Travel day",
+      "breakfast": {
+        "recipe_id": "eggs-and-toast",
+        "austin": {
+          "cal": 540,
+          "p": 38,
+          "f": 24,
+          "c": 38
+        },
+        "cameron": {
+          "cal": 270,
+          "p": 23,
+          "f": 12,
+          "c": 15
+        },
+        "cameron_note": "Lighter than the library default: 2 eggs + 2 egg whites, 1 slice of toast. Uses up the eggs and bread before the trip. Leftover burrata on toast is fair game."
+      },
+      "lunch": null,
+      "dinner": null,
+      "austin_total": {
+        "cal": 540,
+        "p": 38
+      },
+      "cameron_total": {
+        "cal": 270,
+        "p": 23
+      },
+      "note": "Breakfast at home only. Out of town from Friday afternoon, so no lunch or dinner prep."
+    },
+    {
+      "day": "Saturday",
+      "cuisine": "Away",
+      "breakfast": null,
+      "lunch": null,
+      "dinner": null,
+      "austin_total": {
+        "cal": 0,
+        "p": 0
+      },
+      "cameron_total": {
+        "cal": 0,
+        "p": 0
+      },
+      "note": "Out of town. Back Sunday afternoon (10/25); that dinner is part of next week's plan."
+    }
+  ]
+}
