@@ -22790,11 +22790,13 @@
       "spice_level": "Medium",
       "serving_note": "Serves ~6 \u2014 macros are rough estimates, not yet measured",
       "tags": [
-        "crockpot",
+        "asian",
         "beef",
+        "crockpot",
+        "high-protein",
         "noodles",
-        "weeknight",
-        "asian"
+        "spicy",
+        "weeknight"
       ],
       "equipment": "Crockpot, skillet, saucepan",
       "macro_strings": {
@@ -22902,6 +22904,192 @@
       "batch_note": "Serve immediately \u2014 do not leave the noodles on KEEP WARM or they will soak up all the sauce. The beef and sauce hold great; cook noodles fresh if making ahead.",
       "cameron_note": "Chili crisp is a finish-only topping \u2014 skip it on hers. The sweet-savory beef and noodles base is fine for her.",
       "seasonal_note": "Cozy slow-cooker dinner \u2014 great for fall and winter weeknights.",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
+    },
+    {
+      "id": "spicy-vodka-gnocchi-soup",
+      "name": "Spicy Vodka Gnocchi Soup",
+      "cuisine": "Italian / Fall",
+      "source_account": "@rachbecookinn",
+      "source_url": "https://www.instagram.com/reel/Deh6sLORiwP/",
+      "added_date": "2026-10-16",
+      "meal_type": "dinner",
+      "prep": "~15 min",
+      "cook": "~30 min",
+      "total": "~45 min",
+      "spice_level": "Medium",
+      "serving_note": "Serves ~6 \u2014 macros are rough estimates, not yet measured",
+      "tags": [
+        "chicken",
+        "cozy",
+        "fall",
+        "gnocchi",
+        "high-protein",
+        "one-pot",
+        "sausage",
+        "soup",
+        "spicy"
+      ],
+      "equipment": "Large pot or Dutch oven, small bowl",
+      "macro_strings": {
+        "austin": "720 cal | 28g P | 45g F | 48g C",
+        "cameron": "600 cal | 23g P | 38g F | 40g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 720,
+          "p": 28,
+          "f": 45,
+          "c": 48
+        },
+        "cameron": {
+          "cal": 600,
+          "p": 23,
+          "f": 38,
+          "c": 40
+        }
+      },
+      "ingredients": [
+        {
+          "name": "SOUP",
+          "qty": null
+        },
+        {
+          "name": "Spicy Italian sausage, casings removed",
+          "qty": "1 lb"
+        },
+        {
+          "name": "Olive oil, if needed",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Shallot + 1/2 yellow onion, diced",
+          "qty": "1"
+        },
+        {
+          "name": "Garlic cloves, minced",
+          "qty": "5"
+        },
+        {
+          "name": "Tomato paste",
+          "qty": "1/3 cup"
+        },
+        {
+          "name": "Crushed tomatoes",
+          "qty": "1/2 cup"
+        },
+        {
+          "name": "Calabrian chili paste",
+          "qty": "1-2 tsp"
+        },
+        {
+          "name": "Dried oregano",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "Vodka",
+          "qty": "1/3 cup"
+        },
+        {
+          "name": "Chicken broth, plus more as needed",
+          "qty": "4 cups"
+        },
+        {
+          "name": "Better Than Bouillon chicken base",
+          "qty": "1/2-1 tsp"
+        },
+        {
+          "name": "Parmesan rind (optional)",
+          "qty": "1"
+        },
+        {
+          "name": "Heavy cream",
+          "qty": "3/4 cup"
+        },
+        {
+          "name": "Freshly grated Parmesan",
+          "qty": "1/2 cup"
+        },
+        {
+          "name": "Potato gnocchi",
+          "qty": "16 oz"
+        },
+        {
+          "name": "Salt + black pepper",
+          "qty": "to taste"
+        },
+        {
+          "name": "Lemon juice (optional)",
+          "qty": "1-2 tsp"
+        },
+        {
+          "name": "LEMONY WHIPPED RICOTTA",
+          "qty": null
+        },
+        {
+          "name": "Whole milk ricotta",
+          "qty": "1/2 cup"
+        },
+        {
+          "name": "Parmesan",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Lemon zest",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "Olive oil",
+          "qty": "1-2 tsp"
+        },
+        {
+          "name": "Salt + pepper",
+          "qty": "to taste"
+        },
+        {
+          "name": "TOPPINGS",
+          "qty": null
+        },
+        {
+          "name": "Fresh basil",
+          "qty": "to taste"
+        },
+        {
+          "name": "Crispy sausage (reserved)",
+          "qty": "to taste"
+        },
+        {
+          "name": "Parmesan",
+          "qty": "to taste"
+        },
+        {
+          "name": "Chili oil",
+          "qty": "to taste"
+        }
+      ],
+      "instructions": [
+        "Brown the sausage in large chunks over medium-high heat, pressing into the pan for crispy edges. Break apart, cook through, then remove, reserving 1-1.5 tbsp fat.",
+        "Saute the shallot and onion 4-5 minutes. Add garlic and oregano for 1 minute, then the tomato paste and Calabrian chili. Cook 3-5 minutes until deep red. Deglaze with vodka and simmer 2-3 minutes.",
+        "Add the broth, chicken base, Parmesan rind, crushed tomatoes, and most of the sausage. Simmer 12-15 minutes.",
+        "Meanwhile, whip the ricotta with Parmesan, lemon zest, olive oil, salt, and pepper until smooth.",
+        "Remove the rind from the soup, reduce heat, and stir in the cream and Parmesan.",
+        "Add the gnocchi and gently simmer 2-4 minutes until tender. Thin with broth if needed; finish with lemon juice to taste.",
+        "Serve with the whipped ricotta, crispy sausage, basil, and Parmesan."
+      ],
+      "batch_note": "Soup base (before gnocchi) holds great \u2014 cook the gnocchi fresh when serving so it does not go mushy. Whipped ricotta keeps a few days in the fridge.",
+      "cameron_note": "Calabrian chili gives this real heat \u2014 use 1 tsp and skip the chili oil topping on hers. The creamy vodka base is mild enough for her.",
+      "seasonal_note": "Peak soup season \u2014 cozy fall comfort.",
       "history": {
         "first_used": null,
         "last_used": null,
