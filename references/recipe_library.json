@@ -24192,6 +24192,201 @@
         }
       },
       "retired": false
+    },
+    {
+      "id": "hot-honey-crispy-chicken-burgers",
+      "name": "Hot Honey Crispy Chicken Burgers",
+      "cuisine": "American",
+      "source_account": "@zoyacooks7",
+      "source_url": "https://www.instagram.com/reel/Demwj3EIn9e/",
+      "added_date": "2026-10-18",
+      "meal_type": "dinner",
+      "prep": "~50 min (incl. marinade)",
+      "cook": "~20 min",
+      "total": "~1 hr 10 min",
+      "spice_level": "Medium",
+      "serving_note": "Makes 4 burgers \u2014 macros are rough estimates, not yet measured",
+      "tags": [
+        "burgers",
+        "chicken",
+        "crispy",
+        "egg",
+        "high-protein",
+        "hot-honey",
+        "spicy"
+      ],
+      "equipment": "Deep fryer or heavy pot, wire rack",
+      "macro_strings": {
+        "austin": "800 cal | 38g P | 42g F | 55g C",
+        "cameron": "660 cal | 32g P | 35g F | 46g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 800,
+          "p": 38,
+          "f": 42,
+          "c": 55
+        },
+        "cameron": {
+          "cal": 660,
+          "p": 32,
+          "f": 35,
+          "c": 46
+        }
+      },
+      "ingredients": [
+        {
+          "name": "FOR THE CHICKEN",
+          "qty": null
+        },
+        {
+          "name": "Chicken, cut into burger-sized pieces",
+          "qty": "500g"
+        },
+        {
+          "name": "Buttermilk",
+          "qty": "300 ml"
+        },
+        {
+          "name": "White vinegar",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Hot sauce",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Egg",
+          "qty": "1"
+        },
+        {
+          "name": "Paprika",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Black pepper",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Garlic powder",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Onion powder",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Salt",
+          "qty": "to taste"
+        },
+        {
+          "name": "FOR THE DRY COATING",
+          "qty": null
+        },
+        {
+          "name": "Plain flour",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Cornstarch",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Same seasonings as the chicken",
+          "qty": "to taste"
+        },
+        {
+          "name": "FOR THE GARLIC MAYO SAUCE",
+          "qty": null
+        },
+        {
+          "name": "Mayonnaise",
+          "qty": "2 cups"
+        },
+        {
+          "name": "Water",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Garlic powder",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Onion powder",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "Black pepper",
+          "qty": "1/2 tsp"
+        },
+        {
+          "name": "Salt",
+          "qty": "a pinch"
+        },
+        {
+          "name": "Fresh parsley, chopped",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Lemon juice",
+          "qty": "a squeeze"
+        },
+        {
+          "name": "FOR THE HOT HONEY GLAZE",
+          "qty": null
+        },
+        {
+          "name": "Butter",
+          "qty": "6-7 tbsp"
+        },
+        {
+          "name": "Oil",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Hot sauce",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Honey",
+          "qty": "3 tbsp"
+        },
+        {
+          "name": "FOR ASSEMBLY",
+          "qty": null
+        },
+        {
+          "name": "Burger buns",
+          "qty": "4"
+        },
+        {
+          "name": "Pickles",
+          "qty": "to taste"
+        }
+      ],
+      "instructions": [
+        "Marinate: mix the buttermilk, vinegar, hot sauce, egg, and chicken seasonings. Add the chicken and marinate 30-40 minutes.",
+        "Coat: mix the flour, cornstarch, and seasonings. Coat each chicken piece in the flour mixture, dip back into the marinade, then coat in the flour again.",
+        "Fry: deep-fry immediately in hot oil until golden, crispy, and cooked through.",
+        "Hot honey glaze: melt the butter with the oil, then mix in the hot sauce and honey. Reserve some for the buns and coat the crispy chicken with the rest.",
+        "Sauce: mix all the garlic mayo ingredients until smooth.",
+        "Assemble: spread garlic mayo on the buns, add the crispy chicken and pickles, then close the burgers. Brush the tops with the reserved hot honey glaze and serve with extra sauce."
+      ],
+      "batch_note": "The marinade does the heavy lifting \u2014 30-40 min minimum. The double dredge is what makes it extra crispy. The sauce makes more than you need; it keeps a week in the fridge.",
+      "cameron_note": "Hot sauce in both the marinade and glaze \u2014 use a mild hot sauce or halve it for hers. She can skip the extra glaze brushed on the bun.",
+      "seasonal_note": "",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
     }
   ]
 }
