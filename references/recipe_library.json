@@ -23436,6 +23436,7 @@
         "entertaining",
         "fall-2026",
         "italian",
+        "no-cook",
         "quick",
         "salad",
         "side",
@@ -23541,6 +23542,7 @@
         "chicken",
         "comfort",
         "crock-pot",
+        "crockpot",
         "dinner",
         "fall-2026",
         "freezer-friendly",
@@ -23685,6 +23687,7 @@
         "fall-2026",
         "high-protein",
         "one-pot",
+        "rice-cooker",
         "squash",
         "thai",
         "weeknight"
@@ -23938,6 +23941,7 @@
         "high-protein",
         "japanese",
         "rice-bowl",
+        "rice-cooker",
         "salmon",
         "seafood",
         "squash",
@@ -24049,6 +24053,145 @@
       },
       "retired": false,
       "added_date": "2026-10-17"
+    },
+    {
+      "id": "coconut-curry-beef-bowls",
+      "name": "Coconut Curry Broth with Sweet & Spicy Beef",
+      "cuisine": "Thai / Fusion",
+      "source_account": "@creativeprincesss",
+      "source_url": "https://www.instagram.com/reel/Deje0-7od6X/",
+      "added_date": "2026-10-18",
+      "meal_type": "dinner",
+      "prep": "~15 min",
+      "cook": "~25 min",
+      "total": "~40 min",
+      "spice_level": "Medium",
+      "serving_note": "Serves 4 \u2014 macros are rough estimates, not yet measured",
+      "tags": [
+        "beef",
+        "bowls",
+        "cozy",
+        "curry",
+        "fall",
+        "high-protein",
+        "spicy"
+      ],
+      "equipment": "Two pans or skillets",
+      "macro_strings": {
+        "austin": "700 cal | 26g P | 38g F | 45g C",
+        "cameron": "580 cal | 22g P | 32g F | 38g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 700,
+          "p": 26,
+          "f": 38,
+          "c": 45
+        },
+        "cameron": {
+          "cal": 580,
+          "p": 22,
+          "f": 32,
+          "c": 38
+        }
+      },
+      "ingredients": [
+        {
+          "name": "FOR THE BROTH",
+          "qty": null
+        },
+        {
+          "name": "Sesame oil",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Garlic cloves, minced",
+          "qty": "4-5"
+        },
+        {
+          "name": "Fresh ginger, grated",
+          "qty": "2 cm"
+        },
+        {
+          "name": "Thai red curry paste",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Coconut milk",
+          "qty": "400 ml"
+        },
+        {
+          "name": "Chicken broth",
+          "qty": "200-300 ml"
+        },
+        {
+          "name": "FOR THE SWEET & SPICY BEEF",
+          "qty": null
+        },
+        {
+          "name": "Minced beef",
+          "qty": "1 lb"
+        },
+        {
+          "name": "Hoisin sauce",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Soy sauce",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Fresh chilli, chopped",
+          "qty": "1"
+        },
+        {
+          "name": "Fresh coriander, chopped",
+          "qty": "a handful"
+        },
+        {
+          "name": "TO SERVE",
+          "qty": null
+        },
+        {
+          "name": "Basmati rice",
+          "qty": "4 servings"
+        },
+        {
+          "name": "Fresh lime",
+          "qty": "1"
+        },
+        {
+          "name": "Crispy chilli oil",
+          "qty": "to taste"
+        },
+        {
+          "name": "Spring onions, thinly sliced",
+          "qty": "to taste"
+        }
+      ],
+      "instructions": [
+        "Cook the basmati rice.",
+        "Heat the sesame oil in a pan and fry the garlic and ginger until fragrant.",
+        "Add the Thai red curry paste and fry for 3 minutes.",
+        "Pour in the coconut milk and chicken broth. Let it simmer for 15 minutes.",
+        "In a separate pan, brown the minced beef. Add the hoisin sauce, soy sauce, and fresh chilli. Stir in the coriander.",
+        "Serve everything together: rice, broth, and beef. Squeeze over plenty of fresh lime and finish with crispy chilli oil and spring onions."
+      ],
+      "batch_note": "Caption did not list amounts for the beef or curry paste \u2014 used 1 lb beef and 2 tbsp paste as the baseline. If no hoisin, 1 tbsp brown sugar works instead.",
+      "cameron_note": "Fresh chilli and chilli oil bring the heat \u2014 go light on both for hers. The coconut curry broth itself is mild and sweet.",
+      "seasonal_note": "Cozy bowl season \u2014 great for fall.",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
     }
   ]
 }
