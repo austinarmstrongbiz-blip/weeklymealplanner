@@ -7364,7 +7364,11 @@
         "skillet (corn char)"
       ],
       "added_date": "2026-06-23",
-      "tags": []
+      "tags": [
+        "beef",
+        "high-protein",
+        "tacos"
+      ]
     },
     {
       "id": "basil-zucchini-pasta-hot-sausage",
@@ -7947,7 +7951,11 @@
         "meal prep containers"
       ],
       "added_date": "2026-06-23",
-      "tags": []
+      "tags": [
+        "bowls",
+        "high-protein",
+        "pork"
+      ]
     },
     {
       "id": "pesto-chicken-spinach-pasta",
