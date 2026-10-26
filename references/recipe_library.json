@@ -24400,6 +24400,973 @@
         }
       },
       "retired": false
+    },
+    {
+      "id": "creamy-gruyere-chicken-kale-rosemary-potatoes-rd136",
+      "name": "Creamy Gruy\u00e8re Chicken & Kale with Roasted Rosemary Potatoes",
+      "cuisine": "French / American",
+      "meal_type": "dinner",
+      "prep": "10 min",
+      "cook": "20 min",
+      "total": "30 min",
+      "spice_level": "None",
+      "serving_note": "Serves 2 (Austin ~7 oz chicken, Cameron ~4 oz). Original served 2 with a 9-oz breast; chicken increased and the cheese/cream sauce trimmed to hit protein and calorie targets. Macros are estimates from standard ingredient values, not lab numbers.",
+      "tags": [
+        "batch-friendly",
+        "cheesy",
+        "chicken",
+        "comfort-food",
+        "dinner",
+        "fall-2026",
+        "high-protein",
+        "kale",
+        "oct-2026",
+        "quick",
+        "rd-week-136",
+        "restaurant-dropout"
+      ],
+      "equipment": "Large skillet, Sunday-prepped rosemary potatoes and garlic b\u00e9chamel",
+      "source": "Adapted from Restaurant Dropout Week 136 (10.23.2026)",
+      "macro_strings": {
+        "austin": "790 cal | 68g P | 40g F | 39g C",
+        "cameron": "465 cal | 40g P | 24g F | 22g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 790,
+          "p": 68,
+          "f": 40,
+          "c": 39
+        },
+        "cameron": {
+          "cal": 465,
+          "p": 40,
+          "f": 24,
+          "c": 22
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Boneless, skinless chicken breast, cut horizontally into thin cutlets",
+          "qty": "11 oz \u2014 Austin 7 oz, Cameron 4 oz"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "\u00bd tsp, plus more as needed"
+        },
+        {
+          "name": "All-purpose flour",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Freshly ground black pepper",
+          "qty": "to taste"
+        },
+        {
+          "name": "Extra-virgin olive oil",
+          "qty": "1 tbsp + 1 tsp, divided"
+        },
+        {
+          "name": "Shredded curly kale",
+          "qty": "2 cups, tightly packed"
+        },
+        {
+          "name": "Dry white wine",
+          "qty": "\u00bc cup"
+        },
+        {
+          "name": "Garlic B\u00e9chamel (component)",
+          "qty": "\u00bd cup"
+        },
+        {
+          "name": "Heavy cream",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Shredded Gruy\u00e8re cheese",
+          "qty": "\u00bd cup"
+        },
+        {
+          "name": "Grated Parmesan cheese",
+          "qty": "\u00bc cup"
+        },
+        {
+          "name": "Roasted Rosemary Potatoes (component)",
+          "qty": "1 cup \u2014 Austin \u2154 cup, Cameron \u2153 cup"
+        }
+      ],
+      "instructions": [
+        "Sprinkle the chicken with the salt and rest 5 minutes.",
+        "Combine the flour with a few cranks of black pepper on a plate. Dredge the chicken so both sides are coated.",
+        "Heat 1 tbsp of the oil in a large skillet over medium-high. Cook the chicken undisturbed 4 minutes, until a golden crust forms. Flip and cook 3 minutes. Move to a plate.",
+        "In the same skillet, add the kale and a pinch of salt. Cook, stirring, until wilted, about 1 minute. Add the wine and cook until mostly reduced, about 1 minute.",
+        "Reduce the heat to medium-low. Stir in the garlic b\u00e9chamel and cream, add black pepper, and cook until thick and bubbling, 3 to 4 minutes.",
+        "Reduce to low and stir in the Gruy\u00e8re and Parmesan until mostly melted. Nestle the chicken into the sauce and simmer 3 minutes, until heated through.",
+        "Meanwhile, heat the remaining 1 tsp oil in a second skillet. Add the potatoes and a pinch of salt and cook, stirring, until hot and glossy, about 5 minutes.",
+        "Divide the potatoes between two shallow bowls. Top with the chicken and spoon over the kale-cream sauce. Austin gets the bigger portions of chicken, potatoes, and sauce."
+      ],
+      "batch_note": "Potatoes and b\u00e9chamel come from Sunday prep, so this is a 20-minute weeknight dinner.",
+      "cameron_note": "4 oz of chicken, \u2153 cup of potatoes, and a smaller spoon of sauce keeps her near 465 cal. Mild as written.",
+      "seasonal_note": "Kale is in peak fall season.",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false,
+      "added_date": "2026-10-26"
+    },
+    {
+      "id": "zuppa-toscana-chicken-sausage-rd136",
+      "name": "Zuppa Toscana Soup (Chicken Sausage)",
+      "cuisine": "Italian",
+      "meal_type": "dinner",
+      "prep": "10 min",
+      "cook": "15 min",
+      "total": "25 min",
+      "spice_level": "Mild",
+      "serving_note": "Serves 2 (Austin ~60% of the pot, Cameron ~40%). Swapped pork Italian sausage for chicken Italian sausage (~170 cal, ~20g P per 4-oz link) so protein lands on target. Macros are estimates from standard ingredient values, not lab numbers.",
+      "tags": [
+        "batch-friendly",
+        "comfort-food",
+        "dinner",
+        "fall-2026",
+        "high-protein",
+        "kale",
+        "oct-2026",
+        "quick",
+        "rd-week-136",
+        "restaurant-dropout",
+        "sausage",
+        "soup"
+      ],
+      "equipment": "Large saucepan",
+      "source": "Adapted from Restaurant Dropout Week 136 (10.23.2026)",
+      "macro_strings": {
+        "austin": "745 cal | 60g P | 42g F | 32g C",
+        "cameron": "455 cal | 36g P | 25g F | 20g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 745,
+          "p": 60,
+          "f": 42,
+          "c": 32
+        },
+        "cameron": {
+          "cal": 455,
+          "p": 36,
+          "f": 25,
+          "c": 20
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Extra-virgin olive oil",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Shallot, finely diced",
+          "qty": "1"
+        },
+        {
+          "name": "Garlic cloves, minced",
+          "qty": "5"
+        },
+        {
+          "name": "Chicken Italian sausage links, casings removed (sweet or hot)",
+          "qty": "4 (4-oz) links \u2014 Austin 2\u00bd, Cameron 1\u00bd"
+        },
+        {
+          "name": "Roasted Rosemary Potatoes (component)",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Chicken stock",
+          "qty": "3 cups"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "\u00be tsp"
+        },
+        {
+          "name": "Granulated chicken bouillon",
+          "qty": "\u00bc tsp"
+        },
+        {
+          "name": "Freshly ground black pepper",
+          "qty": "to taste"
+        },
+        {
+          "name": "Heavy cream",
+          "qty": "2\u00bd tbsp"
+        },
+        {
+          "name": "Shredded curly kale",
+          "qty": "4 cups"
+        },
+        {
+          "name": "Grated Parmesan cheese, for garnish",
+          "qty": "3 tbsp \u2014 Austin 2, Cameron 1"
+        }
+      ],
+      "instructions": [
+        "Heat the oil in a large saucepan over medium. Add the shallot and cook until soft and translucent, 2 to 3 minutes.",
+        "Break the sausage into small pieces into the pan. Cook, stirring, about 4 minutes until a golden crust forms. Stir in the garlic for about 20 seconds. Reduce to low and cook until the sausage is cooked through, about 3 minutes.",
+        "Add the potatoes, stock, salt, bouillon, and black pepper. Simmer 12 minutes.",
+        "Add the cream and kale. Simmer, stirring, until the kale is wilted and bright green, about 2 minutes. Season with more salt if needed.",
+        "Ladle into two bowls (a larger one for Austin). Top with Parmesan and black pepper."
+      ],
+      "batch_note": "Makes well for Sunday: the whole pot reheats on the stove, so add the kale at reheating.",
+      "cameron_note": "Use mild sweet chicken sausage. Her bowl is about 1\u00bd links' worth with \u2153 cup potatoes.",
+      "seasonal_note": "Cozy fall soup; use dino kale or spinach if curly kale looks tired.",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false,
+      "added_date": "2026-10-26"
+    },
+    {
+      "id": "buddha-bowls-garlic-fried-eggs-rd136",
+      "name": "Buddha Bowls with Garlic-Fried Eggs & Grilled Chicken",
+      "cuisine": "American",
+      "meal_type": "dinner",
+      "prep": "10 min",
+      "cook": "20 min",
+      "total": "20 min",
+      "spice_level": "None",
+      "serving_note": "Serves 2. The original is vegetarian with 1 egg each (~20g P), so grilled chicken breast was added to reach protein targets. Also works as lunch. Macros are estimates from standard ingredient values, not lab numbers.",
+      "tags": [
+        "batch-friendly",
+        "bowl",
+        "butternut-squash",
+        "chicken",
+        "dinner",
+        "eggs",
+        "fall-2026",
+        "high-protein",
+        "kale",
+        "lunch",
+        "oct-2026",
+        "rd-week-136",
+        "restaurant-dropout"
+      ],
+      "equipment": "Large skillet, oven (to reheat squash), grill pan or skillet for chicken",
+      "source": "Adapted from Restaurant Dropout Week 136 (10.23.2026)",
+      "macro_strings": {
+        "austin": "770 cal | 60g P | 42g F | 37g C",
+        "cameron": "500 cal | 38g P | 26g F | 30g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 770,
+          "p": 60,
+          "f": 42,
+          "c": 37
+        },
+        "cameron": {
+          "cal": 500,
+          "p": 38,
+          "f": 26,
+          "c": 30
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Boneless, skinless chicken breast, grilled or pan-seared (added)",
+          "qty": "10 oz raw \u2014 Austin 6 oz, Cameron 4 oz"
+        },
+        {
+          "name": "Roasted Butternut Squash (component)",
+          "qty": "\u2154 cup"
+        },
+        {
+          "name": "Brown Butter (component)",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Shallot, thinly sliced",
+          "qty": "1"
+        },
+        {
+          "name": "Roasted Rosemary Potatoes (component)",
+          "qty": "\u215a cup \u2014 Austin \u00bd cup, Cameron \u2153 cup"
+        },
+        {
+          "name": "Grated Parmesan cheese",
+          "qty": "3 tbsp \u2014 Austin 2, Cameron 1"
+        },
+        {
+          "name": "Extra-virgin olive oil",
+          "qty": "1 tbsp + 1 tsp, divided"
+        },
+        {
+          "name": "Eggs",
+          "qty": "3 \u2014 Austin 2, Cameron 1"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "to taste"
+        },
+        {
+          "name": "Freshly ground black pepper",
+          "qty": "to taste"
+        },
+        {
+          "name": "Garlic cloves, thinly sliced",
+          "qty": "3"
+        },
+        {
+          "name": "Sherry vinegar",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Honey",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Dijon mustard",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Shredded curly kale",
+          "qty": "4 cups, tightly packed"
+        }
+      ],
+      "instructions": [
+        "Preheat the oven to 400\u00b0F. Season the chicken with salt and pepper and grill or pan-sear until it reaches 165\u00b0F, then slice.",
+        "Put the roasted squash on a baking sheet and warm in the oven 10 minutes.",
+        "Meanwhile, melt the brown butter in a large skillet over medium. Cook the shallot until soft, about 3 minutes. Add the potatoes and cook, stirring, until glossy and hot, about 6 minutes. Move to a plate and sprinkle with the Parmesan.",
+        "In the same skillet, heat 1 tsp of the oil over medium-high. Crack in the eggs, season, and cook 2 minutes until the edges are golden. Add the garlic to the oil and fry 30 seconds, then spoon the garlic oil over the eggs until the yolks are done how you like them.",
+        "Whisk the remaining 1 tbsp oil with the sherry vinegar, honey, mustard, a pinch of salt, and pepper. Add the kale and massage until tender.",
+        "Divide the potatoes between two bowls. Top with squash, kale salad, sliced chicken, and eggs (2 for Austin, 1 for Cameron)."
+      ],
+      "batch_note": "Cook the chicken in Sunday's batch and the whole bowl comes together in about 15 minutes.",
+      "cameron_note": "1 egg, 4 oz chicken, and about \u2153 cup of potatoes keep her near 500 cal. Avocado would suit her bowl if she wants it (not included in the macros).",
+      "seasonal_note": "Squash and kale are both peak fall produce.",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false,
+      "added_date": "2026-10-26"
+    },
+    {
+      "id": "creamy-butternut-squash-pasta-italian-sausage-rd136",
+      "name": "Creamy Butternut Squash Pasta with Italian Sausage",
+      "cuisine": "Italian",
+      "meal_type": "dinner",
+      "prep": "10 min",
+      "cook": "25 min",
+      "total": "35 min",
+      "spice_level": "None-Mild",
+      "serving_note": "Serves 2. The original uses 8 oz pasta and a full cup of each sauce element; scaled to 3 oz pasta, chicken Italian sausage, and a lighter sauce to fit macros. Macros are estimates from standard ingredient values, not lab numbers.",
+      "tags": [
+        "broiler",
+        "butternut-squash",
+        "comfort-food",
+        "dinner",
+        "fall-2026",
+        "high-protein",
+        "oct-2026",
+        "pasta",
+        "rd-week-136",
+        "restaurant-dropout",
+        "sausage"
+      ],
+      "equipment": "Large oven-safe skillet, large pot",
+      "source": "Adapted from Restaurant Dropout Week 136 (10.23.2026)",
+      "macro_strings": {
+        "austin": "805 cal | 60g P | 34g F | 62g C",
+        "cameron": "485 cal | 40g P | 22g F | 32g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 805,
+          "p": 60,
+          "f": 34,
+          "c": 62
+        },
+        "cameron": {
+          "cal": 485,
+          "p": 40,
+          "f": 22,
+          "c": 32
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Kosher salt",
+          "qty": "plus more as needed"
+        },
+        {
+          "name": "Pasta, shells or conchiglie (dry)",
+          "qty": "3 oz \u2014 Austin 2 oz, Cameron 1 oz"
+        },
+        {
+          "name": "Chicken Italian sausage links, casings removed",
+          "qty": "3\u00bd (4-oz) links (14 oz) \u2014 Austin 2, Cameron 1\u00bd"
+        },
+        {
+          "name": "Dried rosemary",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Garlic B\u00e9chamel (component)",
+          "qty": "\u2153 cup"
+        },
+        {
+          "name": "Roasted Butternut Squash (component)",
+          "qty": "\u2153 cup"
+        },
+        {
+          "name": "Butternut Squash Pur\u00e9e (component)",
+          "qty": "\u2153 cup"
+        },
+        {
+          "name": "Shredded Gruy\u00e8re cheese, divided",
+          "qty": "\u00bc cup"
+        },
+        {
+          "name": "Grated Parmesan cheese",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Freshly ground black pepper",
+          "qty": "to taste"
+        }
+      ],
+      "instructions": [
+        "Turn the broiler on high.",
+        "Boil the pasta in well-salted water until al dente. Drain well.",
+        "Meanwhile, in a large oven-safe skillet over medium-high, add the sausage, broken up by hand. Cook undisturbed 3 to 4 minutes until deeply browned. Add the rosemary and break into small crumbles. Cook until cooked through, 3 to 4 minutes.",
+        "Reduce to medium-low. Stir in the b\u00e9chamel, roasted squash, and pur\u00e9e. Cook, stirring, until bubbling and steaming.",
+        "Turn off the heat. Stir in half the Gruy\u00e8re, the Parmesan, a pinch of salt, and pepper. Fold in the pasta. Top with the remaining Gruy\u00e8re.",
+        "Broil 4 to 5 minutes, until golden and bubbling at the edges. Spoon into bowls, a bigger one for Austin, and finish with black pepper."
+      ],
+      "batch_note": "Uses leftover b\u00e9chamel, roasted squash, and pur\u00e9e from Sunday prep. Chickpea pasta is a good swap if you want extra protein.",
+      "cameron_note": "1 oz of pasta and 1\u00bd sausage links with a smaller scoop of sauce comes to about 485 cal. Use sweet sausage.",
+      "seasonal_note": "Butternut squash is in season now.",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false,
+      "added_date": "2026-10-26"
+    },
+    {
+      "id": "brown-butter-halibut-butternut-squash-puree-rd136",
+      "name": "Brown Butter Halibut with Butternut Squash Pur\u00e9e & Garlicky Kale",
+      "cuisine": "American / French",
+      "meal_type": "dinner",
+      "prep": "10 min",
+      "cook": "10 min",
+      "total": "20 min",
+      "spice_level": "None",
+      "serving_note": "Serves 2 (Austin 10 oz halibut, Cameron 6 oz). Original uses two 6-oz fillets; Austin's portion is bigger for protein. Macros are estimates from standard ingredient values, not lab numbers.",
+      "tags": [
+        "butternut-squash",
+        "date-night",
+        "dinner",
+        "fall-2026",
+        "fish",
+        "halibut",
+        "high-protein",
+        "kale",
+        "oct-2026",
+        "quick",
+        "rd-week-136",
+        "restaurant-dropout"
+      ],
+      "equipment": "Large skillet with lid",
+      "source": "Adapted from Restaurant Dropout Week 136 (10.23.2026)",
+      "macro_strings": {
+        "austin": "800 cal | 64g P | 44g F | 35g C",
+        "cameron": "465 cal | 38g P | 24g F | 22g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 800,
+          "p": 64,
+          "f": 44,
+          "c": 35
+        },
+        "cameron": {
+          "cal": 465,
+          "p": 38,
+          "f": 24,
+          "c": 22
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Kosher salt",
+          "qty": "\u00bd tsp, plus more as needed"
+        },
+        {
+          "name": "Halibut fillets, skin removed",
+          "qty": "16 oz \u2014 Austin 10 oz, Cameron 6 oz"
+        },
+        {
+          "name": "All-purpose flour",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Freshly ground black pepper",
+          "qty": "to taste"
+        },
+        {
+          "name": "Extra-virgin olive oil",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Garlic clove, thinly sliced",
+          "qty": "1"
+        },
+        {
+          "name": "Shredded curly kale",
+          "qty": "2 cups"
+        },
+        {
+          "name": "Brown Butter (component)",
+          "qty": "4 tbsp \u2014 Austin 2, Cameron 1, 1 for the kale"
+        },
+        {
+          "name": "Butternut Squash Pur\u00e9e (component), warmed",
+          "qty": "1\u00bc cups \u2014 Austin \u00be cup, Cameron \u00bd cup"
+        }
+      ],
+      "instructions": [
+        "Sprinkle salt over the halibut and let sit 5 minutes. Mix the flour with pepper on a plate. Pat the fish dry and dredge in the flour.",
+        "Heat the oil in a large skillet over medium-high. Sear the halibut undisturbed 3 to 4 minutes. Flip and reduce to medium. Add 3 tbsp brown butter and cook, spooning it over the fish, 3 to 4 minutes more until golden. Move the fish to a plate and pour over the butter from the pan.",
+        "In the same skillet with the remaining 1 tbsp brown butter, add the garlic, kale, and a pinch of salt. Cook, stirring, until the kale starts to wilt, about 1 minute. Add 1 tbsp water and cook until tender, about 1 minute.",
+        "Spoon the pur\u00e9e into two shallow bowls, top with kale and halibut (the larger fillet for Austin), and finish with black pepper."
+      ],
+      "batch_note": "Brown butter and pur\u00e9e come from Sunday prep, so dinner takes only about 10 minutes of cooking.",
+      "cameron_note": "6 oz fillet, \u00bd cup pur\u00e9e, and 1 tbsp brown butter lands her near 465 cal. A few slices of avocado would fit, but add to the macros if so.",
+      "seasonal_note": "Squash pur\u00e9e is a fall classic. Cod, mahi mahi, or swordfish work in place of halibut.",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false,
+      "added_date": "2026-10-26"
+    },
+    {
+      "id": "garlic-bechamel-rd136",
+      "name": "Garlic B\u00e9chamel",
+      "cuisine": "French",
+      "meal_type": "component",
+      "prep": "5 min",
+      "cook": "10 min",
+      "total": "15 min",
+      "spice_level": "None",
+      "serving_note": "Makes about 1\u00bd cups. Keeps 5 days refrigerated.",
+      "tags": [
+        "batch-friendly",
+        "component",
+        "fall-2026",
+        "oct-2026",
+        "rd-week-136",
+        "restaurant-dropout",
+        "sauce",
+        "vegetarian"
+      ],
+      "equipment": "Medium saucepan",
+      "source": "Adapted from Restaurant Dropout Week 136 (10.23.2026)",
+      "macro_strings": {
+        "austin": null,
+        "cameron": null
+      },
+      "macros": {
+        "austin": null,
+        "cameron": null
+      },
+      "ingredients": [
+        {
+          "name": "Salted butter",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Garlic cloves, minced",
+          "qty": "2"
+        },
+        {
+          "name": "All-purpose flour",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Whole milk",
+          "qty": "2 cups"
+        },
+        {
+          "name": "Dijon mustard",
+          "qty": "2 tsp"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "\u00bd tsp"
+        },
+        {
+          "name": "Granulated chicken bouillon",
+          "qty": "\u00bc tsp"
+        },
+        {
+          "name": "Freshly ground black pepper",
+          "qty": "to taste"
+        }
+      ],
+      "instructions": [
+        "Melt the butter over medium-low heat. Add the garlic and cook until fragrant, about 20 seconds.",
+        "Add the flour and whisk into a thin paste. Cook until lightly toasted, about 1 minute.",
+        "Pour in the milk and cook, whisking occasionally, until thick and creamy, about 10 minutes. Add the mustard, salt, bouillon, and pepper. Adjust seasoning.",
+        "Transfer to a container, lay plastic wrap directly on the surface to prevent a skin, and seal."
+      ],
+      "batch_note": "Make Sunday. Used in Creamy Gruy\u00e8re Chicken and Creamy Butternut Squash Pasta.",
+      "cameron_note": null,
+      "seasonal_note": null,
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false,
+      "added_date": "2026-10-26"
+    },
+    {
+      "id": "butternut-squash-puree-rd136",
+      "name": "Butternut Squash Pur\u00e9e",
+      "cuisine": "American",
+      "meal_type": "component",
+      "prep": "10 min",
+      "cook": "30 min",
+      "total": "40 min",
+      "spice_level": "None",
+      "serving_note": "Makes about 3 cups. Keeps 5 days refrigerated.",
+      "tags": [
+        "batch-friendly",
+        "butternut-squash",
+        "component",
+        "fall-2026",
+        "oct-2026",
+        "rd-week-136",
+        "restaurant-dropout",
+        "vegetarian"
+      ],
+      "equipment": "Medium saucepan, high-speed blender",
+      "source": "Adapted from Restaurant Dropout Week 136 (10.23.2026)",
+      "macro_strings": {
+        "austin": null,
+        "cameron": null
+      },
+      "macros": {
+        "austin": null,
+        "cameron": null
+      },
+      "ingredients": [
+        {
+          "name": "Extra-virgin olive oil",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Shallot, finely diced",
+          "qty": "1"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "1 tsp, plus more as needed"
+        },
+        {
+          "name": "Chicken stock",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Diced (\u00bd-inch) butternut squash",
+          "qty": "4 cups (about 1\u00bd lb)"
+        },
+        {
+          "name": "Heavy cream",
+          "qty": "\u00bc cup"
+        },
+        {
+          "name": "Brown sugar",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Ground nutmeg",
+          "qty": "\u215b tsp"
+        },
+        {
+          "name": "Smoked paprika",
+          "qty": "\u215b tsp"
+        }
+      ],
+      "instructions": [
+        "Heat the oil in a medium saucepan over medium-high. Add the shallot and a pinch of salt and cook until soft, about 3 minutes.",
+        "Add the stock, squash, and 1 tsp salt. Reduce to low, cover, and cook until the squash is soft, about 25 minutes.",
+        "Remove the lid and cool 10 minutes. Transfer to a high-speed blender with the cream, brown sugar, nutmeg, and paprika. Blend until smooth. Season to taste."
+      ],
+      "batch_note": "Make Sunday. Used in Creamy Butternut Squash Pasta and Brown Butter Halibut.",
+      "cameron_note": null,
+      "seasonal_note": "Peak fall squash.",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false,
+      "added_date": "2026-10-26"
+    },
+    {
+      "id": "roasted-butternut-squash-rd136",
+      "name": "Roasted Butternut Squash",
+      "cuisine": "American",
+      "meal_type": "component",
+      "prep": "10 min",
+      "cook": "25 min",
+      "total": "35 min",
+      "spice_level": "None",
+      "serving_note": "Makes about 2 cups. Keeps 5 days refrigerated.",
+      "tags": [
+        "batch-friendly",
+        "butternut-squash",
+        "component",
+        "fall-2026",
+        "oct-2026",
+        "rd-week-136",
+        "restaurant-dropout",
+        "vegan",
+        "vegetarian"
+      ],
+      "equipment": "Oven, baking sheet",
+      "source": "Adapted from Restaurant Dropout Week 136 (10.23.2026)",
+      "macro_strings": {
+        "austin": null,
+        "cameron": null
+      },
+      "macros": {
+        "austin": null,
+        "cameron": null
+      },
+      "ingredients": [
+        {
+          "name": "Diced (\u00bd-inch) butternut squash",
+          "qty": "3 cups (about 1\u00bc lb)"
+        },
+        {
+          "name": "Extra-virgin olive oil",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "\u00bd tsp"
+        },
+        {
+          "name": "Granulated garlic",
+          "qty": "\u00bc tsp"
+        },
+        {
+          "name": "Ground nutmeg",
+          "qty": "\u215b tsp"
+        },
+        {
+          "name": "Smoked paprika",
+          "qty": "\u215b tsp"
+        }
+      ],
+      "instructions": [
+        "Preheat the oven to 425\u00b0F. Toss everything together in a large bowl.",
+        "Spread on an unlined baking sheet with space between pieces. Roast 25 minutes, until soft and lightly browned at the edges."
+      ],
+      "batch_note": "Make Sunday. Used in Buddha Bowls and Creamy Butternut Squash Pasta.",
+      "cameron_note": null,
+      "seasonal_note": "Peak fall squash.",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false,
+      "added_date": "2026-10-26"
+    },
+    {
+      "id": "roasted-rosemary-potatoes-rd136",
+      "name": "Roasted Rosemary Potatoes",
+      "cuisine": "American",
+      "meal_type": "component",
+      "prep": "10 min",
+      "cook": "35 min",
+      "total": "45 min",
+      "spice_level": "None",
+      "serving_note": "Makes about 5\u00bd cups. Keeps 5 days refrigerated.",
+      "tags": [
+        "batch-friendly",
+        "component",
+        "fall-2026",
+        "oct-2026",
+        "potatoes",
+        "rd-week-136",
+        "restaurant-dropout",
+        "vegan",
+        "vegetarian"
+      ],
+      "equipment": "Oven, 2 baking sheets",
+      "source": "Adapted from Restaurant Dropout Week 136 (10.23.2026)",
+      "macro_strings": {
+        "austin": null,
+        "cameron": null
+      },
+      "macros": {
+        "austin": null,
+        "cameron": null
+      },
+      "ingredients": [
+        {
+          "name": "Yukon gold potatoes, cut into wedges",
+          "qty": "2\u00bd lb"
+        },
+        {
+          "name": "Extra-virgin olive oil",
+          "qty": "\u00bc cup"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "2 tsp"
+        },
+        {
+          "name": "Dried rosemary",
+          "qty": "1 tbsp"
+        }
+      ],
+      "instructions": [
+        "Preheat the oven to 425\u00b0F. Toss the potatoes with the oil, salt, and rosemary.",
+        "Spread over two baking sheets with space between. Roast 35 minutes, until soft and browned at the edges."
+      ],
+      "batch_note": "Make Sunday. Used in Gruy\u00e8re Chicken, Zuppa Toscana, and Buddha Bowls.",
+      "cameron_note": null,
+      "seasonal_note": null,
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false,
+      "added_date": "2026-10-26"
+    },
+    {
+      "id": "brown-butter-rd136",
+      "name": "Brown Butter",
+      "cuisine": "French",
+      "meal_type": "component",
+      "prep": "1 min",
+      "cook": "5 min",
+      "total": "5 min (+1 hr to set)",
+      "spice_level": "None",
+      "serving_note": "Makes about 6 tbsp. Keeps 2 weeks refrigerated.",
+      "tags": [
+        "batch-friendly",
+        "component",
+        "fall-2026",
+        "oct-2026",
+        "rd-week-136",
+        "restaurant-dropout",
+        "vegetarian"
+      ],
+      "equipment": "Large skillet",
+      "source": "Adapted from Restaurant Dropout Week 136 (10.23.2026)",
+      "macro_strings": {
+        "austin": null,
+        "cameron": null
+      },
+      "macros": {
+        "austin": null,
+        "cameron": null
+      },
+      "ingredients": [
+        {
+          "name": "Salted butter",
+          "qty": "8 tbsp"
+        }
+      ],
+      "instructions": [
+        "Melt the butter in a large skillet over medium, swirling occasionally. Cook until it foams and the milk solids turn deeply golden brown, 3 to 5 minutes.",
+        "Transfer to a container right away so the solids don't burn. Let sit at room temperature 1 hour until it begins to firm up, stirring occasionally to distribute the toasted milk solids."
+      ],
+      "batch_note": "Make Sunday. Used in Buddha Bowls and Brown Butter Halibut.",
+      "cameron_note": null,
+      "seasonal_note": null,
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false,
+      "added_date": "2026-10-26"
     }
   ]
 }
