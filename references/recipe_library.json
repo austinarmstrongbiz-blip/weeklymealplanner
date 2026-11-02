@@ -24402,6 +24402,107 @@
         }
       },
       "retired": false
+    },
+    {
+      "id": "focaccia-dinner-rolls",
+      "name": "Focaccia Dinner Rolls",
+      "cuisine": "Italian",
+      "source_account": "@itsnormalfood",
+      "source_url": "https://itsnormalfood.substack.com/p/focaccia-dinner-rolls",
+      "added_date": "2026-11-01",
+      "meal_type": "component",
+      "prep": "~30 min + 2.5 hr rest",
+      "cook": "20-30 min",
+      "total": "~3.5 hr",
+      "spice_level": "None",
+      "serving_note": "Makes ~12 rolls (80g each) \u2014 macros are rough estimates, not yet measured",
+      "tags": [
+        "baking",
+        "bread",
+        "fall",
+        "focaccia",
+        "thanksgiving",
+        "vegan",
+        "vegetarian"
+      ],
+      "equipment": "Mixing bowl, 9x13 baking dish",
+      "macro_strings": {
+        "austin": "450 cal | 12g P | 10g F | 78g C",
+        "cameron": "225 cal | 6g P | 5g F | 39g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 450,
+          "p": 12,
+          "f": 10,
+          "c": 78
+        },
+        "cameron": {
+          "cal": 225,
+          "p": 6,
+          "f": 5,
+          "c": 39
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Bread flour",
+          "qty": "4 cups (600g)"
+        },
+        {
+          "name": "Salt (Diamond Crystal kosher)",
+          "qty": "2 tsp (8g)"
+        },
+        {
+          "name": "Sugar",
+          "qty": "2 tsp (8g)"
+        },
+        {
+          "name": "Instant yeast, one packet",
+          "qty": "7-9g"
+        },
+        {
+          "name": "Warm water (80-90F)",
+          "qty": "2 cups (500 mL)"
+        },
+        {
+          "name": "Olive oil, divided",
+          "qty": "4 tbsp total"
+        },
+        {
+          "name": "Flaky sea salt (e.g. Maldon)",
+          "qty": "for topping"
+        },
+        {
+          "name": "Fresh herbs (optional)",
+          "qty": "for topping"
+        }
+      ],
+      "instructions": [
+        "Stir together the flour, salt, sugar, and yeast in a mixing bowl. Pour in the water and stir to combine.",
+        "Drizzle 2 tbsp olive oil over the dough, stir until fully incorporated. Cover and rest at room temperature for 30 minutes.",
+        "Complete the first round of stretch and folds (wet fingers, pull one side up and fold across, quarter-turn the bowl, repeat until the dough resists). Cover and rest 1 hour.",
+        "Complete the second and final round of stretch and folds.",
+        "Form into individual 80g rolls and place in a greased or parchment-lined 9x13 baking dish. Cover and rest 1 hour.",
+        "Preheat the oven to 425F.",
+        "Dimple the dough with wet fingertips (press almost to the bottom), sprinkle with flaky salt and herbs, and drizzle the remaining 2 tbsp olive oil. Bake 20-30 minutes until deeply golden.",
+        "Rest 20 minutes to 1 hour before breaking apart."
+      ],
+      "batch_note": "Dough can be made up to 72 hours ahead \u2014 follow steps 1-4, oil the top, refrigerate, then rest 1 hr at room temp before forming the rolls.",
+      "cameron_note": "",
+      "seasonal_note": "Made for Thanksgiving \u2014 fall baking season.",
+      "history": {
+        "first_used": null,
+        "last_used": null,
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false
     }
   ]
 }
