@@ -30,6 +30,7 @@ household health/
 ├── scripts/
 │   ├── server.py               ← HTTP server (local + Render). DATA_ROOT pattern.
 │   ├── chat.py                 ← In-app Claude chat (POST /api/chat)
+│   ├── import_recipe.py        ← URL/PDF/text → validated recipe_library.json entry
 │   ├── import_anylist.py       ← Scrape AnyList exports → recipe_library.json
 │   ├── generate_meal_plan_pdf.py
 │   ├── compile_grocery_list.py
@@ -139,6 +140,11 @@ Option C — AnyList import:
 ```bash
 python3 scripts/import_anylist.py --scrape --local
 ```
+
+Option D — Any URL / PDF / photo / pasted text (preferred for one-offs): the
+`import-recipe` skill (`.claude/skills/import-recipe/SKILL.md`). It runs
+`scripts/import_recipe.py fetch → check → add`, which enforces ids, duplicates,
+Austin's no-go foods and per-meal macro targets, then commits and pushes to main.
 
 ---
 
@@ -306,6 +312,7 @@ Intake saved to `weekly/{week_date}/intake.json`.
 | Script | What it does |
 |--------|-------------|
 | `server.py` | HTTP server. `POST /api/recipes/add`, `POST /api/plan/save`, `GET /api/weeks` |
+| `import_recipe.py` | `fetch` a URL/PDF/text (JSON-LD first), `check` a draft, `add` it to the library. Used by the `import-recipe` skill |
 | `import_anylist.py` | Parse AnyList export → scrape URLs → write to recipe_library.json (`--scrape --local`) |
 | `generate_meal_plan_pdf.py` | Generates PDF from `weekly/YYYY-MM-DD/meal_plan.json` |
 | `compile_grocery_list.py` | Aggregates ingredients, removes pantry staples, organizes by section |
