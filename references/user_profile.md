@@ -63,7 +63,7 @@ SEASONAL_EMPHASIS: Moderate — factor in but don't force it
 PREP_DAYS: Saturday, Sunday, or split across both — depends on the weekend (asked in intake Q5)
 PREP_DURATION_HOURS: 2
 BREAKFAST_STYLE: Routine eggs + toast, not batch-prepped (see Eating Pattern below)
-AFTERNOON_HOLDOVER: Leftovers or a high-protein snack around 2–3pm (no prepped lunches)
+LUNCH: 1–2 simple batch lunches per week, eaten around 2–3pm; dinner leftovers fill in
 ```
 
 ---
@@ -135,15 +135,15 @@ ABOVE_KITCH_URL: https://weeklymealplanner-9w3b.onrender.com
 ## Macro Targets (updated 2026-11-05)
 
 ### Eating pattern
-A solid breakfast, nothing until ~2–3pm, then a snack or leftovers to hold over until dinner.
+Simple life until dinner: a solid breakfast, then a simple lunch around 2–3pm (1–2 lunch recipes a week).
 **Dinner is the big meal** and carries most of the day's calories.
 - Austin's breakfast: 2–3 eggs, a piece of toast, maybe leftover protein, and a sauce.
 - Cameron's breakfast: an egg, sourdough toast, half an avocado.
 
 **Austin** — cutting, ~185 lb → 175 lb. ~1800 cal/day (1750–1900), 150g+ protein
 - Breakfast: 450–550 cal / 35–45g P
-- Afternoon holdover: 300–350 cal / 30–40g P
-- Dinner: 900–1000 cal / 75–85g P
+- Lunch: 350–450 cal / 35–45g P
+- Dinner: 850–950 cal / 70–80g P
 - Two big workouts a week (1000+ cal burns each): add 300–400 cal on those days, mostly carbs plus protein
 - No avocado (allergy)
 - No mango, peach, or melon (cantaloupe/honeydew/watermelon) — not severe, just avoid
@@ -151,8 +151,8 @@ A solid breakfast, nothing until ~2–3pm, then a snack or leftovers to hold ove
 
 **Cameron** — maintaining. 1200–1300 cal/day, 90–100g protein
 - Breakfast: 300–375 cal / 15–20g P (a 2nd egg or a side of cottage cheese closes the protein gap)
-- Afternoon holdover: 200–250 cal / 20–25g P
-- Dinner: 650–700 cal / 50–55g P
+- Lunch: 250–300 cal / 20–25g P
+- Dinner: 600–650 cal / 50–55g P
 - Portions always smaller than Austin's, sized to these targets
 - Can have avocado (Austin can't). Use it when it fits; no need to call it out everywhere
 - Needs strong flavor + sauce — never bland
@@ -219,7 +219,7 @@ If the folder is empty or stale, say so in chat and fall back to seasonal contex
 ```
 SOUP_OF_THE_WEEK: ACTIVE — recurring feature for fall/winter 2026
 STARTED: Week of 2026-09-13, debut recipe: Caramelized Spring Onion Ramen
-CADENCE: One soup dinner (leftovers make a good afternoon holdover) most weeks through fall/winter
+CADENCE: One soup dinner (or a lunch, if it fits the week better) most weeks through fall/winter
 ```
 
 Starting the week of Sept 13, 2026, each week's plan should try to feature one soup —

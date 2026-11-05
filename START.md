@@ -79,8 +79,8 @@ python3 scripts/fetch_substacks.py
 | Meal | Austin | Cameron |
 |------|--------|---------|
 | Breakfast | 450–550 cal / 35–45g P | 300–375 cal / 15–20g P |
-| Afternoon holdover (2–3pm, leftovers or snack) | 300–350 cal / 30–40g P | 200–250 cal / 20–25g P |
-| Dinner (the big meal) | 900–1,000 cal / 75–85g P | 650–700 cal / 50–55g P |
+| Lunch (~2–3pm, 1–2 simple recipes/week) | 350–450 cal / 35–45g P | 250–300 cal / 20–25g P |
+| Dinner (the big meal) | 850–950 cal / 70–80g P | 600–650 cal / 50–55g P |
 
 ---
 

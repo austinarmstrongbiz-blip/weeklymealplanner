@@ -113,12 +113,12 @@ site's numbers only as a sanity check. Work out the whole batch, then size each 
 | Meal | Austin | Cameron |
 |---|---|---|
 | Breakfast | 450–550 cal, 35g+ P | 300–375 cal, 15g+ P |
-| Afternoon holdover (`lunch` / `snack`) | 300–350 cal, 30g+ P | 200–250 cal, 20g+ P |
-| Dinner (the big meal) | 900–1000 cal, 75g+ P | 650–700 cal, 50g+ P |
+| Lunch | 350–450 cal, 35g+ P | 250–300 cal, 20g+ P |
+| Dinner (the big meal) | 850–950 cal, 70g+ P | 600–650 cal, 50g+ P |
 
-They eat a real breakfast, hold over with leftovers or a snack around 2–3pm, and eat most
-of the day at dinner. A recipe that serves 4 often becomes dinner for both plus one
-leftover holdover; say so in `serving_note`.
+They eat a real breakfast, a simple lunch around 2–3pm (1–2 batch lunch recipes a week),
+and most of the day at dinner. A lunch recipe should batch into ~3 days of lunches for
+both; say how in `serving_note`.
 
 Hit the targets by changing **portions** (more protein, less starch for Austin), not by
 inventing a different dish. If protein still falls short, add a fix and put it in the

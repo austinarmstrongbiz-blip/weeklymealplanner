@@ -51,14 +51,13 @@ household health/
 
 ### How they actually eat (updated 2026-11-05)
 
-A real breakfast, then nothing until about 2–3pm, when a snack or leftovers holds them over.
-**Dinner is the big meal** and carries most of the day's calories.
+Simple life until dinner: a real breakfast, then a simple lunch around 2–3pm when they get hungry.
+**Dinner is the big meal** and carries most of the day's calories. Don't overcomplicate breakfast or lunch.
 
 - **Breakfast:** Austin has 2–3 eggs, a piece of toast, maybe leftover protein, and a sauce.
   Cameron has an egg, sourdough toast and half an avocado.
-- **Afternoon holdover (~2–3pm):** leftovers from a recent dinner, or a quick high-protein snack
-  (Greek yogurt, cottage cheese, jerky, a protein shake, hard-boiled eggs). This is the `lunch` slot in
-  `meal_plan.json`; there's no separate prepped lunch.
+- **Lunch (~2–3pm):** simple. 1–2 lunch recipes a week, made in a batch and eaten through the week,
+  with dinner leftovers filling in when there are some.
 - **Dinner:** the main event. Biggest portions, most of the protein.
 
 ### Austin — Per-Meal Targets
@@ -66,20 +65,20 @@ A real breakfast, then nothing until about 2–3pm, when a snack or leftovers ho
 | Meal | Calories | Protein |
 |------|----------|---------|
 | Breakfast | 450–550 cal | 35–45g P (3 eggs + toast + 3–4 oz leftover protein + sauce) |
-| Afternoon holdover | 300–350 cal | 30–40g P |
-| Dinner | 900–1000 cal | 75–85g P |
+| Lunch | 350–450 cal | 35–45g P |
+| Dinner | 850–950 cal | 70–80g P |
 | **Daily total** | **1750–1900 (~1800)** | **150g+** |
 
 **Big workout days** (2 a week, 1000+ cal burned): add 300–400 cal, mostly carbs plus some protein,
-to dinner or as a second holdover. Don't cut on those days; it costs muscle and recovery.
+to dinner or as an afternoon snack. Don't cut on those days; it costs muscle and recovery.
 
 ### Cameron — Per-Meal Targets
 
 | Meal | Calories | Protein |
 |------|----------|---------|
 | Breakfast | 300–375 cal | 15–20g P (egg + sourdough + ½ avocado; a 2nd egg or side of cottage cheese gets her protein there) |
-| Afternoon holdover | 200–250 cal | 20–25g P |
-| Dinner | 650–700 cal | 50–55g P |
+| Lunch | 250–300 cal | 20–25g P |
+| Dinner | 600–650 cal | 50–55g P |
 | **Daily total** | **1200–1300** | **90–100g** |
 
 Cameron's portions are always smaller than Austin's, sized to her targets above. Same dish, smaller plate (or a lighter variant).
@@ -244,8 +243,8 @@ Every knife/sauce/protein/grain item gets a `label`: the deli-container label te
 
 1. **Breakfast is their eggs-and-toast routine.** Don't plan elaborate breakfasts. Give each person's version, plus a weekly
    sauce or leftover protein to rotate onto Austin's eggs. At most one batch breakfast (e.g. egg bites) if prep allows.
-2. **The afternoon holdover is leftovers or a snack, not a prepped lunch.** Cook about 3 dinners a week with one extra
-   portion so there are leftovers for the next day's holdover. Fill the other days with simple high-protein snacks.
+2. **1–2 simple lunches per week.** Batch-made on prep day and eaten through the week (e.g. Mon–Wed one, Thu–Sat
+   another). Keep them easy: a grain bowl, a hearty salad, a soup. Dinner leftovers can stand in when there are some.
 3. **All 7 dinners** — no dinner subscription service. Home-cooked every night, and the biggest meal of the day.
 4. **Batch logic** — the weekend prep session covers Mon–Thu at minimum. Build around it. Prep can be Saturday, Sunday or
    split across both, depending on that weekend's schedule (asked in the intake).
