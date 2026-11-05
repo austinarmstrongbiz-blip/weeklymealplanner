@@ -145,8 +145,412 @@
         "breakfast hash"
       ],
       "notes": "Higher fat, so treat it as a flavor base, not the main protein. 1 lb of sausage stretched with beans or greens feeds four portions. Pair with chicken or turkey to hit protein."
+    },
+    {
+      "id": "frz-sockeye",
+      "name": "Sockeye salmon fillets",
+      "qty": "2 × 5 oz",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand",
+      "thaw": "Overnight in fridge, or 30 min cold-water bath sealed",
+      "good_for": [
+        "miso-glazed salmon",
+        "gochujang salmon bowls",
+        "Cameron dinner portion = 1 fillet"
+      ],
+      "note": "Voice log said \"I think four... two 5 oz servings\". Verify count."
+    },
+    {
+      "id": "frz-tilapia",
+      "name": "Tilapia fillets",
+      "qty": "8 × 4 oz",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand",
+      "thaw": "Thaws in 30 min in cold water",
+      "good_for": [
+        "blackened fish",
+        "fish tacos",
+        "coconut curry poached fish",
+        "crispy tilapia orzo"
+      ],
+      "note": "Biggest protein backlog here. Use 2–3 meals this cycle. 4 oz = Cameron dinner portion; Austin needs 2 fillets."
+    },
+    {
+      "id": "frz-chicken-thighs-bonein",
+      "name": "Bone-in chicken thighs",
+      "qty": "2",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand",
+      "thaw": "24 hr in fridge",
+      "good_for": [
+        "roast or smoke for Cameron (1 thigh ≈ 1 dinner)"
+      ]
+    },
+    {
+      "id": "frz-breakfast-sausage",
+      "name": "Bob Evans breakfast sausage (raw, frozen)",
+      "qty": "1 package (verify size)",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand",
+      "good_for": [
+        "egg bites",
+        "breakfast hash"
+      ]
+    },
+    {
+      "id": "frz-chipotle",
+      "name": "Chipotle peppers in adobo",
+      "qty": "partial can",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand",
+      "good_for": [
+        "chipotle crema",
+        "marinades"
+      ],
+      "note": "Cameron is less into Mexican: use as a smoky heat, not a taco night."
+    },
+    {
+      "id": "frz-edamame",
+      "name": "Edamame (shelled)",
+      "qty": "½ bag",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand",
+      "good_for": [
+        "lunch bowls",
+        "sesame-ginger chicken edamame bowl"
+      ]
+    },
+    {
+      "id": "frz-lima",
+      "name": "Baby lima beans",
+      "qty": "½ bag",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand",
+      "good_for": [
+        "succotash",
+        "soups"
+      ]
+    },
+    {
+      "id": "frz-peas",
+      "name": "Peas",
+      "qty": "¼ bag",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand",
+      "good_for": [
+        "fried rice",
+        "risotto",
+        "pasta"
+      ]
+    },
+    {
+      "id": "frz-corn",
+      "name": "Corn",
+      "qty": "1 bag",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand",
+      "good_for": [
+        "fried rice",
+        "chowder",
+        "salads"
+      ]
+    },
+    {
+      "id": "frz-pepper-blend",
+      "name": "Organic three-pepper blend",
+      "qty": "1 bag",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand",
+      "good_for": [
+        "stir fry",
+        "sheet-pan",
+        "shakshuka",
+        "fajita-style"
+      ],
+      "note": "Can replace fresh bell peppers in cooked dishes, so skip buying peppers for those."
+    },
+    {
+      "id": "frz-veg-assorted",
+      "name": "Assorted frozen veggies",
+      "qty": "various",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand",
+      "note": "List them next time you open the freezer."
     }
   ],
-  "fridge": [],
-  "pantry_extras": []
+  "fridge": [
+    {
+      "id": "fr-cooked-bfast-sausage",
+      "name": "Breakfast sausage, already cooked",
+      "qty": "~1 lb",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand",
+      "cooked": "2026-11-03",
+      "use_by": "2026-11-07",
+      "note": "Cooked sausage keeps 3–4 days. Eat by Sat Nov 7 or FREEZE NOW (it freezes fine for egg bites later)."
+    },
+    {
+      "id": "fr-bacon",
+      "name": "Bacon",
+      "qty": "some (verify)",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand",
+      "note": "Voice log didn't say fridge or freezer. Verify."
+    },
+    {
+      "id": "fr-dates",
+      "name": "Medjool dates",
+      "qty": "partial bag",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand"
+    },
+    {
+      "id": "fr-feta",
+      "name": "Feta",
+      "qty": "a lot",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand",
+      "good_for": [
+        "Greek/Mediterranean weeknights for Cameron",
+        "frittata cups",
+        "salads"
+      ]
+    },
+    {
+      "id": "fr-cheddar",
+      "name": "Cheddar",
+      "qty": "1 large block",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand"
+    },
+    {
+      "id": "fr-parsley",
+      "name": "Parsley",
+      "qty": "1 bunch",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand",
+      "use_window": "early",
+      "good_for": [
+        "chimichurri",
+        "herb yogurt"
+      ]
+    },
+    {
+      "id": "fr-chives",
+      "name": "Chives",
+      "qty": "1 pack",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand",
+      "use_window": "early"
+    },
+    {
+      "id": "fr-scallions",
+      "name": "Green onions",
+      "qty": "1 bunch (questionable)",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand",
+      "use_window": "early",
+      "note": "Check before Sunday; regrow in a glass of water if roots are good."
+    },
+    {
+      "id": "fr-arugula",
+      "name": "Baby arugula",
+      "qty": "1 full container",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand",
+      "use_window": "early",
+      "note": "Use by about Tue/Wed."
+    },
+    {
+      "id": "fr-miso",
+      "name": "White miso",
+      "qty": "partial tub",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand",
+      "keeps": "months"
+    },
+    {
+      "id": "fr-gnocchi",
+      "name": "Potato gnocchi",
+      "qty": "1 package",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand",
+      "good_for": [
+        "sheet-pan gnocchi",
+        "gnocchi soup"
+      ]
+    },
+    {
+      "id": "fr-tahini",
+      "name": "Tahini",
+      "qty": "jar",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand"
+    }
+  ],
+  "pantry_extras": [
+    {
+      "id": "pa-tuna",
+      "name": "Wild tuna, canned",
+      "qty": "5 cans",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand",
+      "good_for": [
+        "tuna salad lunches",
+        "Mediterranean tuna white bean salad",
+        "poke-style rice bowl"
+      ]
+    },
+    {
+      "id": "pa-artichoke",
+      "name": "Artichoke hearts",
+      "qty": "1 jar/can",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand"
+    },
+    {
+      "id": "pa-almonds",
+      "name": "Almonds",
+      "qty": "some",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand"
+    },
+    {
+      "id": "pa-cashews",
+      "name": "Whole cashews",
+      "qty": "some",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand",
+      "good_for": [
+        "cashew chicken",
+        "crunch topping"
+      ]
+    },
+    {
+      "id": "pa-oats",
+      "name": "Old-fashioned rolled oats",
+      "qty": "some",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand"
+    },
+    {
+      "id": "pa-kodiak-oats",
+      "name": "Kodiak protein oats",
+      "qty": "some",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand",
+      "good_for": [
+        "Cameron high-protein breakfast"
+      ]
+    },
+    {
+      "id": "pa-granola",
+      "name": "Honey granola",
+      "qty": "lots",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand"
+    },
+    {
+      "id": "pa-corn-tortillas",
+      "name": "Corn tortillas",
+      "qty": "1 pack",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand"
+    },
+    {
+      "id": "pa-rice-ramen",
+      "name": "Rice ramen noodles",
+      "qty": "1 serving",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand"
+    },
+    {
+      "id": "pa-soba",
+      "name": "Organic soba noodles",
+      "qty": "1 serving",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand"
+    },
+    {
+      "id": "pa-quinoa",
+      "name": "White quinoa",
+      "qty": "2–3 servings",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand"
+    },
+    {
+      "id": "pa-protein-pasta",
+      "name": "Protein pasta, fusilli",
+      "qty": "1 box (brand unclear: voice log said \"Brahmi\", maybe Banza or Barilla Protein+)",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand"
+    },
+    {
+      "id": "pa-acini",
+      "name": "De Cecco acini di pepe",
+      "qty": "1 box (verify)",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand"
+    },
+    {
+      "id": "pa-ditalini",
+      "name": "Ditalini (voice log said \"Detali\"; verify)",
+      "qty": "1 box",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand"
+    },
+    {
+      "id": "pa-sushi-rice",
+      "name": "Sushi rice",
+      "qty": "some",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand"
+    },
+    {
+      "id": "pa-arborio",
+      "name": "Arborio rice",
+      "qty": "a lot",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand",
+      "good_for": [
+        "risotto (miso-mushroom, lemon pea)",
+        "arancini"
+      ]
+    },
+    {
+      "id": "pa-hot-pasta-sauce",
+      "name": "Spicy Italian pasta sauce (homemade-style jar)",
+      "qty": "1 large jar",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand"
+    },
+    {
+      "id": "pa-sweet-peas-can",
+      "name": "Sweet peas, canned",
+      "qty": "1 can",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand"
+    },
+    {
+      "id": "pa-black-beans",
+      "name": "Black beans",
+      "qty": "1 can",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand"
+    },
+    {
+      "id": "pa-cannellini",
+      "name": "Cannellini beans",
+      "qty": "2 cans",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand"
+    },
+    {
+      "id": "pa-baked-beans",
+      "name": "Baked beans",
+      "qty": "1 can",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand"
+    }
+  ]
 }
