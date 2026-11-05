@@ -27869,19 +27869,20 @@
         "grab-and-go",
         "high-protein",
         "meal-prep",
-        "no-cook"
+        "no-cook",
+        "portioned-2026-11-05-targets"
       ],
       "equipment": "4 lidded jars",
       "macro_strings": {
-        "austin": "590 cal | 45g P | 14g F | 74g C",
+        "austin": "520 cal | 42g P | 12g F | 64g C",
         "cameron": "300 cal | 25g P | 6g F | 38g C"
       },
       "macros": {
         "austin": {
-          "cal": 590,
-          "p": 45,
-          "f": 14,
-          "c": 74
+          "cal": 520,
+          "p": 42,
+          "f": 12,
+          "c": 64
         },
         "cameron": {
           "cal": 300,
@@ -28032,25 +28033,26 @@
         "high-protein",
         "meal-prep",
         "no-cook",
-        "pantry"
+        "pantry",
+        "portioned-2026-11-05-targets"
       ],
       "equipment": "Bowl, 4 deli containers",
       "macro_strings": {
-        "austin": "665 cal | 56g P | 26g F | 48g C",
-        "cameron": "395 cal | 36g P | 13g F | 30g C"
+        "austin": "440 cal | 45g P | 17g F | 26g C",
+        "cameron": "285 cal | 30g P | 9g F | 18g C"
       },
       "macros": {
         "austin": {
-          "cal": 665,
-          "p": 56,
-          "f": 26,
-          "c": 48
+          "cal": 440,
+          "p": 45,
+          "f": 17,
+          "c": 26
         },
         "cameron": {
-          "cal": 395,
-          "p": 36,
-          "f": 13,
-          "c": 30
+          "cal": 285,
+          "p": 30,
+          "f": 9,
+          "c": 18
         }
       },
       "ingredients": [
@@ -28114,7 +28116,7 @@
         "Each lunch: open a can of tuna, drain, and stir it into a container of base. Eat over arugula with crackers on the side."
       ],
       "batch_note": "The base keeps 4 days. Stirring the tuna in each day keeps it fresh and makes the lunch grab-and-go. No spice.",
-      "cameron_note": "Cameron: 1 can tuna, \u00bc of the base, 5 crackers. Austin: 1\u00bd cans tuna, a bigger scoop of base, 8 crackers, chili crisp if he wants heat."
+      "cameron_note": "Lunch size: 1 can tuna, a small scoop (~\u00bd cup) of base, 4 crackers. Austin: 1\u00bd cans, \u00be cup base, 6 crackers."
     },
     {
       "id": "greek-chicken-orzo-salad",
@@ -28445,25 +28447,26 @@
         "high-protein",
         "omega-3",
         "quick",
-        "sheet-pan"
+        "sheet-pan",
+        "portioned-2026-11-05-targets"
       ],
       "equipment": "Breville or oven at 425\u00b0F, small sheet pan",
       "macro_strings": {
-        "austin": "760 cal | 62g P | 34g F | 46g C",
-        "cameron": "440 cal | 40g P | 17g F | 30g C"
+        "austin": "900 cal | 72g P | 40g F | 60g C",
+        "cameron": "640 cal | 53g P | 28g F | 40g C"
       },
       "macros": {
         "austin": {
-          "cal": 760,
-          "p": 62,
-          "f": 34,
-          "c": 46
+          "cal": 900,
+          "p": 72,
+          "f": 40,
+          "c": 60
         },
         "cameron": {
-          "cal": 440,
-          "p": 40,
-          "f": 17,
-          "c": 30
+          "cal": 640,
+          "p": 53,
+          "f": 28,
+          "c": 40
         }
       },
       "ingredients": [
@@ -28515,7 +28518,7 @@
         "Crumble feta over everything, squeeze lemon, and serve with a spoon of herb yogurt."
       ],
       "batch_note": "Weeknight-fast: 5 minutes hands-on. Thaw the salmon in the fridge overnight Monday.",
-      "cameron_note": "Cameron: one 5 oz fillet, 5 oz potatoes, \u00bd oz feta."
+      "cameron_note": "Dinner size: 5 oz salmon + \u00bd cup cannellini roasted in the pan, 5 oz potatoes, 1 oz feta, \u00bc cup herb yogurt."
     },
     {
       "id": "miso-butter-salmon-rice-cucumber",
@@ -28535,25 +28538,26 @@
         "fall-2026",
         "high-protein",
         "omega-3",
-        "quick"
+        "quick",
+        "portioned-2026-11-05-targets"
       ],
       "equipment": "Air fryer, small bowl",
       "macro_strings": {
-        "austin": "760 cal | 62g P | 26g F | 72g C",
-        "cameron": "495 cal | 41g P | 14g F | 50g C"
+        "austin": "900 cal | 70g P | 32g F | 82g C",
+        "cameron": "620 cal | 51g P | 20g F | 58g C"
       },
       "macros": {
         "austin": {
-          "cal": 760,
-          "p": 62,
-          "f": 26,
-          "c": 72
+          "cal": 900,
+          "p": 70,
+          "f": 32,
+          "c": 82
         },
         "cameron": {
-          "cal": 495,
-          "p": 41,
-          "f": 14,
-          "c": 50
+          "cal": 620,
+          "p": 51,
+          "f": 20,
+          "c": 58
         }
       },
       "ingredients": [
@@ -28601,7 +28605,7 @@
         "Bowl it up and finish with sesame seeds and scallion."
       ],
       "batch_note": "The miso-butter can be mashed Sunday and kept in a small container. Rice is from Sunday's rice cooker batch (day 4).",
-      "cameron_note": "Cameron: one 5 oz fillet, \u2154 cup rice, \u00bc cup edamame."
+      "cameron_note": "Dinner size: 5 oz salmon, \u00be cup rice, \u00bd cup edamame, a jammy egg, sesame cucumbers."
     },
     {
       "id": "flat-iron-chimichurri-smashed-potatoes",
@@ -28621,25 +28625,26 @@
         "date-night",
         "fall",
         "fall-2026",
-        "high-protein"
+        "high-protein",
+        "portioned-2026-11-05-targets"
       ],
       "equipment": "Cast iron or Loco flat-top, pot, sheet pan",
       "macro_strings": {
-        "austin": "765 cal | 68g P | 40g F | 30g C",
-        "cameron": "465 cal | 38g P | 26g F | 18g C"
+        "austin": "900 cal | 72g P | 48g F | 40g C",
+        "cameron": "620 cal | 52g P | 32g F | 28g C"
       },
       "macros": {
         "austin": {
-          "cal": 765,
-          "p": 68,
-          "f": 40,
-          "c": 30
+          "cal": 900,
+          "p": 72,
+          "f": 48,
+          "c": 40
         },
         "cameron": {
-          "cal": 465,
-          "p": 38,
-          "f": 26,
-          "c": 18
+          "cal": 620,
+          "p": 52,
+          "f": 32,
+          "c": 28
         }
       },
       "ingredients": [
@@ -28676,10 +28681,11 @@
         "Boil the potatoes in salted water 15 minutes until tender. Drain, smash flat on an oiled sheet pan, brush with oil, salt, and roast at 450\u00b0F for 20 minutes until crisp.",
         "Pat the steaks dry and salt them 30+ minutes ahead (or the night before).",
         "Sear in a ripping-hot cast iron or on the Loco, 3\u20134 minutes per side to 130\u00b0F (medium-rare). Rest 5 minutes.",
-        "Slice against the grain. Spoon chimichurri over it. Serve with the potatoes and lemony arugula."
+        "Slice against the grain. Spoon chimichurri over it. Serve with the potatoes and lemony arugula.",
+        "Smoker option (reverse sear): smoke at 225\u00b0F to 115\u00b0F inside (about 45 min), then sear 60\u201390 seconds a side on a ripping-hot cast iron or the Loco."
       ],
       "batch_note": "The 4th flat iron stays in the freezer for week 2.",
-      "cameron_note": "Cameron: 1 steak (6 oz raw), 3 oz potatoes, 1 tbsp chimichurri, arugula with \u00bd oz feta."
+      "cameron_note": "Dinner size: 9 oz raw flat iron (1\u00bd steaks), 4 oz potatoes, 1 tbsp chimichurri, arugula with \u00bd oz feta. Austin: 12 oz raw (2 steaks)."
     },
     {
       "id": "smoked-wings-two-ways-sesame-slaw",
@@ -28942,6 +28948,89 @@
       },
       "retired": false,
       "added_date": "2026-11-05"
+    },
+    {
+      "id": "house-breakfast-eggs-sourdough-leftover-protein",
+      "name": "House Breakfast: Eggs, Sourdough, Leftover Protein & Sauce",
+      "cuisine": "American",
+      "meal_type": "breakfast",
+      "added_date": "2026-11-05",
+      "source_account": "Above Kitch (Claude)",
+      "prep": "2 min",
+      "cook": "8 min",
+      "total": "10 min",
+      "spice_level": "None (Austin adds hot sauce)",
+      "tags": [
+        "breakfast",
+        "eggs",
+        "high-protein",
+        "leftovers",
+        "house-style",
+        "claude-built",
+        "fall-2026",
+        "portioned-2026-11-05-targets"
+      ],
+      "equipment": "Nonstick or cast-iron skillet, toaster",
+      "macro_strings": {
+        "austin": "520 cal | 44g P | 26g F | 26g C",
+        "cameron": "355 cal | 18g P | 22g F | 24g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 520,
+          "p": 44,
+          "f": 26,
+          "c": 26
+        },
+        "cameron": {
+          "cal": 355,
+          "p": 18,
+          "f": 22,
+          "c": 24
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Eggs",
+          "qty": "Austin 3 \u00b7 Cameron 1"
+        },
+        {
+          "name": "Sourdough",
+          "qty": "1 slice each, toasted"
+        },
+        {
+          "name": "Leftover protein (steak, chicken, kofta, salmon)",
+          "qty": "Austin 3 oz \u00b7 Cameron optional"
+        },
+        {
+          "name": "Avocado",
+          "qty": "\u00bd for Cameron ONLY (Austin is allergic)"
+        },
+        {
+          "name": "Cottage cheese",
+          "qty": "\u00bc cup for Cameron"
+        },
+        {
+          "name": "Sauce: chimichurri, herb yogurt, pickled red onion or hot sauce",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Butter or olive oil",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Flaky salt + pepper",
+          "qty": ""
+        }
+      ],
+      "instructions": [
+        "Toast the sourdough.",
+        "Fry or soft-scramble the eggs in the butter or oil, 3\u20134 minutes.",
+        "Warm the leftover protein in the same pan, 1\u20132 minutes.",
+        "Austin: eggs and protein over toast, then sauce and hot sauce. Cameron: egg on toast with \u00bd avocado, cottage cheese on the side, a spoon of whatever sauce is in the fridge."
+      ],
+      "batch_note": "No batching: this is the everyday breakfast. It uses up the week's sauces and the last few ounces of dinner protein. Never avocado on Austin's plate.",
+      "cameron_note": "1 egg, 1 slice sourdough, \u00bd avocado, \u00bc cup cottage cheese (~355 cal, 18g P)."
     }
   ]
 }

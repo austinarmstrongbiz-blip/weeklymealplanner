@@ -1818,8 +1818,8 @@ function renderDay() {
   const camCal  = document.getElementById('camTotal');
   const camProt = document.getElementById('camProt');
 
-  const calOK  = c => c >= 1750 && c <= 1850;
-  const protOK = p => p >= 145;
+  const calOK  = c => c >= 1750 && c <= 1900;
+  const protOK = p => p >= 150;
   ausCal.textContent  = at.cal ? `${at.cal} cal` : '—';
   ausProt.textContent = at.p   ? `${at.p}g P`   : '—';
   camCal.textContent  = ct.cal ? `${ct.cal} cal` : '—';

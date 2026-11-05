@@ -2,92 +2,87 @@
   "week_date": "2026-11-08",
   "week_start": "November 8",
   "week_end": "November 14, 2026",
-  "note": "Week 1 of the Nov 8–21 cycle. Week 2 items get added when the Nov 15 plan is built.",
+  "note": "Week 1 of the Nov 8–21 cycle. Items marked Mid-cycle buy get picked up Friday when Austin is back. Week 2 items are added with the Nov 15 plan.",
   "skipped_on_hand": [
-    "Salmon ×2",
+    "Sockeye salmon ×2",
     "Tuna (5 cans)",
     "Feta",
-    "Cheddar",
-    "Cannellini",
-    "Artichoke hearts",
     "Kodiak oats",
     "Medjool dates",
+    "Cannellini",
+    "Artichoke hearts",
     "Arugula",
     "Edamame",
-    "Frozen pepper blend",
-    "Frozen peas",
-    "Breakfast sausage",
     "Miso",
-    "1 bunch parsley",
-    "Chives",
-    "ButcherBox sirloin, flat iron, wings"
+    "Cashews",
+    "Parmesan (check)",
+    "ButcherBox Italian sausage + flat irons",
+    "Parsley (1 bunch)",
+    "Jasmine rice",
+    "Chicken broth / bouillon",
+    "Fish sauce, soy, brown sugar",
+    "Thai red curry paste (Mekhala, bought Oct 17)"
   ],
   "categories": {
     "Produce": [
       {
-        "name": "English cucumbers",
+        "name": "Cucumbers (English or Persian)",
         "qty": "3",
-        "for": "Tuna base, kofta salad, orzo salad, Wed salmon",
+        "for": "Satay salad, tuna base, Wed salmon",
         "use_window": "early"
       },
       {
-        "name": "Cherry tomatoes",
-        "qty": "1 pint",
-        "for": "Kofta salad, Greek salmon",
-        "use_window": "early"
-      },
-      {
-        "name": "Parsley",
-        "qty": "1 bunch (1 on hand)",
-        "for": "Kofta, tuna base, chimichurri",
-        "use_window": "early"
-      },
-      {
-        "name": "Dill",
+        "name": "Cilantro",
         "qty": "1 bunch",
-        "for": "Herb yogurt, orzo salad",
+        "for": "Satay salad, nuoc cham",
         "use_window": "early"
       },
       {
         "name": "Scallions",
         "qty": "1 bunch",
-        "for": "Miso salmon, slaw",
+        "for": "Satay, miso salmon",
+        "use_window": "early"
+      },
+      {
+        "name": "Curly kale",
+        "qty": "1 bunch",
+        "for": "Zuppa",
+        "use_window": "early"
+      },
+      {
+        "name": "Cherry tomatoes",
+        "qty": "1 pint",
+        "for": "Greek salmon",
+        "use_window": "early"
+      },
+      {
+        "name": "Avocados",
+        "qty": "2 (firm)",
+        "for": "Cameron breakfasts ONLY",
+        "use_window": "mid"
+      },
+      {
+        "name": "Limes",
+        "qty": "4",
+        "for": "Nuoc cham, satay glaze",
         "use_window": "mid"
       },
       {
         "name": "Lemons",
-        "qty": "6",
-        "for": "Everything",
+        "qty": "4",
+        "for": "Tuna base, salmon, chimichurri",
+        "use_window": "late"
+      },
+      {
+        "name": "Shallots",
+        "qty": "3",
+        "for": "Zuppa, chimichurri, béchamel",
         "use_window": "late"
       },
       {
         "name": "Red onions",
-        "qty": "3",
-        "for": "Pickles, salmon",
-        "use_window": "late"
-      },
-      {
-        "name": "Yellow onions",
         "qty": "2",
-        "for": "Kofta, curry",
-        "use_window": "late"
-      },
-      {
-        "name": "Baby potatoes",
-        "qty": "2 lb",
-        "for": "Curry, Tue salmon, Fri steak",
-        "use_window": "late"
-      },
-      {
-        "name": "Carrots",
-        "qty": "1 lb",
-        "for": "Curry, slaw",
-        "use_window": "late"
-      },
-      {
-        "name": "Green cabbage",
-        "qty": "1 small",
-        "for": "Sat slaw (+ week 2)",
+        "for": "Pickles, Tue salmon",
         "use_window": "late"
       },
       {
@@ -95,52 +90,77 @@
         "qty": "2 heads",
         "for": "Everything",
         "use_window": "late"
+      },
+      {
+        "name": "Yukon gold potatoes",
+        "qty": "3 lb",
+        "for": "Zuppa, Tue salmon, Fri, Sat",
+        "use_window": "late"
+      },
+      {
+        "name": "Curly kale (Friday)",
+        "qty": "1 bunch",
+        "for": "Gruyère chicken",
+        "use_window": "early",
+        "buy": "midcycle"
       }
     ],
     "Proteins": [
       {
-        "name": "Boneless skinless chicken thighs",
-        "qty": "1½ lb",
-        "for": "Curry (Sun)"
-      },
-      {
-        "name": "Chicken breast",
-        "qty": "2 lb",
-        "for": "Orzo salad (freeze on arrival)"
-      },
-      {
-        "name": "Wild tuna, 5 oz cans",
+        "name": "Rotisserie chickens",
         "qty": "2",
-        "for": "Top-up: 5 on hand, need ~6½"
+        "for": "Satay (Sun/Thu) + zuppa chicken"
+      },
+      {
+        "name": "Wild tuna, 5 oz can",
+        "qty": "1",
+        "for": "Top-up (5 on hand, need 6)"
+      },
+      {
+        "name": "Boneless skinless chicken breast",
+        "qty": "1¼ lb",
+        "for": "Gruyère chicken (Fri)",
+        "buy": "midcycle"
       }
     ],
     "Dairy & Eggs": [
       {
-        "name": "Plain nonfat Greek yogurt",
-        "qty": "3 × 32 oz",
-        "for": "Oats, egg-bite breakfasts, herb yogurt"
-      },
-      {
         "name": "Eggs",
-        "qty": "1 dozen",
-        "for": "Egg bites"
+        "qty": "1½ dozen",
+        "for": "Breakfasts, jammy eggs"
       },
       {
-        "name": "Liquid egg whites",
+        "name": "Plain nonfat Greek yogurt",
+        "qty": "32 oz",
+        "for": "Overnight oats, herb yogurt"
+      },
+      {
+        "name": "Cottage cheese",
         "qty": "16 oz",
-        "for": "Egg bites"
+        "for": "Cameron breakfasts"
+      },
+      {
+        "name": "Heavy cream",
+        "qty": "1 cup",
+        "for": "Zuppa"
       },
       {
         "name": "Milk",
         "qty": "1 qt (skip if stocked)",
-        "for": "Oats"
+        "for": "Oats, béchamel"
+      },
+      {
+        "name": "Gruyère",
+        "qty": "4 oz",
+        "for": "Gruyère chicken (Fri)",
+        "buy": "midcycle"
       }
     ],
     "Grains & Dry Goods": [
       {
-        "name": "Pita",
-        "qty": "1 pack",
-        "for": "Kofta (Sun + Thu)"
+        "name": "Sourdough loaf",
+        "qty": "1",
+        "for": "Breakfasts"
       },
       {
         "name": "Whole-grain crackers (Triscuit or similar)",
@@ -148,17 +168,28 @@
         "for": "Cameron tuna lunches"
       }
     ],
-    "Canned & Jarred": [],
-    "Pantry / Other": [
+    "Canned & Jarred": [
       {
-        "name": "Japanese curry roux, MILD (Golden Curry Mild)",
-        "qty": "1 box",
-        "for": "Curry (½ box; rest keeps for week 2)"
+        "name": "Coconut milk, full-fat",
+        "qty": "2 cans",
+        "for": "Coconut rice, satay glaze"
       },
       {
-        "name": "Baking powder, aluminum-free",
+        "name": "Chicken stock",
+        "qty": "2 × 32 oz",
+        "for": "Zuppa"
+      }
+    ],
+    "Pantry / Other": [
+      {
+        "name": "Salted peanut butter",
         "qty": "check stock",
-        "for": "Crispy wings"
+        "for": "Satay glaze"
+      },
+      {
+        "name": "Dry white wine",
+        "qty": "small bottle (optional)",
+        "for": "Gruyère chicken (Fri)"
       }
     ]
   }

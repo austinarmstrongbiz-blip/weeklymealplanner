@@ -37,7 +37,7 @@
         "stuffed peppers",
         "Korean beef bowls"
       ],
-      "reserved_for": "Nov 8 plan: all 2 lb → kofta (Sun + Thu; 2 portions to freezer)"
+      "reserved_for": "Week 2 (Nov 15): kofta"
     },
     {
       "id": "bb-flat-iron",
@@ -60,7 +60,7 @@
         "sliced steak grain bowls"
       ],
       "notes": "Cook hot and fast to medium-rare, rest, and slice against the grain. A 6 oz steak is exactly one Cameron dinner portion with leftovers for lunch, or half an Austin portion.",
-      "reserved_for": "Nov 8 plan: 3 of 4 → Fri steak night; 1 stays for week 2"
+      "reserved_for": "Nov 8 plan: 3½ steaks → Sat smoker steak night + Sun breakfast leftovers"
     },
     {
       "id": "bb-ribeye",
@@ -125,7 +125,7 @@
         "wing stock from the tips"
       ],
       "notes": "Low protein per calorie (lots of bone and skin). Use as a fun dinner paired with a big high-protein side, or as a game-day meal. Save the tips in a freezer bag for stock.",
-      "reserved_for": "Nov 8 plan: all ~3 lb → Sat smoked wings"
+      "reserved_for": "Week 2 (Nov 15) or game day"
     },
     {
       "id": "bb-italian-sausage",
@@ -147,7 +147,8 @@
         "sausage ragu",
         "breakfast hash"
       ],
-      "notes": "Higher fat, so treat it as a flavor base, not the main protein. 1 lb of sausage stretched with beans or greens feeds four portions. Pair with chicken or turkey to hit protein."
+      "notes": "Higher fat, so treat it as a flavor base, not the main protein. 1 lb of sausage stretched with beans or greens feeds four portions. Pair with chicken or turkey to hit protein.",
+      "reserved_for": "Nov 8 plan: 1 lb → zuppa (Sun); 1 lb left for week 2"
     },
     {
       "id": "frz-sockeye",
@@ -176,7 +177,8 @@
         "coconut curry poached fish",
         "crispy tilapia orzo"
       ],
-      "note": "Biggest protein backlog here. Use 2–3 meals this cycle. 4 oz = Cameron dinner portion; Austin needs 2 fillets."
+      "note": "Biggest protein backlog here. Use 2–3 meals this cycle. 4 oz = Cameron dinner portion; Austin needs 2 fillets.",
+      "reserved_for": "Week 2+ (Cameron dinners)"
     },
     {
       "id": "frz-chicken-thighs-bonein",
@@ -198,8 +200,7 @@
       "good_for": [
         "egg bites",
         "breakfast hash"
-      ],
-      "reserved_for": "Nov 8 plan: egg bites (Sun)"
+      ]
     },
     {
       "id": "frz-chipotle",
@@ -223,7 +224,7 @@
         "lunch bowls",
         "sesame-ginger chicken edamame bowl"
       ],
-      "reserved_for": "Nov 8 plan: Wed salmon + Sat slaw"
+      "reserved_for": "Nov 8 plan: satay salad + Wed salmon"
     },
     {
       "id": "frz-lima",
@@ -246,8 +247,7 @@
         "fried rice",
         "risotto",
         "pasta"
-      ],
-      "reserved_for": "Nov 8 plan: curry"
+      ]
     },
     {
       "id": "frz-corn",
@@ -273,8 +273,7 @@
         "shakshuka",
         "fajita-style"
       ],
-      "note": "Can replace fresh bell peppers in cooked dishes, so skip buying peppers for those.",
-      "reserved_for": "Nov 8 plan: egg bites (1½ cups)"
+      "note": "Can replace fresh bell peppers in cooked dishes, so skip buying peppers for those."
     },
     {
       "id": "frz-veg-assorted",
@@ -302,7 +301,8 @@
       "status": "on_hand",
       "cooked": "2026-11-03",
       "use_by": "2026-11-07",
-      "note": "Cooked sausage keeps 3–4 days. Eat by Sat Nov 7 or FREEZE NOW (it freezes fine for egg bites later)."
+      "note": "Cooked sausage keeps 3–4 days. Eat by Sat Nov 7 or FREEZE NOW (it freezes fine for egg bites later).",
+      "reserved_for": "Eat by Sat Nov 7 or freeze now: not in the Nov 8 plan"
     },
     {
       "id": "fr-dates",
@@ -323,15 +323,14 @@
         "frittata cups",
         "salads"
       ],
-      "reserved_for": "Nov 8 plan: tuna base, kofta, salmon, orzo salad, steak"
+      "reserved_for": "Nov 8 plan: tuna base, Greek salmon, steak night"
     },
     {
       "id": "fr-cheddar",
       "name": "Cheddar",
       "qty": "1 large block",
       "source": "voice pantry log 2026-11-05",
-      "status": "on_hand",
-      "reserved_for": "Nov 8 plan: egg bites"
+      "status": "on_hand"
     },
     {
       "id": "fr-parsley",
@@ -344,7 +343,7 @@
         "chimichurri",
         "herb yogurt"
       ],
-      "reserved_for": "Nov 8 plan: herbs (1 more bought)"
+      "reserved_for": "Nov 8 plan: chimichurri, tuna base"
     },
     {
       "id": "fr-chives",
@@ -371,7 +370,7 @@
       "status": "on_hand",
       "use_window": "early",
       "note": "Use by about Tue/Wed.",
-      "reserved_for": "Nov 8 plan: tuna lunches, steak, orzo salad"
+      "reserved_for": "Nov 8 plan: steak night + tuna lunches"
     },
     {
       "id": "fr-miso",
@@ -413,7 +412,7 @@
         "Mediterranean tuna white bean salad",
         "poke-style rice bowl"
       ],
-      "reserved_for": "Nov 8 plan: ~5 cans → tuna lunches Sun–Wed (2 more bought)"
+      "reserved_for": "Nov 8 plan: 5 cans → tuna lunches Sun–Wed (+1 bought)"
     },
     {
       "id": "pa-artichoke",
@@ -439,7 +438,8 @@
       "good_for": [
         "cashew chicken",
         "crunch topping"
-      ]
+      ],
+      "reserved_for": "Nov 8 plan: satay crunch"
     },
     {
       "id": "pa-oats",
@@ -560,7 +560,7 @@
       "qty": "2 cans",
       "source": "voice pantry log 2026-11-05",
       "status": "on_hand",
-      "reserved_for": "Nov 8 plan: 1 can → tuna base"
+      "reserved_for": "Nov 8 plan: tuna base + Tue salmon (both cans)"
     },
     {
       "id": "pa-baked-beans",
