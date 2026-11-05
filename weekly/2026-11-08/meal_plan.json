@@ -104,14 +104,14 @@
       "day": "Monday",
       "cuisine": "Italian",
       "breakfast": {
-        "recipe_id": "kodiak-date-overnight-oats",
+        "recipe_id": "freezer-breakfast-burritos-sausage-egg-cheddar",
         "cameron": {
-          "cal": 300,
-          "p": 25,
-          "f": 6,
-          "c": 38
+          "cal": 365,
+          "p": 22,
+          "f": 22,
+          "c": 20
         },
-        "cameron_note": "One jar, grab and go."
+        "cameron_note": "One burrito from the freezer: 375°F in foil, 25–30 min (12–15 min if moved to the fridge last night)."
       },
       "lunch": {
         "recipe_id": "mediterranean-tuna-white-bean-crackers",
@@ -135,22 +135,22 @@
       },
       "note": "Austin away Mon–Thu. Cameron: reheat zuppa 5 min. If she eats out, the bowl goes in the freezer.",
       "cameron_total": {
-        "cal": 1225,
-        "p": 110
+        "cal": 1290,
+        "p": 107
       }
     },
     {
       "day": "Tuesday",
       "cuisine": "Greek",
       "breakfast": {
-        "recipe_id": "kodiak-date-overnight-oats",
+        "recipe_id": "freezer-breakfast-burritos-sausage-egg-cheddar",
         "cameron": {
-          "cal": 300,
-          "p": 25,
-          "f": 6,
-          "c": 38
+          "cal": 365,
+          "p": 22,
+          "f": 22,
+          "c": 20
         },
-        "cameron_note": "One jar, grab and go."
+        "cameron_note": "One burrito from the freezer: 375°F in foil, 25–30 min (12–15 min if moved to the fridge last night)."
       },
       "lunch": {
         "recipe_id": "mediterranean-tuna-white-bean-crackers",
@@ -174,22 +174,22 @@
       },
       "note": "Cameron: one sheet pan, 5 min hands-on.",
       "cameron_total": {
-        "cal": 1225,
-        "p": 108
+        "cal": 1290,
+        "p": 105
       }
     },
     {
       "day": "Wednesday",
       "cuisine": "Japanese",
       "breakfast": {
-        "recipe_id": "kodiak-date-overnight-oats",
+        "recipe_id": "freezer-breakfast-burritos-sausage-egg-cheddar",
         "cameron": {
-          "cal": 300,
-          "p": 25,
-          "f": 6,
-          "c": 38
+          "cal": 365,
+          "p": 22,
+          "f": 22,
+          "c": 20
         },
-        "cameron_note": "One jar, grab and go."
+        "cameron_note": "One burrito from the freezer: 375°F in foil, 25–30 min (12–15 min if moved to the fridge last night)."
       },
       "lunch": {
         "recipe_id": "mediterranean-tuna-white-bean-crackers",
@@ -213,22 +213,22 @@
       },
       "note": "Cameron: 15 min. Tonight: pull the zuppa lunch cups for Thu–Sat.",
       "cameron_total": {
-        "cal": 1205,
-        "p": 106
+        "cal": 1270,
+        "p": 103
       }
     },
     {
       "day": "Thursday",
       "cuisine": "Thai",
       "breakfast": {
-        "recipe_id": "kodiak-date-overnight-oats",
+        "recipe_id": "freezer-breakfast-burritos-sausage-egg-cheddar",
         "cameron": {
-          "cal": 300,
-          "p": 25,
-          "f": 6,
-          "c": 38
+          "cal": 365,
+          "p": 22,
+          "f": 22,
+          "c": 20
         },
-        "cameron_note": "One jar, grab and go."
+        "cameron_note": "One burrito from the freezer: 375°F in foil, 25–30 min (12–15 min if moved to the fridge last night)."
       },
       "lunch": {
         "recipe_id": "zuppa-toscana-soup-rd136",
@@ -252,8 +252,8 @@
       },
       "note": "Cameron: reheat Sunday's satay portion. Flex night: if she eats out, it becomes Friday's lunch. Pull the flat irons tonight.",
       "cameron_total": {
-        "cal": 1215,
-        "p": 107
+        "cal": 1280,
+        "p": 104
       }
     },
     {
@@ -380,7 +380,7 @@
     }
   ],
   "prep": {
-    "cycle_note": "Cycle Nov 8 → 21, week 1 of 2. Sunday (~2h hands-on) builds the components behind Cameron's whole solo week: grab-and-go oats, tuna lunch kits, a pot of zuppa, satay leftovers and two quick salmon nights. Freezer bank after this week: 1 zuppa bowl, ½ chimichurri, plus untouched ButcherBox sirloin, wings, ribeye, steak strips and 1 lb sausage for week 2.",
+    "cycle_note": "Cycle Nov 8 → 21, week 1 of 2. Sunday (~2h hands-on) builds the components behind Cameron's whole solo week: freezer breakfast burritos, tuna lunch kits, a pot of zuppa, satay leftovers and two quick salmon nights. Freezer bank after this week: 6 breakfast burritos, 1 zuppa bowl, ½ chimichurri, plus untouched ButcherBox sirloin, wings, ribeye, steak strips and 1 lb sausage for week 2.",
     "phases": [
       {
         "key": "thaw",
@@ -397,6 +397,17 @@
               }
             ],
             "why": "If the ButcherBox hasn't arrived, buy 1 lb mild Italian sausage."
+          },
+          {
+            "id": "thaw-bsausage",
+            "name": "Frozen breakfast sausage (1 lb) → fridge",
+            "when": "Fri night",
+            "feeds": [
+              {
+                "recipe_id": "freezer-breakfast-burritos-sausage-egg-cheddar",
+                "when": "Cameron breakfast Mon–Thu"
+              }
+            ]
           },
           {
             "id": "thaw-salmon1",
@@ -447,6 +458,54 @@
               {
                 "recipe_id": "house-breakfast-eggs-sourdough-leftover-protein",
                 "when": "Sun breakfast leftovers"
+              }
+            ]
+          },
+          {
+            "id": "thaw-burrito-mon",
+            "name": "Optional: move Mon's burrito to the fridge (cuts reheat to 12–15 min)",
+            "day": "Sunday",
+            "time": "10 sec",
+            "feeds": [
+              {
+                "recipe_id": "freezer-breakfast-burritos-sausage-egg-cheddar",
+                "when": "Mon breakfast"
+              }
+            ]
+          },
+          {
+            "id": "thaw-burrito-tue",
+            "name": "Optional: move Tue's burrito to the fridge (cuts reheat to 12–15 min)",
+            "day": "Monday",
+            "time": "10 sec",
+            "feeds": [
+              {
+                "recipe_id": "freezer-breakfast-burritos-sausage-egg-cheddar",
+                "when": "Tue breakfast"
+              }
+            ]
+          },
+          {
+            "id": "thaw-burrito-wed",
+            "name": "Optional: move Wed's burrito to the fridge (cuts reheat to 12–15 min)",
+            "day": "Tuesday",
+            "time": "10 sec",
+            "feeds": [
+              {
+                "recipe_id": "freezer-breakfast-burritos-sausage-egg-cheddar",
+                "when": "Wed breakfast"
+              }
+            ]
+          },
+          {
+            "id": "thaw-burrito-thu",
+            "name": "Optional: move Thu's burrito to the fridge (cuts reheat to 12–15 min)",
+            "day": "Wednesday",
+            "time": "10 sec",
+            "feeds": [
+              {
+                "recipe_id": "freezer-breakfast-burritos-sausage-egg-cheddar",
+                "when": "Thu breakfast"
               }
             ]
           }
@@ -777,17 +836,20 @@
         "key": "pack",
         "items": [
           {
-            "id": "pk-oats",
-            "name": "Overnight oats × 4 jars",
-            "time": "8 min",
-            "component_id": "kodiak-date-overnight-oats",
-            "storage": "fridge",
-            "keeps": "4 days",
-            "label": "Overnight oats · Cameron breakfast (Mon–Thu)",
+            "id": "pk-burritos",
+            "name": "Breakfast burritos × 10: cook, cool, roll, foil, freeze",
+            "time": "30 min",
+            "thaw_ref": "thaw-bsausage",
+            "component_id": "freezer-breakfast-burritos-sausage-egg-cheddar",
+            "storage": "freezer",
+            "keeps": "3 months",
+            "freeze": "All 10 go in the freezer: 4 for Cameron Mon–Thu, 6 for week 2.",
+            "why": "Cool the filling before rolling, or the tortillas steam and go soggy.",
+            "label": "Breakfast burrito · Cameron (Mon–Thu) · reheat 375°F in foil",
             "feeds": [
               {
-                "recipe_id": "kodiak-date-overnight-oats",
-                "when": "Mon–Thu"
+                "recipe_id": "freezer-breakfast-burritos-sausage-egg-cheddar",
+                "when": "Mon–Thu breakfast"
               }
             ]
           },

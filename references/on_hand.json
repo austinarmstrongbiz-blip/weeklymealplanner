@@ -200,7 +200,8 @@
       "good_for": [
         "egg bites",
         "breakfast hash"
-      ]
+      ],
+      "reserved_for": "Nov 8 plan: all 1 lb → 10 breakfast burritos (Sun)"
     },
     {
       "id": "frz-chipotle",
@@ -273,7 +274,8 @@
         "shakshuka",
         "fajita-style"
       ],
-      "note": "Can replace fresh bell peppers in cooked dishes, so skip buying peppers for those."
+      "note": "Can replace fresh bell peppers in cooked dishes, so skip buying peppers for those.",
+      "reserved_for": "Nov 8 plan: breakfast burritos (2 cups)"
     },
     {
       "id": "frz-veg-assorted",
@@ -309,8 +311,7 @@
       "name": "Medjool dates",
       "qty": "partial bag",
       "source": "voice pantry log 2026-11-05",
-      "status": "on_hand",
-      "reserved_for": "Nov 8 plan: overnight oats"
+      "status": "on_hand"
     },
     {
       "id": "fr-feta",
@@ -330,7 +331,8 @@
       "name": "Cheddar",
       "qty": "1 large block",
       "source": "voice pantry log 2026-11-05",
-      "status": "on_hand"
+      "status": "on_hand",
+      "reserved_for": "Nov 8 plan: breakfast burritos"
     },
     {
       "id": "fr-parsley",
@@ -351,7 +353,8 @@
       "qty": "1 pack",
       "source": "voice pantry log 2026-11-05",
       "status": "on_hand",
-      "use_window": "early"
+      "use_window": "early",
+      "reserved_for": "Nov 8 plan: breakfast burritos"
     },
     {
       "id": "fr-scallions",
@@ -456,8 +459,7 @@
       "status": "on_hand",
       "good_for": [
         "Cameron high-protein breakfast"
-      ],
-      "reserved_for": "Nov 8 plan: 4 overnight-oat jars (Mon–Thu)"
+      ]
     },
     {
       "id": "pa-granola",

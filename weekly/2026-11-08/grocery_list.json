@@ -7,8 +7,6 @@
     "Sockeye salmon ×2",
     "Tuna (5 cans)",
     "Feta",
-    "Kodiak oats",
-    "Medjool dates",
     "Cannellini",
     "Artichoke hearts",
     "Arugula",
@@ -21,7 +19,11 @@
     "Jasmine rice",
     "Chicken broth / bouillon",
     "Fish sauce, soy, brown sugar",
-    "Thai red curry paste (Mekhala, bought Oct 17)"
+    "Thai red curry paste (Mekhala, bought Oct 17)",
+    "Frozen breakfast sausage",
+    "Cheddar",
+    "Frozen pepper blend",
+    "Chives"
   ],
   "categories": {
     "Produce": [
@@ -126,13 +128,13 @@
     "Dairy & Eggs": [
       {
         "name": "Eggs",
-        "qty": "1½ dozen",
-        "for": "Breakfasts, jammy eggs"
+        "qty": "2 dozen",
+        "for": "Breakfast burritos (10), breakfasts, jammy eggs"
       },
       {
         "name": "Plain nonfat Greek yogurt",
-        "qty": "32 oz",
-        "for": "Overnight oats, herb yogurt"
+        "qty": "16 oz",
+        "for": "Herb yogurt"
       },
       {
         "name": "Cottage cheese",
@@ -146,17 +148,27 @@
       },
       {
         "name": "Milk",
-        "qty": "1 qt (skip if stocked)",
-        "for": "Oats, béchamel"
+        "qty": "1 pint (skip if stocked)",
+        "for": "Béchamel"
       },
       {
         "name": "Gruyère",
         "qty": "4 oz",
         "for": "Gruyère chicken (Fri)",
         "buy": "midcycle"
+      },
+      {
+        "name": "Liquid egg whites",
+        "qty": "16 oz",
+        "for": "Breakfast burritos"
       }
     ],
     "Grains & Dry Goods": [
+      {
+        "name": "Whole-wheat tortillas, 8-inch (fajita size)",
+        "qty": "10-pack",
+        "for": "Breakfast burritos"
+      },
       {
         "name": "Sourdough loaf",
         "qty": "1",

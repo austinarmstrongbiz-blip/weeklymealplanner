@@ -29004,7 +29004,7 @@
         },
         {
           "name": "Avocado",
-          "qty": "\u00bd for Cameron ONLY (Austin is allergic)"
+          "qty": "\u00bd for Cameron"
         },
         {
           "name": "Cottage cheese",
@@ -29029,8 +29029,99 @@
         "Warm the leftover protein in the same pan, 1\u20132 minutes.",
         "Austin: eggs and protein over toast, then sauce and hot sauce. Cameron: egg on toast with \u00bd avocado, cottage cheese on the side, a spoon of whatever sauce is in the fridge."
       ],
-      "batch_note": "No batching: this is the everyday breakfast. It uses up the week's sauces and the last few ounces of dinner protein. Never avocado on Austin's plate.",
+      "batch_note": "No batching: this is the everyday breakfast. It uses up the week's sauces and the last few ounces of dinner protein.",
       "cameron_note": "1 egg, 1 slice sourdough, \u00bd avocado, \u00bc cup cottage cheese (~355 cal, 18g P)."
+    },
+    {
+      "id": "freezer-breakfast-burritos-sausage-egg-cheddar",
+      "name": "Freezer Breakfast Burritos (Sausage, Egg & Cheddar)",
+      "cuisine": "American",
+      "meal_type": "breakfast",
+      "added_date": "2026-11-05",
+      "source_account": "Above Kitch (Claude)",
+      "prep": "15 min",
+      "cook": "15 min",
+      "total": "30 min + cooling",
+      "spice_level": "None (Austin adds hot sauce)",
+      "serving_note": "Makes 10 burritos",
+      "tags": [
+        "batch-friendly",
+        "breakfast",
+        "claude-built",
+        "eggs",
+        "fall-2026",
+        "freezer-friendly",
+        "grab-and-go",
+        "high-protein",
+        "meal-prep",
+        "portioned-2026-11-05-targets"
+      ],
+      "equipment": "Large nonstick skillet, Breville or oven, foil, gallon freezer bag or vacuum sealer",
+      "macro_strings": {
+        "austin": "550 cal | 38g P | 30g F | 30g C",
+        "cameron": "365 cal | 22g P | 22g F | 20g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 550,
+          "p": 38,
+          "f": 30,
+          "c": 30
+        },
+        "cameron": {
+          "cal": 365,
+          "p": 22,
+          "f": 22,
+          "c": 20
+        }
+      },
+      "storage_note": "Wrap each in foil, then freeze flat in a gallon bag or vacuum-sealed.",
+      "keeps": "3 months frozen",
+      "freezes": "Yes. That is the point.",
+      "ingredients": [
+        {
+          "name": "Frozen breakfast sausage (on hand), thawed",
+          "qty": "1 lb"
+        },
+        {
+          "name": "Eggs",
+          "qty": "10"
+        },
+        {
+          "name": "Liquid egg whites",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Frozen three-pepper blend (on hand), chopped",
+          "qty": "2 cups"
+        },
+        {
+          "name": "Cheddar (on hand), shredded",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Chives (on hand)",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Whole-wheat tortillas, 8-inch (fajita size)",
+          "qty": "10"
+        },
+        {
+          "name": "Salt and pepper",
+          "qty": "\u00bd tsp each"
+        }
+      ],
+      "instructions": [
+        "Brown the sausage in a large skillet over medium-high, breaking it up, 7\u20138 minutes. Add the pepper blend and cook 3\u20134 minutes until the water cooks off (dry filling = no soggy burritos). Move to a sheet pan to cool.",
+        "Whisk the eggs, egg whites, salt and pepper. Wipe out the skillet and soft-scramble over medium-low until just set, still a little glossy. Spread on the sheet pan with the sausage and cool 10 minutes.",
+        "Warm the tortillas 20 seconds in the microwave so they fold without cracking.",
+        "Fill each with ~\u2153 cup egg, ~\u00bc cup sausage-pepper mix and a pinch of cheddar and chives. Fold in the sides, roll tight.",
+        "Wrap each in foil, then freeze flat in a bag.",
+        "REHEAT (oven or Breville): from frozen, still in foil, 375\u00b0F for 25\u201330 min. Faster: move tomorrow's burrito to the fridge the night before, then 375\u00b0F for 12\u201315 min. Unwrap for the last 3 min if you want a crisp outside."
+      ],
+      "batch_note": "Make 10 on Sunday. 4 are Cameron's Mon\u2013Thu breakfasts; the other 6 stay frozen for week 2 (or Austin: 1 burrito + 2 extra eggs \u2248 550 cal, 38g P).",
+      "cameron_note": "One burrito (~365 cal, 22g P). Skip the hot sauce."
     }
   ]
 }
