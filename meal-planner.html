@@ -626,6 +626,9 @@ select.form-control { cursor: pointer; }
   padding: 11px 22px; border-radius: 999px;
   font-size: 14px;
 }
+.chat-action-card { margin-top: 10px; padding: 12px; border: 1px solid var(--green); border-radius: 10px; background: var(--surface, #fff); display: flex; flex-direction: column; gap: 4px; }
+.chat-action-card ul, .chat-action-card ol { margin: 6px 0 0 18px; }
+.chat-action-btn { align-self: flex-start; margin-top: 6px; }
 .chat-typing {
   display: flex; gap: 4px; padding: 6px 0;
 }
@@ -931,6 +934,18 @@ select.form-control { cursor: pointer; }
   display: flex; align-items: center; justify-content: center;
   margin-top: 1px;
 }
+.prep-cycle-note, .prep-phase-note { font-size: 13px; color: var(--muted); margin: -4px 0 12px; line-height: 1.5; }
+.prep-cycle-note { background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 10px 14px; margin: 0 0 16px; }
+.prep-toolbar { display: flex; gap: 8px; margin-bottom: 16px; }
+.prep-labels { border: 1px dashed var(--border); border-radius: 10px; padding: 12px 16px; margin-bottom: 20px; font-size: 13px; }
+.prep-labels ul { margin: 0 0 10px 18px; line-height: 1.7; }
+.prep-why { font-size: 12px; color: var(--green); font-weight: 600; margin-bottom: 8px; }
+.prep-specs { font-size: 13px; margin-bottom: 10px; line-height: 1.5; }
+.prep-feeds-lbl { font-size: 10px; font-weight: 700; letter-spacing: .5px; text-transform: uppercase; color: var(--muted); margin-right: 4px; }
+.prep-label-chip { margin-top: 10px; font-size: 12px; font-family: ui-monospace, monospace; background: var(--bg); border-radius: 6px; padding: 6px 10px; overflow-wrap: anywhere; }
+.store-badge.cycle-early { background: #FEE2E2; color: #991B1B; }
+.store-badge.cycle-mid   { background: #FEF3C7; color: #92400E; }
+.store-badge.cycle-late  { background: #DCFCE7; color: #166534; }
 .prep-empty { text-align: center; padding: 48px 24px; color: var(--muted); }
 
 /* ── Recipe card visual hero ───────────────────────────────── */
@@ -1701,6 +1716,7 @@ async function init() {
 
   // 10. Load saved PDFs list
   loadPDFList();
+  initClaudeChat();
 
   // 11. Init season chips (auto-selects current season)
   initSeasonChips();
@@ -2515,12 +2531,18 @@ function renderGroceryList() {
       const noteHtml = itemNote
         ? `<div style="font-size:12px;color:var(--muted);margin-top:2px">${itemNote}</div>`
         : '';
+      // 2-week cycle tags: when to use it, and whether it's a mid-cycle top-up buy
+      const USE = { early: 'Use days 1–5', mid: 'Use days 5–9', late: 'Keeps: days 8–14' };
+      const cycleBadges = typeof item === 'object' ? [
+        item.use_window && USE[item.use_window] ? `<span class="store-badge cycle-${item.use_window}">${USE[item.use_window]}</span>` : '',
+        item.buy === 'midcycle' ? `<span class="store-badge cycle-mid">Mid-cycle buy</span>` : '',
+      ].join('') : '';
 
       return `<div class="grocery-item${isChecked ? ' checked' : ''}"
           onclick="toggleGroceryItem('${cat}',${idx},this)">
         <div class="grocery-check">${isChecked ? '✓' : ''}</div>
         <div class="grocery-text">${itemName}${noteHtml}</div>
-        ${badge}
+        ${cycleBadges}${badge}
       </div>`;
     }).join('');
 
@@ -3018,11 +3040,151 @@ function findFedRecipes(tasks) {
   return [...found.entries()].map(([id, name]) => ({ id, name }));
 }
 
+// ── Prep v2: component prep, ordered by leverage ─────────────
+// plan.prep = { cycle_note, phases: [{ key, title?, note?, items: [item] }] }
+// item = { name, when, qty, cut, yield, time, passive, steps[], storage, keeps,
+//          use_by, label, feeds:[{recipe_id, when}], freeze, why }
+const PREP_PHASES = {
+  thaw:     { label: 'Freezer pulls: thaw schedule',              cls: 'sat'    },
+  start:    { label: '1 · Start first: preheat & long cooks',     cls: 'start'  },
+  knife:    { label: '2 · Knife work: cut once, label for the week', cls: 'active' },
+  sauces:   { label: '3 · Sauces, marinades & dressings',         cls: 'while'  },
+  proteins: { label: '4 · Proteins',                              cls: 'start'  },
+  grains:   { label: '5 · Grains & starches',                     cls: 'while'  },
+  crunch:   { label: '6 · Crunch, pickles & garnish',             cls: 'active' },
+  pack:     { label: '7 · Pack & label',                          cls: 'final'  },
+  midcycle: { label: 'Mid-cycle refresh',                         cls: 'week'   },
+};
+const STORAGE_ICON = { fridge: '❄︎ Fridge', freezer: '🧊 Freeze', vacuum: '🧊 Vacuum seal + freeze', counter: 'Counter', pantry: 'Pantry' };
+
+function prepItemLabel(it) {
+  if (it.label) return it.label;
+  const feeds = (it.feeds || []).map(f => {
+    const r = S.recipeLib.recipes.find(x => x.id === (f.recipe_id || f));
+    return [r?.name || f.recipe_id || f, f.when].filter(Boolean).join(' ');
+  });
+  return [it.name, feeds.length ? `for ${feeds.join(', ')}` : '', it.use_by ? `use by ${it.use_by}` : '']
+    .filter(Boolean).join(' · ');
+}
+
+function renderPrepV2(prep) {
+  const body    = document.getElementById('prepBody');
+  const weekKey = S.weeks[S.weekIndex];
+  const checksKey = `ak-prep2-${weekKey}`;
+  let checks = {};
+  try { checks = JSON.parse(localStorage.getItem(checksKey) || '{}'); } catch {}
+
+  document.getElementById('prepWeekLabel').textContent = `Week of ${weekKey}`;
+  let totalMin = 0;
+  const allLabels = [];
+
+  const phases = [...(prep.phases || [])].sort((a, b) => {
+    const order = Object.keys(PREP_PHASES);
+    const ia = order.indexOf(a.key), ib = order.indexOf(b.key);
+    return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib);
+  });
+
+  let html = prep.cycle_note
+    ? `<div class="prep-cycle-note">${prep.cycle_note}</div>` : '';
+  html += `<div class="prep-toolbar"><button class="btn-secondary" id="prepLabelsBtn">🏷 Container labels</button></div>
+    <div id="prepLabels" class="prep-labels" style="display:none"></div>`;
+
+  phases.forEach((ph, pi) => {
+    const meta = PREP_PHASES[ph.key] || { label: ph.key, cls: 'final' };
+    if (!ph.items?.length) return;
+    html += `<div class="prep-section">
+      <div class="prep-section-title ${meta.cls}">${ph.title || meta.label}</div>
+      ${ph.note ? `<div class="prep-phase-note">${ph.note}</div>` : ''}
+      <div class="prep-cards">`;
+    ph.items.forEach((it, ii) => {
+      const id = `${pi}-${ii}`;
+      const done = !!checks[id];
+      if (ph.key !== 'thaw' && ph.key !== 'midcycle') {
+        const m = String(it.time || '').match(/(\d+)\s*min/);
+        if (m) totalMin += +m[1];
+      }
+      const labeled = ['knife','sauces','proteins','grains','crunch','pack','midcycle'].includes(ph.key) || !!it.label;
+      const label = labeled ? prepItemLabel(it) : '';
+      if (labeled) allLabels.push(label);
+      const specs = [
+        it.qty && `<b>Qty</b> ${it.qty}`,
+        it.cut && `<b>Cut</b> ${it.cut}`,
+        it.yield && `<b>Yield</b> ${it.yield}`,
+        it.keeps && `<b>Keeps</b> ${it.keeps}`,
+      ].filter(Boolean);
+      const feeds = (it.feeds || []).map(f => {
+        const rid = f.recipe_id || f;
+        const r = S.recipeLib.recipes.find(x => x.id === rid);
+        const txt = [r?.name || rid, f.when].filter(Boolean).join(' · ');
+        return r ? `<span class="prep-feed-chip linked" onclick="openRecipeModal('${rid}')">${txt}</span>`
+                 : `<span class="prep-feed-chip">${txt}</span>`;
+      }).join('');
+      html += `<div class="prep-card${done ? ' done' : ''}" id="prep2card-${id}">
+        <div class="prep-card-stripe ${meta.cls}"></div>
+        <div class="prep-card-inner">
+          <div class="prep-card-header">
+            <div class="prep-check-row">
+              <input type="checkbox" class="prep-check" id="prep2chk-${id}" ${done ? 'checked' : ''}
+                onchange="togglePrepV2('${id}', this)">
+              <label for="prep2chk-${id}" class="prep-card-name">${it.name}</label>
+            </div>
+            <div class="prep-badges">
+              ${it.when ? `<span class="prep-badge week-b">${it.when}</span>` : ''}
+              ${it.time ? `<span class="prep-badge time">${it.time}</span>` : ''}
+              ${it.passive ? `<span class="prep-badge passive">Set &amp; forget</span>` : ''}
+              ${it.storage ? `<span class="prep-badge sat-b">${STORAGE_ICON[it.storage] || it.storage}</span>` : ''}
+              ${it.use_by ? `<span class="prep-badge week-b">Use by ${it.use_by}</span>` : ''}
+            </div>
+          </div>
+          ${it.why ? `<div class="prep-why">${it.why}</div>` : ''}
+          ${specs.length ? `<div class="prep-specs">${specs.join(' · ')}</div>` : ''}
+          ${feeds ? `<div class="prep-feeds"><span class="prep-feeds-lbl">Feeds:</span>${feeds}</div>` : ''}
+          ${it.steps?.length ? `<ol class="prep-step-list">${it.steps.map(x => `<li>${x}</li>`).join('')}</ol>` : ''}
+          ${it.freeze ? `<div class="prep-specs"><b>Freezer move</b> ${it.freeze === true ? 'Freezes well. Make extra and vacuum seal.' : it.freeze}</div>` : ''}
+          ${labeled ? `<div class="prep-label-chip">🏷 ${label}</div>` : ''}
+        </div>
+      </div>`;
+    });
+    html += `</div></div>`;
+  });
+
+  body.innerHTML = html;
+  const timeLbl = document.getElementById('prepTotalTime');
+  if (totalMin) {
+    timeLbl.textContent = `Est. ${Math.floor(totalMin / 60) ? Math.floor(totalMin / 60) + 'h ' : ''}${totalMin % 60 ? totalMin % 60 + 'm' : ''} hands-on`;
+    timeLbl.style.display = '';
+  } else timeLbl.style.display = 'none';
+
+  const labelsEl = document.getElementById('prepLabels');
+  labelsEl.innerHTML = `<ul>${allLabels.map(l => `<li>${l}</li>`).join('')}</ul>
+    <button class="btn-secondary" id="prepCopyLabels">Copy all</button>`;
+  document.getElementById('prepLabelsBtn').onclick = () => {
+    labelsEl.style.display = labelsEl.style.display === 'none' ? '' : 'none';
+  };
+  document.getElementById('prepCopyLabels').onclick = () => {
+    const tmp = document.createElement('div');
+    navigator.clipboard?.writeText(allLabels.map(l => { tmp.innerHTML = l; return tmp.textContent; }).join('\n'))
+      .then(() => showToast('Labels copied'), () => showToast('Copy failed'));
+  };
+}
+
+function togglePrepV2(id, cb) {
+  const key = `ak-prep2-${S.weeks[S.weekIndex]}`;
+  let checks = {};
+  try { checks = JSON.parse(localStorage.getItem(key) || '{}'); } catch {}
+  checks[id] = cb.checked;
+  try { localStorage.setItem(key, JSON.stringify(checks)); } catch {}
+  document.getElementById(`prep2card-${id}`)?.classList.toggle('done', cb.checked);
+}
+
 // ── Render the full Prep tab ───────────────────────────────
 function renderPrepTab() {
   const body    = document.getElementById('prepBody');
   const weekLbl = document.getElementById('prepWeekLabel');
   const timeLbl = document.getElementById('prepTotalTime');
+
+  // New component-style prep (plan.prep.phases) wins over legacy batch_prep.
+  if (S.currentPlan?.prep?.phases?.length) return renderPrepV2(S.currentPlan.prep);
 
   // Normalize both formats: array OR {banner, stations:[...]}
   let batchPrep = S.currentPlan?.batch_prep;
@@ -3355,17 +3517,157 @@ function appendChatMessage(role, text, suggestions = []) {
   div.appendChild(bubble);
   container.appendChild(div);
   container.scrollTop = container.scrollHeight;
+  return div;
 }
 
-function handleChatSend() {
+// ── Claude-backed chat (POST /api/chat, see scripts/chat.py) ──────────
+// Falls back to the local keyword search above when the server has no API key.
+const CHAT = { enabled: false, passcodeRequired: false, history: [], busy: false };
+
+async function initClaudeChat() {
+  if (!S.serverOnline) return;
+  try {
+    const r = await fetch('/api/chat/status');
+    if (!r.ok) return;
+    const d = await r.json();
+    CHAT.enabled = !!d.enabled;
+    CHAT.passcodeRequired = !!d.passcode_required;
+  } catch { return; }
+  if (CHAT.enabled) {
+    document.getElementById('chatInput').placeholder = 'Ask Claude: recipes, swaps, what to do with the ButcherBox…';
+    const intro = document.querySelector('#chatMessages .chat-bubble');
+    if (intro) intro.innerHTML = `I'm Claude, and I can see your recipe library, this week's plan, the pantry and what's in the freezer.<br><br>
+      Try:<br>
+      <em>"What can Cameron make with the flat iron steaks this week?"</em><br>
+      <em>"Swap Thursday dinner for something faster"</em><br>
+      <em>"Give me a Thai recipe using the steak strips, under 500 cal for Cameron"</em>`;
+  }
+}
+
+function chatEsc(t) {
+  return String(t).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+// Minimal, safe markdown: escape first, then **bold** and "- " bullets.
+function chatFormat(text) {
+  return chatEsc(text)
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/^\s*[-*] (.+)$/gm, '• $1')
+    .replace(/\n/g, '<br>');
+}
+
+// Recipes Claude mentioned by name, so they show as tappable cards.
+function recipesMentioned(text) {
+  const lower = text.toLowerCase();
+  return S.recipeLib.recipes
+    .filter(r => !r.retired && r.name && r.name.length > 4 && lower.includes(r.name.toLowerCase()))
+    .slice(0, 6);
+}
+
+function chatPasscodeHeader() {
+  if (!CHAT.passcodeRequired) return {};
+  let code = '';
+  try { code = localStorage.getItem('ak-chat-passcode') || ''; } catch {}
+  if (!code) {
+    code = prompt('Chat passcode (set as CHAT_PASSCODE on the server):') || '';
+    try { localStorage.setItem('ak-chat-passcode', code); } catch {}
+  }
+  return { 'X-Chat-Passcode': code };
+}
+
+function renderChatActions(bubble, actions) {
+  actions.forEach((a, i) => {
+    const card = document.createElement('div');
+    card.className = 'chat-action-card';
+    if (a.type === 'swap') {
+      const r = S.recipeLib.recipes.find(x => x.id === a.recipe_id)
+        || actions.find(x => x.type === 'recipe' && x.recipe.id === a.recipe_id)?.recipe;
+      card.innerHTML = `<div class="cs-type">Proposed swap · ${chatEsc(a.day)} ${chatEsc(a.meal)}</div>
+        <div class="cs-name">${chatEsc(r?.name || a.recipe_id)}</div>
+        <div class="cs-meta">${chatEsc(a.reason || '')}</div>
+        ${a.cameron ? `<div class="cs-meta">Cameron ${a.cameron.cal ?? '?'} cal / ${a.cameron.p ?? '?'}g P${a.austin ? ` · Austin ${a.austin.cal ?? '?'} cal / ${a.austin.p ?? '?'}g P` : ''}</div>` : ''}
+        <button class="btn-primary chat-action-btn">Apply to plan</button>`;
+      card.querySelector('button').onclick = e => applyChatSwap(a, e.target);
+    } else if (a.type === 'recipe') {
+      const rec = a.recipe;
+      const m = rec.macros || {};
+      card.innerHTML = `<div class="cs-type">New recipe · ${chatEsc(rec.meal_type || '')}</div>
+        <div class="cs-name">${chatEsc(rec.name)}</div>
+        <div class="cs-meta">${chatEsc(rec.cuisine || '')}${m.cameron ? ` · Cameron ${m.cameron.cal} cal / ${m.cameron.p}g P` : ''}${m.austin ? ` · Austin ${m.austin.cal} cal / ${m.austin.p}g P` : ''}</div>
+        <details class="cs-meta"><summary>Ingredients &amp; steps</summary>
+          <ul>${(rec.ingredients || []).map(x => `<li>${chatEsc(typeof x === 'string' ? x : `${x.qty || ''} ${x.name || ''}`)}</li>`).join('')}</ul>
+          <ol>${(rec.instructions || []).map(x => `<li>${chatEsc(x)}</li>`).join('')}</ol>
+        </details>
+        <button class="btn-primary chat-action-btn">Save to library</button>`;
+      card.querySelector('button').onclick = e => saveChatRecipe(rec, e.target);
+    }
+    bubble.appendChild(card);
+  });
+}
+
+async function saveChatRecipe(rec, btn) {
+  btn.disabled = true;
+  const recipe = { added_date: new Date().toISOString().slice(0, 10), tags: [], ...rec };
+  recipe.tags = [...new Set([...(recipe.tags || []), 'claude-chat'])];
+  try {
+    const r = await fetch('/api/recipes/add', { method: 'POST',
+      headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(recipe) });
+    const d = await r.json();
+    if (!d.success) throw new Error(d.error || 'save failed');
+    S.recipeLib.recipes.push(recipe);
+    btn.textContent = 'Saved ✓';
+    showToast('Saved. On Render, commit it to git to keep it past a restart.');
+  } catch (e) {
+    btn.disabled = false;
+    showToast(`Couldn't save: ${e.message}`);
+  }
+}
+
+async function applyChatSwap(a, btn) {
+  btn.disabled = true;
+  try {
+    const viewing = S.weeks[S.weekIndex];
+    let plan = S.currentPlan;
+    if (a.week_date !== viewing || !plan) {
+      plan = await (await fetch(`weekly/${a.week_date}/meal_plan.json`)).json();
+    }
+    const day = plan.days.find(d => d.day.toLowerCase() === String(a.day).toLowerCase());
+    if (!day) throw new Error(`no ${a.day} in that week`);
+    const slot = { recipe_id: a.recipe_id };
+    if (a.austin) slot.austin = a.austin;
+    if (a.cameron) slot.cameron = a.cameron;
+    if (a.cameron_note) slot.cameron_note = a.cameron_note;
+    day[a.meal] = slot;
+    // Recompute day totals from whatever meals have macros.
+    for (const who of ['austin', 'cameron']) {
+      const meals = ['breakfast', 'lunch', 'dinner'].map(m => day[m]?.[who]).filter(Boolean);
+      if (meals.length) day[`${who}_total`] = {
+        cal: meals.reduce((t, m) => t + (+m.cal || 0), 0),
+        p:   meals.reduce((t, m) => t + (+m.p || 0), 0),
+      };
+    }
+    const r = await fetch('/api/plan/save', { method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ week_date: a.week_date, plan }) });
+    const d = await r.json();
+    if (!d.success) throw new Error(d.error || 'save failed');
+    if (a.week_date === viewing) { S.currentPlan = plan; renderWeek(); }
+    btn.textContent = 'Applied ✓';
+    showToast('Plan updated. Commit it to git to keep it past a Render restart.');
+  } catch (e) {
+    btn.disabled = false;
+    showToast(`Couldn't apply: ${e.message}`);
+  }
+}
+
+async function handleChatSend() {
   const input = document.getElementById('chatInput');
   const msg = input.value.trim();
-  if (!msg) return;
+  if (!msg || CHAT.busy) return;
   input.value = '';
 
-  appendChatMessage('user', msg);
+  appendChatMessage('user', chatEsc(msg));
 
-  // Brief typing pause for feel
   const container = document.getElementById('chatMessages');
   const typingDiv = document.createElement('div');
   typingDiv.className = 'chat-message bot';
@@ -3373,11 +3675,38 @@ function handleChatSend() {
   container.appendChild(typingDiv);
   container.scrollTop = container.scrollHeight;
 
-  setTimeout(() => {
+  if (!CHAT.enabled) {
+    setTimeout(() => {
+      container.removeChild(typingDiv);
+      const { reply, suggestions } = chatRespond(msg);
+      appendChatMessage('bot', reply, suggestions);
+    }, 400);
+    return;
+  }
+
+  CHAT.busy = true;
+  CHAT.history.push({ role: 'user', content: msg });
+  try {
+    const r = await fetch('/api/chat', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', ...chatPasscodeHeader() },
+      body: JSON.stringify({ messages: CHAT.history, week_date: S.weeks[S.weekIndex] }),
+    });
+    const d = await r.json();
+    if (r.status === 401) { try { localStorage.removeItem('ak-chat-passcode'); } catch {} }
+    if (!r.ok || d.error) throw new Error(d.error || `HTTP ${r.status}`);
+    CHAT.history.push({ role: 'assistant', content: d.reply });
     container.removeChild(typingDiv);
-    const { reply, suggestions } = chatRespond(msg);
-    appendChatMessage('bot', reply, suggestions);
-  }, 600);
+    const div = appendChatMessage('bot', chatFormat(d.reply), recipesMentioned(d.reply));
+    if (d.actions?.length) renderChatActions(div.querySelector('.chat-bubble'), d.actions);
+  } catch (e) {
+    CHAT.history.pop(); // let them resend
+    container.removeChild(typingDiv);
+    appendChatMessage('bot', chatEsc(`Couldn't reach Claude: ${e.message}`));
+  } finally {
+    CHAT.busy = false;
+    container.scrollTop = container.scrollHeight;
+  }
 }
 
 document.getElementById('chatSend').addEventListener('click', handleChatSend);

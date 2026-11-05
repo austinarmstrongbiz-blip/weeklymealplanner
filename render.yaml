@@ -7,8 +7,15 @@ services:
     name: above-kitch
     runtime: python
     plan: free
-    buildCommand: ""
+    buildCommand: pip install -r requirements.txt
     startCommand: python3 scripts/server.py
     envVars:
       - key: DATA_DIR
         value: /data
+      # In-app Claude chat. Set the values in the Render dashboard, not here.
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      # Optional but recommended: the app is public, so a passcode stops
+      # strangers from running up the API bill.
+      - key: CHAT_PASSCODE
+        sync: false

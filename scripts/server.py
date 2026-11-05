@@ -18,10 +18,12 @@ import urllib.parse
 
 _SSL_CTX = ssl._create_unverified_context()
 from html.parser import HTMLParser
-from http.server import HTTPServer, SimpleHTTPRequestHandler
+from http.server import ThreadingHTTPServer, SimpleHTTPRequestHandler
 from pathlib import Path
 
 ROOT = Path(__file__).parent.parent  # Household Health folder
+sys.path.insert(0, str(Path(__file__).parent))
+import chat  # noqa: E402  (scripts/chat.py)
 
 # DATA_ROOT: where mutable JSON/data files live.
 # On Render (free plan), DATA_DIR=/data is ephemeral: it is recreated and reseeded
@@ -39,6 +41,7 @@ def _init_data_dir():
         ROOT / 'references' / 'meal_history.json',
         ROOT / 'references' / 'user_profile.md',
         ROOT / 'references' / 'pantry_staples.md',
+        ROOT / 'references' / 'on_hand.json',
     ]:
         dst = DATA_ROOT / 'references' / src.name
         dst.parent.mkdir(parents=True, exist_ok=True)
@@ -320,7 +323,7 @@ class MealPlannerHandler(SimpleHTTPRequestHandler):
     def _cors(self):
         self.send_header('Access-Control-Allow-Origin', '*')
         self.send_header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS')
-        self.send_header('Access-Control-Allow-Headers', 'Content-Type')
+        self.send_header('Access-Control-Allow-Headers', 'Content-Type, X-Chat-Passcode')
 
     # ── GET /api/... ───────────────────────────────────────────────────
     def handle_api_get(self):
@@ -362,6 +365,17 @@ class MealPlannerHandler(SimpleHTTPRequestHandler):
         if parsed.path == '/api/recipes':
             return self._file_json(DATA_ROOT / 'references' / 'recipe_library.json')
 
+        # GET /api/on-hand — freezer/fridge inventory (ButcherBox etc.)
+        if parsed.path == '/api/on-hand':
+            return self._file_json(DATA_ROOT / 'references' / 'on_hand.json')
+
+        # GET /api/chat/status — is Claude chat configured?
+        if parsed.path == '/api/chat/status':
+            return self._json({
+                'enabled': bool(os.environ.get('ANTHROPIC_API_KEY')),
+                'passcode_required': bool(os.environ.get('CHAT_PASSCODE')),
+            })
+
         # GET /api/ratings — meal history ratings
         if parsed.path == '/api/ratings':
             path = DATA_ROOT / 'references' / 'meal_history.json'
@@ -385,6 +399,16 @@ class MealPlannerHandler(SimpleHTTPRequestHandler):
             data = json.loads(body)
         except Exception:
             return self._json({'error': 'Invalid JSON'}, 400)
+
+        # POST /api/chat — talk to Claude (see scripts/chat.py)
+        if parsed.path == '/api/chat':
+            passcode = os.environ.get('CHAT_PASSCODE')
+            if passcode and self.headers.get('X-Chat-Passcode') != passcode:
+                return self._json({'error': 'Wrong or missing chat passcode.', 'passcode_required': True}, 401)
+            try:
+                return self._json(chat.run_chat(ROOT, DATA_ROOT, data))
+            except chat.ChatError as e:
+                return self._json({'error': str(e)}, e.status)
 
         # POST /api/recipes/add
         if parsed.path == '/api/recipes/add':
@@ -570,7 +594,7 @@ if __name__ == '__main__':
   ║   Press Ctrl+C to stop                   ║
   ╚══════════════════════════════════════════╝
 """)
-    server = HTTPServer(('', port), MealPlannerHandler)
+    server = ThreadingHTTPServer(('', port), MealPlannerHandler)
     try:
         server.serve_forever()
     except KeyboardInterrupt:

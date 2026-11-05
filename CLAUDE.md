@@ -18,6 +18,8 @@ household health/
 ├── references/
 │   ├── user_profile.md         ← Austin & Cameron profiles, macro targets, Substack URLs
 │   ├── pantry_staples.md       ← Always-stocked items (excluded from grocery lists)
+│   ├── on_hand.json            ← Freezer/fridge inventory incl. ButcherBox. Shop this first.
+│   ├── produce_shelf_life.md   ← Early/mid/late use windows for the 2-week cycle
 │   ├── recipe_library.json     ← All recipes (138+). Never delete — set retired:true
 │   ├── meal_history.json       ← Weekly ratings and history
 │   └── intake_schema.md        ← Schema for weekly intake questionnaire JSON
@@ -27,6 +29,7 @@ household health/
 │       └── grocery_list.json   ← Categorized grocery list (served by app)
 ├── scripts/
 │   ├── server.py               ← HTTP server (local + Render). DATA_ROOT pattern.
+│   ├── chat.py                 ← In-app Claude chat (POST /api/chat)
 │   ├── import_anylist.py       ← Scrape AnyList exports → recipe_library.json
 │   ├── generate_meal_plan_pdf.py
 │   ├── compile_grocery_list.py
@@ -97,6 +100,8 @@ Render free tier has **ephemeral filesystem**. Data written via API is lost on e
 
 **Fix:** All data must be committed to git. `_init_data_dir()` in `server.py` copies from the git clone into `/data` on every cold start.
 
+**In-app Chat:** `scripts/chat.py` behind `POST /api/chat`. Needs `ANTHROPIC_API_KEY` set in the Render dashboard (and `pip install -r requirements.txt`, which the Render build runs). Set `CHAT_PASSCODE` too, since the app URL is public. Without a key, the Chat tab falls back to local keyword search. Chat never writes on its own: it proposes swaps and recipes as cards the user taps to apply, and those writes are ephemeral on Render like any other API write.
+
 **Rule:** Any new recipe, weekly plan, or grocery list must be committed and pushed to GitHub before it will survive a Render restart. Never rely on Render's filesystem for persistence.
 
 ```
@@ -157,16 +162,47 @@ python3 scripts/import_anylist.py --scrape --local
       "cameron_total": { "cal": 0, "p": 0 }
     }
   ],
-  "batch_prep": [...]
+  "prep": { "cycle_note": "...", "phases": [...] },   // NEW component prep (see below)
+  "batch_prep": [...]                                  // legacy; only read when "prep" is absent
 }
 ```
+
+### prep (component prep, ordered by leverage)
+```json
+"prep": {
+  "cycle_note": "Cycle 2026-11-08 → 11-21, week 1 of 2. Sunday covers days 1–5; the mid-cycle refresh covers the rest.",
+  "phases": [
+    { "key": "thaw", "items": [
+      { "name": "Flat iron steaks (2 × 6 oz) → fridge", "when": "Sat night", "feeds": [{"recipe_id": "chimichurri-steak-bowl", "when": "Mon dinner"}] } ] },
+    { "key": "start", "items": [
+      { "name": "Preheat oven 425°F; sweet potatoes in first (longest roast)", "time": "5 min", "passive": true,
+        "why": "Longest cook, so start it first and everything else happens while it roasts." } ] },
+    { "key": "knife", "items": [
+      { "name": "Red bell pepper", "qty": "3", "cut": "¼-inch strips", "yield": "~3 cups",
+        "storage": "fridge", "keeps": "5 days", "use_by": "Thu",
+        "label": "Bell pepper strips · Steak fajitas (Mon) + Thai beef (Wed)",
+        "feeds": [{"recipe_id": "...", "when": "Mon dinner"}, {"recipe_id": "...", "when": "Wed dinner"}] } ] },
+    { "key": "sauces", "items": [
+      { "name": "Chimichurri (2x batch)", "steps": ["..."], "storage": "fridge", "keeps": "7 days",
+        "freeze": "Freeze half in an ice-cube tray for week 2", "feeds": [...] } ] },
+    { "key": "proteins" }, { "key": "grains" }, { "key": "crunch" }, { "key": "pack" },
+    { "key": "midcycle", "title": "Wednesday night refresh (20 min)", "items": [...] }
+  ]
+}
+```
+Phase keys, in order: `thaw`, `start` (preheat & longest cooks), `knife`, `sauces` (sauces/marinades/dressings),
+`proteins`, `grains`, `crunch` (pickles/toasted nuts/garnish), `pack`, `midcycle`. The app sorts by this order.
+Item fields (all optional except `name`): `when` (e.g. "Sat night", used by thaw/midcycle), `qty`, `cut`, `yield`, `time` ("15 min"), `passive`, `steps[]`,
+`storage` (fridge | freezer | vacuum | counter | pantry), `keeps`, `use_by`, `label`, `feeds[{recipe_id, when}]`, `freeze`, `why`.
+Every knife/sauce/protein/grain item gets a `label`: the deli-container label text, in the form
+**"<what, how it's cut> · <recipe> (<day>)"**. The app collects them into a copyable label list.
 
 ### grocery_list.json
 ```json
 {
   "week_date": "YYYY-MM-DD",
   "categories": {
-    "Produce": [{ "name": "...", "qty": "...", "for": "..." }],
+    "Produce": [{ "name": "...", "qty": "...", "for": "...", "use_window": "early|mid|late", "buy": "midcycle (optional)" }],
     "Proteins": [...],
     "Dairy & Eggs": [...],
     "Grains & Dry Goods": [...],
@@ -190,6 +226,39 @@ python3 scripts/import_anylist.py --scrape --local
 8. **Cameron's portions are always smaller** — she's eating 1100-1200/day vs Austin's 1800-2100.
 9. **No avocado for Austin** (allergy, non-negotiable). Avocado for Cameron only when it fits the dish — not required every meal.
 10. **Variety > safety** — push flavor. Don't default to "chicken bowl" when shrimp tacos or lamb kofta works.
+11. **Shop the freezer first.** Read `references/on_hand.json` before choosing proteins. ButcherBox meat is the protein backbone; the grocery list buys only the gaps. Never put an on-hand item on the grocery list.
+12. **Plan in 2-week cycles** (see below). One big shop, an optional small mid-cycle top-up.
+13. **Build from components, not just recipes** (see below).
+
+---
+
+## Two-Week Cycle (added 2026-11-05)
+
+Groceries last about 2 weeks, so plan and shop in 14-day cycles. Each cycle is still saved as two
+`weekly/YYYY-MM-DD/` folders (the app is week-based). Week 1's `grocery_list.json` holds the whole
+cycle's shop; week 2's holds only the `buy: "midcycle"` top-up (or is omitted).
+
+- **Perishables early, sturdy produce late.** Tag every produce item `use_window` early/mid/late using `references/produce_shelf_life.md`. Early produce feeds days 1–5 dinners; cabbage, roots, squash, apples and citrus carry days 8–14.
+- **Proteins:** fresh-bought fish and chicken go in days 1–3; ButcherBox/frozen proteins carry the rest via the `thaw` schedule (fridge-thaw 24 h per lb; pull it the night before).
+- **Overlap ingredients on purpose.** A bunch of cilantro should hit 3+ meals; one cabbage should hit 2–3. If an ingredient appears in only one recipe and doesn't keep, swap the recipe or the ingredient. Report the overlap in the plan summary.
+- **Second Sunday is short.** Week 2 prep is a refresh: cut the late produce, make one new sauce, thaw week-2 proteins. Week 1 Sunday is the big session.
+- **Cost:** lean on ButcherBox and pantry, use whole vegetables over pre-cut unless time is tight, keep pricey one-off ingredients (specialty herbs, single-use condiments) to one or two per cycle, and say what you skipped buying because of on-hand items.
+
+## Component Prep (Restaurant Dropout style, added 2026-11-05)
+
+Think like a restaurant line: prep **components** Sunday, then **assemble** meals in 10–15 min.
+A cycle should have roughly:
+- **2–3 proteins** (at least one ButcherBox), cooked or marinated
+- **2 sauces/dressings** that cross cuisines (e.g. chimichurri, gochujang-lime, tahini-lemon, salsa verde); at least one is freezable
+- **1–2 grains/starches** (rice cooker rice, roasted sweet potato, farro)
+- **1 pickle/crunch** (quick-pickled red onion, toasted seeds, crispy shallots)
+- **Knife-work produce** cut once, labeled by recipe and day
+
+Each dinner then = protein + sauce + base + veg + crunch, recombined so no two nights taste the same.
+In recipe JSON, list shared prep in an optional `components: [...]` field so the prep guide can merge them.
+
+Write `prep.phases` in leverage order: longest/passive cooks start first, then knife work while the oven runs, then sauces, then everything else.
+Tag every item with what it feeds and a container label. Mark anything that freezes well with `freeze` (make 2x, vacuum seal half for week 2).
 
 ---
 
@@ -250,6 +319,7 @@ Intake saved to `weekly/{week_date}/intake.json`.
 
 Files that should always be committed before pushing to Render:
 - `references/recipe_library.json`
+- `references/on_hand.json`
 - `weekly/YYYY-MM-DD/meal_plan.json`
 - `weekly/YYYY-MM-DD/grocery_list.json`
 

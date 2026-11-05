@@ -4,6 +4,8 @@ Last updated: 2026-05-04
 These items are considered always-stocked. They are excluded from the weekly grocery list.
 Update this file whenever a staple runs out or a new one is added permanently.
 
+**Freezer and fridge inventory (ButcherBox etc.) lives in `references/on_hand.json`.** This file is shelf-stable staples only.
+
 ---
 
 ## Grains & Dry Goods
