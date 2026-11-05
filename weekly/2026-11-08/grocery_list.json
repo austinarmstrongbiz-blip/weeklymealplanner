@@ -1,0 +1,172 @@
+{
+  "week_date": "2026-11-08",
+  "week_start": "November 8",
+  "week_end": "November 14, 2026",
+  "placeholder": true,
+  "budget": "PLACEHOLDER",
+  "categories": {
+    "Produce": [
+      {
+        "name": "Parsley",
+        "qty": "2 bunches",
+        "for": "Chimichurri, herb yogurt",
+        "use_window": "early"
+      },
+      {
+        "name": "Cilantro",
+        "qty": "1 bunch",
+        "for": "Jaew, Thai beef salad",
+        "use_window": "early"
+      },
+      {
+        "name": "Mint",
+        "qty": "1 bunch",
+        "for": "Thai beef salad",
+        "use_window": "early"
+      },
+      {
+        "name": "English cucumber",
+        "qty": "2",
+        "for": "Gyros, Thai beef salad",
+        "use_window": "early"
+      },
+      {
+        "name": "Thai basil",
+        "qty": "1 bunch",
+        "for": "Thai basil shrimp (Fri)",
+        "use_window": "early",
+        "buy": "midcycle"
+      },
+      {
+        "name": "Red bell pepper",
+        "qty": "2",
+        "for": "Thai beef salad, lunch bowls",
+        "use_window": "mid"
+      },
+      {
+        "name": "Scallions",
+        "qty": "1 bunch",
+        "for": "Lunch bowls, salmon",
+        "use_window": "mid"
+      },
+      {
+        "name": "Limes",
+        "qty": "6",
+        "for": "Jaew, gochujang-lime",
+        "use_window": "mid"
+      },
+      {
+        "name": "Lemons",
+        "qty": "3",
+        "for": "Chicken, yogurt",
+        "use_window": "late"
+      },
+      {
+        "name": "Red onion",
+        "qty": "3",
+        "for": "Pickles, gyros, kofta",
+        "use_window": "late"
+      },
+      {
+        "name": "Sweet potatoes",
+        "qty": "2",
+        "for": "Lunch bowls",
+        "use_window": "late"
+      },
+      {
+        "name": "Delicata squash",
+        "qty": "1",
+        "for": "Wed salmon bowl",
+        "use_window": "late"
+      },
+      {
+        "name": "Green cabbage",
+        "qty": "1 small",
+        "for": "Fri slaw + week 2",
+        "use_window": "late"
+      },
+      {
+        "name": "Carrots",
+        "qty": "1 lb",
+        "for": "Slaw",
+        "use_window": "late"
+      },
+      {
+        "name": "Garlic",
+        "qty": "2 heads",
+        "for": "Everything",
+        "use_window": "late"
+      }
+    ],
+    "Proteins": [
+      {
+        "name": "Boneless skinless chicken thighs",
+        "qty": "2 lb",
+        "for": "Lemon chicken lunches"
+      },
+      {
+        "name": "Whole chicken (spatchcock)",
+        "qty": "~4 lb",
+        "for": "Sat smoker"
+      },
+      {
+        "name": "Salmon fillet",
+        "qty": "10 oz",
+        "for": "Wed (Cameron)"
+      },
+      {
+        "name": "Shrimp, frozen",
+        "qty": "1 lb",
+        "for": "Fri"
+      },
+      {
+        "name": "ON HAND · ButcherBox ground sirloin, flat iron",
+        "qty": "—",
+        "for": "Not bought: from the freezer"
+      }
+    ],
+    "Dairy & Eggs": [
+      {
+        "name": "Plain nonfat Greek yogurt",
+        "qty": "32 oz",
+        "for": "Herb yogurt, breakfast bowls"
+      },
+      {
+        "name": "Eggs / egg whites",
+        "qty": "1 dozen + 1 carton",
+        "for": "Frittata cups"
+      },
+      {
+        "name": "Feta",
+        "qty": "6 oz",
+        "for": "Gyros, frittata cups"
+      }
+    ],
+    "Grains & Dry Goods": [
+      {
+        "name": "Farro",
+        "qty": "1½ cups",
+        "for": "Lunch bowls"
+      },
+      {
+        "name": "Pita",
+        "qty": "1 pack",
+        "for": "Gyro plates"
+      }
+    ],
+    "Canned & Jarred": [
+      {
+        "name": "Edamame, frozen shelled",
+        "qty": "12 oz",
+        "for": "Lunch bowls"
+      }
+    ],
+    "Pantry / Other": [
+      {
+        "name": "White miso",
+        "qty": "1 small tub",
+        "for": "Wed salmon"
+      }
+    ]
+  }
+}
