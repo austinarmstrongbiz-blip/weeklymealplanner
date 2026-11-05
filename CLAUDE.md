@@ -100,7 +100,7 @@ Render free tier has **ephemeral filesystem**. Data written via API is lost on e
 
 **Fix:** All data must be committed to git. `_init_data_dir()` in `server.py` copies from the git clone into `/data` on every cold start.
 
-**In-app Chat:** `scripts/chat.py` behind `POST /api/chat`. Needs `ANTHROPIC_API_KEY` set in the Render dashboard (and `pip install -r requirements.txt`, which the Render build runs). Set `CHAT_PASSCODE` too, since the app URL is public. Without a key, the Chat tab falls back to local keyword search. Chat never writes on its own: it proposes swaps and recipes as cards the user taps to apply, and those writes are ephemeral on Render like any other API write.
+**In-app Chat:** `scripts/chat.py` behind `POST /api/chat`. Needs `ANTHROPIC_API_KEY` set in the Render dashboard (and `pip install -r requirements.txt`, which the Render build runs). Set `CHAT_PASSCODE` too, since the app URL is public. Routing: quick lookups use Haiku 5.5, anything that plans/writes/swaps uses Sonnet 5.5 (`pick_model` in chat.py); `CHAT_MODEL` forces one model. Without a key, the Chat tab falls back to local keyword search. Chat never writes on its own: it proposes swaps and recipes as cards the user taps to apply, and those writes are ephemeral on Render like any other API write.
 
 **Rule:** Any new recipe, weekly plan, or grocery list must be committed and pushed to GitHub before it will survive a Render restart. Never rely on Render's filesystem for persistence.
 

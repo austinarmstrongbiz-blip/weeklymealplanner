@@ -3,8 +3,15 @@
   "last_updated": "2026-11-05",
   "butcherbox": {
     "plan": "Signature Box, Medium",
-    "cadence": "unconfirmed (check the ButcherBox account)",
-    "notes": "Everything arrives frozen. Keep it frozen. Thaw in the fridge on the schedule in each week's prep.thaw phase, never on the counter. Vacuum-sealed packs thaw fastest in a cold-water bath (about 30 min per lb) if a thaw gets missed."
+    "cadence": "every 4 weeks (Nov 2 order → next processes Nov 30)",
+    "notes": "Everything arrives frozen. Keep it frozen. Thaw in the fridge on the schedule in each week's prep.thaw phase, never on the counter. Vacuum-sealed packs thaw fastest in a cold-water bath (about 30 min per lb) if a thaw gets missed.",
+    "price": "~$179 list (Signature Medium)",
+    "last_order": {
+      "processed": "2026-11-02",
+      "arrives": "2026-11-03 to 2026-11-06"
+    },
+    "next_processes": "2026-11-30",
+    "customize_by": "2026-11-29 (reminder on Google Calendar 2026-11-23)"
   },
   "freezer": [
     {
@@ -15,8 +22,21 @@
       "packs": "2 x 1 lb (verify on arrival)",
       "status": "incoming",
       "thaw": "24 hr in fridge per 1 lb pack",
-      "macros_per_4oz_raw": { "cal": 200, "p": 23, "f": 11, "c": 0 },
-      "good_for": ["smash burgers on the Loco flat-top", "kofta", "larb", "bolognese", "taco meat", "stuffed peppers", "Korean beef bowls"]
+      "macros_per_4oz_raw": {
+        "cal": 200,
+        "p": 23,
+        "f": 11,
+        "c": 0
+      },
+      "good_for": [
+        "smash burgers on the Loco flat-top",
+        "kofta",
+        "larb",
+        "bolognese",
+        "taco meat",
+        "stuffed peppers",
+        "Korean beef bowls"
+      ]
     },
     {
       "id": "bb-flat-iron",
@@ -25,8 +45,19 @@
       "qty": "4 x 6 oz",
       "status": "incoming",
       "thaw": "24 hr in fridge",
-      "macros_per_4oz_raw": { "cal": 180, "p": 22, "f": 10, "c": 0 },
-      "good_for": ["steak salad", "chimichurri steak", "steak frites", "Thai crying tiger beef", "sliced steak grain bowls"],
+      "macros_per_4oz_raw": {
+        "cal": 180,
+        "p": 22,
+        "f": 10,
+        "c": 0
+      },
+      "good_for": [
+        "steak salad",
+        "chimichurri steak",
+        "steak frites",
+        "Thai crying tiger beef",
+        "sliced steak grain bowls"
+      ],
       "notes": "Cook hot and fast to medium-rare, rest, and slice against the grain. A 6 oz steak is exactly one Cameron dinner portion with leftovers for lunch, or half an Austin portion."
     },
     {
@@ -36,8 +67,17 @@
       "qty": "1 x 14 oz",
       "status": "incoming",
       "thaw": "24-36 hr in fridge",
-      "macros_per_4oz_raw": { "cal": 290, "p": 20, "f": 23, "c": 0 },
-      "good_for": ["date-night steak", "reverse sear on the smoker", "sliced over a shared salad"],
+      "macros_per_4oz_raw": {
+        "cal": 290,
+        "p": 20,
+        "f": 23,
+        "c": 0
+      },
+      "good_for": [
+        "date-night steak",
+        "reverse sear on the smoker",
+        "sliced over a shared salad"
+      ],
       "notes": "Fattiest cut in the box. Best as a split 'treat' dinner (two portions sliced), not an everyday macro protein."
     },
     {
@@ -47,8 +87,19 @@
       "qty": "1 lb",
       "status": "incoming",
       "thaw": "12-24 hr in fridge",
-      "macros_per_4oz_raw": { "cal": 170, "p": 23, "f": 8, "c": 0 },
-      "good_for": ["stir fry", "fajitas", "beef and broccoli", "Philly cheesesteak", "bulgogi"],
+      "macros_per_4oz_raw": {
+        "cal": 170,
+        "p": 23,
+        "f": 8,
+        "c": 0
+      },
+      "good_for": [
+        "stir fry",
+        "fajitas",
+        "beef and broccoli",
+        "Philly cheesesteak",
+        "bulgogi"
+      ],
       "notes": "Pre-cut, so it's the fastest weeknight protein. Marinate straight from thawed."
     },
     {
@@ -58,8 +109,19 @@
       "qty": "~3 lb",
       "status": "incoming",
       "thaw": "24 hr in fridge",
-      "macros_per_4oz_raw_with_skin": { "cal": 250, "p": 20, "f": 18, "c": 0 },
-      "good_for": ["air-fryer wings", "smoked wings", "gochujang wings", "lemon-pepper wings", "wing stock from the tips"],
+      "macros_per_4oz_raw_with_skin": {
+        "cal": 250,
+        "p": 20,
+        "f": 18,
+        "c": 0
+      },
+      "good_for": [
+        "air-fryer wings",
+        "smoked wings",
+        "gochujang wings",
+        "lemon-pepper wings",
+        "wing stock from the tips"
+      ],
       "notes": "Low protein per calorie (lots of bone and skin). Use as a fun dinner paired with a big high-protein side, or as a game-day meal. Save the tips in a freezer bag for stock."
     },
     {
@@ -69,8 +131,19 @@
       "qty": "2 lb",
       "status": "incoming",
       "thaw": "24 hr in fridge, or slice from frozen",
-      "macros_per_4oz_raw": { "cal": 320, "p": 16, "f": 27, "c": 1 },
-      "good_for": ["sausage and white bean soup", "sheet-pan sausage and peppers", "orecchiette with sausage and greens", "sausage ragu", "breakfast hash"],
+      "macros_per_4oz_raw": {
+        "cal": 320,
+        "p": 16,
+        "f": 27,
+        "c": 1
+      },
+      "good_for": [
+        "sausage and white bean soup",
+        "sheet-pan sausage and peppers",
+        "orecchiette with sausage and greens",
+        "sausage ragu",
+        "breakfast hash"
+      ],
       "notes": "Higher fat, so treat it as a flavor base, not the main protein. 1 lb of sausage stretched with beans or greens feeds four portions. Pair with chicken or turkey to hit protein."
     }
   ],

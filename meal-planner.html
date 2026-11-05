@@ -628,6 +628,7 @@ select.form-control { cursor: pointer; }
 }
 .chat-action-card { margin-top: 10px; padding: 12px; border: 1px solid var(--green); border-radius: 10px; background: var(--surface, #fff); display: flex; flex-direction: column; gap: 4px; }
 .chat-action-card ul, .chat-action-card ol { margin: 6px 0 0 18px; }
+.chat-model-tag { margin-top: 8px; font-size: 10px; letter-spacing: .4px; text-transform: uppercase; color: var(--muted); }
 .chat-action-btn { align-self: flex-start; margin-top: 6px; }
 .chat-typing {
   display: flex; gap: 4px; padding: 6px 0;
@@ -3699,6 +3700,12 @@ async function handleChatSend() {
     container.removeChild(typingDiv);
     const div = appendChatMessage('bot', chatFormat(d.reply), recipesMentioned(d.reply));
     if (d.actions?.length) renderChatActions(div.querySelector('.chat-bubble'), d.actions);
+    if (d.model) {
+      const tag = document.createElement('div');
+      tag.className = 'chat-model-tag';
+      tag.textContent = d.model.includes('haiku') ? 'Haiku · quick answer' : d.model.includes('sonnet') ? 'Sonnet · planning' : d.model;
+      div.querySelector('.chat-bubble').appendChild(tag);
+    }
   } catch (e) {
     CHAT.history.pop(); // let them resend
     container.removeChild(typingDiv);

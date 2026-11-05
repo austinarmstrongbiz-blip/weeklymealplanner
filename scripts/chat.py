@@ -13,7 +13,7 @@ restart.
 
 Env:
   ANTHROPIC_API_KEY   required
-  CHAT_MODEL          optional, defaults to claude-opus-5-5
+  CHAT_MODEL          optional; forces one model for every message (skips routing)
   CHAT_PASSCODE       optional; when set, requests must send header X-Chat-Passcode
 """
 
@@ -22,8 +22,27 @@ import os
 import re
 from pathlib import Path
 
-MODEL = os.environ.get('CHAT_MODEL', 'claude-opus-5-5')
+# Routing: quick lookups go to Haiku, anything that plans, writes or changes
+# things goes to Sonnet. CHAT_MODEL overrides both.
+SIMPLE_MODEL = 'claude-haiku-5-5'
+COMPLEX_MODEL = 'claude-sonnet-5-5'
 MAX_TOOL_ROUNDS = 8
+
+_COMPLEX_WORDS = re.compile(
+    r'\b(swap|replace|change|plan|recipe\w*|idea\w*|week|cycle|prep|create|write|new recipe|invent|adapt|'
+    r'convert|substitut\w*|macro\w*|calorie\w*|protein|budget|cost|cheaper|grocer\w*|'
+    r'compare|optimi[sz]e|redo|rework|build|design|schedule|leftover\w*|use up)\b', re.I)
+
+
+def pick_model(messages):
+    """Return (model, effort) for this turn."""
+    forced = os.environ.get('CHAT_MODEL')
+    if forced:
+        return forced, 'medium'
+    text = messages[-1]['content'] if isinstance(messages[-1]['content'], str) else ''
+    if len(text) > 220 or _COMPLEX_WORDS.search(text):
+        return COMPLEX_MODEL, 'medium'
+    return SIMPLE_MODEL, 'low'
 
 
 class ChatError(Exception):
@@ -265,6 +284,7 @@ def run_chat(root, data_root, payload):
         raise ChatError('The anthropic package is not installed (pip install -r requirements.txt).', 503)
 
     messages = _clean_history(payload.get('messages') or [])
+    model, effort = pick_model(messages)
     ctx = {'data_root': data_root, 'week_date': payload.get('week_date'), 'actions': []}
 
     # The week being viewed changes per request, so it rides on the user turn,
@@ -281,16 +301,14 @@ def run_chat(root, data_root, payload):
 
     for _ in range(MAX_TOOL_ROUNDS):
         try:
-            resp = client.beta.messages.create(
-                model=MODEL,
-                max_tokens=16000,
-                system=system,
-                tools=TOOLS,
-                messages=messages,
-                output_config={'effort': 'medium'},
-                betas=['server-side-fallback-2026-07-01'],
-                fallbacks='default',
-            )
+            kwargs = dict(model=model, max_tokens=16000, system=system, tools=TOOLS,
+                          messages=messages, output_config={'effort': effort})
+            if model.startswith('claude-sonnet-5-5') or model.startswith('claude-opus'):
+                # Server-side refusal fallback (not offered for Haiku).
+                kwargs.update(betas=['server-side-fallback-2026-07-01'], fallbacks='default')
+                resp = client.beta.messages.create(**kwargs)
+            else:
+                resp = client.messages.create(**kwargs)
         except anthropic.AuthenticationError:
             raise ChatError('The Anthropic API key was rejected.', 502)
         except anthropic.RateLimitError:
@@ -301,13 +319,13 @@ def run_chat(root, data_root, payload):
             raise ChatError('Could not reach the Anthropic API.', 502)
 
         if resp.stop_reason == 'refusal':
-            return {'reply': "Sorry, I can't help with that one.", 'actions': ctx['actions']}
+            return {'reply': "Sorry, I can't help with that one.", 'actions': ctx['actions'], 'model': model}
 
         if resp.stop_reason != 'tool_use':
             text = '\n'.join(b.text for b in resp.content if b.type == 'text').strip()
             if resp.stop_reason == 'max_tokens':
                 text += '\n\n(Reply was cut off. Ask me to continue.)'
-            return {'reply': text, 'actions': ctx['actions']}
+            return {'reply': text, 'actions': ctx['actions'], 'model': model}
 
         messages.append({'role': 'assistant', 'content': resp.content})
         results = []
@@ -323,4 +341,4 @@ def run_chat(root, data_root, payload):
                                 'content': f'Tool failed: {e}', 'is_error': True})
         messages.append({'role': 'user', 'content': results})
 
-    return {'reply': 'That took too many lookups. Try a narrower question.', 'actions': ctx['actions']}
+    return {'reply': 'That took too many lookups. Try a narrower question.', 'actions': ctx['actions'], 'model': model}
