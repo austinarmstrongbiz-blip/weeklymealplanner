@@ -24949,6 +24949,699 @@
         "Taste for salt and lemon."
       ],
       "batch_note": "About 6g of protein per \u00bc cup, so it lifts Cameron's lunch protein compared with an oil dressing."
+    },
+    {
+      "id": "satay-peanut-glazed-chicken-coconut-rice-rd135",
+      "name": "Satay Peanut-Glazed Chicken with Coconut Rice & Edamame Salad",
+      "cuisine": "Thai",
+      "meal_type": "dinner",
+      "prep": "10 min (glaze, vinaigrette and rice made ahead)",
+      "cook": "20 min",
+      "total": "25 min",
+      "spice_level": "Medium Austin (all the jalape\u00f1o) | Mild Cameron (jalape\u00f1o left out of her salad)",
+      "serving_note": "Source serves 2 with equal plates. Rotisserie chicken is ~54 cal and 7.5g P per oz with skin; Cameron's is skinless breast. Macros are estimates from standard ingredient values.",
+      "tags": [
+        "chicken",
+        "fall-2026",
+        "fall-dinners",
+        "high-protein",
+        "imported",
+        "oct-2026",
+        "rd-week-135",
+        "restaurant-dropout",
+        "rotisserie",
+        "spicy",
+        "thai"
+      ],
+      "equipment": "Breville Smart Oven Pro, rice cooker or saucepan",
+      "source": "Adapted from Restaurant Dropout Week 135 (10.16.2026)",
+      "macro_strings": {
+        "austin": "790 cal | 68g P | 39g F | 41g C",
+        "cameron": "445 cal | 42g P | 19g F | 28g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 790,
+          "p": 68,
+          "f": 39,
+          "c": 41
+        },
+        "cameron": {
+          "cal": 445,
+          "p": 42,
+          "f": 19,
+          "c": 28
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Rotisserie chicken thighs, drumsticks and wings",
+          "qty": "about 1 lb of pieces, skin on for Austin"
+        },
+        {
+          "name": "Rotisserie chicken breast, skin removed (Cameron's portion)",
+          "qty": "4 oz"
+        },
+        {
+          "name": "Persian cucumbers, thinly sliced",
+          "qty": "1\u00bd cups (about 2)"
+        },
+        {
+          "name": "Shelled edamame, frozen and thawed",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Fresh cilantro, finely chopped",
+          "qty": "\u00bd cup"
+        },
+        {
+          "name": "Scallion greens, thinly sliced",
+          "qty": "3 tbsp"
+        },
+        {
+          "name": "Jalape\u00f1o, thinly sliced",
+          "qty": "1 (about 2 tbsp)"
+        },
+        {
+          "name": "Nuoc Cham Vinaigrette (component)",
+          "qty": "\u00bc cup"
+        },
+        {
+          "name": "Satay Peanut Glaze (component)",
+          "qty": "\u00bc cup"
+        },
+        {
+          "name": "Sesame seeds",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Coconut Rice (component), warmed",
+          "qty": "1 batch (you'll use about 1 cup)"
+        }
+      ],
+      "instructions": [
+        "Heat the oven to 400\u00b0F (Breville, convection off).",
+        "Spread the rotisserie chicken pieces on an unlined sheet pan. Bake 15 minutes.",
+        "Meanwhile toss the cucumbers, edamame, cilantro, scallion greens, jalape\u00f1o and Nuoc Cham Vinaigrette in a bowl.",
+        "Brush the Satay Peanut Glaze over the chicken, sprinkle with sesame seeds and bake 5 more minutes. Warm Cameron's skinless breast in the same pan for the last 5 minutes.",
+        "Rice into shallow bowls, salad on top, chicken on the side.",
+        "AUSTIN: about 7 oz rotisserie meat (thigh, drumstick and wing), 2 tbsp glaze, \u2153 cup coconut rice, \u00bd cup edamame in the salad, 1 tbsp vinaigrette, all the jalape\u00f1o.",
+        "CAMERON: 4 oz skinless breast, 1 tbsp glaze, \u00bc cup coconut rice, \u2153 cup edamame, 2 tsp vinaigrette. Leave the jalape\u00f1o out of her salad."
+      ],
+      "batch_note": "Glaze, vinaigrette and rice are Sunday components; the night itself is 25 minutes. The same rotisserie chicken feeds the soup and the soba salad.",
+      "cameron_note": "Skinless breast, a little glaze and rice, and extra salad. About 445 cal and 42g protein.",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "thai-red-curry-noodle-soup-rd135",
+      "name": "Thai Red Curry Noodle Soup",
+      "cuisine": "Thai",
+      "meal_type": "dinner",
+      "prep": "10 min (curry base made ahead)",
+      "cook": "20 min",
+      "total": "25 min",
+      "spice_level": "Medium Austin (chili crunch on top) | Mild Cameron (no chili crunch)",
+      "serving_note": "Source serves 2 equal bowls. The base is rich (coconut milk and sugar), so Austin's bowl takes about half of it and Cameron's about 40%. Macros are estimates.",
+      "tags": [
+        "chicken",
+        "fall-2026",
+        "fall-dinners",
+        "high-protein",
+        "imported",
+        "noodles",
+        "oct-2026",
+        "one-pot",
+        "rd-week-135",
+        "restaurant-dropout",
+        "soup",
+        "thai"
+      ],
+      "equipment": "Large saucepan, steamer basket",
+      "source": "Adapted from Restaurant Dropout Week 135 (10.16.2026)",
+      "macro_strings": {
+        "austin": "810 cal | 63g P | 40g F | 42g C",
+        "cameron": "480 cal | 36g P | 22g F | 28g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 810,
+          "p": 63,
+          "f": 40,
+          "c": 42
+        },
+        "cameron": {
+          "cal": 480,
+          "p": 36,
+          "f": 22,
+          "c": 28
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Neutral oil",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Red bell pepper, thinly sliced",
+          "qty": "1 heaping cup (about 1)"
+        },
+        {
+          "name": "Scallion whites, thinly sliced",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Thai Red Curry Soup Base (component)",
+          "qty": "1 batch (about 1 cup)"
+        },
+        {
+          "name": "Chicken stock",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Fish sauce",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Shredded rotisserie chicken",
+          "qty": "2\u00bd cups (about 12 oz; Austin 7\u00bd oz, Cameron 4 oz)"
+        },
+        {
+          "name": "Fresh ramen or egg noodles",
+          "qty": "5 oz (source uses 8 oz)"
+        },
+        {
+          "name": "Fresh cilantro, roughly chopped",
+          "qty": "\u00bd cup"
+        },
+        {
+          "name": "Scallion greens, thinly sliced",
+          "qty": "\u00bc cup"
+        },
+        {
+          "name": "Soft-boiled eggs, halved (optional, not in the macros)",
+          "qty": "2"
+        },
+        {
+          "name": "Chili crunch (Austin only)",
+          "qty": "to taste"
+        },
+        {
+          "name": "Lime, in wedges",
+          "qty": "1"
+        }
+      ],
+      "instructions": [
+        "Heat the oil in a large saucepan over medium. Cook the bell pepper and scallion whites about 4 minutes until tender.",
+        "Lower the heat, add the curry base, stock and fish sauce. Simmer 10 minutes.",
+        "Steam the shredded chicken over 2 inches of simmering water, covered, about 5 minutes until hot.",
+        "Cook the noodles in a pot of boiling water to package time and drain well.",
+        "AUSTIN: 3 oz noodles, about 7\u00bd oz chicken (1\u00bd cups), half the soup, chili crunch, cilantro, lime.",
+        "CAMERON: 2 oz noodles, 4 oz skinless chicken, about 40% of the soup, cilantro and lime. No chili crunch."
+      ],
+      "batch_note": "Curry base keeps 5 days. The chicken is the same rotisserie bird as the satay chicken and soba salad.",
+      "cameron_note": "Smaller noodle and soup portion, white meat only. About 480 cal and 36g protein.",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "peanut-soba-noodle-salad-rd135",
+      "name": "Peanut Soba Noodle Salad",
+      "cuisine": "Thai",
+      "meal_type": "lunch",
+      "prep": "10 min",
+      "cook": "10 min",
+      "total": "10 min",
+      "spice_level": "Medium Austin (jalape\u00f1o) | Mild Cameron (jalape\u00f1o left out)",
+      "serving_note": "Source makes 3 to 4 servings (its step says two bowls). Austin's plate is about \u2155 of the noodles and sauce plus 6 oz chicken; Cameron's about \u2152 plus 4 oz skinless chicken. Cold leftovers keep 3 days. Macros are estimates.",
+      "tags": [
+        "batch-friendly",
+        "chicken",
+        "cold",
+        "fall-2026",
+        "fall-dinners",
+        "high-protein",
+        "imported",
+        "no-cook",
+        "noodles",
+        "oct-2026",
+        "rd-week-135",
+        "restaurant-dropout",
+        "thai"
+      ],
+      "equipment": "Large pot, big mixing bowl",
+      "source": "Adapted from Restaurant Dropout Week 135 (10.16.2026)",
+      "macro_strings": {
+        "austin": "715 cal | 60g P | 30g F | 54g C",
+        "cameron": "368 cal | 40g P | 12g F | 27g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 715,
+          "p": 60,
+          "f": 30,
+          "c": 54
+        },
+        "cameron": {
+          "cal": 368,
+          "p": 40,
+          "f": 12,
+          "c": 27
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Soba noodles",
+          "qty": "9.5 oz"
+        },
+        {
+          "name": "Nuoc Cham Vinaigrette (component)",
+          "qty": "\u2153 cup"
+        },
+        {
+          "name": "Satay Peanut Glaze (component)",
+          "qty": "\u00bd cup"
+        },
+        {
+          "name": "Scallion greens, thinly sliced, plus more to garnish",
+          "qty": "3 tbsp"
+        },
+        {
+          "name": "Scallion whites, thinly sliced",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Jalape\u00f1o, thinly sliced",
+          "qty": "1 (about 2 tbsp)"
+        },
+        {
+          "name": "Shelled edamame, frozen and thawed",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Fresh cilantro, finely chopped, plus leaves to garnish",
+          "qty": "\u00bc cup"
+        },
+        {
+          "name": "Sesame seeds",
+          "qty": "2 tsp"
+        },
+        {
+          "name": "Persian cucumbers, halved and thinly sliced",
+          "qty": "2 (about 1 heaping cup)"
+        },
+        {
+          "name": "Red bell pepper, thinly sliced",
+          "qty": "1 cup (1 pepper)"
+        },
+        {
+          "name": "Shredded rotisserie chicken, served on top (not tossed in)",
+          "qty": "about 2 cups (Austin 6 oz, Cameron 4 oz skinless)"
+        }
+      ],
+      "instructions": [
+        "Boil the soba to package time, drain and rinse under cold water.",
+        "Whisk the vinaigrette and satay glaze in a large bowl until smooth.",
+        "Add both scallions, jalape\u00f1o, edamame, cilantro, sesame seeds, cucumbers, bell pepper and the noodles. Toss until coated. The chicken goes on top, not in the bowl.",
+        "Top each bowl with chicken and garnish with scallion greens and cilantro.",
+        "AUSTIN: about \u2155 of the noodle salad plus 6 oz shredded chicken on top.",
+        "CAMERON: about \u2152 of the noodle salad (use the least-dressed noodles, no jalape\u00f1o) plus 4 oz skinless chicken breast."
+      ],
+      "batch_note": "Dress it Sunday and portion into containers; it holds 3 days cold. Chicken on top (6 oz instead of the source's 2 cups tossed through) is what gets Austin to 60g.",
+      "cameron_note": "A small noodle portion with most of the volume as chicken and veg. About 368 cal and 40g protein.",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "thai-red-curry-soup-base-rd135",
+      "name": "Thai Red Curry Soup Base",
+      "cuisine": "Thai",
+      "meal_type": "component",
+      "prep": "10 min",
+      "cook": "20 min",
+      "total": "30 min",
+      "spice_level": "Varies",
+      "serving_note": "Makes about 1 cup. Macros are counted in the dishes that use it.",
+      "tags": [
+        "component",
+        "fall-2026",
+        "fall-dinners",
+        "imported",
+        "oct-2026",
+        "rd-week-135",
+        "restaurant-dropout",
+        "sauce",
+        "thai",
+        "vegetarian-friendly"
+      ],
+      "equipment": "Small saucepan, fine-mesh sieve",
+      "source": "Adapted from Restaurant Dropout Week 135 (10.16.2026)",
+      "macro_strings": {
+        "austin": null,
+        "cameron": null
+      },
+      "macros": {
+        "austin": null,
+        "cameron": null
+      },
+      "storage_note": "Airtight container in the fridge.",
+      "keeps": "5 days",
+      "freezes": "Yes, 3 months. Whisk after thawing.",
+      "ingredients": [
+        {
+          "name": "Unsweetened canned coconut milk",
+          "qty": "\u00bd cup"
+        },
+        {
+          "name": "Shallot, diced",
+          "qty": "1"
+        },
+        {
+          "name": "Ginger, julienned",
+          "qty": "1-inch piece"
+        },
+        {
+          "name": "Lemongrass, thinly sliced",
+          "qty": "4-inch piece"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "\u00bd tsp"
+        },
+        {
+          "name": "Thai red curry paste",
+          "qty": "4 tbsp"
+        },
+        {
+          "name": "Chicken stock",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Brown sugar",
+          "qty": "1 tbsp"
+        }
+      ],
+      "instructions": [
+        "Heat the coconut milk in a small saucepan over medium about 9 minutes, stirring now and then, until it splits and a light fond forms on the pan.",
+        "Add the shallot, ginger, lemongrass and salt. Cook about 4 minutes until soft.",
+        "Stir in the curry paste and cook 2 minutes until the fond caramelizes and coats the aromatics.",
+        "Pour in the stock, scraping up the browned bits. Add the brown sugar and simmer 15 minutes.",
+        "Press the mixture through a fine-mesh sieve over a bowl, squeezing the aromatics, and discard the solids."
+      ],
+      "batch_note": "Made for the Thai Red Curry Noodle Soup.",
+      "cameron_note": "",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "satay-peanut-glaze-rd135",
+      "name": "Satay Peanut Glaze",
+      "cuisine": "Thai",
+      "meal_type": "component",
+      "prep": "5 min",
+      "cook": "0 min",
+      "total": "5 min",
+      "spice_level": "Varies",
+      "serving_note": "Makes about 1 cup. Macros are counted in the dishes that use it.",
+      "tags": [
+        "component",
+        "fall-2026",
+        "fall-dinners",
+        "imported",
+        "no-cook",
+        "oct-2026",
+        "rd-week-135",
+        "restaurant-dropout",
+        "sauce",
+        "thai",
+        "vegetarian-friendly"
+      ],
+      "equipment": "Small bowl, whisk",
+      "source": "Adapted from Restaurant Dropout Week 135 (10.16.2026)",
+      "macro_strings": {
+        "austin": null,
+        "cameron": null
+      },
+      "macros": {
+        "austin": null,
+        "cameron": null
+      },
+      "storage_note": "Airtight container in the fridge.",
+      "keeps": "1 week",
+      "freezes": "Yes, 3 months. Loosen with a splash of water after thawing.",
+      "ingredients": [
+        {
+          "name": "Salted peanut butter",
+          "qty": "\u00bd cup"
+        },
+        {
+          "name": "Brown sugar",
+          "qty": "3 tbsp"
+        },
+        {
+          "name": "Low-sodium soy sauce",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Unsweetened canned coconut milk",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Thai red curry paste",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Lime, juiced",
+          "qty": "1"
+        },
+        {
+          "name": "Garlic clove, grated",
+          "qty": "1"
+        }
+      ],
+      "instructions": [
+        "Whisk everything in a small bowl until smooth.",
+        "Transfer to a jar or airtight container and refrigerate."
+      ],
+      "batch_note": "Used on the satay chicken and in the soba salad. About 63 cal per tbsp.",
+      "cameron_note": "",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "nuoc-cham-vinaigrette-rd135",
+      "name": "Nuoc Cham Vinaigrette",
+      "cuisine": "Vietnamese",
+      "meal_type": "component",
+      "prep": "10 min",
+      "cook": "0 min",
+      "total": "10 min",
+      "spice_level": "Varies",
+      "serving_note": "Makes about \u00be cup. Macros are counted in the dishes that use it.",
+      "tags": [
+        "component",
+        "fall-2026",
+        "fall-dinners",
+        "imported",
+        "no-cook",
+        "oct-2026",
+        "rd-week-135",
+        "restaurant-dropout",
+        "sauce",
+        "vietnamese"
+      ],
+      "equipment": "Small bowl, whisk",
+      "source": "Adapted from Restaurant Dropout Week 135 (10.16.2026)",
+      "macro_strings": {
+        "austin": null,
+        "cameron": null
+      },
+      "macros": {
+        "austin": null,
+        "cameron": null
+      },
+      "storage_note": "Airtight container in the fridge.",
+      "keeps": "1 week",
+      "freezes": "Not recommended. Fresh lime and garlic lose their punch.",
+      "ingredients": [
+        {
+          "name": "Limes, juiced",
+          "qty": "3"
+        },
+        {
+          "name": "Brown sugar",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Fish sauce",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Garlic cloves, finely minced",
+          "qty": "4"
+        },
+        {
+          "name": "Serrano, thinly sliced",
+          "qty": "1"
+        },
+        {
+          "name": "Neutral oil",
+          "qty": "\u00bc cup"
+        }
+      ],
+      "instructions": [
+        "Whisk everything in a small bowl until the sugar dissolves.",
+        "Transfer to a jar and refrigerate; shake before using."
+      ],
+      "batch_note": "Used on the satay chicken salad and the soba salad.",
+      "cameron_note": "",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "coconut-rice-rd135",
+      "name": "Coconut Rice",
+      "cuisine": "Thai",
+      "meal_type": "component",
+      "prep": "5 min",
+      "cook": "20 min",
+      "total": "35 min (includes a 15-minute rest)",
+      "spice_level": "Varies",
+      "serving_note": "Makes about 3 cups. Macros are counted in the dishes that use it.",
+      "tags": [
+        "component",
+        "fall-2026",
+        "fall-dinners",
+        "grain",
+        "imported",
+        "oct-2026",
+        "rd-week-135",
+        "restaurant-dropout",
+        "rice",
+        "thai",
+        "vegetarian"
+      ],
+      "equipment": "Lidded saucepan or rice cooker",
+      "source": "Adapted from Restaurant Dropout Week 135 (10.16.2026)",
+      "macro_strings": {
+        "austin": null,
+        "cameron": null
+      },
+      "macros": {
+        "austin": null,
+        "cameron": null
+      },
+      "storage_note": "Airtight container in the fridge.",
+      "keeps": "3 days",
+      "freezes": "Yes, 1 month. Reheat with a splash of water.",
+      "ingredients": [
+        {
+          "name": "Jasmine or long-grain white rice",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Unsweetened canned coconut milk",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Water",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Granulated sugar",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "1 tsp"
+        }
+      ],
+      "instructions": [
+        "Combine everything in a lidded saucepan and bring to a rolling boil over high heat. Stir once.",
+        "Reduce to low, cover and cook 20 minutes.",
+        "Turn off the heat and rest covered 15 minutes. Fluff with a fork."
+      ],
+      "batch_note": "About 390 cal per cup, so portion it. Austin gets \u2153 cup, Cameron \u00bc cup in the satay chicken.",
+      "cameron_note": "",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false,
+      "added_date": "2026-11-05"
     }
   ]
 }
