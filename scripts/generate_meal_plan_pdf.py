@@ -314,9 +314,9 @@ def build_cover(story, styles, pw):
 
     macro_data = [
         [Paragraph("AUSTIN", styles["TableHeader"]),
-         Paragraph("1,800–2,100 cal / day  |  150g+ protein  |  NO avocados (allergy)", styles["TableCell"])],
+         Paragraph("~1,800 cal / day (+300–400 on big workout days)  |  150g+ protein  |  No avocado (allergy)", styles["TableCell"])],
         [Paragraph("CAMERON", styles["TableHeader"]),
-         Paragraph("1,100–1,200 cal / day  |  90–100g protein  |  Loves avocados — add daily", styles["TableCell"])],
+         Paragraph("1,200–1,300 cal / day  |  90–100g protein  |  Can have avocado", styles["TableCell"])],
     ]
     mt = Table(macro_data, colWidths=[1.1*inch, cw-1.1*inch])
     mt.setStyle(TableStyle([

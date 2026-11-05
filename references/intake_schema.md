@@ -9,7 +9,7 @@ An intake is created each week before meal plan generation. It lives at:
 ## The 6 Questions
 
 ### Q1 — Schedule: Eat-Out or Skip Nights
-> "Which nights this week are you eating out, ordering in, or skipping dinner?"
+> "Which nights this week are you eating out, ordering in, or skipping dinner? Which days are Austin's big workouts?"
 
 Captures nights to exclude from home-cooking. The meal planner skips those dinners entirely
 (or marks them as "eating out") and adjusts batch prep accordingly.
@@ -17,6 +17,8 @@ Captures nights to exclude from home-cooking. The meal planner skips those dinne
 - Type: list of day names
 - Example: `["Wednesday", "Friday"]`
 - Default if skipped: `[]` (all 7 nights home-cooked)
+- Also stored: `workout_days` — list of day names for Austin's two big (1000+ cal) workouts.
+  Those days get +300–400 cal. Example: `["Tuesday", "Saturday"]`. Default if skipped: `[]`
 
 ---
 
@@ -65,7 +67,7 @@ Captures both Austin-specific and shared preferences.
 ---
 
 ### Q5 — Prep Availability
-> "How much time do you have for Sunday batch prep?"
+> "How much time do you have for weekend prep, and which day: Saturday, Sunday or both?"
 
 Determines complexity of the batch prep plan. Full session (2 hrs) allows smoker + full cooking.
 Short session means simpler, faster recipes and less ambitious batch work.
@@ -76,6 +78,7 @@ Short session means simpler, faster recipes and less ambitious batch work.
   - `minimal` — under 45 min (grab-and-go friendly, minimal cooking)
   - `none` — no Sunday prep (plan around pre-made or very simple meals)
 - Default if skipped: `"full"`
+- Also stored: `prep_days` — `["Saturday"]`, `["Sunday"]` or `["Saturday", "Sunday"]`. Default if skipped: `["Sunday"]`
 
 ---
 
@@ -83,7 +86,7 @@ Short session means simpler, faster recipes and less ambitious batch work.
 > "Any updates for Cameron this week? Dietary preferences, schedule, or anything different?"
 
 Catches Cameron-specific changes: low-carb week, traveling, not eating certain things,
-or changes to her avocado/spice preferences.
+or changes to her spice preferences.
 
 - Type: string (free text)
 - Example: `"Cameron is doing low-carb this week — keep her carbs under 40g per meal."`
@@ -109,6 +112,8 @@ or changes to her avocado/spice preferences.
     "reduce": ["protein_name", ...]
   },
   "prep_availability": "full | short | minimal | none",
+  "prep_days": ["Sunday"],
+  "workout_days": [],
   "cameron_notes": "free text",
   "calendar_eat_out_nights": ["DayName", ...],
   "generated_by": "questionnaire | calendar | manual"

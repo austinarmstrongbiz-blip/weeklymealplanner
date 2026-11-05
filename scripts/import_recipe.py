@@ -57,11 +57,14 @@ AUSTIN_AVOID = ['avocado', 'guacamole', 'mango', 'peach', 'cantaloupe',
                 'honeydew', 'watermelon', 'melon']
 CAMERON_ONLY_RE = re.compile(r'cameron\s*only|cameron\'s\s*only|for\s+cameron', re.I)
 
-# Per-meal targets (CLAUDE.md). Outside these → warning, not error.
+# Per-meal targets (CLAUDE.md, reset 2026-11-05). Outside these → warning, not error.
+# 'lunch' and 'snack' are the ~2-3pm afternoon holdover; dinner is the big meal.
+HOLDOVER = {'austin': (300, 350, 30), 'cameron': (200, 250, 20)}
 TARGETS = {
-    'breakfast': {'austin': (500, 600, 40), 'cameron': (250, 300, 22)},
-    'lunch':     {'austin': (650, 700, 55), 'cameron': (350, 400, 30)},
-    'dinner':    {'austin': (700, 800, 60), 'cameron': (450, 500, 35)},
+    'breakfast': {'austin': (450, 550, 35), 'cameron': (300, 375, 15)},
+    'lunch':     HOLDOVER,
+    'snack':     HOLDOVER,
+    'dinner':    {'austin': (900, 1000, 75), 'cameron': (650, 700, 50)},
 }
 TARGET_SLACK = 75  # cal of wiggle room before warning
 
@@ -473,7 +476,7 @@ def validate(r, lib, new_ids=()):
                     if m['p'] < pmin:
                         W(f"{who} {r['meal_type']} protein {m['p']}g is under {pmin}g "
                           f"— add protein or say how in cameron_note/batch_note")
-    if r['meal_type'] in ('breakfast', 'lunch', 'dinner'):
+    if r['meal_type'] in ('breakfast', 'dinner'):
         if not re.search(r'austin', ' '.join(r['instructions']), re.I):
             W("no AUSTIN: / CAMERON: portion lines in the instructions")
 

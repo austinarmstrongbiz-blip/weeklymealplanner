@@ -46,34 +46,50 @@ household health/
 
 | Person | Goal | Cal/day | Protein | Notes |
 |--------|------|---------|---------|-------|
-| **Austin** | Cutting | 1800–2100 | 150g min | No avocados (allergy). Can't really eat mango, peach, or melon (not severe, just avoid). High heat/spice. Can eat simple fuel. |
-| **Cameron** | Maintaining | 1100–1200 | 90–100g | Loves avocados. Needs strong flavor + sauce. Spice: mild-medium, building tolerance. |
+| **Austin** | Cutting, ~185 → 175 lb | ~1800 (1750–1900) | 150g+ | No avocado (allergy). Avoids mango, peach, melon. Loves heat. Fine with simple fuel meals. Two big workouts a week (1000+ cal burns each). |
+| **Cameron** | Maintaining | 1200–1300 | 90–100g | Can have avocado. Needs strong flavor + sauce. Spice: mild-medium, building tolerance. |
+
+### How they actually eat (updated 2026-11-05)
+
+A real breakfast, then nothing until about 2–3pm, when a snack or leftovers holds them over.
+**Dinner is the big meal** and carries most of the day's calories.
+
+- **Breakfast:** Austin has 2–3 eggs, a piece of toast, maybe leftover protein, and a sauce.
+  Cameron has an egg, sourdough toast and half an avocado.
+- **Afternoon holdover (~2–3pm):** leftovers from a recent dinner, or a quick high-protein snack
+  (Greek yogurt, cottage cheese, jerky, a protein shake, hard-boiled eggs). This is the `lunch` slot in
+  `meal_plan.json`; there's no separate prepped lunch.
+- **Dinner:** the main event. Biggest portions, most of the protein.
 
 ### Austin — Per-Meal Targets
 
 | Meal | Calories | Protein |
 |------|----------|---------|
-| Breakfast | 500–600 cal | 40–45g P |
-| Lunch | 650–700 cal | 55–60g P |
-| Dinner | 700–800 cal | 60–65g P |
-| **Daily total** | **1850–2100** | **150g+** |
+| Breakfast | 450–550 cal | 35–45g P (3 eggs + toast + 3–4 oz leftover protein + sauce) |
+| Afternoon holdover | 300–350 cal | 30–40g P |
+| Dinner | 900–1000 cal | 75–85g P |
+| **Daily total** | **1750–1900 (~1800)** | **150g+** |
+
+**Big workout days** (2 a week, 1000+ cal burned): add 300–400 cal, mostly carbs plus some protein,
+to dinner or as a second holdover. Don't cut on those days; it costs muscle and recovery.
 
 ### Cameron — Per-Meal Targets
 
 | Meal | Calories | Protein |
 |------|----------|---------|
-| Breakfast | 250–300 cal | 22–25g P |
-| Lunch | 350–400 cal | 30–35g P |
-| Dinner | 450–500 cal | 35–40g P |
-| **Daily total** | **1100–1200** | **90–100g** |
+| Breakfast | 300–375 cal | 15–20g P (egg + sourdough + ½ avocado; a 2nd egg or side of cottage cheese gets her protein there) |
+| Afternoon holdover | 200–250 cal | 20–25g P |
+| Dinner | 650–700 cal | 50–55g P |
+| **Daily total** | **1200–1300** | **90–100g** |
 
-**Cameron calorie target is significantly lower than Austin's.** Cameron's meals are always smaller portions of the same dish, or a lighter variant. Never serve her the same quantities as Austin.
+Cameron's portions are always smaller than Austin's, sized to her targets above. Same dish, smaller plate (or a lighter variant).
 
 ### Key Constraints
-- **Austin: NO avocado.** He has an allergy. Never add it to his meals.
-- **Austin: no mango, peach, or melon** (cantaloupe/honeydew/watermelon). Not a severe allergy, but he can't really eat them — avoid as ingredients in his meals. (Added 2026-09-12.)
-- **Cameron: likes avocado** — fine to use in her meals when it fits the dish, but not mandatory every meal. (Removed the "always avocado" rule 2026-10-01 — it was a mistake.)
-- Different portions/variants for every meal — they don't eat identical plates.
+- **Austin: no avocado.** Allergy. Never on his plate.
+- **Austin: no mango, peach, or melon** (cantaloupe/honeydew/watermelon). Not severe, just avoid them in his meals.
+- **Cameron can have avocado; Austin can't.** That's the whole rule. Use it on her plate when it fits the dish.
+  No need to call it out on every meal, card or recipe.
+- Different portions for every meal. They don't eat identical plates.
 
 ---
 
@@ -226,19 +242,23 @@ Every knife/sauce/protein/grain item gets a `label`: the deli-container label te
 
 ## Weekly Meal Planning Rules
 
-1. **Max 2 different breakfasts per week** — batch Sunday, grab-and-go Mon–Thu. Fri–Sun simpler.
-2. **Max 2 different lunches per week** — prepped Sunday. Mon–Wed one recipe, Thu–Sat another.
-3. **All 7 dinners** — no dinner subscription service. Home-cooked every night.
-4. **Batch logic** — Sunday's 2-hour prep covers Mon–Thu at minimum. Build around it.
+1. **Breakfast is their eggs-and-toast routine.** Don't plan elaborate breakfasts. Give each person's version, plus a weekly
+   sauce or leftover protein to rotate onto Austin's eggs. At most one batch breakfast (e.g. egg bites) if prep allows.
+2. **The afternoon holdover is leftovers or a snack, not a prepped lunch.** Cook about 3 dinners a week with one extra
+   portion so there are leftovers for the next day's holdover. Fill the other days with simple high-protein snacks.
+3. **All 7 dinners** — no dinner subscription service. Home-cooked every night, and the biggest meal of the day.
+4. **Batch logic** — the weekend prep session covers Mon–Thu at minimum. Build around it. Prep can be Saturday, Sunday or
+   split across both, depending on that weekend's schedule (asked in the intake).
 5. **Seasonal ingredients** — pull from Pittsburgh seasonal produce each week.
 6. **Restaurant Dropout Substack** — primary recipe inspiration. Austin has premium. Pull weekly menus.
 7. **Protein target non-negotiable** — Austin 150g+, Cameron 90-100g. If a meal falls short, add protein.
-8. **Cameron's portions are always smaller** — she's eating 1100-1200/day vs Austin's 1800-2100.
-9. **No avocado for Austin** (allergy, non-negotiable). Avocado for Cameron only when it fits the dish — not required every meal.
+8. **Cameron's portions are always smaller** — she eats ~1200–1300/day vs Austin's ~1800.
+9. **No avocado for Austin** (allergy, non-negotiable). Cameron can have it when it fits; no need to flag it everywhere.
 10. **Variety > safety** — push flavor. Don't default to "chicken bowl" when shrimp tacos or lamb kofta works.
 11. **Shop the freezer first.** Read `references/on_hand.json` before choosing proteins. ButcherBox meat is the protein backbone; the grocery list buys only the gaps. Never put an on-hand item on the grocery list.
 12. **Plan in 2-week cycles** (see below). One big shop, an optional small mid-cycle top-up.
 13. **Build from components, not just recipes** (see below).
+14. **Fuel Austin's big workout days** — +300–400 cal on the 2 heavy days (asked in the intake).
 
 ---
 
@@ -251,12 +271,12 @@ cycle's shop; week 2's holds only the `buy: "midcycle"` top-up (or is omitted).
 - **Perishables early, sturdy produce late.** Tag every produce item `use_window` early/mid/late using `references/produce_shelf_life.md`. Early produce feeds days 1–5 dinners; cabbage, roots, squash, apples and citrus carry days 8–14.
 - **Proteins:** fresh-bought fish and chicken go in days 1–3; ButcherBox/frozen proteins carry the rest via the `thaw` schedule (fridge-thaw 24 h per lb; pull it the night before).
 - **Overlap ingredients on purpose.** A bunch of cilantro should hit 3+ meals; one cabbage should hit 2–3. If an ingredient appears in only one recipe and doesn't keep, swap the recipe or the ingredient. Report the overlap in the plan summary.
-- **Second Sunday is short.** Week 2 prep is a refresh: cut the late produce, make one new sauce, thaw week-2 proteins. Week 1 Sunday is the big session.
+- **Second weekend is short.** Week 2 prep is a refresh: cut the late produce, make one new sauce, thaw week-2 proteins. Week 1's weekend is the big session.
 - **Cost:** lean on ButcherBox and pantry, use whole vegetables over pre-cut unless time is tight, keep pricey one-off ingredients (specialty herbs, single-use condiments) to one or two per cycle, and say what you skipped buying because of on-hand items.
 
 ## Component Prep (Restaurant Dropout style, added 2026-11-05)
 
-Think like a restaurant line: prep **components** Sunday, then **assemble** meals in 10–15 min.
+Think like a restaurant line: prep **components** on the weekend (Sat, Sun or both), then **assemble** meals in 10–15 min.
 A cycle should have roughly:
 - **2–3 proteins** (at least one ButcherBox), cooked or marinated
 - **2 sauces/dressings** that cross cuisines (e.g. chimichurri, gochujang-lime, tahini-lemon, salsa verde); at least one is freezable
@@ -271,7 +291,7 @@ Write `prep.phases` in leverage order: longest/passive cooks start first, then k
 Tag every item with what it feeds and a container label. Every sauce, marinade, dressing, pickle and batch-cooked protein needs a `component_id`;
 if the component doesn't exist yet, add it to the recipe library (`meal_type: "component"`, plus `storage_note`, `keeps`, `freezes`).
 
-**Thaw timing:** plans are generated Friday afternoon (scheduled task, ~2:20pm ET). Pull from the freezer **Friday night**, marinate **Saturday**, cook **Sunday**. Weeknight thaws get a `day` so they show up on that day. Mark anything that freezes well with `freeze` (make 2x, vacuum seal half for week 2).
+**Thaw timing:** plans are generated Friday afternoon (scheduled task, ~2:20pm ET) and land in the app that evening. Pull from the freezer **Friday night**. If prep is Sunday, marinate Saturday and cook Sunday; if prep is Saturday, thaw Friday night and cook Saturday afternoon (small cuts only, or a cold-water thaw). Split weekends get the long cooks on Saturday and knife work and sauces on Sunday. Weeknight thaws get a `day` so they show up on that day. Mark anything that freezes well with `freeze` (make 2x, vacuum seal half for week 2).
 
 ---
 
@@ -287,11 +307,11 @@ See `references/pantry_staples.md` for full list. Key exclusions:
 ## Intake Questionnaire
 
 Before each week's plan, Claude asks 6 questions (see `references/intake_schema.md`):
-1. Eat-out / skip nights this week?
+1. Eat-out / skip nights this week? Which days are Austin's big workouts?
 2. Feedback on last week?
 3. Any cravings?
 4. Protein rotation (more/less of anything)?
-5. Prep availability (full / short / minimal / none)?
+5. Prep availability (full / short / minimal / none), and which day: Saturday, Sunday or both?
 6. Any Cameron-specific notes?
 
 Intake saved to `weekly/{week_date}/intake.json`.

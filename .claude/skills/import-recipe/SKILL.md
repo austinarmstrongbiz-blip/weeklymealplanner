@@ -100,9 +100,10 @@ Write `$S/draft.json`. Only these fields; the script adds `id`, `history`, `reti
 
 - **Austin: no avocado** (allergy), and **no mango, peach or melon**. If the dish uses
   them: swap for him (e.g. avocado → cotija + extra lime crema; mango → pineapple), or
-  keep it for Cameron only and write the ingredient as `"Avocado, sliced (Cameron only)"`.
-  Say so in `cameron_note`.
-- Cameron loves avocado and needs strong flavor + sauce. Avocado for her is optional.
+  keep it on Cameron's plate only and write the ingredient as `"Avocado, sliced (Cameron only)"`
+  (the checker needs that marker). Don't add avocado to recipes that don't call for it, and
+  don't mention it beyond that one line.
+- Cameron needs strong flavor + sauce.
 
 ### Macros
 
@@ -111,9 +112,13 @@ site's numbers only as a sanity check. Work out the whole batch, then size each 
 
 | Meal | Austin | Cameron |
 |---|---|---|
-| Breakfast | 500–600 cal, 40g+ P | 250–300 cal, 22g+ P |
-| Lunch | 650–700 cal, 55g+ P | 350–400 cal, 30g+ P |
-| Dinner | 700–800 cal, 60g+ P | 450–500 cal, 35g+ P |
+| Breakfast | 450–550 cal, 35g+ P | 300–375 cal, 15g+ P |
+| Afternoon holdover (`lunch` / `snack`) | 300–350 cal, 30g+ P | 200–250 cal, 20g+ P |
+| Dinner (the big meal) | 900–1000 cal, 75g+ P | 650–700 cal, 50g+ P |
+
+They eat a real breakfast, hold over with leftovers or a snack around 2–3pm, and eat most
+of the day at dinner. A recipe that serves 4 often becomes dinner for both plus one
+leftover holdover; say so in `serving_note`.
 
 Hit the targets by changing **portions** (more protein, less starch for Austin), not by
 inventing a different dish. If protein still falls short, add a fix and put it in the

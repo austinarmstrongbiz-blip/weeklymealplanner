@@ -1,5 +1,5 @@
 # Weekly Meal Planner — User Profile
-Last updated: April 11, 2026
+Last updated: November 5, 2026
 Onboarding completed: YES
 
 ---
@@ -60,10 +60,10 @@ SEASONAL_EMPHASIS: Moderate — factor in but don't force it
 ## Meal Prep Schedule
 
 ```
-PREP_DAYS: Both Saturday and Sunday
+PREP_DAYS: Saturday, Sunday, or split across both — depends on the weekend (asked in intake Q5)
 PREP_DURATION_HOURS: 2
-BREAKFAST_STYLE: Prep in advance (grab-and-go)
-LUNCH_PREP_DAYS: 5
+BREAKFAST_STYLE: Routine eggs + toast, not batch-prepped (see Eating Pattern below)
+AFTERNOON_HOLDOVER: Leftovers or a high-protein snack around 2–3pm (no prepped lunches)
 ```
 
 ---
@@ -80,8 +80,8 @@ ACTIVE_CUISINES:
   - American BBQ
   - Greek
 
-CURRENTLY_CRAVING: Spring vibes, smoker vibes, light-and-airy salads
-SICK_OF: Cabbage (avoid as a primary ingredient)
+CURRENTLY_CRAVING: (ask in intake Q3 each week)
+SICK_OF: Nothing right now
 CAMERON_SPICE_LEVEL: mild-medium
 ```
 
@@ -117,8 +117,8 @@ WEEKLY_BUDGET: $100-125
 
 ```
 DELIVERY_EMAIL: Austin@austin-armstrong.me
-PLAN_DELIVERY_DAY: Saturday
-PLAN_DELIVERY_TIME: morning
+PLAN_GENERATED: Friday afternoon (~2:20pm ET scheduled task)
+PLAN_READY_BY: Friday evening, so the freezer pull can happen Friday night
 ```
 
 ---
@@ -132,24 +132,29 @@ ABOVE_KITCH_URL: https://weeklymealplanner-9w3b.onrender.com
 
 ---
 
-## Macro Targets (from Household Health)
+## Macro Targets (updated 2026-11-05)
 
-**Austin** — 1800–2100 cal/day, 150g protein minimum
-- Breakfast: 500–600 cal / 40–45g P
-- Lunch: 650–700 cal / 55–60g P
-- Dinner: 700–800 cal / 60–65g P
-- Daily target: ~1900–2100 cal, 150g+ protein
-- NO avocados (allergy)
-- Can't really eat mango, peach, or melon (cantaloupe/honeydew/watermelon) -- not a severe allergy, just avoid as ingredients (added 2026-09-12)
-- High heat/spice preferred
+### Eating pattern
+A solid breakfast, nothing until ~2–3pm, then a snack or leftovers to hold over until dinner.
+**Dinner is the big meal** and carries most of the day's calories.
+- Austin's breakfast: 2–3 eggs, a piece of toast, maybe leftover protein, and a sauce.
+- Cameron's breakfast: an egg, sourdough toast, half an avocado.
 
-**Cameron** — 1100–1200 cal/day, 90–100g protein
-- Breakfast: 250–300 cal / 22–25g P
-- Lunch: 350–400 cal / 30–35g P
-- Dinner: 450–500 cal / 35–40g P
-- Daily target: ~1100–1200 cal total
-- Cameron's portions are ALWAYS smaller than Austin's — she eats ~40% fewer calories
-- Loves avocados (optional — fine to use when it fits the dish, not mandatory every meal)
+**Austin** — cutting, ~185 lb → 175 lb. ~1800 cal/day (1750–1900), 150g+ protein
+- Breakfast: 450–550 cal / 35–45g P
+- Afternoon holdover: 300–350 cal / 30–40g P
+- Dinner: 900–1000 cal / 75–85g P
+- Two big workouts a week (1000+ cal burns each): add 300–400 cal on those days, mostly carbs plus protein
+- No avocado (allergy)
+- No mango, peach, or melon (cantaloupe/honeydew/watermelon) — not severe, just avoid
+- High heat/spice preferred; happy with simple fuel meals
+
+**Cameron** — maintaining. 1200–1300 cal/day, 90–100g protein
+- Breakfast: 300–375 cal / 15–20g P (a 2nd egg or a side of cottage cheese closes the protein gap)
+- Afternoon holdover: 200–250 cal / 20–25g P
+- Dinner: 650–700 cal / 50–55g P
+- Portions always smaller than Austin's, sized to these targets
+- Can have avocado (Austin can't). Use it when it fits; no need to call it out everywhere
 - Needs strong flavor + sauce — never bland
 - Spice: mild-medium, building tolerance
 
@@ -174,29 +179,22 @@ ABOVE_KITCH_URL: https://weeklymealplanner-9w3b.onrender.com
 
 ## Seasonal Context — Pittsburgh / Northeast US
 
-**Current Season (Late May / Early June):** Late Spring → Early Summer
-**In season now:** Zucchini (peak), strawberries (peak), cherries (just starting), snap peas (final weeks), spring onions, arugula, fresh basil, cucumbers, early corn, blueberries, cherry tomatoes, new potatoes, fresh herbs abundant
-**Summer flavor profile:** Bright, charred, herb-forward, grilled/smoked, fresh produce-driven, lighter proteins (shrimp, pork tenderloin)
+**Current season (November):** Late fall → early winter. Local markets are winding down; storage crops carry the season.
+**In season now:** Apples, pears, cranberries, winter squash (butternut, acorn, delicata, kabocha), pumpkin, sweet potatoes,
+potatoes, Brussels sprouts, cabbage, kale, collards, cauliflower, broccoli, carrots, parsnips, beets, turnips, celery root,
+leeks, onions, garlic, shallots, hardy herbs (rosemary, thyme, sage)
+**Flavor profile:** Roasted, braised, smoked, soupy. Warm spice, browned butter, cider, maple, chili heat. Bright acid
+(citrus is coming into season, pickles, vinegar) to cut the richness.
 
-**Seasonal priority this week:** Zucchini, strawberries, cherries, snap peas, fresh basil — summer is arriving in Pittsburgh.
+**Seasonal priority:** Winter squash, Brussels sprouts, apples/pears, root vegetables, and a soup each week.
+Update this section at the start of each season.
 
 ---
 
-## On-Hand Inventory — logged 2026-09-12
+## On-Hand Inventory
 
-Austin's stock check before the Sept 13 week. Plan around these before adding anything to the grocery list.
-
-**Bread:** half loaf Italian bread · a couple pieces sourdough toast
-**Breakfast:** granola · chia seeds · Kodiak protein oats
-**Grains & dry:** white quinoa (16 oz) · star pastina · ditalini pasta · arborio rice · pearl couscous · brown rice · white rice · sushi rice · 2 other bags assorted pasta
-**Canned/jarred:** 2 cans black beans · 1 can cannellini beans · 1 can green beans · 1 can garbanzo beans · homemade Italian hot pasta sauce · 16 oz tahini · 7 oz rosso pesto
-**Tortillas:** corn tortillas on hand (steering away from Mexican this week to use up other items first)
-**Freezer:** 16 oz shrimp · 2 lb tilapia · 2 salmon fillets · 16 oz three-pepper blend · frozen berries/strawberries
-**Fridge:** miso paste · sour cream · low-fat cottage cheese · 3 bell peppers · 12 oz banana peppers · a lot of baby spinach · sharp cheddar cheese · 6 eggs
-**Basement:** ramen noodles
-
-Note: corn tortillas, star pastina, and ditalini are normally NOT staples but are stocked right now.
-Re-ask Austin for a stock check before each week's plan — his inventory swings.
+The live inventory (freezer, fridge, ButcherBox) is `references/on_hand.json`. Read it before every plan, and
+re-ask Austin for a quick stock check, since the fridge and dry goods swing week to week.
 
 ---
 
@@ -221,7 +219,7 @@ If the folder is empty or stale, say so in chat and fall back to seasonal contex
 ```
 SOUP_OF_THE_WEEK: ACTIVE — recurring feature for fall/winter 2026
 STARTED: Week of 2026-09-13, debut recipe: Caramelized Spring Onion Ramen
-CADENCE: One soup dinner (or lunch, if it fits the week better) most weeks through fall/winter
+CADENCE: One soup dinner (leftovers make a good afternoon holdover) most weeks through fall/winter
 ```
 
 Starting the week of Sept 13, 2026, each week's plan should try to feature one soup —
@@ -234,10 +232,9 @@ find later. Pause the feature going into spring/summer unless Austin says to kee
 ## Skill Behavior Notes
 
 - No Substacks yet on RSS → rely on Austin's PDF drops (references/substacks/) when present, otherwise seasonal context + cuisine rotation
-- No dinner subscription → plan ALL 7 dinners
-- Smoker is available and Austin is craving it → include at least 1 smoker recipe per week
+- No dinner subscription → plan ALL 7 dinners; dinner is the biggest meal of the day
+- Smoker is available → include at least 1 smoker recipe per week when prep time is "full"
 - Fall 2026 → Soup of the Week is active (see above) — feature one soup most weeks
-- No cabbage → avoid as a primary ingredient
 - AnyList and Amazon WF not yet configured → skip those steps, print grocery list in chat
-- Cameron's real macro target is 1100-1200 cal/day (not the higher figure used in some older recipe-library entries) — double-check her portion against this before reusing an older recipe as-is; scale her serving down if the stored default runs hot
-- Austin can't really eat mango, peach, or melon (added 2026-09-12) — 5 older library recipes still contain peach or watermelon and haven't been reviewed yet: `peach-barbecue-sauce`, `barbecue-pulled-pork-rd112`, `pulled-pork-grain-bowls-rd112`, `bbq-pork-tacos-apple-cider-slaw-rd112`, `bbq-chicken-salad-sesame-croutons-rd112`, and `watermelon-arugula-grilled-chicken-salad`. Adapt or retire these before reusing them in a future week.
+- Macro targets were reset 2026-11-05 (Austin ~1800 with a big dinner, Cameron 1200–1300). Older recipe-library entries were portioned for the old 3-meal split, so re-portion dinners up to the new dinner targets before reusing them
+- Mango/peach/melon review done 2026-11-05: the RD Week 112 recipes now use `apple-cider-barbecue-sauce` instead of the peach sauce (retired), and `watermelon-arugula-grilled-chicken-salad` is retired

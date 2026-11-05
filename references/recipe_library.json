@@ -4328,8 +4328,9 @@
           "combined": null
         }
       },
-      "retired": false,
-      "added_date": "2026-05-11"
+      "retired": true,
+      "added_date": "2026-05-11",
+      "retired_note": "Retired 2026-11-05: built around watermelon, which Austin avoids, and summer-only."
     },
     {
       "id": "lemon-ricotta-pasta-snap-peas",
@@ -5500,8 +5501,9 @@
           "combined": null
         }
       },
-      "retired": false,
-      "added_date": "2026-06-23"
+      "retired": true,
+      "added_date": "2026-06-23",
+      "retired_note": "Replaced by apple-cider-barbecue-sauce 2026-11-05 (Austin avoids peach)."
     },
     {
       "id": "barbecue-pulled-pork-rd112",
@@ -5550,7 +5552,7 @@
           "qty": "2 tbsp"
         },
         {
-          "name": "Peach Barbecue Sauce",
+          "name": "Apple Cider Barbecue Sauce",
           "qty": "1 cup"
         },
         {
@@ -5562,7 +5564,7 @@
         "Preheat oven to 325\u00b0F.",
         "Season pork evenly on all sides with salt and pepper.",
         "Heat oil in a heavy-bottomed Dutch oven over medium-high. Working in batches, add pork fat-side down and sear until browned crust forms, 4\u20135 min. Flip and cook 4 min more.",
-        "Pour Peach Barbecue Sauce and 1 cup chicken stock over pork. Cover and bake 3.5\u20134 hours, checking every 90 min. Add extra stock (0.5\u20131 cup) if sauce reduces too much. Done when pork shreds easily.",
+        "Pour Apple Cider Barbecue Sauce and 1 cup chicken stock over pork. Cover and bake 3.5\u20134 hours, checking every 90 min. Add extra stock (0.5\u20131 cup) if sauce reduces too much. Done when pork shreds easily.",
         "Transfer meat to cutting board. Shred with two forks. Return to pot and toss with sauce.",
         "Store: airtight container, refrigerate up to 4 days."
       ],
@@ -5582,7 +5584,10 @@
         }
       },
       "retired": false,
-      "added_date": "2026-06-23"
+      "added_date": "2026-06-23",
+      "components": [
+        "apple-cider-barbecue-sauce"
+      ]
     },
     {
       "id": "burger-sauce-rd112",
@@ -5886,7 +5891,7 @@
     },
     {
       "id": "pulled-pork-grain-bowls-rd112",
-      "name": "Pulled Pork Grain Bowls with Peach Barbecue Sauce",
+      "name": "Pulled Pork Grain Bowls with Apple Cider Barbecue Sauce",
       "cuisine": "American / BBQ",
       "meal_type": "lunch",
       "prep": "10 min",
@@ -5937,7 +5942,7 @@
           "qty": "1.25 cups"
         },
         {
-          "name": "Peach Barbecue Sauce",
+          "name": "Apple Cider Barbecue Sauce",
           "qty": "2 tbsp"
         },
         {
@@ -5955,7 +5960,7 @@
       ],
       "instructions": [
         "Toss cabbage, carrots, and cilantro with Apple Cider Vinaigrette until coated. Season with salt. Refrigerate until ready to serve.",
-        "In a large skillet over medium heat, combine Pulled Pork and Peach Barbecue Sauce. Cook, stirring occasionally, until fully heated through, ~8 minutes.",
+        "In a large skillet over medium heat, combine Pulled Pork and Apple Cider Barbecue Sauce. Cook, stirring occasionally, until fully heated through, ~8 minutes.",
         "Divide farro between two bowls. Top with pulled pork, slaw, avocado (Cameron only), and cherry tomatoes."
       ],
       "batch_note": "Assembly meal \u2014 all components batch Sunday. Farro can be cooked Sunday and reheated.",
@@ -5974,7 +5979,10 @@
         }
       },
       "retired": false,
-      "added_date": "2026-06-23"
+      "added_date": "2026-06-23",
+      "components": [
+        "apple-cider-barbecue-sauce"
+      ]
     },
     {
       "id": "burger-bowls-sesame-croutons-rd112",
@@ -6140,14 +6148,14 @@
           "qty": "6"
         },
         {
-          "name": "Peach Barbecue Sauce",
+          "name": "Apple Cider Barbecue Sauce",
           "qty": "2 tbsp, to taste"
         }
       ],
       "instructions": [
         "Toss cabbage, carrots, and cilantro with Apple Cider Vinaigrette. Season with salt. Refrigerate until ready.",
         "Heat 1 tbsp neutral oil in a large skillet. Working in batches, add tortillas and cook, flipping halfway, until soft and lightly fried, ~1 min. Transfer to kitchen towel or tortilla warmer.",
-        "In same skillet over medium heat, add Pulled Pork and Peach Barbecue Sauce. Cook, stirring, until heated through, ~8 min.",
+        "In same skillet over medium heat, add Pulled Pork and Apple Cider Barbecue Sauce. Cook, stirring, until heated through, ~8 min.",
         "Divide pork between tortillas. Top with slaw and serve warm."
       ],
       "batch_note": "Uses remaining pulled pork from Sunday batch. Slaw uses same ACV Vinaigrette as the grain bowls \u2014 make extra.",
@@ -6166,7 +6174,10 @@
         }
       },
       "retired": false,
-      "added_date": "2026-06-23"
+      "added_date": "2026-06-23",
+      "components": [
+        "apple-cider-barbecue-sauce"
+      ]
     },
     {
       "id": "bbq-chicken-salad-sesame-croutons-rd112",
@@ -6206,7 +6217,7 @@
           "qty": "generous pinches"
         },
         {
-          "name": "Peach Barbecue Sauce, divided",
+          "name": "Apple Cider Barbecue Sauce, divided",
           "qty": "3/4 cup"
         },
         {
@@ -6255,9 +6266,9 @@
         }
       ],
       "instructions": [
-        "Season chicken with salt, rest 5 min. Pour over 1/3 cup Peach Barbecue Sauce, toss to coat. Marinate at room temp 20 min or refrigerated up to 1 hour.",
+        "Season chicken with salt, rest 5 min. Pour over 1/3 cup Apple Cider Barbecue Sauce, toss to coat. Marinate at room temp 20 min or refrigerated up to 1 hour.",
         "Oil grill grates, preheat to medium-high. Shake excess marinade off chicken. Grill over direct heat, covered, ~8 min. Flip and cook until thermometer reads 165\u00b0F, 6\u20138 min more. Discard remaining marinade.",
-        "Rest chicken 5 min. Dice into bite-sized pieces. Toss with remaining 1/3 cup+ Peach Barbecue Sauce.",
+        "Rest chicken 5 min. Dice into bite-sized pieces. Toss with remaining 1/3 cup+ Apple Cider Barbecue Sauce.",
         "Whisk olive oil and pickling liquid together. Add romaine, cabbage, tomatoes, cilantro, cheddar, and farro. Toss to coat. Divide between two bowls.",
         "Top with BBQ chicken, Pickled Jalape\u00f1os and Shallots, and Sesame Seed Croutons.",
         "Note: Can cook chicken in a stovetop pan instead of grill \u2014 same timing, just don't cover it."
@@ -6278,7 +6289,10 @@
         }
       },
       "retired": false,
-      "added_date": "2026-06-23"
+      "added_date": "2026-06-23",
+      "components": [
+        "apple-cider-barbecue-sauce"
+      ]
     },
     {
       "id": "cheesy-california-burgers-rd112",
@@ -28819,6 +28833,115 @@
       "storage_note": "Jar in the fridge.",
       "keeps": "10 days",
       "freezes": "Yes, 3 months."
+    },
+    {
+      "id": "apple-cider-barbecue-sauce",
+      "name": "Apple Cider Barbecue Sauce",
+      "cuisine": "American BBQ",
+      "meal_type": "component",
+      "prep": "5 min",
+      "cook": "15 min",
+      "total": "20 min",
+      "spice_level": "Mild (add cayenne to Austin's portion)",
+      "serving_note": "Makes ~2 cups",
+      "tags": [
+        "batch-friendly",
+        "bbq",
+        "component",
+        "fall",
+        "imported",
+        "rd-week-112",
+        "vegan",
+        "vegetarian"
+      ],
+      "equipment": "Small saucepan, blender or immersion blender",
+      "source": "Adapted from Restaurant Dropout Week 112 Peach Barbecue Sauce (peaches swapped for apple, since Austin avoids peach)",
+      "macro_strings": {
+        "austin": null,
+        "cameron": null
+      },
+      "macros": {
+        "austin": null,
+        "cameron": null
+      },
+      "storage_note": "Jar or deli container in the fridge.",
+      "keeps": "7 days",
+      "freezes": "Yes, 3 months. Freeze flat in a zip bag or in an ice-cube tray.",
+      "ingredients": [
+        {
+          "name": "Unsweetened applesauce",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Apple cider (or apple juice)",
+          "qty": "1/2 cup"
+        },
+        {
+          "name": "Ketchup",
+          "qty": "1/2 cup"
+        },
+        {
+          "name": "Dark brown sugar",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Apple cider vinegar",
+          "qty": "1/4 cup"
+        },
+        {
+          "name": "Bourbon or brandy (optional)",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Smoked paprika",
+          "qty": "2\u00bd tsp"
+        },
+        {
+          "name": "Yellow mustard",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "1\u00bd tsp"
+        },
+        {
+          "name": "Granulated garlic",
+          "qty": "\u00bd tsp"
+        },
+        {
+          "name": "Onion powder",
+          "qty": "\u00bd tsp"
+        },
+        {
+          "name": "Black pepper",
+          "qty": "\u00bc tsp"
+        },
+        {
+          "name": "Cayenne (Austin's portion)",
+          "qty": "pinch, to taste"
+        }
+      ],
+      "instructions": [
+        "Add everything except the cayenne to a small saucepan and whisk smooth (or blend if you want it glassy).",
+        "Simmer over medium-low, whisking often, until it coats a spoon, 12\u201315 minutes. The cider needs the longer simmer to reduce.",
+        "Cool completely. Stir cayenne into Austin's portion only.",
+        "Store in a jar in the fridge up to 7 days, or freeze half for later."
+      ],
+      "batch_note": "Drop-in replacement for the old peach sauce in the RD Week 112 pulled pork, grain bowls, tacos and BBQ chicken salad. Less sugar than the peach version, and apple is in season in November.",
+      "cameron_note": "",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false,
+      "added_date": "2026-11-05"
     }
   ]
 }

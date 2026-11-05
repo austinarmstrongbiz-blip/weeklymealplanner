@@ -70,7 +70,7 @@ python3 scripts/fetch_substacks.py
 
 | | Austin | Cameron |
 |---|---|---|
-| Calories | 1,800–2,100/day | 1,100–1,200/day |
+| Calories | ~1,800/day (1,750–1,900; +300–400 on big workout days) | 1,200–1,300/day |
 | Protein | 150g+ | 90–100g |
 | Goal | Cut | Maintain |
 
@@ -78,9 +78,9 @@ python3 scripts/fetch_substacks.py
 
 | Meal | Austin | Cameron |
 |------|--------|---------|
-| Breakfast | 500–600 cal / 40–45g P | 250–300 cal / 22–25g P |
-| Lunch | 650–700 cal / 55–60g P | 350–400 cal / 30–35g P |
-| Dinner | 700–800 cal / 60–65g P | 450–500 cal / 35–40g P |
+| Breakfast | 450–550 cal / 35–45g P | 300–375 cal / 15–20g P |
+| Afternoon holdover (2–3pm, leftovers or snack) | 300–350 cal / 30–40g P | 200–250 cal / 20–25g P |
+| Dinner (the big meal) | 900–1,000 cal / 75–85g P | 650–700 cal / 50–55g P |
 
 ---
 
