@@ -26640,6 +26640,1203 @@
       "added_date": "2026-11-05"
     },
     {
+      "id": "chicken-milanese-refried-beans-cilantro-lime-rice-rd137",
+      "name": "Chicken Milanese with Refried Beans & Cilantro-Lime Rice",
+      "cuisine": "Mexican",
+      "meal_type": "dinner",
+      "prep": "10 min (salsa verde, beans and pur\u00e9e made ahead)",
+      "cook": "20 min",
+      "total": "35 min",
+      "spice_level": "Medium Austin (extra salsa verde, hot sauce in the egg wash) | Mild Cameron",
+      "serving_note": "Source serves 2 with pan-fried cutlets (~1,400 cal total with sides). Adapted: air-fried instead of shallow-fried, smaller rice and bean portions. Macros are estimates.",
+      "tags": [
+        "air-fryer",
+        "chicken",
+        "fall-2026",
+        "fall-dinners",
+        "high-protein",
+        "imported",
+        "mexican",
+        "oct-2026",
+        "rd-week-137",
+        "restaurant-dropout"
+      ],
+      "equipment": "Large air fryer, rice cooker",
+      "source": "Adapted from Restaurant Dropout Week 137 (10.30.2026)",
+      "macro_strings": {
+        "austin": "790 cal | 69g P | 30g F | 56g C",
+        "cameron": "480 cal | 42g P | 20g F | 35g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 790,
+          "p": 69,
+          "f": 30,
+          "c": 56
+        },
+        "cameron": {
+          "cal": 480,
+          "p": 42,
+          "f": 20,
+          "c": 35
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Boneless, skinless chicken breast, halved horizontally into cutlets",
+          "qty": "13 oz (Austin 8 oz, Cameron 5 oz raw; source uses 9 oz)"
+        },
+        {
+          "name": "Kosher salt and black pepper",
+          "qty": "to taste"
+        },
+        {
+          "name": "All-purpose flour",
+          "qty": "\u00bc cup"
+        },
+        {
+          "name": "Egg",
+          "qty": "1"
+        },
+        {
+          "name": "Hot sauce such as Tabasco or Zab's (optional)",
+          "qty": "a few dabs"
+        },
+        {
+          "name": "Panko breadcrumbs",
+          "qty": "\u2153 cup"
+        },
+        {
+          "name": "Neutral oil spray or oil",
+          "qty": "2 tsp"
+        },
+        {
+          "name": "Cooked long-grain rice, reheated",
+          "qty": "\u00be cup (Austin \u00bd cup, Cameron \u00bc cup)"
+        },
+        {
+          "name": "Cilantro-Lime Pur\u00e9e (component)",
+          "qty": "1 tbsp plus 2 tsp"
+        },
+        {
+          "name": "Salsa Verde (component), for serving",
+          "qty": "3 tbsp"
+        },
+        {
+          "name": "Fresh cilantro, loosely packed",
+          "qty": "\u00bc cup"
+        },
+        {
+          "name": "Queso fresco, crumbled",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Cheater Beans (component), reheated",
+          "qty": "7 tbsp (Austin \u2153 cup, Cameron 3 tbsp)"
+        }
+      ],
+      "instructions": [
+        "Pound the cutlets to \u00bc to \u00bd inch between plastic wrap. Season with salt and pepper.",
+        "Set up three bowls: flour with a pinch of salt; egg whisked with hot sauce; panko with a pinch of salt.",
+        "Dredge the chicken in flour, then egg, then press into the panko.",
+        "Spray both sides with oil. Air fry at 400\u00b0F, 4 to 5 minutes per side, until golden and 165\u00b0F inside. Rest 3 minutes. (Source shallow-fries in \u00bc inch of oil; that adds ~100 cal per plate.)",
+        "Stir the rice and cilantro-lime pur\u00e9e together. Season with salt.",
+        "Top the cutlet with salsa verde, cilantro and queso fresco. Serve with the rice and warm beans.",
+        "AUSTIN: 8 oz raw chicken, \u00bd cup rice, \u2153 cup beans, 2 tbsp salsa verde, 1 tbsp queso fresco.",
+        "CAMERON: 5 oz raw chicken, \u00bc cup rice, 3 tbsp beans, 1 tbsp salsa verde, 2 tsp queso fresco."
+      ],
+      "batch_note": "Salsa verde, beans and pur\u00e9e are Sunday components shared with the pozole and enchiladas.",
+      "cameron_note": "Smaller cutlet crumb, rice and bean portion. About 480 cal and 42g protein.",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "pozole-verde-shredded-chicken-rd137",
+      "name": "Pozole Verde with Shredded Chicken",
+      "cuisine": "Mexican",
+      "meal_type": "dinner",
+      "prep": "10 min",
+      "cook": "35 min",
+      "total": "45 min",
+      "spice_level": "Medium Austin (jalape\u00f1o slices) | Mild Cameron (fewer jalape\u00f1os)",
+      "serving_note": "Source serves 2 and says to reserve half the chicken for the enchiladas. Cook 1\u00bd lb chicken so there is enough for both plates and about 1\u00bd cups shredded for the Enchiladas Verdes. Avocado garnish is Cameron only. Macros are estimates.",
+      "tags": [
+        "chicken",
+        "fall-2026",
+        "fall-dinners",
+        "high-protein",
+        "hominy",
+        "imported",
+        "mexican",
+        "oct-2026",
+        "rd-week-137",
+        "restaurant-dropout",
+        "soup"
+      ],
+      "equipment": "Large saucepan, immersion blender or blender",
+      "source": "Adapted from Restaurant Dropout Week 137 (10.30.2026)",
+      "macro_strings": {
+        "austin": "715 cal | 67g P | 29g F | 42g C",
+        "cameron": "465 cal | 38g P | 20g F | 29g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 715,
+          "p": 67,
+          "f": 29,
+          "c": 42
+        },
+        "cameron": {
+          "cal": 465,
+          "p": 38,
+          "f": 20,
+          "c": 29
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Water",
+          "qty": "5 cups"
+        },
+        {
+          "name": "Garlic cloves",
+          "qty": "5"
+        },
+        {
+          "name": "White onion, halved",
+          "qty": "\u00bd"
+        },
+        {
+          "name": "Bay leaves",
+          "qty": "3"
+        },
+        {
+          "name": "Granulated chicken bouillon",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "1\u00bd tsp"
+        },
+        {
+          "name": "Dried oregano",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Boneless, skinless chicken breasts",
+          "qty": "1\u00bd lb (source uses 2 \u00d7 9 oz)"
+        },
+        {
+          "name": "Cooked hominy, drained and divided",
+          "qty": "1 (25-oz) can"
+        },
+        {
+          "name": "Cilantro-Lime Pur\u00e9e (component)",
+          "qty": "\u00bd cup"
+        },
+        {
+          "name": "Ground cumin",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Shredded purple cabbage, fresh cilantro, sliced jalape\u00f1os, thinly sliced white onion, lime wedges",
+          "qty": "to garnish"
+        },
+        {
+          "name": "Crumbled queso fresco",
+          "qty": "3 tbsp, to garnish"
+        },
+        {
+          "name": "Avocado, pitted, peeled and thinly sliced (Cameron only)",
+          "qty": "\u00bc"
+        }
+      ],
+      "instructions": [
+        "Bring the water, garlic, onion, bay leaves, bouillon, salt and oregano to a boil, about 7 minutes.",
+        "Lower the heat, add the chicken, cover and cook 25 minutes.",
+        "Move the chicken to a plate. Discard the bay leaves and onion. Blend the broth with 1 cup of the hominy, the pur\u00e9e and cumin (towel over the blender lid). Return to the pan.",
+        "Shred the chicken. Put about 14 oz worth in the pot and set the rest (about 1\u00bd cups) aside for the enchiladas, refrigerated up to 2 days. Add the remaining hominy and cook on medium-low about 8 minutes.",
+        "AUSTIN: about 9 oz raw-weight chicken, 1\u00bc cups hominy, plenty of broth, 2 tbsp queso fresco, cabbage, jalape\u00f1o, lime. No avocado.",
+        "CAMERON: about 5 oz raw-weight chicken, \u00be cup hominy, 1 tbsp queso fresco, cabbage, \u00bc sliced avocado."
+      ],
+      "batch_note": "Reserve about 1\u00bd cups of the shredded chicken for the Enchiladas Verdes the same week.",
+      "cameron_note": "Smaller portion of chicken and hominy plus avocado if she wants it. About 465 cal and 38g protein.",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "enchiladas-verdes-avocado-slaw-rd137",
+      "name": "Enchiladas Verdes with Avocado Slaw",
+      "cuisine": "Mexican",
+      "meal_type": "dinner",
+      "prep": "15 min",
+      "cook": "25 min",
+      "total": "30 min",
+      "spice_level": "Medium Austin (jalape\u00f1o) | Mild Cameron",
+      "serving_note": "Source is ~1,500 cal per person (fried tortillas, 2 cups cheddar, beans, avocado slaw). Adapted: tortillas warmed in a little oil, much less cheese, more chicken. Austin's slaw is dressed with cilantro-lime pur\u00e9e instead of avocado. Macros are estimates.",
+      "tags": [
+        "chicken",
+        "enchiladas",
+        "fall-2026",
+        "fall-dinners",
+        "high-protein",
+        "imported",
+        "mexican",
+        "oct-2026",
+        "rd-week-137",
+        "restaurant-dropout"
+      ],
+      "equipment": "Breville Smart Oven Pro, small baking dish, cast-iron skillet",
+      "source": "Adapted from Restaurant Dropout Week 137 (10.30.2026)",
+      "macro_strings": {
+        "austin": "800 cal | 61g P | 36g F | 56g C",
+        "cameron": "490 cal | 42g P | 20g F | 35g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 800,
+          "p": 61,
+          "f": 36,
+          "c": 56
+        },
+        "cameron": {
+          "cal": 490,
+          "p": 42,
+          "f": 20,
+          "c": 35
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Leftover shredded chicken from the Pozole Verde",
+          "qty": "9 oz cooked (about 1\u00bd cups); Austin 5 oz, Cameron 4 oz"
+        },
+        {
+          "name": "Sharp cheddar, shredded, divided",
+          "qty": "6 tbsp (Austin \u00bc cup, Cameron 1 tbsp inside, source uses 2 cups)"
+        },
+        {
+          "name": "Neutral oil",
+          "qty": "1\u00bd tsp"
+        },
+        {
+          "name": "Taco-sized corn tortillas",
+          "qty": "5 (Austin 3, Cameron 2)"
+        },
+        {
+          "name": "Salsa Verde (component)",
+          "qty": "7 tbsp (Austin \u00bc cup, Cameron 3 tbsp)"
+        },
+        {
+          "name": "Shredded purple cabbage",
+          "qty": "2 cups"
+        },
+        {
+          "name": "Scallions, thinly sliced",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Jalape\u00f1os, thinly sliced",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Cilantro-Lime Pur\u00e9e (component), Austin's slaw dressing",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Avocado, diced (Cameron only)",
+          "qty": "\u215b"
+        },
+        {
+          "name": "Avocado Lime Drizzle (component, Cameron only)",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Cheater Beans (component), reheated, Austin only",
+          "qty": "\u00bc cup"
+        },
+        {
+          "name": "Crumbled queso fresco, thinly sliced white onion, cilantro",
+          "qty": "to garnish"
+        }
+      ],
+      "instructions": [
+        "Heat the oven to 400\u00b0F. Lightly grease a small baking dish.",
+        "Toss the shredded chicken with half the cheddar.",
+        "Brush the tortillas with oil and warm them in a skillet 10 to 15 seconds a side until soft and pliable (the source fries each in \u00bc inch of oil).",
+        "Roll \u00bc to \u2153 cup of filling into each tortilla, seam side down in the dish. Spoon over the salsa verde, top with the remaining cheddar.",
+        "Bake 17 minutes until the filling is hot and the edges are browned.",
+        "Slaw: toss the cabbage, scallions and jalape\u00f1os. Austin's gets the cilantro-lime pur\u00e9e and lime juice. Cameron's gets the diced avocado and avocado lime drizzle. Salt to taste.",
+        "AUSTIN: 3 enchiladas (5 oz chicken, \u00bc cup cheddar), \u00bc cup salsa verde, cabbage slaw with pur\u00e9e, \u00bc cup beans. No avocado.",
+        "CAMERON: 2 enchiladas (4 oz chicken), 3 tbsp salsa verde, avocado slaw, no beans."
+      ],
+      "batch_note": "Uses the leftover pozole chicken and salsa verde, so it's a 30-minute night.",
+      "cameron_note": "Two enchiladas with extra chicken, light cheese and avocado slaw. About 490 cal and 42g protein.",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "fish-shop-style-tacos-rd137",
+      "name": "Fish Shop-Style Tacos",
+      "cuisine": "Mexican",
+      "meal_type": "dinner",
+      "prep": "5 min",
+      "cook": "10 min",
+      "total": "15 min",
+      "spice_level": "Medium-hot Austin (extra sriracha aioli) | Mild Cameron (less aioli, avocado drizzle)",
+      "serving_note": "Source serves 2 with 4 oz fish each. Raised to 18 oz fish total for protein. Austin's tacos use extra sriracha aioli in place of the avocado lime drizzle. Macros are estimates.",
+      "tags": [
+        "fall-2026",
+        "fall-dinners",
+        "fish",
+        "high-protein",
+        "imported",
+        "mexican",
+        "oct-2026",
+        "quick",
+        "rd-week-137",
+        "restaurant-dropout",
+        "tacos"
+      ],
+      "equipment": "Large skillet, tabletop griddle or Loco flat-top (optional)",
+      "source": "Adapted from Restaurant Dropout Week 137 (10.30.2026)",
+      "macro_strings": {
+        "austin": "750 cal | 68g P | 33g F | 43g C",
+        "cameron": "445 cal | 35g P | 20g F | 31g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 750,
+          "p": 68,
+          "f": 33,
+          "c": 43
+        },
+        "cameron": {
+          "cal": 445,
+          "p": 35,
+          "f": 20,
+          "c": 31
+        }
+      },
+      "ingredients": [
+        {
+          "name": "White fish fillets (mahi mahi, tilapia or snapper)",
+          "qty": "18 oz (Austin 12 oz, Cameron 6 oz; source uses 8 oz)"
+        },
+        {
+          "name": "Fish Shop-Inspired Seasoning (component)",
+          "qty": "1 tbsp plus \u00bd tsp"
+        },
+        {
+          "name": "Neutral oil",
+          "qty": "1 tbsp plus 1 tsp"
+        },
+        {
+          "name": "Salted butter",
+          "qty": "1\u00bd tbsp"
+        },
+        {
+          "name": "Taco-sized corn tortillas",
+          "qty": "5 (Austin 3, Cameron 2)"
+        },
+        {
+          "name": "Thinly sliced purple cabbage",
+          "qty": "1\u00be cups"
+        },
+        {
+          "name": "Sriracha Aioli (component)",
+          "qty": "3 tbsp (Austin 2, Cameron 1)"
+        },
+        {
+          "name": "Avocado Lime Drizzle (component, Cameron only)",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Fresh cilantro leaves and lime wedges",
+          "qty": "to serve"
+        }
+      ],
+      "instructions": [
+        "Pat the fish dry and season both sides with the seasoning. Rest 5 minutes.",
+        "Heat the oil in a large skillet over medium-high. Sear the fish about 3 minutes a side until blackened.",
+        "In the last minute add the butter, tilt the pan and spoon it over the fish.",
+        "Warm the tortillas (damp towel, microwave 15 seconds, or char over a low flame).",
+        "Slice the fish and divide among the tortillas. Top with cabbage and aioli, then cilantro and lime.",
+        "AUSTIN: 3 tacos, 12 oz raw fish, 2 tbsp sriracha aioli. No avocado drizzle.",
+        "CAMERON: 2 tacos, 6 oz raw fish, 1 tbsp sriracha aioli, 1 tbsp avocado lime drizzle."
+      ],
+      "batch_note": "Seasoning keeps 6 months, so make it once for this and the salmon bowls.",
+      "cameron_note": "Two tacos, 6 oz of fish and a little of both sauces. About 445 cal and 35g protein.",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "salmon-bowls-sriracha-aioli-rd137",
+      "name": "Salmon Bowls with Sriracha Aioli",
+      "cuisine": "American",
+      "meal_type": "dinner",
+      "prep": "5 min",
+      "cook": "10 min",
+      "total": "15 min",
+      "spice_level": "Medium Austin | Mild Cameron",
+      "serving_note": "Source serves 2 with 6 oz salmon each over 1\u00bd cups rice. Adapted: wild sockeye or coho (leaner than farmed Atlantic, ~120 cal less per plate), edamame for protein, less rice. Avocado is Cameron only. Macros are estimates.",
+      "tags": [
+        "bowl",
+        "edamame",
+        "fall-2026",
+        "fall-dinners",
+        "high-protein",
+        "imported",
+        "oct-2026",
+        "quick",
+        "rd-week-137",
+        "restaurant-dropout",
+        "salmon",
+        "seafood"
+      ],
+      "equipment": "Large skillet, rice cooker",
+      "source": "Adapted from Restaurant Dropout Week 137 (10.30.2026)",
+      "macro_strings": {
+        "austin": "750 cal | 63g P | 37g F | 39g C",
+        "cameron": "455 cal | 35g P | 24g F | 25g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 750,
+          "p": 63,
+          "f": 37,
+          "c": 39
+        },
+        "cameron": {
+          "cal": 455,
+          "p": 35,
+          "f": 24,
+          "c": 25
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Wild sockeye or coho salmon fillets, skin removed",
+          "qty": "13 oz (Austin 8 oz, Cameron 5 oz; source uses 2 \u00d7 6 oz Atlantic)"
+        },
+        {
+          "name": "Fish Shop-Inspired Seasoning (component)",
+          "qty": "2\u00bd tsp"
+        },
+        {
+          "name": "Salted butter",
+          "qty": "1 tbsp plus 1 tsp"
+        },
+        {
+          "name": "Cooked long-grain rice, reheated",
+          "qty": "1 cup (Austin \u00bd cup, Cameron \u2153 cup)"
+        },
+        {
+          "name": "Shelled edamame, thawed (Austin only, not in the source)",
+          "qty": "\u00bd cup"
+        },
+        {
+          "name": "Soy sauce",
+          "qty": "to taste"
+        },
+        {
+          "name": "Avocado, pitted, peeled and thinly sliced (Cameron only)",
+          "qty": "\u00bc"
+        },
+        {
+          "name": "Shredded purple cabbage",
+          "qty": "1\u00be cups"
+        },
+        {
+          "name": "Sriracha Aioli (component)",
+          "qty": "2\u00bd tbsp (Austin 1\u00bd, Cameron 1)"
+        },
+        {
+          "name": "Scallions, thinly sliced",
+          "qty": "to garnish"
+        }
+      ],
+      "instructions": [
+        "Pat the salmon dry and season both sides with the seasoning. Rest 5 minutes.",
+        "Heat a little neutral oil in a large skillet over medium-high. Sear the salmon about 3 minutes a side until blackened.",
+        "In the last minute add the butter, tilt the pan and spoon it over the salmon.",
+        "Divide the rice between two shallow bowls and season it with soy sauce.",
+        "Top with the salmon, cabbage and aioli. Add the edamame to Austin's bowl and the avocado to Cameron's. Garnish with scallions.",
+        "AUSTIN: 8 oz raw salmon, \u00bd cup rice, \u00bd cup edamame, 1\u00bd tbsp sriracha aioli. No avocado.",
+        "CAMERON: 5 oz raw salmon, \u2153 cup rice, \u00bc avocado, 1 tbsp sriracha aioli."
+      ],
+      "batch_note": "Rice and aioli can be made ahead; the rice freezes in portions.",
+      "cameron_note": "Smaller salmon and rice portion, with avocado. About 455 cal and 35g protein.",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "salsa-verde-rd137",
+      "name": "Salsa Verde",
+      "cuisine": "Mexican",
+      "meal_type": "component",
+      "prep": "10 min",
+      "cook": "10 min",
+      "total": "20 min",
+      "spice_level": "Medium",
+      "serving_note": "Makes about 1 cup. Macros are counted in the dishes that use it.",
+      "tags": [
+        "component",
+        "fall-2026",
+        "fall-dinners",
+        "imported",
+        "mexican",
+        "oct-2026",
+        "rd-week-137",
+        "restaurant-dropout",
+        "sauce"
+      ],
+      "equipment": "Skillet, blender",
+      "source": "Adapted from Restaurant Dropout Week 137 (10.30.2026)",
+      "macro_strings": {
+        "austin": null,
+        "cameron": null
+      },
+      "macros": {
+        "austin": null,
+        "cameron": null
+      },
+      "storage_note": "Airtight container in the fridge.",
+      "keeps": "4 days",
+      "freezes": "Yes, 3 months.",
+      "ingredients": [
+        {
+          "name": "Neutral oil",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Tomatillos, peeled, washed and dried",
+          "qty": "4"
+        },
+        {
+          "name": "Jalape\u00f1os, roughly chopped",
+          "qty": "2"
+        },
+        {
+          "name": "White onion, roughly chopped",
+          "qty": "\u00bc"
+        },
+        {
+          "name": "Garlic clove, crushed",
+          "qty": "1"
+        },
+        {
+          "name": "Lime, juiced",
+          "qty": "1"
+        },
+        {
+          "name": "Tightly packed fresh cilantro",
+          "qty": "\u00bd cup"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Granulated chicken bouillon",
+          "qty": "\u00bd tsp"
+        }
+      ],
+      "instructions": [
+        "Heat the oil in a large skillet over medium. Cook the tomatillos, jalape\u00f1os and onion, stirring occasionally, 5 to 6 minutes until mostly softened.",
+        "Add the garlic and cook about 45 seconds. Off the heat, cool 10 minutes.",
+        "Blend with the lime juice, cilantro, salt and bouillon until smooth."
+      ],
+      "batch_note": "Used on the chicken Milanese and the enchiladas.",
+      "cameron_note": "",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "cheater-beans-rd137",
+      "name": "Cheater Beans",
+      "cuisine": "Mexican",
+      "meal_type": "component",
+      "prep": "5 min",
+      "cook": "20 min",
+      "total": "25 min",
+      "spice_level": "None",
+      "serving_note": "Makes about 3\u00bd cups. Macros are counted in the dishes that use it.",
+      "tags": [
+        "beans",
+        "component",
+        "fall-2026",
+        "fall-dinners",
+        "imported",
+        "mexican",
+        "oct-2026",
+        "rd-week-137",
+        "restaurant-dropout",
+        "side",
+        "vegetarian"
+      ],
+      "equipment": "Small saucepan, masher or immersion blender",
+      "source": "Adapted from Restaurant Dropout Week 137 (10.30.2026)",
+      "macro_strings": {
+        "austin": null,
+        "cameron": null
+      },
+      "macros": {
+        "austin": null,
+        "cameron": null
+      },
+      "storage_note": "Airtight container in the fridge after cooling.",
+      "keeps": "5 days",
+      "freezes": "Yes, 3 months.",
+      "ingredients": [
+        {
+          "name": "Extra-virgin olive oil",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Chili powder",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "All-purpose flour",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Pinto beans, with their liquid",
+          "qty": "2 (15-oz) cans"
+        },
+        {
+          "name": "Shredded sharp cheddar, lightly packed",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "to taste"
+        }
+      ],
+      "instructions": [
+        "Heat the oil in a small saucepan over medium. Add the chili powder and cook about 30 seconds until fragrant.",
+        "Whisk in the flour until no clumps remain. Add the beans with their liquid and stir to coat. Mash or blend until mostly smooth, leaving a few chunks.",
+        "Lower the heat and cook 15 minutes. Off the heat stir in the cheddar and season with salt.",
+        "Cool completely before storing."
+      ],
+      "batch_note": "About 440 cal per cup, so portion it. Used with the chicken Milanese and enchiladas.",
+      "cameron_note": "",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "cilantro-lime-puree-rd137",
+      "name": "Cilantro-Lime Pur\u00e9e",
+      "cuisine": "Mexican",
+      "meal_type": "component",
+      "prep": "10 min",
+      "cook": "0 min",
+      "total": "10 min (source lists 40)",
+      "spice_level": "Mild",
+      "serving_note": "Makes about 1 cup. Macros are counted in the dishes that use it.",
+      "tags": [
+        "component",
+        "fall-2026",
+        "fall-dinners",
+        "imported",
+        "mexican",
+        "no-cook",
+        "oct-2026",
+        "rd-week-137",
+        "restaurant-dropout",
+        "sauce",
+        "vegan",
+        "vegetarian"
+      ],
+      "equipment": "High-speed blender",
+      "source": "Adapted from Restaurant Dropout Week 137 (10.30.2026)",
+      "macro_strings": {
+        "austin": null,
+        "cameron": null
+      },
+      "macros": {
+        "austin": null,
+        "cameron": null
+      },
+      "storage_note": "Airtight container in the fridge.",
+      "keeps": "4 days",
+      "freezes": "Yes, 2 months in an ice-cube tray.",
+      "ingredients": [
+        {
+          "name": "Tightly packed fresh cilantro",
+          "qty": "2 cups"
+        },
+        {
+          "name": "Jalape\u00f1o, roughly chopped",
+          "qty": "1"
+        },
+        {
+          "name": "Limes, juiced",
+          "qty": "2 (about 4 tbsp)"
+        },
+        {
+          "name": "Garlic cloves",
+          "qty": "2"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "2 tsp"
+        },
+        {
+          "name": "Neutral oil",
+          "qty": "\u00bc cup"
+        }
+      ],
+      "instructions": [
+        "Blend the cilantro, jalape\u00f1o, lime juice, garlic and salt until smooth.",
+        "With the blender on low, slowly stream in the oil and blend until thick, creamy and emulsified."
+      ],
+      "batch_note": "About 33 cal per tbsp. Used in the rice, the pozole and Austin's enchilada slaw.",
+      "cameron_note": "",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "sriracha-aioli-rd137",
+      "name": "Sriracha Aioli",
+      "cuisine": "American",
+      "meal_type": "component",
+      "prep": "3 min",
+      "cook": "0 min",
+      "total": "3 min",
+      "spice_level": "Medium",
+      "serving_note": "Makes about \u2153 cup. Macros are counted in the dishes that use it.",
+      "tags": [
+        "component",
+        "fall-2026",
+        "fall-dinners",
+        "imported",
+        "no-cook",
+        "oct-2026",
+        "rd-week-137",
+        "restaurant-dropout",
+        "sauce",
+        "spicy",
+        "vegetarian"
+      ],
+      "equipment": "Small bowl, whisk",
+      "source": "Adapted from Restaurant Dropout Week 137 (10.30.2026)",
+      "macro_strings": {
+        "austin": null,
+        "cameron": null
+      },
+      "macros": {
+        "austin": null,
+        "cameron": null
+      },
+      "storage_note": "Airtight container in the fridge.",
+      "keeps": "5 days",
+      "freezes": "No. Mayonnaise separates when frozen.",
+      "ingredients": [
+        {
+          "name": "Full-fat mayonnaise",
+          "qty": "\u00bc cup"
+        },
+        {
+          "name": "Sriracha",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Garlic clove, grated",
+          "qty": "1"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "\u215b tsp"
+        }
+      ],
+      "instructions": [
+        "Whisk everything in a small bowl until smooth.",
+        "Transfer to a squeeze bottle or jar and refrigerate."
+      ],
+      "batch_note": "About 77 cal per tbsp. Used on the fish tacos and the salmon bowls.",
+      "cameron_note": "",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "avocado-lime-drizzle-rd137",
+      "name": "Avocado Lime Drizzle (Cameron only)",
+      "cuisine": "Mexican",
+      "meal_type": "component",
+      "prep": "5 min",
+      "cook": "0 min",
+      "total": "5 min",
+      "spice_level": "None",
+      "serving_note": "Makes about \u00bd cup. Macros are counted in the dishes that use it.",
+      "tags": [
+        "avocado",
+        "cameron-only",
+        "component",
+        "fall-2026",
+        "fall-dinners",
+        "imported",
+        "mexican",
+        "no-cook",
+        "oct-2026",
+        "rd-week-137",
+        "restaurant-dropout",
+        "sauce",
+        "vegan",
+        "vegetarian"
+      ],
+      "equipment": "High-speed blender",
+      "source": "Adapted from Restaurant Dropout Week 137 (10.30.2026)",
+      "macro_strings": {
+        "austin": null,
+        "cameron": null
+      },
+      "macros": {
+        "austin": null,
+        "cameron": null
+      },
+      "storage_note": "Airtight container in the fridge, wrap on the surface.",
+      "keeps": "4 days (browns at the edges; press plastic wrap on the surface)",
+      "freezes": "No. Texture turns watery.",
+      "ingredients": [
+        {
+          "name": "Avocado, pitted and peeled (Cameron only)",
+          "qty": "1"
+        },
+        {
+          "name": "Tightly packed fresh cilantro",
+          "qty": "\u00bc cup"
+        },
+        {
+          "name": "Lime, juiced",
+          "qty": "1"
+        },
+        {
+          "name": "Water",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Kosher salt, plus more to taste",
+          "qty": "\u00bd tsp"
+        },
+        {
+          "name": "Scallion whites, thinly sliced",
+          "qty": "\u00bc cup (3 to 4 scallions)"
+        }
+      ],
+      "instructions": [
+        "Blend everything until smooth.",
+        "Adjust the consistency with a little water and season with salt; it varies with the avocado."
+      ],
+      "batch_note": "Austin can't have avocado. This is Cameron's drizzle; Austin gets the sriracha aioli or cilantro-lime pur\u00e9e instead. About 33 cal per tbsp.",
+      "cameron_note": "",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "fish-shop-inspired-seasoning-rd137",
+      "name": "Fish Shop-Inspired Seasoning",
+      "cuisine": "Mexican",
+      "meal_type": "component",
+      "prep": "5 min",
+      "cook": "0 min",
+      "total": "5 min",
+      "spice_level": "Mild",
+      "serving_note": "Makes about \u00bc cup. Macros are counted in the dishes that use it.",
+      "tags": [
+        "component",
+        "fall-2026",
+        "fall-dinners",
+        "imported",
+        "no-cook",
+        "oct-2026",
+        "pantry",
+        "rd-week-137",
+        "restaurant-dropout",
+        "seasoning"
+      ],
+      "equipment": "Small bowl",
+      "source": "Adapted from Restaurant Dropout Week 137 (10.30.2026)",
+      "macro_strings": {
+        "austin": null,
+        "cameron": null
+      },
+      "macros": {
+        "austin": null,
+        "cameron": null
+      },
+      "storage_note": "Airtight jar in a cool, dark place.",
+      "keeps": "6 months",
+      "freezes": "Not needed. Keeps in the pantry.",
+      "ingredients": [
+        {
+          "name": "Granulated sugar",
+          "qty": "4 tsp"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Chili powder",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Granulated chicken bouillon",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Ground black pepper",
+          "qty": "\u00bd tsp"
+        },
+        {
+          "name": "Sweet paprika",
+          "qty": "\u00bd tsp"
+        }
+      ],
+      "instructions": [
+        "Stir everything together in a small bowl until fully combined.",
+        "Store in a jar in a cool, dark cupboard."
+      ],
+      "batch_note": "Used on the fish tacos and the salmon bowls. About 6 cal per tsp.",
+      "cameron_note": "",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false,
+      "added_date": "2026-11-05"
+    },
+    {
+      "id": "baby-broccoli-cheddar-frittata",
+      "name": "Baby Broccoli Cheddar Frittata",
+      "cuisine": "American",
+      "meal_type": "breakfast",
+      "prep": "20 min",
+      "cook": "50 min",
+      "total": "1\u00bd hours",
+      "spice_level": "None",
+      "serving_note": "Source yields 8 slices (~350 cal and ~20g P each). Batch breakfast: slices reheat in the Breville or microwave. Austin's plate adds cottage cheese for protein. Macros are estimates.",
+      "tags": [
+        "american",
+        "batch-friendly",
+        "breakfast",
+        "cast-iron",
+        "egg",
+        "freezer-friendly",
+        "high-protein",
+        "imported",
+        "vegetarian"
+      ],
+      "equipment": "10-inch cast-iron skillet, Breville Smart Oven Pro",
+      "source": "Baby Broccoli Cheddar Frittata recipe card (PDF supplied by Austin, 'fm' logo)",
+      "macro_strings": {
+        "austin": "530 cal | 44g P | 31g F | 17g C",
+        "cameron": "265 cal | 22g P | 15g F | 9g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 530,
+          "p": 44,
+          "f": 31,
+          "c": 17
+        },
+        "cameron": {
+          "cal": 265,
+          "p": 22,
+          "f": 15,
+          "c": 9
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Salted butter",
+          "qty": "3 tbsp"
+        },
+        {
+          "name": "Shallot, finely diced",
+          "qty": "1"
+        },
+        {
+          "name": "Baby broccoli, cut into bite-sized pieces",
+          "qty": "8 oz"
+        },
+        {
+          "name": "Shredded carrots",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Kosher salt, divided",
+          "qty": "\u00bd tsp for the veg and \u00bd tsp for the eggs (1 tsp total)"
+        },
+        {
+          "name": "Large eggs",
+          "qty": "8"
+        },
+        {
+          "name": "Sharp cheddar, shredded",
+          "qty": "8 oz (about 2 cups)"
+        },
+        {
+          "name": "Whole milk ricotta",
+          "qty": "15 oz"
+        },
+        {
+          "name": "All-purpose flour",
+          "qty": "\u00bc cup"
+        },
+        {
+          "name": "Baking powder",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "2% cottage cheese, for serving",
+          "qty": "1 cup for Austin, \u00bd cup for Cameron"
+        }
+      ],
+      "instructions": [
+        "Heat the oven to 350\u00b0F (Breville, bake).",
+        "In a 10-inch cast-iron skillet melt the butter over medium. Cook the shallot about 3 minutes until soft. Add the baby broccoli, carrots and \u00bc tsp salt and cook, stirring, about 4 minutes until mostly tender. Turn off the heat and let cool.",
+        "Whisk the eggs, cheddar, ricotta, remaining salt, flour and baking powder until no large clumps remain. Pour over the vegetables in the skillet and stir to combine.",
+        "Bake 45 to 50 minutes until the edges are puffed, the top is golden and a knife in the center comes out clean. Cool 10 minutes, then slice into 8.",
+        "AUSTIN: 1 slice (\u215b of the pan) with 1 cup 2% cottage cheese.",
+        "CAMERON: \u00bd slice with \u00bd cup 2% cottage cheese."
+      ],
+      "batch_note": "Bake Sunday, slice into 8 and refrigerate up to 5 days or freeze slices individually up to 2 months. Reheat 2 minutes in the microwave or 8 minutes in the Breville.",
+      "cameron_note": "Half a slice plus cottage cheese keeps her at about 265 cal and 22g protein.",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false,
+      "added_date": "2026-11-05"
+    },
+    {
       "id": "kodiak-date-overnight-oats",
       "name": "Kodiak Date Overnight Oats",
       "cuisine": "American",
