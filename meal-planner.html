@@ -947,6 +947,21 @@ select.form-control { cursor: pointer; }
 .store-badge.cycle-early { background: #FEE2E2; color: #991B1B; }
 .store-badge.cycle-mid   { background: #FEF3C7; color: #92400E; }
 .store-badge.cycle-late  { background: #DCFCE7; color: #166534; }
+.prep-build-btn { margin-top: 8px; font-family: var(--font-mono, monospace); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; background: var(--yellow, #fbd601); color: #231f20; border: 0; padding: 7px 12px; cursor: pointer; }
+.prep-build-btn:focus-visible { outline: 2px solid #231f20; outline-offset: 2px; }
+.prep-thaw { font-size: 12px; margin: 4px 0 8px; padding: 5px 8px; }
+.prep-thaw.ok { background: #DCFCE7; color: #166534; }
+.prep-thaw.todo { background: #FEF3C7; color: #92400E; cursor: pointer; }
+.prep-freezer-bank { font-size: 12px; margin-top: 8px; padding: 6px 8px; background: #E0F2FE; color: #075985; }
+.component-banner { font-family: var(--font-mono, monospace); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; background: var(--yellow, #fbd601); color: #231f20; padding: 6px 10px; margin-bottom: 14px; }
+.component-storage p { font-size: 13px; line-height: 1.5; }
+.day-prep-box { border: 2px solid var(--ink, #231f20); padding: 12px 14px; margin-bottom: 16px; background: var(--card, #fff); }
+.day-prep-title { font-family: var(--font-mono, monospace); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; font-weight: 700; }
+.day-prep-sub { font-size: 12px; color: var(--muted); margin: 2px 0 8px; }
+.day-prep-item { display: flex; gap: 10px; align-items: flex-start; padding: 8px 0; border-top: 1px solid var(--border); font-size: 14px; cursor: pointer; }
+.day-prep-item input { margin-top: 3px; width: 18px; height: 18px; flex: none; }
+.day-prep-item small { color: var(--muted); font-size: 12px; }
+.day-prep-item.done b { text-decoration: line-through; opacity: .6; }
 .prep-empty { text-align: center; padding: 48px 24px; color: var(--muted); }
 
 /* ── Recipe card visual hero ───────────────────────────────── */
@@ -1254,6 +1269,7 @@ select.form-control { cursor: pointer; }
     </div>
 
     <div id="cuisineBadgeContainer"></div>
+    <div id="dayPrepBox"></div>
     <div class="meals-grid" id="mealsGrid">
       <!-- rendered by JS -->
     </div>
@@ -1783,10 +1799,12 @@ function renderWeek() {
 function renderDay() {
   if (!S.currentPlan) {
     document.getElementById('mealsGrid').innerHTML = '<p class="text-muted">No meal plan data — start the server to load this week\'s plan.</p>';
+    const box = document.getElementById('dayPrepBox'); if (box) box.innerHTML = '';
     return;
   }
   const day = S.currentPlan.days[S.selectedDay];
   if (!day) return;
+  renderDayPrepBox();
 
   // Cuisine badge
   document.getElementById('cuisineBadgeContainer').innerHTML =
@@ -1951,9 +1969,11 @@ function renderRecipes() {
   }).join('');
 }
 
-function openRecipeModal(id) {
+function openRecipeModal(id, prepKey) {
   const r = S.recipeLib.recipes.find(x => x.id === id);
   if (!r) return;
+  const hasMacros = !!(r.macros?.austin || r.macros?.cameron);
+  const isComponent = r.meal_type === 'component';
   document.getElementById('modalTitle').textContent = r.name;
   document.getElementById('modalMeta').innerHTML =
     [r.cuisine, r.total ? `${r.total}` : '', r.spice_level && r.spice_level !== 'None' ? `${r.spice_level}` : '', r.equipment]
@@ -1971,8 +1991,14 @@ function openRecipeModal(id) {
   })();
 
   document.getElementById('modalBody').innerHTML = `
+    ${isComponent ? `<div class="component-banner">Component build card${r.serving_note ? ` · ${r.serving_note}` : ''}</div>` : ''}
+    ${(r.storage_note || r.keeps) ? `
+    <div class="modal-section component-storage">
+      <h4>Store it</h4>
+      <p>${[r.storage_note, r.keeps ? `Keeps ${r.keeps}.` : '', r.freezes ? `Freezes: ${r.freezes}` : ''].filter(Boolean).join(' ')}</p>
+    </div>` : ''}
     <!-- Macros -->
-    <div class="modal-section">
+    ${hasMacros ? `<div class="modal-section">
       <h4>Macros</h4>
       <table class="macro-table">
         <tr><th></th><th>Cal</th><th>Protein</th><th>Fat</th><th>Carbs</th></tr>
@@ -1991,7 +2017,7 @@ function openRecipeModal(id) {
           <td>${r.macros?.cameron?.c||'—'}g</td>
         </tr>
       </table>
-    </div>
+    </div>` : ''}
     <!-- Tags -->
     ${r.tags?.length ? `
     <div class="modal-section">
@@ -2043,6 +2069,10 @@ function openRecipeModal(id) {
     <div class="modal-section">
       <h4>Source</h4>
       <p style="font-size:13px;color:var(--muted);line-height:1.5">${r.source_account ? `<span>${r.source_account}</span> · ` : ''}<a href="${r.source_url}" target="_blank" style="color:var(--orange)">View original post ↗</a></p>
+    </div>` : ''}
+    ${prepKey ? `
+    <div class="modal-section">
+      <button class="btn-primary" style="width:100%" onclick="markPrepBuilt('${prepKey}')">${isPrepDone(prepKey) ? 'Built ✓ · close' : 'Mark built & close'}</button>
     </div>` : ''}
   `;
   document.getElementById('recipeModal').classList.add('open');
@@ -3098,7 +3128,7 @@ function renderPrepV2(prep) {
       ${ph.note ? `<div class="prep-phase-note">${ph.note}</div>` : ''}
       <div class="prep-cards">`;
     ph.items.forEach((it, ii) => {
-      const id = `${pi}-${ii}`;
+      const id = it.id || `${pi}-${ii}`;
       const done = !!checks[id];
       if (ph.key !== 'thaw' && ph.key !== 'midcycle') {
         const m = String(it.time || '').match(/(\d+)\s*min/);
@@ -3120,7 +3150,7 @@ function renderPrepV2(prep) {
         return r ? `<span class="prep-feed-chip linked" onclick="openRecipeModal('${rid}')">${txt}</span>`
                  : `<span class="prep-feed-chip">${txt}</span>`;
       }).join('');
-      html += `<div class="prep-card${done ? ' done' : ''}" id="prep2card-${id}">
+      html += `<div class="prep-card${done ? ' done' : ''}" id="prep2card-${id}" data-prep-key="${id}">
         <div class="prep-card-stripe ${meta.cls}"></div>
         <div class="prep-card-inner">
           <div class="prep-card-header">
@@ -3131,6 +3161,7 @@ function renderPrepV2(prep) {
             </div>
             <div class="prep-badges">
               ${it.when ? `<span class="prep-badge week-b">${it.when}</span>` : ''}
+              ${it.day && !it.when ? `<span class="prep-badge week-b">${it.day}</span>` : ''}
               ${it.time ? `<span class="prep-badge time">${it.time}</span>` : ''}
               ${it.passive ? `<span class="prep-badge passive">Set &amp; forget</span>` : ''}
               ${it.storage ? `<span class="prep-badge sat-b">${STORAGE_ICON[it.storage] || it.storage}</span>` : ''}
@@ -3138,10 +3169,13 @@ function renderPrepV2(prep) {
             </div>
           </div>
           ${it.why ? `<div class="prep-why">${it.why}</div>` : ''}
+          ${prepThawChip(it, checks)}
           ${specs.length ? `<div class="prep-specs">${specs.join(' · ')}</div>` : ''}
+          ${it.component_id && S.recipeLib.recipes.some(r => r.id === it.component_id)
+            ? `<button class="prep-build-btn" onclick="openRecipeModal('${it.component_id}','${id}')">Open build card ›</button>` : ''}
           ${feeds ? `<div class="prep-feeds"><span class="prep-feeds-lbl">Feeds:</span>${feeds}</div>` : ''}
           ${it.steps?.length ? `<ol class="prep-step-list">${it.steps.map(x => `<li>${x}</li>`).join('')}</ol>` : ''}
-          ${it.freeze ? `<div class="prep-specs"><b>Freezer move</b> ${it.freeze === true ? 'Freezes well. Make extra and vacuum seal.' : it.freeze}</div>` : ''}
+          ${it.freeze ? `<div class="prep-freezer-bank">🧊 Freezer bank · ${it.freeze === true ? 'Freezes well. Make extra and vacuum seal.' : it.freeze}</div>` : ''}
           ${labeled ? `<div class="prep-label-chip">🏷 ${label}</div>` : ''}
         </div>
       </div>`;
@@ -3169,13 +3203,76 @@ function renderPrepV2(prep) {
   };
 }
 
+function prepChecks() {
+  try { return JSON.parse(localStorage.getItem(`ak-prep2-${S.weeks[S.weekIndex]}`) || '{}'); } catch { return {}; }
+}
+function setPrepCheck(id, val) {
+  const checks = prepChecks();
+  checks[id] = val;
+  try { localStorage.setItem(`ak-prep2-${S.weeks[S.weekIndex]}`, JSON.stringify(checks)); } catch {}
+}
+function isPrepDone(id) { return !!prepChecks()[id]; }
+
 function togglePrepV2(id, cb) {
-  const key = `ak-prep2-${S.weeks[S.weekIndex]}`;
-  let checks = {};
-  try { checks = JSON.parse(localStorage.getItem(key) || '{}'); } catch {}
-  checks[id] = cb.checked;
-  try { localStorage.setItem(key, JSON.stringify(checks)); } catch {}
-  document.getElementById(`prep2card-${id}`)?.classList.toggle('done', cb.checked);
+  setPrepCheck(id, cb.checked);
+  // Re-render so thaw links, day boxes and the Prep tab stay in sync.
+  if (S.currentPlan?.prep?.phases) renderPrepV2(S.currentPlan.prep);
+  renderDayPrepBox();
+}
+
+function markPrepBuilt(id) {
+  setPrepCheck(id, true);
+  document.getElementById('recipeModal').classList.remove('open');
+  if (S.currentPlan?.prep?.phases) renderPrepV2(S.currentPlan.prep);
+  renderDayPrepBox();
+  // Move on to the next unbuilt component card in the Prep tab.
+  const next = [...document.querySelectorAll('#prepBody .prep-card:not(.done) .prep-build-btn')][0];
+  next?.closest('.prep-card')?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
+// Proteins (or anything) that come out of the freezer point at their thaw step.
+function prepFindItem(id) {
+  for (const ph of S.currentPlan?.prep?.phases || []) for (const it of ph.items || []) if (it.id === id) return it;
+  return null;
+}
+function prepThawChip(it, checks) {
+  if (!it.thaw_ref) return '';
+  const t = prepFindItem(it.thaw_ref);
+  if (!t) return '';
+  return checks[it.thaw_ref]
+    ? `<div class="prep-thaw ok">✓ Thawed · ${t.name}</div>`
+    : `<div class="prep-thaw todo" onclick="document.getElementById('prep2card-${it.thaw_ref}')?.scrollIntoView({behavior:'smooth',block:'center'})">⏳ Not pulled yet · ${t.when ? t.when + ': ' : ''}${t.name}</div>`;
+}
+
+// "Get ahead today" box at the top of a day on This Week.
+function renderDayPrepBox() {
+  const box = document.getElementById('dayPrepBox');
+  if (!box) return;
+  const day = S.currentPlan?.days?.[S.selectedDay];
+  const phases = S.currentPlan?.prep?.phases || [];
+  if (!day) { box.innerHTML = ''; return; }
+  const checks = prepChecks();
+  const items = [];
+  phases.forEach((ph, pi) => (ph.items || []).forEach((it, ii) => {
+    if (it.day && it.day.toLowerCase() === String(day.day).toLowerCase()) items.push({ it, key: it.id || `${pi}-${ii}` });
+  }));
+  if (!items.length) { box.innerHTML = ''; return; }
+  box.innerHTML = `<div class="day-prep-box">
+    <div class="day-prep-title">Get ahead tonight · prep for later this week</div>
+    <div class="day-prep-sub">Do these while dinner cooks.</div>
+    ${items.map(({ it, key }) => {
+      const feeds = (it.feeds || []).map(f => {
+        const r = S.recipeLib.recipes.find(x => x.id === (f.recipe_id || f));
+        return [r?.name || f.recipe_id || f, f.when].filter(Boolean).join(' ');
+      }).join(', ');
+      return `<label class="day-prep-item${checks[key] ? ' done' : ''}">
+        <input type="checkbox" ${checks[key] ? 'checked' : ''} onchange="togglePrepV2('${key}', this)">
+        <span><b>${it.name}</b>${it.time ? ` · ${it.time}` : ''}${feeds ? `<br><small>For ${feeds}</small>` : ''}
+        ${it.label ? `<br><small>🏷 ${it.label}</small>` : ''}
+        ${it.component_id ? `<br><button type="button" class="prep-build-btn" onclick="event.preventDefault();openRecipeModal('${it.component_id}','${key}')">Open build card ›</button>` : ''}</span>
+      </label>`;
+    }).join('')}
+  </div>`;
 }
 
 // ── Render the full Prep tab ───────────────────────────────

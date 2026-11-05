@@ -192,7 +192,11 @@ python3 scripts/import_anylist.py --scrape --local
 ```
 Phase keys, in order: `thaw`, `start` (preheat & longest cooks), `knife`, `sauces` (sauces/marinades/dressings),
 `proteins`, `grains`, `crunch` (pickles/toasted nuts/garnish), `pack`, `midcycle`. The app sorts by this order.
-Item fields (all optional except `name`): `when` (e.g. "Sat night", used by thaw/midcycle), `qty`, `cut`, `yield`, `time` ("15 min"), `passive`, `steps[]`,
+Item fields (all optional except `name`): `id` (stable slug, needed for `thaw_ref` and saved checkmarks),
+`component_id` (a recipe-library id with `meal_type: "component"`; the card gets an **Open build card** button showing ingredients, steps and storage),
+`thaw_ref` (on a protein: the `id` of its thaw item; the card shows "Thawed ✓" or "Not pulled yet"),
+`day` (e.g. "Wednesday": the item also shows in a **Get ahead tonight** box at the top of that day on This Week),
+`when` (e.g. "Sat night", used by thaw/midcycle), `qty`, `cut`, `yield`, `time` ("15 min"), `passive`, `steps[]`,
 `storage` (fridge | freezer | vacuum | counter | pantry), `keeps`, `use_by`, `label`, `feeds[{recipe_id, when}]`, `freeze`, `why`.
 Every knife/sauce/protein/grain item gets a `label`: the deli-container label text, in the form
 **"<what, how it's cut> · <recipe> (<day>)"**. The app collects them into a copyable label list.
@@ -258,7 +262,10 @@ Each dinner then = protein + sauce + base + veg + crunch, recombined so no two n
 In recipe JSON, list shared prep in an optional `components: [...]` field so the prep guide can merge them.
 
 Write `prep.phases` in leverage order: longest/passive cooks start first, then knife work while the oven runs, then sauces, then everything else.
-Tag every item with what it feeds and a container label. Mark anything that freezes well with `freeze` (make 2x, vacuum seal half for week 2).
+Tag every item with what it feeds and a container label. Every sauce, marinade, dressing, pickle and batch-cooked protein needs a `component_id`;
+if the component doesn't exist yet, add it to the recipe library (`meal_type: "component"`, plus `storage_note`, `keeps`, `freezes`).
+
+**Thaw timing:** plans are generated Friday afternoon (scheduled task, ~2:20pm ET). Pull from the freezer **Friday night**, marinate **Saturday**, cook **Sunday**. Weeknight thaws get a `day` so they show up on that day. Mark anything that freezes well with `freeze` (make 2x, vacuum seal half for week 2).
 
 ---
 

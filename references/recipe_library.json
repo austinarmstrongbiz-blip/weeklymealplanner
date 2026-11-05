@@ -24503,6 +24503,452 @@
         }
       },
       "retired": false
+    },
+    {
+      "id": "chimichurri-component",
+      "name": "Chimichurri",
+      "cuisine": "Argentinian",
+      "meal_type": "component",
+      "added_date": "2026-11-05",
+      "prep": "10 min",
+      "cook": "",
+      "total": "10 min",
+      "spice_level": "None",
+      "serving_note": "Makes ~1\u00bd cups (2x batch)",
+      "tags": [
+        "batch-friendly",
+        "claude-built",
+        "component",
+        "freezer-friendly",
+        "herb",
+        "sauce"
+      ],
+      "equipment": "Cutting board, chef's knife (or food processor, pulse only), jar",
+      "macro_strings": {
+        "austin": null,
+        "cameron": null
+      },
+      "macros": {
+        "austin": null,
+        "cameron": null
+      },
+      "storage_note": "Glass jar in the fridge. Press plastic wrap on the surface so the herbs stay green; let it come to room temp 10 min before using so the oil loosens.",
+      "keeps": "7 days",
+      "freezes": "Yes. Freeze half in an ice-cube tray, then pop the cubes into a vacuum bag. 3 months.",
+      "ingredients": [
+        {
+          "name": "Flat-leaf parsley, packed",
+          "qty": "2 cups (about 2 bunches)"
+        },
+        {
+          "name": "Cilantro, packed (optional, or more parsley)",
+          "qty": "\u00bd cup"
+        },
+        {
+          "name": "Garlic",
+          "qty": "6 cloves, minced"
+        },
+        {
+          "name": "Shallot",
+          "qty": "1 small, minced (about 3 tbsp)"
+        },
+        {
+          "name": "Red wine vinegar",
+          "qty": "\u2153 cup"
+        },
+        {
+          "name": "Dried oregano",
+          "qty": "2 tsp"
+        },
+        {
+          "name": "Red pepper flakes",
+          "qty": "1 tsp (Austin can add more on his plate)"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "1\u00bd tsp"
+        },
+        {
+          "name": "Black pepper",
+          "qty": "\u00bd tsp"
+        },
+        {
+          "name": "Olive oil",
+          "qty": "1 cup"
+        }
+      ],
+      "instructions": [
+        "Put the minced shallot and garlic in the jar with the vinegar and salt. Let it sit 5 minutes; this takes the raw bite off.",
+        "Finely chop the parsley and cilantro, stems included up to the leafy part. Aim for confetti, not paste. A food processor works if you pulse 6\u20138 times only.",
+        "Add the herbs, oregano, red pepper flakes and black pepper to the jar.",
+        "Pour in the olive oil and stir. Taste for salt and acid; it should be bright and punchy.",
+        "Rest at least 20 minutes before using. Spoon half into an ice-cube tray if freezing."
+      ],
+      "batch_note": "Make the 2x batch Sunday. Half is for this week's steaks; the frozen half is ready for week 2. Also works as a marinade: 3 tbsp per 6 oz steak, up to overnight."
+    },
+    {
+      "id": "jaew-thai-dipping-sauce",
+      "name": "Jaew (Thai Crying Tiger Dipping Sauce)",
+      "cuisine": "Thai",
+      "meal_type": "component",
+      "added_date": "2026-11-05",
+      "prep": "5 min",
+      "cook": "",
+      "total": "5 min",
+      "spice_level": "None",
+      "serving_note": "Makes ~\u00bd cup",
+      "tags": [
+        "batch-friendly",
+        "claude-built",
+        "component",
+        "sauce",
+        "spicy",
+        "thai"
+      ],
+      "equipment": "Dry skillet, mortar and pestle or spice grinder, jar",
+      "macro_strings": {
+        "austin": null,
+        "cameron": null
+      },
+      "macros": {
+        "austin": null,
+        "cameron": null
+      },
+      "storage_note": "Small jar in the fridge. Keep the toasted rice powder separate and stir in right before serving so it stays crunchy.",
+      "keeps": "7 days",
+      "freezes": "No. It's quick to make fresh.",
+      "ingredients": [
+        {
+          "name": "Uncooked jasmine rice (for toasted rice powder)",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Fish sauce",
+          "qty": "3 tbsp"
+        },
+        {
+          "name": "Lime juice",
+          "qty": "3 tbsp (about 2 limes)"
+        },
+        {
+          "name": "Brown sugar or palm sugar",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Red pepper flakes",
+          "qty": "1\u20132 tsp (mild for Cameron, extra for Austin on the side)"
+        },
+        {
+          "name": "Shallot",
+          "qty": "1 small, thinly sliced"
+        },
+        {
+          "name": "Cilantro or green onion",
+          "qty": "2 tbsp, chopped"
+        }
+      ],
+      "instructions": [
+        "Toast the raw rice in a dry skillet over medium heat, shaking often, 5\u20136 minutes until deep golden.",
+        "Cool 2 minutes, then grind to a coarse powder (mortar, spice grinder, or a zip bag and a rolling pin). Store in its own little container.",
+        "Stir together the fish sauce, lime juice and sugar until the sugar dissolves.",
+        "Add the red pepper flakes, shallot and herbs.",
+        "Right before serving, stir in 1 tbsp of the toasted rice powder."
+      ],
+      "batch_note": "The toasted rice powder keeps 2 weeks in the pantry, so make a double batch for future larb or crying tiger."
+    },
+    {
+      "id": "gochujang-lime-sauce",
+      "name": "Gochujang-Lime Sauce",
+      "cuisine": "Korean",
+      "meal_type": "component",
+      "added_date": "2026-11-05",
+      "prep": "5 min",
+      "cook": "",
+      "total": "5 min",
+      "spice_level": "None",
+      "serving_note": "Makes ~1 cup (2x batch)",
+      "tags": [
+        "batch-friendly",
+        "claude-built",
+        "component",
+        "freezer-friendly",
+        "korean",
+        "marinade",
+        "sauce",
+        "spicy"
+      ],
+      "equipment": "Bowl, whisk, jar",
+      "macro_strings": {
+        "austin": null,
+        "cameron": null
+      },
+      "macros": {
+        "austin": null,
+        "cameron": null
+      },
+      "storage_note": "Jar in the fridge.",
+      "keeps": "10 days",
+      "freezes": "Yes. Freeze half flat in a small vacuum bag. 3 months.",
+      "ingredients": [
+        {
+          "name": "Gochujang (pantry)",
+          "qty": "\u2153 cup"
+        },
+        {
+          "name": "Soy sauce (pantry)",
+          "qty": "3 tbsp"
+        },
+        {
+          "name": "Lime juice",
+          "qty": "3 tbsp (about 2 limes)"
+        },
+        {
+          "name": "Honey (pantry)",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Rice vinegar (pantry)",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Sesame oil (pantry)",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Garlic",
+          "qty": "2 cloves, grated"
+        },
+        {
+          "name": "Fresh ginger",
+          "qty": "1 tsp, grated"
+        },
+        {
+          "name": "Water",
+          "qty": "2\u20133 tbsp, to thin"
+        }
+      ],
+      "instructions": [
+        "Whisk everything except the water until smooth.",
+        "Add water a tablespoon at a time until it pours like a thick dressing.",
+        "Taste: it should be sweet, spicy and sour in balance. Add lime for more brightness.",
+        "Jar it. For a marinade, use \u00bc cup per pound of steak strips or wings."
+      ],
+      "batch_note": "One sauce, two jobs: bowl drizzle and marinade or wing glaze. Almost all pantry ingredients, so it's very cheap."
+    },
+    {
+      "id": "quick-pickled-red-onion",
+      "name": "Quick-Pickled Red Onion",
+      "cuisine": "American",
+      "meal_type": "component",
+      "added_date": "2026-11-05",
+      "prep": "10 min (+30 min to pickle)",
+      "cook": "",
+      "total": "10 min (+30 min to pickle)",
+      "spice_level": "None",
+      "serving_note": "Makes 1 pint jar",
+      "tags": [
+        "batch-friendly",
+        "claude-built",
+        "component",
+        "cost-saver",
+        "crunch",
+        "pickled",
+        "vegan",
+        "vegetarian"
+      ],
+      "equipment": "Pint jar or deli container, small saucepan",
+      "macro_strings": {
+        "austin": null,
+        "cameron": null
+      },
+      "macros": {
+        "austin": null,
+        "cameron": null
+      },
+      "storage_note": "Pint jar in the fridge, onions fully under the brine.",
+      "keeps": "2 weeks",
+      "freezes": "No. The fridge keeps it 2 weeks anyway.",
+      "ingredients": [
+        {
+          "name": "Red onion",
+          "qty": "1 large (or 2 small)"
+        },
+        {
+          "name": "Red wine or apple cider vinegar",
+          "qty": "\u00be cup"
+        },
+        {
+          "name": "Water",
+          "qty": "\u00be cup"
+        },
+        {
+          "name": "Honey or sugar",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "1\u00bd tsp"
+        },
+        {
+          "name": "Optional add-ins",
+          "qty": "1 smashed garlic clove, \u00bd tsp peppercorns, a few slices of jalape\u00f1o (keep a jalape\u00f1o-free jar for Cameron if she wants it mild)"
+        }
+      ],
+      "instructions": [
+        "Slice the onion into thin half-moons, about \u215b inch. Separate the layers and pack them into the jar with any add-ins.",
+        "In a small saucepan, heat the vinegar, water, honey and salt until steaming and the salt dissolves. It doesn't need to boil.",
+        "Pour the hot brine over the onions until they're fully covered. Press them down with a spoon.",
+        "Cool on the counter 30 minutes, uncovered. They'll turn bright pink.",
+        "Lid and refrigerate. Ready in 30 minutes, best after a few hours, good for 2 weeks."
+      ],
+      "batch_note": "This is the cheapest flavor upgrade in the kitchen: one 79\u00a2 onion becomes a topping for tacos, bowls, burgers, salads and slaw for 2 weeks. Reuse the brine once for a second batch (cucumber, radish or jalape\u00f1o)."
+    },
+    {
+      "id": "lemon-herb-chicken-thighs-component",
+      "name": "Lemon-Herb Chicken Thighs (Batch)",
+      "cuisine": "Mediterranean",
+      "meal_type": "component",
+      "added_date": "2026-11-05",
+      "prep": "10 min + 20 min air fryer",
+      "cook": "",
+      "total": "10 min + 20 min air fryer",
+      "spice_level": "None",
+      "serving_note": "Makes 1\u00bd lb cooked (~6 Cameron lunch portions or 3 Austin portions)",
+      "tags": [
+        "air-fryer",
+        "batch-friendly",
+        "chicken",
+        "claude-built",
+        "component",
+        "high-protein",
+        "meal-prep",
+        "protein"
+      ],
+      "equipment": "Air fryer (or Breville at 425\u00b0F), bowl, instant-read thermometer",
+      "macro_strings": {
+        "austin": null,
+        "cameron": null
+      },
+      "macros": {
+        "austin": null,
+        "cameron": null
+      },
+      "storage_note": "Slice, then portion into deli containers. Cameron: 3\u00bd oz per lunch; Austin: 6\u20137 oz.",
+      "keeps": "4 days",
+      "freezes": "Yes, cooked and sliced, vacuum sealed. Reheat from thawed in a skillet.",
+      "ingredients": [
+        {
+          "name": "Boneless skinless chicken thighs",
+          "qty": "2 lb raw"
+        },
+        {
+          "name": "Olive oil",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Lemon",
+          "qty": "1: zest + 2 tbsp juice"
+        },
+        {
+          "name": "Garlic",
+          "qty": "3 cloves, grated"
+        },
+        {
+          "name": "Dried oregano",
+          "qty": "1\u00bd tsp"
+        },
+        {
+          "name": "Smoked paprika",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "1\u00bd tsp"
+        },
+        {
+          "name": "Black pepper",
+          "qty": "\u00bd tsp"
+        },
+        {
+          "name": "Fresh parsley (from the chimichurri bunch)",
+          "qty": "2 tbsp, chopped, to finish"
+        }
+      ],
+      "instructions": [
+        "Toss the thighs with the oil, lemon zest and juice, garlic, oregano, paprika, salt and pepper. Even 15 minutes of marinating helps; overnight Saturday is best.",
+        "Air fryer at 400\u00b0F. Cook in a single layer, in 2 batches, 16\u201318 minutes, flipping at 9, until 175\u00b0F inside.",
+        "Rest 5 minutes, then slice.",
+        "Toss with the parsley and a squeeze of lemon, then portion into labeled containers."
+      ],
+      "batch_note": "Marinate Saturday in a zip bag so Sunday is just air fryer time. Thighs stay juicy for 4 days of lunches, unlike breasts."
+    },
+    {
+      "id": "herb-yogurt-sauce",
+      "name": "Herb Yogurt Sauce",
+      "cuisine": "Mediterranean",
+      "meal_type": "component",
+      "added_date": "2026-11-05",
+      "prep": "5 min",
+      "cook": "",
+      "total": "5 min",
+      "spice_level": "None",
+      "serving_note": "Makes ~1\u00bc cups",
+      "tags": [
+        "batch-friendly",
+        "claude-built",
+        "component",
+        "high-protein",
+        "sauce",
+        "yogurt"
+      ],
+      "equipment": "Bowl, jar",
+      "macro_strings": {
+        "austin": null,
+        "cameron": null
+      },
+      "macros": {
+        "austin": null,
+        "cameron": null
+      },
+      "storage_note": "Jar or deli container in the fridge.",
+      "keeps": "5 days",
+      "freezes": "No. Yogurt sauces split when frozen.",
+      "ingredients": [
+        {
+          "name": "Plain nonfat Greek yogurt",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Lemon juice",
+          "qty": "1\u00bd tbsp"
+        },
+        {
+          "name": "Garlic",
+          "qty": "1 small clove, grated"
+        },
+        {
+          "name": "Fresh dill or parsley",
+          "qty": "2 tbsp, chopped"
+        },
+        {
+          "name": "Olive oil",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "\u00bd tsp"
+        },
+        {
+          "name": "Water",
+          "qty": "1\u20132 tbsp, to thin"
+        }
+      ],
+      "instructions": [
+        "Stir everything together until smooth.",
+        "Thin with water until it drizzles.",
+        "Taste for salt and lemon."
+      ],
+      "batch_note": "About 6g of protein per \u00bc cup, so it lifts Cameron's lunch protein compared with an oil dressing."
     }
   ]
 }
