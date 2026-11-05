@@ -26638,6 +26638,990 @@
       },
       "retired": false,
       "added_date": "2026-11-05"
+    },
+    {
+      "id": "kodiak-date-overnight-oats",
+      "name": "Kodiak Date Overnight Oats",
+      "cuisine": "American",
+      "meal_type": "breakfast",
+      "added_date": "2026-11-05",
+      "source_account": "Above Kitch (Claude)",
+      "prep": "5 min",
+      "cook": "0 (overnight)",
+      "total": "5 min + overnight",
+      "spice_level": "None (Austin adds heat at the table)",
+      "tags": [
+        "batch-friendly",
+        "claude-built",
+        "fall",
+        "fall-2026",
+        "grab-and-go",
+        "high-protein",
+        "meal-prep",
+        "no-cook"
+      ],
+      "equipment": "4 lidded jars",
+      "macro_strings": {
+        "austin": "590 cal | 45g P | 14g F | 74g C",
+        "cameron": "300 cal | 25g P | 6g F | 38g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 590,
+          "p": 45,
+          "f": 14,
+          "c": 74
+        },
+        "cameron": {
+          "cal": 300,
+          "p": 25,
+          "f": 6,
+          "c": 38
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Kodiak protein oats (on hand)",
+          "qty": "\u00bd cup per jar (Austin: \u00be cup + 1 scoop vanilla protein)"
+        },
+        {
+          "name": "Plain nonfat Greek yogurt",
+          "qty": "\u00bd cup per jar"
+        },
+        {
+          "name": "Milk",
+          "qty": "\u00bc cup per jar"
+        },
+        {
+          "name": "Medjool date (on hand), chopped",
+          "qty": "1 per jar"
+        },
+        {
+          "name": "Cinnamon",
+          "qty": "\u00bc tsp per jar"
+        },
+        {
+          "name": "Vanilla extract",
+          "qty": "a drop"
+        },
+        {
+          "name": "Pinch of salt",
+          "qty": ""
+        }
+      ],
+      "instructions": [
+        "Line up 4 jars. Into each: oats, yogurt, milk, chopped date, cinnamon, vanilla and a pinch of salt.",
+        "Stir well, lid, and refrigerate. Ready by morning; keeps 4 days.",
+        "Eat cold straight from the jar, or microwave 60 seconds. Add a spoon of granola for crunch if you want it (about +60 cal)."
+      ],
+      "batch_note": "Make 4 jars Sunday for Mon\u2013Thu. Grab-and-go: no cooking on weekday mornings.",
+      "cameron_note": "Cameron: \u00bd cup oats, \u00bd cup yogurt, 1 date. Austin version adds a scoop of vanilla protein and \u00be cup oats."
+    },
+    {
+      "id": "sausage-cheddar-pepper-egg-bites",
+      "name": "Sausage, Cheddar & Pepper Egg Bites",
+      "cuisine": "American",
+      "meal_type": "breakfast",
+      "added_date": "2026-11-05",
+      "source_account": "Above Kitch (Claude)",
+      "prep": "15 min",
+      "cook": "25 min",
+      "total": "40 min",
+      "spice_level": "None (Austin adds heat at the table)",
+      "tags": [
+        "batch-friendly",
+        "claude-built",
+        "eggs",
+        "fall",
+        "fall-2026",
+        "freezer-friendly",
+        "high-protein",
+        "meal-prep"
+      ],
+      "equipment": "12-cup muffin tin (silicone or greased), skillet, Breville at 325\u00b0F",
+      "macro_strings": {
+        "austin": "530 cal | 55g P | 26g F | 16g C",
+        "cameron": "300 cal | 33g P | 11g F | 10g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 530,
+          "p": 55,
+          "f": 26,
+          "c": 16
+        },
+        "cameron": {
+          "cal": 300,
+          "p": 33,
+          "f": 11,
+          "c": 10
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Frozen breakfast sausage (on hand), thawed",
+          "qty": "1 lb"
+        },
+        {
+          "name": "Eggs",
+          "qty": "8"
+        },
+        {
+          "name": "Liquid egg whites",
+          "qty": "2 cups"
+        },
+        {
+          "name": "Cheddar (on hand), shredded",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Frozen three-pepper blend (on hand), chopped",
+          "qty": "1\u00bd cups"
+        },
+        {
+          "name": "Chives (on hand)",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Salt and pepper",
+          "qty": "\u00bd tsp each"
+        },
+        {
+          "name": "To serve: plain nonfat Greek yogurt",
+          "qty": "Austin 1 cup \u00b7 Cameron \u00be cup, with cinnamon"
+        }
+      ],
+      "instructions": [
+        "Heat the oven to 325\u00b0F. Grease a 12-cup muffin tin well.",
+        "Brown the sausage in a skillet, breaking it up, 7\u20138 minutes. Add the peppers for the last 2 minutes to cook off their water. Drain on paper towels.",
+        "Whisk the eggs, egg whites, salt and pepper. Divide the sausage mix and cheddar between the cups, then pour in the eggs to about \u00be full. Top with chives.",
+        "Bake 22\u201325 minutes until just set in the center. Cool 10 minutes before unmolding.",
+        "Serve: Austin 2 bites + 1 cup Greek yogurt; Cameron 1 bite + \u00be cup yogurt."
+      ],
+      "batch_note": "Makes 12. Sunday breakfast uses 3. Freeze the other 9 flat in a vacuum bag. Thursday night, pull 6 to the fridge for Fri/Sat; 3 stay frozen for week 2. Reheat 45\u201360 sec in the microwave.",
+      "cameron_note": "Cameron: 1 bite + \u00be cup yogurt (\u2248300 cal, 33g P). Austin: 2 bites + 1 cup yogurt."
+    },
+    {
+      "id": "mediterranean-tuna-white-bean-crackers",
+      "name": "Mediterranean Tuna & White Bean Salad with Crackers",
+      "cuisine": "Mediterranean",
+      "meal_type": "lunch",
+      "added_date": "2026-11-05",
+      "source_account": "Above Kitch (Claude)",
+      "prep": "15 min",
+      "cook": "0",
+      "total": "15 min",
+      "spice_level": "None (Austin adds heat at the table)",
+      "tags": [
+        "budget",
+        "claude-built",
+        "fall",
+        "fall-2026",
+        "grab-and-go",
+        "high-protein",
+        "meal-prep",
+        "no-cook",
+        "pantry"
+      ],
+      "equipment": "Bowl, 4 deli containers",
+      "macro_strings": {
+        "austin": "665 cal | 56g P | 26g F | 48g C",
+        "cameron": "395 cal | 36g P | 13g F | 30g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 665,
+          "p": 56,
+          "f": 26,
+          "c": 48
+        },
+        "cameron": {
+          "cal": 395,
+          "p": 36,
+          "f": 13,
+          "c": 30
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Wild tuna (on hand), 5 oz cans",
+          "qty": "1 per Cameron lunch \u00b7 1\u00bd for Austin"
+        },
+        {
+          "name": "Cannellini beans (on hand), rinsed",
+          "qty": "1 can"
+        },
+        {
+          "name": "Artichoke hearts (on hand), chopped",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Feta (on hand), crumbled",
+          "qty": "3 oz"
+        },
+        {
+          "name": "English cucumber, diced",
+          "qty": "1"
+        },
+        {
+          "name": "Pickled red onion (component)",
+          "qty": "\u00bd cup"
+        },
+        {
+          "name": "Parsley (on hand), chopped",
+          "qty": "\u00bd cup"
+        },
+        {
+          "name": "Lemon",
+          "qty": "zest + 3 tbsp juice"
+        },
+        {
+          "name": "Olive oil",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Dried oregano",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Salt and pepper",
+          "qty": "to taste"
+        },
+        {
+          "name": "Whole-grain crackers (e.g. Triscuit)",
+          "qty": "5 per Cameron lunch \u00b7 8 for Austin"
+        },
+        {
+          "name": "Baby arugula (on hand)",
+          "qty": "handful per lunch"
+        }
+      ],
+      "instructions": [
+        "Whisk the lemon zest and juice, olive oil, oregano, salt and pepper in a big bowl.",
+        "Add the beans, artichokes, cucumber, pickled onion and parsley. Fold in the feta. This is the salad BASE.",
+        "Divide the base into 4 containers (Sun\u2013Wed). Keep the tuna in its cans and the crackers in the pantry so nothing goes soggy.",
+        "Each lunch: open a can of tuna, drain, and stir it into a container of base. Eat over arugula with crackers on the side."
+      ],
+      "batch_note": "The base keeps 4 days. Stirring the tuna in each day keeps it fresh and makes the lunch grab-and-go. No spice.",
+      "cameron_note": "Cameron: 1 can tuna, \u00bc of the base, 5 crackers. Austin: 1\u00bd cans tuna, a bigger scoop of base, 8 crackers, chili crisp if he wants heat."
+    },
+    {
+      "id": "greek-chicken-orzo-salad",
+      "name": "Greek Lemon Chicken Orzo Salad",
+      "cuisine": "Greek",
+      "meal_type": "lunch",
+      "added_date": "2026-11-05",
+      "source_account": "Above Kitch (Claude)",
+      "prep": "10 min",
+      "cook": "20 min",
+      "total": "30 min",
+      "spice_level": "None (Austin adds heat at the table)",
+      "tags": [
+        "batch-friendly",
+        "claude-built",
+        "fall",
+        "fall-2026",
+        "high-protein",
+        "meal-prep",
+        "served-cold"
+      ],
+      "equipment": "Air fryer or skillet, pot for orzo, 5 containers",
+      "macro_strings": {
+        "austin": "660 cal | 62g P | 18g F | 58g C",
+        "cameron": "360 cal | 37g P | 9g F | 30g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 660,
+          "p": 62,
+          "f": 18,
+          "c": 58
+        },
+        "cameron": {
+          "cal": 360,
+          "p": 37,
+          "f": 9,
+          "c": 30
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Chicken breast, thawed",
+          "qty": "2 lb raw"
+        },
+        {
+          "name": "Olive oil",
+          "qty": "2 tbsp, divided"
+        },
+        {
+          "name": "Lemon",
+          "qty": "2: zest + \u00bc cup juice"
+        },
+        {
+          "name": "Dried oregano",
+          "qty": "2 tsp"
+        },
+        {
+          "name": "Garlic powder",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Orzo (pantry)",
+          "qty": "1\u00bc cups dry"
+        },
+        {
+          "name": "English cucumber, diced",
+          "qty": "1"
+        },
+        {
+          "name": "Cherry tomatoes, halved",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Pickled red onion (component)",
+          "qty": "\u2153 cup"
+        },
+        {
+          "name": "Feta (on hand)",
+          "qty": "3 oz"
+        },
+        {
+          "name": "Parsley or dill",
+          "qty": "\u00bc cup chopped"
+        },
+        {
+          "name": "Baby arugula (on hand)",
+          "qty": "2 big handfuls"
+        }
+      ],
+      "instructions": [
+        "Toss the chicken with 1 tbsp oil, half the lemon zest, 1 tsp oregano, garlic powder and 1 tsp salt. Air fry at 400\u00b0F, 16\u201318 minutes, flipping halfway, to 165\u00b0F. Rest 5 minutes and slice.",
+        "Meanwhile, boil the orzo in salted water 8\u20139 minutes, drain, and rinse under cold water.",
+        "Whisk the rest of the oil, lemon juice and zest, oregano and a pinch of salt. Toss with the orzo, cucumber, tomatoes, pickled onion and herbs.",
+        "Portion: Cameron 3\u00bd oz chicken + \u00be cup orzo salad (\u00d73: Thu, Fri, Sat). Austin 6 oz chicken + 1\u00bd cups orzo salad (\u00d72: Fri, Sat). Feta and arugula on top of each."
+      ],
+      "batch_note": "Made Wednesday night, so Thu\u2013Sat lunches stay fresh (days 1\u20133). Keeps 4 days.",
+      "cameron_note": "Cameron: 3\u00bd oz chicken, \u00be cup orzo salad, \u00bd oz feta."
+    },
+    {
+      "id": "sirloin-kofta-herb-yogurt-cucumber-salad",
+      "name": "Grass-Fed Sirloin Kofta with Herb Yogurt & Cucumber-Tomato Salad",
+      "cuisine": "Mediterranean",
+      "meal_type": "dinner",
+      "added_date": "2026-11-05",
+      "source_account": "Above Kitch (Claude)",
+      "prep": "25 min",
+      "cook": "15 min",
+      "total": "40 min",
+      "spice_level": "None (Austin adds heat at the table)",
+      "tags": [
+        "batch-friendly",
+        "butcherbox",
+        "claude-built",
+        "fall",
+        "fall-2026",
+        "freezer-friendly",
+        "high-protein",
+        "reheats-well",
+        "sheet-pan"
+      ],
+      "equipment": "Breville or oven at 425\u00b0F, sheet pan, parchment",
+      "macro_strings": {
+        "austin": "710 cal | 65g P | 26g F | 52g C",
+        "cameron": "463 cal | 41g P | 16g F | 36g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 710,
+          "p": 65,
+          "f": 26,
+          "c": 52
+        },
+        "cameron": {
+          "cal": 463,
+          "p": 41,
+          "f": 16,
+          "c": 36
+        }
+      },
+      "ingredients": [
+        {
+          "name": "ButcherBox ground sirloin 90/10 (on hand), thawed",
+          "qty": "2 lb (both packs)"
+        },
+        {
+          "name": "Yellow onion, grated and squeezed dry",
+          "qty": "1 small"
+        },
+        {
+          "name": "Garlic, grated",
+          "qty": "4 cloves"
+        },
+        {
+          "name": "Parsley (on hand), finely chopped",
+          "qty": "\u00bd cup"
+        },
+        {
+          "name": "Ground cumin",
+          "qty": "2 tsp"
+        },
+        {
+          "name": "Ground coriander",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Cinnamon",
+          "qty": "\u00bd tsp"
+        },
+        {
+          "name": "Smoked paprika",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "2 tsp"
+        },
+        {
+          "name": "Black pepper",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Herb yogurt sauce (component)",
+          "qty": "Austin \u00bd cup \u00b7 Cameron \u00bc cup"
+        },
+        {
+          "name": "English cucumber + cherry tomatoes, chopped",
+          "qty": "1 + 1 cup"
+        },
+        {
+          "name": "Pickled red onion (component)",
+          "qty": "to taste"
+        },
+        {
+          "name": "Lemon + olive oil",
+          "qty": "for the salad"
+        },
+        {
+          "name": "Pita",
+          "qty": "Austin 1 \u00b7 Cameron \u00bd"
+        },
+        {
+          "name": "Feta (on hand)",
+          "qty": "\u00bd oz for Cameron"
+        }
+      ],
+      "instructions": [
+        "Heat the oven to 425\u00b0F and line a sheet pan with parchment.",
+        "Mix the sirloin, grated onion, garlic, parsley, spices, salt and pepper with your hands until just combined. Don't overwork it.",
+        "Shape into 16 logs, about 2 oz each, and space them on the pan.",
+        "Roast 12\u201314 minutes until browned and 160\u00b0F inside. Optional: 2 minutes under the broiler for char.",
+        "Toss the cucumber and tomato with lemon, a little oil and salt. Warm the pita.",
+        "Plate: kofta over herb yogurt, salad and pickled onion alongside, pita torn on the side. Austin adds chili crisp or harissa at the table."
+      ],
+      "batch_note": "Sunday dinner + Cameron's Thursday dinner (reheat 10 min at 350\u00b0F or 90 sec in the microwave) + 2 cooked portions vacuum-sealed for week 2.",
+      "cameron_note": "Cameron: 5 oz raw kofta (2\u00bd logs), \u00bc cup herb yogurt, \u00bd pita, \u00bd oz feta. Austin: 8 oz raw (4 logs), \u00bd cup yogurt, 1 pita."
+    },
+    {
+      "id": "mild-japanese-chicken-curry",
+      "name": "Mild Japanese Chicken Curry",
+      "cuisine": "Japanese",
+      "meal_type": "dinner",
+      "added_date": "2026-11-05",
+      "source_account": "Above Kitch (Claude)",
+      "prep": "15 min",
+      "cook": "30 min",
+      "total": "45 min",
+      "spice_level": "None (Austin adds heat at the table)",
+      "tags": [
+        "batch-friendly",
+        "claude-built",
+        "comfort",
+        "fall",
+        "fall-2026",
+        "freezer-friendly",
+        "one-pot",
+        "reheats-well"
+      ],
+      "equipment": "Le Creuset or Dutch oven, rice cooker",
+      "macro_strings": {
+        "austin": "760 cal | 58g P | 22g F | 80g C",
+        "cameron": "495 cal | 37g P | 13g F | 56g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 760,
+          "p": 58,
+          "f": 22,
+          "c": 80
+        },
+        "cameron": {
+          "cal": 495,
+          "p": 37,
+          "f": 13,
+          "c": 56
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Boneless skinless chicken thighs",
+          "qty": "1\u00bd lb, 1-inch pieces"
+        },
+        {
+          "name": "Neutral oil",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Yellow onion",
+          "qty": "1 large, in wedges"
+        },
+        {
+          "name": "Carrots",
+          "qty": "2, in chunks"
+        },
+        {
+          "name": "Baby potatoes",
+          "qty": "8 oz, halved"
+        },
+        {
+          "name": "Water or chicken broth",
+          "qty": "3 cups"
+        },
+        {
+          "name": "Japanese curry roux, MILD (e.g. Golden Curry Mild)",
+          "qty": "\u00bd box (4 cubes)"
+        },
+        {
+          "name": "Honey",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Soy sauce",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Frozen peas (on hand)",
+          "qty": "\u00bd cup"
+        },
+        {
+          "name": "Jasmine rice, cooked",
+          "qty": "\u2154 cup per Cameron portion \u00b7 1 cup Austin"
+        }
+      ],
+      "instructions": [
+        "Brown the chicken in the oil over medium-high, 5 minutes. Add the onion and cook 3 minutes.",
+        "Add the carrots, potatoes and water or broth. Bring to a boil, then simmer covered 15 minutes until the potatoes are tender.",
+        "Turn off the heat and stir in the roux cubes until they dissolve. Simmer 5 more minutes, stirring, until thick and glossy. Stir in the honey, soy sauce and peas.",
+        "Portion over rice. Cameron's is mild as written; Austin adds shichimi or chili oil."
+      ],
+      "batch_note": "Makes 4 Cameron portions. Monday dinner, then freeze 3 flat in vacuum bags: one is the \"skipped a night / don't feel like cooking\" backup, two are week-2 dinners. Reheats from frozen in 8 minutes on the stove with a splash of water.",
+      "cameron_note": "Cameron: 1 cup curry (about 4 oz chicken) + \u2154 cup rice."
+    },
+    {
+      "id": "greek-sheet-pan-salmon-feta-potatoes",
+      "name": "Greek Sheet-Pan Salmon with Feta, Potatoes & Tomatoes",
+      "cuisine": "Greek",
+      "meal_type": "dinner",
+      "added_date": "2026-11-05",
+      "source_account": "Above Kitch (Claude)",
+      "prep": "5 min",
+      "cook": "25 min",
+      "total": "30 min",
+      "spice_level": "None (Austin adds heat at the table)",
+      "tags": [
+        "claude-built",
+        "fall",
+        "fall-2026",
+        "high-protein",
+        "omega-3",
+        "quick",
+        "sheet-pan"
+      ],
+      "equipment": "Breville or oven at 425\u00b0F, small sheet pan",
+      "macro_strings": {
+        "austin": "760 cal | 62g P | 34g F | 46g C",
+        "cameron": "440 cal | 40g P | 17g F | 30g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 760,
+          "p": 62,
+          "f": 34,
+          "c": 46
+        },
+        "cameron": {
+          "cal": 440,
+          "p": 40,
+          "f": 17,
+          "c": 30
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Sockeye salmon fillet (on hand), thawed",
+          "qty": "5 oz (Cameron) \u00b7 2 fillets for Austin"
+        },
+        {
+          "name": "Baby potatoes, halved",
+          "qty": "5 oz"
+        },
+        {
+          "name": "Cherry tomatoes",
+          "qty": "\u00bd cup"
+        },
+        {
+          "name": "Red onion, in wedges",
+          "qty": "\u00bc"
+        },
+        {
+          "name": "Olive oil",
+          "qty": "2 tsp"
+        },
+        {
+          "name": "Lemon",
+          "qty": "\u00bd: slices + juice"
+        },
+        {
+          "name": "Dried oregano",
+          "qty": "\u00bd tsp"
+        },
+        {
+          "name": "Feta (on hand)",
+          "qty": "\u00bd oz"
+        },
+        {
+          "name": "Herb yogurt sauce (component)",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Salt and pepper",
+          "qty": ""
+        }
+      ],
+      "instructions": [
+        "Oven to 425\u00b0F. Toss the potatoes with 1 tsp oil, salt and oregano and roast 12 minutes.",
+        "Push them to the side. Add the salmon, tomatoes, onion and lemon slices. Drizzle the rest of the oil and season.",
+        "Roast 10\u201312 minutes, until the salmon flakes and the tomatoes burst.",
+        "Crumble feta over everything, squeeze lemon, and serve with a spoon of herb yogurt."
+      ],
+      "batch_note": "Weeknight-fast: 5 minutes hands-on. Thaw the salmon in the fridge overnight Monday.",
+      "cameron_note": "Cameron: one 5 oz fillet, 5 oz potatoes, \u00bd oz feta."
+    },
+    {
+      "id": "miso-butter-salmon-rice-cucumber",
+      "name": "Miso-Butter Salmon with Rice, Edamame & Sesame Cucumbers",
+      "cuisine": "Japanese",
+      "meal_type": "dinner",
+      "added_date": "2026-11-05",
+      "source_account": "Above Kitch (Claude)",
+      "prep": "5 min",
+      "cook": "12 min",
+      "total": "17 min",
+      "spice_level": "None (Austin adds heat at the table)",
+      "tags": [
+        "air-fryer",
+        "claude-built",
+        "fall",
+        "fall-2026",
+        "high-protein",
+        "omega-3",
+        "quick"
+      ],
+      "equipment": "Air fryer, small bowl",
+      "macro_strings": {
+        "austin": "760 cal | 62g P | 26g F | 72g C",
+        "cameron": "495 cal | 41g P | 14g F | 50g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 760,
+          "p": 62,
+          "f": 26,
+          "c": 72
+        },
+        "cameron": {
+          "cal": 495,
+          "p": 41,
+          "f": 14,
+          "c": 50
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Sockeye salmon fillet (on hand), thawed",
+          "qty": "5 oz (Cameron)"
+        },
+        {
+          "name": "White miso (on hand)",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Butter, softened",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Honey",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Cooked jasmine rice (from Sunday)",
+          "qty": "\u2154 cup"
+        },
+        {
+          "name": "Frozen edamame (on hand)",
+          "qty": "\u00bc cup"
+        },
+        {
+          "name": "English cucumber",
+          "qty": "\u00bc, thinly sliced"
+        },
+        {
+          "name": "Rice vinegar + sesame oil + pinch of sugar",
+          "qty": "1 tsp + \u00bd tsp + pinch"
+        },
+        {
+          "name": "Sesame seeds + scallion",
+          "qty": "to finish"
+        }
+      ],
+      "instructions": [
+        "Mash the miso, butter and honey together and spread over the salmon.",
+        "Air fry at 400\u00b0F, 8\u201310 minutes, until glazed and flaking.",
+        "Meanwhile, microwave the rice and edamame with a splash of water, covered, 2 minutes. Toss the cucumber with the rice vinegar, sesame oil and sugar.",
+        "Bowl it up and finish with sesame seeds and scallion."
+      ],
+      "batch_note": "The miso-butter can be mashed Sunday and kept in a small container. Rice is from Sunday's rice cooker batch (day 4).",
+      "cameron_note": "Cameron: one 5 oz fillet, \u2154 cup rice, \u00bc cup edamame."
+    },
+    {
+      "id": "flat-iron-chimichurri-smashed-potatoes",
+      "name": "Flat Iron Steak with Chimichurri, Crispy Smashed Potatoes & Arugula",
+      "cuisine": "Argentinian",
+      "meal_type": "dinner",
+      "added_date": "2026-11-05",
+      "source_account": "Above Kitch (Claude)",
+      "prep": "10 min",
+      "cook": "35 min",
+      "total": "45 min",
+      "spice_level": "None (Austin adds heat at the table)",
+      "tags": [
+        "butcherbox",
+        "cast-iron",
+        "claude-built",
+        "date-night",
+        "fall",
+        "fall-2026",
+        "high-protein"
+      ],
+      "equipment": "Cast iron or Loco flat-top, pot, sheet pan",
+      "macro_strings": {
+        "austin": "765 cal | 68g P | 40g F | 30g C",
+        "cameron": "465 cal | 38g P | 26g F | 18g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 765,
+          "p": 68,
+          "f": 40,
+          "c": 30
+        },
+        "cameron": {
+          "cal": 465,
+          "p": 38,
+          "f": 26,
+          "c": 18
+        }
+      },
+      "ingredients": [
+        {
+          "name": "ButcherBox flat iron steaks (on hand), thawed",
+          "qty": "3 \u00d7 6 oz (Austin 2, Cameron 1)"
+        },
+        {
+          "name": "Baby potatoes",
+          "qty": "1 lb"
+        },
+        {
+          "name": "Olive oil",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Chimichurri (component)",
+          "qty": "Austin 1\u00bd tbsp \u00b7 Cameron 1 tbsp"
+        },
+        {
+          "name": "Baby arugula (on hand) + lemon",
+          "qty": "2 handfuls"
+        },
+        {
+          "name": "Feta (on hand)",
+          "qty": "\u00bd oz for Cameron"
+        },
+        {
+          "name": "Kosher salt + black pepper",
+          "qty": ""
+        }
+      ],
+      "instructions": [
+        "Boil the potatoes in salted water 15 minutes until tender. Drain, smash flat on an oiled sheet pan, brush with oil, salt, and roast at 450\u00b0F for 20 minutes until crisp.",
+        "Pat the steaks dry and salt them 30+ minutes ahead (or the night before).",
+        "Sear in a ripping-hot cast iron or on the Loco, 3\u20134 minutes per side to 130\u00b0F (medium-rare). Rest 5 minutes.",
+        "Slice against the grain. Spoon chimichurri over it. Serve with the potatoes and lemony arugula."
+      ],
+      "batch_note": "The 4th flat iron stays in the freezer for week 2.",
+      "cameron_note": "Cameron: 1 steak (6 oz raw), 3 oz potatoes, 1 tbsp chimichurri, arugula with \u00bd oz feta."
+    },
+    {
+      "id": "smoked-wings-two-ways-sesame-slaw",
+      "name": "Smoked Wings Two Ways with Sesame Edamame Slaw",
+      "cuisine": "Korean",
+      "meal_type": "dinner",
+      "added_date": "2026-11-05",
+      "source_account": "Above Kitch (Claude)",
+      "prep": "20 min",
+      "cook": "1 hr 45 min",
+      "total": "2 hr 5 min",
+      "spice_level": "None (Austin adds heat at the table)",
+      "tags": [
+        "butcherbox",
+        "claude-built",
+        "fall",
+        "fall-2026",
+        "game-day",
+        "high-protein",
+        "smoker"
+      ],
+      "equipment": "Smoker at 275\u00b0F, then a hot grill or air fryer to crisp",
+      "macro_strings": {
+        "austin": "780 cal | 63g P | 46g F | 24g C",
+        "cameron": "485 cal | 38g P | 28g F | 20g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 780,
+          "p": 63,
+          "f": 46,
+          "c": 24
+        },
+        "cameron": {
+          "cal": 485,
+          "p": 38,
+          "f": 28,
+          "c": 20
+        }
+      },
+      "ingredients": [
+        {
+          "name": "ButcherBox chicken wings (on hand), thawed",
+          "qty": "~3 lb"
+        },
+        {
+          "name": "Baking powder (aluminum-free) + salt",
+          "qty": "1 tbsp + 2 tsp"
+        },
+        {
+          "name": "Gochujang-lime sauce (component)",
+          "qty": "3 tbsp for Austin's half"
+        },
+        {
+          "name": "Honey-garlic glaze (component)",
+          "qty": "2 tbsp for Cameron's half"
+        },
+        {
+          "name": "Green cabbage, shredded",
+          "qty": "4 cups"
+        },
+        {
+          "name": "Carrots, shredded",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Frozen edamame (on hand), thawed",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Rice vinegar + sesame oil + honey + soy",
+          "qty": "2 tbsp + 2 tsp + 1 tsp + 1 tsp"
+        },
+        {
+          "name": "Scallions + sesame seeds",
+          "qty": "to finish"
+        }
+      ],
+      "instructions": [
+        "Pat the wings very dry. Toss with the baking powder and salt, then rack them in the fridge uncovered for a few hours (Saturday morning). This is the crispy-skin trick.",
+        "Smoke at 275\u00b0F for 75\u201390 minutes to 175\u00b0F.",
+        "Crisp: 5 minutes a side over a hot grill, or 8 minutes in the air fryer at 400\u00b0F.",
+        "Toss half in gochujang-lime (Austin) and half in honey-garlic (Cameron, no heat).",
+        "Slaw: whisk the dressing, then toss with the cabbage, carrot and edamame. Top with scallions and sesame."
+      ],
+      "batch_note": "The leftover wings (about 1\u00be lb) become Sunday lunch or get vacuum-sealed for week 2.",
+      "cameron_note": "Cameron: about 8 oz raw wings in honey-garlic (no heat), slaw with \u00bd cup edamame."
+    },
+    {
+      "id": "honey-garlic-wing-glaze",
+      "name": "Honey-Garlic Glaze (No Heat)",
+      "cuisine": "American",
+      "meal_type": "component",
+      "added_date": "2026-11-05",
+      "source_account": "Above Kitch (Claude)",
+      "prep": "5 min",
+      "cook": "5 min",
+      "total": "10 min",
+      "spice_level": "None (Austin adds heat at the table)",
+      "tags": [
+        "claude-built",
+        "fall",
+        "fall-2026",
+        "glaze",
+        "kid-friendly",
+        "no-spice",
+        "sauce"
+      ],
+      "equipment": "Small saucepan, jar",
+      "macro_strings": {
+        "austin": null,
+        "cameron": null
+      },
+      "macros": {
+        "austin": null,
+        "cameron": null
+      },
+      "ingredients": [
+        {
+          "name": "Honey",
+          "qty": "\u00bc cup"
+        },
+        {
+          "name": "Soy sauce",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Butter",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Garlic, grated",
+          "qty": "3 cloves"
+        },
+        {
+          "name": "Rice vinegar",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Cornstarch + water (slurry)",
+          "qty": "1 tsp + 1 tbsp"
+        }
+      ],
+      "instructions": [
+        "Simmer the honey, soy sauce, butter, garlic and vinegar 2 minutes.",
+        "Stir in the slurry and simmer 1 minute until it coats a spoon.",
+        "Cool slightly before tossing with wings or brushing on salmon or chicken."
+      ],
+      "batch_note": "Cameron's no-spice glaze. Also great on salmon or chicken thighs.",
+      "serving_note": "Makes ~\u00bd cup",
+      "storage_note": "Jar in the fridge.",
+      "keeps": "10 days",
+      "freezes": "Yes, 3 months."
     }
   ]
 }

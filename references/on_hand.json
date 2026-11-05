@@ -36,7 +36,8 @@
         "taco meat",
         "stuffed peppers",
         "Korean beef bowls"
-      ]
+      ],
+      "reserved_for": "Nov 8 plan: all 2 lb → kofta (Sun + Thu; 2 portions to freezer)"
     },
     {
       "id": "bb-flat-iron",
@@ -58,7 +59,8 @@
         "Thai crying tiger beef",
         "sliced steak grain bowls"
       ],
-      "notes": "Cook hot and fast to medium-rare, rest, and slice against the grain. A 6 oz steak is exactly one Cameron dinner portion with leftovers for lunch, or half an Austin portion."
+      "notes": "Cook hot and fast to medium-rare, rest, and slice against the grain. A 6 oz steak is exactly one Cameron dinner portion with leftovers for lunch, or half an Austin portion.",
+      "reserved_for": "Nov 8 plan: 3 of 4 → Fri steak night; 1 stays for week 2"
     },
     {
       "id": "bb-ribeye",
@@ -122,7 +124,8 @@
         "lemon-pepper wings",
         "wing stock from the tips"
       ],
-      "notes": "Low protein per calorie (lots of bone and skin). Use as a fun dinner paired with a big high-protein side, or as a game-day meal. Save the tips in a freezer bag for stock."
+      "notes": "Low protein per calorie (lots of bone and skin). Use as a fun dinner paired with a big high-protein side, or as a game-day meal. Save the tips in a freezer bag for stock.",
+      "reserved_for": "Nov 8 plan: all ~3 lb → Sat smoked wings"
     },
     {
       "id": "bb-italian-sausage",
@@ -158,7 +161,7 @@
         "gochujang salmon bowls",
         "Cameron dinner portion = 1 fillet"
       ],
-      "note": "Voice log said \"I think four... two 5 oz servings\". Verify count."
+      "reserved_for": "Nov 8 plan: both → Cameron Tue + Wed dinners"
     },
     {
       "id": "frz-tilapia",
@@ -189,13 +192,14 @@
     {
       "id": "frz-breakfast-sausage",
       "name": "Bob Evans breakfast sausage (raw, frozen)",
-      "qty": "1 package (verify size)",
+      "qty": "1 lb",
       "source": "voice pantry log 2026-11-05",
       "status": "on_hand",
       "good_for": [
         "egg bites",
         "breakfast hash"
-      ]
+      ],
+      "reserved_for": "Nov 8 plan: egg bites (Sun)"
     },
     {
       "id": "frz-chipotle",
@@ -218,7 +222,8 @@
       "good_for": [
         "lunch bowls",
         "sesame-ginger chicken edamame bowl"
-      ]
+      ],
+      "reserved_for": "Nov 8 plan: Wed salmon + Sat slaw"
     },
     {
       "id": "frz-lima",
@@ -241,7 +246,8 @@
         "fried rice",
         "risotto",
         "pasta"
-      ]
+      ],
+      "reserved_for": "Nov 8 plan: curry"
     },
     {
       "id": "frz-corn",
@@ -267,7 +273,8 @@
         "shakshuka",
         "fajita-style"
       ],
-      "note": "Can replace fresh bell peppers in cooked dishes, so skip buying peppers for those."
+      "note": "Can replace fresh bell peppers in cooked dishes, so skip buying peppers for those.",
+      "reserved_for": "Nov 8 plan: egg bites (1½ cups)"
     },
     {
       "id": "frz-veg-assorted",
@@ -276,6 +283,14 @@
       "source": "voice pantry log 2026-11-05",
       "status": "on_hand",
       "note": "List them next time you open the freezer."
+    },
+    {
+      "id": "frz-bacon",
+      "name": "Bacon",
+      "qty": "some",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand",
+      "note": "Freezer (confirmed Nov 5)."
     }
   ],
   "fridge": [
@@ -290,19 +305,12 @@
       "note": "Cooked sausage keeps 3–4 days. Eat by Sat Nov 7 or FREEZE NOW (it freezes fine for egg bites later)."
     },
     {
-      "id": "fr-bacon",
-      "name": "Bacon",
-      "qty": "some (verify)",
-      "source": "voice pantry log 2026-11-05",
-      "status": "on_hand",
-      "note": "Voice log didn't say fridge or freezer. Verify."
-    },
-    {
       "id": "fr-dates",
       "name": "Medjool dates",
       "qty": "partial bag",
       "source": "voice pantry log 2026-11-05",
-      "status": "on_hand"
+      "status": "on_hand",
+      "reserved_for": "Nov 8 plan: overnight oats"
     },
     {
       "id": "fr-feta",
@@ -314,14 +322,16 @@
         "Greek/Mediterranean weeknights for Cameron",
         "frittata cups",
         "salads"
-      ]
+      ],
+      "reserved_for": "Nov 8 plan: tuna base, kofta, salmon, orzo salad, steak"
     },
     {
       "id": "fr-cheddar",
       "name": "Cheddar",
       "qty": "1 large block",
       "source": "voice pantry log 2026-11-05",
-      "status": "on_hand"
+      "status": "on_hand",
+      "reserved_for": "Nov 8 plan: egg bites"
     },
     {
       "id": "fr-parsley",
@@ -333,7 +343,8 @@
       "good_for": [
         "chimichurri",
         "herb yogurt"
-      ]
+      ],
+      "reserved_for": "Nov 8 plan: herbs (1 more bought)"
     },
     {
       "id": "fr-chives",
@@ -359,7 +370,8 @@
       "source": "voice pantry log 2026-11-05",
       "status": "on_hand",
       "use_window": "early",
-      "note": "Use by about Tue/Wed."
+      "note": "Use by about Tue/Wed.",
+      "reserved_for": "Nov 8 plan: tuna lunches, steak, orzo salad"
     },
     {
       "id": "fr-miso",
@@ -367,7 +379,8 @@
       "qty": "partial tub",
       "source": "voice pantry log 2026-11-05",
       "status": "on_hand",
-      "keeps": "months"
+      "keeps": "months",
+      "reserved_for": "Nov 8 plan: Wed salmon"
     },
     {
       "id": "fr-gnocchi",
@@ -399,14 +412,16 @@
         "tuna salad lunches",
         "Mediterranean tuna white bean salad",
         "poke-style rice bowl"
-      ]
+      ],
+      "reserved_for": "Nov 8 plan: ~5 cans → tuna lunches Sun–Wed (2 more bought)"
     },
     {
       "id": "pa-artichoke",
       "name": "Artichoke hearts",
       "qty": "1 jar/can",
       "source": "voice pantry log 2026-11-05",
-      "status": "on_hand"
+      "status": "on_hand",
+      "reserved_for": "Nov 8 plan: tuna base"
     },
     {
       "id": "pa-almonds",
@@ -441,7 +456,8 @@
       "status": "on_hand",
       "good_for": [
         "Cameron high-protein breakfast"
-      ]
+      ],
+      "reserved_for": "Nov 8 plan: 4 overnight-oat jars (Mon–Thu)"
     },
     {
       "id": "pa-granola",
@@ -480,8 +496,8 @@
     },
     {
       "id": "pa-protein-pasta",
-      "name": "Protein pasta, fusilli",
-      "qty": "1 box (brand unclear: voice log said \"Brahmi\", maybe Banza or Barilla Protein+)",
+      "name": "Banza fusilli (chickpea protein pasta)",
+      "qty": "1 box",
       "source": "voice pantry log 2026-11-05",
       "status": "on_hand"
     },
@@ -494,7 +510,7 @@
     },
     {
       "id": "pa-ditalini",
-      "name": "Ditalini (voice log said \"Detali\"; verify)",
+      "name": "Ditalini",
       "qty": "1 box",
       "source": "voice pantry log 2026-11-05",
       "status": "on_hand"
@@ -543,7 +559,8 @@
       "name": "Cannellini beans",
       "qty": "2 cans",
       "source": "voice pantry log 2026-11-05",
-      "status": "on_hand"
+      "status": "on_hand",
+      "reserved_for": "Nov 8 plan: 1 can → tuna base"
     },
     {
       "id": "pa-baked-beans",

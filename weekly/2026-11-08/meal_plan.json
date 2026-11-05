@@ -2,388 +2,436 @@
   "week_date": "2026-11-08",
   "week_start": "November 8",
   "week_end": "November 14, 2026",
-  "placeholder": true,
-  "season": "PLACEHOLDER · Late Fall — Pittsburgh",
+  "season": "Late Fall — Pittsburgh",
   "city": "Pittsburgh, PA",
-  "source": "PLACEHOLDER WEEK: sample data to preview the new prep format (build cards, thaw links, get-ahead boxes, grocery use windows). Macros are library values or rough placeholders. The real Nov 8 plan replaces this once intake, Cameron's answers and the pantry log are in.",
-  "cuisine_rotation": [
-    "American",
-    "Greek",
-    "Thai",
-    "Japanese",
-    "Indian",
-    "Thai",
-    "American BBQ"
+  "source": "All-new recipes. Austin away Mon–Thu (back Fri morning), so Mon–Thu is Cameron solo: no spice, grab-and-go breakfasts and lunches, reheat-or-15-minute dinners, Mediterranean/Japanese/Greek. Her week runs on on-hand salmon, tuna, feta and oats; ButcherBox sirloin, flat iron and wings carry the weekends.",
+  "cycle": {
+    "id": "2026-11-08",
+    "week": 1
+  },
+  "seasonal_heroes": [
+    "Cabbage",
+    "Carrots",
+    "Baby potatoes",
+    "Parsley",
+    "Lemons"
   ],
+  "cuisine_rotation": [
+    "Mediterranean",
+    "Japanese",
+    "Greek",
+    "Japanese",
+    "Mediterranean",
+    "Argentinian",
+    "Korean"
+  ],
+  "eat_out": [
+    "Cameron: probably 1–2 weeknights (not set). Mon curry and Thu kofta are reheats; skipped portions go in the freezer."
+  ],
+  "flexible_order": "Tue and Wed salmon can swap. If Cameron eats out Mon, freeze the curry portion and have it Thu instead of the kofta (freeze the kofta).",
   "days": [
     {
       "day": "Sunday",
-      "cuisine": "American",
+      "cuisine": "Mediterranean",
       "breakfast": {
-        "recipe_id": "apple-date-protein-yogurt-bowl",
+        "recipe_id": "sausage-cheddar-pepper-egg-bites",
         "cameron": {
-          "cal": 260,
-          "p": 26,
-          "f": 5,
-          "c": 27
+          "cal": 300,
+          "p": 33,
+          "f": 11,
+          "c": 10
         },
         "austin": {
-          "cal": 560,
-          "p": 44,
-          "f": 13,
-          "c": 68
+          "cal": 530,
+          "p": 55,
+          "f": 26,
+          "c": 16
         }
       },
       "lunch": {
-        "recipe_id": "lemon-herb-chicken-med-bowl",
+        "recipe_id": "mediterranean-tuna-white-bean-crackers",
         "cameron": {
-          "cal": 505,
-          "p": 35,
-          "f": 15,
-          "c": 47
+          "cal": 395,
+          "p": 36,
+          "f": 13,
+          "c": 30
         },
         "austin": {
-          "cal": 630,
-          "p": 51,
-          "f": 19,
-          "c": 55
+          "cal": 665,
+          "p": 56,
+          "f": 26,
+          "c": 48
         }
       },
       "dinner": {
-        "recipe_id": "charred-onion-smash-burgers",
+        "recipe_id": "sirloin-kofta-herb-yogurt-cucumber-salad",
         "cameron": {
-          "cal": 471,
-          "p": 36,
-          "f": 24,
-          "c": 28
+          "cal": 463,
+          "p": 41,
+          "f": 16,
+          "c": 36
         },
         "austin": {
-          "cal": 799,
-          "p": 64,
-          "f": 38,
-          "c": 44
+          "cal": 710,
+          "p": 65,
+          "f": 26,
+          "c": 52
         }
       },
-      "note": "PLACEHOLDER · Both home. Smash burgers on the Loco flat-top with ButcherBox ground sirloin.",
+      "note": "Both home. Big prep day. Kofta dinner makes Cameron's Thursday dinner + 2 freezer portions.",
       "austin_total": {
-        "cal": 1989,
-        "p": 159
+        "cal": 1905,
+        "p": 176
       },
       "cameron_total": {
-        "cal": 1236,
-        "p": 97
+        "cal": 1158,
+        "p": 110
       }
     },
     {
       "day": "Monday",
-      "cuisine": "Greek",
+      "cuisine": "Japanese",
       "breakfast": {
-        "recipe_id": "egg-white-veggie-frittata-cups",
+        "recipe_id": "kodiak-date-overnight-oats",
         "cameron": {
-          "cal": 415,
-          "p": 33,
-          "f": 17,
-          "c": 8
+          "cal": 300,
+          "p": 25,
+          "f": 6,
+          "c": 38
         }
       },
       "lunch": {
-        "recipe_id": "lemon-herb-chicken-med-bowl",
+        "recipe_id": "mediterranean-tuna-white-bean-crackers",
         "cameron": {
-          "cal": 505,
-          "p": 35,
-          "f": 15,
-          "c": 47
+          "cal": 395,
+          "p": 36,
+          "f": 13,
+          "c": 30
         }
       },
       "dinner": {
-        "recipe_id": "greek-chicken-gyro-plates",
+        "recipe_id": "mild-japanese-chicken-curry",
         "cameron": {
-          "cal": 585,
+          "cal": 495,
           "p": 37,
-          "f": 16,
-          "c": 48
+          "f": 13,
+          "c": 56
         }
       },
-      "note": "PLACEHOLDER · Austin away (Mon–Thu). Cameron solo: herb yogurt from Sunday prep.",
+      "note": "Austin away (Mon–Thu). Cameron: reheat curry 5 min. If she eats out, the portion goes in the freezer.",
       "cameron_total": {
-        "cal": 1505,
-        "p": 105
+        "cal": 1190,
+        "p": 98
       }
     },
     {
       "day": "Tuesday",
-      "cuisine": "Thai",
+      "cuisine": "Greek",
       "breakfast": {
-        "recipe_id": "egg-white-veggie-frittata-cups",
+        "recipe_id": "kodiak-date-overnight-oats",
         "cameron": {
-          "cal": 415,
-          "p": 33,
-          "f": 17,
-          "c": 8
-        }
-      },
-      "lunch": {
-        "recipe_id": "lemon-herb-chicken-med-bowl",
-        "cameron": {
-          "cal": 505,
-          "p": 35,
-          "f": 15,
-          "c": 47
-        }
-      },
-      "dinner": {
-        "recipe_id": "classic-thai-beef-salad-yum-nua",
-        "cameron": {
-          "cal": 470,
-          "p": 38,
-          "f": 18,
+          "cal": 300,
+          "p": 25,
+          "f": 6,
           "c": 38
         }
       },
-      "note": "PLACEHOLDER · Cameron solo. Flat iron, seared 6 min, jaew on the side.",
+      "lunch": {
+        "recipe_id": "mediterranean-tuna-white-bean-crackers",
+        "cameron": {
+          "cal": 395,
+          "p": 36,
+          "f": 13,
+          "c": 30
+        }
+      },
+      "dinner": {
+        "recipe_id": "greek-sheet-pan-salmon-feta-potatoes",
+        "cameron": {
+          "cal": 440,
+          "p": 40,
+          "f": 17,
+          "c": 30
+        }
+      },
+      "note": "Cameron: 5 min hands-on sheet pan. Salmon thawed Monday night.",
       "cameron_total": {
-        "cal": 1390,
-        "p": 106
+        "cal": 1135,
+        "p": 101
       }
     },
     {
       "day": "Wednesday",
       "cuisine": "Japanese",
       "breakfast": {
-        "recipe_id": "egg-white-veggie-frittata-cups",
+        "recipe_id": "kodiak-date-overnight-oats",
         "cameron": {
-          "cal": 415,
-          "p": 33,
-          "f": 17,
-          "c": 8
+          "cal": 300,
+          "p": 25,
+          "f": 6,
+          "c": 38
         }
       },
       "lunch": {
-        "recipe_id": "sesame-ginger-chicken-edamame-bowl",
+        "recipe_id": "mediterranean-tuna-white-bean-crackers",
         "cameron": {
-          "cal": 515,
+          "cal": 395,
           "p": 36,
           "f": 13,
-          "c": 52
+          "c": 30
         }
       },
       "dinner": {
-        "recipe_id": "miso-maple-salmon-delicata-rice-bowl",
+        "recipe_id": "miso-butter-salmon-rice-cucumber",
         "cameron": {
-          "cal": 480,
-          "p": 36,
-          "f": 16,
-          "c": 48
+          "cal": 495,
+          "p": 41,
+          "f": 14,
+          "c": 50
         }
       },
-      "note": "PLACEHOLDER · Cameron solo. See Get ahead tonight at the top of this day.",
+      "note": "Cameron: 15 min. Tonight's get-ahead: the Greek chicken orzo salad for Thu–Sat lunches.",
       "cameron_total": {
-        "cal": 1410,
-        "p": 105
-      }
-    },
-    {
-      "day": "Thursday",
-      "cuisine": "Indian",
-      "breakfast": {
-        "recipe_id": "egg-white-veggie-frittata-cups",
-        "cameron": {
-          "cal": 415,
-          "p": 33,
-          "f": 17,
-          "c": 8
-        }
-      },
-      "lunch": {
-        "recipe_id": "sesame-ginger-chicken-edamame-bowl",
-        "cameron": {
-          "cal": 515,
-          "p": 36,
-          "f": 13,
-          "c": 52
-        }
-      },
-      "dinner": {
-        "recipe_id": "sheet-tray-chicken-kofta-rd132",
-        "cameron": {
-          "cal": 490,
-          "p": 40,
-          "f": 19,
-          "c": 40
-        }
-      },
-      "note": "PLACEHOLDER · Cameron solo.",
-      "cameron_total": {
-        "cal": 1420,
-        "p": 109
-      }
-    },
-    {
-      "day": "Friday",
-      "cuisine": "Thai",
-      "breakfast": {
-        "recipe_id": "apple-date-protein-yogurt-bowl",
-        "cameron": {
-          "cal": 260,
-          "p": 26,
-          "f": 5,
-          "c": 27
-        },
-        "austin": {
-          "cal": 560,
-          "p": 44,
-          "f": 13,
-          "c": 68
-        }
-      },
-      "lunch": {
-        "recipe_id": "sesame-ginger-chicken-edamame-bowl",
-        "cameron": {
-          "cal": 515,
-          "p": 36,
-          "f": 13,
-          "c": 52
-        },
-        "austin": {
-          "cal": 635,
-          "p": 52,
-          "f": 17,
-          "c": 60
-        }
-      },
-      "dinner": {
-        "recipe_id": "blistered-thai-basil-shrimp",
-        "cameron": {
-          "cal": 488,
-          "p": 40,
-          "f": 24,
-          "c": 33
-        },
-        "austin": {
-          "cal": 745,
-          "p": 66,
-          "f": 26,
-          "c": 68
-        }
-      },
-      "note": "PLACEHOLDER · Austin back Friday morning.",
-      "austin_total": {
-        "cal": 1940,
-        "p": 162
-      },
-      "cameron_total": {
-        "cal": 1263,
+        "cal": 1190,
         "p": 102
       }
     },
     {
-      "day": "Saturday",
-      "cuisine": "American BBQ",
+      "day": "Thursday",
+      "cuisine": "Mediterranean",
       "breakfast": {
-        "recipe_id": "apple-date-protein-yogurt-bowl",
+        "recipe_id": "kodiak-date-overnight-oats",
         "cameron": {
-          "cal": 260,
-          "p": 26,
-          "f": 5,
-          "c": 27
-        },
-        "austin": {
-          "cal": 560,
-          "p": 44,
-          "f": 13,
-          "c": 68
+          "cal": 300,
+          "p": 25,
+          "f": 6,
+          "c": 38
         }
       },
       "lunch": {
-        "recipe_id": "sesame-ginger-chicken-edamame-bowl",
+        "recipe_id": "greek-chicken-orzo-salad",
         "cameron": {
-          "cal": 515,
-          "p": 36,
-          "f": 13,
-          "c": 52
-        },
-        "austin": {
-          "cal": 635,
-          "p": 52,
-          "f": 17,
-          "c": 60
+          "cal": 360,
+          "p": 37,
+          "f": 9,
+          "c": 30
         }
       },
       "dinner": {
-        "recipe_id": "smoked-spatchcock-chicken-chimichurri",
+        "recipe_id": "sirloin-kofta-herb-yogurt-cucumber-salad",
         "cameron": {
-          "cal": 595,
-          "p": 38,
-          "f": 21,
-          "c": 38
-        },
-        "austin": {
-          "cal": 680,
-          "p": 62,
-          "f": 24,
-          "c": 42
+          "cal": 463,
+          "p": 41,
+          "f": 16,
+          "c": 36
         }
       },
-      "note": "PLACEHOLDER · Smoker day. Chimichurri from the freezer bank.",
+      "note": "Cameron: reheat kofta from Sunday. Flex night: if she eats out, the curry backup stays frozen. Pull the steaks, wings and egg bites tonight.",
+      "cameron_total": {
+        "cal": 1123,
+        "p": 103
+      }
+    },
+    {
+      "day": "Friday",
+      "cuisine": "Argentinian",
+      "breakfast": {
+        "recipe_id": "sausage-cheddar-pepper-egg-bites",
+        "cameron": {
+          "cal": 300,
+          "p": 33,
+          "f": 11,
+          "c": 10
+        },
+        "austin": {
+          "cal": 530,
+          "p": 55,
+          "f": 26,
+          "c": 16
+        }
+      },
+      "lunch": {
+        "recipe_id": "greek-chicken-orzo-salad",
+        "cameron": {
+          "cal": 360,
+          "p": 37,
+          "f": 9,
+          "c": 30
+        },
+        "austin": {
+          "cal": 660,
+          "p": 62,
+          "f": 18,
+          "c": 58
+        }
+      },
+      "dinner": {
+        "recipe_id": "flat-iron-chimichurri-smashed-potatoes",
+        "cameron": {
+          "cal": 465,
+          "p": 38,
+          "f": 26,
+          "c": 18
+        },
+        "austin": {
+          "cal": 765,
+          "p": 68,
+          "f": 40,
+          "c": 30
+        }
+      },
+      "note": "Austin back Friday morning. Steak night on the cast iron or the Loco.",
       "austin_total": {
-        "cal": 1875,
-        "p": 158
+        "cal": 1955,
+        "p": 185
       },
       "cameron_total": {
-        "cal": 1370,
-        "p": 100
+        "cal": 1125,
+        "p": 108
+      }
+    },
+    {
+      "day": "Saturday",
+      "cuisine": "Korean",
+      "breakfast": {
+        "recipe_id": "sausage-cheddar-pepper-egg-bites",
+        "cameron": {
+          "cal": 300,
+          "p": 33,
+          "f": 11,
+          "c": 10
+        },
+        "austin": {
+          "cal": 530,
+          "p": 55,
+          "f": 26,
+          "c": 16
+        }
+      },
+      "lunch": {
+        "recipe_id": "greek-chicken-orzo-salad",
+        "cameron": {
+          "cal": 360,
+          "p": 37,
+          "f": 9,
+          "c": 30
+        },
+        "austin": {
+          "cal": 660,
+          "p": 62,
+          "f": 18,
+          "c": 58
+        }
+      },
+      "dinner": {
+        "recipe_id": "smoked-wings-two-ways-sesame-slaw",
+        "cameron": {
+          "cal": 485,
+          "p": 38,
+          "f": 28,
+          "c": 20
+        },
+        "austin": {
+          "cal": 780,
+          "p": 63,
+          "f": 46,
+          "c": 24
+        }
+      },
+      "note": "Smoker day. Austin's wings in gochujang-lime, Cameron's honey-garlic (no heat).",
+      "austin_total": {
+        "cal": 1970,
+        "p": 180
+      },
+      "cameron_total": {
+        "cal": 1145,
+        "p": 108
       }
     }
   ],
   "prep": {
-    "cycle_note": "PLACEHOLDER WEEK: sample data to preview the new prep format. The real Nov 8 plan replaces this. Cycle Nov 8 → 21, week 1 of 2: Sunday covers Mon–Thu; Wednesday night gets ahead on Fri–Sat.",
+    "cycle_note": "Cycle Nov 8 → 21, week 1 of 2. Sunday (~2h 15m) covers Cameron's whole solo week: grab-and-go breakfasts, tuna lunches, and dinners that are reheat or ≤15 min. Wednesday night (25 min) makes the Thu–Sat lunches. Freezer bank after this week: 2 kofta, 3 curry, 3 egg bites, 1 flat iron, ½ chimichurri.",
     "phases": [
       {
         "key": "thaw",
-        "note": "The plan lands Friday afternoon: pull Friday night, marinate Saturday, cook Sunday.",
+        "note": "The plan lands Friday afternoon: pull tonight, cook Sunday. Weeknight pulls show up on that day's page.",
         "items": [
           {
             "id": "thaw-sirloin",
-            "name": "Ground sirloin (1 lb) → fridge",
+            "name": "ButcherBox ground sirloin (2 × 1 lb) → fridge",
             "when": "Fri night",
             "feeds": [
               {
-                "recipe_id": "charred-onion-smash-burgers",
-                "when": "Sun dinner"
+                "recipe_id": "sirloin-kofta-herb-yogurt-cucumber-salad",
+                "when": "Sun + Thu dinner"
+              }
+            ],
+            "why": "If the ButcherBox hasn't arrived, buy 2 lb 90/10 ground beef instead."
+          },
+          {
+            "id": "thaw-sausage",
+            "name": "Frozen breakfast sausage (1 lb) → fridge",
+            "when": "Fri night",
+            "feeds": [
+              {
+                "recipe_id": "sausage-cheddar-pepper-egg-bites",
+                "when": "Sun, Fri, Sat breakfast"
               }
             ]
           },
           {
-            "id": "thaw-flatiron",
-            "name": "Flat iron (1 × 6 oz) → fridge",
-            "when": "Fri night",
+            "id": "thaw-salmon1",
+            "name": "Salmon fillet #1 → fridge",
+            "day": "Monday",
+            "time": "1 min",
             "feeds": [
               {
-                "recipe_id": "classic-thai-beef-salad-yum-nua",
+                "recipe_id": "greek-sheet-pan-salmon-feta-potatoes",
                 "when": "Tue dinner"
               }
             ]
           },
           {
-            "id": "thaw-chicken",
-            "name": "Chicken thighs (2 lb) → fridge",
-            "when": "Fri night",
+            "id": "thaw-salmon2",
+            "name": "Salmon fillet #2 → fridge",
+            "day": "Tuesday",
+            "time": "1 min",
             "feeds": [
               {
-                "recipe_id": "lemon-herb-chicken-med-bowl",
-                "when": "Lunches Sun–Wed"
+                "recipe_id": "miso-butter-salmon-rice-cucumber",
+                "when": "Wed dinner"
               }
             ]
           },
           {
-            "id": "thaw-shrimp",
-            "name": "Shrimp (1 lb) → fridge",
-            "day": "Wednesday",
+            "id": "thaw-breast",
+            "name": "Chicken breast (2 lb, frozen Sunday) → fridge",
+            "day": "Tuesday",
             "time": "1 min",
             "feeds": [
               {
-                "recipe_id": "blistered-thai-basil-shrimp",
+                "recipe_id": "greek-chicken-orzo-salad",
+                "when": "Thu–Sat lunches"
+              }
+            ]
+          },
+          {
+            "id": "thaw-weekend",
+            "name": "3 flat irons + wings (3 lb) + 6 egg bites → fridge",
+            "day": "Thursday",
+            "time": "2 min",
+            "feeds": [
+              {
+                "recipe_id": "flat-iron-chimichurri-smashed-potatoes",
                 "when": "Fri dinner"
+              },
+              {
+                "recipe_id": "smoked-wings-two-ways-sesame-slaw",
+                "when": "Sat dinner"
+              },
+              {
+                "recipe_id": "sausage-cheddar-pepper-egg-bites",
+                "when": "Fri/Sat breakfast"
               }
             ]
           }
@@ -393,52 +441,55 @@
         "key": "start",
         "items": [
           {
-            "id": "oven",
-            "name": "Oven 425°F → sweet potato + delicata in first",
-            "time": "5 min",
-            "passive": true,
-            "why": "Longest cook (40 min), so it starts before anything else.",
-            "qty": "2 sweet potatoes, 1 delicata",
-            "cut": "¾-inch cubes / ½-inch half-moons",
-            "feeds": [
-              {
-                "recipe_id": "miso-maple-salmon-delicata-rice-bowl",
-                "when": "Wed dinner"
-              },
-              {
-                "recipe_id": "lemon-herb-chicken-med-bowl",
-                "when": "Lunches"
-              }
-            ]
-          },
-          {
-            "id": "farro",
-            "name": "Farro on the stove",
-            "time": "2 min",
-            "passive": true,
+            "id": "st-rice",
+            "name": "Rice cooker: jasmine rice",
             "qty": "1½ cups dry",
             "yield": "~4½ cups",
+            "time": "2 min",
+            "passive": true,
+            "why": "Starts first, holds warm until you portion it.",
+            "storage": "fridge",
+            "keeps": "5 days",
+            "label": "Jasmine rice · Curry (Mon) + Miso salmon (Wed)",
             "feeds": [
               {
-                "recipe_id": "lemon-herb-chicken-med-bowl",
-                "when": "Lunches Sun–Wed"
+                "recipe_id": "mild-japanese-chicken-curry",
+                "when": "Mon"
+              },
+              {
+                "recipe_id": "miso-butter-salmon-rice-cucumber",
+                "when": "Wed"
               }
             ]
           },
           {
-            "id": "rice",
-            "name": "Jasmine rice in the rice cooker",
-            "time": "2 min",
-            "passive": true,
-            "qty": "1½ cups dry",
+            "id": "st-oven",
+            "name": "Oven 325°F for egg bites; brown the sausage + peppers",
+            "time": "10 min",
+            "why": "Egg bites bake 25 min hands-off while you do knife work.",
+            "component_id": "sausage-cheddar-pepper-egg-bites",
+            "thaw_ref": "thaw-sausage",
+            "storage": "freezer",
+            "freeze": "Freeze 9 flat after Sunday breakfast. Pull 6 on Thursday; 3 stay for week 2.",
+            "label": "Egg bites ×9 · Fri/Sat breakfast + week 2",
             "feeds": [
               {
-                "recipe_id": "sesame-ginger-chicken-edamame-bowl",
-                "when": "Lunches Wed–Sat"
-              },
+                "recipe_id": "sausage-cheddar-pepper-egg-bites",
+                "when": "Sun, Fri, Sat"
+              }
+            ]
+          },
+          {
+            "id": "st-curry",
+            "name": "Curry in the Le Creuset: brown the chicken, add veg + water, simmer",
+            "time": "15 min",
+            "passive": true,
+            "component_id": "mild-japanese-chicken-curry",
+            "why": "Simmers 20 min unattended; roux goes in at the end.",
+            "feeds": [
               {
-                "recipe_id": "miso-maple-salmon-delicata-rice-bowl",
-                "when": "Wed dinner"
+                "recipe_id": "mild-japanese-chicken-curry",
+                "when": "Mon + freezer"
               }
             ]
           }
@@ -446,89 +497,95 @@
       },
       {
         "key": "knife",
-        "note": "While the oven and rice cooker run. One deli tub per item, dated.",
+        "note": "While the rice, egg bites and curry run. One tub per item, dated.",
         "items": [
           {
-            "id": "k-onion",
+            "id": "k-redonion",
             "name": "Red onion",
-            "qty": "2",
-            "cut": "1 in thin half-moons (pickle) · 1 finely diced",
+            "qty": "3",
+            "cut": "2 in thin half-moons (pickle) · 1 in wedges (Tue salmon)",
             "storage": "fridge",
             "keeps": "5 days",
-            "use_by": "Thu",
-            "label": "Diced red onion · Gyro plates (Mon) + Kofta (Thu)",
+            "label": "Red onion wedges · Greek salmon (Tue)",
             "feeds": [
               {
-                "recipe_id": "greek-chicken-gyro-plates",
-                "when": "Mon"
-              },
-              {
-                "recipe_id": "sheet-tray-chicken-kofta-rd132",
-                "when": "Thu"
+                "recipe_id": "greek-sheet-pan-salmon-feta-potatoes",
+                "when": "Tue"
               }
             ]
           },
           {
             "id": "k-cuke",
             "name": "English cucumber",
-            "qty": "2",
-            "cut": "half-moons",
+            "qty": "3",
+            "cut": "1 diced (tuna base) · 1 diced (kofta salad) · 1 left whole for Wed + orzo",
             "storage": "fridge",
             "keeps": "4 days",
-            "use_by": "Wed",
-            "label": "Cucumber · Gyro plates (Mon) + Thai beef salad (Tue)",
+            "label": "Diced cucumber · Tuna base (Sun–Wed)",
             "feeds": [
               {
-                "recipe_id": "greek-chicken-gyro-plates",
-                "when": "Mon"
+                "recipe_id": "mediterranean-tuna-white-bean-crackers",
+                "when": "Sun–Wed"
               },
               {
-                "recipe_id": "classic-thai-beef-salad-yum-nua",
-                "when": "Tue"
+                "recipe_id": "sirloin-kofta-herb-yogurt-cucumber-salad",
+                "when": "Sun"
               }
             ]
           },
           {
-            "id": "k-pepper",
-            "name": "Red bell pepper",
-            "qty": "2",
-            "cut": "¼-inch strips",
-            "yield": "~2 cups",
-            "storage": "fridge",
-            "keeps": "5 days",
-            "use_by": "Thu",
-            "label": "Bell pepper strips · Thai beef salad (Tue) + Lunch bowls",
+            "id": "k-tomato",
+            "name": "Cherry tomatoes",
+            "qty": "1 pint",
+            "cut": "halved (kofta salad) · ½ cup whole for Tue",
+            "storage": "counter",
+            "label": "Cherry tomatoes · Kofta (Sun) + Greek salmon (Tue)",
             "feeds": [
               {
-                "recipe_id": "classic-thai-beef-salad-yum-nua",
-                "when": "Tue"
+                "recipe_id": "sirloin-kofta-herb-yogurt-cucumber-salad",
+                "when": "Sun"
               },
               {
-                "recipe_id": "sesame-ginger-chicken-edamame-bowl",
-                "when": "Lunches"
+                "recipe_id": "greek-sheet-pan-salmon-feta-potatoes",
+                "when": "Tue"
               }
             ]
           },
           {
             "id": "k-herbs",
-            "name": "Parsley, cilantro, mint",
-            "qty": "1 bunch each",
-            "cut": "leaves picked, stems chopped",
+            "name": "Parsley + dill",
+            "qty": "2 bunches parsley (1 on hand) + 1 dill",
+            "cut": "leaves picked, finely chopped",
             "storage": "fridge",
             "keeps": "4 days",
-            "use_by": "Wed",
-            "why": "Cut once for three sauces.",
-            "label": "Picked herbs · Chimichurri, jaew, herb yogurt"
+            "why": "Chop once: kofta, tuna base, herb yogurt, chimichurri.",
+            "label": "Chopped parsley · Kofta, tuna base, chimichurri"
           },
           {
-            "id": "k-scallion",
-            "name": "Scallions",
-            "qty": "1 bunch",
-            "cut": "thin slices",
-            "storage": "fridge",
-            "keeps": "5 days",
-            "use_by": "Thu",
-            "label": "Scallions · Lunch bowls + Wed salmon"
+            "id": "k-curryveg",
+            "name": "Curry veg: onion, carrots, baby potatoes",
+            "qty": "1 onion, 2 carrots, 8 oz potatoes",
+            "cut": "wedges · 1-inch chunks · halved",
+            "label": "Straight into the curry pot",
+            "feeds": [
+              {
+                "recipe_id": "mild-japanese-chicken-curry",
+                "when": "Mon"
+              }
+            ]
+          },
+          {
+            "id": "k-artichoke",
+            "name": "Artichoke hearts (on hand)",
+            "qty": "1 cup",
+            "cut": "rough chop",
+            "label": "Into the tuna base",
+            "feeds": [
+              {
+                "recipe_id": "mediterranean-tuna-white-bean-crackers",
+                "when": "Sun–Wed"
+              }
+            ]
           }
         ]
       },
@@ -536,69 +593,67 @@
         "key": "sauces",
         "items": [
           {
-            "id": "s-chimi",
-            "name": "Chimichurri, 2x batch",
-            "time": "10 min",
-            "component_id": "chimichurri-component",
-            "storage": "fridge",
-            "keeps": "7 days",
-            "freeze": "Half goes in the ice-cube tray for Saturday and week 2.",
-            "label": "Chimichurri · Flat iron (Tue) + Smoked chicken (Sat)",
-            "feeds": [
-              {
-                "recipe_id": "smoked-spatchcock-chicken-chimichurri",
-                "when": "Sat"
-              }
-            ]
-          },
-          {
-            "id": "s-jaew",
-            "name": "Jaew (Thai dipping sauce)",
-            "time": "8 min",
-            "component_id": "jaew-thai-dipping-sauce",
-            "storage": "fridge",
-            "keeps": "7 days",
-            "label": "Jaew · Thai beef salad (Tue)",
-            "feeds": [
-              {
-                "recipe_id": "classic-thai-beef-salad-yum-nua",
-                "when": "Tue"
-              }
-            ]
-          },
-          {
             "id": "s-yogurt",
             "name": "Herb yogurt sauce",
             "time": "5 min",
             "component_id": "herb-yogurt-sauce",
             "storage": "fridge",
             "keeps": "5 days",
-            "use_by": "Fri",
-            "label": "Herb yogurt · Gyro plates (Mon) + Lunch bowls",
+            "label": "Herb yogurt · Kofta (Sun/Thu) + Greek salmon (Tue)",
             "feeds": [
               {
-                "recipe_id": "greek-chicken-gyro-plates",
-                "when": "Mon"
+                "recipe_id": "sirloin-kofta-herb-yogurt-cucumber-salad",
+                "when": "Sun, Thu"
               },
               {
-                "recipe_id": "lemon-herb-chicken-med-bowl",
-                "when": "Lunches"
+                "recipe_id": "greek-sheet-pan-salmon-feta-potatoes",
+                "when": "Tue"
               }
             ]
           },
           {
-            "id": "s-gochu",
-            "name": "Gochujang-lime sauce, 2x",
-            "time": "5 min",
-            "component_id": "gochujang-lime-sauce",
+            "id": "s-chimi",
+            "name": "Chimichurri, 2x batch",
+            "time": "10 min",
+            "component_id": "chimichurri-component",
             "storage": "fridge",
-            "keeps": "10 days",
-            "freeze": true,
-            "label": "Gochujang-lime · Lunch bowls (Wed–Sat)",
+            "keeps": "7 days",
+            "freeze": "Half goes in an ice-cube tray for week 2.",
+            "label": "Chimichurri · Flat iron (Fri)",
             "feeds": [
               {
-                "recipe_id": "sesame-ginger-chicken-edamame-bowl",
-                "when": "Lunches"
+                "recipe_id": "flat-iron-chimichurri-smashed-potatoes",
+                "when": "Fri"
+              }
+            ]
+          },
+          {
+            "id": "s-tunadressing",
+            "name": "Lemon-oregano dressing → tuna & bean base",
+            "time": "10 min",
+            "component_id": "mediterranean-tuna-white-bean-crackers",
+            "storage": "fridge",
+            "keeps": "4 days",
+            "label": "Tuna salad base ×4 · Lunch Sun–Wed (add 1 can tuna each day)",
+            "feeds": [
+              {
+                "recipe_id": "mediterranean-tuna-white-bean-crackers",
+                "when": "Sun–Wed"
+              }
+            ]
+          },
+          {
+            "id": "s-miso",
+            "name": "Miso-butter-honey glaze",
+            "time": "2 min",
+            "component_id": "miso-butter-salmon-rice-cucumber",
+            "storage": "fridge",
+            "keeps": "2 weeks",
+            "label": "Miso butter · Salmon (Wed)",
+            "feeds": [
+              {
+                "recipe_id": "miso-butter-salmon-rice-cucumber",
+                "when": "Wed"
               }
             ]
           }
@@ -608,52 +663,63 @@
         "key": "proteins",
         "items": [
           {
-            "id": "p-chicken",
-            "name": "Lemon-herb chicken thighs",
+            "id": "p-kofta",
+            "name": "Sirloin kofta: mix, shape 16, roast 12 min",
             "time": "25 min",
-            "passive": true,
-            "thaw_ref": "thaw-chicken",
-            "component_id": "lemon-herb-chicken-thighs-component",
-            "qty": "2 lb raw",
-            "storage": "fridge",
-            "keeps": "4 days",
-            "use_by": "Wed",
-            "label": "Lemon chicken · Cameron lunch (Sun–Wed)",
-            "feeds": [
-              {
-                "recipe_id": "lemon-herb-chicken-med-bowl",
-                "when": "Lunches Sun–Wed"
-              }
-            ]
-          },
-          {
-            "id": "p-flatiron",
-            "name": "Flat iron in chimichurri (raw, sear Tue)",
-            "time": "2 min",
-            "thaw_ref": "thaw-flatiron",
-            "component_id": "chimichurri-component",
-            "storage": "fridge",
-            "use_by": "Tue",
-            "label": "Flat iron in chimi · Thai beef salad (Tue)",
-            "feeds": [
-              {
-                "recipe_id": "classic-thai-beef-salad-yum-nua",
-                "when": "Tue"
-              }
-            ]
-          },
-          {
-            "id": "p-sirloin",
-            "name": "Smash burger balls (2 oz each)",
-            "time": "5 min",
             "thaw_ref": "thaw-sirloin",
-            "qty": "1 lb → 8 balls",
-            "storage": "fridge",
-            "label": "Burger balls · Smash burgers (Sun)",
+            "component_id": "sirloin-kofta-herb-yogurt-cucumber-salad",
+            "qty": "2 lb → 16 logs",
+            "storage": "fridge + freezer",
+            "freeze": "2 cooked portions (5 logs each) vacuum-sealed for week 2.",
+            "label": "Kofta ×3 logs · Cameron dinner (Thu)",
             "feeds": [
               {
-                "recipe_id": "charred-onion-smash-burgers",
-                "when": "Sun"
+                "recipe_id": "sirloin-kofta-herb-yogurt-cucumber-salad",
+                "when": "Sun dinner, Thu dinner"
+              }
+            ]
+          },
+          {
+            "id": "p-curry",
+            "name": "Finish the curry: roux, peas, portion ×4",
+            "time": "5 min",
+            "component_id": "mild-japanese-chicken-curry",
+            "storage": "fridge 1 · freezer 3",
+            "freeze": "3 portions frozen flat: 1 skip-night backup + 2 for week 2.",
+            "label": "Chicken curry · Cameron dinner (Mon)",
+            "feeds": [
+              {
+                "recipe_id": "mild-japanese-chicken-curry",
+                "when": "Mon"
+              }
+            ]
+          },
+          {
+            "id": "p-breast",
+            "name": "Raw chicken breast → straight into the freezer",
+            "time": "1 min",
+            "why": "Fresh chicken bought Sunday isn't used until Wednesday. Freezing keeps it safe; it gets pulled Tuesday.",
+            "label": "Chicken breast 2 lb · Orzo salad (Wed night)"
+          }
+        ]
+      },
+      {
+        "key": "grains",
+        "items": [
+          {
+            "id": "g-rice",
+            "name": "Portion the rice: ⅔ cup × 2 for Cameron",
+            "time": "2 min",
+            "storage": "fridge",
+            "label": "Rice ⅔ cup · Curry (Mon) / Miso salmon (Wed)",
+            "feeds": [
+              {
+                "recipe_id": "mild-japanese-chicken-curry",
+                "when": "Mon"
+              },
+              {
+                "recipe_id": "miso-butter-salmon-rice-cucumber",
+                "when": "Wed"
               }
             ]
           }
@@ -669,18 +735,8 @@
             "component_id": "quick-pickled-red-onion",
             "storage": "fridge",
             "keeps": "2 weeks",
-            "why": "Turns one 79¢ onion into a 2-week topping.",
-            "label": "Pickled red onion · burgers, gyros, bowls, both weeks",
-            "feeds": [
-              {
-                "recipe_id": "charred-onion-smash-burgers",
-                "when": "Sun"
-              },
-              {
-                "recipe_id": "greek-chicken-gyro-plates",
-                "when": "Mon"
-              }
-            ]
+            "why": "Goes in the kofta, tuna base, orzo salad and on the steak. One 79¢ onion, 2 weeks of topping.",
+            "label": "Pickled red onion · everything, both weeks"
           }
         ]
       },
@@ -688,11 +744,31 @@
         "key": "pack",
         "items": [
           {
-            "id": "pack",
-            "name": "Portion Cameron lunches + breakfasts Mon–Thu",
-            "time": "10 min",
-            "qty": "8 deli tubs",
-            "label": "Use-by date on every lid"
+            "id": "pk-oats",
+            "name": "Overnight oats × 4 jars",
+            "time": "8 min",
+            "component_id": "kodiak-date-overnight-oats",
+            "storage": "fridge",
+            "keeps": "4 days",
+            "label": "Overnight oats · Cameron breakfast (Mon–Thu)",
+            "feeds": [
+              {
+                "recipe_id": "kodiak-date-overnight-oats",
+                "when": "Mon–Thu"
+              }
+            ]
+          },
+          {
+            "id": "pk-lunch",
+            "name": "Lunch kits: base tub + 1 can tuna + crackers, stacked by day",
+            "time": "5 min",
+            "label": "Cameron lunch (Mon/Tue/Wed)",
+            "feeds": [
+              {
+                "recipe_id": "mediterranean-tuna-white-bean-crackers",
+                "when": "Mon–Wed"
+              }
+            ]
           }
         ]
       },
@@ -701,29 +777,51 @@
         "title": "Mid-week · get ahead",
         "items": [
           {
-            "id": "m-wed",
-            "name": "Shred cabbage + carrot, slice basil for Friday",
+            "id": "m-orzo",
+            "name": "Greek chicken orzo salad: air-fry chicken + boil orzo + toss",
             "day": "Wednesday",
-            "time": "15 min",
+            "time": "25 min",
+            "thaw_ref": "thaw-breast",
+            "component_id": "greek-chicken-orzo-salad",
             "storage": "fridge",
-            "label": "Thai basil + slaw mix · Thai basil shrimp (Fri)",
+            "keeps": "4 days",
+            "label": "Orzo salad · Lunch Thu (C) + Fri/Sat (both)",
             "feeds": [
               {
-                "recipe_id": "blistered-thai-basil-shrimp",
+                "recipe_id": "greek-chicken-orzo-salad",
+                "when": "Thu–Sat lunches"
+              }
+            ]
+          },
+          {
+            "id": "m-glazes",
+            "name": "Make honey-garlic + gochujang-lime glazes, shred slaw, salt the steaks",
+            "day": "Friday",
+            "time": "20 min",
+            "component_id": "honey-garlic-wing-glaze",
+            "label": "Glazes + slaw · Wings (Sat)",
+            "feeds": [
+              {
+                "recipe_id": "smoked-wings-two-ways-sesame-slaw",
+                "when": "Sat"
+              },
+              {
+                "recipe_id": "flat-iron-chimichurri-smashed-potatoes",
                 "when": "Fri"
               }
             ]
           },
           {
-            "id": "m-thu",
-            "name": "Brine the spatchcock chicken for Saturday's smoker",
-            "day": "Thursday",
+            "id": "m-wings",
+            "name": "Wings: pat dry, baking powder + salt, rack in fridge",
+            "day": "Saturday",
             "time": "10 min",
-            "label": "Brining chicken · Smoked chicken (Sat)",
+            "component_id": "smoked-wings-two-ways-sesame-slaw",
+            "why": "A few hours uncovered = crispy skin off the smoker.",
             "feeds": [
               {
-                "recipe_id": "smoked-spatchcock-chicken-chimichurri",
-                "when": "Sat"
+                "recipe_id": "smoked-wings-two-ways-sesame-slaw",
+                "when": "Sat dinner"
               }
             ]
           }

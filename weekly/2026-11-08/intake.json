@@ -1,0 +1,23 @@
+{
+  "week_date": "2026-11-08",
+  "completed_at": "2026-11-05T19:00:00Z",
+  "eat_out_nights": [
+    "Cameron: probably 1–2 weeknights, not set"
+  ],
+  "last_week_feedback": {
+    "repeat": [],
+    "avoid": [],
+    "notes": "New week, new recipes please."
+  },
+  "cravings": "None.",
+  "protein_rotation": {
+    "increase": [],
+    "reduce": [],
+    "notes": "Use some ButcherBox (not arrived as of Nov 5). Use backlogged proteins. Cameron's week: salmon, tuna, feta, oats. No need to use everything."
+  },
+  "prep_availability": "full",
+  "cameron_notes": "Spice: none. Easy lunches (tuna salad and crackers). Grab-and-go breakfast. Quick dinners or prepped reheats. Prefers Mediterranean/Asian; not Mexican, not bowls.",
+  "travel": "Austin away Mon (all day) through Thu; back Fri morning.",
+  "prep_format": "Big Sunday timeline + build cards + mid-week get-ahead boxes.",
+  "generated_by": "claude (chat session)"
+}

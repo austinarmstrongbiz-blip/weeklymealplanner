@@ -2,93 +2,92 @@
   "week_date": "2026-11-08",
   "week_start": "November 8",
   "week_end": "November 14, 2026",
-  "placeholder": true,
-  "budget": "PLACEHOLDER",
+  "note": "Week 1 of the Nov 8–21 cycle. Week 2 items get added when the Nov 15 plan is built.",
+  "skipped_on_hand": [
+    "Salmon ×2",
+    "Tuna (5 cans)",
+    "Feta",
+    "Cheddar",
+    "Cannellini",
+    "Artichoke hearts",
+    "Kodiak oats",
+    "Medjool dates",
+    "Arugula",
+    "Edamame",
+    "Frozen pepper blend",
+    "Frozen peas",
+    "Breakfast sausage",
+    "Miso",
+    "1 bunch parsley",
+    "Chives",
+    "ButcherBox sirloin, flat iron, wings"
+  ],
   "categories": {
     "Produce": [
       {
+        "name": "English cucumbers",
+        "qty": "3",
+        "for": "Tuna base, kofta salad, orzo salad, Wed salmon",
+        "use_window": "early"
+      },
+      {
+        "name": "Cherry tomatoes",
+        "qty": "1 pint",
+        "for": "Kofta salad, Greek salmon",
+        "use_window": "early"
+      },
+      {
         "name": "Parsley",
-        "qty": "2 bunches",
-        "for": "Chimichurri, herb yogurt",
+        "qty": "1 bunch (1 on hand)",
+        "for": "Kofta, tuna base, chimichurri",
         "use_window": "early"
       },
       {
-        "name": "Cilantro",
+        "name": "Dill",
         "qty": "1 bunch",
-        "for": "Jaew, Thai beef salad",
+        "for": "Herb yogurt, orzo salad",
         "use_window": "early"
-      },
-      {
-        "name": "Mint",
-        "qty": "1 bunch",
-        "for": "Thai beef salad",
-        "use_window": "early"
-      },
-      {
-        "name": "English cucumber",
-        "qty": "2",
-        "for": "Gyros, Thai beef salad",
-        "use_window": "early"
-      },
-      {
-        "name": "Thai basil",
-        "qty": "1 bunch",
-        "for": "Thai basil shrimp (Fri)",
-        "use_window": "early",
-        "buy": "midcycle"
-      },
-      {
-        "name": "Red bell pepper",
-        "qty": "2",
-        "for": "Thai beef salad, lunch bowls",
-        "use_window": "mid"
       },
       {
         "name": "Scallions",
         "qty": "1 bunch",
-        "for": "Lunch bowls, salmon",
-        "use_window": "mid"
-      },
-      {
-        "name": "Limes",
-        "qty": "6",
-        "for": "Jaew, gochujang-lime",
+        "for": "Miso salmon, slaw",
         "use_window": "mid"
       },
       {
         "name": "Lemons",
-        "qty": "3",
-        "for": "Chicken, yogurt",
+        "qty": "6",
+        "for": "Everything",
         "use_window": "late"
       },
       {
-        "name": "Red onion",
+        "name": "Red onions",
         "qty": "3",
-        "for": "Pickles, gyros, kofta",
+        "for": "Pickles, salmon",
         "use_window": "late"
       },
       {
-        "name": "Sweet potatoes",
+        "name": "Yellow onions",
         "qty": "2",
-        "for": "Lunch bowls",
+        "for": "Kofta, curry",
         "use_window": "late"
       },
       {
-        "name": "Delicata squash",
-        "qty": "1",
-        "for": "Wed salmon bowl",
-        "use_window": "late"
-      },
-      {
-        "name": "Green cabbage",
-        "qty": "1 small",
-        "for": "Fri slaw + week 2",
+        "name": "Baby potatoes",
+        "qty": "2 lb",
+        "for": "Curry, Tue salmon, Fri steak",
         "use_window": "late"
       },
       {
         "name": "Carrots",
         "qty": "1 lb",
-        "for": "Slaw",
+        "for": "Curry, slaw",
+        "use_window": "late"
+      },
+      {
+        "name": "Green cabbage",
+        "qty": "1 small",
+        "for": "Sat slaw (+ week 2)",
         "use_window": "late"
       },
       {
@@ -101,71 +100,65 @@
     "Proteins": [
       {
         "name": "Boneless skinless chicken thighs",
+        "qty": "1½ lb",
+        "for": "Curry (Sun)"
+      },
+      {
+        "name": "Chicken breast",
         "qty": "2 lb",
-        "for": "Lemon chicken lunches"
+        "for": "Orzo salad (freeze on arrival)"
       },
       {
-        "name": "Whole chicken (spatchcock)",
-        "qty": "~4 lb",
-        "for": "Sat smoker"
-      },
-      {
-        "name": "Salmon fillet",
-        "qty": "10 oz",
-        "for": "Wed (Cameron)"
-      },
-      {
-        "name": "Shrimp, frozen",
-        "qty": "1 lb",
-        "for": "Fri"
-      },
-      {
-        "name": "ON HAND · ButcherBox ground sirloin, flat iron",
-        "qty": "—",
-        "for": "Not bought: from the freezer"
+        "name": "Wild tuna, 5 oz cans",
+        "qty": "2",
+        "for": "Top-up: 5 on hand, need ~6½"
       }
     ],
     "Dairy & Eggs": [
       {
         "name": "Plain nonfat Greek yogurt",
-        "qty": "32 oz",
-        "for": "Herb yogurt, breakfast bowls"
+        "qty": "3 × 32 oz",
+        "for": "Oats, egg-bite breakfasts, herb yogurt"
       },
       {
-        "name": "Eggs / egg whites",
-        "qty": "1 dozen + 1 carton",
-        "for": "Frittata cups"
+        "name": "Eggs",
+        "qty": "1 dozen",
+        "for": "Egg bites"
       },
       {
-        "name": "Feta",
-        "qty": "6 oz",
-        "for": "Gyros, frittata cups"
+        "name": "Liquid egg whites",
+        "qty": "16 oz",
+        "for": "Egg bites"
+      },
+      {
+        "name": "Milk",
+        "qty": "1 qt (skip if stocked)",
+        "for": "Oats"
       }
     ],
     "Grains & Dry Goods": [
       {
-        "name": "Farro",
-        "qty": "1½ cups",
-        "for": "Lunch bowls"
-      },
-      {
         "name": "Pita",
         "qty": "1 pack",
-        "for": "Gyro plates"
-      }
-    ],
-    "Canned & Jarred": [
+        "for": "Kofta (Sun + Thu)"
+      },
       {
-        "name": "Edamame, frozen shelled",
-        "qty": "12 oz",
-        "for": "Lunch bowls"
+        "name": "Whole-grain crackers (Triscuit or similar)",
+        "qty": "1 box",
+        "for": "Cameron tuna lunches"
       }
     ],
+    "Canned & Jarred": [],
     "Pantry / Other": [
       {
-        "name": "White miso",
-        "qty": "1 small tub",
-        "for": "Wed salmon"
+        "name": "Japanese curry roux, MILD (Golden Curry Mild)",
+        "qty": "1 box",
+        "for": "Curry (½ box; rest keeps for week 2)"
+      },
+      {
+        "name": "Baking powder, aluminum-free",
+        "qty": "check stock",
+        "for": "Crispy wings"
       }
     ]
   }
