@@ -12,7 +12,10 @@ everything else on Render's free tier, must be committed to git to survive a
 restart.
 
 Env:
-  ANTHROPIC_API_KEY   required
+  ANTHROPIC_API_KEY   required, unless Render OIDC / workload identity federation is set up
+                      (ANTHROPIC_FEDERATION_RULE_ID + ANTHROPIC_ORGANIZATION_ID +
+                      ANTHROPIC_SERVICE_ACCOUNT_ID + ANTHROPIC_IDENTITY_TOKEN_FILE or
+                      ANTHROPIC_IDENTITY_TOKEN). The SDK picks either up on its own.
   CHAT_MODEL          optional; forces one model for every message (skips routing)
   CHAT_PASSCODE       optional; when set, requests must send header X-Chat-Passcode
 """
@@ -43,6 +46,14 @@ def pick_model(messages):
     if len(text) > 220 or _COMPLEX_WORDS.search(text):
         return COMPLEX_MODEL, 'medium'
     return SIMPLE_MODEL, 'low'
+
+
+def credentials_configured():
+    if os.environ.get('ANTHROPIC_API_KEY'):
+        return True
+    fed = ('ANTHROPIC_FEDERATION_RULE_ID', 'ANTHROPIC_ORGANIZATION_ID', 'ANTHROPIC_SERVICE_ACCOUNT_ID')
+    token = os.environ.get('ANTHROPIC_IDENTITY_TOKEN_FILE') or os.environ.get('ANTHROPIC_IDENTITY_TOKEN')
+    return all(os.environ.get(k) for k in fed) and bool(token)
 
 
 class ChatError(Exception):
@@ -276,8 +287,8 @@ def _clean_history(messages):
 
 
 def run_chat(root, data_root, payload):
-    if not os.environ.get('ANTHROPIC_API_KEY'):
-        raise ChatError('Chat is not configured: set ANTHROPIC_API_KEY on the server.', 503)
+    if not credentials_configured():
+        raise ChatError('Chat is not configured: set ANTHROPIC_API_KEY (or Render OIDC) on the server.', 503)
     try:
         import anthropic
     except ImportError:

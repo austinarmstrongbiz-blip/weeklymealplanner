@@ -372,7 +372,7 @@ class MealPlannerHandler(SimpleHTTPRequestHandler):
         # GET /api/chat/status — is Claude chat configured?
         if parsed.path == '/api/chat/status':
             return self._json({
-                'enabled': bool(os.environ.get('ANTHROPIC_API_KEY')),
+                'enabled': chat.credentials_configured(),
                 'passcode_required': bool(os.environ.get('CHAT_PASSCODE')),
             })
 
