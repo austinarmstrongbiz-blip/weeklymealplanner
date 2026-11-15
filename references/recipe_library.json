@@ -25764,7 +25764,7 @@
       "cameron_note": "More chicken, much less sauce and potato than the source. About 465 cal and 44g protein.",
       "history": {
         "first_used": "",
-        "last_used": "",
+        "last_used": "2026-11-15",
         "times_made": 0,
         "ratings": [],
         "avg_rating": {
@@ -28116,7 +28116,10 @@
         "Each lunch: open a can of tuna, drain, and stir it into a container of base. Eat over arugula with crackers on the side."
       ],
       "batch_note": "The base keeps 4 days. Stirring the tuna in each day keeps it fresh and makes the lunch grab-and-go. No spice.",
-      "cameron_note": "Lunch size: 1 can tuna, a small scoop (~\u00bd cup) of base, 4 crackers. Austin: 1\u00bd cans, \u00be cup base, 6 crackers."
+      "cameron_note": "Lunch size: 1 can tuna, a small scoop (~\u00bd cup) of base, 4 crackers. Austin: 1\u00bd cans, \u00be cup base, 6 crackers.",
+      "history": {
+        "last_used": "2026-11-15"
+      }
     },
     {
       "id": "greek-chicken-orzo-salad",
@@ -28605,7 +28608,10 @@
         "Bowl it up and finish with sesame seeds and scallion."
       ],
       "batch_note": "The miso-butter can be mashed Sunday and kept in a small container. Rice is from Sunday's rice cooker batch (day 4).",
-      "cameron_note": "Dinner size: 5 oz salmon, \u00be cup rice, \u00bd cup edamame, a jammy egg, sesame cucumbers."
+      "cameron_note": "Dinner size: 5 oz salmon, \u00be cup rice, \u00bd cup edamame, a jammy egg, sesame cucumbers.",
+      "history": {
+        "last_used": "2026-11-15"
+      }
     },
     {
       "id": "flat-iron-chimichurri-smashed-potatoes",
@@ -29030,7 +29036,10 @@
         "Austin: eggs and protein over toast, then sauce and hot sauce. Cameron: egg on toast with \u00bd avocado, cottage cheese on the side, a spoon of whatever sauce is in the fridge."
       ],
       "batch_note": "No batching: this is the everyday breakfast. It uses up the week's sauces and the last few ounces of dinner protein.",
-      "cameron_note": "1 egg, 1 slice sourdough, \u00bd avocado, \u00bc cup cottage cheese (~355 cal, 18g P)."
+      "cameron_note": "1 egg, 1 slice sourdough, \u00bd avocado, \u00bc cup cottage cheese (~355 cal, 18g P).",
+      "history": {
+        "last_used": "2026-11-15"
+      }
     },
     {
       "id": "freezer-breakfast-burritos-sausage-egg-cheddar",
@@ -29121,7 +29130,813 @@
         "REHEAT (oven or Breville): from frozen, still in foil, 375\u00b0F for 25\u201330 min. Faster: move tomorrow's burrito to the fridge the night before, then 375\u00b0F for 12\u201315 min. Unwrap for the last 3 min if you want a crisp outside."
       ],
       "batch_note": "Make 10 on Sunday. 4 are Cameron's Mon\u2013Thu breakfasts; the other 6 stay frozen for week 2 (or Austin: 1 burrito + 2 extra eggs \u2248 550 cal, 38g P).",
-      "cameron_note": "One burrito (~365 cal, 22g P). Skip the hot sauce."
+      "cameron_note": "One burrito (~365 cal, 22g P). Skip the hot sauce.",
+      "history": {
+        "last_used": "2026-11-15"
+      }
+    },
+    {
+      "id": "tzatziki-component",
+      "name": "Tzatziki (chive-lemon, no dill needed)",
+      "cuisine": "Greek",
+      "meal_type": "component",
+      "added_date": "2026-11-15",
+      "source_account": "Above Kitch (Claude)",
+      "prep": "8 min",
+      "total": "8 min",
+      "spice_level": "None",
+      "tags": [
+        "component",
+        "batch-friendly",
+        "fall-2026",
+        "greek",
+        "high-protein"
+      ],
+      "macro_strings": {
+        "austin": null,
+        "cameron": null
+      },
+      "macros": {
+        "austin": null,
+        "cameron": null
+      },
+      "storage_note": "Pint deli container, fridge. Pour off any liquid before using.",
+      "keeps": "5 days",
+      "freezes": "No (yogurt splits).",
+      "ingredients": [
+        {
+          "name": "Plain nonfat Greek yogurt (on hand)",
+          "qty": "1\u00bd cups"
+        },
+        {
+          "name": "Cucumber, grated and squeezed dry",
+          "qty": "1 large"
+        },
+        {
+          "name": "Garlic, grated",
+          "qty": "2 cloves"
+        },
+        {
+          "name": "Lemon juice + zest",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Chives, minced (on hand; dill if you have it)",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Olive oil",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "\u00bd tsp"
+        }
+      ],
+      "instructions": [
+        "Grate the cucumber, salt it, squeeze it hard in a towel.",
+        "Stir everything together. Taste for salt and lemon.",
+        "Rest 15 min before serving so the garlic mellows."
+      ]
+    },
+    {
+      "id": "lemon-tahini-dressing",
+      "name": "Lemon-Tahini Dressing",
+      "cuisine": "Mediterranean",
+      "meal_type": "component",
+      "added_date": "2026-11-15",
+      "source_account": "Above Kitch (Claude)",
+      "prep": "5 min",
+      "total": "5 min",
+      "spice_level": "None",
+      "tags": [
+        "component",
+        "batch-friendly",
+        "fall-2026",
+        "mediterranean"
+      ],
+      "macro_strings": {
+        "austin": null,
+        "cameron": null
+      },
+      "macros": {
+        "austin": null,
+        "cameron": null
+      },
+      "storage_note": "4-oz jars, one per lunch, fridge. Thickens when cold: loosen with water.",
+      "keeps": "7 days",
+      "freezes": "Yes, 2 months in small jars.",
+      "ingredients": [
+        {
+          "name": "Tahini (on hand)",
+          "qty": "\u2153 cup"
+        },
+        {
+          "name": "Lemon juice",
+          "qty": "\u00bc cup"
+        },
+        {
+          "name": "Garlic, grated",
+          "qty": "1 clove"
+        },
+        {
+          "name": "Honey",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Ice water",
+          "qty": "4\u20136 tbsp"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "\u00bd tsp"
+        }
+      ],
+      "instructions": [
+        "Whisk tahini, lemon, garlic, honey and salt; it will seize.",
+        "Whisk in ice water a tablespoon at a time until pourable."
+      ]
+    },
+    {
+      "id": "miso-honey-butter",
+      "name": "Miso-Honey Butter",
+      "cuisine": "Japanese",
+      "meal_type": "component",
+      "added_date": "2026-11-15",
+      "source_account": "Above Kitch (Claude)",
+      "prep": "2 min",
+      "total": "2 min",
+      "spice_level": "None",
+      "tags": [
+        "component",
+        "batch-friendly",
+        "fall-2026",
+        "japanese"
+      ],
+      "macro_strings": {
+        "austin": null,
+        "cameron": null
+      },
+      "macros": {
+        "austin": null,
+        "cameron": null
+      },
+      "storage_note": "Small container, fridge.",
+      "keeps": "2 weeks",
+      "freezes": "Yes, 3 months.",
+      "ingredients": [
+        {
+          "name": "White miso (on hand)",
+          "qty": "1\u00bd tbsp"
+        },
+        {
+          "name": "Butter, softened",
+          "qty": "1\u00bd tbsp"
+        },
+        {
+          "name": "Honey",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Rice vinegar",
+          "qty": "\u00bd tsp"
+        }
+      ],
+      "instructions": [
+        "Mash everything smooth with a fork."
+      ]
+    },
+    {
+      "id": "lamb-beef-kofta-component",
+      "name": "Lamb & Beef Kofta (batch, 16)",
+      "cuisine": "Greek",
+      "meal_type": "component",
+      "added_date": "2026-11-15",
+      "source_account": "Above Kitch (Claude)",
+      "prep": "20 min + 18 min roast",
+      "total": "20 min + 18 min roast",
+      "spice_level": "None",
+      "tags": [
+        "component",
+        "batch-friendly",
+        "fall-2026",
+        "greek",
+        "batch-protein",
+        "no-spice"
+      ],
+      "macro_strings": {
+        "austin": null,
+        "cameron": null
+      },
+      "macros": {
+        "austin": null,
+        "cameron": null
+      },
+      "storage_note": "Deli containers, fridge. Reheat 350\u00b0F 8 min or air fry 380\u00b0F 5 min.",
+      "keeps": "4 days",
+      "freezes": "Yes, 3 months: freeze cooked on a tray, then bag.",
+      "ingredients": [
+        {
+          "name": "Ground lamb (thawed)",
+          "qty": "1 lb"
+        },
+        {
+          "name": "Ground beef 90/10 (ButcherBox)",
+          "qty": "1 lb"
+        },
+        {
+          "name": "Feta, crumbled",
+          "qty": "2 oz"
+        },
+        {
+          "name": "Scallions, minced",
+          "qty": "4"
+        },
+        {
+          "name": "Chives, minced",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Garlic, grated",
+          "qty": "4 cloves"
+        },
+        {
+          "name": "Dried oregano",
+          "qty": "2 tsp"
+        },
+        {
+          "name": "Cumin",
+          "qty": "1\u00bd tsp"
+        },
+        {
+          "name": "Smoked paprika",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "1\u00bd tsp"
+        },
+        {
+          "name": "Black pepper",
+          "qty": "\u00bd tsp"
+        },
+        {
+          "name": "Egg",
+          "qty": "1"
+        }
+      ],
+      "instructions": [
+        "Oven 425\u00b0F, parchment-lined sheet pan.",
+        "Mix everything with your hands just until it holds together (don't overwork).",
+        "Form 16 oval logs (~2 oz each).",
+        "Roast 15\u201318 min to 160\u00b0F; broil 2 min for color.",
+        "Cool on the pan; fridge what you'll eat by Tue, freeze the rest flat."
+      ]
+    },
+    {
+      "id": "seared-sliced-flat-iron",
+      "name": "Seared & Sliced Flat Iron (batch)",
+      "cuisine": "Argentinian",
+      "meal_type": "component",
+      "added_date": "2026-11-15",
+      "source_account": "Above Kitch (Claude)",
+      "prep": "5 min + 8 min cook",
+      "total": "5 min + 8 min cook",
+      "spice_level": "None",
+      "tags": [
+        "component",
+        "batch-friendly",
+        "fall-2026",
+        "batch-protein"
+      ],
+      "macro_strings": {
+        "austin": null,
+        "cameron": null
+      },
+      "macros": {
+        "austin": null,
+        "cameron": null
+      },
+      "storage_note": "Deli container with resting juices, fridge. Eat cold or flash-warm.",
+      "keeps": "4 days",
+      "freezes": "Yes, sliced and vacuum sealed, 2 months.",
+      "ingredients": [
+        {
+          "name": "Flat iron steak (thawed)",
+          "qty": "1 pack (~12 oz)"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Black pepper",
+          "qty": "\u00bd tsp"
+        },
+        {
+          "name": "Neutral oil",
+          "qty": "1 tsp"
+        }
+      ],
+      "instructions": [
+        "Pat dry, salt and pepper both sides; rest 15 min while the skillet heats.",
+        "Cast iron, ripping hot: 3\u20134 min per side to 130\u00b0F.",
+        "Rest 10 min, slice thin against the grain."
+      ]
+    },
+    {
+      "id": "spicy-sausage-beef-ragu",
+      "name": "Spicy Sausage & Beef Rag\u00f9 (hot marinara)",
+      "cuisine": "Italian",
+      "meal_type": "component",
+      "added_date": "2026-11-15",
+      "source_account": "Above Kitch (Claude)",
+      "prep": "10 min + 40 min simmer",
+      "total": "10 min + 40 min simmer",
+      "spice_level": "None",
+      "tags": [
+        "component",
+        "batch-friendly",
+        "fall-2026",
+        "italian",
+        "batch-protein",
+        "freezer-bank"
+      ],
+      "macro_strings": {
+        "austin": null,
+        "cameron": null
+      },
+      "macros": {
+        "austin": null,
+        "cameron": null
+      },
+      "storage_note": "Quart deli containers / flat freezer bags.",
+      "keeps": "4 days",
+      "freezes": "Yes, 3 months. Thaw overnight in the fridge.",
+      "ingredients": [
+        {
+          "name": "Italian sausage, casings off (thawed)",
+          "qty": "2 links (~8 oz)"
+        },
+        {
+          "name": "Ground beef 90/10 (ButcherBox)",
+          "qty": "1 lb"
+        },
+        {
+          "name": "Garlic, sliced",
+          "qty": "4 cloves"
+        },
+        {
+          "name": "Hot Italian homemade marinara (on hand)",
+          "qty": "1 large jar (~24 oz)"
+        },
+        {
+          "name": "Chicken stock",
+          "qty": "\u00bd cup"
+        },
+        {
+          "name": "Calabrian chili (optional, Austin)",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "\u00bd tsp"
+        }
+      ],
+      "instructions": [
+        "Brown sausage and beef in a Dutch oven over medium-high, breaking up, 8 min.",
+        "Add garlic 1 min, then marinara and stock.",
+        "Simmer low, lid ajar, 40 min (passive). Taste for salt.",
+        "Cool. Fridge 2 dinner portions for Wed; freeze the rest flat in quart bags."
+      ]
+    },
+    {
+      "id": "lamb-beef-kofta-tzatziki-quinoa-greek-salad",
+      "name": "Lamb & Beef Kofta, Tzatziki, Quinoa & Greek Cucumber Salad",
+      "cuisine": "Greek",
+      "meal_type": "dinner",
+      "added_date": "2026-11-15",
+      "source_account": "Above Kitch (Claude)",
+      "prep": "5 min",
+      "cook": "fresh on prep day",
+      "spice_level": "None (Austin adds Calabrian chili)",
+      "tags": [
+        "claude-built",
+        "fall-2026",
+        "high-protein",
+        "portioned-2026-11-05-targets",
+        "greek",
+        "no-spice",
+        "sunday-prep"
+      ],
+      "macro_strings": {
+        "austin": "890 cal | 70g P | 44g F | 52g C",
+        "cameron": "620 cal | 50g P | 30g F | 36g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 890,
+          "p": 70,
+          "f": 44,
+          "c": 52
+        },
+        "cameron": {
+          "cal": 620,
+          "p": 50,
+          "f": 30,
+          "c": 36
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Lamb & beef kofta (component)",
+          "qty": "Austin 8 oz \u00b7 Cameron 5 oz (cooked weight ~6/4 oz)"
+        },
+        {
+          "name": "Tzatziki (component)",
+          "qty": "Austin \u00bd cup \u00b7 Cameron \u2153 cup"
+        },
+        {
+          "name": "Cooked quinoa",
+          "qty": "Austin 1 cup \u00b7 Cameron \u00bd cup"
+        },
+        {
+          "name": "Cucumber, diced",
+          "qty": "1"
+        },
+        {
+          "name": "Tomatoes, diced",
+          "qty": "2"
+        },
+        {
+          "name": "Feta",
+          "qty": "1 oz each"
+        },
+        {
+          "name": "Arugula (on hand)",
+          "qty": "handful"
+        },
+        {
+          "name": "Crispy chickpeas",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Lemon, olive oil, oregano",
+          "qty": ""
+        }
+      ],
+      "instructions": [
+        "Warm the kofta (fresh from the oven on Sunday).",
+        "Toss cucumber, tomato, arugula, lemon, olive oil, oregano and salt.",
+        "Plate quinoa, salad, kofta; spoon tzatziki, crumble feta, scatter chickpeas."
+      ],
+      "cameron_note": "Smaller plate: 5 oz kofta, \u00bd cup quinoa, big salad, \u2153 cup tzatziki. Avocado slices fit here.",
+      "batch_note": "Kofta, tzatziki, quinoa and chickpeas all come from Sunday prep.",
+      "components": [
+        "lamb-beef-kofta-component",
+        "tzatziki-component"
+      ],
+      "history": {
+        "first_used": "2026-11-15",
+        "last_used": "2026-11-15",
+        "times_made": 0,
+        "ratings": []
+      }
+    },
+    {
+      "id": "spicy-sausage-ragu-banza",
+      "name": "Spicy Sausage Rag\u00f9 with Banza Protein Pasta",
+      "cuisine": "Italian",
+      "meal_type": "dinner",
+      "added_date": "2026-11-15",
+      "source_account": "Above Kitch (Claude)",
+      "prep": "2 min",
+      "cook": "12 min",
+      "spice_level": "Medium (hot marinara); Cameron's plate is cooled with cream",
+      "tags": [
+        "claude-built",
+        "fall-2026",
+        "high-protein",
+        "portioned-2026-11-05-targets",
+        "italian",
+        "workout-fuel",
+        "reheat"
+      ],
+      "macro_strings": {
+        "austin": "900 cal | 76g P | 34g F | 70g C",
+        "cameron": "620 cal | 50g P | 26g F | 46g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 900,
+          "p": 76,
+          "f": 34,
+          "c": 70
+        },
+        "cameron": {
+          "cal": 620,
+          "p": 50,
+          "f": 26,
+          "c": 46
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Spicy sausage & beef rag\u00f9 (component)",
+          "qty": "Austin 1\u2153 cups \u00b7 Cameron 1 cup"
+        },
+        {
+          "name": "Banza chickpea fusilli (on hand)",
+          "qty": "Austin 3 oz \u00b7 Cameron 2 oz dry"
+        },
+        {
+          "name": "Parmesan, grated",
+          "qty": "Austin 2 tbsp \u00b7 Cameron 1 tbsp"
+        },
+        {
+          "name": "Kale, shredded (stirred in)",
+          "qty": "2 cups"
+        },
+        {
+          "name": "Heavy cream (softens the heat)",
+          "qty": "Cameron 2 tbsp"
+        }
+      ],
+      "instructions": [
+        "Boil Banza 1 min less than the box says.",
+        "Warm rag\u00f9; stir in kale until wilted.",
+        "Toss pasta in the rag\u00f9 with a splash of pasta water.",
+        "Cameron's portion: stir in 2 tbsp heavy cream (ros\u00e9-style) to mellow the heat. Parmesan on top."
+      ],
+      "cameron_note": "Cream stirred into her portion turns it into a mild ros\u00e9. Workout night for Austin: +1 oz pasta and a slice of garlic sourdough (+350 cal).",
+      "batch_note": "Rag\u00f9 made Sunday; only the pasta is cooked Wednesday.",
+      "components": [
+        "spicy-sausage-beef-ragu"
+      ],
+      "history": {
+        "first_used": "2026-11-15",
+        "last_used": "2026-11-15",
+        "times_made": 0,
+        "ratings": []
+      }
+    },
+    {
+      "id": "flat-iron-quinoa-lunch-salad",
+      "name": "Flat Iron, Quinoa & Kale Lunch Salad with Lemon-Tahini",
+      "cuisine": "Mediterranean",
+      "meal_type": "lunch",
+      "added_date": "2026-11-15",
+      "source_account": "Above Kitch (Claude)",
+      "prep": "10 min (Sunday)",
+      "cook": "0",
+      "spice_level": "None",
+      "tags": [
+        "claude-built",
+        "fall-2026",
+        "high-protein",
+        "portioned-2026-11-05-targets",
+        "mediterranean",
+        "lunch-batch",
+        "no-spice"
+      ],
+      "macro_strings": {
+        "austin": "440 cal | 40g P | 20g F | 28g C",
+        "cameron": "290 cal | 25g P | 13g F | 18g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 440,
+          "p": 40,
+          "f": 20,
+          "c": 28
+        },
+        "cameron": {
+          "cal": 290,
+          "p": 25,
+          "f": 13,
+          "c": 18
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Seared sliced flat iron (component)",
+          "qty": "3\u20134 oz"
+        },
+        {
+          "name": "Cooked quinoa",
+          "qty": "\u00bd cup"
+        },
+        {
+          "name": "Kale, shredded (massaged with lemon)",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Cucumber + tomato, diced",
+          "qty": "\u00bd cup"
+        },
+        {
+          "name": "Feta",
+          "qty": "\u00bd oz"
+        },
+        {
+          "name": "Crispy chickpeas",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Lemon-tahini dressing (component), jar on the side",
+          "qty": "2 tbsp"
+        }
+      ],
+      "instructions": [
+        "Layer in a quart container: quinoa, kale, veg, steak, feta.",
+        "Chickpeas and dressing on the side; add at lunch."
+      ],
+      "cameron_note": "If Cameron wants a break from tuna: 2 oz steak, same build.",
+      "batch_note": "Packed Sunday for Austin Mon\u2013Wed.",
+      "components": [
+        "seared-sliced-flat-iron",
+        "lemon-tahini-dressing"
+      ],
+      "history": {
+        "first_used": "2026-11-15",
+        "last_used": "2026-11-15",
+        "times_made": 0,
+        "ratings": []
+      }
+    },
+    {
+      "id": "satay-beef-strips-coconut-rice-broccoli",
+      "name": "Satay Beef Strips with Coconut Rice & Charred Broccoli",
+      "cuisine": "Thai",
+      "meal_type": "dinner",
+      "added_date": "2026-11-15",
+      "source_account": "Above Kitch (Claude)",
+      "prep": "10 min",
+      "cook": "15 min",
+      "spice_level": "None (Austin adds chili)",
+      "tags": [
+        "claude-built",
+        "fall-2026",
+        "high-protein",
+        "portioned-2026-11-05-targets",
+        "thai",
+        "quick",
+        "no-spice"
+      ],
+      "macro_strings": {
+        "austin": "910 cal | 72g P | 38g F | 82g C",
+        "cameron": "615 cal | 50g P | 24g F | 52g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 910,
+          "p": 72,
+          "f": 38,
+          "c": 82
+        },
+        "cameron": {
+          "cal": 615,
+          "p": 50,
+          "f": 24,
+          "c": 52
+        }
+      },
+      "ingredients": [
+        {
+          "name": "ButcherBox beef strips, thawed",
+          "qty": "1 lb (Austin 9\u00bd oz \u00b7 Cameron 6\u00bd oz)"
+        },
+        {
+          "name": "Satay peanut glaze (component; 1 tsp curry paste only)",
+          "qty": "Austin 3 tbsp \u00b7 Cameron 2 tbsp"
+        },
+        {
+          "name": "Coconut rice (component)",
+          "qty": "Austin 1 cup \u00b7 Cameron \u2154 cup"
+        },
+        {
+          "name": "Broccoli, florets",
+          "qty": "1 head"
+        },
+        {
+          "name": "Fried egg",
+          "qty": "1 each"
+        },
+        {
+          "name": "Scallions",
+          "qty": "2"
+        },
+        {
+          "name": "Lime; chili/Calabrian on Austin's side",
+          "qty": ""
+        }
+      ],
+      "instructions": [
+        "Rice cooker: coconut rice (start first).",
+        "Whisk satay glaze.",
+        "Cast iron very hot: char broccoli 4 min, remove. Sear beef strips in 2 batches, 1\u20132 min each; toss with glaze off heat.",
+        "Fry eggs. Bowl rice, broccoli, beef, egg; scallion and lime."
+      ],
+      "cameron_note": "Mild glaze (1 tsp curry paste in the batch). Plates fine as a deconstructed plate, not a bowl, if she prefers.",
+      "batch_note": "Pull the beef strips Thursday morning.",
+      "components": [
+        "satay-peanut-glaze-rd135",
+        "coconut-rice-rd135"
+      ],
+      "history": {
+        "first_used": "2026-11-15",
+        "last_used": "2026-11-15",
+        "times_made": 0,
+        "ratings": []
+      }
+    },
+    {
+      "id": "smoked-ny-strip-cheddar-smashed-potatoes-apple-kale-slaw",
+      "name": "Reverse-Seared NY Strip, Cheddar Smashed Potatoes & Green Apple\u2013Kale Slaw",
+      "cuisine": "American BBQ",
+      "meal_type": "dinner",
+      "added_date": "2026-11-15",
+      "source_account": "Above Kitch (Claude)",
+      "prep": "10 min",
+      "cook": "1 hr (mostly passive)",
+      "spice_level": "None",
+      "tags": [
+        "claude-built",
+        "fall-2026",
+        "high-protein",
+        "portioned-2026-11-05-targets",
+        "american-bbq",
+        "smoker",
+        "weekend",
+        "no-spice"
+      ],
+      "macro_strings": {
+        "austin": "900 cal | 74g P | 46g F | 44g C",
+        "cameron": "620 cal | 50g P | 30g F | 34g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 900,
+          "p": 74,
+          "f": 46,
+          "c": 44
+        },
+        "cameron": {
+          "cal": 620,
+          "p": 50,
+          "f": 30,
+          "c": 34
+        }
+      },
+      "ingredients": [
+        {
+          "name": "NY strip steaks (thawed)",
+          "qty": "2 (~10 oz each)"
+        },
+        {
+          "name": "Yukon gold potatoes",
+          "qty": "1 lb"
+        },
+        {
+          "name": "Cheddar, shredded",
+          "qty": "1 oz"
+        },
+        {
+          "name": "Scallions",
+          "qty": "2"
+        },
+        {
+          "name": "Kale, shredded fine",
+          "qty": "3 cups"
+        },
+        {
+          "name": "Green apple, matchsticks",
+          "qty": "1"
+        },
+        {
+          "name": "Greek yogurt + 1 tbsp lemon + 1 tsp honey (slaw dressing)",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Salt, pepper, rosemary",
+          "qty": ""
+        }
+      ],
+      "instructions": [
+        "Salt the steaks in the morning. Smoker 225\u00b0F; steaks in until 120\u00b0F (~50 min).",
+        "Meanwhile boil potatoes 15 min, smash on a sheet pan, oil, roast 450\u00b0F 20 min; cheddar + scallion the last 2 min.",
+        "Slaw: toss kale, apple and dressing.",
+        "Sear steaks hard 1 min per side on cast iron or the Loco; rest 5 min, slice."
+      ],
+      "cameron_note": "About 6 oz steak, \u00bd cup potatoes, big slaw. Leftover steak \u2192 Austin's Sunday eggs.",
+      "batch_note": "Pull the NY strips Thursday night.",
+      "components": [],
+      "history": {
+        "first_used": "2026-11-15",
+        "last_used": "2026-11-15",
+        "times_made": 0,
+        "ratings": []
+      }
     }
   ]
 }

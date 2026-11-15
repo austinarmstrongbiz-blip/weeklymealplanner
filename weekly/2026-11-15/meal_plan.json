@@ -1,0 +1,970 @@
+{
+  "week_date": "2026-11-15",
+  "week_start": "November 15",
+  "week_end": "November 21, 2026",
+  "season": "Late Fall — Pittsburgh",
+  "city": "Pittsburgh, PA",
+  "source": "Week 2 of the Nov 8 cycle, rebuilt Sunday 1pm from the Nov 15 inventory walkthrough. Nothing from week 1 got cooked, so the thawed fridge proteins go first and three week-1 recipes come back. Four new dinners: kofta, spicy sausage ragù (Austin's hot marinara), satay beef and smoked NY strip.",
+  "cycle": {
+    "id": "2026-11-08",
+    "week": 2
+  },
+  "targets": {
+    "austin": "~1800 (1750–1900), 150g+. Workout days Mon + Wed (soccer): +300–400 cal at dinner.",
+    "cameron": "1200–1300, 90–100g. No spice."
+  },
+  "seasonal_heroes": [
+    "Kale",
+    "Yukon potatoes",
+    "Green apples",
+    "Broccoli",
+    "Lemons"
+  ],
+  "cuisine_rotation": [
+    "Greek",
+    "Japanese",
+    "French",
+    "Italian",
+    "Out",
+    "Thai",
+    "American BBQ"
+  ],
+  "eat_out": [
+    "Thursday dinner"
+  ],
+  "workout_days": [
+    "Monday",
+    "Wednesday"
+  ],
+  "restaurant_dropout": [
+    "creamy-gruyere-chicken-kale-rosemary-potatoes-rd136 (+ garlic béchamel, rosemary potatoes)",
+    "satay-peanut-glaze-rd135 + coconut-rice-rd135 → satay beef"
+  ],
+  "ingredient_overlap": "Cucumbers ×3 → tzatziki, Greek salad, lunch jars, tuna base, Mon salmon. Kale → lunch jars, Gruyère chicken, ragù, Sat slaw. Feta → kofta, salad, lunches, tuna. Coconut milk → coconut rice + satay glaze. Quinoa → Sun dinner + 3 lunches. Scallions → kofta, salmon, satay, potatoes. Green apples → Sat slaw + Thu–Sat tuna base.",
+  "flexible_order": "Tue chicken and Wed ragù can't slide later (thawed chicken; ragù is fine to Thu). Fri and Sat can swap if you start the smoker Friday.",
+  "assumptions": [
+    "Thawed salmon covers 8 oz Austin + 5 oz Cameron; if it's only 2 × 5 oz, Austin adds 2 eggs.",
+    "Flat iron pack ≈ 12 oz.",
+    "'Yonki' unidentified; not used."
+  ],
+  "days": [
+    {
+      "day": "Sunday",
+      "cuisine": "Greek",
+      "breakfast": {
+        "recipe_id": "house-breakfast-eggs-sourdough-leftover-protein",
+        "austin": {
+          "cal": 520,
+          "p": 44,
+          "f": 26,
+          "c": 26
+        },
+        "austin_note": "3 eggs, 1 slice sourdough, 3 oz leftover protein (or skip), hot sauce.",
+        "cameron": {
+          "cal": 355,
+          "p": 18,
+          "f": 22,
+          "c": 24
+        },
+        "cameron_note": "1 egg, sourdough, ½ avocado, ¼ cup cottage cheese."
+      },
+      "lunch": {
+        "recipe_id": "mediterranean-tuna-white-bean-crackers",
+        "austin": {
+          "cal": 440,
+          "p": 45,
+          "f": 17,
+          "c": 26
+        },
+        "cameron": {
+          "cal": 285,
+          "p": 30,
+          "f": 9,
+          "c": 18
+        },
+        "cameron_note": "1 can tuna + ½ cup base (cannellini, cucumber, feta, lemon) + 5 crackers.",
+        "austin_note": "1½ cans, ¾ cup base, 8 crackers."
+      },
+      "dinner": {
+        "recipe_id": "lamb-beef-kofta-tzatziki-quinoa-greek-salad",
+        "austin": {
+          "cal": 890,
+          "p": 70,
+          "f": 44,
+          "c": 52
+        },
+        "cameron": {
+          "cal": 620,
+          "p": 50,
+          "f": 30,
+          "c": 36
+        },
+        "cameron_note": "5 oz kofta, ½ cup quinoa, big salad, ⅓ cup tzatziki. No chili."
+      },
+      "note": "Prep day (~1h50 hands-on, start ~1:30pm). Dinner comes straight off the prep: kofta, tzatziki, quinoa.",
+      "austin_total": {
+        "cal": 1850,
+        "p": 159
+      },
+      "cameron_total": {
+        "cal": 1260,
+        "p": 98
+      }
+    },
+    {
+      "day": "Monday",
+      "cuisine": "Japanese",
+      "workout": true,
+      "breakfast": {
+        "recipe_id": "house-breakfast-eggs-sourdough-leftover-protein",
+        "austin": {
+          "cal": 520,
+          "p": 44,
+          "f": 26,
+          "c": 26
+        },
+        "austin_note": "3 eggs, 1 slice sourdough, 3 oz kofta, tzatziki.",
+        "cameron": {
+          "cal": 365,
+          "p": 22,
+          "f": 22,
+          "c": 20
+        },
+        "cameron_note": "Freezer breakfast burrito (from the Nov 8 bank): foil on, 375°F 20 min or microwave 2 min unwrapped."
+      },
+      "lunch": {
+        "recipe_id": "mediterranean-tuna-white-bean-crackers",
+        "austin": {
+          "cal": 440,
+          "p": 40,
+          "f": 20,
+          "c": 28
+        },
+        "cameron": {
+          "cal": 285,
+          "p": 30,
+          "f": 9,
+          "c": 18
+        },
+        "cameron_note": "1 can tuna + ½ cup base (cannellini, cucumber, feta, lemon) + 5 crackers.",
+        "austin_note": "Austin: flat iron quinoa jar (packed Sunday). Cameron: tuna kit.",
+        "austin_recipe_id": "flat-iron-quinoa-lunch-salad"
+      },
+      "dinner": {
+        "recipe_id": "miso-butter-salmon-rice-cucumber",
+        "austin": {
+          "cal": 1240,
+          "p": 84,
+          "f": 44,
+          "c": 130
+        },
+        "cameron": {
+          "cal": 620,
+          "p": 51,
+          "f": 20,
+          "c": 58
+        },
+        "austin_note": "8 oz salmon. Workout night: +1 cup rice and 2 fried eggs (+340 cal).",
+        "cameron_note": "5 oz salmon, ¾ cup rice, sesame cucumbers, ½ avocado."
+      },
+      "note": "Austin's big workout #1. Salmon was thawed Sunday, so it must be cooked tonight. 17 minutes in the air fryer; rice from Sunday.",
+      "austin_total": {
+        "cal": 2200,
+        "p": 168
+      },
+      "cameron_total": {
+        "cal": 1270,
+        "p": 103
+      }
+    },
+    {
+      "day": "Tuesday",
+      "cuisine": "French",
+      "breakfast": {
+        "recipe_id": "house-breakfast-eggs-sourdough-leftover-protein",
+        "austin": {
+          "cal": 520,
+          "p": 44,
+          "f": 26,
+          "c": 26
+        },
+        "austin_note": "3 eggs, 1 slice sourdough, 3 oz kofta, Calabrian chili.",
+        "cameron": {
+          "cal": 365,
+          "p": 22,
+          "f": 22,
+          "c": 20
+        },
+        "cameron_note": "Freezer breakfast burrito (from the Nov 8 bank): foil on, 375°F 20 min or microwave 2 min unwrapped."
+      },
+      "lunch": {
+        "recipe_id": "mediterranean-tuna-white-bean-crackers",
+        "austin": {
+          "cal": 440,
+          "p": 40,
+          "f": 20,
+          "c": 28
+        },
+        "cameron": {
+          "cal": 285,
+          "p": 30,
+          "f": 9,
+          "c": 18
+        },
+        "cameron_note": "1 can tuna + ½ cup base (cannellini, cucumber, feta, lemon) + 5 crackers.",
+        "austin_note": "Austin: flat iron quinoa jar (packed Sunday). Cameron: tuna kit.",
+        "austin_recipe_id": "flat-iron-quinoa-lunch-salad"
+      },
+      "dinner": {
+        "recipe_id": "creamy-gruyere-chicken-kale-rosemary-potatoes-rd136",
+        "austin": {
+          "cal": 880,
+          "p": 76,
+          "f": 42,
+          "c": 46
+        },
+        "cameron": {
+          "cal": 600,
+          "p": 50,
+          "f": 28,
+          "c": 34
+        },
+        "austin_note": "9 oz chicken cutlet, ¾ cup potatoes.",
+        "cameron_note": "6 oz cutlet, ½ cup potatoes, extra kale."
+      },
+      "note": "Last week's Restaurant Dropout Gruyère chicken, finally. Cutlets were sliced Sunday; potatoes roast while the béchamel comes together (~35 min).",
+      "austin_total": {
+        "cal": 1840,
+        "p": 160
+      },
+      "cameron_total": {
+        "cal": 1250,
+        "p": 102
+      }
+    },
+    {
+      "day": "Wednesday",
+      "cuisine": "Italian",
+      "workout": true,
+      "breakfast": {
+        "recipe_id": "house-breakfast-eggs-sourdough-leftover-protein",
+        "austin": {
+          "cal": 520,
+          "p": 44,
+          "f": 26,
+          "c": 26
+        },
+        "austin_note": "3 eggs, 1 slice sourdough, 3 oz flat iron, tzatziki.",
+        "cameron": {
+          "cal": 365,
+          "p": 22,
+          "f": 22,
+          "c": 20
+        },
+        "cameron_note": "Freezer breakfast burrito (from the Nov 8 bank): foil on, 375°F 20 min or microwave 2 min unwrapped."
+      },
+      "lunch": {
+        "recipe_id": "mediterranean-tuna-white-bean-crackers",
+        "austin": {
+          "cal": 440,
+          "p": 40,
+          "f": 20,
+          "c": 28
+        },
+        "cameron": {
+          "cal": 285,
+          "p": 30,
+          "f": 9,
+          "c": 18
+        },
+        "cameron_note": "1 can tuna + ½ cup base (cannellini, cucumber, feta, lemon) + 5 crackers.",
+        "austin_note": "Austin: flat iron quinoa jar (packed Sunday). Cameron: tuna kit.",
+        "austin_recipe_id": "flat-iron-quinoa-lunch-salad"
+      },
+      "dinner": {
+        "recipe_id": "spicy-sausage-ragu-banza",
+        "austin": {
+          "cal": 1250,
+          "p": 90,
+          "f": 44,
+          "c": 118
+        },
+        "cameron": {
+          "cal": 620,
+          "p": 50,
+          "f": 26,
+          "c": 46
+        },
+        "austin_note": "Soccer night: +1 oz pasta and a slice of garlic sourdough (+350 cal).",
+        "cameron_note": "1 cup ragù with 2 tbsp cream stirred in to mellow the hot marinara; 2 oz Banza."
+      },
+      "note": "Soccer. Reheat only: the ragù was made Sunday; boil pasta for 12 min.",
+      "austin_total": {
+        "cal": 2210,
+        "p": 174
+      },
+      "cameron_total": {
+        "cal": 1270,
+        "p": 102
+      }
+    },
+    {
+      "day": "Thursday",
+      "cuisine": "Out",
+      "eat_out": true,
+      "breakfast": {
+        "recipe_id": "house-breakfast-eggs-sourdough-leftover-protein",
+        "austin": {
+          "cal": 520,
+          "p": 44,
+          "f": 26,
+          "c": 26
+        },
+        "austin_note": "3 eggs, 1 slice sourdough, 3 oz leftover ragù meat or 2 extra eggs, hot sauce.",
+        "cameron": {
+          "cal": 365,
+          "p": 22,
+          "f": 22,
+          "c": 20
+        },
+        "cameron_note": "Freezer breakfast burrito (from the Nov 8 bank): foil on, 375°F 20 min or microwave 2 min unwrapped."
+      },
+      "lunch": {
+        "recipe_id": "mediterranean-tuna-white-bean-crackers",
+        "austin": {
+          "cal": 440,
+          "p": 45,
+          "f": 17,
+          "c": 26
+        },
+        "cameron": {
+          "cal": 285,
+          "p": 30,
+          "f": 9,
+          "c": 18
+        },
+        "cameron_note": "1 can tuna + ½ cup base (cannellini, cucumber, feta, lemon) + 5 crackers.",
+        "austin_note": "1½ cans, ¾ cup base, 8 crackers."
+      },
+      "dinner": {
+        "recipe_id": "no-cook-night",
+        "austin": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "cameron": {
+          "cal": 0,
+          "p": 0,
+          "f": 0,
+          "c": 0
+        },
+        "austin_note": "Out. Order protein-forward: you're ~85g in before dinner.",
+        "cameron_note": "Out."
+      },
+      "note": "Dinner out. Pull the beef strips (morning) and NY strips (tonight).",
+      "austin_total": {
+        "cal": 960,
+        "p": 89
+      },
+      "cameron_total": {
+        "cal": 650,
+        "p": 52
+      }
+    },
+    {
+      "day": "Friday",
+      "cuisine": "Thai",
+      "breakfast": {
+        "recipe_id": "house-breakfast-eggs-sourdough-leftover-protein",
+        "austin": {
+          "cal": 520,
+          "p": 44,
+          "f": 26,
+          "c": 26
+        },
+        "austin_note": "3 eggs, 1 slice sourdough, 3 oz 2 extra egg whites, Calabrian chili.",
+        "cameron": {
+          "cal": 365,
+          "p": 22,
+          "f": 22,
+          "c": 20
+        },
+        "cameron_note": "Freezer breakfast burrito (from the Nov 8 bank): foil on, 375°F 20 min or microwave 2 min unwrapped."
+      },
+      "lunch": {
+        "recipe_id": "mediterranean-tuna-white-bean-crackers",
+        "austin": {
+          "cal": 440,
+          "p": 45,
+          "f": 17,
+          "c": 26
+        },
+        "cameron": {
+          "cal": 285,
+          "p": 30,
+          "f": 9,
+          "c": 18
+        },
+        "cameron_note": "1 can tuna + ½ cup base (cannellini, cucumber, feta, lemon) + 5 crackers.",
+        "austin_note": "1½ cans, ¾ cup base, 8 crackers."
+      },
+      "dinner": {
+        "recipe_id": "satay-beef-strips-coconut-rice-broccoli",
+        "austin": {
+          "cal": 910,
+          "p": 72,
+          "f": 38,
+          "c": 82
+        },
+        "cameron": {
+          "cal": 615,
+          "p": 50,
+          "f": 24,
+          "c": 52
+        },
+        "cameron_note": "6½ oz beef, ⅔ cup coconut rice, broccoli, fried egg. Mild glaze; no chili."
+      },
+      "note": "25 min: rice cooker first, glaze while it cooks, beef sears in 4 minutes.",
+      "austin_total": {
+        "cal": 1870,
+        "p": 161
+      },
+      "cameron_total": {
+        "cal": 1265,
+        "p": 102
+      }
+    },
+    {
+      "day": "Saturday",
+      "cuisine": "American BBQ",
+      "breakfast": {
+        "recipe_id": "house-breakfast-eggs-sourdough-leftover-protein",
+        "austin": {
+          "cal": 520,
+          "p": 44,
+          "f": 26,
+          "c": 26
+        },
+        "austin_note": "3 eggs, 1 slice sourdough, 3 oz leftover satay beef, hot sauce.",
+        "cameron": {
+          "cal": 365,
+          "p": 22,
+          "f": 22,
+          "c": 20
+        },
+        "cameron_note": "Freezer breakfast burrito (from the Nov 8 bank): foil on, 375°F 20 min or microwave 2 min unwrapped."
+      },
+      "lunch": {
+        "recipe_id": "mediterranean-tuna-white-bean-crackers",
+        "austin": {
+          "cal": 440,
+          "p": 45,
+          "f": 17,
+          "c": 26
+        },
+        "cameron": {
+          "cal": 285,
+          "p": 30,
+          "f": 9,
+          "c": 18
+        },
+        "cameron_note": "1 can tuna + ½ cup base (cannellini, cucumber, feta, lemon) + 5 crackers.",
+        "austin_note": "1½ cans, ¾ cup base, 8 crackers."
+      },
+      "dinner": {
+        "recipe_id": "smoked-ny-strip-cheddar-smashed-potatoes-apple-kale-slaw",
+        "austin": {
+          "cal": 900,
+          "p": 74,
+          "f": 46,
+          "c": 44
+        },
+        "cameron": {
+          "cal": 620,
+          "p": 50,
+          "f": 30,
+          "c": 34
+        },
+        "cameron_note": "~6 oz steak, ½ cup potatoes, big slaw."
+      },
+      "note": "Smoker night. Salt the steaks in the morning; smoker on at 4:30pm.",
+      "austin_total": {
+        "cal": 1860,
+        "p": 163
+      },
+      "cameron_total": {
+        "cal": 1270,
+        "p": 102
+      }
+    }
+  ],
+  "prep": {
+    "cycle_note": "Cycle Nov 8 → 21, week 2 of 2 (refresh week). Week 1's dinners were never cooked, so this week cooks the thawed fridge proteins first (salmon, lamb, chicken, flat iron, sausage) and brings back three week-1 recipes (miso salmon, Gruyère chicken, tuna kits). Plan landed Sunday at 1pm, so the Friday-night thaw is already done (everything was thawed). Sunday prep ~1h50 hands-on. Freezer bank going into the Nov 22 cycle: ~3 portions spicy ragù, kofta extras, ribeye, 4 sausage links, ~3 lb wings, tilapia, 2 chicken thighs, 1 flat iron.",
+    "start_time": "Sun 1:30pm",
+    "sunday_hands_on": "~1h50",
+    "phases": [
+      {
+        "key": "thaw",
+        "items": [
+          {
+            "id": "thaw-fridge-batch",
+            "name": "Already thawed in the fridge: salmon, ground lamb, 2 chicken breasts, flat iron, 2 sausage links",
+            "when": "Done (thawed by Sun)",
+            "why": "These set the order: salmon Mon, lamb Sun, chicken Tue, flat iron Sun sear, sausage into Sunday's ragù."
+          },
+          {
+            "id": "thaw-beef",
+            "name": "Ground beef 2 × 1 lb (sealed) → cold-water bath",
+            "when": "Sun 1:30pm",
+            "time": "30–40 min",
+            "passive": true,
+            "why": "No Friday pull this week. Change the water once; it's ready by the time you need it.",
+            "feeds": [
+              {
+                "recipe_id": "lamb-beef-kofta-tzatziki-quinoa-greek-salad",
+                "when": "Sun kofta (1 lb)"
+              },
+              {
+                "recipe_id": "spicy-sausage-ragu-banza",
+                "when": "Wed ragù (1 lb)"
+              }
+            ]
+          },
+          {
+            "id": "thaw-strips",
+            "name": "ButcherBox beef strips (1 lb) → fridge",
+            "when": "Thu morning",
+            "day": "Thursday",
+            "feeds": [
+              {
+                "recipe_id": "satay-beef-strips-coconut-rice-broccoli",
+                "when": "Fri dinner"
+              }
+            ]
+          },
+          {
+            "id": "thaw-nystrip",
+            "name": "NY strip steaks ×2 → fridge",
+            "when": "Thu night",
+            "day": "Thursday",
+            "feeds": [
+              {
+                "recipe_id": "smoked-ny-strip-cheddar-smashed-potatoes-apple-kale-slaw",
+                "when": "Sat dinner"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "start",
+        "items": [
+          {
+            "id": "st-rice",
+            "name": "Rice cooker: jasmine rice",
+            "qty": "1½ cups dry",
+            "time": "2 min",
+            "passive": true,
+            "storage": "fridge",
+            "keeps": "4 days",
+            "label": "Jasmine rice · Miso salmon (Mon)",
+            "feeds": [
+              {
+                "recipe_id": "miso-butter-salmon-rice-cucumber",
+                "when": "Mon dinner"
+              }
+            ]
+          },
+          {
+            "id": "st-quinoa",
+            "name": "Quinoa on the stove (1½ cups dry + 2¾ cups water, 15 min + 5 rest)",
+            "time": "2 min",
+            "passive": true,
+            "storage": "fridge",
+            "keeps": "5 days",
+            "label": "Quinoa · Kofta (Sun) + steak lunch jars (Mon–Wed)",
+            "feeds": [
+              {
+                "recipe_id": "lamb-beef-kofta-tzatziki-quinoa-greek-salad",
+                "when": "Sun dinner"
+              },
+              {
+                "recipe_id": "flat-iron-quinoa-lunch-salad",
+                "when": "Mon–Wed lunch"
+              }
+            ]
+          },
+          {
+            "id": "st-oven",
+            "name": "Oven to 425°F (kofta, then chickpeas)",
+            "time": "1 min",
+            "passive": true
+          }
+        ]
+      },
+      {
+        "key": "knife",
+        "items": [
+          {
+            "id": "k-cuke",
+            "name": "Cucumbers",
+            "qty": "3",
+            "cut": "1 grated (tzatziki) · 1 diced (Greek salad + lunches) · 1 left whole for Mon",
+            "storage": "fridge",
+            "keeps": "4 days",
+            "use_by": "Thu",
+            "label": "Diced cucumber · Greek salad (Sun) + lunch jars + tuna base (Mon–Wed)",
+            "feeds": [
+              {
+                "recipe_id": "lamb-beef-kofta-tzatziki-quinoa-greek-salad",
+                "when": "Sun"
+              },
+              {
+                "recipe_id": "flat-iron-quinoa-lunch-salad",
+                "when": "Mon–Wed"
+              },
+              {
+                "recipe_id": "mediterranean-tuna-white-bean-crackers",
+                "when": "Mon–Wed"
+              }
+            ]
+          },
+          {
+            "id": "k-tomato",
+            "name": "Tomatoes",
+            "qty": "3",
+            "cut": "½-inch dice",
+            "storage": "fridge",
+            "keeps": "3 days",
+            "use_by": "Wed",
+            "label": "Diced tomato · Greek salad (Sun) + lunch jars (Mon–Wed)",
+            "feeds": [
+              {
+                "recipe_id": "lamb-beef-kofta-tzatziki-quinoa-greek-salad",
+                "when": "Sun"
+              },
+              {
+                "recipe_id": "flat-iron-quinoa-lunch-salad",
+                "when": "Mon–Wed"
+              }
+            ]
+          },
+          {
+            "id": "k-alliums",
+            "name": "Scallions, chives, garlic",
+            "qty": "1 bunch · 1 pack · 12 cloves",
+            "cut": "scallions minced (4 for kofta) + sliced greens · chives minced · garlic grated/sliced",
+            "storage": "fridge",
+            "keeps": "5 days",
+            "label": "Scallion/chive · Kofta, tzatziki, salmon (Mon), satay (Fri)"
+          },
+          {
+            "id": "k-kale",
+            "name": "Kale (half the bunch)",
+            "qty": "½ bunch",
+            "cut": "stems out, shredded thin, massaged with lemon + salt",
+            "storage": "fridge, paper towel",
+            "keeps": "5 days",
+            "use_by": "Fri",
+            "label": "Shredded kale · Lunch jars (Mon–Wed) + Gruyère chicken (Tue)",
+            "why": "Kale is the one green that holds cut. The other half stays whole for Wed ragù + Sat slaw.",
+            "feeds": [
+              {
+                "recipe_id": "flat-iron-quinoa-lunch-salad",
+                "when": "Mon–Wed"
+              },
+              {
+                "recipe_id": "creamy-gruyere-chicken-kale-rosemary-potatoes-rd136",
+                "when": "Tue"
+              }
+            ]
+          },
+          {
+            "id": "k-chicken",
+            "name": "Chicken breasts → cutlets",
+            "qty": "2",
+            "cut": "halve horizontally, salt, back in the fridge raw",
+            "storage": "fridge",
+            "keeps": "Cook Tue",
+            "use_by": "Tue",
+            "label": "Raw chicken cutlets (salted) · Gruyère chicken (Tue)",
+            "feeds": [
+              {
+                "recipe_id": "creamy-gruyere-chicken-kale-rosemary-potatoes-rd136",
+                "when": "Tue dinner"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "sauces",
+        "items": [
+          {
+            "id": "s-tzatziki",
+            "name": "Tzatziki",
+            "time": "8 min",
+            "component_id": "tzatziki-component",
+            "storage": "fridge",
+            "keeps": "5 days",
+            "label": "Tzatziki · Kofta (Sun) + Austin's eggs (Mon, Wed)",
+            "feeds": [
+              {
+                "recipe_id": "lamb-beef-kofta-tzatziki-quinoa-greek-salad",
+                "when": "Sun"
+              },
+              {
+                "recipe_id": "house-breakfast-eggs-sourdough-leftover-protein",
+                "when": "Mon, Wed breakfast"
+              }
+            ]
+          },
+          {
+            "id": "s-tahini",
+            "name": "Lemon-tahini dressing (portion into 3 small jars)",
+            "time": "5 min",
+            "component_id": "lemon-tahini-dressing",
+            "storage": "fridge",
+            "keeps": "7 days",
+            "freeze": "Freezes fine; make 2x and freeze a jar for next cycle if you like.",
+            "label": "Lemon-tahini · Steak lunch jars (Mon–Wed)",
+            "feeds": [
+              {
+                "recipe_id": "flat-iron-quinoa-lunch-salad",
+                "when": "Mon–Wed"
+              }
+            ]
+          },
+          {
+            "id": "s-miso",
+            "name": "Miso-honey butter",
+            "time": "2 min",
+            "component_id": "miso-honey-butter",
+            "storage": "fridge",
+            "keeps": "2 weeks",
+            "label": "Miso butter · Salmon (Mon)",
+            "feeds": [
+              {
+                "recipe_id": "miso-butter-salmon-rice-cucumber",
+                "when": "Mon dinner"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "proteins",
+        "items": [
+          {
+            "id": "p-ragu",
+            "name": "Spicy sausage & beef ragù: brown, add hot marinara, simmer 40 min",
+            "time": "10 min + 40 passive",
+            "passive": true,
+            "thaw_ref": "thaw-beef",
+            "component_id": "spicy-sausage-beef-ragu",
+            "storage": "fridge 2 · freezer rest",
+            "keeps": "4 days",
+            "freeze": "Freeze 2–3 portions flat in quart bags for the Nov 22 cycle.",
+            "label": "Spicy ragù · Sausage pasta (Wed)",
+            "why": "Start it as soon as the beef is thawed. It simmers while you do everything else.",
+            "feeds": [
+              {
+                "recipe_id": "spicy-sausage-ragu-banza",
+                "when": "Wed dinner"
+              }
+            ]
+          },
+          {
+            "id": "p-kofta",
+            "name": "Lamb & beef kofta ×16, sheet pan 425°F 15–18 min",
+            "time": "15 min + 18 roast",
+            "thaw_ref": "thaw-fridge-batch",
+            "component_id": "lamb-beef-kofta-component",
+            "storage": "fridge (Sun–Tue) · freezer (extras)",
+            "keeps": "4 days",
+            "freeze": "Freeze any not eaten by Tue (Austin's breakfasts next cycle).",
+            "label": "Kofta · Dinner (Sun) + Austin's eggs (Mon–Tue)",
+            "feeds": [
+              {
+                "recipe_id": "lamb-beef-kofta-tzatziki-quinoa-greek-salad",
+                "when": "Sun dinner"
+              },
+              {
+                "recipe_id": "house-breakfast-eggs-sourdough-leftover-protein",
+                "when": "Mon–Tue breakfast"
+              }
+            ]
+          },
+          {
+            "id": "p-flatiron",
+            "name": "Sear the flat iron in cast iron to 130°F, rest, slice thin",
+            "time": "12 min",
+            "thaw_ref": "thaw-fridge-batch",
+            "component_id": "seared-sliced-flat-iron",
+            "storage": "fridge",
+            "keeps": "4 days",
+            "label": "Sliced flat iron · Austin lunch jars (Mon–Wed) + eggs (Wed)",
+            "feeds": [
+              {
+                "recipe_id": "flat-iron-quinoa-lunch-salad",
+                "when": "Mon–Wed lunch"
+              },
+              {
+                "recipe_id": "house-breakfast-eggs-sourdough-leftover-protein",
+                "when": "Wed breakfast"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "grains",
+        "items": [
+          {
+            "id": "g-quinoa",
+            "name": "Fluff and cool the quinoa; split 1 cup for tonight, rest for lunch jars",
+            "time": "2 min",
+            "label": "Quinoa · Kofta (Sun) + lunch jars"
+          },
+          {
+            "id": "g-rice",
+            "name": "Cool the jasmine rice on a sheet pan, then container",
+            "time": "2 min",
+            "label": "Jasmine rice · Salmon (Mon)"
+          }
+        ]
+      },
+      {
+        "key": "crunch",
+        "items": [
+          {
+            "id": "c-chickpeas",
+            "name": "Crispy chickpeas (1 can garbanzo, dried, oil, salt, oregano; air fryer 400°F 15 min)",
+            "time": "3 min + 15 passive",
+            "passive": true,
+            "storage": "pantry jar, lid ajar",
+            "keeps": "4 days",
+            "label": "Crispy chickpeas · Greek salad (Sun) + lunch jars",
+            "why": "Replaces the pickled onion this week: zero shopping, uses the basement garbanzos."
+          }
+        ]
+      },
+      {
+        "key": "pack",
+        "items": [
+          {
+            "id": "pk-steak",
+            "name": "Austin lunch jars ×3: quinoa, kale, cucumber/tomato, steak, feta; dressing + chickpeas on the side",
+            "time": "8 min",
+            "label": "Austin lunch (Mon/Tue/Wed)",
+            "feeds": [
+              {
+                "recipe_id": "flat-iron-quinoa-lunch-salad",
+                "when": "Mon–Wed"
+              }
+            ]
+          },
+          {
+            "id": "pk-tuna",
+            "name": "Tuna base (1 can cannellini, diced cucumber, feta, lemon, olive oil, oregano) + stack 3 tuna cans; crackers go in after Monday's shop",
+            "time": "6 min",
+            "label": "Cameron lunch kit (Mon/Tue/Wed)",
+            "feeds": [
+              {
+                "recipe_id": "mediterranean-tuna-white-bean-crackers",
+                "when": "Mon–Wed"
+              }
+            ]
+          },
+          {
+            "id": "pk-ragu",
+            "name": "Cool the ragù: 2 portions to fridge (Wed), rest flat in freezer bags",
+            "time": "4 min",
+            "label": "Ragù · Wed dinner / FREEZER BANK"
+          }
+        ]
+      },
+      {
+        "key": "midcycle",
+        "title": "Weeknight get-ahead",
+        "items": [
+          {
+            "id": "m-mon",
+            "name": "Quick shop (10 items, see grocery list), then salmon: miso butter on, air fry 400°F 9 min",
+            "day": "Monday",
+            "time": "20 min",
+            "component_id": "miso-honey-butter",
+            "feeds": [
+              {
+                "recipe_id": "miso-butter-salmon-rice-cucumber",
+                "when": "Mon dinner"
+              }
+            ]
+          },
+          {
+            "id": "m-tue",
+            "name": "Gruyère chicken: rosemary potatoes in at 425°F first, then garlic béchamel + cutlets",
+            "day": "Tuesday",
+            "time": "35 min",
+            "component_id": "garlic-bechamel-rd136",
+            "feeds": [
+              {
+                "recipe_id": "creamy-gruyere-chicken-kale-rosemary-potatoes-rd136",
+                "when": "Tue dinner"
+              }
+            ]
+          },
+          {
+            "id": "m-wed",
+            "name": "Fresh tuna base for Thu–Sat: second can of cannellini, celery + diced green apple (cucumbers are used up), feta, lemon",
+            "day": "Wednesday",
+            "time": "5 min",
+            "feeds": [
+              {
+                "recipe_id": "mediterranean-tuna-white-bean-crackers",
+                "when": "Thu–Sat"
+              }
+            ]
+          },
+          {
+            "id": "m-thu",
+            "name": "Pull beef strips (morning) and NY strips (night) to the fridge",
+            "day": "Thursday",
+            "time": "1 min",
+            "thaw_ref": "thaw-strips"
+          },
+          {
+            "id": "m-fri",
+            "name": "Satay beef: coconut rice in the rice cooker, whisk satay glaze, char broccoli, sear strips",
+            "day": "Friday",
+            "time": "25 min",
+            "component_id": "satay-peanut-glaze-rd135",
+            "thaw_ref": "thaw-strips",
+            "freeze": "Freeze half the satay glaze for next cycle.",
+            "feeds": [
+              {
+                "recipe_id": "satay-beef-strips-coconut-rice-broccoli",
+                "when": "Fri dinner"
+              }
+            ]
+          },
+          {
+            "id": "m-sat",
+            "name": "Salt NY strips in the morning; smoker 225°F at 4:30pm",
+            "day": "Saturday",
+            "time": "10 min",
+            "thaw_ref": "thaw-nystrip",
+            "feeds": [
+              {
+                "recipe_id": "smoked-ny-strip-cheddar-smashed-potatoes-apple-kale-slaw",
+                "when": "Sat dinner"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

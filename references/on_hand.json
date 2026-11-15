@@ -24,7 +24,8 @@
       "storage": "fridge",
       "thawed_by": "2026-11-15",
       "use_by": "2026-11-17",
-      "note": "Cook by Tue Nov 17."
+      "note": "Cook by Tue Nov 17.",
+      "reserved_for": "Nov 15 plan: Gruyère chicken (Tue)"
     },
     {
       "id": "th-ground-lamb",
@@ -40,7 +41,8 @@
         "keftedes",
         "lamb ragu"
       ],
-      "note": "Ground meat: cook within 1–2 days of thawing."
+      "note": "Ground meat: cook within 1–2 days of thawing.",
+      "reserved_for": "Nov 15 plan: kofta (Sun prep)"
     },
     {
       "id": "th-steak",
@@ -51,7 +53,8 @@
       "storage": "fridge",
       "thawed_by": "2026-11-15",
       "use_by": "2026-11-18",
-      "note": "Probably one of the Nov ButcherBox flat irons. Cook by Wed."
+      "note": "Probably one of the Nov ButcherBox flat irons. Cook by Wed.",
+      "reserved_for": "Nov 15 plan: seared Sunday → Austin lunch jars Mon–Wed"
     },
     {
       "id": "th-italian-sausage",
@@ -65,7 +68,8 @@
       "good_for": [
         "spicy marinara pasta",
         "sausage and kale soup"
-      ]
+      ],
+      "reserved_for": "Nov 15 plan: spicy ragù (Sun prep → Wed)"
     },
     {
       "id": "th-salmon",
@@ -76,7 +80,8 @@
       "storage": "fridge",
       "thawed_by": "2026-11-15",
       "use_by": "2026-11-16",
-      "note": "Fish: cook within 1–2 days. Sun or Mon dinner."
+      "note": "Fish: cook within 1–2 days. Sun or Mon dinner.",
+      "reserved_for": "Nov 15 plan: miso salmon (Mon)"
     }
   ],
   "freezer": [
@@ -103,7 +108,8 @@
         "stuffed peppers",
         "Korean beef bowls"
       ],
-      "source_verified": "voice inventory 2026-11-15"
+      "source_verified": "voice inventory 2026-11-15",
+      "reserved_for": "Nov 15 plan: all 2 lb → 1 lb kofta + 1 lb ragù (cold-water thaw Sun)"
     },
     {
       "id": "bb-flat-iron",
@@ -147,7 +153,8 @@
         "sliced over a shared salad"
       ],
       "notes": "Fattiest cut in the box. Best as a split 'treat' dinner (two portions sliced), not an everyday macro protein.",
-      "source_verified": "voice inventory 2026-11-15"
+      "source_verified": "voice inventory 2026-11-15",
+      "reserved_for": "Free for the Nov 22 cycle"
     },
     {
       "id": "frz-ny-strip",
@@ -160,7 +167,8 @@
         "reverse sear on the smoker",
         "steak salad",
         "sliced steak for breakfast"
-      ]
+      ],
+      "reserved_for": "Nov 15 plan: smoker night (Sat); pull Thu night"
     },
     {
       "id": "bb-steak-strips",
@@ -183,7 +191,8 @@
         "bulgogi"
       ],
       "notes": "Pre-cut, so it's the fastest weeknight protein. Marinate straight from thawed.",
-      "source_verified": "voice inventory 2026-11-15"
+      "source_verified": "voice inventory 2026-11-15",
+      "reserved_for": "Nov 15 plan: satay beef (Fri); pull Thu morning"
     },
     {
       "id": "bb-chicken-wings",
@@ -206,7 +215,8 @@
         "wing stock from the tips"
       ],
       "notes": "Low protein per calorie (lots of bone and skin). Use as a fun dinner paired with a big high-protein side, or as a game-day meal. Save the tips in a freezer bag for stock.",
-      "source_verified": "voice inventory 2026-11-15"
+      "source_verified": "voice inventory 2026-11-15",
+      "reserved_for": "Free for the Nov 22 cycle / game day"
     },
     {
       "id": "bb-italian-sausage",
@@ -229,7 +239,8 @@
         "breakfast hash"
       ],
       "notes": "Higher fat, so treat it as a flavor base, not the main protein. 1 lb of sausage stretched with beans or greens feeds four portions. Pair with chicken or turkey to hit protein.",
-      "source_verified": "voice inventory 2026-11-15"
+      "source_verified": "voice inventory 2026-11-15",
+      "reserved_for": "2 thawed links → ragù; 4 frozen links free for Nov 22 cycle"
     },
     {
       "id": "frz-tilapia",
@@ -245,7 +256,8 @@
         "crispy tilapia orzo"
       ],
       "note": "Biggest protein backlog here. Use 2–3 meals this cycle. 4 oz = Cameron dinner portion; Austin needs 2 fillets.",
-      "source_verified": "voice inventory 2026-11-15"
+      "source_verified": "voice inventory 2026-11-15",
+      "reserved_for": "Free for the Nov 22 cycle (Cameron dinners)"
     },
     {
       "id": "frz-chicken-thighs-bonein",
@@ -384,10 +396,11 @@
     {
       "id": "frz-bank-burritos",
       "name": "Freezer bank: breakfast burritos (Nov 8)",
-      "qty": "up to 6 (unconfirmed)",
+      "qty": "6",
       "source": "voice inventory 2026-11-15",
-      "status": "unconfirmed",
-      "note": "Week 1 planned to bank these. Confirm whether they were made."
+      "status": "on_hand",
+      "note": "Confirmed made (Nov 15).",
+      "reserved_for": "Nov 15 plan: Cameron breakfasts Mon–Sat (all 6)"
     }
   ],
   "fridge": [
@@ -410,7 +423,8 @@
       "name": "Nonfat Greek yogurt (plain)",
       "qty": "some",
       "source": "voice inventory 2026-11-15",
-      "status": "on_hand"
+      "status": "on_hand",
+      "reserved_for": "Nov 15 plan: tzatziki + slaw dressing"
     },
     {
       "id": "fr-cottage-cheese",
@@ -424,7 +438,8 @@
       "name": "Heavy cream",
       "qty": "some",
       "source": "voice inventory 2026-11-15",
-      "status": "on_hand"
+      "status": "on_hand",
+      "reserved_for": "Nov 15 plan: béchamel (Tue) + Cameron ragù"
     },
     {
       "id": "fr-feta",
@@ -437,14 +452,16 @@
         "frittata cups",
         "salads"
       ],
-      "source_verified": "voice inventory 2026-11-15"
+      "source_verified": "voice inventory 2026-11-15",
+      "reserved_for": "Nov 15 plan: kofta, salad, lunches, tuna"
     },
     {
       "id": "fr-gruyere",
       "name": "Gruyère",
       "qty": "1 piece (left from the Nov 8 Gruyère chicken plan)",
       "source": "voice inventory 2026-11-15",
-      "status": "on_hand"
+      "status": "on_hand",
+      "reserved_for": "Nov 15 plan: Gruyère chicken (Tue)"
     },
     {
       "id": "fr-tomatoes",
@@ -496,7 +513,8 @@
       "qty": "a bunch",
       "source": "voice inventory 2026-11-15",
       "status": "on_hand",
-      "use_window": "late"
+      "use_window": "late",
+      "reserved_for": "Nov 15 plan: Sat slaw + Thu–Sat tuna base"
     },
     {
       "id": "fr-avocado",
@@ -520,7 +538,8 @@
       "qty": "1 big bunch",
       "source": "voice inventory 2026-11-15",
       "status": "on_hand",
-      "use_window": "mid"
+      "use_window": "mid",
+      "reserved_for": "Nov 15 plan: lunches, Gruyère chicken, ragù, Sat slaw"
     },
     {
       "id": "fr-cucumbers",
@@ -528,7 +547,8 @@
       "qty": "3",
       "source": "voice inventory 2026-11-15",
       "status": "on_hand",
-      "use_window": "early"
+      "use_window": "early",
+      "reserved_for": "Nov 15 plan: tzatziki, Greek salad, lunches, Mon salmon"
     },
     {
       "id": "fr-scallions",
@@ -594,37 +614,36 @@
       "name": "Cheddar",
       "qty": "1 large block",
       "source": "voice pantry log 2026-11-05",
-      "status": "unconfirmed",
-      "note_2026_11_15": "Not mentioned in the Nov 15 walkthrough. Confirm before planning around it."
+      "status": "on_hand",
+      "reserved_for": "Nov 15 plan: Sat smashed potatoes"
     },
     {
       "id": "fr-miso",
       "name": "White miso",
       "qty": "partial tub",
       "source": "voice pantry log 2026-11-05",
-      "status": "unconfirmed",
+      "status": "on_hand",
       "keeps": "months",
-      "note_2026_11_15": "Not mentioned in the Nov 15 walkthrough. Confirm before planning around it."
+      "reserved_for": "Nov 15 plan: miso salmon (Mon)"
     },
     {
       "id": "fr-gnocchi",
       "name": "Potato gnocchi",
       "qty": "1 package",
       "source": "voice pantry log 2026-11-05",
-      "status": "unconfirmed",
+      "status": "on_hand",
       "good_for": [
         "sheet-pan gnocchi",
         "gnocchi soup"
-      ],
-      "note_2026_11_15": "Not mentioned in the Nov 15 walkthrough. Confirm before planning around it."
+      ]
     },
     {
       "id": "fr-tahini",
       "name": "Tahini",
       "qty": "jar",
       "source": "voice pantry log 2026-11-05",
-      "status": "unconfirmed",
-      "note_2026_11_15": "Not mentioned in the Nov 15 walkthrough. Confirm before planning around it."
+      "status": "on_hand",
+      "reserved_for": "Nov 15 plan: lemon-tahini dressing"
     }
   ],
   "pantry_extras": [
@@ -639,14 +658,16 @@
         "Mediterranean tuna white bean salad",
         "poke-style rice bowl"
       ],
-      "source_verified": "voice inventory 2026-11-15"
+      "source_verified": "voice inventory 2026-11-15",
+      "reserved_for": "Nov 15 plan: tuna lunch kits (+6 bought)"
     },
     {
       "id": "pa-coconut-milk",
       "name": "Coconut milk, organic unsweetened",
       "qty": "2 cans",
       "source": "voice inventory 2026-11-15",
-      "status": "on_hand"
+      "status": "on_hand",
+      "reserved_for": "Nov 15 plan: coconut rice + satay glaze (Fri)"
     },
     {
       "id": "pa-chicken-stock",
@@ -677,7 +698,8 @@
       "qty": "1+ can",
       "source": "voice inventory 2026-11-15",
       "status": "on_hand",
-      "location": "basement"
+      "location": "basement",
+      "reserved_for": "Nov 15 plan: crispy chickpeas"
     },
     {
       "id": "pa-pasta-bags",
@@ -726,7 +748,8 @@
       "qty": "1 box",
       "source": "voice pantry log 2026-11-05",
       "status": "on_hand",
-      "source_verified": "voice inventory 2026-11-15"
+      "source_verified": "voice inventory 2026-11-15",
+      "reserved_for": "Nov 15 plan: Wed ragù"
     },
     {
       "id": "pa-quinoa",
@@ -734,7 +757,8 @@
       "qty": "2–3 servings",
       "source": "voice pantry log 2026-11-05",
       "status": "on_hand",
-      "source_verified": "voice inventory 2026-11-15"
+      "source_verified": "voice inventory 2026-11-15",
+      "reserved_for": "Nov 15 plan: kofta dinner + lunch jars"
     },
     {
       "id": "pa-black-beans",
@@ -758,7 +782,8 @@
       "qty": "1 can",
       "source": "voice pantry log 2026-11-05",
       "status": "on_hand",
-      "source_verified": "voice inventory 2026-11-15"
+      "source_verified": "voice inventory 2026-11-15",
+      "reserved_for": "Nov 15 plan: tuna base"
     },
     {
       "id": "pa-sushi-rice",
@@ -775,7 +800,8 @@
       "source": "voice pantry log 2026-11-05",
       "status": "on_hand",
       "note": "Austin wants to use this this week.",
-      "source_verified": "voice inventory 2026-11-15"
+      "source_verified": "voice inventory 2026-11-15",
+      "reserved_for": "Nov 15 plan: spicy ragù"
     },
     {
       "id": "pa-ditalini",

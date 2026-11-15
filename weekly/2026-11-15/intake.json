@@ -1,0 +1,40 @@
+{
+  "week_date": "2026-11-15",
+  "completed_at": "2026-11-15T18:00:00Z",
+  "eat_out_nights": [
+    "Thursday"
+  ],
+  "workout_days": [
+    "Monday",
+    "Wednesday"
+  ],
+  "last_week_feedback": {
+    "repeat": [],
+    "avoid": [],
+    "notes": "Nothing from the Nov 8 plan was cooked; Cameron built her own meals from the ingredients. Fine to reuse last week's recipes."
+  },
+  "cravings": "None. Yes to a spicy marinara pasta night with the sausage.",
+  "protein_rotation": {
+    "increase": [],
+    "reduce": [],
+    "notes": "No change. Use the thawed fridge proteins first."
+  },
+  "prep_availability": "full",
+  "prep_day": "Sunday (today, from ~1pm), max 2 hours in the kitchen",
+  "plan_start": "Sunday 2026-11-15 (tonight)",
+  "cameron_notes": "Nothing new. Standing: no spice, easy grab-and-go, Mediterranean/Asian, not Mexican or bowls.",
+  "travel": "None.",
+  "inventory_answers": {
+    "thawed_steak": "flat iron",
+    "breakfast_burritos": "made (6 in freezer)",
+    "still_have": [
+      "miso",
+      "tahini",
+      "gnocchi",
+      "cheddar"
+    ],
+    "yonki": "not answered"
+  },
+  "cameron_answers": "None.",
+  "generated_by": "claude (chat session, Nov 15)"
+}
