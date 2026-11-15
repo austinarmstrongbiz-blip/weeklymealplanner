@@ -30307,6 +30307,1174 @@
         "times_made": 0,
         "ratings": []
       }
+    },
+    {
+      "id": "baked-crab-mac-and-cheese-rd139",
+      "name": "Baked Crab Mac and Cheese",
+      "cuisine": "American",
+      "meal_type": "dinner",
+      "prep": "10 min (b\u00e9chamel made ahead)",
+      "cook": "20 min",
+      "total": "30 min",
+      "spice_level": "Mild (smoked paprika); Austin can add cayenne or hot sauce",
+      "serving_note": "Source pan (8 oz pasta, 2 cups b\u00e9chamel, 4 cheeses, 8 oz crab) is ~2,550 cal, about 645 cal and 40g P per quarter. Austin gets about 30% of the pan plus 5 oz extra crab; Cameron about 20% plus 4 oz extra crab; the rest is leftovers. Dinner type is a call: the source is a holiday side-or-main. Macros are estimates.",
+      "tags": [
+        "baked",
+        "crab",
+        "fall-2026",
+        "fall-dinners",
+        "high-protein",
+        "holiday",
+        "imported",
+        "nov-2026",
+        "pasta",
+        "rd-week-139",
+        "restaurant-dropout",
+        "seafood"
+      ],
+      "equipment": "Large saucepan, small baking dish, Breville Smart Oven Pro (bake and broil)",
+      "source": "Adapted from Restaurant Dropout Week 139 Holiday Menu",
+      "macro_strings": {
+        "austin": "900 cal | 74g P | 37g F | 65g C",
+        "cameron": "615 cal | 52g P | 24g F | 44g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 900,
+          "p": 74,
+          "f": 37,
+          "c": 65
+        },
+        "cameron": {
+          "cal": 615,
+          "p": 52,
+          "f": 24,
+          "c": 44
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Kosher salt",
+          "qty": "to taste"
+        },
+        {
+          "name": "Shells or conchiglie pasta",
+          "qty": "8 oz"
+        },
+        {
+          "name": "B\u00e9chamel (component)",
+          "qty": "2 cups"
+        },
+        {
+          "name": "Shredded aged Gouda",
+          "qty": "\u00bd cup"
+        },
+        {
+          "name": "Shredded Gruy\u00e8re",
+          "qty": "\u00bd cup"
+        },
+        {
+          "name": "Grated Parmesan, divided",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Lump crab meat",
+          "qty": "17 oz (8 oz in the pan, plus 5 oz on top for Austin and 4 oz for Cameron)"
+        },
+        {
+          "name": "Smoked paprika (or \u00bc tsp Old Bay for a traditional version)",
+          "qty": "\u215b tsp"
+        }
+      ],
+      "instructions": [
+        "Heat the oven to 425\u00b0F.",
+        "Boil the pasta in well-salted water to al dente. Drain.",
+        "Simmer the b\u00e9chamel in a large saucepan over medium-low 10 minutes, stirring. Off the heat cool 2 minutes, then whisk in the Gouda, Gruy\u00e8re and \u00bd cup Parmesan. A few unmelted bits are fine.",
+        "Fold in 8 oz of the crab and the paprika. Stir in the pasta and season with salt.",
+        "Transfer to a small baking dish, sprinkle with the remaining \u00bd cup Parmesan and bake 15 minutes. Broil on high 2 minutes until golden.",
+        "AUSTIN: about 30% of the pan, topped with 5 oz extra warm crab (toss with a little lemon).",
+        "CAMERON: about 20% of the pan, topped with 4 oz extra crab."
+      ],
+      "batch_note": "About half the pan is left after both plates; it reheats for 2 days. B\u00e9chamel is a Sunday component.",
+      "cameron_note": "A smaller scoop of the pasta topped with extra crab so protein stays up. About 615 cal and 52g protein.",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false,
+      "added_date": "2026-11-15"
+    },
+    {
+      "id": "cowboy-butter-roast-chicken-milk-bread-rd139",
+      "name": "Cowboy Butter Roast Chicken with Milk Bread and Dijon Green Beans",
+      "cuisine": "American",
+      "meal_type": "dinner",
+      "prep": "20 min (chicken dry-brined a day ahead)",
+      "cook": "1 hr 15 min",
+      "total": "1 hr 45 min",
+      "spice_level": "Mild (a little red pepper flake in the butter)",
+      "serving_note": "A 4 to 5 lb chicken is far more than two plates; reserve half the breast for the Cheesy Chicken Sliders and save the rest for lunches. Plates below are skinless breast. Austin 8 oz and Cameron 5 oz come off the same bird. Macros are estimates.",
+      "tags": [
+        "chicken",
+        "fall-2026",
+        "fall-dinners",
+        "high-protein",
+        "holiday",
+        "imported",
+        "nov-2026",
+        "rd-week-139",
+        "restaurant-dropout",
+        "roast",
+        "spatchcock"
+      ],
+      "equipment": "Large oven-safe skillet (cast iron), Breville Smart Oven Pro",
+      "source": "Adapted from Restaurant Dropout Week 139 Holiday Menu",
+      "macro_strings": {
+        "austin": "915 cal | 80g P | 36g F | 60g C",
+        "cameron": "650 cal | 53g P | 26g F | 48g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 915,
+          "p": 80,
+          "f": 36,
+          "c": 60
+        },
+        "cameron": {
+          "cal": 650,
+          "p": 53,
+          "f": 26,
+          "c": 48
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Spatchcocked Chicken (component)",
+          "qty": "1 (4 to 5 lb)"
+        },
+        {
+          "name": "Neutral oil",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Cowboy Butter (component), melted",
+          "qty": "4 tbsp"
+        },
+        {
+          "name": "Chicken stock",
+          "qty": "\u00bc cup"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "to taste"
+        },
+        {
+          "name": "Green beans, washed and trimmed",
+          "qty": "6 oz"
+        },
+        {
+          "name": "Honey Dijon Vinaigrette (component)",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Honey-Roasted Pecans (component), roughly chopped",
+          "qty": "\u00bc cup"
+        },
+        {
+          "name": "Freshly ground black pepper",
+          "qty": "to taste"
+        },
+        {
+          "name": "Milk Bread Rolls (component), warmed",
+          "qty": "2 rolls (Austin 1, Cameron \u00be)"
+        }
+      ],
+      "instructions": [
+        "Rest the chicken at room temperature at least 30 minutes. Heat the oven to 425\u00b0F and pat the chicken dry.",
+        "Heat the oil in a large oven-safe skillet over high. Place the chicken skin-side down and cook undisturbed 6 minutes until deeply golden.",
+        "Off the heat, flip the chicken skin-side up with two sets of tongs. Brush with the cowboy butter and pour the stock into the pan. Roast on the middle rack 50 minutes until the breast reads 160\u00b0F, spooning the juices over the skin halfway.",
+        "Boil the green beans in salted water 4 to 5 minutes until snappy. Drain and toss with the vinaigrette, pecans and pepper. Season.",
+        "Rest the chicken 10 minutes before carving. Reserve half the breast for the sliders. Warm the roll in the oven about 5 minutes.",
+        "AUSTIN: 8 oz skinless breast, 1 tbsp pan butter, a big spoon of green beans with 2 tsp vinaigrette and 1 tbsp pecans, 1 whole roll.",
+        "CAMERON: 5 oz skinless breast, \u00bd tbsp pan butter, green beans with 2 tsp vinaigrette and 1 tbsp pecans, \u00be roll."
+      ],
+      "batch_note": "Dry-brine the chicken a day ahead. The rest of the bird feeds the Cheesy Chicken Sliders and the Autumn Salad.",
+      "cameron_note": "Smaller portion of breast and bread, same green beans. About 650 cal and 53g protein.",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false,
+      "added_date": "2026-11-15"
+    },
+    {
+      "id": "cheesy-chicken-sliders-rd139",
+      "name": "Cheesy Chicken Sliders",
+      "cuisine": "American",
+      "meal_type": "dinner",
+      "prep": "10 min",
+      "cook": "23 min",
+      "total": "30 min",
+      "spice_level": "None",
+      "serving_note": "Source makes 4 sliders (~690 cal each, ~39g P). Adapted: 2 loaded rolls instead of 4, same 12 oz of chicken, less cheese and aioli. Uses leftover roast chicken from the Cowboy Butter Roast Chicken. Meal type could be lunch; I filed it as dinner. Macros are estimates.",
+      "tags": [
+        "chicken",
+        "fall-2026",
+        "fall-dinners",
+        "high-protein",
+        "holiday",
+        "imported",
+        "leftovers",
+        "nov-2026",
+        "rd-week-139",
+        "restaurant-dropout",
+        "sandwich",
+        "sliders"
+      ],
+      "equipment": "Breville Smart Oven Pro, 7 by 11-inch baking dish or half sheet",
+      "source": "Adapted from Restaurant Dropout Week 139 Holiday Menu",
+      "macro_strings": {
+        "austin": "855 cal | 75g P | 35g F | 50g C",
+        "cameron": "625 cal | 55g P | 26g F | 37g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 855,
+          "p": 75,
+          "f": 35,
+          "c": 50
+        },
+        "cameron": {
+          "cal": 625,
+          "p": 55,
+          "f": 26,
+          "c": 37
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Full-fat mayonnaise",
+          "qty": "2 tbsp (source uses \u00bc cup)"
+        },
+        {
+          "name": "Dijon mustard",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Honey",
+          "qty": "1\u00bd tsp"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "\u215b tsp"
+        },
+        {
+          "name": "Garlic clove, grated",
+          "qty": "\u00bd"
+        },
+        {
+          "name": "Milk Bread Rolls (component)",
+          "qty": "2 (source uses 4)"
+        },
+        {
+          "name": "Shredded Gruy\u00e8re, divided",
+          "qty": "\u00bc cup"
+        },
+        {
+          "name": "Leftover Cowboy Butter Roast Chicken, thinly sliced",
+          "qty": "12 oz (Austin 7 oz, Cameron 5 oz)"
+        },
+        {
+          "name": "Shredded aged Gouda",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Cowboy Butter (component), melted",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Spring mix",
+          "qty": "1 cup"
+        }
+      ],
+      "instructions": [
+        "Heat the oven to 375\u00b0F.",
+        "Stir the mayonnaise, Dijon, honey, salt and garlic into an aioli.",
+        "Cut the rolls horizontally and set the bottom halves in the baking dish. Spread the cut sides with aioli.",
+        "Layer on half the Gruy\u00e8re, the chicken, the Gouda and the remaining Gruy\u00e8re. Add the top halves and brush with the cowboy butter.",
+        "Cover tightly with foil and bake 18 minutes. Uncover and bake 5 more minutes until the cheese is melted and the tops are golden. Rest 5 minutes.",
+        "Tuck the spring mix under the top bun.",
+        "AUSTIN: 1 whole roll loaded with 7 oz chicken, 2 tbsp Gruy\u00e8re, 1 tbsp Gouda and 1 tbsp aioli.",
+        "CAMERON: \u00be roll with 5 oz chicken, 2 tbsp Gruy\u00e8re, 1 tbsp Gouda and 2 tsp aioli."
+      ],
+      "batch_note": "Uses the leftover roast chicken the next day. Aioli can be made ahead.",
+      "cameron_note": "Three-quarters of a roll with a big pile of chicken. About 625 cal and 55g protein.",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false,
+      "added_date": "2026-11-15"
+    },
+    {
+      "id": "potatoes-gratin-cowboy-buttered-steak-rd139",
+      "name": "Potatoes Gratin with Cowboy-Buttered Steak",
+      "cuisine": "American",
+      "meal_type": "dinner",
+      "prep": "15 min (potatoes and b\u00e9chamel made ahead)",
+      "cook": "25 min",
+      "total": "40 min",
+      "spice_level": "Mild",
+      "serving_note": "Source serves 2 with 8 oz steaks and about half the gratin each (~1,000 cal a plate). Adapted: Austin gets a bigger steak and about 30% of the gratin, Cameron about 25%; the rest of the gratin reheats for 3 days. Macros are estimates.",
+      "tags": [
+        "beef",
+        "fall-2026",
+        "fall-dinners",
+        "gratin",
+        "high-protein",
+        "holiday",
+        "imported",
+        "nov-2026",
+        "rd-week-139",
+        "restaurant-dropout",
+        "steak"
+      ],
+      "equipment": "Cast-iron skillet, small baking dish, Breville Smart Oven Pro (bake and broil)",
+      "source": "Adapted from Restaurant Dropout Week 139 Holiday Menu",
+      "macro_strings": {
+        "austin": "855 cal | 71g P | 44g F | 39g C",
+        "cameron": "630 cal | 52g P | 31g F | 32g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 855,
+          "p": 71,
+          "f": 44,
+          "c": 39
+        },
+        "cameron": {
+          "cal": 630,
+          "p": 52,
+          "f": 31,
+          "c": 32
+        }
+      },
+      "ingredients": [
+        {
+          "name": "NY strip steak, fat trimmed",
+          "qty": "16 oz total (Austin 9 oz, Cameron 6\u00bd oz; source uses 2 \u00d7 8 oz)"
+        },
+        {
+          "name": "Kosher salt and freshly ground black pepper",
+          "qty": "to taste"
+        },
+        {
+          "name": "Neutral oil, divided",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Shallot, thinly sliced",
+          "qty": "1"
+        },
+        {
+          "name": "B\u00e9chamel (component)",
+          "qty": "\u00bd cup"
+        },
+        {
+          "name": "Whole milk",
+          "qty": "\u00bd cup"
+        },
+        {
+          "name": "Slow-Roasted Potatoes (component, 2 russets)",
+          "qty": "2"
+        },
+        {
+          "name": "Shredded Gruy\u00e8re",
+          "qty": "\u00bd cup"
+        },
+        {
+          "name": "Grated Parmesan",
+          "qty": "\u00bc cup"
+        },
+        {
+          "name": "Cowboy Butter (component)",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Green beans, washed and trimmed",
+          "qty": "6 oz"
+        }
+      ],
+      "instructions": [
+        "Heat the oven to 400\u00b0F. Salt and pepper the steaks and rest 15 minutes at room temperature.",
+        "Heat 1 tbsp oil in a skillet over medium. Cook the shallot about 3 minutes until translucent. Stir in the b\u00e9chamel and milk, season, lower the heat and simmer 5 minutes.",
+        "Peel the cooled roasted russets and slice into \u00bd-inch rounds. Layer in a small baking dish, pour over the b\u00e9chamel mixture and top with Gruy\u00e8re and Parmesan. Bake 15 minutes, then broil on high 2 minutes.",
+        "Pat the steaks dry. Heat the remaining oil in a cast-iron skillet over medium-high and sear 4 to 5 minutes until crusted. Flip, add the cowboy butter and baste until 130\u00b0F (medium-rare) or 140\u00b0F (medium). Rest 5 minutes.",
+        "In the same skillet cook the green beans with a pinch of salt about 5 minutes until crisp-tender.",
+        "AUSTIN: 9 oz raw steak (about 7 oz cooked), about 30% of the gratin, green beans, 1 tbsp pan butter.",
+        "CAMERON: 6\u00bd oz raw steak, about 25% of the gratin, green beans, \u00bd tbsp pan butter."
+      ],
+      "batch_note": "Roast the russets Sunday and make the b\u00e9chamel ahead; this is a 40-minute night.",
+      "cameron_note": "Smaller steak and gratin with the same butter-basted beans. About 630 cal and 52g protein.",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false,
+      "added_date": "2026-11-15"
+    },
+    {
+      "id": "autumn-salad-honey-dijon-vinaigrette-rd139",
+      "name": "Autumn Salad with Honey-Dijon Vinaigrette",
+      "cuisine": "American",
+      "meal_type": "lunch",
+      "prep": "5 min",
+      "cook": "0 min",
+      "total": "5 min",
+      "spice_level": "None",
+      "serving_note": "Source salad is ~700 cal and ~12g P per bowl (pecans and dressing). Adapted for the lunch targets: much smaller pecan and dressing portions with grilled or leftover roast chicken added, as the source suggests. Macros are estimates.",
+      "tags": [
+        "chicken",
+        "fall-2026",
+        "fall-dinners",
+        "high-protein",
+        "holiday",
+        "imported",
+        "no-cook",
+        "nov-2026",
+        "rd-week-139",
+        "restaurant-dropout",
+        "salad",
+        "sweet-potato"
+      ],
+      "equipment": "Mixing bowl; grill pan or leftover roast chicken",
+      "source": "Adapted from Restaurant Dropout Week 139 Holiday Menu",
+      "macro_strings": {
+        "austin": "430 cal | 48g P | 17g F | 19g C",
+        "cameron": "270 cal | 29g P | 11g F | 11g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 430,
+          "p": 48,
+          "f": 17,
+          "c": 19
+        },
+        "cameron": {
+          "cal": 270,
+          "p": 29,
+          "f": 11,
+          "c": 11
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Spring mix",
+          "qty": "4 cups"
+        },
+        {
+          "name": "Honey Dijon Vinaigrette (component)",
+          "qty": "1 tbsp (Austin 2 tsp, Cameron 1 tsp)"
+        },
+        {
+          "name": "Kosher salt and freshly ground black pepper",
+          "qty": "to taste"
+        },
+        {
+          "name": "Shredded aged Gouda",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Honey-Roasted Pecans (component)",
+          "qty": "1 tbsp plus 2 tsp"
+        },
+        {
+          "name": "Pomegranate arils",
+          "qty": "3 tbsp"
+        },
+        {
+          "name": "Slow-Roasted Sweet Potato (component), peeled and cut bite-sized",
+          "qty": "\u215c of 1 potato"
+        },
+        {
+          "name": "Cooked chicken breast, grilled or leftover roast (not in the source)",
+          "qty": "8 oz (Austin 5 oz, Cameron 3 oz)"
+        }
+      ],
+      "instructions": [
+        "Toss the spring mix with the vinaigrette, salt and pepper.",
+        "Divide between two bowls and top with the Gouda, pecans, pomegranate and sweet potato.",
+        "Slice the chicken and lay it on top.",
+        "AUSTIN: 2 cups greens, 1 tbsp Gouda, 1 tbsp pecans, 2 tbsp pomegranate, \u00bc sweet potato, 5 oz chicken, 2 tsp vinaigrette.",
+        "CAMERON: 2 cups greens, 1 tbsp Gouda, 2 tsp pecans, 1 tbsp pomegranate, \u215b sweet potato, 3 oz chicken, 1 tsp vinaigrette."
+      ],
+      "batch_note": "Built from components: pecans, vinaigrette and roasted sweet potato are all Sunday prep.",
+      "cameron_note": "Less pecan and cheese, mostly greens and chicken. About 270 cal and 29g protein.",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false,
+      "added_date": "2026-11-15"
+    },
+    {
+      "id": "milk-bread-rolls-rd139",
+      "name": "Milk Bread Rolls",
+      "cuisine": "American",
+      "meal_type": "component",
+      "prep": "30 min (plus about 1 hr 40 min rising)",
+      "cook": "18 min",
+      "total": "about 3 hours",
+      "spice_level": "None",
+      "serving_note": "Makes 8 rolls (5-inch). Macros are counted in the dishes that use it.",
+      "tags": [
+        "baking",
+        "bread",
+        "component",
+        "fall-2026",
+        "fall-dinners",
+        "holiday",
+        "imported",
+        "nov-2026",
+        "rd-week-139",
+        "restaurant-dropout",
+        "vegetarian"
+      ],
+      "equipment": "KitchenAid stand mixer with dough hook, 9 by 13-inch baking dish, Breville Smart Oven Pro",
+      "source": "Adapted from Restaurant Dropout Week 139 Holiday Menu",
+      "macro_strings": {
+        "austin": null,
+        "cameron": null
+      },
+      "macros": {
+        "austin": null,
+        "cameron": null
+      },
+      "storage_note": "Cool completely, then keep in a zip-top bag in a cool, dark place or the fridge.",
+      "keeps": "3 days at room temperature, or 1 week in the fridge",
+      "freezes": "Yes, 2 months. Freeze individually wrapped.",
+      "ingredients": [
+        {
+          "name": "For the tangzhong",
+          "qty": ""
+        },
+        {
+          "name": "Whole milk",
+          "qty": "\u00bd cup"
+        },
+        {
+          "name": "All-purpose flour",
+          "qty": "3 tbsp"
+        },
+        {
+          "name": "For the rolls",
+          "qty": ""
+        },
+        {
+          "name": "Hot water",
+          "qty": "\u00bd cup (120g)"
+        },
+        {
+          "name": "Whole milk",
+          "qty": "\u00be cup (180g)"
+        },
+        {
+          "name": "Melted salted butter, plus more for greasing and brushing",
+          "qty": "4 tbsp (56g)"
+        },
+        {
+          "name": "Granulated sugar",
+          "qty": "1 tbsp (17g)"
+        },
+        {
+          "name": "All-purpose flour",
+          "qty": "3\u00bd cups (440g)"
+        },
+        {
+          "name": "Tangzhong",
+          "qty": "all of it"
+        },
+        {
+          "name": "Kosher salt such as Diamond Crystal",
+          "qty": "2 tsp (8g)"
+        },
+        {
+          "name": "Instant yeast",
+          "qty": "1 packet or 2\u00bc tsp (7g)"
+        }
+      ],
+      "instructions": [
+        "Tangzhong: whisk the milk and flour in a small saucepan and cook over medium-low, stirring constantly, 2 to 3 minutes until thick and steaming.",
+        "In a stand mixer with the dough hook combine the hot water, milk, melted butter, sugar, flour, tangzhong, salt and yeast. Knead on medium-high 10 to 12 minutes until the dough no longer sticks to the bowl and feels smooth and tacky.",
+        "Cover and let rise in a warm place until doubled, about 1 hour. Butter a 9 by 13-inch baking dish.",
+        "Turn the dough onto a lightly floured surface, divide and shape into 8 even rolls and set them seam-side down in the dish. Cover and let rise until slightly domed, about 40 minutes.",
+        "Heat the oven to 400\u00b0F. Bake about 18 minutes until golden and the largest roll reads 195\u00b0F. Brush the hot rolls with melted butter."
+      ],
+      "batch_note": "About 295 cal per roll. Used with the cowboy butter chicken and the sliders.",
+      "cameron_note": "",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false,
+      "added_date": "2026-11-15"
+    },
+    {
+      "id": "honey-roasted-pecans-rd139",
+      "name": "Honey-Roasted Pecans",
+      "cuisine": "American",
+      "meal_type": "component",
+      "prep": "5 min",
+      "cook": "15 min",
+      "total": "20 min",
+      "spice_level": "Mild",
+      "serving_note": "Makes about \u00be cup. Macros are counted in the dishes that use it.",
+      "tags": [
+        "component",
+        "fall-2026",
+        "fall-dinners",
+        "holiday",
+        "imported",
+        "nov-2026",
+        "nuts",
+        "rd-week-139",
+        "restaurant-dropout",
+        "snack",
+        "topping",
+        "vegetarian"
+      ],
+      "equipment": "Breville Smart Oven Pro, parchment-lined sheet pan",
+      "source": "Adapted from Restaurant Dropout Week 139 Holiday Menu",
+      "macro_strings": {
+        "austin": null,
+        "cameron": null
+      },
+      "macros": {
+        "austin": null,
+        "cameron": null
+      },
+      "storage_note": "Airtight container in the fridge.",
+      "keeps": "5 days",
+      "freezes": "Yes, 3 months.",
+      "ingredients": [
+        {
+          "name": "Honey",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Salted butter, melted",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Ground cinnamon",
+          "qty": "\u00bc tsp"
+        },
+        {
+          "name": "Cayenne pepper",
+          "qty": "a pinch"
+        },
+        {
+          "name": "Whole raw pecans",
+          "qty": "1 cup"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "to taste"
+        }
+      ],
+      "instructions": [
+        "Heat the oven to 375\u00b0F and line a baking sheet with parchment.",
+        "Whisk the honey, butter, cinnamon and cayenne until smooth. Toss with the pecans.",
+        "Bake 13 to 15 minutes until golden brown and toasted. Sprinkle lightly with salt.",
+        "Cool 15 minutes (they harden as they cool), then chop into bite-sized pieces."
+      ],
+      "batch_note": "Calorie-dense, about 80 cal per tbsp. Used in the green beans and the autumn salad.",
+      "cameron_note": "",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false,
+      "added_date": "2026-11-15"
+    },
+    {
+      "id": "cowboy-butter-rd139",
+      "name": "Cowboy Butter",
+      "cuisine": "American",
+      "meal_type": "component",
+      "prep": "5 min",
+      "cook": "0 min",
+      "total": "5 min",
+      "spice_level": "Mild",
+      "serving_note": "Makes about \u00bd cup. Macros are counted in the dishes that use it.",
+      "tags": [
+        "butter",
+        "component",
+        "fall-2026",
+        "fall-dinners",
+        "holiday",
+        "imported",
+        "no-cook",
+        "nov-2026",
+        "rd-week-139",
+        "restaurant-dropout",
+        "sauce"
+      ],
+      "equipment": "Small bowl, fork",
+      "source": "Adapted from Restaurant Dropout Week 139 Holiday Menu",
+      "macro_strings": {
+        "austin": null,
+        "cameron": null
+      },
+      "macros": {
+        "austin": null,
+        "cameron": null
+      },
+      "storage_note": "Airtight container in the fridge.",
+      "keeps": "5 days",
+      "freezes": "Yes, 3 months. Roll into a log in plastic wrap.",
+      "ingredients": [
+        {
+          "name": "Salted butter, room temperature",
+          "qty": "8 tbsp"
+        },
+        {
+          "name": "Garlic cloves, grated",
+          "qty": "3"
+        },
+        {
+          "name": "Dijon mustard",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Dried thyme",
+          "qty": "\u00bd tsp"
+        },
+        {
+          "name": "Dried rosemary",
+          "qty": "\u00bd tsp"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "\u00bd tsp"
+        },
+        {
+          "name": "Ground black pepper",
+          "qty": "\u00bd tsp"
+        },
+        {
+          "name": "Onion powder",
+          "qty": "\u00bd tsp"
+        },
+        {
+          "name": "Crushed red pepper flakes",
+          "qty": "\u00bd tsp"
+        },
+        {
+          "name": "Granulated sugar",
+          "qty": "\u00bc tsp"
+        },
+        {
+          "name": "Smoked paprika",
+          "qty": "\u00bc tsp"
+        }
+      ],
+      "instructions": [
+        "Combine everything in a small bowl, using a fork to work the spices and mustard into the butter.",
+        "Melt as needed to brush on chicken, or baste a steak in the pan."
+      ],
+      "batch_note": "About 105 cal per tbsp. Used on the roast chicken, sliders and steak.",
+      "cameron_note": "",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false,
+      "added_date": "2026-11-15"
+    },
+    {
+      "id": "honey-dijon-vinaigrette-rd139",
+      "name": "Honey Dijon Vinaigrette",
+      "cuisine": "American",
+      "meal_type": "component",
+      "prep": "5 min",
+      "cook": "0 min",
+      "total": "5 min",
+      "spice_level": "None",
+      "serving_note": "Makes about \u00be cup. Macros are counted in the dishes that use it.",
+      "tags": [
+        "component",
+        "fall-2026",
+        "fall-dinners",
+        "holiday",
+        "imported",
+        "no-cook",
+        "nov-2026",
+        "rd-week-139",
+        "restaurant-dropout",
+        "sauce",
+        "vegetarian",
+        "vinaigrette"
+      ],
+      "equipment": "Small bowl, whisk",
+      "source": "Adapted from Restaurant Dropout Week 139 Holiday Menu",
+      "macro_strings": {
+        "austin": null,
+        "cameron": null
+      },
+      "macros": {
+        "austin": null,
+        "cameron": null
+      },
+      "storage_note": "Airtight jar in the fridge.",
+      "keeps": "5 days",
+      "freezes": "No. It separates and loses its emulsion.",
+      "ingredients": [
+        {
+          "name": "Extra-virgin olive oil",
+          "qty": "\u00bd cup"
+        },
+        {
+          "name": "White wine vinegar",
+          "qty": "3 tbsp"
+        },
+        {
+          "name": "Dijon mustard",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Honey",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Garlic clove, grated",
+          "qty": "1"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "\u00bd tsp"
+        },
+        {
+          "name": "Freshly ground black pepper",
+          "qty": "\u00bc tsp"
+        }
+      ],
+      "instructions": [
+        "Whisk everything in a small bowl until smooth.",
+        "Transfer to a jar and refrigerate; shake before using."
+      ],
+      "batch_note": "About 83 cal per tbsp. Used on the green beans and the autumn salad.",
+      "cameron_note": "",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false,
+      "added_date": "2026-11-15"
+    },
+    {
+      "id": "bechamel-rd139",
+      "name": "B\u00e9chamel",
+      "cuisine": "French",
+      "meal_type": "component",
+      "prep": "5 min",
+      "cook": "10 min",
+      "total": "15 min",
+      "spice_level": "None",
+      "serving_note": "Makes about 2\u00bd cups. Macros are counted in the dishes that use it.",
+      "tags": [
+        "cheese-sauce-base",
+        "component",
+        "fall-2026",
+        "fall-dinners",
+        "holiday",
+        "imported",
+        "nov-2026",
+        "rd-week-139",
+        "restaurant-dropout",
+        "sauce",
+        "vegetarian"
+      ],
+      "equipment": "Large saucepan, whisk",
+      "source": "Adapted from Restaurant Dropout Week 139 Holiday Menu",
+      "macro_strings": {
+        "austin": null,
+        "cameron": null
+      },
+      "macros": {
+        "austin": null,
+        "cameron": null
+      },
+      "storage_note": "Airtight container in the fridge.",
+      "keeps": "5 days",
+      "freezes": "Yes, 2 months. Whisk while reheating.",
+      "ingredients": [
+        {
+          "name": "Salted butter",
+          "qty": "3 tbsp"
+        },
+        {
+          "name": "Garlic cloves, minced",
+          "qty": "2"
+        },
+        {
+          "name": "All-purpose flour",
+          "qty": "3 tbsp"
+        },
+        {
+          "name": "Whole milk",
+          "qty": "3 cups"
+        },
+        {
+          "name": "Dijon mustard",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "\u00be tsp"
+        },
+        {
+          "name": "Freshly ground black pepper",
+          "qty": "to taste"
+        }
+      ],
+      "instructions": [
+        "Melt the butter in a large saucepan over medium. Cook the garlic until fragrant, about 30 seconds.",
+        "Whisk in the flour to a thin paste and cook 1 minute until lightly golden.",
+        "Add the milk, whisking until combined and scraping the sides to prevent roux clumps. Cook, whisking often, about 8 minutes until thick and creamy.",
+        "Off the heat stir in the mustard, salt and pepper. Adjust the seasoning."
+      ],
+      "batch_note": "About 340 cal per cup. Used in the crab mac and the potatoes gratin. A separate recipe from Garlic B\u00e9chamel (week 136).",
+      "cameron_note": "",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false,
+      "added_date": "2026-11-15"
+    },
+    {
+      "id": "slow-roasted-potatoes-rd139",
+      "name": "Slow-Roasted Potatoes",
+      "cuisine": "American",
+      "meal_type": "component",
+      "prep": "5 min",
+      "cook": "55 min",
+      "total": "1 hr",
+      "spice_level": "None",
+      "serving_note": "Makes 3 potatoes (2 russet, 1 sweet). Macros are counted in the dishes that use it.",
+      "tags": [
+        "component",
+        "fall-2026",
+        "fall-dinners",
+        "holiday",
+        "imported",
+        "nov-2026",
+        "potatoes",
+        "rd-week-139",
+        "restaurant-dropout",
+        "roasted",
+        "sweet-potato",
+        "vegan",
+        "vegetarian"
+      ],
+      "equipment": "Breville Smart Oven Pro, aluminum foil",
+      "source": "Adapted from Restaurant Dropout Week 139 Holiday Menu",
+      "macro_strings": {
+        "austin": null,
+        "cameron": null
+      },
+      "macros": {
+        "austin": null,
+        "cameron": null
+      },
+      "storage_note": "Cool, then wrap in plastic wrap in the fridge.",
+      "keeps": "5 days",
+      "freezes": "No. Roasted potatoes turn grainy when frozen.",
+      "ingredients": [
+        {
+          "name": "Russet potatoes, washed and dried",
+          "qty": "2"
+        },
+        {
+          "name": "Garnet sweet potato, washed and dried",
+          "qty": "1"
+        },
+        {
+          "name": "Extra-virgin olive oil",
+          "qty": "to coat"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "to season generously"
+        }
+      ],
+      "instructions": [
+        "Heat the oven to 400\u00b0F. Lightly coat the potatoes in olive oil and salt generously.",
+        "Wrap each potato tightly in foil on a baking sheet. Roast 50 minutes to 1 hour until soft.",
+        "Cool completely before storing. Pat dry and wrap tightly in plastic wrap."
+      ],
+      "batch_note": "Used in the gratin (russets) and the autumn salad (sweet potato).",
+      "cameron_note": "",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false,
+      "added_date": "2026-11-15"
+    },
+    {
+      "id": "spatchcocked-chicken-rd139",
+      "name": "Spatchcocked Chicken (dry-brined)",
+      "cuisine": "American",
+      "meal_type": "component",
+      "prep": "20 min",
+      "cook": "0 min",
+      "total": "20 min plus 24 hours uncovered in the fridge",
+      "spice_level": "None",
+      "serving_note": "Makes 1 spatchcocked chicken (4 to 5 lb). Macros are counted in the dishes that use it.",
+      "tags": [
+        "chicken",
+        "component",
+        "fall-2026",
+        "fall-dinners",
+        "holiday",
+        "imported",
+        "nov-2026",
+        "prep-ahead",
+        "rd-week-139",
+        "restaurant-dropout",
+        "spatchcock"
+      ],
+      "equipment": "Sharp chef's knife or kitchen shears, cutting board, baking sheet",
+      "source": "Adapted from Restaurant Dropout Week 139 Holiday Menu",
+      "macro_strings": {
+        "austin": null,
+        "cameron": null
+      },
+      "macros": {
+        "austin": null,
+        "cameron": null
+      },
+      "storage_note": "Uncovered on a baking sheet, bottom shelf of the fridge.",
+      "keeps": "24 to 48 hours uncooked, uncovered in the fridge",
+      "freezes": "No. Dry-brine fresh and roast.",
+      "ingredients": [
+        {
+          "name": "Whole chicken",
+          "qty": "1 (4 to 5 lb)"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Granulated sugar",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Freshly ground black pepper",
+          "qty": "several cranks"
+        }
+      ],
+      "instructions": [
+        "Let the chicken sit at room temperature 30 minutes. Mix the salt, sugar and pepper into a dry brine.",
+        "Place the bird breast-side down. Cut halfway down one side of the backbone, staying close to it, then the opposite side, then from the tail end until the cuts meet. Cut through small bones firmly.",
+        "Flip breast-side up and press hard on the breasts to break the wishbone so the bird lies flat.",
+        "Set on a baking sheet and sprinkle the dry brine over the skin. Refrigerate uncovered on the bottom shelf at least 24 hours and up to 48."
+      ],
+      "batch_note": "Used in the cowboy butter roast chicken and the chicken sliders.",
+      "cameron_note": "",
+      "history": {
+        "first_used": "",
+        "last_used": "",
+        "times_made": 0,
+        "ratings": [],
+        "avg_rating": {
+          "austin": null,
+          "cameron": null,
+          "combined": null
+        }
+      },
+      "retired": false,
+      "added_date": "2026-11-15"
     }
   ]
 }
