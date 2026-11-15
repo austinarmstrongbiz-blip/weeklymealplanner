@@ -1,6 +1,7 @@
 {
   "_about": "What is physically in the house right now, beyond the always-stocked pantry staples (references/pantry_staples.md). The planner uses these first ('shop the freezer before the store') and the grocery list never re-buys them. Update when something arrives or gets used up. Set qty to 0 (don't delete) when gone so history stays readable.",
-  "last_updated": "2026-11-05",
+  "last_updated": "2026-11-15",
+  "_last_walkthrough": "2026-11-15 voice inventory (basement pantry, kitchen pantry, fridge, freezer). Week-1 (Nov 8) steaks, wings and most ButcherBox were NOT cooked and roll into this week.",
   "butcherbox": {
     "plan": "Signature Box, Medium",
     "cadence": "every 4 weeks (Nov 2 order → next processes Nov 30)",
@@ -13,14 +14,79 @@
     "next_processes": "2026-11-30",
     "customize_by": "2026-11-29 (reminder on Google Calendar 2026-11-23)"
   },
+  "thawed_now": [
+    {
+      "id": "th-chicken-breast",
+      "name": "Chicken breasts (thawed)",
+      "qty": "2",
+      "source": "voice inventory 2026-11-15",
+      "status": "on_hand",
+      "storage": "fridge",
+      "thawed_by": "2026-11-15",
+      "use_by": "2026-11-17",
+      "note": "Cook by Tue Nov 17."
+    },
+    {
+      "id": "th-ground-lamb",
+      "name": "Ground lamb (thawed)",
+      "qty": "1 pack (~1 lb, verify)",
+      "source": "voice inventory 2026-11-15",
+      "status": "on_hand",
+      "storage": "fridge",
+      "thawed_by": "2026-11-15",
+      "use_by": "2026-11-16",
+      "good_for": [
+        "lamb kofta",
+        "keftedes",
+        "lamb ragu"
+      ],
+      "note": "Ground meat: cook within 1–2 days of thawing."
+    },
+    {
+      "id": "th-steak",
+      "name": "Steak, possibly skirt or flat iron (thawed)",
+      "qty": "1 pack (verify cut)",
+      "source": "voice inventory 2026-11-15",
+      "status": "on_hand",
+      "storage": "fridge",
+      "thawed_by": "2026-11-15",
+      "use_by": "2026-11-18",
+      "note": "Probably one of the Nov ButcherBox flat irons. Cook by Wed."
+    },
+    {
+      "id": "th-italian-sausage",
+      "name": "Italian sausage links (thawed)",
+      "qty": "2 links",
+      "source": "voice inventory 2026-11-15",
+      "status": "on_hand",
+      "storage": "fridge",
+      "thawed_by": "2026-11-15",
+      "use_by": "2026-11-17",
+      "good_for": [
+        "spicy marinara pasta",
+        "sausage and kale soup"
+      ]
+    },
+    {
+      "id": "th-salmon",
+      "name": "Salmon (thawed)",
+      "qty": "1 pack (verify count)",
+      "source": "voice inventory 2026-11-15",
+      "status": "on_hand",
+      "storage": "fridge",
+      "thawed_by": "2026-11-15",
+      "use_by": "2026-11-16",
+      "note": "Fish: cook within 1–2 days. Sun or Mon dinner."
+    }
+  ],
   "freezer": [
     {
       "id": "bb-ground-sirloin-9010",
-      "name": "Grass-fed ground sirloin 90/10",
+      "name": "Ground beef / sirloin 90/10",
       "source": "ButcherBox 2026-11",
       "qty": "2 lb",
       "packs": "2 x 1 lb (verify on arrival)",
-      "status": "incoming",
+      "status": "on_hand",
       "thaw": "24 hr in fridge per 1 lb pack",
       "macros_per_4oz_raw": {
         "cal": 200,
@@ -37,14 +103,14 @@
         "stuffed peppers",
         "Korean beef bowls"
       ],
-      "reserved_for": "Week 2 (Nov 15): kofta"
+      "source_verified": "voice inventory 2026-11-15"
     },
     {
       "id": "bb-flat-iron",
       "name": "Grass-fed flat iron steaks",
       "source": "ButcherBox 2026-11",
-      "qty": "4 x 6 oz",
-      "status": "incoming",
+      "qty": "1 steak in freezer (+ possibly the thawed one in the fridge)",
+      "status": "on_hand",
       "thaw": "24 hr in fridge",
       "macros_per_4oz_raw": {
         "cal": 180,
@@ -60,14 +126,14 @@
         "sliced steak grain bowls"
       ],
       "notes": "Cook hot and fast to medium-rare, rest, and slice against the grain. A 6 oz steak is exactly one Cameron dinner portion with leftovers for lunch, or half an Austin portion.",
-      "reserved_for": "Nov 8 plan: 3½ steaks → Sat smoker steak night + Sun breakfast leftovers"
+      "source_verified": "voice inventory 2026-11-15"
     },
     {
       "id": "bb-ribeye",
       "name": "Grain-finished ribeye",
       "source": "ButcherBox 2026-11",
       "qty": "1 x 14 oz",
-      "status": "incoming",
+      "status": "on_hand",
       "thaw": "24-36 hr in fridge",
       "macros_per_4oz_raw": {
         "cal": 290,
@@ -80,14 +146,28 @@
         "reverse sear on the smoker",
         "sliced over a shared salad"
       ],
-      "notes": "Fattiest cut in the box. Best as a split 'treat' dinner (two portions sliced), not an everyday macro protein."
+      "notes": "Fattiest cut in the box. Best as a split 'treat' dinner (two portions sliced), not an everyday macro protein.",
+      "source_verified": "voice inventory 2026-11-15"
+    },
+    {
+      "id": "frz-ny-strip",
+      "name": "New York strip steaks",
+      "qty": "2",
+      "source": "voice inventory 2026-11-15",
+      "status": "on_hand",
+      "thaw": "24 hr in fridge",
+      "good_for": [
+        "reverse sear on the smoker",
+        "steak salad",
+        "sliced steak for breakfast"
+      ]
     },
     {
       "id": "bb-steak-strips",
-      "name": "Grain-finished premium steak strips",
+      "name": "Beef strips (fajita/stir-fry)",
       "source": "ButcherBox 2026-11",
       "qty": "1 lb",
-      "status": "incoming",
+      "status": "on_hand",
       "thaw": "12-24 hr in fridge",
       "macros_per_4oz_raw": {
         "cal": 170,
@@ -102,14 +182,15 @@
         "Philly cheesesteak",
         "bulgogi"
       ],
-      "notes": "Pre-cut, so it's the fastest weeknight protein. Marinate straight from thawed."
+      "notes": "Pre-cut, so it's the fastest weeknight protein. Marinate straight from thawed.",
+      "source_verified": "voice inventory 2026-11-15"
     },
     {
       "id": "bb-chicken-wings",
       "name": "Organic free-range chicken wings",
       "source": "ButcherBox 2026-11",
       "qty": "~3 lb",
-      "status": "incoming",
+      "status": "on_hand",
       "thaw": "24 hr in fridge",
       "macros_per_4oz_raw_with_skin": {
         "cal": 250,
@@ -125,14 +206,14 @@
         "wing stock from the tips"
       ],
       "notes": "Low protein per calorie (lots of bone and skin). Use as a fun dinner paired with a big high-protein side, or as a game-day meal. Save the tips in a freezer bag for stock.",
-      "reserved_for": "Week 2 (Nov 15) or game day"
+      "source_verified": "voice inventory 2026-11-15"
     },
     {
       "id": "bb-italian-sausage",
       "name": "Crate-free Italian sausage links",
       "source": "ButcherBox 2026-11",
-      "qty": "2 lb",
-      "status": "incoming",
+      "qty": "4 links (frozen) + 2 thawed in fridge",
+      "status": "on_hand",
       "thaw": "24 hr in fridge, or slice from frozen",
       "macros_per_4oz_raw": {
         "cal": 320,
@@ -148,26 +229,12 @@
         "breakfast hash"
       ],
       "notes": "Higher fat, so treat it as a flavor base, not the main protein. 1 lb of sausage stretched with beans or greens feeds four portions. Pair with chicken or turkey to hit protein.",
-      "reserved_for": "Nov 8 plan: 1 lb → zuppa (Sun); 1 lb left for week 2"
-    },
-    {
-      "id": "frz-sockeye",
-      "name": "Sockeye salmon fillets",
-      "qty": "2 × 5 oz",
-      "source": "voice pantry log 2026-11-05",
-      "status": "on_hand",
-      "thaw": "Overnight in fridge, or 30 min cold-water bath sealed",
-      "good_for": [
-        "miso-glazed salmon",
-        "gochujang salmon bowls",
-        "Cameron dinner portion = 1 fillet"
-      ],
-      "reserved_for": "Nov 8 plan: both → Cameron Tue + Wed dinners"
+      "source_verified": "voice inventory 2026-11-15"
     },
     {
       "id": "frz-tilapia",
       "name": "Tilapia fillets",
-      "qty": "8 × 4 oz",
+      "qty": "\"a bunch\" (was 8 × 4 oz)",
       "source": "voice pantry log 2026-11-05",
       "status": "on_hand",
       "thaw": "Thaws in 30 min in cold water",
@@ -178,7 +245,7 @@
         "crispy tilapia orzo"
       ],
       "note": "Biggest protein backlog here. Use 2–3 meals this cycle. 4 oz = Cameron dinner portion; Austin needs 2 fillets.",
-      "reserved_for": "Week 2+ (Cameron dinners)"
+      "source_verified": "voice inventory 2026-11-15"
     },
     {
       "id": "frz-chicken-thighs-bonein",
@@ -189,83 +256,13 @@
       "thaw": "24 hr in fridge",
       "good_for": [
         "roast or smoke for Cameron (1 thigh ≈ 1 dinner)"
-      ]
-    },
-    {
-      "id": "frz-breakfast-sausage",
-      "name": "Bob Evans breakfast sausage (raw, frozen)",
-      "qty": "1 lb",
-      "source": "voice pantry log 2026-11-05",
-      "status": "on_hand",
-      "good_for": [
-        "egg bites",
-        "breakfast hash"
       ],
-      "reserved_for": "Nov 8 plan: all 1 lb → 10 breakfast burritos (Sun)"
-    },
-    {
-      "id": "frz-chipotle",
-      "name": "Chipotle peppers in adobo",
-      "qty": "partial can",
-      "source": "voice pantry log 2026-11-05",
-      "status": "on_hand",
-      "good_for": [
-        "chipotle crema",
-        "marinades"
-      ],
-      "note": "Cameron is less into Mexican: use as a smoky heat, not a taco night."
-    },
-    {
-      "id": "frz-edamame",
-      "name": "Edamame (shelled)",
-      "qty": "½ bag",
-      "source": "voice pantry log 2026-11-05",
-      "status": "on_hand",
-      "good_for": [
-        "lunch bowls",
-        "sesame-ginger chicken edamame bowl"
-      ],
-      "reserved_for": "Nov 8 plan: satay salad + Wed salmon"
-    },
-    {
-      "id": "frz-lima",
-      "name": "Baby lima beans",
-      "qty": "½ bag",
-      "source": "voice pantry log 2026-11-05",
-      "status": "on_hand",
-      "good_for": [
-        "succotash",
-        "soups"
-      ]
-    },
-    {
-      "id": "frz-peas",
-      "name": "Peas",
-      "qty": "¼ bag",
-      "source": "voice pantry log 2026-11-05",
-      "status": "on_hand",
-      "good_for": [
-        "fried rice",
-        "risotto",
-        "pasta"
-      ]
-    },
-    {
-      "id": "frz-corn",
-      "name": "Corn",
-      "qty": "1 bag",
-      "source": "voice pantry log 2026-11-05",
-      "status": "on_hand",
-      "good_for": [
-        "fried rice",
-        "chowder",
-        "salads"
-      ]
+      "source_verified": "voice inventory 2026-11-15"
     },
     {
       "id": "frz-pepper-blend",
       "name": "Organic three-pepper blend",
-      "qty": "1 bag",
+      "qty": "1+ bag",
       "source": "voice pantry log 2026-11-05",
       "status": "on_hand",
       "good_for": [
@@ -275,42 +272,158 @@
         "fajita-style"
       ],
       "note": "Can replace fresh bell peppers in cooked dishes, so skip buying peppers for those.",
-      "reserved_for": "Nov 8 plan: breakfast burritos (2 cups)"
+      "source_verified": "voice inventory 2026-11-15"
+    },
+    {
+      "id": "frz-sockeye",
+      "name": "Sockeye salmon fillets",
+      "qty": "0",
+      "source": "voice pantry log 2026-11-05",
+      "status": "used_up",
+      "thaw": "Overnight in fridge, or 30 min cold-water bath sealed",
+      "good_for": [
+        "miso-glazed salmon",
+        "gochujang salmon bowls",
+        "Cameron dinner portion = 1 fillet"
+      ],
+      "note": "Used or thawed (Nov 8 week). Thawed salmon is listed under thawed_now."
+    },
+    {
+      "id": "frz-breakfast-sausage",
+      "name": "Bob Evans breakfast sausage (raw, frozen)",
+      "qty": "0",
+      "source": "voice pantry log 2026-11-05",
+      "status": "used_up",
+      "good_for": [
+        "egg bites",
+        "breakfast hash"
+      ],
+      "note": "Went into the Nov 8 breakfast burritos."
+    },
+    {
+      "id": "frz-chipotle",
+      "name": "Chipotle peppers in adobo",
+      "qty": "partial can",
+      "source": "voice pantry log 2026-11-05",
+      "status": "unconfirmed",
+      "good_for": [
+        "chipotle crema",
+        "marinades"
+      ],
+      "note": "Cameron is less into Mexican: use as a smoky heat, not a taco night.",
+      "note_2026_11_15": "Not mentioned in the Nov 15 walkthrough. Confirm before planning around it."
+    },
+    {
+      "id": "frz-edamame",
+      "name": "Edamame (shelled)",
+      "qty": "½ bag",
+      "source": "voice pantry log 2026-11-05",
+      "status": "unconfirmed",
+      "good_for": [
+        "lunch bowls",
+        "sesame-ginger chicken edamame bowl"
+      ],
+      "note_2026_11_15": "Not mentioned in the Nov 15 walkthrough. Confirm before planning around it."
+    },
+    {
+      "id": "frz-lima",
+      "name": "Baby lima beans",
+      "qty": "½ bag",
+      "source": "voice pantry log 2026-11-05",
+      "status": "unconfirmed",
+      "good_for": [
+        "succotash",
+        "soups"
+      ],
+      "note_2026_11_15": "Not mentioned in the Nov 15 walkthrough. Confirm before planning around it."
+    },
+    {
+      "id": "frz-peas",
+      "name": "Peas",
+      "qty": "¼ bag",
+      "source": "voice pantry log 2026-11-05",
+      "status": "unconfirmed",
+      "good_for": [
+        "fried rice",
+        "risotto",
+        "pasta"
+      ],
+      "note_2026_11_15": "Not mentioned in the Nov 15 walkthrough. Confirm before planning around it."
+    },
+    {
+      "id": "frz-corn",
+      "name": "Corn",
+      "qty": "1 bag",
+      "source": "voice pantry log 2026-11-05",
+      "status": "unconfirmed",
+      "good_for": [
+        "fried rice",
+        "chowder",
+        "salads"
+      ],
+      "note_2026_11_15": "Not mentioned in the Nov 15 walkthrough. Confirm before planning around it."
     },
     {
       "id": "frz-veg-assorted",
       "name": "Assorted frozen veggies",
       "qty": "various",
       "source": "voice pantry log 2026-11-05",
-      "status": "on_hand",
-      "note": "List them next time you open the freezer."
+      "status": "unconfirmed",
+      "note": "List them next time you open the freezer.",
+      "note_2026_11_15": "Not mentioned in the Nov 15 walkthrough. Confirm before planning around it."
     },
     {
       "id": "frz-bacon",
       "name": "Bacon",
       "qty": "some",
       "source": "voice pantry log 2026-11-05",
-      "status": "on_hand",
-      "note": "Freezer (confirmed Nov 5)."
+      "status": "unconfirmed",
+      "note": "Freezer (confirmed Nov 5).",
+      "note_2026_11_15": "Not mentioned in the Nov 15 walkthrough. Confirm before planning around it."
+    },
+    {
+      "id": "frz-bank-burritos",
+      "name": "Freezer bank: breakfast burritos (Nov 8)",
+      "qty": "up to 6 (unconfirmed)",
+      "source": "voice inventory 2026-11-15",
+      "status": "unconfirmed",
+      "note": "Week 1 planned to bank these. Confirm whether they were made."
     }
   ],
   "fridge": [
     {
-      "id": "fr-cooked-bfast-sausage",
-      "name": "Breakfast sausage, already cooked",
-      "qty": "~1 lb",
-      "source": "voice pantry log 2026-11-05",
-      "status": "on_hand",
-      "cooked": "2026-11-03",
-      "use_by": "2026-11-07",
-      "note": "Cooked sausage keeps 3–4 days. Eat by Sat Nov 7 or FREEZE NOW (it freezes fine for egg bites later).",
-      "reserved_for": "Eat by Sat Nov 7 or freeze now: not in the Nov 8 plan"
+      "id": "fr-eggs",
+      "name": "Eggs",
+      "qty": "some",
+      "source": "voice inventory 2026-11-15",
+      "status": "on_hand"
     },
     {
-      "id": "fr-dates",
-      "name": "Medjool dates",
-      "qty": "partial bag",
-      "source": "voice pantry log 2026-11-05",
+      "id": "fr-egg-whites",
+      "name": "Liquid egg whites",
+      "qty": "1 carton",
+      "source": "voice inventory 2026-11-15",
+      "status": "on_hand"
+    },
+    {
+      "id": "fr-greek-yogurt",
+      "name": "Nonfat Greek yogurt (plain)",
+      "qty": "some",
+      "source": "voice inventory 2026-11-15",
+      "status": "on_hand"
+    },
+    {
+      "id": "fr-cottage-cheese",
+      "name": "Cottage cheese",
+      "qty": "some",
+      "source": "voice inventory 2026-11-15",
+      "status": "on_hand"
+    },
+    {
+      "id": "fr-heavy-cream",
+      "name": "Heavy cream",
+      "qty": "some",
+      "source": "voice inventory 2026-11-15",
       "status": "on_hand"
     },
     {
@@ -324,90 +437,201 @@
         "frittata cups",
         "salads"
       ],
-      "reserved_for": "Nov 8 plan: tuna base, Greek salmon, steak night"
+      "source_verified": "voice inventory 2026-11-15"
     },
     {
-      "id": "fr-cheddar",
-      "name": "Cheddar",
-      "qty": "1 large block",
+      "id": "fr-gruyere",
+      "name": "Gruyère",
+      "qty": "1 piece (left from the Nov 8 Gruyère chicken plan)",
+      "source": "voice inventory 2026-11-15",
+      "status": "on_hand"
+    },
+    {
+      "id": "fr-tomatoes",
+      "name": "Tomatoes",
+      "qty": "several",
+      "source": "voice inventory 2026-11-15",
+      "status": "on_hand",
+      "use_window": "early"
+    },
+    {
+      "id": "fr-calabrian",
+      "name": "Calabrian chili (jar)",
+      "qty": "1 jar",
+      "source": "voice inventory 2026-11-15",
+      "status": "on_hand",
+      "keeps": "months",
+      "good_for": [
+        "Austin heat on eggs",
+        "spicy vodka/marinara",
+        "chili crisp sub"
+      ]
+    },
+    {
+      "id": "fr-yonki",
+      "name": "\"Yonki\" (unclear from voice note: confirm what this is)",
+      "qty": "?",
+      "source": "voice inventory 2026-11-15",
+      "status": "unconfirmed"
+    },
+    {
+      "id": "fr-lemons",
+      "name": "Lemons",
+      "qty": "some",
+      "source": "voice inventory 2026-11-15",
+      "status": "on_hand",
+      "use_window": "late"
+    },
+    {
+      "id": "fr-limes",
+      "name": "Limes",
+      "qty": "some",
+      "source": "voice inventory 2026-11-15",
+      "status": "on_hand",
+      "use_window": "mid"
+    },
+    {
+      "id": "fr-green-apples",
+      "name": "Green apples",
+      "qty": "a bunch",
+      "source": "voice inventory 2026-11-15",
+      "status": "on_hand",
+      "use_window": "late"
+    },
+    {
+      "id": "fr-avocado",
+      "name": "Avocados (Cameron only)",
+      "qty": "2",
+      "source": "voice inventory 2026-11-15",
+      "status": "on_hand",
+      "use_window": "early"
+    },
+    {
+      "id": "fr-dates",
+      "name": "Medjool dates",
+      "qty": "partial bag",
       "source": "voice pantry log 2026-11-05",
       "status": "on_hand",
-      "reserved_for": "Nov 8 plan: breakfast burritos"
+      "source_verified": "voice inventory 2026-11-15"
+    },
+    {
+      "id": "fr-kale",
+      "name": "Kale",
+      "qty": "1 big bunch",
+      "source": "voice inventory 2026-11-15",
+      "status": "on_hand",
+      "use_window": "mid"
+    },
+    {
+      "id": "fr-cucumbers",
+      "name": "Cucumbers (large)",
+      "qty": "3",
+      "source": "voice inventory 2026-11-15",
+      "status": "on_hand",
+      "use_window": "early"
+    },
+    {
+      "id": "fr-scallions",
+      "name": "Green onions",
+      "qty": "1 bunch",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand",
+      "use_window": "early",
+      "note": "Confirmed Nov 15.",
+      "source_verified": "voice inventory 2026-11-15"
+    },
+    {
+      "id": "fr-garlic-peeled",
+      "name": "Peeled garlic",
+      "qty": "1 container",
+      "source": "voice inventory 2026-11-15",
+      "status": "on_hand"
+    },
+    {
+      "id": "fr-chives",
+      "name": "Chives",
+      "qty": "some",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand",
+      "use_window": "early",
+      "source_verified": "voice inventory 2026-11-15"
+    },
+    {
+      "id": "fr-arugula",
+      "name": "Baby arugula",
+      "qty": "some left",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand",
+      "use_window": "early",
+      "note": "Use first, by Mon/Tue.",
+      "source_verified": "voice inventory 2026-11-15"
+    },
+    {
+      "id": "fr-cooked-bfast-sausage",
+      "name": "Breakfast sausage, already cooked",
+      "qty": "0",
+      "source": "voice pantry log 2026-11-05",
+      "status": "used_up",
+      "cooked": "2026-11-03",
+      "use_by": "2026-11-07",
+      "note": "Past its Nov 7 use-by."
     },
     {
       "id": "fr-parsley",
       "name": "Parsley",
       "qty": "1 bunch",
       "source": "voice pantry log 2026-11-05",
-      "status": "on_hand",
+      "status": "unconfirmed",
       "use_window": "early",
       "good_for": [
         "chimichurri",
         "herb yogurt"
       ],
-      "reserved_for": "Nov 8 plan: chimichurri, tuna base"
+      "note_2026_11_15": "Not mentioned in the Nov 15 walkthrough. Confirm before planning around it."
     },
     {
-      "id": "fr-chives",
-      "name": "Chives",
-      "qty": "1 pack",
+      "id": "fr-cheddar",
+      "name": "Cheddar",
+      "qty": "1 large block",
       "source": "voice pantry log 2026-11-05",
-      "status": "on_hand",
-      "use_window": "early",
-      "reserved_for": "Nov 8 plan: breakfast burritos"
-    },
-    {
-      "id": "fr-scallions",
-      "name": "Green onions",
-      "qty": "1 bunch (questionable)",
-      "source": "voice pantry log 2026-11-05",
-      "status": "on_hand",
-      "use_window": "early",
-      "note": "Check before Sunday; regrow in a glass of water if roots are good."
-    },
-    {
-      "id": "fr-arugula",
-      "name": "Baby arugula",
-      "qty": "1 full container",
-      "source": "voice pantry log 2026-11-05",
-      "status": "on_hand",
-      "use_window": "early",
-      "note": "Use by about Tue/Wed.",
-      "reserved_for": "Nov 8 plan: steak night + tuna lunches"
+      "status": "unconfirmed",
+      "note_2026_11_15": "Not mentioned in the Nov 15 walkthrough. Confirm before planning around it."
     },
     {
       "id": "fr-miso",
       "name": "White miso",
       "qty": "partial tub",
       "source": "voice pantry log 2026-11-05",
-      "status": "on_hand",
+      "status": "unconfirmed",
       "keeps": "months",
-      "reserved_for": "Nov 8 plan: Wed salmon"
+      "note_2026_11_15": "Not mentioned in the Nov 15 walkthrough. Confirm before planning around it."
     },
     {
       "id": "fr-gnocchi",
       "name": "Potato gnocchi",
       "qty": "1 package",
       "source": "voice pantry log 2026-11-05",
-      "status": "on_hand",
+      "status": "unconfirmed",
       "good_for": [
         "sheet-pan gnocchi",
         "gnocchi soup"
-      ]
+      ],
+      "note_2026_11_15": "Not mentioned in the Nov 15 walkthrough. Confirm before planning around it."
     },
     {
       "id": "fr-tahini",
       "name": "Tahini",
       "qty": "jar",
       "source": "voice pantry log 2026-11-05",
-      "status": "on_hand"
+      "status": "unconfirmed",
+      "note_2026_11_15": "Not mentioned in the Nov 15 walkthrough. Confirm before planning around it."
     }
   ],
   "pantry_extras": [
     {
       "id": "pa-tuna",
       "name": "Wild tuna, canned",
-      "qty": "5 cans",
+      "qty": "~6 cans (all rolled over from last week; verify count)",
       "source": "voice pantry log 2026-11-05",
       "status": "on_hand",
       "good_for": [
@@ -415,114 +639,151 @@
         "Mediterranean tuna white bean salad",
         "poke-style rice bowl"
       ],
-      "reserved_for": "Nov 8 plan: 5 cans → tuna lunches Sun–Wed (+1 bought)"
+      "source_verified": "voice inventory 2026-11-15"
     },
     {
-      "id": "pa-artichoke",
-      "name": "Artichoke hearts",
-      "qty": "1 jar/can",
-      "source": "voice pantry log 2026-11-05",
+      "id": "pa-coconut-milk",
+      "name": "Coconut milk, organic unsweetened",
+      "qty": "2 cans",
+      "source": "voice inventory 2026-11-15",
+      "status": "on_hand"
+    },
+    {
+      "id": "pa-chicken-stock",
+      "name": "Chicken stock",
+      "qty": "2 x 32 oz",
+      "source": "voice inventory 2026-11-15",
+      "status": "on_hand"
+    },
+    {
+      "id": "pa-turkey-broth",
+      "name": "Turkey broth",
+      "qty": "1 carton",
+      "source": "voice inventory 2026-11-15",
       "status": "on_hand",
-      "reserved_for": "Nov 8 plan: tuna base"
+      "location": "basement"
     },
     {
-      "id": "pa-almonds",
-      "name": "Almonds",
-      "qty": "some",
-      "source": "voice pantry log 2026-11-05",
-      "status": "on_hand"
-    },
-    {
-      "id": "pa-cashews",
-      "name": "Whole cashews",
-      "qty": "some",
-      "source": "voice pantry log 2026-11-05",
+      "id": "pa-campbells-chx-rice",
+      "name": "Campbell's chicken with rice soup",
+      "qty": "1+ can",
+      "source": "voice inventory 2026-11-15",
       "status": "on_hand",
-      "good_for": [
-        "cashew chicken",
-        "crunch topping"
-      ],
-      "reserved_for": "Nov 8 plan: satay crunch"
+      "location": "basement"
     },
     {
-      "id": "pa-oats",
-      "name": "Old-fashioned rolled oats",
-      "qty": "some",
-      "source": "voice pantry log 2026-11-05",
-      "status": "on_hand"
-    },
-    {
-      "id": "pa-kodiak-oats",
-      "name": "Kodiak protein oats",
-      "qty": "some",
-      "source": "voice pantry log 2026-11-05",
+      "id": "pa-garbanzo",
+      "name": "Garbanzo beans (chickpeas)",
+      "qty": "1+ can",
+      "source": "voice inventory 2026-11-15",
       "status": "on_hand",
-      "good_for": [
-        "Cameron high-protein breakfast"
-      ]
+      "location": "basement"
     },
     {
-      "id": "pa-granola",
-      "name": "Honey granola",
-      "qty": "lots",
-      "source": "voice pantry log 2026-11-05",
-      "status": "on_hand"
+      "id": "pa-pasta-bags",
+      "name": "Pasta (assorted)",
+      "qty": "2 bags",
+      "source": "voice inventory 2026-11-15",
+      "status": "on_hand",
+      "location": "basement"
     },
     {
-      "id": "pa-corn-tortillas",
-      "name": "Corn tortillas",
-      "qty": "1 pack",
-      "source": "voice pantry log 2026-11-05",
-      "status": "on_hand"
+      "id": "pa-top-ramen",
+      "name": "Top Ramen, chicken",
+      "qty": "some",
+      "source": "voice inventory 2026-11-15",
+      "status": "on_hand",
+      "location": "basement"
     },
     {
-      "id": "pa-rice-ramen",
-      "name": "Rice ramen noodles",
-      "qty": "1 serving",
-      "source": "voice pantry log 2026-11-05",
-      "status": "on_hand"
+      "id": "pa-white-rice",
+      "name": "White rice",
+      "qty": "plenty",
+      "source": "voice inventory 2026-11-15",
+      "status": "on_hand",
+      "location": "basement + kitchen"
     },
     {
-      "id": "pa-soba",
-      "name": "Organic soba noodles",
-      "qty": "1 serving",
-      "source": "voice pantry log 2026-11-05",
-      "status": "on_hand"
+      "id": "pa-red-wine-vinegar",
+      "name": "Red wine vinegar",
+      "qty": "1 full bottle",
+      "source": "voice inventory 2026-11-15",
+      "status": "on_hand",
+      "location": "basement"
     },
     {
-      "id": "pa-quinoa",
-      "name": "White quinoa",
-      "qty": "2–3 servings",
-      "source": "voice pantry log 2026-11-05",
-      "status": "on_hand"
+      "id": "pa-sourdough",
+      "name": "Sourdough bread",
+      "qty": "½ loaf",
+      "source": "voice inventory 2026-11-15",
+      "status": "on_hand",
+      "use_window": "early",
+      "note": "Freeze slices if it won't be finished by Wed."
     },
     {
       "id": "pa-protein-pasta",
       "name": "Banza fusilli (chickpea protein pasta)",
       "qty": "1 box",
       "source": "voice pantry log 2026-11-05",
-      "status": "on_hand"
+      "status": "on_hand",
+      "source_verified": "voice inventory 2026-11-15"
     },
     {
-      "id": "pa-acini",
-      "name": "De Cecco acini di pepe",
-      "qty": "1 box (verify)",
+      "id": "pa-quinoa",
+      "name": "White quinoa",
+      "qty": "2–3 servings",
       "source": "voice pantry log 2026-11-05",
-      "status": "on_hand"
+      "status": "on_hand",
+      "source_verified": "voice inventory 2026-11-15"
     },
     {
-      "id": "pa-ditalini",
-      "name": "Ditalini",
-      "qty": "1 box",
+      "id": "pa-black-beans",
+      "name": "Black beans",
+      "qty": "1 can",
       "source": "voice pantry log 2026-11-05",
-      "status": "on_hand"
+      "status": "on_hand",
+      "source_verified": "voice inventory 2026-11-15"
+    },
+    {
+      "id": "pa-sweet-peas-can",
+      "name": "Sweet peas, canned",
+      "qty": "1 can",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand",
+      "source_verified": "voice inventory 2026-11-15"
+    },
+    {
+      "id": "pa-cannellini",
+      "name": "Cannellini beans",
+      "qty": "1 can",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand",
+      "source_verified": "voice inventory 2026-11-15"
     },
     {
       "id": "pa-sushi-rice",
       "name": "Sushi rice",
       "qty": "some",
       "source": "voice pantry log 2026-11-05",
-      "status": "on_hand"
+      "status": "on_hand",
+      "source_verified": "voice inventory 2026-11-15"
+    },
+    {
+      "id": "pa-hot-pasta-sauce",
+      "name": "Hot Italian homemade marinara",
+      "qty": "1 large jar",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand",
+      "note": "Austin wants to use this this week.",
+      "source_verified": "voice inventory 2026-11-15"
+    },
+    {
+      "id": "pa-ditalini",
+      "name": "Ditalini",
+      "qty": "½ bag",
+      "source": "voice pantry log 2026-11-05",
+      "status": "on_hand",
+      "source_verified": "voice inventory 2026-11-15"
     },
     {
       "id": "pa-arborio",
@@ -533,43 +794,103 @@
       "good_for": [
         "risotto (miso-mushroom, lemon pea)",
         "arancini"
-      ]
+      ],
+      "source_verified": "voice inventory 2026-11-15"
     },
     {
-      "id": "pa-hot-pasta-sauce",
-      "name": "Spicy Italian pasta sauce (homemade-style jar)",
-      "qty": "1 large jar",
+      "id": "pa-artichoke",
+      "name": "Artichoke hearts",
+      "qty": "1 jar/can",
       "source": "voice pantry log 2026-11-05",
-      "status": "on_hand"
+      "status": "unconfirmed",
+      "note_2026_11_15": "Not mentioned in the Nov 15 walkthrough. Confirm before planning around it."
     },
     {
-      "id": "pa-sweet-peas-can",
-      "name": "Sweet peas, canned",
-      "qty": "1 can",
+      "id": "pa-almonds",
+      "name": "Almonds",
+      "qty": "some",
       "source": "voice pantry log 2026-11-05",
-      "status": "on_hand"
+      "status": "unconfirmed",
+      "note_2026_11_15": "Not mentioned in the Nov 15 walkthrough. Confirm before planning around it."
     },
     {
-      "id": "pa-black-beans",
-      "name": "Black beans",
-      "qty": "1 can",
+      "id": "pa-cashews",
+      "name": "Whole cashews",
+      "qty": "some",
       "source": "voice pantry log 2026-11-05",
-      "status": "on_hand"
+      "status": "unconfirmed",
+      "good_for": [
+        "cashew chicken",
+        "crunch topping"
+      ],
+      "note_2026_11_15": "Not mentioned in the Nov 15 walkthrough. Confirm before planning around it."
     },
     {
-      "id": "pa-cannellini",
-      "name": "Cannellini beans",
-      "qty": "2 cans",
+      "id": "pa-oats",
+      "name": "Old-fashioned rolled oats",
+      "qty": "some",
       "source": "voice pantry log 2026-11-05",
-      "status": "on_hand",
-      "reserved_for": "Nov 8 plan: tuna base + Tue salmon (both cans)"
+      "status": "unconfirmed",
+      "note_2026_11_15": "Not mentioned in the Nov 15 walkthrough. Confirm before planning around it."
+    },
+    {
+      "id": "pa-kodiak-oats",
+      "name": "Kodiak protein oats",
+      "qty": "some",
+      "source": "voice pantry log 2026-11-05",
+      "status": "unconfirmed",
+      "good_for": [
+        "Cameron high-protein breakfast"
+      ],
+      "note_2026_11_15": "Not mentioned in the Nov 15 walkthrough. Confirm before planning around it."
+    },
+    {
+      "id": "pa-granola",
+      "name": "Honey granola",
+      "qty": "lots",
+      "source": "voice pantry log 2026-11-05",
+      "status": "unconfirmed",
+      "note_2026_11_15": "Not mentioned in the Nov 15 walkthrough. Confirm before planning around it."
+    },
+    {
+      "id": "pa-corn-tortillas",
+      "name": "Corn tortillas",
+      "qty": "1 pack",
+      "source": "voice pantry log 2026-11-05",
+      "status": "unconfirmed",
+      "note_2026_11_15": "Not mentioned in the Nov 15 walkthrough. Confirm before planning around it."
+    },
+    {
+      "id": "pa-rice-ramen",
+      "name": "Rice ramen noodles",
+      "qty": "1 serving",
+      "source": "voice pantry log 2026-11-05",
+      "status": "unconfirmed",
+      "note_2026_11_15": "Not mentioned in the Nov 15 walkthrough. Confirm before planning around it."
+    },
+    {
+      "id": "pa-soba",
+      "name": "Organic soba noodles",
+      "qty": "1 serving",
+      "source": "voice pantry log 2026-11-05",
+      "status": "unconfirmed",
+      "note_2026_11_15": "Not mentioned in the Nov 15 walkthrough. Confirm before planning around it."
+    },
+    {
+      "id": "pa-acini",
+      "name": "De Cecco acini di pepe",
+      "qty": "1 box (verify)",
+      "source": "voice pantry log 2026-11-05",
+      "status": "unconfirmed",
+      "note_2026_11_15": "Not mentioned in the Nov 15 walkthrough. Confirm before planning around it."
     },
     {
       "id": "pa-baked-beans",
       "name": "Baked beans",
       "qty": "1 can",
       "source": "voice pantry log 2026-11-05",
-      "status": "on_hand"
+      "status": "unconfirmed",
+      "note_2026_11_15": "Not mentioned in the Nov 15 walkthrough. Confirm before planning around it."
     }
   ]
 }
