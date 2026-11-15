@@ -29349,6 +29349,10 @@
           "qty": "2 oz"
         },
         {
+          "name": "Yellow onion, grated and squeezed (on hand)",
+          "qty": "\u00bd"
+        },
+        {
           "name": "Scallions, minced",
           "qty": "4"
         },
@@ -29475,6 +29479,10 @@
       "freezes": "Yes, 3 months. Thaw overnight in the fridge.",
       "ingredients": [
         {
+          "name": "Yellow onion, diced (on hand)",
+          "qty": "1"
+        },
+        {
           "name": "Italian sausage, casings off (thawed)",
           "qty": "2 links (~8 oz)"
         },
@@ -29504,7 +29512,7 @@
         }
       ],
       "instructions": [
-        "Brown sausage and beef in a Dutch oven over medium-high, breaking up, 8 min.",
+        "Sweat the onion in a little oil 5 min, then add sausage and beef and brown, breaking up, 8 min.",
         "Add garlic 1 min, then marinara and stock.",
         "Simmer low, lid ajar, 40 min (passive). Taste for salt.",
         "Cool. Fridge 2 dinner portions for Wed; freeze the rest flat in quart bags."
@@ -29561,8 +29569,16 @@
           "qty": "Austin 1 cup \u00b7 Cameron \u00bd cup"
         },
         {
+          "name": "Roasted sweet potato cubes (component)",
+          "qty": "Austin \u00bd cup \u00b7 Cameron \u2153 cup"
+        },
+        {
           "name": "Cucumber, diced",
           "qty": "1"
+        },
+        {
+          "name": "Red onion, thin-sliced (on hand)",
+          "qty": "\u00bc"
         },
         {
           "name": "Tomatoes, diced",
@@ -29594,7 +29610,8 @@
       "batch_note": "Kofta, tzatziki, quinoa and chickpeas all come from Sunday prep.",
       "components": [
         "lamb-beef-kofta-component",
-        "tzatziki-component"
+        "tzatziki-component",
+        "roasted-sweet-potatoes-component"
       ],
       "history": {
         "first_used": "2026-11-15",
@@ -29650,7 +29667,7 @@
           "qty": "Austin 3 oz \u00b7 Cameron 2 oz dry"
         },
         {
-          "name": "Parmesan, grated",
+          "name": "Gruy\u00e8re or feta, grated/crumbled (on hand)",
           "qty": "Austin 2 tbsp \u00b7 Cameron 1 tbsp"
         },
         {
@@ -29666,7 +29683,7 @@
         "Boil Banza 1 min less than the box says.",
         "Warm rag\u00f9; stir in kale until wilted.",
         "Toss pasta in the rag\u00f9 with a splash of pasta water.",
-        "Cameron's portion: stir in 2 tbsp heavy cream (ros\u00e9-style) to mellow the heat. Parmesan on top."
+        "Cameron's portion: stir in 2 tbsp heavy cream (ros\u00e9-style) to mellow the heat. Gruy\u00e8re on top."
       ],
       "cameron_note": "Cream stirred into her portion turns it into a mild ros\u00e9. Workout night for Austin: +1 oz pasta and a slice of garlic sourdough (+350 cal).",
       "batch_note": "Rag\u00f9 made Sunday; only the pasta is cooked Wednesday.",
@@ -29727,6 +29744,10 @@
           "qty": "\u00bd cup"
         },
         {
+          "name": "Roasted sweet potato cubes (component)",
+          "qty": "\u00bd cup"
+        },
+        {
           "name": "Kale, shredded (massaged with lemon)",
           "qty": "1 cup"
         },
@@ -29755,7 +29776,8 @@
       "batch_note": "Packed Sunday for Austin Mon\u2013Wed.",
       "components": [
         "seared-sliced-flat-iron",
-        "lemon-tahini-dressing"
+        "lemon-tahini-dressing",
+        "roasted-sweet-potatoes-component"
       ],
       "history": {
         "first_used": "2026-11-15",
@@ -29894,7 +29916,7 @@
           "qty": "2 (~10 oz each)"
         },
         {
-          "name": "Yukon gold potatoes",
+          "name": "Potatoes (on hand)",
           "qty": "1 lb"
         },
         {
@@ -29918,8 +29940,12 @@
           "qty": "2 tbsp"
         },
         {
-          "name": "Salt, pepper, rosemary",
+          "name": "Salt, pepper, dried thyme",
           "qty": ""
+        },
+        {
+          "name": "Pickled red onion (component)",
+          "qty": "2 tbsp"
         }
       ],
       "instructions": [
@@ -29931,6 +29957,350 @@
       "cameron_note": "About 6 oz steak, \u00bd cup potatoes, big slaw. Leftover steak \u2192 Austin's Sunday eggs.",
       "batch_note": "Pull the NY strips Thursday night.",
       "components": [],
+      "history": {
+        "first_used": "2026-11-15",
+        "last_used": "2026-11-15",
+        "times_made": 0,
+        "ratings": []
+      }
+    },
+    {
+      "id": "roasted-sweet-potatoes-component",
+      "name": "Roasted Sweet Potato Cubes (batch)",
+      "cuisine": "American",
+      "meal_type": "component",
+      "added_date": "2026-11-15",
+      "source_account": "Above Kitch (Claude)",
+      "prep": "8 min + 35 min roast",
+      "total": "8 min + 35 min roast",
+      "spice_level": "None",
+      "tags": [
+        "component",
+        "batch-friendly",
+        "fall-2026"
+      ],
+      "macro_strings": {
+        "austin": null,
+        "cameron": null
+      },
+      "macros": {
+        "austin": null,
+        "cameron": null
+      },
+      "storage_note": "Quart deli containers, paper towel on top, fridge. Reheat in the air fryer 400\u00b0F 4 min.",
+      "keeps": "5 days",
+      "freezes": "Yes, 2 months: freeze on a tray, then bag.",
+      "ingredients": [
+        {
+          "name": "Sweet potatoes, \u00be-inch cubes, skin on",
+          "qty": "all on hand (~2\u20133 lb)"
+        },
+        {
+          "name": "Olive oil",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Kosher salt",
+          "qty": "1\u00bd tsp"
+        },
+        {
+          "name": "Smoked paprika",
+          "qty": "1 tsp"
+        },
+        {
+          "name": "Garlic powder",
+          "qty": "\u00bd tsp"
+        }
+      ],
+      "instructions": [
+        "Oven 425\u00b0F. Toss everything on a sheet pan in one layer (two pans if crowded).",
+        "Roast 30\u201335 min, flipping once, until browned at the edges.",
+        "Cool on the pan before containers so they don't steam soft."
+      ]
+    },
+    {
+      "id": "coconut-lime-stir-fry-sauce",
+      "name": "Coconut-Lime Stir-Fry Sauce (no peanut, no chili)",
+      "cuisine": "Thai",
+      "meal_type": "component",
+      "added_date": "2026-11-15",
+      "source_account": "Above Kitch (Claude)",
+      "prep": "4 min",
+      "total": "4 min",
+      "spice_level": "None",
+      "tags": [
+        "component",
+        "batch-friendly",
+        "fall-2026"
+      ],
+      "macro_strings": {
+        "austin": null,
+        "cameron": null
+      },
+      "macros": {
+        "austin": null,
+        "cameron": null
+      },
+      "storage_note": "Jar, fridge.",
+      "keeps": "5 days",
+      "freezes": "Yes, 2 months.",
+      "ingredients": [
+        {
+          "name": "Coconut milk (from the can opened for the rice)",
+          "qty": "\u00bd cup"
+        },
+        {
+          "name": "Soy sauce",
+          "qty": "2 tbsp"
+        },
+        {
+          "name": "Fish sauce",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Brown sugar",
+          "qty": "1 tbsp"
+        },
+        {
+          "name": "Lime, zest + juice",
+          "qty": "1"
+        },
+        {
+          "name": "Garlic, grated",
+          "qty": "2 cloves"
+        },
+        {
+          "name": "Cornstarch or flour",
+          "qty": "1 tsp"
+        }
+      ],
+      "instructions": [
+        "Whisk everything in a jar.",
+        "Pour over the seared beef and veg for the last minute; it thickens fast."
+      ]
+    },
+    {
+      "id": "coconut-lime-beef-peppers-coconut-rice",
+      "name": "Coconut-Lime Beef & Peppers with Coconut Rice",
+      "cuisine": "Thai",
+      "meal_type": "dinner",
+      "added_date": "2026-11-15",
+      "source_account": "Above Kitch (Claude)",
+      "prep": "8 min",
+      "cook": "15 min",
+      "spice_level": "None (Austin adds heat)",
+      "tags": [
+        "claude-built",
+        "fall-2026",
+        "high-protein",
+        "portioned-2026-11-05-targets",
+        "on-hand-only",
+        "thai",
+        "quick",
+        "no-spice"
+      ],
+      "macro_strings": {
+        "austin": "910 cal | 72g P | 38g F | 84g C",
+        "cameron": "615 cal | 50g P | 24g F | 54g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 910,
+          "p": 72,
+          "f": 38,
+          "c": 84
+        },
+        "cameron": {
+          "cal": 615,
+          "p": 50,
+          "f": 24,
+          "c": 54
+        }
+      },
+      "ingredients": [
+        {
+          "name": "ButcherBox beef strips, thawed",
+          "qty": "1 lb (Austin 9\u00bd oz \u00b7 Cameron 6\u00bd oz)"
+        },
+        {
+          "name": "Frozen three-pepper blend (on hand)",
+          "qty": "2 cups"
+        },
+        {
+          "name": "Yellow onion, sliced",
+          "qty": "1"
+        },
+        {
+          "name": "Coconut-lime stir-fry sauce (component)",
+          "qty": "1 batch"
+        },
+        {
+          "name": "Coconut rice (component)",
+          "qty": "Austin 1 cup \u00b7 Cameron \u2154 cup"
+        },
+        {
+          "name": "Fried egg",
+          "qty": "1 each"
+        },
+        {
+          "name": "Scallions",
+          "qty": "2"
+        },
+        {
+          "name": "Calabrian chili on Austin's side",
+          "qty": ""
+        }
+      ],
+      "instructions": [
+        "Rice cooker: coconut rice (1 cup rice + 1 cup coconut milk + 1 cup water).",
+        "Cast iron very hot: onion + peppers 4 min, out. Sear beef in 2 batches, 1\u20132 min.",
+        "Everything back in, add sauce, toss 1 min.",
+        "Fry eggs. Plate with rice, scallions, lime."
+      ],
+      "cameron_note": "Mild and sweet-savory; plated, not a bowl. No chili on hers.",
+      "components": [
+        "coconut-lime-stir-fry-sauce",
+        "coconut-rice-rd135"
+      ],
+      "history": {
+        "first_used": "2026-11-15",
+        "last_used": "2026-11-15",
+        "times_made": 0,
+        "ratings": []
+      }
+    },
+    {
+      "id": "spicy-ragu-gnocchi-lunch",
+      "name": "Spicy Rag\u00f9 Gnocchi (lunch)",
+      "cuisine": "Italian",
+      "meal_type": "lunch",
+      "added_date": "2026-11-15",
+      "source_account": "Above Kitch (Claude)",
+      "prep": "5 min",
+      "cook": "5 min",
+      "spice_level": "None (Austin adds heat)",
+      "tags": [
+        "claude-built",
+        "fall-2026",
+        "high-protein",
+        "portioned-2026-11-05-targets",
+        "on-hand-only",
+        "italian",
+        "leftovers"
+      ],
+      "macro_strings": {
+        "austin": "450 cal | 36g P | 18g F | 40g C",
+        "cameron": "300 cal | 22g P | 12g F | 28g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 450,
+          "p": 36,
+          "f": 18,
+          "c": 40
+        },
+        "cameron": {
+          "cal": 300,
+          "p": 22,
+          "f": 12,
+          "c": 28
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Spicy sausage & beef rag\u00f9 (component)",
+          "qty": "\u00be cup"
+        },
+        {
+          "name": "Potato gnocchi (on hand)",
+          "qty": "\u00bd package"
+        },
+        {
+          "name": "Gruy\u00e8re, grated",
+          "qty": "1 tbsp"
+        }
+      ],
+      "instructions": [
+        "Pan-fry gnocchi in a little oil 5 min until crisp (or boil 2 min).",
+        "Add rag\u00f9 and a splash of water; warm through. Gruy\u00e8re on top."
+      ],
+      "cameron_note": "Not for Cameron (spicy).",
+      "components": [
+        "spicy-sausage-beef-ragu"
+      ],
+      "history": {
+        "first_used": "2026-11-15",
+        "last_used": "2026-11-15",
+        "times_made": 0,
+        "ratings": []
+      }
+    },
+    {
+      "id": "kofta-sweet-potato-tzatziki-plate",
+      "name": "Kofta, Sweet Potato & Tzatziki Plate (lunch)",
+      "cuisine": "Greek",
+      "meal_type": "lunch",
+      "added_date": "2026-11-15",
+      "source_account": "Above Kitch (Claude)",
+      "prep": "5 min",
+      "cook": "5 min",
+      "spice_level": "None (Austin adds heat)",
+      "tags": [
+        "claude-built",
+        "fall-2026",
+        "high-protein",
+        "portioned-2026-11-05-targets",
+        "on-hand-only",
+        "greek",
+        "leftovers",
+        "no-spice"
+      ],
+      "macro_strings": {
+        "austin": "450 cal | 38g P | 20g F | 30g C",
+        "cameron": "300 cal | 25g P | 13g F | 20g C"
+      },
+      "macros": {
+        "austin": {
+          "cal": 450,
+          "p": 38,
+          "f": 20,
+          "c": 30
+        },
+        "cameron": {
+          "cal": 300,
+          "p": 25,
+          "f": 13,
+          "c": 20
+        }
+      },
+      "ingredients": [
+        {
+          "name": "Lamb & beef kofta (component)",
+          "qty": "4 oz cooked (2 kofta)"
+        },
+        {
+          "name": "Roasted sweet potato cubes (component)",
+          "qty": "\u00be cup"
+        },
+        {
+          "name": "Tzatziki (component)",
+          "qty": "\u00bc cup"
+        },
+        {
+          "name": "Pickled red onion",
+          "qty": "2 tbsp"
+        }
+      ],
+      "instructions": [
+        "Air fry kofta + sweet potato 380\u00b0F 6 min (from fridge) or 10 min (from frozen).",
+        "Plate with tzatziki and pickled onion."
+      ],
+      "cameron_note": "Works for Cameron too: 1 kofta, \u00bd cup sweet potato.",
+      "components": [
+        "lamb-beef-kofta-component",
+        "roasted-sweet-potatoes-component",
+        "tzatziki-component"
+      ],
       "history": {
         "first_used": "2026-11-15",
         "last_used": "2026-11-15",

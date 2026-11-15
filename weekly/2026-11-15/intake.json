@@ -33,8 +33,15 @@
       "gnocchi",
       "cheddar"
     ],
-    "yonki": "not answered"
+    "yonki": "not answered",
+    "added_later": [
+      "yellow onions",
+      "potatoes (plenty)",
+      "sweet potatoes (must cook today)",
+      "red onion"
+    ]
   },
   "cameron_answers": "None.",
-  "generated_by": "claude (chat session, Nov 15)"
+  "generated_by": "claude (chat session, Nov 15)",
+  "shopping": "No store trip planned this week: keep any list tiny and cheap; Sunday prep must be 100% on hand."
 }

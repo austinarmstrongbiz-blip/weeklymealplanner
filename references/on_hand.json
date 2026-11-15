@@ -192,7 +192,7 @@
       ],
       "notes": "Pre-cut, so it's the fastest weeknight protein. Marinate straight from thawed.",
       "source_verified": "voice inventory 2026-11-15",
-      "reserved_for": "Nov 15 plan: satay beef (Fri); pull Thu morning"
+      "reserved_for": "Nov 15 plan: coconut-lime beef (Fri); pull Thu morning"
     },
     {
       "id": "bb-chicken-wings",
@@ -284,7 +284,8 @@
         "fajita-style"
       ],
       "note": "Can replace fresh bell peppers in cooked dishes, so skip buying peppers for those.",
-      "source_verified": "voice inventory 2026-11-15"
+      "source_verified": "voice inventory 2026-11-15",
+      "reserved_for": "Nov 15 plan: 2 cups → Fri coconut-lime beef"
     },
     {
       "id": "frz-sockeye",
@@ -461,7 +462,7 @@
       "qty": "1 piece (left from the Nov 8 Gruyère chicken plan)",
       "source": "voice inventory 2026-11-15",
       "status": "on_hand",
-      "reserved_for": "Nov 15 plan: Gruyère chicken (Tue)"
+      "reserved_for": "Nov 15 plan: Gruyère chicken (Tue) + ragù/gnocchi topping"
     },
     {
       "id": "fr-tomatoes",
@@ -635,7 +636,8 @@
       "good_for": [
         "sheet-pan gnocchi",
         "gnocchi soup"
-      ]
+      ],
+      "reserved_for": "Nov 15 plan: Austin lunches Thu + Sat (ragù gnocchi)"
     },
     {
       "id": "fr-tahini",
@@ -648,6 +650,43 @@
   ],
   "pantry_extras": [
     {
+      "id": "pa-red-onion",
+      "name": "Red onion",
+      "qty": "1+",
+      "source": "voice inventory 2026-11-15 (added)",
+      "status": "on_hand",
+      "reserved_for": "Nov 15 plan: quick pickle + Sun salad",
+      "use_window": "late"
+    },
+    {
+      "id": "pa-yellow-onions",
+      "name": "Yellow onions",
+      "qty": "several",
+      "source": "voice inventory 2026-11-15 (added)",
+      "status": "on_hand",
+      "reserved_for": "Nov 15 plan: kofta, ragù, Fri stir-fry",
+      "use_window": "late"
+    },
+    {
+      "id": "pa-potatoes",
+      "name": "Potatoes",
+      "qty": "plenty",
+      "source": "voice inventory 2026-11-15 (added)",
+      "status": "on_hand",
+      "reserved_for": "Nov 15 plan: ~1½ lb roasted Sun (Tue Gruyère chicken) + 1 lb Sat smashed",
+      "use_window": "late"
+    },
+    {
+      "id": "pa-sweet-potatoes",
+      "name": "Sweet potatoes",
+      "qty": "several (cook today)",
+      "source": "voice inventory 2026-11-15 (added)",
+      "status": "on_hand",
+      "reserved_for": "Nov 15 plan: all roasted Sunday → Sun dinner, lunches, Mon, Fri lunch",
+      "use_window": "early",
+      "note": "Austin: these need cooking today."
+    },
+    {
       "id": "pa-tuna",
       "name": "Wild tuna, canned",
       "qty": "~6 cans (all rolled over from last week; verify count)",
@@ -659,7 +698,7 @@
         "poke-style rice bowl"
       ],
       "source_verified": "voice inventory 2026-11-15",
-      "reserved_for": "Nov 15 plan: tuna lunch kits (+6 bought)"
+      "reserved_for": "Nov 15 plan: all ~6 cans → Cameron's lunches Mon–Sat"
     },
     {
       "id": "pa-coconut-milk",
@@ -667,7 +706,7 @@
       "qty": "2 cans",
       "source": "voice inventory 2026-11-15",
       "status": "on_hand",
-      "reserved_for": "Nov 15 plan: coconut rice + satay glaze (Fri)"
+      "reserved_for": "Nov 15 plan: coconut rice + coconut-lime sauce (Fri)"
     },
     {
       "id": "pa-chicken-stock",

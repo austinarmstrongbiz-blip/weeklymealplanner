@@ -2,101 +2,42 @@
   "week_date": "2026-11-15",
   "week_start": "November 15",
   "week_end": "November 21, 2026",
-  "note": "Week 2 of the Nov 8 cycle: mid-cycle top-up only. Nothing here is needed for Sunday's prep. Grab it Monday.",
+  "note": "No store run planned. Everything in the plan is on hand; the list below is optional (~$5). Sunday prep needs nothing.",
   "skipped_on_hand": [
     "Ground lamb, chicken breasts, flat iron, salmon, Italian sausage (thawed)",
     "Ground beef 2 lb, beef strips, NY strips ×2 (ButcherBox freezer)",
-    "Hot Italian marinara (jar)",
-    "Banza fusilli",
-    "Quinoa, jasmine/white rice",
-    "Coconut milk ×2",
-    "Garbanzo beans",
-    "Cannellini (1 can)",
-    "Tuna (~6 cans)",
+    "Potatoes, sweet potatoes, yellow onions, red onion (no Yukon/onion buy)",
+    "Frozen three-pepper blend (replaces broccoli Fri)",
+    "Gruyère (replaces Parmesan)",
+    "Coconut milk ×2 (replaces peanut butter + curry paste: Fri sauce is coconut-lime)",
+    "Hot Italian marinara",
+    "Banza fusilli, gnocchi",
+    "Quinoa, jasmine rice",
+    "Garbanzo beans, cannellini, chickpeas",
+    "Tuna (~6 cans, all to Cameron's lunches)",
     "Greek yogurt, cottage cheese, heavy cream, eggs, egg whites",
-    "Feta, Gruyère, cheddar",
-    "Miso, tahini",
+    "Feta, cheddar",
+    "Miso, tahini, red wine vinegar",
     "Kale, cucumbers ×3, tomatoes, scallions, chives, garlic, lemons, limes, green apples, arugula, avocados",
     "Sourdough (½ loaf)",
     "Chicken stock",
-    "Breakfast burritos ×6 (freezer bank)",
+    "Breakfast burritos ×6",
     "Calabrian chili"
   ],
   "categories": {
-    "Produce": [
-      {
-        "name": "Yukon gold potatoes",
-        "qty": "2 lb",
-        "for": "Rosemary potatoes (Tue) + smashed potatoes (Sat)",
-        "use_window": "late",
-        "buy": "midcycle"
-      },
-      {
-        "name": "Broccoli",
-        "qty": "1 head",
-        "for": "Satay beef (Fri)",
-        "use_window": "mid",
-        "buy": "midcycle"
-      },
-      {
-        "name": "Fresh rosemary",
-        "qty": "1 pack",
-        "for": "Rosemary potatoes (Tue) + NY strip (Sat)",
-        "use_window": "mid",
-        "buy": "midcycle"
-      },
-      {
-        "name": "Celery",
-        "qty": "1 small bunch",
-        "for": "Tuna base crunch (Thu–Sat), replaces cucumber",
-        "use_window": "late",
-        "buy": "midcycle"
-      }
-    ],
+    "Produce": [],
     "Proteins": [],
-    "Dairy & Eggs": [
-      {
-        "name": "Parmesan wedge",
-        "qty": "1 small",
-        "for": "Gruyère chicken (Tue) + ragù (Wed)",
-        "buy": "midcycle"
-      }
-    ],
+    "Dairy & Eggs": [],
     "Grains & Dry Goods": [
       {
         "name": "Whole-grain crackers (Triscuit)",
         "qty": "1 box",
-        "for": "Tuna lunch kits",
-        "buy": "midcycle"
+        "for": "OPTIONAL: Cameron's tuna kits (plan uses quinoa/sweet potato instead)",
+        "buy": "midcycle",
+        "optional": true
       }
     ],
-    "Canned & Jarred": [
-      {
-        "name": "Wild tuna, 5 oz cans",
-        "qty": "6",
-        "for": "Tuna lunches Thu–Sat (you have ~6; need ~12)",
-        "buy": "midcycle"
-      },
-      {
-        "name": "Cannellini beans",
-        "qty": "1 can",
-        "for": "Second tuna base (Thu–Sat)",
-        "buy": "midcycle"
-      },
-      {
-        "name": "Peanut butter (salted, natural)",
-        "qty": "1 jar",
-        "for": "Satay glaze (Fri)",
-        "buy": "midcycle"
-      }
-    ],
-    "Pantry / Other": [
-      {
-        "name": "Thai red curry paste (small jar)",
-        "qty": "1",
-        "for": "Satay glaze: only 1 tsp; skip if the Mekhala jar from Oct is still in the fridge",
-        "buy": "midcycle"
-      }
-    ]
+    "Canned & Jarred": [],
+    "Pantry / Other": []
   }
 }
